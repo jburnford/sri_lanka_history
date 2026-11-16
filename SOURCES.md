@@ -18,3 +18,9 @@ open library may be published, including OCR text; material harvested from the H
 | Research assistant's person review | project staff | **Held back** (`spine/gold/`, `spine/grounding/people_review.jsonl`) until she agrees to be named or the files are anonymised |
 
 Before adding a new folder to `.gitignore`'s allow-list, add a row here saying where its contents came from.
+
+## Blue Book second reading
+
+`spine/sources/bluebook_ia_text/` holds the Internet Archive's own OCR text (search text and page index) for the
+Blue Book items listed in `spine/bluebook/volumes.tsv`, fetched by `spine/bluebook/fetch_ia_text.py`. Source:
+archive.org. It is used only to check the numbers in the parsed tables.

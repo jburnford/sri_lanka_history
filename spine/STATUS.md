@@ -1,4 +1,4 @@
-# Status, 16 November 2026 (afternoon, updated after the Blue Books arrived)
+# Status, 16 November 2026 (evening, all Blue Book volumes in)
 
 Written for a check-in after working alone. Detail is in `README.md` (how it works) and `UPSTREAM_ERRORS.md`
 (what is wrong upstream).
@@ -13,10 +13,10 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Articles (canonical copies) | 53,501 |
 | Printed names, all types | 169,425 |
 | Article-to-name links | 845,450 |
-| Places with a QID | 1,645 |
+| Places with a QID | 2,407 |
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
 | Wikidata concepts (taxa, products, diseases, organisations) | 859 |
-| Blue Book tables and officials (person-years) | 7,354 and 14,491 |
+| Blue Book tables and officials (person-years) | 46,999 and 146,383 |
 | Person profiles | 38,579; 680 linked to Wikidata and/or a Colonial Office List person |
 | Colonial Office List officials and postings | 1,212 and 12,492 |
 | Empire Evolution territories | 739 |
@@ -25,12 +25,12 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 
 | Type | Matched | In review | Unmatched or skipped | Not attempted |
 |---|---:|---:|---:|---:|
-| Places (374,553 records) | 71.6% | 9.9% | 0.4% | 18.1% |
+| Places (374,553 records) | 73.4% | 13.3% | 0.5% | 12.7% |
 | Taxa (164,859 records) | 52.0% | 3.7% | 18.7% | 25.5% |
 | Commodities (134,358 records) | 66.8% | 1.5% | 16.7% | 15.0% |
 | Organisations (88,690 records) | 6.0% | 0.4% | 36.8% | 56.8% |
 
-"Not attempted" is the long tail: names in fewer than 15 articles (taxa matched by the Catalogue of Life go
+"Not attempted" is the long tail: place names in fewer than 5 articles, other names in fewer than 15 (taxa matched by the Catalogue of Life go
 down to 3). All Wikidata candidates have now been read back. A second search adds the journal's own description
 to the query ("mace spice", "Liberian coffee variety"), which found items filed under a modern name: sugar,
 mace, Liberian coffee, black tea. Still unmatched and frequent: cocoa, pepper (several senses), plumbago
@@ -48,21 +48,26 @@ Association" mean a different body in each article and are skipped on purpose (9
 specific to Ceylon mostly have no Wikidata item. The 56 matched names are well-known bodies (Kew, Peradeniya,
 Colonial Office, Indian Tea Association). Local identifiers for the Ceylon bodies are a decision for you.
 
-## Ceylon Blue Books (arrived this afternoon)
+## Ceylon Blue Books
 
-Thirteen volumes are in (`bluebook/README.md` has the detail):
+62 volumes are in, 1863 to 1938 (`bluebook/README.md` has the detail):
 
-- **7,354 printed tables** kept as printed, each with its page and headings (`bluebook/tables/`).
-- **32,644 links from table labels to names the spine had already resolved**: 3,493 tables name a known place,
-  commodity or taxon. Trade partners get the polity for the volume's year.
-- **People**: the 1869, 1889, 1902 and 1904 volumes list the whole Civil Establishment: 12,599 index entries
-  and 7,295 named posts with dates of appointment. 599 person-years match a Colonial Office List person
-  (95 with a matching appointment year). **97 people are now in all three sources** (Blue Book, Colonial
-  Office List, journal): Trimen appears in 1889 as Director at Peradeniya, Willis and Carruthers in 1902 and
-  1904. About 13,900 person-years (clerks, teachers, headmen) are in no other source.
+- **46,999 printed tables** kept as printed, each with its page and headings (`bluebook/tables/`).
+- **Confidence level on every table** (`bluebook/table_confidence.tsv.gz`): 3,774 have every checkable printed
+  total agreeing with its parts; 15,216 have at least 90% of their numbers confirmed by a second OCR reading
+  (the scan's Tesseract text); 5,976 are partly confirmed; 21,904 have nothing to confirm them; 129 are
+  flagged as invented. The OCR model writes plausible tables on blank pages (a 1905 blank verso became
+  "quarterly statements, Q1-Q4"). On printed pages its misread rate for numbers is about 2% in the 1925-1938
+  volumes, by comparison with the second reading.
+- **300,107 links from table labels to names the spine had already resolved**: 21,492 tables name a known
+  place, commodity or taxon. Trade partners get the polity for the volume's year.
+- **People**: 146,383 person-years of officials across all volumes. 5,121 match a Colonial Office List person
+  (1,083 with a matching appointment year) and 11,496 have a journal profile as a candidate. The extractor was
+  written on four volumes and has not been checked on the others.
 - **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
   figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
-  (imports and exports by article and country; 1924, 1925, 1926, 1928). I checked samples against the parsed
+  (imports and exports by article and country; 1924, 1925, 1926, 1928). These two jobs covered the first
+  thirteen volumes only and have not been rerun on the rest. I checked samples against the parsed
   tables and loaded them: 77,741 `Observation` nodes, 92% tied to a place name and 31% to a crop or article name.
   Printed totals agree with the sum of parts for 92% of acreage checks and 78–85% of trade articles; the rest
   are listed, not repaired. Example from the graph: coffee falls from 207,066 acres in 1868 to 1,389 in 1912

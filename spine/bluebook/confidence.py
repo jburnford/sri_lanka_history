@@ -7,11 +7,11 @@ Two independent tests.
    A check that agrees means every number in it was read correctly and the rows and columns are in the
    right place (barring errors that cancel). Shillings and pence columns are left out (they carry).
 
-2. Invented pages. The OCR model sometimes writes a plausible table for a page that is blank or a section
-   title page with show-through from the other side. Signals: no printed page number or running head was
-   read, the text has words no Blue Book uses, or the table repeats one number down a column.
-   The decisive test is page_ink.py: no dark pixels on the scan inside the table's outline.
-   (An empty text layer is not a sign of invention: it usually means the table is printed sideways.)
+2. Invented pages. The OCR model sometimes writes a plausible table for a page that is blank, or that carries
+   only a section title, with show-through from the other side. Two signs together mark it: the second reading
+   finds no text (or only a title and none of the table's numbers), and page_ink.py finds no dark pixels inside
+   the table's outline on the scan. In a sample of 8 such tables all 8 were invented. An empty second reading
+   alone is not a sign of invention: it usually means the table is printed sideways.
 
 3. Second reading (second_reading.py). The share of a table's numbers of three or more digits that the
    scan's text layer also gives for the same page. Used only for volumes that have a text layer.
@@ -33,7 +33,6 @@ BB = Path(__file__).parent
 NUM = re.compile(r"^\(?-?[\d,. ]*\d\)?$")
 EMPTY = re.compile(r"^(|[-—–.…· ]+|nil|none|do\.?|\"|,,|”|\*+)$", re.I)
 TOTAL = re.compile(r"^\W*(grand\s+)?totals?\b", re.I)
-BLANK = 0.0001   # share of dark pixels inside a table outline below which the scan shows no print there
 MODERN = re.compile(r"\b(Q[1-4]|revenue growth|net income|cost of goods|gross profit|stakeholders?|current liabilities|"
                     r"operating expenses|total liabilities and equity|cash flow|quarterly statements?|GDP|USD|website|email)\b")
 
@@ -178,14 +177,19 @@ def main():
             if MODERN.search(text): flags.append("modern_words")
             if repeats(t): flags.append("repeated_number")
             chars, nn, nin = second.get(t["id"], (None, 0, 0))
-            if chars is not None and chars < 40: flags.append("no_second_reading")   # often a table printed sideways
+            if chars is not None and chars < 40: flags.append("no_second_reading")   # blank page, or a table printed sideways
             share = nin / nn if nn >= 5 and has_layer.get(key) and chars >= 40 else None
             dk = ink.get(t["id"])
-            if dk is not None and dk < BLANK: flags.append("no_ink_in_outline")
+            if dk == 0: flags.append("no_ink_in_outline")
+            # invented content: the second reading finds a blank page, or only a title, and the scan agrees
+            blank_page = chars is not None and chars < 40 and dk == 0
+            title_page = chars is not None and chars < 150 and nn >= 10 and nin / nn < 0.1 and (dk == 0 or chars >= 40)
+            if blank_page: flags.append("blank_page")
+            elif title_page: flags.append("title_page_only")
+            suspect = blank_page or title_page or ("no_page_number" in flags and ("modern_words" in flags or "repeated_number" in flags) and not share)
             checks = check_table(t)
             n = len(checks); ok = sum(c[5] == "agree" for c in checks); one = sum(c[5] == "one_digit" for c in checks)
             cells = sum(c[2] + 1 for c in checks if c[5] == "agree")
-            suspect = "no_ink_in_outline" in flags or ("no_page_number" in flags and ("modern_words" in flags or "repeated_number" in flags) and not share)
             level = ("suspect" if suspect else "summed" if n and ok == n else "two_readings" if share is not None and share >= 0.9
                      else "partly" if (n and ok * 2 >= n) or (share is not None and share >= 0.7) else "unconfirmed")
             out.append((t["id"], t["year"], t["pdf_page"], t.get("printed_page") or "", level, n, ok, one, n - ok - one, cells, nn, nin, "" if share is None else f"{share:.2f}", ";".join(flags),
