@@ -1,0 +1,255 @@
+table_id	area_or_measure	printed_total	computed_sum	difference	status	part_count	missing_part_count	unreadable_part_count
+bb1869:p11:t2	area: Western	193176	193176	0	agree	6	0	0
+bb1869:p11:t2	area: North-Western	170820¾	170820.75	0	agree	6	0	0
+bb1869:p11:t2	area: Southern	165531½	165531.5	0	agree	6	0	0
+bb1869:p11:t2	area: Eastern	96909¼	96909.25	0	agree	6	1	0
+bb1869:p11:t2	area: Northern	83719	83779	-60	mismatch	6	2	0
+bb1869:p11:t2	area: Central	1084565¾	1084565.75	0	agree	6	0	0
+bb1869:p11:t2	area: (unlabelled colony total)	1794722¾	1794722.75	0	agree	6	0	0
+bb1869:p11:t2	measure: Paddy.	461287½	461347.5	-60	mismatch	6	0	0
+bb1869:p11:t2	measure: Other Grain.	93548¾	93548.25	0.5	mismatch	6	0	0
+bb1869:p11:t2	measure: Coffee.	207066	207066	0	agree	6	2	0
+bb1869:p11:t2	measure: Cotton.	420	420	0	agree	6	0	0
+bb1869:p11:t2	measure: Tobacco.	15487½	15487.5	0	agree	6	0	0
+bb1869:p11:t2	measure: Pasture.	1016913	1016913	0	agree	6	1	0
+bb1869:p11:t2	measure: TOTAL.	1794722¾	1794722.25	0.5	mismatch	6	0	0
+bb1869:p11:t3	area: Western	173359¼	173360.25	-1	mismatch	6	0	0
+bb1869:p11:t3	area: North-Western	153043	153043	0	agree	6	0	0
+bb1869:p11:t3	area: Southern	81022	81022	0	agree	6	0	0
+bb1869:p11:t3	area: Eastern	98835¾	98835.75	0	agree	6	1	0
+bb1869:p11:t3	area: Northern	86186	86186	0	agree	6	2	0
+bb1869:p11:t3	area: Central	1099227	1099227	0	agree	6	0	0
+bb1869:p11:t3	area: (unlabelled colony total)	1691673¼	1691674	-0.75	mismatch	6	0	0
+bb1869:p11:t3	measure: Paddy.	421648¼	421648.25	0	agree	6	0	0
+bb1869:p11:t3	measure: Other Grain.	77710¾	77710.75	0	agree	6	0	0
+bb1869:p11:t3	measure: Coffee.	203316½	203316.5	0	agree	6	2	0
+bb1869:p11:t3	measure: Cotton.	388	388	0	agree	6	0	0
+bb1869:p11:t3	measure: Tobacco.	14947½	14947.5	0	agree	6	0	0
+bb1869:p11:t3	measure: Pasture.	973663	973663	0	agree	6	1	0
+bb1869:p11:t3	measure: TOTAL.	1691673¼	1691673	0.25	mismatch	6	0	0
+bb1902:p16:t1	measure: Paddy.	670433	675432	-4999	mismatch	9	0	0
+bb1902:p16:t1	measure: Other Grain.	120079	120079	0	agree	9	0	0
+bb1902:p16:t1	measure: Coffee.	6129	6129	0	agree	9	3	0
+bb1902:p16:t1	measure: Cacao.	23934	24934	-1000	mismatch	9	4	0
+bb1902:p16:t1	measure: Cinnamon.	37731	37731	0	agree	9	3	0
+bb1902:p16:t1	measure: Cotton.	40			uncheckable: unreadable numeric string	9	7	1
+bb1902:p16:t1	measure: Tea.	406224	406274	-50	mismatch	9	3	0
+bb1902:p16:t1	measure: Tobacco.	13453	13453	0	agree	9	0	0
+bb1902:p16:t1	measure: Cocoanuts.	846458	846458	0	agree	9	0	0
+bb1902:p16:t1	measure: Cinchona	421	421	0	agree	9	6	0
+bb1902:p16:t1	measure: Rubber.	—			uncheckable: no printed numeric total	9	9	0
+bb1902:p16:t2	measure: Paddy.	700714	700714	0	agree	9	0	0
+bb1902:p16:t2	measure: Other Grain.	104494	104494	0	agree	9	0	0
+bb1902:p16:t2	measure: Coffee.	5757	5507	250	mismatch	9	4	0
+bb1902:p16:t2	measure: Cacao.	32628	32628	0	agree	9	5	0
+bb1902:p16:t2	measure: Cinnamon.	38839	38889	-50	mismatch	9	5	0
+bb1902:p16:t2	measure: Cotton.	295	295	0	agree	9	7	0
+bb1902:p16:t2	measure: Tea.	434330*	434030	300	mismatch	9	3	0
+bb1902:p16:t2	measure: Tobacco.	13071	13071	0	agree	9	0	0
+bb1902:p16:t2	measure: Cocoanuts.	853186	853181	5	mismatch	9	0	0
+bb1902:p16:t2	measure: Cinchona.	1281	1281	0	agree	9	6	0
+bb1902:p16:t2	measure: Rubber.	4100	4100	0	agree	9	8	0
+bb1904:p18:t1	measure: Paddy.	711869½	711869.5	0	agree	9	0	0
+bb1904:p18:t1	measure: Other Grain.	123306	123306	0	agree	9	0	0
+bb1904:p18:t1	measure: Coffee.	4875	4875	0	agree	9	4	0
+bb1904:p18:t1	measure: Cacao.	33725	33725	0	agree	9	5	0
+bb1904:p18:t1	measure: Cinnamon.	41790	41790	0	agree	9	4	0
+bb1904:p18:t1	measure: Cotton.	—			uncheckable: no printed numeric total	9	9	0
+bb1904:p18:t1	measure: Tea.	460715*	460715	0	agree	9	3	0
+bb1904:p18:t1	measure: Tobacco.	14327	14327	0	agree	9	0	0
+bb1904:p18:t1	measure: Cocoanuts.	880409	880409	0	agree	9	0	0
+bb1904:p18:t1	measure: Cinchona	1259	1259	0	agree	9	7	0
+bb1904:p18:t1	measure: Rubber.	11595	11595	0	agree	9	7	0
+bb1904:p18:t2	measure: Paddy.	711406	711406	0	agree	9	0	0
+bb1904:p18:t2	measure: Other Grain.	103891	103891	0	agree	9	0	0
+bb1904:p18:t2	measure: Coffee.	3954	3954	0	agree	9	4	0
+bb1904:p18:t2	measure: Cacao.	35614	35614	0	agree	9	5	0
+bb1904:p18:t2	measure: Cinnamon.	41679	41679	0	agree	9	4	0
+bb1904:p18:t2	measure: Cotton.	40	40	0	agree	9	7	0
+bb1904:p18:t2	measure: Tea.	419210	419210	0	agree	9	3	0
+bb1904:p18:t2	measure: Tobacco.	14872	14872	0	agree	9	1	0
+bb1904:p18:t2	measure: Cocoanuts.	926537	926537	0	agree	9	0	0
+bb1904:p18:t2	measure: Cinchona.	1172	1172	0	agree	9	8	0
+bb1904:p18:t2	measure: Rubber.	13167	13167	0	agree	9	6	0
+bb1912:p16:t4	measure: Paddy.	644763	644763	0	agree	9	0	0
+bb1912:p16:t4	measure: Other Grain.	96984	96984	0	agree	9	0	0
+bb1912:p16:t4	measure: Coffee.	1359	1359	0	agree	9	5	0
+bb1912:p16:t4	measure: Cacao.	34535	34535	0	agree	9	4	0
+bb1912:p16:t4	measure: Cinna- mon.	44584	44584	0	agree	9	4	0
+bb1912:p16:t4	measure: Cotton.	674	674	0	agree	9	4	0
+bb1912:p16:t4	measure: Tea.	457277	457277	0	agree	9	3	0
+bb1912:p16:t4	measure: Tobacco.	14374	14394	-20	mismatch	9	1	0
+bb1912:p16:t4	measure: Coconuts.	1030282	1030282	0	agree	9	0	0
+bb1912:p16:t4	measure: Cin- chona.	253	253	0	agree	9	8	0
+bb1912:p16:t4	measure: Rubber.	184551	184551	0	agree	9	2	0
+bb1912:p17:t1	measure: Paddy.	801024	801024	0	agree	9	0	0
+bb1912:p17:t1	measure: Other Grain.	97806	97806	0	agree	9	0	0
+bb1912:p17:t1	measure: Coffee.	1389	1389	0	agree	9	5	0
+bb1912:p17:t1	measure: Cacao.	23379	23379	0	agree	9	4	0
+bb1912:p17:t1	measure: Cinna-mon.	46185	46185	0	agree	9	4	0
+bb1912:p17:t1	measure: Cotton.	253	253	0	agree	9	5	0
+bb1912:p17:t1	measure: Tea.	457625	457625	0	agree	9	3	0
+bb1912:p17:t1	measure: Tobacco.	14292	14292	0	agree	9	0	0
+bb1912:p17:t1	measure: Coconuts.	1034025	1034025	0	agree	9	0	0
+bb1912:p17:t1	measure: Cin-chona.	253	253	0	agree	9	8	0
+bb1912:p17:t1	measure: Rubber.	222682	222682	0	agree	9	2	0
+bb1928:p327:t1	measure: Are- canuts.; Ceylon vs provinces	68,823	68823	0	agree	9	0	0
+bb1928:p327:t1	measure: Are- canuts.; WESTERN PROVINCE vs districts	9,537	9537	0	agree	2	0	0
+bb1928:p327:t1	measure: Are- canuts.; CENTRAL PROVINCE vs districts	10,633	10633	0	agree	3	0	0
+bb1928:p327:t1	measure: Are- canuts.; SOUTHERN PROVINCE vs districts	9,124	9124	0	agree	3	0	0
+bb1928:p327:t1	measure: Are- canuts.; NORTHERN PROVINCE vs districts	283	283	0	agree	3	0	0
+bb1928:p327:t1	measure: Are- canuts.; EASTERN PROVINCE vs districts	283	283	0	agree	2	0	0
+bb1928:p327:t1	measure: Are- canuts.; NORTH-WESTERN PROVINCE vs districts	5,091	5091	0	agree	3	0	0
+bb1928:p327:t1	measure: Are- canuts.; NORTH-CENTRAL PROVINCE vs districts	529	529	0	agree	1	0	0
+bb1928:p327:t1	measure: Are- canuts.; PROVINCE OF UVA vs districts	867	867	0	agree	1	0	0
+bb1928:p327:t1	measure: Are- canuts.; PROVINCE OF SABARAGAMUWA vs districts	32,476	32476	0	agree	2	0	0
+bb1928:p327:t1	measure: Cacao.; Ceylon vs provinces	33,563	33563	0	agree	9	4	0
+bb1928:p327:t1	measure: Cacao.; WESTERN PROVINCE vs districts	19	19	0	agree	2	1	0
+bb1928:p327:t1	measure: Cacao.; CENTRAL PROVINCE vs districts	29,943	29943	0	agree	3	0	0
+bb1928:p327:t1	measure: Cacao.; SOUTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Cacao.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Cacao.; EASTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Cacao.; NORTH-WESTERN PROVINCE vs districts	3,000	3000	0	agree	3	2	0
+bb1928:p327:t1	measure: Cacao.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Cacao.; PROVINCE OF UVA vs districts	131	131	0	agree	1	0	0
+bb1928:p327:t1	measure: Cacao.; PROVINCE OF SABARAGAMUWA vs districts	470	470	0	agree	2	1	0
+bb1928:p327:t1	measure: Carda- moms.; Ceylon vs provinces	5,737	5737	0	agree	9	5	0
+bb1928:p327:t1	measure: Carda- moms.; WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Carda- moms.; CENTRAL PROVINCE vs districts	4,944	4944	0	agree	3	0	0
+bb1928:p327:t1	measure: Carda- moms.; SOUTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Carda- moms.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Carda- moms.; EASTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Carda- moms.; NORTH-WESTERN PROVINCE vs districts	10	10	0	agree	3	2	0
+bb1928:p327:t1	measure: Carda- moms.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Carda- moms.; PROVINCE OF UVA vs districts	40	40	0	agree	1	0	0
+bb1928:p327:t1	measure: Carda- moms.; PROVINCE OF SABARAGAMUWA vs districts	743	743	0	agree	2	0	0
+bb1928:p327:t1	measure: Chena products.; Ceylon vs provinces	77,492	77492	0	agree	9	0	0
+bb1928:p327:t1	measure: Chena products.; WESTERN PROVINCE vs districts	1,955	1955	0	agree	2	0	0
+bb1928:p327:t1	measure: Chena products.; CENTRAL PROVINCE vs districts	12,772	12772	0	agree	3	0	0
+bb1928:p327:t1	measure: Chena products.; SOUTHERN PROVINCE vs districts	7,849	7849	0	agree	3	0	0
+bb1928:p327:t1	measure: Chena products.; NORTHERN PROVINCE vs districts	560	560	0	agree	3	1	0
+bb1928:p327:t1	measure: Chena products.; EASTERN PROVINCE vs districts	2,825	2825	0	agree	2	0	0
+bb1928:p327:t1	measure: Chena products.; NORTH-WESTERN PROVINCE vs districts	12,599	12599	0	agree	3	0	0
+bb1928:p327:t1	measure: Chena products.; NORTH-CENTRAL PROVINCE vs districts	10,298	10298	0	agree	1	0	0
+bb1928:p327:t1	measure: Chena products.; PROVINCE OF UVA vs districts	15,261	15261	0	agree	1	0	0
+bb1928:p327:t1	measure: Chena products.; PROVINCE OF SABARAGAMUWA vs districts	13,373	13373	0	agree	2	0	0
+bb1928:p327:t1	measure: Cinna- mon.; Ceylon vs provinces	25,802	25802	0	agree	9	4	0
+bb1928:p327:t1	measure: Cinna- mon.; WESTERN PROVINCE vs districts	10,465	10465	0	agree	2	0	0
+bb1928:p327:t1	measure: Cinna- mon.; CENTRAL PROVINCE vs districts	63	63	0	agree	3	2	0
+bb1928:p327:t1	measure: Cinna- mon.; SOUTHERN PROVINCE vs districts	15,080	15080	0	agree	3	1	0
+bb1928:p327:t1	measure: Cinna- mon.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Cinna- mon.; EASTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Cinna- mon.; NORTH-WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Cinna- mon.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Cinna- mon.; PROVINCE OF UVA vs districts	21	21	0	agree	1	0	0
+bb1928:p327:t1	measure: Cinna- mon.; PROVINCE OF SABARAGAMUWA vs districts	173	173	0	agree	2	0	0
+bb1928:p327:t1	measure: Citro- nella.; Ceylon vs provinces	32,700	32700	0	agree	9	6	0
+bb1928:p327:t1	measure: Citro- nella.; WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Citro- nella.; CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Citro- nella.; SOUTHERN PROVINCE vs districts	32,584	32584	0	agree	3	0	0
+bb1928:p327:t1	measure: Citro- nella.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Citro- nella.; EASTERN PROVINCE vs districts	15	15	0	agree	2	1	0
+bb1928:p327:t1	measure: Citro- nella.; NORTH-WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Citro- nella.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Citro- nella.; PROVINCE OF UVA vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Citro- nella.; PROVINCE OF SABARAGAMUWA vs districts	101	101	0	agree	2	1	0
+bb1928:p327:t1	measure: Coconuts.; Ceylon vs provinces	878,501	829069	49432	mismatch	9	1	0
+bb1928:p327:t1	measure: Coconuts.; WESTERN PROVINCE vs districts	280,945	280945	0	agree	2	0	0
+bb1928:p327:t1	measure: Coconuts.; CENTRAL PROVINCE vs districts	18,363	18363	0	agree	3	0	0
+bb1928:p327:t1	measure: Coconuts.; SOUTHERN PROVINCE vs districts	108,468	108468	0	agree	3	0	0
+bb1928:p327:t1	measure: Coconuts.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	0	0
+bb1928:p327:t1	measure: Coconuts.; EASTERN PROVINCE vs districts	21,484	21484	0	agree	2	0	0
+bb1928:p327:t1	measure: Coconuts.; NORTH-WESTERN PROVINCE vs districts	348,828	348828	0	agree	3	0	0
+bb1928:p327:t1	measure: Coconuts.; NORTH-CENTRAL PROVINCE vs districts	4,500	4500	0	agree	1	0	0
+bb1928:p327:t1	measure: Coconuts.; PROVINCE OF UVA vs districts	1,050	1050	0	agree	1	0	0
+bb1928:p327:t1	measure: Coconuts.; PROVINCE OF SABARAGAMUWA vs districts	45,431	45431	0	agree	2	0	0
+bb1928:p327:t1	measure: Cotton.; Ceylon vs provinces	2,368	2368	0	agree	9	3	0
+bb1928:p327:t1	measure: Cotton.; WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Cotton.; CENTRAL PROVINCE vs districts	16	16	0	agree	3	2	0
+bb1928:p327:t1	measure: Cotton.; SOUTHERN PROVINCE vs districts	2,111	2111	0	agree	3	1	0
+bb1928:p327:t1	measure: Cotton.; NORTHERN PROVINCE vs districts	88	88	0	agree	3	1	0
+bb1928:p327:t1	measure: Cotton.; EASTERN PROVINCE vs districts	8	8	0	agree	2	1	0
+bb1928:p327:t1	measure: Cotton.; NORTH-WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Cotton.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Cotton.; PROVINCE OF UVA vs districts	78	78	0	agree	1	0	0
+bb1928:p327:t1	measure: Cotton.; PROVINCE OF SABARAGAMUWA vs districts	67	67	0	agree	2	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; Ceylon vs provinces	28,081	28081	0	agree	9	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; WESTERN PROVINCE vs districts	1,952	1952	0	agree	2	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; CENTRAL PROVINCE vs districts	3,101	3101	0	agree	3	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; SOUTHERN PROVINCE vs districts	3,555	3555	0	agree	3	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; NORTHERN PROVINCE vs districts	8,451	8451	0	agree	3	1	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; EASTERN PROVINCE vs districts	788	788	0	agree	2	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; NORTH-WESTERN PROVINCE vs districts	838	838	0	agree	3	1	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; NORTH-CENTRAL PROVINCE vs districts	3,435	3435	0	agree	1	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; PROVINCE OF UVA vs districts	903	903	0	agree	1	0	0
+bb1928:p327:t1	measure: Grains, other than Paddy and Chena products.; PROVINCE OF SABARAGAMUWA vs districts	5,058	5058	0	agree	2	0	0
+bb1928:p327:t1	measure: Paddy.; Ceylon vs provinces	837,636	837636	0	agree	9	0	0
+bb1928:p327:t1	measure: Paddy.; WESTERN PROVINCE vs districts	104,052	104052	0	agree	2	0	0
+bb1928:p327:t1	measure: Paddy.; CENTRAL PROVINCE vs districts	73,992	73992	0	agree	3	0	0
+bb1928:p327:t1	measure: Paddy.; SOUTHERN PROVINCE vs districts	125,911	125911	0	agree	3	0	0
+bb1928:p327:t1	measure: Paddy.; NORTHERN PROVINCE vs districts	91,364	91364	0	agree	3	0	0
+bb1928:p327:t1	measure: Paddy.; EASTERN PROVINCE vs districts	107,532	107532	0	agree	2	0	0
+bb1928:p327:t1	measure: Paddy.; NORTH-WESTERN PROVINCE vs districts	152,040	152040	0	agree	3	0	0
+bb1928:p327:t1	measure: Paddy.; NORTH-CENTRAL PROVINCE vs districts	69,643	69643	0	agree	1	0	0
+bb1928:p327:t1	measure: Paddy.; PROVINCE OF UVA vs districts	39,690	39690	0	agree	1	0	0
+bb1928:p327:t1	measure: Paddy.; PROVINCE OF SABARAGAMUWA vs districts	73,412	73412	0	agree	2	0	0
+bb1928:p327:t1	measure: Palmyra.; Ceylon vs provinces	49,932	49932	0	agree	9	3	0
+bb1928:p327:t1	measure: Palmyra.; WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Palmyra.; CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Palmyra.; SOUTHERN PROVINCE vs districts	45	45	0	agree	3	2	0
+bb1928:p327:t1	measure: Palmyra.; NORTHERN PROVINCE vs districts	49,022	49022	0	agree	3	0	0
+bb1928:p327:t1	measure: Palmyra.; EASTERN PROVINCE vs districts	735	735	0	agree	2	0	0
+bb1928:p327:t1	measure: Palmyra.; NORTH-WESTERN PROVINCE vs districts	111	111	0	agree	3	1	0
+bb1928:p327:t1	measure: Palmyra.; NORTH-CENTRAL PROVINCE vs districts	17	17	0	agree	1	0	0
+bb1928:p327:t1	measure: Palmyra.; PROVINCE OF UVA vs districts	2	2	0	agree	1	0	0
+bb1928:p327:t1	measure: Palmyra.; PROVINCE OF SABARAGAMUWA vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Rubber.; Ceylon vs provinces	533,652	533652	0	agree	9	3	0
+bb1928:p327:t1	measure: Rubber.; WESTERN PROVINCE vs districts	154,174	154174	0	agree	2	0	0
+bb1928:p327:t1	measure: Rubber.; CENTRAL PROVINCE vs districts	84,894	84894	0	agree	3	0	0
+bb1928:p327:t1	measure: Rubber.; SOUTHERN PROVINCE vs districts	71,583	71583	0	agree	3	0	0
+bb1928:p327:t1	measure: Rubber.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Rubber.; EASTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Rubber.; NORTH-WESTERN PROVINCE vs districts	15,894	15894	0	agree	3	1	0
+bb1928:p327:t1	measure: Rubber.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Rubber.; PROVINCE OF UVA vs districts	19,827	19827	0	agree	1	0	0
+bb1928:p327:t1	measure: Rubber.; PROVINCE OF SABARAGAMUWA vs districts	187,280	187280	0	agree	2	0	0
+bb1928:p327:t1	measure: Sugar- cane.; Ceylon vs provinces	837	837	0	agree	9	2	0
+bb1928:p327:t1	measure: Sugar- cane.; WESTERN PROVINCE vs districts	181	181	0	agree	2	0	0
+bb1928:p327:t1	measure: Sugar- cane.; CENTRAL PROVINCE vs districts	25	25	0	agree	3	2	0
+bb1928:p327:t1	measure: Sugar- cane.; SOUTHERN PROVINCE vs districts	367	367	0	agree	3	0	0
+bb1928:p327:t1	measure: Sugar- cane.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Sugar- cane.; EASTERN PROVINCE vs districts	41	41	0	agree	2	0	0
+bb1928:p327:t1	measure: Sugar- cane.; NORTH-WESTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Sugar- cane.; NORTH-CENTRAL PROVINCE vs districts	11	11	0	agree	1	0	0
+bb1928:p327:t1	measure: Sugar- cane.; PROVINCE OF UVA vs districts	178	178	0	agree	1	0	0
+bb1928:p327:t1	measure: Sugar- cane.; PROVINCE OF SABARAGAMUWA vs districts	34	34	0	agree	2	0	0
+bb1928:p327:t1	measure: Tea.; Ceylon vs provinces	457,379	457379	0	agree	9	3	0
+bb1928:p327:t1	measure: Tea.; WESTERN PROVINCE vs districts	8,777	8777	0	agree	2	0	0
+bb1928:p327:t1	measure: Tea.; CENTRAL PROVINCE vs districts	293,322	293322	0	agree	3	0	0
+bb1928:p327:t1	measure: Tea.; SOUTHERN PROVINCE vs districts	17,776	17776	0	agree	3	1	0
+bb1928:p327:t1	measure: Tea.; NORTHERN PROVINCE vs districts	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p327:t1	measure: Tea.; EASTERN PROVINCE vs districts	—			uncheckable: no printed numeric total	2	2	0
+bb1928:p327:t1	measure: Tea.; NORTH-WESTERN PROVINCE vs districts	500	500	0	agree	3	2	0
+bb1928:p327:t1	measure: Tea.; NORTH-CENTRAL PROVINCE vs districts	—			uncheckable: no printed numeric total	1	1	0
+bb1928:p327:t1	measure: Tea.; PROVINCE OF UVA vs districts	78,140	78140	0	agree	1	0	0
+bb1928:p327:t1	measure: Tea.; PROVINCE OF SABARAGAMUWA vs districts	58,864	58964	-100	mismatch	2	0	0
+bb1928:p327:t1	measure: Tobacco.; Ceylon vs provinces	13,580	13580	0	agree	9	0	0
+bb1928:p327:t1	measure: Tobacco.; WESTERN PROVINCE vs districts	401	401	0	agree	2	1	0
+bb1928:p327:t1	measure: Tobacco.; CENTRAL PROVINCE vs districts	2,714	2714	0	agree	3	0	0
+bb1928:p327:t1	measure: Tobacco.; SOUTHERN PROVINCE vs districts	12	12	0	agree	3	2	0
+bb1928:p327:t1	measure: Tobacco.; NORTHERN PROVINCE vs districts	7,116	7116	0	agree	3	0	0
+bb1928:p327:t1	measure: Tobacco.; EASTERN PROVINCE vs districts	474	474	0	agree	2	0	0
+bb1928:p327:t1	measure: Tobacco.; NORTH-WESTERN PROVINCE vs districts	2,005	2005	0	agree	3	0	0
+bb1928:p327:t1	measure: Tobacco.; NORTH-CENTRAL PROVINCE vs districts	832	832	0	agree	1	0	0
+bb1928:p327:t1	measure: Tobacco.; PROVINCE OF UVA vs districts	14	14	0	agree	1	0	0
+bb1928:p327:t1	measure: Tobacco.; PROVINCE OF SABARAGAMUWA vs districts	12	12	0	agree	2	1	0
+bb1928:p327:t1	measure: Vege- tables.; Ceylon vs provinces	32,024	32024	0	agree	9	0	0
+bb1928:p327:t1	measure: Vege- tables.; WESTERN PROVINCE vs districts	5,441	5441	0	agree	2	0	0
+bb1928:p327:t1	measure: Vege- tables.; CENTRAL PROVINCE vs districts	4,682	4682	0	agree	3	0	0
+bb1928:p327:t1	measure: Vege- tables.; SOUTHERN PROVINCE vs districts	4,814	4814	0	agree	3	0	0
+bb1928:p327:t1	measure: Vege- tables.; NORTHERN PROVINCE vs districts	9,457	9457	0	agree	3	0	0
+bb1928:p327:t1	measure: Vege- tables.; EASTERN PROVINCE vs districts	715	715	0	agree	2	0	0
+bb1928:p327:t1	measure: Vege- tables.; NORTH-WESTERN PROVINCE vs districts	2,138	2138	0	agree	3	0	0
+bb1928:p327:t1	measure: Vege- tables.; NORTH-CENTRAL PROVINCE vs districts	795	795	0	agree	1	0	0
+bb1928:p327:t1	measure: Vege- tables.; PROVINCE OF UVA vs districts	1,348	1348	0	agree	1	0	0
+bb1928:p327:t1	measure: Vege- tables.; PROVINCE OF SABARAGAMUWA vs districts	2,634	2634	0	agree	2	0	0

@@ -1,0 +1,300 @@
+table_id	row_index	flow	event	label
+bb1925:p175:t1	55	import	running total skipped	Carried over ..
+bb1925:p175:t1	2	import	continuation heading	Grain, pulses, peas—contd.
+bb1925:p175:t1	3	import	running total skipped	Brought forward ..
+bb1925:p194:t1	58	import	running total skipped	Carried over ..
+bb1925:p195:t1	2	import	continuation heading	Hollow ware (household, kitchen, &c., utensils enamelled or tinned)—contd.
+bb1925:p195:t1	3	import	running total skipped	Brought forward ..
+bb1925:p197:t1	50	import	running total skipped	Carried over ..
+bb1925:p197:t1	2	import	continuation heading	Metals not elsewhere specified unwrought—contd.
+bb1925:p197:t1	3	import	running total skipped	Brought forward ..
+bb1925:p205:t1	54	import	running total skipped	Carried over ..
+bb1925:p205:t1	2	import	continuation heading	Blankets—contd.—
+bb1925:p205:t1	3	import	running total skipped	Brought forward ..
+bb1925:p206:t1	61	import	running total skipped	Carried over ..
+bb1925:p206:t1	2	import	continuation heading	Silk, manufactures handkerchiefs scarves, and shawls—contd.
+bb1925:p206:t1	3	import	running total skipped	Brought forward ..
+bb1925:p207:t1	47	import	running total skipped	Carried over ..
+bb1925:p207:t1	1	import	continuation heading	Rs. Piece goods—contd.
+bb1925:p207:t1	2	import	running total skipped	Brought forward ..
+bb1925:p208:t1	66	import	running total skipped	Carried over ..
+bb1925:p208:t1	2	import	continuation heading	Haberdashery and millinery—contd.
+bb1925:p208:t1	3	import	running total skipped	Brought forward ..
+bb1925:p212:t1	43	import	running total skipped	Carried over .. (No. cwt.)
+bb1925:p213:t1	1	import	continuation heading	Other descriptions—contd.
+bb1925:p213:t1	2	import	running total skipped	Brought forward ..  (No. cwt.)
+bb1925:p213:t1	57	import	running total skipped	Carried over ..
+bb1925:p214:t1	3	import	continuation heading	Paper, other (dutable)—contd.
+bb1925:p214:t1	4	import	running total skipped	Brought forward ..
+bb1925:p220:t1	51	import	running total skipped	Carried over ..
+bb1925:p221:t1	3	import	continuation heading	Haberdashery Other—contd.
+bb1925:p221:t1	4	import	running total skipped	Brought forward ..
+bb1925:p221:t1	58	import	running total skipped	Carried over ..
+bb1925:p221:t1	3	import	continuation heading	Images and statues—contd.
+bb1925:p221:t1	4	import	running total skipped	Brought forward ..
+bb1925:p224:t1	73	import	running total skipped	Carried over ..
+bb1925:p225:t1	2	import	repeated article heading	Umbrellas—
+bb1925:p225:t1	3	import	running total skipped	Brought forward ..
+bb1925:p233:t1	67	export	running total skipped	Carried over ..
+bb1925:p234:t1	3	export	continuation heading	Coconuts, desiccated—contd.
+bb1925:p234:t1	4	export	running total skipped	Brought forward ..
+bb1925:p240:t1	63	export	running total skipped	Carried over ..
+bb1925:p241:t1	5	export	continuation heading	Tea.—(contd.)
+bb1925:p241:t1	6	export	running total skipped	Brought forward ..
+bb1925:p242:t1	45	export	running total skipped	Carried over ..
+bb1925:p243:t1	4	export	continuation heading	Plumbago—contd.
+bb1925:p243:t1	5	export	running total skipped	Brought forward .. cwt.
+bb1925:p246:t1	44	export	running total skipped	Carried over ..
+bb1925:p247:t1	4	export	repeated article heading	Nuts and kernels for expressing oil therefrom copra
+bb1925:p247:t1	5	export	running total skipped	Brought forward ..
+bb1925:p258:t1	36	export	running total skipped	Carried over ..
+bb1925:p259:t1	4	export	continuation heading	Furniture—contd.
+bb1925:p259:t1	5	export	running total skipped	Brought Forward.. No.
+bb1925:p262:t1	55	export	running total skipped	Carried over .. { No. 669
+bb1925:p263:t1	4	export	continuation heading	Coir mats and matting—contd.
+bb1925:p263:t1	5	export	running total skipped	Brought forward .. ( No. 669 yds. 214387 )
+bb1925:p263:t1	6	export	unreadable data label retained without changing article	British Possessions—contd.
+bb1925:p264:t1	53	export	running total skipped	"Carried over .. """
+bb1925:p265:t1	4	export	continuation heading	Apparel of all descriptions—contd.
+bb1925:p265:t1	5	export	running total skipped	Brought forward .. dozen
+bb1925:p267:t1	51	export	running total skipped	Carried over ..
+bb1925:p268:t1	4	export	continuation heading	Paper of all descriptions—contd.
+bb1925:p268:t1	5	export	running total skipped	Brought forward .. cwt.
+bb1925:p268:t1	6	export	unreadable data label retained without changing article	British Possessions—contd.
+bb1925:p281:t1	3	import	split merged country rows	"British Possessions— Australia .. tons Burma .. "" Canada .. """
+bb1925:p281:t1	5	import	split merged country rows	"United Kingdom .. tons British Possessions— Australia .. "" Burma .. """
+bb1925:p281:t1	9	import	split merged country rows	"United Kingdom .. cwt. British Possessions— British India .. """
+bb1925:p281:t1	18	import	split merged country rows	"United Kingdom .. cwt. Foreign Countries— Belgium .. """
+bb1925:p281:t1	7	import	split merged country rows	"United Kingdom .. lb. Foreign Countries— Java .. "" U. S., America .. """
+bb1925:p281:t1	19	import	split merged country rows	"United Kingdom .. cwt. British Possessions— British India .. """
+bb1925:p286:t1	17	import	split merged country rows	United Kingdom doz. pairs British Possessions— British India doz. pairs
+bb1924:p263:t1	52	import	running total skipped	Carried over ..
+bb1924:p263:t1	3	import	continuation heading	Grain, pulses, peas—contd.
+bb1924:p263:t1	4	import	running total skipped	Brought forward ..
+bb1924:p266:t1	55	import	running total skipped	Carried over ..
+bb1924:p266:t1	2	import	continuation heading	Confectionery—contd.
+bb1924:p266:t1	3	import	running total skipped	Brought forward ..
+bb1924:p271:t1	54	import	running total skipped	Carried over ..
+bb1924:p271:t1	2	import	continuation heading	Provisions, unenumerated—contd.
+bb1924:p271:t1	3	import	running total skipped	Brought forward ..
+bb1924:p271:t1	4	import	unreadable data label retained without changing article	Foreign Countries—contd.
+bb1924:p272:t1	63	import	running total skipped	Carried over ..
+bb1924:p273:t1	4	import	continuation heading	contd.
+bb1924:p273:t1	5	import	running total skipped	Brought forward ..
+bb1924:p275:t1	25	import	full-width repeated heading suppressed in continuing right block	1865 1865 49013
+bb1924:p280:t1	53	import	running total skipped	Carried over ..
+bb1924:p280:t1	2	import	repeated article heading	Earthenware and stoneware—
+bb1924:p280:t1	3	import	continuation heading	contd.
+bb1924:p280:t1	4	import	running total skipped	Brought forward ..
+bb1924:p289:t1	32	import	running total skipped	Carried over .. ( No. cwt. )
+bb1924:p290:t1	3	import	repeated article heading	Sewing Machines—
+bb1924:p290:t1	4	import	running total skipped	Brought forward ..
+bb1924:p291:t1	48	import	running total skipped	Carried over ..
+bb1924:p291:t1	2	import	continuation heading	Piece goods of cotton, bleached—contd.
+bb1924:p291:t1	3	import	running total skipped	Brought forward ..
+bb1924:p292:t1	7	import	full-width repeated heading suppressed in continuing right block	Piece goods of cotton, other—
+bb1924:p292:t1	24	import	full-width repeated heading suppressed in continuing right block	Lace and net—
+bb1924:p292:t1	37	import	full-width repeated heading suppressed in continuing right block	Embroidery—
+bb1924:p292:t1	47	import	full-width repeated heading suppressed in continuing right block	Thread—
+bb1924:p296:t1	58	import	running total skipped	Carried over ..
+bb1924:p296:t1	8	import	full-width repeated heading suppressed in continuing right block	Jute manufactures, hessians—
+bb1924:p296:t1	15	import	full-width repeated heading suppressed in continuing right block	Jute manufactures, sacks and bags, empty, new—
+bb1924:p296:t1	26	import	full-width repeated heading suppressed in continuing right block	Jute manufactures, other—
+bb1924:p296:t1	34	import	full-width repeated heading suppressed in continuing right block	Textile manufactures not elsewhere specified—
+bb1924:p296:t1	47	import	full-width repeated heading suppressed in continuing right block	Haberdashery and millinery—
+bb1924:p296:t1	48	import	full-width repeated heading suppressed in continuing right block	United Kingdom .. value
+bb1924:p296:t1	62	import	running total skipped	Carried over ..
+bb1924:p297:t1	2	import	continuation heading	Haberdashery and millinery— contd.
+bb1924:p297:t1	3	import	running total skipped	Brought forward ..
+bb1924:p302:t1	58	import	running total skipped	Carried over ..
+bb1924:p302:t1	3	import	continuation heading	Stationery, including notepaper pads, manuscript books (except exercise books in paper covers)—contd.
+bb1924:p302:t1	4	import	running total skipped	Brought forward ..
+bb1924:p305:t1	48	import	running total skipped	Carried over ..
+bb1924:p305:t1	1	import	continuation heading	Rubber tyres and tubes, solid tyres—contd.
+bb1924:p305:t1	2	import	running total skipped	Brought forward ..
+bb1924:p307:t1	50	import	running total skipped	Carried over ..
+bb1924:p308:t1	2	import	continuation heading	Books, printed, including music: Other—contd.
+bb1924:p308:t1	3	import	running total skipped	Brought forward ..
+bb1924:p312:t1	4	import	unreadable data label retained without changing article	British Possessions— { cases 23282 23282
+bb1924:p312:t1	12	import	unreadable data label retained without changing article	Foreign Countries— { cases 1 1
+bb1924:p320:t1	58	export	running total skipped	Carried over ..
+bb1924:p321:t1	4	export	continuation heading	Coconut (fresh)—contd.
+bb1924:p321:t1	5	export	running total skipped	Brought forward ..
+bb1924:p328:t1	55	export	running total skipped	Carried over ..
+bb1924:p329:t1	4	export	continuation heading	Tea.—(contd.)
+bb1924:p329:t1	5	export	running total skipped	Brought forward ..
+bb1924:p329:t1	63	export	running total skipped	"Carried over .. """
+bb1924:p330:t1	3	export	continuation heading	Unenumerated—contd.
+bb1924:p330:t1	4	export	running total skipped	Brought Forward..
+bb1924:p346:t1	41	export	running total skipped	Carried over ..
+bb1924:p347:t1	3	export	continuation heading	Furniture—contd.
+bb1924:p347:t1	4	export	running total skipped	Brought forward ..
+bb1924:p350:t1	40	export	unreadable data label retained without changing article	British Possessions— { yds. —
+bb1924:p362:t1	53	export	running total skipped	Carried over ..
+bb1924:p363:t1	4	export	continuation heading	Curios—contd.
+bb1924:p363:t1	5	export	running total skipped	Brought forward ..
+bb1924:p364:t1	42	export	running total skipped	Carried over ..
+bb1924:p365:t1	4	export	continuation heading	Straw, grass, rush &c., manufactures not elsewhere specified, mats, and mattings—contd.
+bb1924:p365:t1	5	export	running total skipped	Brought forward ..
+bb1924:p365:t1	54	export	running total skipped	Carried over ..
+bb1924:p366:t1	4	export	continuation heading	Goods manufactured wholly or in part not elsewhere specified—contd.
+bb1924:p366:t1	5	export	running total skipped	Brought forward ..
+bb1926:p185:t1	55	import	running total skipped	Carried over ..
+bb1926:p185:t1	2	import	continuation heading	Grain, pulses, peas—contd.
+bb1926:p185:t1	3	import	running total skipped	Brought forward ..
+bb1926:p190:t1	62	import	running total skipped	Carried over ..
+bb1926:p191:t1	3	import	continuation heading	Milk preserved, sweetened, or otherwise, full cream—contd.
+bb1926:p191:t1	4	import	running total skipped	Brought forward ..
+bb1926:p201:t1	53	import	running total skipped	Carried over .. ..
+bb1926:p202:t1	2	import	continuation heading	Porcelainware and Chinaware—contd.
+bb1926:p202:t1	3	import	running total skipped	Brought forward ..
+bb1926:p202:t1	63	import	running total skipped	Carried over ..
+bb1926:p202:t1	2	import	continuation heading	Glass and glassware, other—contd.
+bb1926:p202:t1	3	import	running total skipped	Brought forward ..
+bb1926:p204:t1	62	import	running total skipped	Carried over ..
+bb1926:p205:t1	3	import	continuation heading	Hollow ware (household, kitchen, &c., utensils enamelled or tinned)—contd.
+bb1926:p205:t1	4	import	running total skipped	Brought forward ..
+bb1926:p205:t1	58	import	running total skipped	Carried over ..
+bb1926:p205:t1	2	import	continuation heading	Aluminium ware—contd.
+bb1926:p205:t1	3	import	running total skipped	Brought forward ..
+bb1926:p214:t1	13	import	full-width repeated heading suppressed in continuing right block	United Kingdom .. No.
+bb1926:p214:t1	15	import	full-width repeated heading suppressed in continuing right block	Small wares, including ribbons and trimmings—
+bb1926:p214:t1	27	import	full-width repeated heading suppressed in continuing right block	Cotton manufactures not elsewhere specified—
+bb1926:p214:t1	52	import	full-width repeated heading suppressed in continuing right block	Flannel, pure wool—
+bb1926:p214:t1	60	import	full-width repeated heading suppressed in continuing right block	Flannel, mixed—
+bb1926:p215:t1	57	import	running total skipped	Carried over ..
+bb1926:p215:t1	3	import	continuation heading	Blankets—contd.
+bb1926:p215:t1	4	import	running total skipped	Brought forward ..
+bb1926:p216:t1	71	import	running total skipped	Carried over ..
+bb1926:p216:t1	3	import	continuation heading	Silk manufactures handkerchiefs, scarves and shawls—contd.
+bb1926:p216:t1	4	import	running total skipped	Brought forward ..
+bb1926:p217:t1	57	import	running total skipped	Carried over ..
+bb1926:p217:t1	3	import	continuation heading	Piece goods— contd.
+bb1926:p217:t1	4	import	running total skipped	Brought forward ..
+bb1926:p222:t1	51	import	running total skipped	Carried over .. (No. cwt.
+bb1926:p223:t1	1	import	continuation heading	Other descriptions—contd.
+bb1926:p223:t1	2	import	running total skipped	Brought forward .. (No. cwt. 65950 729) (65950 729) 223520
+bb1926:p223:t1	55	import	running total skipped	Carried over ..
+bb1926:p224:t1	2	import	continuation heading	Paper, other (dutable)—contd.
+bb1926:p224:t1	3	import	running total skipped	Brought forward ..
+bb1926:p230:t1	52	import	running total skipped	Carried over ..
+bb1926:p231:t1	2	import	continuation heading	Haberdashery Other—contd.
+bb1926:p231:t1	3	import	running total skipped	Brought forward ..
+bb1926:p234:t1	62	import	running total skipped	Carried over ..
+bb1926:p235:t1	2	import	repeated article heading	Umbrellas—
+bb1926:p235:t1	3	import	running total skipped	Brought forward ..
+bb1926:p243:t1	70	export	running total skipped	Carried over ..
+bb1926:p244:t1	4	export	continuation heading	Coconuts, desiccated—contd.
+bb1926:p244:t1	5	export	running total skipped	Brought forward ..
+bb1926:p250:t1	66	export	running total skipped	Carried over ..
+bb1926:p251:t1	4	export	continuation heading	Tea.—(contd.)
+bb1926:p251:t1	5	export	running total skipped	Brought forward ..
+bb1926:p252:t1	45	export	running total skipped	Carried over ..
+bb1926:p253:t1	3	export	continuation heading	Phembago—contd.
+bb1926:p253:t1	4	export	running total skipped	Brought forward .. cwt.
+bb1926:p256:t1	41	export	running total skipped	Carried over ..
+bb1926:p257:t1	4	export	repeated article heading	Nuts and kernels for expressing oil therefrom copra
+bb1926:p257:t1	5	export	running total skipped	Brought forward ..
+bb1926:p258:t1	56	export	running total skipped	Carried over ..
+bb1926:p259:t1	4	export	continuation heading	Oil, citronella—contd.
+bb1926:p259:t1	5	export	running total skipped	Brought forward ..
+bb1926:p261:t1	36	export	running total skipped	Carried over ..
+bb1926:p262:t1	4	export	continuation heading	Kapok—contd.
+bb1926:p262:t1	5	export	running total skipped	Brought forward ..
+bb1926:p264:t1	46	export	running total skipped	Carried over ..
+bb1926:p265:t1	4	export	running total skipped	Brought forward ..
+bb1926:p265:t1	5	export	continuation heading	Goods unmanufactured not elsewhere specified—contd.
+bb1926:p272:t1	50	export	running total skipped	Carried over :—
+bb1926:p273:t1	3	export	continuation heading	Coir mats and matting—contd.
+bb1926:p273:t1	4	export	running total skipped	Brought forward ;
+bb1926:p273:t1	7	export	unreadable data label retained without changing article	British Possessions—contd.
+bb1926:p274:t1	54	export	running total skipped	Carried over ..
+bb1926:p275:t1	4	export	continuation heading	Apparel of all descriptions—contd.
+bb1926:p275:t1	5	export	running total skipped	Brought forward ..
+bb1926:p277:t1	50	export	running total skipped	Carried over ..
+bb1926:p278:t1	3	export	continuation heading	Paper of all descriptions—contd.
+bb1926:p278:t1	4	export	running total skipped	Brought forward ..
+bb1926:p278:t1	41	export	running total skipped	Carried over ..
+bb1926:p279:t1	4	export	continuation heading	Road, mechanically-propelled motor cars—contd.
+bb1926:p279:t1	5	export	running total skipped	Brought forward..
+bb1926:p285:t1	37	export	running total skipped	Carried over ..
+bb1926:p286:t1	4	export	continuation heading	Stores, Military, and Naval—contd.
+bb1926:p286:t1	5	export	running total skipped	Brought forward ..
+bb1926:p290:t1	11	import	split merged country rows	"Foreign Countries— Holland .. "" U. S., America .. """
+bb1928:p204:t1	63	import	running total skipped	Carried over ..
+bb1928:p204:t1	2	import	continuation heading	Spirits, liqueur—contd.
+bb1928:p204:t1	3	import	running total skipped	Brought forward ..
+bb1928:p205:t1	65	import	running total skipped	Carried over ..
+bb1928:p205:t1	3	import	continuation heading	Provisions unenumerated—c ntd.
+bb1928:p205:t1	4	import	running total skipped	Brought forward ..
+bb1928:p209:t1	56	import	running total skipped	Carried over ..
+bb1928:p209:t1	3	import	continuation heading	Gum and resins, Arabic—contd.
+bb1928:p209:t1	4	import	running total skipped	Brought forward ..
+bb1928:p214:t1	68	import	full-width repeated heading suppressed in continuing right block	Glass and glassware, plate glass—
+bb1928:p224:t1	34	import	running total skipped	Carried over .. { No. 328 cwt. 14014
+bb1928:p224:t1	3	import	continuation heading	Machinery not elsewhere specified, dutiable—contd.
+bb1928:p224:t1	4	import	running total skipped	Brought forward .. { No. 328 cwt. 14014
+bb1928:p224:t1	53	import	running total skipped	Carried over ..
+bb1928:p225:t1	3	import	continuation heading	Manufactures of wood and timber not elsewhere specified—contd.
+bb1928:p225:t1	4	import	running total skipped	Brought forward ..
+bb1928:p225:t1	67	import	running total skipped	Carried over ..
+bb1928:p226:t1	2	import	continuation heading	Piece goods of cotton, other— contd.
+bb1928:p226:t1	3	import	running total skipped	Brought forward ..
+bb1928:p230:t1	62	import	running total skipped	Carried over ..
+bb1928:p230:t1	2	import	continuation heading	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c. (except cotton banians)—contd.
+bb1928:p230:t1	3	import	running total skipped	Brought forward ..
+bb1928:p235:t1	53	import	running total skipped	Carried over ..
+bb1928:p235:t1	2	import	continuation heading	Paper, writing (including envelopes)—contd.
+bb1928:p235:t1	3	import	running total skipped	Brought forward ..
+bb1928:p236:t1	62	import	running total skipped	Carried over ..
+bb1928:p236:t1	2	import	repeated article heading	Mill board, straw board, card board, and paste board—
+bb1928:p236:t1	3	import	running total skipped	Brought forward ..
+bb1928:p236:t1	69	import	running total skipped	Carried over ..
+bb1928:p237:t1	1	import	continuation heading	Other manufactures of paper not elsewhere specified (free)— contd.
+bb1928:p237:t1	2	import	running total skipped	Brought forward ..
+bb1928:p237:t1	54	import	running total skipped	Carried over ..
+bb1928:p238:t1	2	import	continuation heading	Road, other than mechanically-propelled, other sorts (including wheelbarrows)—contd.
+bb1928:p238:t1	3	import	running total skipped	Brought forward ..
+bb1928:p242:t1	53	import	running total skipped	Carried over ..
+bb1928:p243:t1	3	import	continuation heading	Haberdashery Other—contd.
+bb1928:p243:t1	4	import	running total skipped	Brought forward ..
+bb1928:p246:t1	65	import	running total skipped	Carried over ..
+bb1928:p247:t1	3	import	continuation heading	Umbrellas—contd.
+bb1928:p247:t1	4	import	running total skipped	Brought forward ..
+bb1928:p252:t1	48	export	running total skipped	Carried over ..
+bb1928:p253:t1	3	export	repeated article heading	Oil seed cake, coconut poonac—
+bb1928:p253:t1	4	export	continuation heading	contd.
+bb1928:p253:t1	5	export	running total skipped	Brought forward ..
+bb1928:p254:t1	57	export	running total skipped	Carried over ..
+bb1928:p255:t1	4	export	continuation heading	Coconut fresh—contd.
+bb1928:p255:t1	5	export	running total skipped	Brought forward ..
+bb1928:p262:t1	58	export	running total skipped	Carried over ..
+bb1928:p263:t1	4	export	continuation heading	Tea.—(contd.)
+bb1928:p263:t1	5	export	running total skipped	Brought forward ..
+bb1928:p271:t1	64	export	running total skipped	Carried over ..
+bb1928:p272:t1	4	export	continuation heading	Oil, coconut—contd.
+bb1928:p272:t1	5	export	running total skipped	Brought forward ..
+bb1928:p275:t1	54	export	running total skipped	Carried over ..
+bb1928:p276:t1	4	export	continuation heading	Plants and roots—contd.
+bb1928:p276:t1	5	export	running total skipped	Brought forward ..
+bb1928:p277:t1	50	export	running total skipped	Carried over ..
+bb1928:p278:t1	4	export	continuation heading	Other—contd.
+bb1928:p278:t1	5	export	running total skipped	Brought forward ..
+bb1928:p278:t1	50	export	running total skipped	Carried over ..
+bb1928:p279:t1	4	export	continuation heading	Non-ferrous metals and manufactures of all description—contd.
+bb1928:p279:t1	5	export	running total skipped	Brought forward ..
+bb1928:p280:t1	56	export	running total skipped	Carried over
+bb1928:p281:t1	4	export	continuation heading	Machinery other—contd.
+bb1928:p281:t1	5	export	running total skipped	Brought forward ..
+bb1928:p286:t1	57	export	running total skipped	Carried over ..
+bb1928:p287:t1	4	export	continuation heading	Apparel of all descriptions—contd.
+bb1928:p287:t1	5	export	running total skipped	Brought forward ..
+bb1928:p289:t1	43	export	running total skipped	Carried over ..
+bb1928:p290:t1	3	export	continuation heading	Paper of all descriptions—contd.
+bb1928:p290:t1	4	export	running total skipped	Brought forward ..
+bb1928:p295:t1	34	export	running total skipped	Carried over ..
+bb1928:p296:t1	3	export	continuation heading	Books, printed, including music—contd.
+bb1928:p296:t1	4	export	running total skipped	Brought forward..
+bb1928:p299:t1	48	export	running total skipped	Carried over ..
+bb1928:p300:t1	3	export	continuation heading	Goods manufactured wholly or in part not elsewhere specified—contd.
+bb1928:p300:t1	4	export	running total skipped	Brought Forward ..

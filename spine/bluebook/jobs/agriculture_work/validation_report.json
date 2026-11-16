@@ -1,0 +1,14 @@
+{
+  "rows": 4918,
+  "numeric_values_verified": 3379,
+  "tables_used": 53,
+  "tables_skipped": 24,
+  "unique_source_cells_verified": 4918,
+  "acreage_total_statuses": {
+    "agree": 200,
+    "mismatch": 17,
+    "uncheckable: unreadable numeric string": 1,
+    "uncheckable: no printed numeric total": 36
+  },
+  "result": "PASS"
+}

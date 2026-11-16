@@ -59,8 +59,13 @@ Thirteen volumes are in (`bluebook/README.md` has the detail):
   (95 with a matching appointment year). **97 people are now in all three sources** (Blue Book, Colonial
   Office List, journal): Trimen appears in 1889 as Director at Peradeniya, Willis and Carruthers in 1902 and
   1904. About 13,900 person-years (clerks, teachers, headmen) are in no other source.
-- **Two Codex Sol jobs** were started with written briefs (`bluebook/jobs/*.md`): agriculture tables and the
-  1924–34 trade ledgers. Their output needs my review before it is loaded; see `bluebook/extracted/`.
+- **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
+  figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
+  (imports and exports by article and country; 1924, 1925, 1926, 1928). I checked samples against the parsed
+  tables and loaded them: 77,741 `Observation` nodes, 92% tied to a place name and 31% to a crop or article name.
+  Printed totals agree with the sum of parts for 92% of acreage checks and 78–85% of trade articles; the rest
+  are listed, not repaired. Example from the graph: coffee falls from 207,066 acres in 1868 to 1,389 in 1912
+  while rubber rises from 4,100 in 1902 to 184,551 in 1911 (sums over the provinces that report).
   The `codex` on the PATH (0.166.0) cannot run commands because its helper binary is missing; I used the
   complete install at `~/.codex/plugins/.plugin-appserver/codex`.
 

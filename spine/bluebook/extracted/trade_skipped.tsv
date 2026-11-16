@@ -1,0 +1,1049 @@
+table_id	row index	cells	reason
+bb1925:p182:t1	37	"[""British India .. gals."", ""2161 2809"", ""2161 2809"", ""7175""]"	ambiguous numerical cell '2161 2809'; left block
+bb1925:p182:t1	40	"[""United Kingdom .. gals."", ""21 15"", ""21 15"", ""631""]"	ambiguous numerical cell '21 15'; left block
+bb1925:p182:t1	42	"[""France .. „"", ""64446 57961"", ""65657 59800"", ""490255""]"	ambiguous numerical cell '64446 57961'; left block
+bb1925:p182:t1	43	"[""Total .."", ""64467 57976"", ""65678 59815"", ""490886""]"	article total in unresolved multiple-quantity layout; left block
+bb1925:p182:t1	45	"[""United Kingdom .. gals."", ""17483 14423"", ""16866 13827"", ""166621""]"	ambiguous numerical cell '17483 14423'; left block
+bb1925:p182:t1	47	"[""Holland .. „"", ""102866 90905"", ""102776 90710"", ""816716""]"	ambiguous numerical cell '102866 90905'; left block
+bb1925:p182:t1	48	"[""Total .."", ""120349105328"", ""119642104537"", ""983337""]"	article total in unresolved multiple-quantity layout; left block
+bb1925:p182:t1	50	"[""United Kingdom .. gals."", ""234 —"", ""234 —"", ""4598""]"	ambiguous numerical cell '234 —'; left block
+bb1925:p182:t1	52	"[""Belgium .. „"", ""— —"", ""— —"", ""5""]"	ambiguous numerical cell '— —'; left block
+bb1925:p182:t1	53	"[""Denmark .. „"", ""61 —"", ""61 —"", ""1219""]"	ambiguous numerical cell '61 —'; left block
+bb1925:p182:t1	54	"[""France .. „"", ""462 —"", ""462 —"", ""6171""]"	ambiguous numerical cell '462 —'; left block
+bb1925:p182:t1	55	"[""Germany .. „"", ""31 —"", ""31 —"", ""499""]"	ambiguous numerical cell '31 —'; left block
+bb1925:p182:t1	56	"[""Holland .. „"", ""146 —"", ""146 —"", ""2731""]"	ambiguous numerical cell '146 —'; left block
+bb1925:p182:t1	57	"[""Italy .. „"", ""6 —"", ""6 —"", ""102""]"	ambiguous numerical cell '6 —'; left block
+bb1925:p182:t1	58	"[""Russia in Europe .. „"", ""9 —"", ""9 —"", ""250""]"	ambiguous numerical cell '9 —'; left block
+bb1925:p182:t1	59	"[""Total .."", ""949 —"", ""949 —"", ""15575""]"	article total in unresolved multiple-quantity layout; left block
+bb1925:p182:t1	3	"[""United Kingdom .. gals."", ""206 166"", ""206 166"", ""2745""]"	ambiguous numerical cell '206 166'; right block
+bb1925:p182:t1	5	"[""British West Indies .. „"", ""100 118"", ""100 118"", ""1091""]"	ambiguous numerical cell '100 118'; right block
+bb1925:p182:t1	7	"[""France .. „"", ""29 22"", ""29 22"", ""449""]"	ambiguous numerical cell '29 22'; right block
+bb1925:p182:t1	8	"[""Philippine Islands.. „"", ""1 1"", ""1 1"", ""44""]"	ambiguous numerical cell '1 1'; right block
+bb1925:p182:t1	9	"[""Total .."", ""336 307"", ""336 307"", ""4327""]"	article total in unresolved multiple-quantity layout; right block
+bb1925:p182:t1	11	"[""United Kingdom .. gals."", ""186 303"", ""186 303"", ""1896""]"	ambiguous numerical cell '186 303'; right block
+bb1925:p182:t1	13	"[""Australia .. „"", ""115 192"", ""115 192"", ""310""]"	ambiguous numerical cell '115 192'; right block
+bb1925:p182:t1	14	"[""British India .. „"", ""5 8"", ""5 8"", ""185""]"	ambiguous numerical cell '5 8'; right block
+bb1925:p182:t1	15	"[""Total British Possessions"", ""120 200"", ""120 200"", ""495""]"	ambiguous numerical cell '120 200'; right block
+bb1925:p182:t1	17	"[""Germany .. „"", ""64 109"", ""64 109"", ""330""]"	ambiguous numerical cell '64 109'; right block
+bb1925:p182:t1	18	"[""Java .. „"", ""3236 5178"", ""3236 5178"", ""6457""]"	ambiguous numerical cell '3236 5178'; right block
+bb1925:p182:t1	19	"[""Total .."", ""3606 5790"", ""3606 5790"", ""9178""]"	article total in unresolved multiple-quantity layout; right block
+bb1925:p182:t1	21	"[""United Kingdom .. gals."", ""79448 61947"", ""77245 60206"", ""1364927""]"	ambiguous numerical cell '79448 61947'; right block
+bb1925:p182:t1	23	"[""United Kingdom .. gals."", ""153 88"", ""153 88"", ""2010""]"	ambiguous numerical cell '153 88'; right block
+bb1925:p182:t1	25	"[""Java .. „"", ""87 139"", ""87 139"", ""158""]"	ambiguous numerical cell '87 139'; right block
+bb1925:p182:t1	26	"[""Total .."", ""240 227"", ""240 227"", ""2168""]"	article total in unresolved multiple-quantity layout; right block
+bb1925:p186:t1	14	"[""Sawn, palmyra lathes and rafters British Possessions— British India .. tons"", ""—"", ""—"", ""15""]"	multiple country rows merged into one OCR row; right block
+bb1925:p191:t1	19	"[""United Kingdom .. (gals. cwt.)"", ""432355"", ""432355"", ""237037""]"	two-unit quantity cannot be separated; left block
+bb1925:p191:t1	21	"[""British India .. (gals. cwt.)"", ""39544"", ""39544"", ""30200""]"	two-unit quantity cannot be separated; left block
+bb1925:p191:t1	22	"[""Sweden .. (gals. cwt.)"", ""40"", ""40"", ""40""]"	two-unit quantity cannot be separated; left block
+bb1925:p191:t1	23	"[""U. S., America .. (gals. cwt.)"", ""3"", ""3"", """"]"	two-unit quantity cannot be separated; left block
+bb1925:p191:t1	24	"[""Total .. (gals. cwt.)"", ""2442"", ""2442"", ""1160""]"	two-unit quantity cannot be separated; left block
+bb1925:p191:t1	25	"["""", ""196"", ""196"", """"]"	figures without a row label; left block
+bb1925:p191:t1	26	"["""", ""474381"", ""474381"", ""268437""]"	figures without a row label; left block
+bb1925:p191:t1	16	"[""United Kingdom .. (No. cwt.)"", ""291400"", ""291400"", ""54622""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	17	"[""British Possessions—"", ""2273"", ""2273"", """"]"	figures displaced onto a heading row; right block
+bb1925:p191:t1	18	"[""British India .. (No. cwt.)"", ""7091302"", ""7091302"", ""526048""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	19	"[""Foreign Countries—"", ""315467"", ""315467"", """"]"	figures displaced onto a heading row; right block
+bb1925:p191:t1	20	"[""Belgium .. (No. cwt.)"", ""55582"", ""55582"", ""7504""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	21	"[""Germany .. (No. cwt.)"", ""678"", ""678"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	22	"[""Holland .. (No. cwt.)"", ""54574"", ""54574"", ""6338""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	23	"[""Italy .. (No. cwt.)"", ""399"", ""399"", ""84""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	24	"[""Other Foreign Countries in Europe .. (No. cwt.)"", ""162"", ""162"", ""639""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	25	"["""", ""6000"", ""6000"", ""578""]"	figures without a row label; right block
+bb1925:p191:t1	26	"["""", ""84"", ""84"", """"]"	figures without a row label; right block
+bb1925:p191:t1	27	"["""", ""4000"", ""4000"", """"]"	figures without a row label; right block
+bb1925:p191:t1	28	"["""", ""77"", ""77"", """"]"	figures without a row label; right block
+bb1925:p191:t1	29	"[""Total .. (No. cwt.)"", ""7503020"", ""7503020"", ""595813""]"	two-unit quantity cannot be separated; right block
+bb1925:p191:t1	30	"[""Pipes—"", ""318978"", ""318978"", """"]"	figures displaced onto a heading row; right block
+bb1925:p191:t1	32	"[""British Possessions—"", ""14308"", ""14308"", ""101485""]"	figures displaced onto a heading row; right block
+bb1925:p194:t1	4	"[""Foreign Countries— .."", """", """", """"]"	missing country label; left block
+bb1925:p200:t1	16	"["""", """", ""53 2309""]"	figures without a row label; right block
+bb1925:p200:t1	17	"["""", """", ""192966""]"	figures without a row label; right block
+bb1925:p200:t1	25	"["""", """", ""1212 63""]"	figures without a row label; right block
+bb1925:p200:t1	26	"["""", """", ""9492""]"	figures without a row label; right block
+bb1925:p200:t1	35	"["""", """", ""110974""]"	figures without a row label; right block
+bb1925:p200:t1	39	"["""", """", ""6""]"	figures without a row label; right block
+bb1925:p200:t1	41	"["""", """", ""146""]"	figures without a row label; right block
+bb1925:p200:t1	42	"["""", """", ""2438""]"	figures without a row label; right block
+bb1925:p200:t1	49	"["""", """", ""118179""]"	figures without a row label; right block
+bb1925:p214:t1	4	"[""United Kingdom { doz. packs cwt."", ""652 18"", ""652 18"", ""5894""]"	unreadable country or unattached continuation unit 'United Kingdom { doz. packs'; right block
+bb1925:p214:t1	6	"[""Belgium { doz. packs cwt."", ""32580 767"", ""32580 767"", ""33921""]"	unreadable country or unattached continuation unit 'Belgium { doz. packs'; right block
+bb1925:p214:t1	7	"[""Denmark { doz. packs cwt."", ""60 7"", ""60 7"", ""348""]"	unreadable country or unattached continuation unit 'Denmark { doz. packs'; right block
+bb1925:p214:t1	8	"[""France { doz. packs cwt."", ""70 1"", ""70 1"", ""589""]"	unreadable country or unattached continuation unit 'France { doz. packs'; right block
+bb1925:p214:t1	9	"[""Germany { doz. packs cwt."", ""605 3"", ""605 3"", ""646""]"	unreadable country or unattached continuation unit 'Germany { doz. packs'; right block
+bb1925:p214:t1	10	"[""U. S., America { doz. packs cwt."", ""6356 162"", ""6356 162"", ""13728""]"	unreadable country or unattached continuation unit 'U. S., America { doz. packs'; right block
+bb1925:p216:t1	19	"[""United Kingdom .. (No. tons)"", ""2"", ""2"", ""1738""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	21	"[""British India .. (No. tons)"", ""27"", ""27"", ""3416""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	22	"[""Total .. (No. tons)"", ""29"", ""29"", ""5154""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	23	"["""", ""40"", ""40"", """"]"	figures without a row label; right block
+bb1925:p216:t1	26	"[""British India .. (No. tons)"", ""20"", ""20"", ""6215""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	27	"["""", ""53"", ""53"", """"]"	figures without a row label; right block
+bb1925:p216:t1	29	"[""United Kingdom .. (No. tons)"", ""14"", ""14"", ""32415""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	31	"[""British India .. (No. tons)"", ""8"", ""8"", ""1270""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	32	"["""", ""4"", ""4"", """"]"	figures without a row label; right block
+bb1925:p216:t1	33	"[""Total .. (No. tons)"", ""22"", ""22"", ""33685""]"	two-unit quantity cannot be separated; right block
+bb1925:p216:t1	34	"["""", ""50"", ""50"", """"]"	figures without a row label; right block
+bb1925:p216:t1	37	"[""United Kingdom .. No."", ""United Kingdom .. No."", ""United Kingdom .. No."", ""United Kingdom .. No.""]"	ambiguous numerical cell 'United Kingdom .. No.'; right block
+bb1925:p216:t1	42	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; right block
+bb1925:p216:t1	43	"["""", ""5908"", ""5908"", ""310090""]"	figures without a row label; right block
+bb1925:p217:t1	6	"[""United Kingdom .. (No. cwt."", ""632580"", ""632580"", ""45824""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	7	"[""British Possessions—"", ""375"", ""375"", """"]"	figures displaced onto a heading row; right block
+bb1925:p217:t1	8	"[""Australia .. (No. tons"", ""80"", ""80"", ""10""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	9	"[""British India .. (No. cwt."", ""71885"", ""71885"", ""10795""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	10	"[""Canada .. (No. tons"", ""73"", ""73"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	11	"["""", ""100"", ""100"", ""13""]"	figures without a row label; right block
+bb1925:p217:t1	13	"[""Total Br. Poss. .. (No. cwt."", ""72065"", ""72065"", ""10818""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	14	"[""Foreign Countries—"", ""73"", ""73"", """"]"	figures displaced onto a heading row; right block
+bb1925:p217:t1	15	"[""Belgium .. (No. cwt."", ""5000"", ""5000"", ""358""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	16	"[""France .. (No. cwt."", ""4"", ""4"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	17	"[""Germany .. (No. cwt."", ""3000"", ""3000"", ""421""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	18	"[""U. S., America .. (No. cwt."", ""1"", ""1"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	19	"["""", ""64710"", ""64710"", ""5326""]"	figures without a row label; right block
+bb1925:p217:t1	20	"["""", ""55"", ""55"", """"]"	figures without a row label; right block
+bb1925:p217:t1	21	"["""", ""376532"", ""376532"", ""25641""]"	figures without a row label; right block
+bb1925:p217:t1	22	"[""Total .. (No. cwt."", ""321"", ""321"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	23	"["""", ""1153887"", ""1153887"", ""88388""]"	figures without a row label; right block
+bb1925:p217:t1	24	"["""", ""909"", ""909"", """"]"	figures without a row label; right block
+bb1925:p217:t1	26	"[""United Kingdom .. (No. cwt."", ""20975"", ""20975"", ""1098""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	27	"["""", ""6"", ""6"", """"]"	figures without a row label; right block
+bb1925:p217:t1	29	"[""Belgium .. (No. cwt."", ""5000"", ""5000"", ""41""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	30	"[""France .. (No. cwt."", ""1"", ""1"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	31	"[""Germany .. (No. cwt."", ""300"", ""300"", ""10""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	32	"[""U. S., America .. (No. cwt."", ""200"", ""200"", ""24""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	33	"["""", ""12500"", ""12500"", ""668""]"	figures without a row label; right block
+bb1925:p217:t1	34	"[""Total .. (No. cwt."", ""4"", ""4"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	35	"["""", ""38975"", ""38975"", ""1841""]"	figures without a row label; right block
+bb1925:p217:t1	37	"[""United Kingdom .. (No. cwt."", ""11"", ""11"", """"]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	38	"["""", ""4757250"", ""4757250"", ""13208""]"	figures without a row label; right block
+bb1925:p217:t1	39	"[""Foreign Countries—"", ""34"", ""34"", """"]"	figures displaced onto a heading row; right block
+bb1925:p217:t1	40	"[""U. S., America .. (No. cwt."", ""10000"", ""10000"", ""86""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	41	"["""", ""—"", ""—"", """"]"	figures without a row label; right block
+bb1925:p217:t1	42	"[""Total .. (No. cwt."", ""4767250"", ""4767250"", ""13294""]"	two-unit quantity cannot be separated; right block
+bb1925:p217:t1	43	"["""", ""34"", ""34"", """"]"	figures without a row label; right block
+bb1925:p224:t1	5	"[""British Possessions"", ""—"", ""—"", ""87""]"	figures displaced onto a country-group heading; left block
+bb1925:p224:t1	9	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	24	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	46	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	55	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	59	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	68	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	74	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1925:p224:t1	5	"[""British Possessions—"", ""—"", ""—"", ""371""]"	figures displaced onto a heading row; right block
+bb1925:p224:t1	10	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	12	"[""Foreign Countries—"", ""—"", ""—"", ""76""]"	figures displaced onto a heading row; right block
+bb1925:p224:t1	16	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	18	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	21	"[""British Possessions—"", ""—"", ""—"", ""1285""]"	figures displaced onto a heading row; right block
+bb1925:p224:t1	24	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	33	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	37	"[""British Possessions—"", ""—"", ""—"", ""3""]"	figures displaced onto a heading row; right block
+bb1925:p224:t1	43	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	61	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	70	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	72	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	74	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p224:t1	75	"["""", ""—"", ""—"", ""—""]"	figures without a row label; right block
+bb1925:p233:t1	28	"[""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \"""", ""Other Foreign Countries in Africa .. \""""]"	"ambiguous numerical cell 'Other Foreign Countries in Africa .. ""'"
+bb1925:p233:t1	33	"["""", ""215"", ""—"", ""215"", ""15"", ""—"", ""15""]"	figures without a row label
+bb1925:p248:t1	49	"["""", ""2048694"", ""—"", ""2048694"", ""454640"", ""—"", ""454640""]"	figures without a row label
+bb1925:p255:t1	29	"[""United Kingdom .. ( No. cwt."", ""--"", ""500"", ""500"", ""--"", ""305"", ""305""]"	two-unit quantity cannot be separated
+bb1925:p255:t1	31	"[""British India .. ( No. cwt."", ""47600"", ""13390"", ""60990"", ""1749"", ""1938"", ""3687""]"	two-unit quantity cannot be separated
+bb1925:p255:t1	32	"["""", ""870"", ""220"", ""1090"", """", """", """"]"	figures without a row label
+bb1925:p255:t1	33	"[""Total .. ( No. cwt."", ""47600"", ""13890"", ""61490"", ""1749"", ""2243"", ""3992""]"	two-unit quantity cannot be separated
+bb1925:p255:t1	34	"["""", ""870"", ""229"", ""1099"", """", """", """"]"	figures without a row label
+bb1925:p257:t1	38	"["""", ""cwt. —"", ""1798"", ""1798"", ""—"", """", """"]"	figures without a row label
+bb1925:p257:t1	40	"["""", ""cwt. —"", ""60"", ""60"", ""—"", """", """"]"	figures without a row label
+bb1925:p257:t1	42	"["""", ""cwt. —"", ""1858"", ""1858"", ""—"", """", """"]"	figures without a row label
+bb1925:p257:t1	45	"["""", ""cwt. —"", ""206"", ""206"", ""—"", """", """"]"	figures without a row label
+bb1925:p257:t1	47	"["""", ""cwt. —"", ""—"", ""—"", ""—"", """", """"]"	figures without a row label
+bb1925:p257:t1	49	"["""", ""cwt. —"", ""2064"", ""2064"", ""—"", """", """"]"	figures without a row label
+bb1925:p258:t1	4	"[""United Kingdom .."", ""No. — cwt. —"", ""1 34"", ""1 34"", ""—"", ""500"", ""500""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	6	"[""British India .."", ""No. — cwt. —"", ""32 248"", ""32 248"", ""—"", ""16944"", ""16944""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	7	"[""British New Guinea .."", ""No. — cwt. —"", ""— 3"", ""— 3"", ""—"", ""260"", ""260""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	8	"[""Burma .."", ""No. — cwt. —"", ""4 3"", ""4 3"", ""—"", ""400"", ""400""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	9	"[""Straits Settlements .."", ""No. 2 cwt. 136"", ""— 20"", ""2 156"", ""10030"", ""1800"", ""11830""]"	ambiguous numerical cell '2 136'
+bb1925:p258:t1	10	"[""Total British Poss. .."", ""No. 2 cwt. 136"", ""36 274"", ""38 410"", ""10030"", ""19404"", ""29434""]"	ambiguous numerical cell '2 136'
+bb1925:p258:t1	12	"[""Java .."", ""No. — cwt. —"", ""4 37"", ""4 37"", ""—"", ""4150"", ""4150""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	13	"[""Total .."", ""No. 2 cwt. 136"", ""41 345"", ""43 431"", ""10030"", ""24054"", ""34084""]"	ambiguous numerical cell '2 136'
+bb1925:p258:t1	15	"[""United Kingdom .."", ""No. — cwt. —"", ""12 165"", ""12 165"", ""—"", ""11280"", ""11280""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	17	"[""Australia .."", ""No. — cwt. —"", ""— 5"", ""— 5"", ""—"", ""350"", ""350""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	18	"[""British East Africa .."", ""No. — cwt. —"", ""1 —"", ""1 —"", ""—"", ""25"", ""25""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	19	"[""British India .."", ""No. — cwt. —"", ""57 1338"", ""57 1338"", ""—"", ""61454"", ""61454""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	20	"[""Burma .."", ""No. — cwt. —"", ""17 2"", ""17 2"", ""—"", ""1582"", ""1582""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	21	"[""Hong Kong .."", ""No. — cwt. —"", ""1 2"", ""1 2"", ""—"", ""62"", ""62""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	22	"[""Maldives Islands .."", ""No. — cwt. —"", ""20 29"", ""20 29"", ""—"", ""3005"", ""3005""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	23	"[""Straits Settlements .."", ""No. — cwt. 32"", ""1 11"", ""1 43"", ""3000"", ""2292"", ""5292""]"	ambiguous numerical cell '— 32'
+bb1925:p258:t1	24	"[""Total British Poss. .."", ""No. — cwt. 32"", ""97 1387"", ""97 1419"", ""3000"", ""68770"", ""71770""]"	ambiguous numerical cell '— 32'
+bb1925:p258:t1	26	"[""Java .."", ""No. — cwt. —"", ""2 21"", ""2 21"", ""—"", ""2200"", ""2200""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	27	"[""Philippine Islands .."", ""No. — cwt. —"", ""— 6"", ""— 6"", ""—"", ""800"", ""800""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	28	"[""U. S., America .."", ""No. — cwt. —"", ""1 2"", ""1 2"", ""—"", ""212"", ""212""]"	ambiguous numerical cell '— —'
+bb1925:p258:t1	29	"[""Total .."", ""No. — cwt. 32"", ""112 1581"", ""112 1613"", ""3000"", ""83262"", ""86262""]"	ambiguous numerical cell '— 32'
+bb1925:p261:t1	13	"[""United Kingdom .. (yds. doz."", ""—"", ""100"", ""100"", ""—"", ""135"", ""135""]"	two-unit quantity cannot be separated
+bb1925:p261:t1	15	"[""British India .. (yds. doz."", ""—"", ""6721"", ""6721"", ""—"", ""4720"", ""4720""]"	two-unit quantity cannot be separated
+bb1925:p261:t1	17	"[""Japan .. (yds. doz."", ""—"", ""31"", ""31"", ""—"", ""186"", ""186""]"	two-unit quantity cannot be separated
+bb1925:p261:t1	18	"[""Total .. (yds. doz."", ""—"", ""6821"", ""6821"", ""—"", ""5041"", ""5041""]"	two-unit quantity cannot be separated
+bb1925:p262:t1	10	"[""British Possessions—"", ""—"", ""4372"", ""4372"", ""—"", ""11378"", ""11378""]"	figures displaced onto a heading row
+bb1925:p270:t1	6	"[""United Kingdom .. (No. tons.)"", ""—"", ""9"", ""9"", ""—"", ""1370"", ""1370""]"	two-unit quantity cannot be separated
+bb1925:p270:t1	29	"[""Greece .. (No. tons.)"", ""1"", ""—"", ""1"", ""150"", ""150"", ""150""]"	two-unit quantity cannot be separated
+bb1925:p271:t1	6	"[""British India .. ( No. tons."", ""—"", ""6"", ""6"", ""—"", ""1000"", ""1000""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	26	"[""United Kingdom .. { pkgs. tons"", ""—"", ""147"", ""147"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	27	"[""British Possessions— British East Africa { pkgs. tons"", ""—"", ""1"", ""1"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'British East Africa { pkgs'
+bb1925:p275:t1	28	"[""British India .. { pkgs. tons"", ""—"", ""1070"", ""1070"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	29	"[""Egypt .. { pkgs. tons"", ""—"", ""1"", ""1"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	30	"[""Malta .. { pkgs. tons"", ""—"", ""1"", ""1"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	31	"[""Straits Settlements { pkgs. tons"", ""—"", ""14"", ""14"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'Straits Settlements { pkgs'
+bb1925:p275:t1	32	"[""Total British Possessions { pkgs. tons"", ""—"", ""1087"", ""1087"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'Total British Possessions { pkgs'
+bb1925:p275:t1	33	"[""Foreign Countries— Arabia .. { pkgs. tons"", ""—"", ""34"", ""34"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	34	"[""For Bunkers .. { pkgs. tons"", ""—"", ""10119"", ""10119"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p275:t1	35	"[""Ships Stores .. { pkgs. tons"", ""—"", ""1169"", ""1169"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1925:p280:t1	45	"[""British India .. gals."", ""200 260"", ""200 260"", ""3365""]"	ambiguous numerical cell '200 260'; left block
+bb1925:p280:t1	47	"[""United Kingdom .. gals."", ""23 40"", ""23 40"", ""406""]"	ambiguous numerical cell '23 40'; left block
+bb1925:p280:t1	49	"[""Java .. „"", ""3150 5040"", ""3150 5050"", ""6300""]"	ambiguous numerical cell '3150 5040'; left block
+bb1925:p280:t1	50	"[""Total .."", ""3173 5080"", ""3173 5080"", ""6706""]"	article total in unresolved multiple-quantity layout; left block
+bb1925:p281:t1	9	"[""Tar and pitch— United Kingdom .. (gals. cwt.) British Possessions— British India .. (gals. cwt.)"", ""295471 34268 32800 3820"", ""295471 34268 32800 3820"", ""139786 24923""]"	multiple country rows merged into one OCR row; right block
+bb1925:p285:t1	6	"[""Sewing machines— British Possessions— British India .. ( No. cwt."", ""— 1 2"", ""— 1 2"", ""469""]"	two-unit quantity cannot be separated; right block
+bb1925:p286:t1	12	"[""Sacks and bags empty new— British Possessions— British India .. { doz. .. { cwt."", ""83 142"", ""83 142"", ""11257""]"	unreadable country or unattached continuation unit 'British India { doz.'; right block
+bb1925:p286:t1	13	"[""Jute manufactures, other— United Kingdom .. { doz. .. { cwt."", ""25 1"", ""25 1"", ""300""]"	unreadable country or unattached continuation unit 'United Kingdom { doz.'; right block
+bb1925:p289:t1	5	"[""United Kingdom .. (No. cwt."", ""171432"", ""171432"", ""3489""]"	two-unit quantity cannot be separated; left block
+bb1925:p289:t1	7	"[""British India .. (No. cwt."", ""69930"", ""69930"", ""10178""]"	two-unit quantity cannot be separated; left block
+bb1925:p289:t1	8	"[""Total .. (No. cwt."", ""241362"", ""241362"", ""13667""]"	two-unit quantity cannot be separated; left block
+bb1925:p289:t1	9	"["""", ""92"", ""92"", """"]"	figures without a row label; left block
+bb1925:p289:t1	13	"[""United Kingdom .. (coils. cwt."", ""88583"", ""88583"", ""43098""]"	two-unit quantity cannot be separated; left block
+bb1925:p289:t1	14	"["""", ""287"", ""287"", """"]"	figures without a row label; left block
+bb1925:p289:t1	16	"[""United Kingdom .. (No. cwt."", ""81250"", ""81250"", ""3385""]"	two-unit quantity cannot be separated; left block
+bb1925:p289:t1	17	"["""", ""9"", ""9"", """"]"	figures without a row label; left block
+bb1924:p263:t1	26	"[""British India .. †cwt."", ""915"", ""915"", ""7318""]"	unreadable or merged unit field '†cwt.'; right block
+bb1924:p268:t1	33	"[""Total British Possessions"", ""1 13"", ""1713"", ""85419""]"	ambiguous numerical cell '1 13'; left block
+bb1924:p270:t1	12	"[""British India .. gals."", """", ""100 130"", ""100 130""]"	ambiguous numerical cell '100 130'; left block
+bb1924:p270:t1	15	"[""United Kingdom .. gals."", """", ""I. P."", ""I. P.""]"	ambiguous numerical cell 'I. P.'; left block
+bb1924:p270:t1	17	"[""Australia .. \"""", """", ""— —"", ""— —""]"	ambiguous numerical cell '— —'; left block
+bb1924:p270:t1	20	"[""France .. \"""", """", ""50706 44028"", ""50783 44089""]"	ambiguous numerical cell '50706 44028'; left block
+bb1924:p270:t1	21	"[""Total .."", """", ""50706 44028"", ""50783 44089""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p270:t1	24	"[""United Kingdom .. gals."", """", ""I. P."", ""I. P.""]"	ambiguous numerical cell 'I. P.'; left block
+bb1924:p270:t1	25	"["""", """", ""15118 12410"", ""15407 12659""]"	figures without a row label; left block
+bb1924:p270:t1	27	"[""France .. \"""", """", ""327 300"", ""327 300""]"	ambiguous numerical cell '327 300'; left block
+bb1924:p270:t1	28	"[""Holland .. \"""", """", ""83773 73845"", ""79966 70528""]"	ambiguous numerical cell '83773 73845'; left block
+bb1924:p270:t1	29	"[""Total .."", """", ""99218 86555"", ""95700 83487""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p270:t1	32	"[""United Kingdom .. gals."", """", ""I. P."", ""I. P.""]"	ambiguous numerical cell 'I. P.'; left block
+bb1924:p270:t1	33	"[""British Possessions—"", """", ""206 —"", ""206 —""]"	figures displaced onto a heading row; left block
+bb1924:p270:t1	34	"[""Cape Colony .. \"""", """", ""16 —"", ""16 —""]"	ambiguous numerical cell '16 —'; left block
+bb1924:p270:t1	35	"[""Natal .. \"""", """", ""18 —"", ""18 —""]"	ambiguous numerical cell '18 —'; left block
+bb1924:p270:t1	36	"[""Total British Possessions"", """", ""34 —"", ""34 —""]"	ambiguous numerical cell '34 —'; left block
+bb1924:p270:t1	39	"[""Denmark .. \"""", """", ""108 —"", ""86 —""]"	ambiguous numerical cell '108 —'; left block
+bb1924:p270:t1	40	"[""France .. \"""", """", ""538 —"", ""516 —""]"	ambiguous numerical cell '538 —'; left block
+bb1924:p270:t1	41	"[""Germany .. \"""", """", ""27 —"", ""27 —""]"	ambiguous numerical cell '27 —'; left block
+bb1924:p270:t1	42	"[""Holland .. \"""", """", ""103 —"", ""103 —""]"	ambiguous numerical cell '103 —'; left block
+bb1924:p270:t1	43	"[""Russia in Europe .. \"""", """", ""16 —"", ""16 —""]"	ambiguous numerical cell '16 —'; left block
+bb1924:p270:t1	44	"[""Total .."", """", ""1032 —"", ""988 —""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p270:t1	47	"[""United Kingdom .. gals."", """", ""I. P."", ""I. P.""]"	ambiguous numerical cell 'I. P.'; left block
+bb1924:p270:t1	48	"[""British Possessions—"", """", ""196 160"", ""196 160""]"	figures displaced onto a heading row; left block
+bb1924:p270:t1	49	"[""British West Indies .. \"""", """", ""29 39"", ""29 39""]"	ambiguous numerical cell '29 39'; left block
+bb1924:p270:t1	52	"[""France .. \"""", """", ""24 19"", ""24 19""]"	ambiguous numerical cell '24 19'; left block
+bb1924:p270:t1	53	"[""Holland .. \"""", """", ""9 8"", ""9 8""]"	ambiguous numerical cell '9 8'; left block
+bb1924:p270:t1	54	"[""Total .."", """", ""258 226"", ""253 226""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p270:t1	57	"[""United Kingdom .. gals."", """", ""I. P."", ""I. P.""]"	ambiguous numerical cell 'I. P.'; left block
+bb1924:p270:t1	58	"[""British Possessions—"", """", ""236 366"", ""236 366""]"	figures displaced onto a heading row; left block
+bb1924:p270:t1	59	"[""Australia .. \"""", """", ""51 85"", ""100 168""]"	ambiguous numerical cell '51 85'; left block
+bb1924:p270:t1	62	"[""Germany .. \"""", """", ""46 79"", ""46 79""]"	ambiguous numerical cell '46 79'; left block
+bb1924:p270:t1	63	"[""Java .. \"""", """", ""4174 6680"", ""4174 6680""]"	ambiguous numerical cell '4174 6680'; left block
+bb1924:p270:t1	64	"[""Total .."", """", ""4507 6910"", ""4556 7293""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p270:t1	4	"[""2396"", ""United Kingdom .. gals."", ""I. P."", ""1246620""]"	unreadable country or unattached continuation unit '2396'; right block
+bb1924:p270:t1	6	"[""3808"", """", ""68899 53807"", ""71537 55887""]"	unreadable country or unattached continuation unit '3808'; right block
+bb1924:p270:t1	8	"["""", ""United Kingdom .. gals."", ""1 2"", ""327""]"	figures without a row label; right block
+bb1924:p270:t1	11	"["""", ""United Kingdom .. cwt."", """", ""12210""]"	figures without a row label; right block
+bb1924:p270:t1	12	"[""1700"", """", ""335"", ""335""]"	unreadable country or unattached continuation unit '1700'; right block
+bb1924:p270:t1	14	"["""", ""Australia .. \"""", ""685"", ""19291""]"	figures without a row label; right block
+bb1924:p270:t1	15	"["""", ""British India .. \"""", ""9"", ""190""]"	figures without a row label; right block
+bb1924:p270:t1	16	"[""27"", ""Total British Possessions"", ""694"", ""19481""]"	unreadable country or unattached continuation unit '27'; right block
+bb1924:p270:t1	19	"["""", ""Holland .. \"""", ""80"", ""2109""]"	figures without a row label; right block
+bb1924:p270:t1	20	"[""455716"", ""Total .."", ""1109"", ""33800""]"	unreadable country or unattached continuation unit '455716'; right block
+bb1924:p270:t1	23	"["""", ""United Kingdom .. cwt."", """", ""9134""]"	figures without a row label; right block
+bb1924:p270:t1	24	"[""154147"", """", ""228"", ""228""]"	unreadable country or unattached continuation unit '154147'; right block
+bb1924:p270:t1	26	"["""", ""Australia .. \"""", ""1317"", ""34730""]"	figures without a row label; right block
+bb1924:p270:t1	27	"[""1819"", ""British India .. \"""", ""10338"", ""242955""]"	unreadable country or unattached continuation unit '1819'; right block
+bb1924:p270:t1	28	"[""702121"", ""Hong Kong .. \"""", ""53047"", ""1182912""]"	unreadable country or unattached continuation unit '702121'; right block
+bb1924:p270:t1	29	"[""858087"", ""Mauritius .. \"""", ""9965"", ""268711""]"	unreadable country or unattached continuation unit '858087'; right block
+bb1924:p270:t1	30	"["""", ""Straits Settlements .. \"""", ""19126"", ""425793""]"	figures without a row label; right block
+bb1924:p270:t1	31	"["""", ""Total British Possessions"", ""93733"", ""2155101""]"	figures without a row label; right block
+bb1924:p270:t1	34	"[""806"", ""Austria .. \"""", ""2808"", ""64544""]"	unreadable country or unattached continuation unit '806'; right block
+bb1924:p270:t1	35	"[""324"", ""Belgium .. \"""", ""9351"", ""232732""]"	unreadable country or unattached continuation unit '324'; right block
+bb1924:p270:t1	36	"[""1130"", ""China .. \"""", ""3822"", ""148895""]"	unreadable country or unattached continuation unit '1130'; right block
+bb1924:p270:t1	37	"["""", ""Germany .. \"""", ""2000"", ""45308""]"	figures without a row label; right block
+bb1924:p270:t1	38	"["""", ""Holland .. \"""", ""486"", ""13500""]"	figures without a row label; right block
+bb1924:p270:t1	39	"[""2404"", ""Java .. \"""", ""521438"", ""11446808""]"	unreadable country or unattached continuation unit '2404'; right block
+bb1924:p270:t1	40	"[""13361"", ""Switzerland .. \"""", ""472"", ""13400""]"	unreadable country or unattached continuation unit '13361'; right block
+bb1924:p270:t1	41	"[""582"", ""U. S. America .. \"""", ""1"", ""86""]"	unreadable country or unattached continuation unit '582'; right block
+bb1924:p270:t1	42	"[""1941"", ""Total .."", ""634339"", ""628839""]"	unreadable country or unattached continuation unit '1941'; right block
+bb1924:p270:t1	46	"["""", ""British India .. cwt."", ""55753"", ""669048""]"	figures without a row label; right block
+bb1924:p270:t1	47	"[""2673"", ""Burma .. \"""", ""93"", ""2550""]"	unreadable country or unattached continuation unit '2673'; right block
+bb1924:p270:t1	48	"["""", ""Total British Possessions"", ""55846"", ""671598""]"	figures without a row label; right block
+bb1924:p270:t1	51	"["""", ""United Kingdom .. lb."", ""18"", ""17""]"	figures without a row label; right block
+bb1924:p270:t1	54	"[""3416"", ""Australia .. \"""", ""12"", ""30""]"	unreadable country or unattached continuation unit '3416'; right block
+bb1924:p270:t1	55	"["""", ""British India .. \"""", ""258"", ""319""]"	figures without a row label; right block
+bb1924:p270:t1	56	"["""", ""Hong Kong .. \"""", ""16"", ""32""]"	figures without a row label; right block
+bb1924:p270:t1	57	"[""2394"", ""Straits Settlements .. \"""", ""6"", ""11""]"	unreadable country or unattached continuation unit '2394'; right block
+bb1924:p270:t1	58	"["""", ""Total British Possessions"", ""292"", ""392""]"	figures without a row label; right block
+bb1924:p270:t1	61	"["""", ""China .. \"""", ""24"", ""19""]"	figures without a row label; right block
+bb1924:p270:t1	62	"[""387"", ""Japan .. \"""", ""3"", ""2""]"	unreadable country or unattached continuation unit '387'; right block
+bb1924:p270:t1	63	"[""13336"", ""Total .."", ""337"", ""430""]"	unreadable country or unattached continuation unit '13336'; right block
+bb1924:p275:t1	8	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; left block
+bb1924:p275:t1	9	"[""646 646 83764"", ""646 646 83764"", ""646 646 83764"", ""646 646 83764""]"	unreadable country or unattached continuation unit '646 646 83764'; left block
+bb1924:p275:t1	16	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; left block
+bb1924:p275:t1	17	"[""936 936 154305"", ""936 936 154305"", ""936 936 154305"", ""936 936 154305""]"	unreadable country or unattached continuation unit '936 936 154305'; left block
+bb1924:p275:t1	23	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; left block
+bb1924:p275:t1	24	"[""17750 17750 1659873"", ""17750 17750 1659873"", ""17750 17750 1659873"", ""17750 17750 1659873""]"	unreadable country or unattached continuation unit '17750 17750 1659873'; left block
+bb1924:p275:t1	25	"[""1865 1865 49013"", ""1865 1865 49013"", ""1865 1865 49013"", ""1865 1865 49013""]"	unreadable country or unattached continuation unit '1865 1865 49013'; left block
+bb1924:p275:t1	32	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; left block
+bb1924:p275:t1	33	"[""4055 4055 134540"", ""4055 4055 134540"", ""4055 4055 134540"", ""4055 4055 134540""]"	unreadable country or unattached continuation unit '4055 4055 134540'; left block
+bb1924:p275:t1	34	"[""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253""]"	unreadable country or unattached continuation unit '1875 1875 49253'; left block
+bb1924:p275:t1	35	"[""4055 4055 134540"", ""4055 4055 134540"", ""4055 4055 134540"", ""4055 4055 134540""]"	unreadable country or unattached continuation unit '4055 4055 134540'; left block
+bb1924:p275:t1	36	"[""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253""]"	unreadable country or unattached continuation unit '1875 1875 49253'; left block
+bb1924:p275:t1	44	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; left block
+bb1924:p275:t1	45	"[""391 391 9422"", ""391 391 9422"", ""391 391 9422"", ""391 391 9422""]"	unreadable country or unattached continuation unit '391 391 9422'; left block
+bb1924:p275:t1	52	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; left block
+bb1924:p275:t1	53	"[""1 1 40"", ""1 1 40"", ""1 1 40"", ""1 1 40""]"	unreadable country or unattached continuation unit '1 1 40'; left block
+bb1924:p275:t1	8	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1924:p275:t1	9	"[""16 16 313"", ""16 16 313"", ""16 16 313"", ""16 16 313""]"	unreadable country or unattached continuation unit '16 16 313'; right block
+bb1924:p275:t1	16	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1924:p275:t1	17	"[""1865 1865 49013"", ""1865 1865 49013"", ""1865 1865 49013"", ""1865 1865 49013""]"	unreadable country or unattached continuation unit '1865 1865 49013'; right block
+bb1924:p275:t1	24	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; right block
+bb1924:p275:t1	28	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1924:p275:t1	29	"[""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253"", ""1875 1875 49253""]"	unreadable country or unattached continuation unit '1875 1875 49253'; right block
+bb1924:p275:t1	35	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1924:p275:t1	36	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	37	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1924:p275:t1	38	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	39	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	40	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	41	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	42	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	43	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	44	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	45	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	46	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	47	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	48	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	49	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	50	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	51	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	52	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p275:t1	53	"[""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978"", ""1869 1869 8978""]"	unreadable country or unattached continuation unit '1869 1869 8978'; right block
+bb1924:p280:t1	16	"[""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths.""]"	unreadable country or unattached continuation unit 'Glass and glassware, window glass, 16 oz., thirds and fourths.'; right block
+bb1924:p281:t1	1	"[""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. OTHER DESCRIPTIONS OF NON-METALLIFEROUS MINING AND QUARRY PRODUCTS WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. OTHER DESCRIPTIONS OF NON-METALLIFEROUS MINING AND QUARRY PRODUCTS WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. OTHER DESCRIPTIONS OF NON-METALLIFEROUS MINING AND QUARRY PRODUCTS WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. OTHER DESCRIPTIONS OF NON-METALLIFEROUS MINING AND QUARRY PRODUCTS WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross—""]"	figures displaced onto a heading row; left block
+bb1924:p288:t1	8	"["""", """", ""14199""]"	figures without a row label; right block
+bb1924:p288:t1	11	"["""", """", ""156""]"	figures without a row label; right block
+bb1924:p288:t1	14	"["""", """", ""—""]"	figures without a row label; right block
+bb1924:p288:t1	16	"["""", """", ""330""]"	figures without a row label; right block
+bb1924:p288:t1	18	"["""", """", ""330""]"	figures without a row label; right block
+bb1924:p288:t1	21	"["""", """", ""84277""]"	figures without a row label; right block
+bb1924:p288:t1	24	"["""", """", ""5667""]"	figures without a row label; right block
+bb1924:p288:t1	27	"["""", """", ""231""]"	figures without a row label; right block
+bb1924:p288:t1	29	"["""", """", ""1766""]"	figures without a row label; right block
+bb1924:p288:t1	31	"["""", """", ""10090""]"	figures without a row label; right block
+bb1924:p288:t1	33	"["""", """", ""7344""]"	figures without a row label; right block
+bb1924:p288:t1	35	"["""", """", ""9834""]"	figures without a row label; right block
+bb1924:p288:t1	37	"["""", """", ""119209""]"	figures without a row label; right block
+bb1924:p288:t1	40	"["""", """", ""277637""]"	figures without a row label; right block
+bb1924:p288:t1	43	"["""", """", ""7471""]"	figures without a row label; right block
+bb1924:p288:t1	45	"["""", """", ""1311""]"	figures without a row label; right block
+bb1924:p288:t1	47	"["""", """", ""4333""]"	figures without a row label; right block
+bb1924:p288:t1	49	"["""", """", ""1330""]"	figures without a row label; right block
+bb1924:p288:t1	51	"["""", """", ""2396""]"	figures without a row label; right block
+bb1924:p288:t1	53	"["""", """", ""294478""]"	figures without a row label; right block
+bb1924:p288:t1	56	"["""", """", ""10142""]"	figures without a row label; right block
+bb1924:p288:t1	59	"["""", """", ""196""]"	figures without a row label; right block
+bb1924:p288:t1	62	"["""", """", ""2550""]"	figures without a row label; right block
+bb1924:p288:t1	64	"["""", """", ""12888""]"	figures without a row label; right block
+bb1924:p290:t1	3	"[""Sewing Machines—contd. No. cwt."", ""3866 2354"", ""3866 2354"", ""436695""]"	ambiguous numerical cell '3866 2354'; left block
+bb1924:p292:t1	26	"[""Italy .. (doz. yds.)"", ""3185"", ""3185"", ""329""]"	two-unit quantity cannot be separated; right block
+bb1924:p292:t1	27	"[""Japan .. (doz. yds.)"", ""1696"", ""1696"", ""27931""]"	two-unit quantity cannot be separated; right block
+bb1924:p292:t1	29	"[""Switzerland .. (doz. yds.)"", ""11224"", ""11224"", ""6086""]"	two-unit quantity cannot be separated; right block
+bb1924:p292:t1	30	"[""U. S., America .. (doz. yds.)"", ""722"", ""722"", ""4005""]"	two-unit quantity cannot be separated; right block
+bb1924:p296:t1	48	"[""United Kingdom .. value"", ""United Kingdom .. value"", ""United Kingdom .. value"", ""United Kingdom .. value""]"	ambiguous numerical cell 'United Kingdom .. value'; left block
+bb1924:p296:t1	59	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1924:p296:t1	60	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1924:p296:t1	61	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1924:p296:t1	62	"["""", ""—"", ""—"", ""—""]"	figures without a row label; left block
+bb1924:p302:t1	39	"[""cwt."", ""27"", ""27"", ""7053""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	42	"[""cwt."", ""1"", ""1"", ""105""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	45	"[""cwt."", ""1124"", ""1124"", ""49893""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	47	"[""cwt."", ""1"", ""1"", ""102""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	49	"[""cwt."", ""3"", ""3"", ""430""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	51	"[""cwt."", ""372"", ""372"", ""33265""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p302:t1	53	"[""cwt."", ""1528"", ""1528"", ""90848""]"	unreadable country or unattached continuation unit 'cwt.'; right block
+bb1924:p304:t1	42	"[""British India .. (No. tons"", ""38"", ""38"", ""3497""]"	two-unit quantity cannot be separated; right block
+bb1924:p304:t1	43	"["""", ""61"", ""61"", """"]"	figures without a row label; right block
+bb1924:p304:t1	45	"[""U. S., America .. (No. tons"", ""1"", ""1"", ""261""]"	two-unit quantity cannot be separated; right block
+bb1924:p304:t1	46	"["""", ""—"", ""—"", """"]"	figures without a row label; right block
+bb1924:p304:t1	47	"[""Total .. (No. tons"", ""39"", ""39"", ""3758""]"	two-unit quantity cannot be separated; right block
+bb1924:p304:t1	48	"["""", ""61"", ""61"", """"]"	figures without a row label; right block
+bb1924:p304:t1	51	"[""British India .. (No. tons"", ""2"", ""2"", ""1080""]"	two-unit quantity cannot be separated; right block
+bb1924:p304:t1	52	"["""", ""2"", ""2"", """"]"	figures without a row label; right block
+bb1924:p308:t1	48	"[""British India .. (No. lin.ft.)"", ""53"", ""53"", ""62362""]"	two-unit quantity cannot be separated; left block
+bb1924:p308:t1	49	"[""Straits Settlements .. (No. lin.ft.)"", ""1905643"", ""1905643"", ""6""]"	two-unit quantity cannot be separated; left block
+bb1924:p308:t1	50	"[""Total British Possessions .. (No. lin.ft.)"", ""53"", ""53"", ""62368""]"	two-unit quantity cannot be separated; left block
+bb1924:p308:t1	52	"[""France .. (No. lin.ft.)"", ""52"", ""52"", ""592""]"	two-unit quantity cannot be separated; left block
+bb1924:p308:t1	53	"[""Total .. (No. lin.ft.)"", ""105"", ""105"", ""66402""]"	two-unit quantity cannot be separated; left block
+bb1924:p308:t1	54	"["""", ""1938729"", ""1938729"", """"]"	figures without a row label; left block
+bb1924:p312:t1	3	"[""United Kingdom .. { tons 5534 5534"", """", """", """"]"	unreadable or merged unit field 'tons 5534 5534'; left block
+bb1924:p312:t1	5	"[""Australia .. { cases 1211 1211"", """", """", """"]"	unreadable or merged unit field 'cases 1211 1211'; left block
+bb1924:p312:t1	6	"[""British India .. { tons 1262 1262"", """", """", """"]"	unreadable or merged unit field 'tons 1262 1262'; left block
+bb1924:p312:t1	7	"[""Hong Kong .. { cases 316 316"", """", """", """"]"	unreadable or merged unit field 'cases 316 316'; left block
+bb1924:p312:t1	8	"[""Malta .. { tons 229 229"", """", """", """"]"	unreadable or merged unit field 'tons 229 229'; left block
+bb1924:p312:t1	9	"[""New Zealand .. { cases 2 2"", """", """", """"]"	unreadable or merged unit field 'cases 2 2'; left block
+bb1924:p312:t1	11	"[""Total British Possessions { tons 3092 3092"", """", """", """"]"	unreadable or merged unit field 'tons 3092 3092'; left block
+bb1924:p312:t1	13	"[""China .. { tons 1 1"", """", """", """"]"	unreadable or merged unit field 'tons 1 1'; left block
+bb1924:p312:t1	14	"[""U. S., America .. { tons 1 1"", """", """", """"]"	unreadable or merged unit field 'tons 1 1'; left block
+bb1924:p312:t1	15	"[""Total .. { tons 5534 5534"", """", """", """"]"	unreadable or merged unit field 'tons 5534 5534'; left block
+bb1924:p312:t1	16	"[""cases 26376 26376"", """", """", """"]"	unattached unit continuation row; left block
+bb1924:p312:t1	17	"[""gals. 16738074 16738074"", """", """", """"]"	unattached unit continuation row; left block
+bb1924:p312:t1	21	"[""Australia .. 15"", """", """", """"]"	unreadable or merged unit field '15'; left block
+bb1924:p312:t1	23	"[""Burma .. 325"", """", """", """"]"	unreadable or merged unit field '325'; left block
+bb1924:p312:t1	31	"[""India, exc. British .. 2"", """", """", """"]"	unreadable or merged unit field '2'; left block
+bb1924:p312:t1	16	"[""1000"", ""1000"", ""6545"", """"]"	unreadable country or unattached continuation unit '1000'; right block
+bb1924:p312:t1	21	"[""Australia .. 9"", """", """", """"]"	unreadable or merged unit field '9'; right block
+bb1924:p328:t1	42	"[""Maldiv Islands .. \"""", ""9709"", ""—"", ""10619*"", ""9956"", ""—"", ""10496*""]"	ambiguous numerical cell '10619*'
+bb1924:p328:t1	54	"[""Total British Possessions"", ""48756117"", ""461715"", ""49218742*"", ""51259482"", ""486187"", ""51746209*""]"	ambiguous numerical cell '49218742*'
+bb1924:p329:t1	7	"["""", ""48756117"", ""461715"", ""49218742"", ""51259482"", ""486187"", ""51746209*""]"	figures without a row label
+bb1924:p329:t1	47	"[""Total .."", ""203278496"", ""1651831"", ""204931217*"", ""213251198"", ""1714068"", ""214965806*""]"	ambiguous numerical cell '204931217*'
+bb1924:p343:t1	15	"[""British India .. { No. 60350 1661 62011 } 1301 547 1848"", ""cwt. 1634 56 1690"", """", """", """", """", """"]"	unreadable or merged unit field 'No. 60350 1661 62011 } 1301 547 1848'
+bb1924:p343:t1	16	"[""Burma .. { No. 4 — 4 } 6 — 6"", ""cwt. — — —"", """", """", """", """", """"]"	unreadable or merged unit field 'No. 4 — 4 } 6 — 6'
+bb1924:p343:t1	17	"[""Total .. { No. 60354 1661 62015 } 1307 547 1854"", ""cwt. 1634 56 1690"", """", """", """", """", """"]"	unreadable or merged unit field 'No. 60354 1661 62015 } 1307 547 1854'
+bb1924:p346:t1	5	"[""British India .."", ""No. 1 cwt. 50"", ""26 292"", ""27 342"", ""3759"", ""17791"", ""21550""]"	ambiguous numerical cell '1 50'
+bb1924:p346:t1	6	"[""Burma .."", ""No. — cwt. —"", ""2 13"", ""2 13"", ""—"", ""775"", ""775""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	7	"[""Straits Settlements"", ""No. — cwt. —"", ""— 193"", ""— 193"", ""—"", ""11900"", ""11900""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	8	"[""Total British Poss."", ""No. 1 cwt. 50"", ""28 498"", ""29 548"", ""3759"", ""3046"", ""34225""]"	ambiguous numerical cell '1 50'
+bb1924:p346:t1	10	"[""United Kingdom .."", ""No. — cwt. —"", ""22 272"", ""22 272"", ""—"", ""22807"", ""22807""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	12	"[""British India .."", ""No. 6 cwt. 20"", ""69 1778"", ""75 1798"", ""3875"", ""70140"", ""74015""]"	ambiguous numerical cell '6 20'
+bb1924:p346:t1	13	"[""Hong Kong .."", ""No. — cwt. —"", ""1 3"", ""1 3"", ""—"", ""100"", ""100""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	14	"[""Maldives Islands .."", ""No. — cwt. —"", ""17 37"", ""17 37"", ""—"", ""2075"", ""2075""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	15	"[""Straits Settlements"", ""No. — cwt. —"", ""1 48"", ""1 48"", ""—"", ""3070"", ""3070""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	16	"[""Total British Poss."", ""No. 6 cwt. 20"", ""88 1866"", ""94 1886"", ""3875"", ""75385"", ""79280""]"	ambiguous numerical cell '6 20'
+bb1924:p346:t1	18	"[""Holland .."", ""No. — cwt. —"", ""— —"", ""— —"", ""—"", ""100"", ""100""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	19	"[""Japan .."", ""No. — cwt. —"", ""— 2"", ""— 2"", ""—"", ""750"", ""750""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	20	"[""Java .."", ""No. — cwt. —"", ""— 23"", ""— 23"", ""—"", ""1000"", ""1000""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	21	"[""Philippine Islands .."", ""No. — cwt. 152"", ""— 175"", ""— 327"", ""6162"", ""6130"", ""12292""]"	ambiguous numerical cell '— 152'
+bb1924:p346:t1	22	"[""Sweden .."", ""No. — cwt. —"", ""1 28"", ""1 28"", ""—"", ""1400"", ""1400""]"	ambiguous numerical cell '— —'
+bb1924:p346:t1	23	"[""Total .."", ""No. — cwt. 172"", ""111 2366"", ""117 2538"", ""10037"", ""107572"", ""117609""]"	ambiguous numerical cell '— 172'
+bb1924:p349:t1	13	"[""doz."", ""—"", ""48"", ""48"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'doz.'
+bb1924:p349:t1	16	"[""doz."", ""13"", ""—"", ""13"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'doz.'
+bb1924:p349:t1	18	"[""doz."", ""13"", ""48"", ""61"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'doz.'
+bb1924:p350:t1	42	"[""British New Guinea { yds. 28"", ""—"", ""6"", ""34"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'British New Guinea { yds. 28'
+bb1924:p350:t1	46	"[""{ yds. 6779"", ""—"", ""—"", ""6779"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. 6779'
+bb1924:p350:t1	48	"[""{ yds. 697"", ""—"", ""—"", ""697"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. 697'
+bb1924:p350:t1	50	"[""{ yds. —"", ""—"", ""—"", ""—"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. —'
+bb1924:p350:t1	52	"[""{ yds. 7512"", ""—"", ""6"", ""7518"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. 7512'
+bb1924:p350:t1	54	"[""{ yds. —"", ""—"", ""—"", ""—"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. —'
+bb1924:p350:t1	56	"[""{ yds. 7512"", ""—"", ""6"", ""7518"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit '{ yds. 7512'
+bb1924:p352:t1	4	"[""United Kingdom .."", ""(yds. — No. —)"", ""112 1125"", ""112 1125"", ""—"", ""1415"", ""1415""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	6	"[""Australia .."", ""(yds. — No. —)"", ""10 —"", ""10 —"", ""—"", ""45"", ""45""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	7	"[""British India .."", ""(yds. — No. —)"", ""63950 3741383"", ""63950 3741383"", ""—"", ""1145760"", ""1145760""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	8	"[""Burma .."", ""(yds. — No. —)"", ""107902 30"", ""107902 30"", ""—"", ""37829"", ""37829""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	9	"[""Maldivé Islands .."", ""(yds. — No. —)"", ""23009 500"", ""23009 500"", ""—"", ""6113"", ""6113""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	10	"[""Mauritius .."", ""(yds. — No. —)"", ""— —"", ""— —"", ""—"", ""175"", ""175""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	11	"[""Other British Poss. in Asia .."", ""(yds. — No. —)"", ""8400 65"", ""8400 65"", ""—"", ""4200"", ""4200""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	12	"[""Straits Settlements.."", ""(yds. — No. 1)"", ""— —"", ""— 1"", ""5"", ""240"", ""245""]"	ambiguous numerical cell '(yds. — No. 1)'
+bb1924:p352:t1	13	"[""Total British Poss. (yds. — No. 1)"", ""— 1"", ""64555 3880694"", ""64555 3880695"", ""5"", ""1194362"", ""1194367""]"	unreadable country or unattached continuation unit 'Total British Poss. (yds. — No. 1)'
+bb1924:p352:t1	15	"[""France .."", ""(yds. — No. —)"", ""— 1000"", ""— 1000"", ""—"", ""500"", ""500""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	16	"[""India, exc. British .."", ""(yds. — No. —)"", ""— 45900"", ""— 45900"", ""—"", ""9470"", ""9470""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	17	"[""Italy .."", ""(yds. — No. —)"", ""— 250"", ""— 250"", ""—"", ""100"", ""100""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	18	"[""Java .."", ""(yds. — No. 66000)"", ""— —"", ""— 66000"", ""4464"", ""—"", ""4464""]"	ambiguous numerical cell '(yds. — No. 66000)'
+bb1924:p352:t1	19	"[""Other Foreign Countries in Africa .."", ""(yds. — No. —)"", ""— 300"", ""— 300"", ""—"", ""200"", ""200""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	20	"[""Turkey in Asia .."", ""(yds. — No. —)"", ""— 4200"", ""— 4200"", ""—"", ""1703"", ""1703""]"	ambiguous numerical cell '(yds. — No. —)'
+bb1924:p352:t1	21	"[""Ships Stores (yds. — No. —)"", ""— —"", ""— 1034"", ""— 1034"", ""—"", ""206"", ""206""]"	ambiguous numerical cell '— —'
+bb1924:p364:t1	4	"[""United Kingdom .. { pkgs. tons"", ""10"", ""305"", ""315"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	6	"[""Aden .. { pkgs. tons"", ""—"", ""8"", ""8"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	7	"[""Australia .. { pkgs. tons"", ""9"", ""—"", ""9"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	8	"[""British India .. { pkgs. tons"", ""14"", ""276"", ""290"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	9	"[""Hong Kong .. { pkgs. tons"", ""10"", ""1"", ""11"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	10	"[""Malta .. { pkgs. tons"", ""—"", ""34"", ""34"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	11	"[""Other British Possessions in Asia .. { pkgs. tons"", ""—"", ""56"", ""56"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	12	"[""Straits Settlements { pkgs. tons"", ""—"", ""1"", ""1"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'Straits Settlements { pkgs'
+bb1924:p364:t1	13	"[""Total British Possessions { pkgs. tons"", ""33"", ""376"", ""409"", ""—"", ""—"", ""—""]"	unreadable country or unattached continuation unit 'Total British Possessions { pkgs'
+bb1924:p364:t1	15	"[""For Bunkers .. { pkgs. tons"", ""—"", ""9639"", ""9639"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	16	"[""Ships Stores .. { pkgs. tons"", ""156"", ""109"", ""265"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	17	"[""Total .. { pkgs. tons"", ""199"", ""790"", ""989"", ""—"", ""—"", ""—""]"	two-unit quantity cannot be separated
+bb1924:p364:t1	18	"["""", ""—"", ""9639"", ""9639"", ""—"", ""—"", ""—""]"	figures without a row label
+bb1924:p368:t1	24	"[""British India .. gals."", ""100 130"", ""100 130"", ""1700""]"	ambiguous numerical cell '100 130'; left block
+bb1924:p368:t1	27	"[""United Kingdom .. gals."", ""2 3"", ""2 3"", ""70""]"	ambiguous numerical cell '2 3'; left block
+bb1924:p368:t1	29	"[""Java .. „"", ""3999 6398"", ""3999 6398"", ""8032""]"	ambiguous numerical cell '3999 6398'; left block
+bb1924:p368:t1	30	"[""Total .."", ""4001 6401"", ""4001 6401"", ""8102""]"	article total in unresolved multiple-quantity layout; left block
+bb1924:p369:t1	13	"["""", ""860"", ""860"", ""126""]"	figures without a row label; right block
+bb1924:p373:t1	3	"[""United Kingdom .. ( No. 76 cwt. 192 )"", """", ""76 192 )"", ""41750""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	5	"[""United Kingdom .. ( No. 15 cwt. 115 )"", """", ""15 115 )"", ""8356""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	7	"[""United Kingdom .. ( No. 3 cwt. — )"", """", ""3 — )"", ""156""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	9	"[""United Kingdom .. ( No. 5 cwt. 8 )"", """", ""5 8 )"", ""5641""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	11	"[""United Kingdom .. ( No. 1 cwt. 58 )"", """", ""1 58 )"", ""16991""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	13	"[""United Kingdom .. ( No. 1 cwt. — )"", """", ""1 — )"", ""800""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	15	"[""United Kingdom .. ( No. 2 cwt. 29 )"", """", ""2 29 )"", ""7010""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	17	"[""United Kingdom .. ( No. 1 cwt. — )"", """", ""1 — )"", ""111""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	19	"[""United Kingdom .. ( No. 1 cwt. 51 )"", """", ""1 51 )"", ""4196""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	22	"[""British India .. ( No. 1 cwt. — )"", """", ""1 — )"", ""173""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	24	"[""United Kingdom .. ( No. 1 cwt. 4 )"", """", ""1 4 )"", ""1024""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	26	"[""United Kingdom .. ( No. 51 cwt. 41 )"", """", ""51 41 )"", ""14049""]"	two-unit quantity cannot be separated; left block
+bb1924:p373:t1	3	"[""United Kingdom .. ( No. 9 cwt. 69 )"", """", ""9 69 )"", ""4393""]"	two-unit quantity cannot be separated; right block
+bb1924:p373:t1	5	"[""United Kingdom .. ( No. 121 cwt. 3057 )"", """", ""121 3057 )"", ""212654""]"	two-unit quantity cannot be separated; right block
+bb1924:p373:t1	7	"[""British India .. ( No. 1 cwt. 1 )"", """", ""1 1 )"", ""544""]"	two-unit quantity cannot be separated; right block
+bb1924:p373:t1	9	"[""U. S. America .. ( No. 1 cwt. 9 )"", """", ""1 9 )"", ""672""]"	two-unit quantity cannot be separated; right block
+bb1924:p373:t1	10	"[""Total .. ( No. 123 cwt. 3067 )"", """", ""123 3067 )"", ""213870""]"	two-unit quantity cannot be separated; right block
+bb1924:p373:t1	15	"[""United Kingdom .. value —"", """", ""—"", ""1069""]"	unreadable or merged unit field 'value —'; right block
+bb1924:p373:t1	18	"[""United Kingdom .. lb. 1400"", """", ""1400"", ""2945""]"	unreadable or merged unit field 'lb. 1400'; right block
+bb1924:p373:t1	20	"[""United Kingdom .. lb. 560"", """", ""560"", ""222""]"	unreadable or merged unit field 'lb. 560'; right block
+bb1924:p373:t1	34	"[""United Kingdom .. lb. 2470"", """", ""2470"", ""19669""]"	unreadable or merged unit field 'lb. 2470'; right block
+bb1924:p374:t1	3	"[""United Kingdom .. { yds. 790948 doz. 8175 }"", """", ""790948 8175"", ""65739""]"	unreadable or merged unit field 'yds. 790948 doz. 8175'; left block
+bb1924:p374:t1	18	"[""United Kingdom .. { yds. 227 doz. — }"", ""227"", ""2026"", """"]"	unreadable or merged unit field 'yds. 227 doz. —'; left block
+bb1924:p374:t1	26	"[""United Kingdom .. { yds. 410 doz. — }"", ""410"", ""590"", """"]"	unreadable or merged unit field 'yds. 410 doz. —'; left block
+bb1924:p374:t1	31	"[""British India .. , 116"", ""116"", ""7448"", """"]"	unreadable or merged unit field ','; left block
+bb1924:p374:t1	8	"[""United Kingdom .. { doz. — cwt. — }"", ""—"", ""66"", """"]"	unreadable or merged unit field 'doz. — cwt. —'; right block
+bb1924:p374:t1	10	"[""United Kingdom .. { yds. 42682 doz. — }"", ""42682"", ""59417"", """"]"	unreadable or merged unit field 'yds. 42682 doz. —'; right block
+bb1924:p374:t1	12	"[""British India .. { yds. — doz. — }"", ""—"", ""8235"", """"]"	unreadable or merged unit field 'yds. — doz. —'; right block
+bb1924:p374:t1	13	"[""Total .. { yds. 42682 doz. — }"", ""42682"", ""67652"", """"]"	unreadable or merged unit field 'yds. 42682 doz. —'; right block
+bb1924:p374:t1	20	"[""United Kingdom doz. pairs 252"", ""252"", ""13614"", """"]"	unreadable country or unattached continuation unit 'United Kingdom doz. pairs 252'; right block
+bb1924:p374:t1	22	"[""United Kingdom doz. pairs 367"", ""367"", ""2938"", """"]"	unreadable country or unattached continuation unit 'United Kingdom doz. pairs 367'; right block
+bb1924:p376:t1	3	"[""Leather, manufactures of (except boots and shoes and gloves), other descriptions— United Kingdom .. (No. cwt. 2296 51) 2296 51 ) 19397"", ""2296 51"", ""2296 51"", ""19397""]"	unreadable or merged unit field 'No. cwt. 2296 51) 2296 51 ) 19397'; left block
+bb1924:p376:t1	4	"[""British Possessions— British India .. (No. cwt. 87 —) 87 — ) 584"", ""87"", ""87"", ""584""]"	unreadable or merged unit field 'No. cwt. 87 —) 87 — ) 584'; left block
+bb1924:p376:t1	5	"[""Total .. (No. cwt. 2383 51) 2383 51 ) 19981"", ""2383 51"", ""2383 51"", ""19981""]"	unreadable or merged unit field 'No. cwt. 2383 51) 2383 51 ) 19981'; left block
+bb1924:p376:t1	15	"[""British Possessions—"", ""105"", ""105"", ""1015""]"	figures displaced onto a heading row; right block
+bb1924:p377:t1	9	"["""", ""84"", ""84"", """"]"	figures without a row label; left block
+bb1926:p188:t1	41	"[""British India .. p."", ""14045"", ""14045"", ""196629""]"	unreadable or merged unit field 'p.'; right block
+bb1926:p192:t1	43	"[""British India .. gals"", ""300 344"", ""300 344"", ""6410""]"	ambiguous numerical cell '300 344'; left block
+bb1926:p192:t1	45	"[""United Kingdom .. gals."", ""48 37"", ""48 37"", ""557""]"	ambiguous numerical cell '48 37'; left block
+bb1926:p192:t1	47	"[""France .. „"", ""103372 94011"", ""10580 596407"", ""661820""]"	ambiguous numerical cell '103372 94011'; left block
+bb1926:p192:t1	48	"[""Spain .. „"", ""6 4"", ""6 4"", ""77""]"	ambiguous numerical cell '6 4'; left block
+bb1926:p192:t1	49	"[""Total .."", ""103426 94052"", ""10585 996448"", ""662454""]"	article total in unresolved multiple-quantity layout; left block
+bb1926:p192:t1	51	"[""United Kingdom .. gals."", ""23927 20018"", ""24415 20456"", ""215175""]"	ambiguous numerical cell '23927 20018'; left block
+bb1926:p192:t1	53	"[""Germany .. „"", ""10 7"", ""10 7"", ""40""]"	ambiguous numerical cell '10 7'; left block
+bb1926:p192:t1	55	"[""Total .."", ""156505136371"", ""154453140192"", ""1264286""]"	article total in unresolved multiple-quantity layout; left block
+bb1926:p192:t1	57	"[""United Kingdom .. gals."", ""253 —"", ""253 —"", ""5519""]"	ambiguous numerical cell '253 —'; left block
+bb1926:p192:t1	59	"[""Denmark .. „"", ""53 —"", ""53 —"", ""1086""]"	ambiguous numerical cell '53 —'; left block
+bb1926:p192:t1	60	"[""France .. „"", ""693 —"", ""693 —"", ""8050""]"	ambiguous numerical cell '693 —'; left block
+bb1926:p192:t1	61	"[""Holland .. „"", ""253 —"", ""253 —"", ""5420""]"	ambiguous numerical cell '253 —'; left block
+bb1926:p192:t1	62	"[""Italy .. „"", ""6 —"", ""6 —"", ""212""]"	ambiguous numerical cell '6 —'; left block
+bb1926:p192:t1	63	"[""Spain .. „"", ""2 —"", ""2 —"", ""128""]"	ambiguous numerical cell '2 —'; left block
+bb1926:p192:t1	64	"[""Total .."", ""1260 —"", ""1260 —"", ""20415""]"	article total in unresolved multiple-quantity layout; left block
+bb1926:p192:t1	3	"[""United Kingdom .. gals."", ""242 192"", ""242 192"", ""3368""]"	ambiguous numerical cell '242 192'; right block
+bb1926:p192:t1	5	"[""Australia .. „"", ""— —"", ""— —"", ""7""]"	ambiguous numerical cell '— —'; right block
+bb1926:p192:t1	6	"[""British West Indies „"", ""38 49"", ""38 49"", ""367""]"	ambiguous numerical cell '38 49'; right block
+bb1926:p192:t1	7	"[""Total British Possessions"", ""38 49"", ""38 49"", ""3747""]"	ambiguous numerical cell '38 49'; right block
+bb1926:p192:t1	9	"[""Philippine Islands.. „"", ""8 6"", ""8 6"", ""212""]"	ambiguous numerical cell '8 6'; right block
+bb1926:p192:t1	10	"[""Total .."", ""288 247"", ""288 247"", ""3954""]"	article total in unresolved multiple-quantity layout; right block
+bb1926:p192:t1	12	"[""United Kingdom .. gals."", ""207 344"", ""207 344"", ""2503""]"	ambiguous numerical cell '207 344'; right block
+bb1926:p192:t1	14	"[""Australia .. „"", ""106 181"", ""106 181"", ""281""]"	ambiguous numerical cell '106 181'; right block
+bb1926:p192:t1	16	"[""Germany .. „"", ""40 72"", ""40 72"", ""127""]"	ambiguous numerical cell '40 72'; right block
+bb1926:p192:t1	17	"[""Java .. „"", ""3767 6027"", ""3767 6027"", ""7502""]"	ambiguous numerical cell '3767 6027'; right block
+bb1926:p192:t1	18	"[""Total .."", ""4120 6624"", ""4120 6624"", ""10413""]"	article total in unresolved multiple-quantity layout; right block
+bb1926:p192:t1	20	"[""United Kingdom .. gals."", ""93914 73351"", ""91136 71106"", ""1545749""]"	ambiguous numerical cell '93914 73351'; right block
+bb1926:p192:t1	22	"[""United Kingdom .. gals."", ""4 2"", ""4 2"", ""170""]"	ambiguous numerical cell '4 2'; right block
+bb1926:p201:t1	8	"[""United Kingdom .. { gals. 704516 77953 cwt."", ""704516 77953"", ""704516 77953"", ""345526""]"	unreadable or merged unit field 'gals. 704516 77953 cwt.'; left block
+bb1926:p201:t1	10	"[""British India .. { gals. 87562 10516 cwt."", ""87562 10516"", ""87562 10516"", ""73178""]"	unreadable or merged unit field 'gals. 87562 10516 cwt.'; left block
+bb1926:p201:t1	11	"[""Burma .. { gals. 25 2 cwt."", ""25 2"", ""25 2"", ""48""]"	unreadable or merged unit field 'gals. 25 2 cwt.'; left block
+bb1926:p201:t1	14	"[""Total British Possessions { gals. 87587 10518 cwt."", ""87587 10518"", ""87587 10518"", ""73226""]"	unreadable or merged unit field 'gals. 87587 10518 cwt.'; left block
+bb1926:p201:t1	16	"[""Germany .. { gals. 255 20 cwt."", ""255 20"", ""255 20"", ""161""]"	unreadable or merged unit field 'gals. 255 20 cwt.'; left block
+bb1926:p201:t1	17	"[""Sweden .. { gals. 100 10 cwt."", ""100 10"", ""100 10"", ""131""]"	unreadable or merged unit field 'gals. 100 10 cwt.'; left block
+bb1926:p201:t1	18	"[""U. S., America .. { gals. 13534 1144 cwt."", ""13534 1144"", ""13534 1144"", ""6812""]"	unreadable or merged unit field 'gals. 13534 1144 cwt.'; left block
+bb1926:p201:t1	21	"[""Total .. { gals. 805992 89644 cwt."", ""805992 89644"", ""805992 89644"", ""425856""]"	unreadable or merged unit field 'gals. 805992 89644 cwt.'; left block
+bb1926:p201:t1	24	"[""United Kingdom .. { No. 874105 cwt."", ""874105 4466"", ""874105 4466"", ""94932""]"	unreadable or merged unit field 'No. 874105 cwt.'; right block
+bb1926:p201:t1	26	"[""British India .. { No. 9145574 cwt."", ""9145574 393637"", ""9145574 393637"", ""681715""]"	unreadable or merged unit field 'No. 9145574 cwt.'; right block
+bb1926:p201:t1	28	"[""Belgium .. { No. 86941 cwt."", ""86941 871"", ""86941 871"", ""1137""]"	unreadable or merged unit field 'No. 86941 cwt.'; right block
+bb1926:p201:t1	29	"[""Czecho Slovakia .. { No. 504 cwt."", ""504 28"", ""504 28"", ""507""]"	unreadable or merged unit field 'No. 504 cwt.'; right block
+bb1926:p201:t1	30	"[""France .. { No. 45310 cwt."", ""45310 199"", ""45310 199"", ""1920""]"	unreadable or merged unit field 'No. 45310 cwt.'; right block
+bb1926:p201:t1	31	"[""Germany .. { No. 91636 cwt."", ""91636 774"", ""91636 774"", ""13312""]"	unreadable or merged unit field 'No. 91636 cwt.'; right block
+bb1926:p201:t1	32	"[""Holland .. { No. 2100 cwt."", ""2100 11"", ""2100 11"", ""240""]"	unreadable or merged unit field 'No. 2100 cwt.'; right block
+bb1926:p201:t1	33	"[""India, exc. British.. { No. 80 cwt."", ""80 5"", ""80 5"", ""8""]"	unreadable or merged unit field 'No. 80 cwt.'; right block
+bb1926:p201:t1	34	"[""Italy .. { No. 2641 cwt."", ""2641 457"", ""2641 457"", ""3139""]"	unreadable or merged unit field 'No. 2641 cwt.'; right block
+bb1926:p201:t1	35	"[""Spain .. { No. 20 cwt."", ""20 —"", ""20 —"", ""2""]"	unreadable or merged unit field 'No. 20 cwt.'; right block
+bb1926:p201:t1	36	"[""Total .. { No. 10248911 cwt."", ""10248911 400448"", ""10248911 400448"", ""806912""]"	unreadable or merged unit field 'No. 10248911 cwt.'; right block
+bb1926:p209:t1	1	"[""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts— United Kingdom .. value"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts— United Kingdom .. value"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts— United Kingdom .. value"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts— United Kingdom .. value""]"	ambiguous numerical cell 'CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts— United Kingdom .. value'; left block
+bb1926:p209:t1	2	"["""", ""—"", ""—"", ""2441""]"	figures without a row label; left block
+bb1926:p209:t1	3	"[""Foreign Countries— France .. .. Germany .. .. Switzerland .. .. U. S., America .. .."", ""Foreign Countries— France .. .. Germany .. .. Switzerland .. .. U. S., America .. .."", ""Foreign Countries— France .. .. Germany .. .. Switzerland .. .. U. S., America .. .."", ""Foreign Countries— France .. .. Germany .. .. Switzerland .. .. U. S., America .. ..""]"	unreadable or merged unit field 'Germany  Switzerland  U. S., America'; left block
+bb1926:p209:t1	4	"["""", ""—"", ""—"", ""8""]"	figures without a row label; left block
+bb1926:p209:t1	5	"["""", ""—"", ""—"", ""32""]"	figures without a row label; left block
+bb1926:p209:t1	6	"["""", ""—"", ""—"", ""4""]"	figures without a row label; left block
+bb1926:p209:t1	7	"["""", ""—"", ""—"", ""553""]"	figures without a row label; left block
+bb1926:p209:t1	10	"[""GROUP F.—ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)— United Kingdom .. cwt."", ""GROUP F.—ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)— United Kingdom .. cwt."", ""GROUP F.—ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)— United Kingdom .. cwt."", ""GROUP F.—ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)— United Kingdom .. cwt.""]"	ambiguous numerical cell 'GROUP F.—ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)— United Kingdom .. cwt.'; left block
+bb1926:p209:t1	11	"["""", ""3789"", ""3789"", ""272844""]"	figures without a row label; left block
+bb1926:p209:t1	38	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; left block
+bb1926:p209:t1	1	"[""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified— United Kingdom .. No."", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified— United Kingdom .. No."", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified— United Kingdom .. No."", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified— United Kingdom .. No.""]"	ambiguous numerical cell 'CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified— United Kingdom .. No.'; right block
+bb1926:p209:t1	2	"["""", ""274929"", ""274929"", ""331953""]"	figures without a row label; right block
+bb1926:p209:t1	3	"[""British Possessions— British India .. .. Straits Settlements .. .."", ""British Possessions— British India .. .. Straits Settlements .. .."", ""British Possessions— British India .. .. Straits Settlements .. .."", ""British Possessions— British India .. .. Straits Settlements .. ..""]"	unreadable or merged unit field 'Straits Settlements'; right block
+bb1926:p209:t1	4	"["""", ""46497"", ""46497"", ""16901""]"	figures without a row label; right block
+bb1926:p209:t1	5	"["""", ""13"", ""13"", ""193""]"	figures without a row label; right block
+bb1926:p209:t1	6	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; right block
+bb1926:p209:t1	7	"["""", ""46510"", ""46510"", ""17094""]"	figures without a row label; right block
+bb1926:p212:t1	7	"[""United Kingdom .. { No. 4085 cwt. 1"", """", ""4085 1""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	9	"[""Canada .. { No. 108 cwt. —"", """", ""108 —""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	12	"[""U. S., America .. { No. 3026 cwt. 8"", """", ""3026 8""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	14	"[""Total { No. 7219 cwt. 9"", """", ""7219 9""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	19	"[""United Kingdom .. { No. 376 cwt. 912"", """", ""376 912""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	21	"[""British India .. { No. 1 cwt. —"", """", ""1 —""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	22	"[""Canada .. { No. 1 cwt. 6"", """", ""1 6""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	24	"[""Total British Possessions { No. 2 cwt. 6"", """", ""2 6""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	26	"[""Germany .. { No. 12 cwt. 2"", """", ""12 2""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	27	"[""U. S., America .. { No. 133 cwt. 167"", """", ""133 167""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	29	"[""Total .. { No. 523 cwt. 1087"", """", ""523 1087""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	34	"[""United Kingdom .. { No. 801 cwt. 20999"", """", ""801 20999""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	36	"[""Australia .. { No. 2 cwt. 738"", """", ""2 738""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	37	"[""British India .. { No. 37 cwt. 344"", """", ""37 344""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	38	"[""Straits Settlements { No. 1 cwt. 27"", """", ""1 27""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	39	"[""Total British Possessions { No. 40 cwt. 1109"", """", ""40 1109""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	41	"[""Austria .. { No. — cwt. —"", """", ""— —""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	42	"[""Belgium .. { No. 1 cwt. 14"", """", ""1 14""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	43	"[""France .. { No. 33 cwt. 226"", """", ""33 226""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	44	"[""Germany .. { No. 37 cwt. 239"", """", ""37 239""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	45	"[""Holland .. { No. 1 cwt. 3"", """", ""1 3""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	46	"[""Italy .. { No. 7 cwt. 166"", """", ""7 166""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	47	"[""Sweden .. { No. 5 cwt. 81"", """", ""5 81""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	48	"[""Switzerland .. { No. — cwt. 14"", """", ""— 14""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	49	"[""U. S., America .. { No. 116 cwt. 353"", """", ""116 353""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	50	"[""Total .. { No. 1041 cwt. 23204"", """", ""1041 23204""]"	unsupported import table layout; column meanings ambiguous; left block
+bb1926:p212:t1	5	"["""", """", ""Rs.""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	7	"["""", """", ""4737""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	9	"[""United Kingdom .. No. 1501"", ""1501"", ""88356""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	11	"[""Australia .. „ 8"", ""8"", ""362""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	12	"[""British India .. „ 948"", ""948"", ""12227""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	13	"[""Burma .. „ 33"", ""33"", ""110""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	14	"[""Hong Kong .. „ 162"", ""162"", ""1525""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	15	"[""Maldivé Islands .. „ 4"", ""4"", ""15""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	16	"[""Straits Settlements .. „ 74"", ""74"", ""747""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	17	"[""Total British Possessions"", ""1229"", ""14976""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	19	"[""Austria .. „ 1959"", ""1959"", ""8701""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	20	"[""Belgium .. „ 12"", ""12"", ""2142""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	21	"[""China .. „ 39"", ""39"", ""672""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	22	"[""Czecho Slovakia .. „ 4012"", ""4012"", ""19841""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	23	"[""France .. „ 99"", ""99"", ""4036""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	24	"[""Germany .. „ 924"", ""924"", ""6163""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	25	"[""Italy .. „ 1"", ""1"", ""355""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	26	"[""Japan .. „ 2364"", ""2364"", ""5471""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	27	"[""Other Foreign Countries in Europe .. „ 168"", ""168"", ""975""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	28	"[""Poland .. „ 1835"", ""1835"", ""8557""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	29	"[""Russia in Europe .. „ 49"", ""49"", ""375""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	30	"[""Siam .. „ 4"", ""4"", ""30""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	31	"[""U. S., America .. „ 1042"", ""1042"", ""121912""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	32	"[""Total .."", ""15238"", ""172851""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	34	"[""United Kingdom .. value"", ""—"", ""25820""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	39	"[""Total British Possessions"", ""—"", ""10005""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	49	"[""Total .."", ""—"", ""51085""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	52	"[""United Kingdom .. lb. 4010"", ""4010"", ""2642""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	54	"[""British India .. „ 27638"", ""27638"", ""23526""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	55	"[""Total .."", ""31648"", ""26168""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	57	"[""United Kingdom .. lb. 1808"", ""1808"", ""3958""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	59	"[""British India .. „ 75239"", ""75239"", ""61323""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	61	"[""Germany .. „ 400"", ""400"", ""772""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p212:t1	62	"[""Total .."", ""77447"", ""66053""]"	unsupported import table layout; column meanings ambiguous; right block
+bb1926:p214:t1	13	"[""United Kingdom .. No."", ""United Kingdom .. No."", ""United Kingdom .. No."", ""United Kingdom .. No.""]"	ambiguous numerical cell 'United Kingdom .. No.'; left block
+bb1926:p214:t1	14	"["""", ""2753"", ""2753"", ""12730""]"	figures without a row label; left block
+bb1926:p214:t1	10	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1926:p214:t1	11	"["""", ""1440"", ""1440"", ""6942""]"	figures without a row label; right block
+bb1926:p214:t1	20	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; right block
+bb1926:p214:t1	21	"["""", ""88869"", ""88869"", ""99883""]"	figures without a row label; right block
+bb1926:p214:t1	28	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1926:p214:t1	29	"["""", ""91750"", ""91750"", ""113585""]"	figures without a row label; right block
+bb1926:p214:t1	40	"[""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions"", ""Total British Possessions""]"	ambiguous numerical cell 'Total British Possessions'; right block
+bb1926:p214:t1	41	"["""", ""824"", ""824"", ""22295""]"	figures without a row label; right block
+bb1926:p214:t1	50	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1926:p214:t1	51	"["""", ""3467"", ""3467"", ""96884""]"	figures without a row label; right block
+bb1926:p214:t1	58	"[""Total .."", ""Total .."", ""Total .."", ""Total ..""]"	ambiguous numerical cell 'Total ..'; right block
+bb1926:p214:t1	59	"["""", ""16932"", ""16932"", ""50739""]"	figures without a row label; right block
+bb1926:p216:t1	38	"[""United Kingdom .. yds."", ""United Kingdom .. yds."", ""United Kingdom .. yds."", ""United Kingdom .. yds.""]"	ambiguous numerical cell 'United Kingdom .. yds.'; right block
+bb1926:p217:t1	40	"[""No of doz. 8"", ""8"", ""8"", ""10""]"	unattached unit continuation row; right block
+bb1926:p217:t1	43	"[""No. of doz. 149563"", ""149563"", ""149563"", ""1130917""]"	unattached unit continuation row; right block
+bb1926:p217:t1	45	"[""No. of doz. 166"", ""166"", ""166"", ""250""]"	unattached unit continuation row; right block
+bb1926:p217:t1	47	"[""No. of doz. 437"", ""437"", ""437"", ""420""]"	unattached unit continuation row; right block
+bb1926:p217:t1	49	"[""No. of doz. 150166"", ""150166"", ""150166"", ""1181587""]"	unattached unit continuation row; right block
+bb1926:p217:t1	52	"[""No. of doz. —"", ""—"", ""—"", ""30""]"	unattached unit continuation row; right block
+bb1926:p217:t1	54	"[""No. of doz. 150174"", ""150174"", ""150174"", ""1181587""]"	unattached unit continuation row; right block
+bb1926:p221:t1	35	"[""Sumatra .. glas."", ""156353"", ""156353"", ""140717""]"	unreadable or merged unit field 'glas.'; left block
+bb1926:p223:t1	4	"[""Austria .. (No. cwt. 12528 9) (12528 9) 2027"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 12528 9) (12528 9) 2027'; left block
+bb1926:p223:t1	5	"[""China .. (No. cwt. 22 4) (22 4) 391"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 22 4) (22 4) 391'; left block
+bb1926:p223:t1	6	"[""France .. (No. cwt. 1927 11) (1927 11) 2938"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 1927 11) (1927 11) 2938'; left block
+bb1926:p223:t1	7	"[""Germany .. (No. cwt. 2741 18) (2741 18) 5333"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 2741 18) (2741 18) 5333'; left block
+bb1926:p223:t1	8	"[""Japan .. (No. cwt. 3275 11) (3275 11) 1232"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 3275 11) (3275 11) 1232'; left block
+bb1926:p223:t1	9	"[""U. S., America .. (No. cwt. 151 8) (151 8) 1560"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 151 8) (151 8) 1560'; left block
+bb1926:p223:t1	10	"[""Total .. (No. cwt. 86594 890) (86594 890) 237001"", """", """", """"]"	unreadable or merged unit field 'No. cwt. 86594 890) (86594 890) 237001'; left block
+bb1926:p224:t1	3	"[""United Kingdom { doz. packs cwt. 754 18"", ""754 18"", ""754 18"", ""6873""]"	unreadable country or unattached continuation unit 'United Kingdom { doz. packs cwt. 754 18'; right block
+bb1926:p224:t1	5	"[""British India { doz. packs cwt. 78"", ""78"", ""78"", ""117""]"	unreadable country or unattached continuation unit 'British India { doz. packs cwt. 78'; right block
+bb1926:p224:t1	7	"[""Belgium { doz. packs cwt. 45181"", ""45181"", ""45181"", ""47608""]"	unreadable country or unattached continuation unit 'Belgium { doz. packs cwt. 45181'; right block
+bb1926:p224:t1	8	"[""Czecho Slo- { doz. packs vakia cwt. 1500"", ""1500"", ""1500"", ""1594""]"	unreadable country or unattached continuation unit 'Czecho Slo- { doz. packs vakia cwt. 1500'; right block
+bb1926:p224:t1	9	"[""France { doz. packs cwt. 26"", ""26"", ""26"", ""125""]"	unreadable country or unattached continuation unit 'France { doz. packs cwt. 26'; right block
+bb1926:p224:t1	10	"[""Germany { doz. packs cwt. 3185"", ""3185"", ""3185"", ""3776""]"	unreadable country or unattached continuation unit 'Germany { doz. packs cwt. 3185'; right block
+bb1926:p224:t1	11	"[""Japan { doz. packs cwt. 60"", ""60"", ""60"", ""100""]"	unreadable country or unattached continuation unit 'Japan { doz. packs cwt. 60'; right block
+bb1926:p224:t1	12	"[""U. S., America { doz. packs cwt. 6017"", ""6017"", ""6017"", ""13663""]"	unreadable country or unattached continuation unit 'U. S., America { doz. packs cwt. 6017'; right block
+bb1926:p224:t1	13	"[""Total.. { doz. packs cwt. 1297"", ""1297"", ""1297"", ""73856""]"	two-unit quantity cannot be separated; right block
+bb1926:p227:t1	34	"[""Total .."", ""36088"", ""36088"", ""7 56""]"	ambiguous numerical cell '7 56'; left block
+bb1926:p228:t1	4	"[""United Kingdom .. { coils 243075 cwt. 692 } 692"", ""243075 692"", ""243075 692"", ""68143""]"	unreadable or merged unit field 'coils 243075 cwt. 692 } 692'; left block
+bb1926:p228:t1	6	"[""Austria .. { coils 1200 cwt. 2 } 2"", ""1200 2"", ""1200 2"", ""317""]"	unreadable or merged unit field 'coils 1200 cwt. 2 } 2'; left block
+bb1926:p228:t1	7	"[""Germany .. { coils 31066 cwt. 168 } 168"", ""31066 168"", ""31066 168"", ""13374""]"	unreadable or merged unit field 'coils 31066 cwt. 168 } 168'; left block
+bb1926:p228:t1	8	"[""Total .. { coils 275341 cwt. 862 } 862"", ""275341 862"", ""275341 862"", ""81834""]"	unreadable or merged unit field 'coils 275341 cwt. 862 } 862'; left block
+bb1926:p228:t1	15	"[""United Kingdom .. { No. 1210000 cwt. 89 } 89"", ""1210000 89"", ""1210000 89"", ""17369""]"	unreadable or merged unit field 'No. 1210000 cwt. 89 } 89'; left block
+bb1926:p234:t1	35	"[""Total .. { cases tons gals."", ""25556 — 4089701"", ""25556 — 4089701"", ""—""]"	ambiguous numerical cell '25556 — 4089701'; left block
+bb1926:p240:t1	7	"[""British India .. cwt."", ""5"", ""869"", ""874"", ""40"", ""8605"", ""86 5""]"	ambiguous numerical cell '86 5'
+bb1926:p261:t1	7	"["""", """", """", """", """", """", ""—""]"	figures without a row label
+bb1926:p268:t1	6	"["""", ""cwt. —"", ""202"", ""202"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	8	"["""", ""cwt. —"", ""26"", ""26"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	10	"["""", ""cwt. 37"", ""46"", ""83"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	12	"["""", ""cwt. 37"", ""274"", ""311"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	15	"["""", ""cwt. 100"", ""125"", ""225"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	17	"["""", ""cwt. 32"", ""10"", ""42"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	19	"["""", ""cwt. 169"", ""409"", ""578"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	22	"["""", ""cwt. —"", ""123"", ""123"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	25	"["""", ""cwt. —"", ""4"", ""4"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	27	"["""", ""cwt. 8"", ""813"", ""821"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	29	"["""", ""cwt. —"", ""8"", ""8"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	31	"["""", ""cwt. —"", ""12"", ""12"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	33	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	35	"["""", ""cwt. —"", ""21"", ""21"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	37	"["""", ""cwt. —"", ""95"", ""95"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	39	"["""", ""cwt. —"", ""1076"", ""1084"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	42	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	44	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	46	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	48	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	50	"["""", ""cwt. —"", ""28"", ""28"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	52	"["""", ""cwt. —"", ""3222"", ""3222"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	54	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	56	"["""", ""cwt. —"", ""10"", ""10"", """", """", """"]"	figures without a row label
+bb1926:p268:t1	58	"["""", ""cwt. —"", ""4354"", ""4362"", """", """", """"]"	figures without a row label
+bb1926:p272:t1	40	"[""yds. 111"", ""111"", ""—"", ""111"", ""483"", ""—"", ""483""]"	unattached unit continuation row
+bb1926:p272:t1	43	"[""yds. 61"", ""61"", ""—"", ""61"", ""560"", ""—"", ""560""]"	unattached unit continuation row
+bb1926:p272:t1	45	"[""yds. 100"", ""100"", ""—"", ""100"", ""—"", ""96"", ""96""]"	unattached unit continuation row
+bb1926:p272:t1	47	"[""yds. 6781"", ""6781"", ""—"", ""6781"", ""15290"", ""—"", ""15290""]"	unattached unit continuation row
+bb1926:p272:t1	49	"[""yds. 31"", ""31"", ""—"", ""31"", ""156"", ""—"", ""156""]"	unattached unit continuation row
+bb1926:p272:t1	52	"[""yds. 111"", ""111"", ""—"", ""111"", ""483"", ""—"", ""483""]"	unattached unit continuation row
+bb1926:p272:t1	54	"[""yds. 6873"", ""6873"", ""100"", ""6973"", ""16006"", ""96"", ""16102""]"	unattached unit continuation row
+bb1926:p273:t1	5	"[""United Kingdom"", ""( No. 90 yds. 111 )"", ""—"", ""( 90 111 )"", ""483"", ""—"", ""483""]"	ambiguous numerical cell '( No. 90 yds. 111 )'
+bb1926:p273:t1	6	"[""British Possessions"", ""( No. 3458 yds. 6873 )"", ""36 100"", ""( 3494 6973 )"", ""16006"", ""96"", ""16102""]"	figures displaced onto a country-group heading
+bb1926:p273:t1	8	"[""Straits Settlements"", ""( No. 122 yds. 44 )"", ""—"", ""( 122 44 )"", ""220"", ""—"", ""220""]"	ambiguous numerical cell '( No. 122 yds. 44 )'
+bb1926:p273:t1	9	"[""Total British Poss."", ""( No. 3580 yds. 6917 )"", ""36 100"", ""( 3616 7017 )"", ""16226"", ""96"", ""16322""]"	ambiguous numerical cell '( No. 3580 yds. 6917 )'
+bb1926:p273:t1	11	"[""China"", ""( No. — yds. 54 )"", ""—"", ""( — 54 )"", ""97"", ""—"", ""97""]"	ambiguous numerical cell '( No. — yds. 54 )'
+bb1926:p273:t1	12	"[""France"", ""( No. — yds. 839 )"", ""—"", ""( — 839 )"", ""750"", ""—"", ""750""]"	ambiguous numerical cell '( No. — yds. 839 )'
+bb1926:p273:t1	13	"[""Por. East Africa"", ""( No. 20 yds. — )"", ""—"", ""( 20 — )"", ""200"", ""—"", ""200""]"	ambiguous numerical cell '( No. 20 yds. — )'
+bb1926:p273:t1	14	"[""U. S., America"", ""( No. 12 yds. 24 )"", ""—"", ""( 12 24 )"", ""50"", ""—"", ""50""]"	ambiguous numerical cell '( No. 12 yds. 24 )'
+bb1926:p273:t1	15	"[""Ships Stores"", ""( No. — yds. — )"", ""30453"", ""( 30453 — )"", ""—"", ""15226"", ""15226""]"	ambiguous numerical cell '( No. — yds. — )'
+bb1926:p273:t1	16	"[""Total"", ""( No. 3702 yds. 7945 )"", ""36489 100"", ""( 34191 8045 )"", ""17806"", ""15322"", ""33128""]"	ambiguous numerical cell '( No. 3702 yds. 7945 )'
+bb1926:p290:t1	15	"[""Spirits, arrack— British Possessions— British India .. gals."", ""I. P. 300 344"", ""I. P. 300 344"", ""6410""]"	ambiguous numerical cell 'I. P. 300 344'; left block
+bb1926:p290:t1	16	"[""Spirits of wine, rectified— United Kingdom .. gals."", ""37 64"", ""37 64"", ""884""]"	ambiguous numerical cell '37 64'; left block
+bb1926:p290:t1	17	"[""Foreign Countries— Java .. \"""", ""3591 5745"", ""3591 5745"", ""7182""]"	ambiguous numerical cell '3591 5745'; left block
+bb1926:p290:t1	18	"[""Total .."", ""3628 5809"", ""3628 5809"", ""8066""]"	article total in unresolved multiple-quantity layout; left block
+bb1926:p290:t1	7	"[""Coal— British Possessions— British India .. tons British South Africa .."", ""93018 74094"", ""39018 74094"", ""1504900 1152172""]"	unreadable or merged unit field 'tons British South Africa'; right block
+bb1926:p291:t1	4	"[""Burma .. ,"", ""85"", ""85"", ""4067""]"	unreadable or merged unit field ','; left block
+bb1926:p291:t1	11	"[""British India .. ,"", ""200"", ""200"", ""7400""]"	unreadable or merged unit field ','; left block
+bb1926:p291:t1	20	"[""Waxes (other than sealing and paraffin) beeswax— United Kingdom .. cwt."", ""Waxes (other than sealing and paraffin) beeswax— United Kingdom .. cwt."", ""Waxes (other than sealing and paraffin) beeswax— United Kingdom .. cwt."", ""3""]"	ambiguous numerical cell 'Waxes (other than sealing and paraffin) beeswax— United Kingdom .. cwt.'; left block
+bb1926:p291:t1	21	"[""Waxes (other than sealing and paraffin) others— United Kingdom .. tons"", ""Waxes (other than sealing and paraffin) others— United Kingdom .. tons"", ""Waxes (other than sealing and paraffin) others— United Kingdom .. tons"", ""2""]"	ambiguous numerical cell 'Waxes (other than sealing and paraffin) others— United Kingdom .. tons'; left block
+bb1926:p291:t1	26	"[""Foreign Countries— U. S., America .. ,"", ""4897"", ""4897"", ""2782""]"	unreadable or merged unit field ','; left block
+bb1926:p291:t1	9	"[""Foreign Countries— Java .. ,"", ""938"", ""938"", ""3090""]"	unreadable or merged unit field ','; right block
+bb1926:p291:t1	19	"[""British India .. ,"", ""11"", ""11"", ""121""]"	unreadable or merged unit field ','; right block
+bb1926:p291:t1	20	"[""3"", ""448"", """", """"]"	unreadable country or unattached continuation unit '3'; right block
+bb1926:p291:t1	21	"[""2"", ""662"", """", """"]"	unreadable country or unattached continuation unit '2'; right block
+bb1926:p291:t1	25	"[""British India .. ,"", ""975"", ""975"", ""878""]"	unreadable or merged unit field ','; right block
+bb1926:p291:t1	31	"[""British India .. ,"", ""626"", ""626"", ""2855""]"	unreadable or merged unit field ','; right block
+bb1926:p292:t1	14	"[""Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross"", ""Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross"", ""Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross"", ""Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross""]"	unreadable country or unattached continuation unit 'Abrasives manufactured, cement per barrel not exceeding 5 cwt'; left block
+bb1926:p296:t1	5	"[""British Possessions— British India .. ,"", ""300"", ""300"", ""151""]"	unreadable or merged unit field ','; left block
+bb1926:p296:t1	13	"[""Cotton manufactures, not elsewhere specified— United Kingdom .. { yds. 29851 doz. 579 } 60381"", """", """", """"]"	unreadable or merged unit field 'yds. 29851 doz. 579 } 60381'; left block
+bb1926:p296:t1	10	"[""Sacks and bags empty new— British Possessions— British India .. { doz. 295 cwt. 99 } 11023"", """", """", """"]"	unreadable or merged unit field 'doz. 295 cwt. 99 } 11023'; right block
+bb1926:p296:t1	12	"[""British Possessions— British India .. ,"", ""1660"", ""1660"", ""9662""]"	unreadable or merged unit field ','; right block
+bb1926:p296:t1	16	"[""British Possessions— British India .. ,"", ""8"", ""8"", ""731""]"	unreadable or merged unit field ','; right block
+bb1928:p203:t1	15	"[""gals."", ""12"", ""12"", ""14257""]"	unreadable country or unattached continuation unit 'gals.'; right block
+bb1928:p203:t1	24	"[""gals."", ""897"", ""897"", ""1036""]"	unreadable country or unattached continuation unit 'gals.'; right block
+bb1928:p203:t1	26	"[""gals."", ""909"", ""909"", ""248815""]"	unreadable country or unattached continuation unit 'gals.'; right block
+bb1928:p204:t1	36	"[""British India .. gals."", ""100 130"", ""100 130"", ""222""]"	ambiguous numerical cell '100 130'; left block
+bb1928:p204:t1	38	"[""United Kingdom .. gals."", ""17 13"", ""17 13"", ""300""]"	ambiguous numerical cell '17 13'; left block
+bb1928:p204:t1	40	"[""British South Africa .."", ""1 1"", ""1 1"", ""36""]"	ambiguous numerical cell '1 1'; left block
+bb1928:p204:t1	41	"[""Total British Possessions"", ""18 14"", ""18 14"", ""336""]"	ambiguous numerical cell '18 14'; left block
+bb1928:p204:t1	43	"[""France .. \"""", ""119217 109510"", ""114792 104890"", ""1030375""]"	ambiguous numerical cell '119217 109510'; left block
+bb1928:p204:t1	44	"[""Germany .. \"""", ""— —"", ""— —"", ""7""]"	ambiguous numerical cell '— —'; left block
+bb1928:p204:t1	45	"[""Holland .. \"""", ""— —"", ""— —"", ""6""]"	ambiguous numerical cell '— —'; left block
+bb1928:p204:t1	46	"[""Italy .. \"""", ""15 12"", ""15 12"", ""152""]"	ambiguous numerical cell '15 12'; left block
+bb1928:p204:t1	47	"[""Spain .. \"""", ""1 —"", ""1 —"", ""40""]"	ambiguous numerical cell '1 —'; left block
+bb1928:p204:t1	48	"[""Total .."", ""119251 109536"", ""114726 104916"", ""1030916""]"	article total in unresolved multiple-quantity layout; left block
+bb1928:p204:t1	50	"[""United Kingdom .. gals."", ""21079 17600"", ""20397 16754"", ""196931""]"	ambiguous numerical cell '21079 17600'; left block
+bb1928:p204:t1	52	"[""France .. \"""", ""1 —"", ""1 —"", ""8""]"	ambiguous numerical cell '1 —'; left block
+bb1928:p204:t1	53	"[""Germany .. \"""", ""2 1"", ""2 1"", ""21""]"	ambiguous numerical cell '2 1'; left block
+bb1928:p204:t1	54	"[""Holland .. \"""", ""97067 87237"", ""100237 89660"", ""706770""]"	ambiguous numerical cell '97067 87237'; left block
+bb1928:p204:t1	55	"[""Spain .. \"""", ""1 —"", ""1 —"", ""23""]"	ambiguous numerical cell '1 —'; left block
+bb1928:p204:t1	56	"[""Total .."", ""118150 104838"", ""120638 106415"", ""903753""]"	article total in unresolved multiple-quantity layout; left block
+bb1928:p204:t1	58	"[""United Kingdom .. gals."", ""— 173"", ""— 173"", ""3686""]"	ambiguous numerical cell '— 173'; left block
+bb1928:p204:t1	60	"[""Australia .. \"""", ""— —"", ""— —"", ""32""]"	ambiguous numerical cell '— —'; left block
+bb1928:p204:t1	61	"[""British South Africa .."", ""— 13"", ""— 13"", ""317""]"	ambiguous numerical cell '— 13'; left block
+bb1928:p204:t1	62	"[""Total British Possessions"", ""— 13"", ""— 13"", ""349""]"	ambiguous numerical cell '— 13'; left block
+bb1928:p204:t1	5	"[""Denmark .. gals."", ""— 19"", ""— 19"", ""386""]"	ambiguous numerical cell '— 19'; right block
+bb1928:p204:t1	6	"[""France .. \"""", ""— 822"", ""— 822"", ""12816""]"	ambiguous numerical cell '— 822'; right block
+bb1928:p204:t1	7	"[""Germany .. \"""", ""— 10"", ""— 10"", ""193""]"	ambiguous numerical cell '— 10'; right block
+bb1928:p204:t1	8	"[""Holland .. \"""", ""— 180"", ""— 180"", ""3148""]"	ambiguous numerical cell '— 180'; right block
+bb1928:p204:t1	9	"[""Russia in Europe .. \"""", ""— 7"", ""— 7"", ""161""]"	ambiguous numerical cell '— 7'; right block
+bb1928:p204:t1	11	"[""Total .."", ""— 1224"", ""— 1224"", ""20752""]"	article total in unresolved multiple-quantity layout; right block
+bb1928:p204:t1	13	"[""United Kingdom .. gals."", ""171 128"", ""171 128"", ""2199""]"	ambiguous numerical cell '171 128'; right block
+bb1928:p204:t1	15	"[""British West Indies .. \"""", ""115 98"", ""115 98"", ""1207""]"	ambiguous numerical cell '115 98'; right block
+bb1928:p204:t1	17	"[""France .. \"""", ""26 22"", ""26 22"", ""339""]"	ambiguous numerical cell '26 22'; right block
+bb1928:p204:t1	18	"[""Holland .. \"""", ""2 1"", ""2 1"", ""20""]"	ambiguous numerical cell '2 1'; right block
+bb1928:p204:t1	19	"[""Spain .. \"""", ""1 —"", ""1 —"", ""30""]"	ambiguous numerical cell '1 —'; right block
+bb1928:p204:t1	20	"[""Total .."", ""315 249"", ""315 249"", ""3795""]"	article total in unresolved multiple-quantity layout; right block
+bb1928:p204:t1	22	"[""United Kingdom .. gals."", ""175 269"", ""175 269"", ""1557""]"	ambiguous numerical cell '175 269'; right block
+bb1928:p204:t1	24	"[""Australia .. \"""", ""80 135"", ""80 135"", ""228""]"	ambiguous numerical cell '80 135'; right block
+bb1928:p204:t1	25	"[""British India .. \"""", ""5 8"", ""5 8"", ""25""]"	ambiguous numerical cell '5 8'; right block
+bb1928:p204:t1	26	"[""Total British Possessions"", ""85 143"", ""85 143"", ""253""]"	ambiguous numerical cell '85 143'; right block
+bb1928:p204:t1	28	"[""Germany .. \"""", ""20 34"", ""20 34"", ""60""]"	ambiguous numerical cell '20 34'; right block
+bb1928:p204:t1	29	"[""Holland .. \"""", ""1 2"", ""1 2"", ""9""]"	ambiguous numerical cell '1 2'; right block
+bb1928:p204:t1	30	"[""Java .. \"""", ""6187 9926"", ""6187 9926"", ""12290""]"	ambiguous numerical cell '6187 9926'; right block
+bb1928:p204:t1	31	"[""Total .."", ""6468 10374"", ""6468 10374"", ""14169""]"	article total in unresolved multiple-quantity layout; right block
+bb1928:p204:t1	33	"[""United Kingdom .. gals."", ""103680 80547"", ""103161 81767"", ""1719571""]"	ambiguous numerical cell '103680 80547'; right block
+bb1928:p204:t1	35	"[""Germany .. \"""", ""— —"", ""— —"", ""5""]"	ambiguous numerical cell '— —'; right block
+bb1928:p204:t1	36	"[""Total .."", ""103680 80547"", ""103161 81767"", ""1719576""]"	article total in unresolved multiple-quantity layout; right block
+bb1928:p204:t1	38	"[""United Kingdom .. gals."", ""2 1"", ""2 1"", ""40""]"	ambiguous numerical cell '2 1'; right block
+bb1928:p211:t1	26	"[""United Kingdom .. cwt."", ""United Kingdom .. cwt."", ""United Kingdom .. cwt."", ""United Kingdom .. cwt.""]"	ambiguous numerical cell 'United Kingdom .. cwt.'; right block
+bb1928:p211:t1	27	"[""3839"", ""3839"", ""40546"", """"]"	unreadable country or unattached continuation unit '3839'; right block
+bb1928:p214:t1	56	"[""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths.""]"	unreadable country or unattached continuation unit 'Glass and glassware, window glass, 16 oz., thirds and fourths.'; left block
+bb1928:p214:t1	33	"[""Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—"", ""Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—""]"	figures displaced onto a heading row; right block
+bb1928:p214:t1	54	"["""", ""537"", ""537"", ""4355""]"	figures without a row label; right block
+bb1928:p214:t1	56	"[""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths."", ""Glass and glassware, window glass, 16 oz., thirds and fourths.""]"	unreadable country or unattached continuation unit 'Glass and glassware, window glass, 16 oz., thirds and fourths.'; right block
+bb1928:p215:t1	1	"[""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other— United Kingdom .. cwt. 477 477 19749"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other— United Kingdom .. cwt. 477 477 19749"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other— United Kingdom .. cwt. 477 477 19749"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other— United Kingdom .. cwt. 477 477 19749""]"	unreadable or merged unit field 'cwt. 477 477 19749'; left block
+bb1928:p215:t1	1	"[""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars— United Kingdom .. cwt. 55622 55622 318467"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars— United Kingdom .. cwt. 55622 55622 318467"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars— United Kingdom .. cwt. 55622 55622 318467"", ""CLASS III. — ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars— United Kingdom .. cwt. 55622 55622 318467""]"	unreadable or merged unit field 'cwt. 55622 55622 318467'; right block
+bb1928:p224:t1	22	"[""Australia .. \"" 1"", """", ""1"", ""40""]"	"unreadable or merged unit field '"" 1'; right block"
+bb1928:p224:t1	23	"[""British India .. \"" 1897"", """", ""1897"", ""16516""]"	"unreadable or merged unit field '"" 1897'; right block"
+bb1928:p224:t1	24	"[""Burma .. \"" 38"", """", ""38"", ""173""]"	"unreadable or merged unit field '"" 38'; right block"
+bb1928:p224:t1	25	"[""Hong Kong .. \"" 26"", """", ""26"", ""772""]"	"unreadable or merged unit field '"" 26'; right block"
+bb1928:p224:t1	26	"[""Straits Settlements .. \"" 143"", """", ""143"", ""1743""]"	"unreadable or merged unit field '"" 143'; right block"
+bb1928:p224:t1	29	"[""Austria .. \"" 296"", """", ""296"", ""1635""]"	"unreadable or merged unit field '"" 296'; right block"
+bb1928:p224:t1	30	"[""Belgium .. \"" 24"", """", ""24"", ""214""]"	"unreadable or merged unit field '"" 24'; right block"
+bb1928:p224:t1	31	"[""China .. \"" 10"", """", ""10"", ""212""]"	"unreadable or merged unit field '"" 10'; right block"
+bb1928:p224:t1	32	"[""Czecho Slovakia .. \"" 5381"", """", ""5381"", ""23787""]"	"unreadable or merged unit field '"" 5381'; right block"
+bb1928:p224:t1	33	"[""Egypt .. \"" 4"", """", ""4"", ""146""]"	"unreadable or merged unit field '"" 4'; right block"
+bb1928:p224:t1	34	"[""France .. \"" 80"", """", ""80"", ""8882""]"	"unreadable or merged unit field '"" 80'; right block"
+bb1928:p224:t1	35	"[""Germany .. \"" 1863"", """", ""1863"", ""8392""]"	"unreadable or merged unit field '"" 1863'; right block"
+bb1928:p224:t1	36	"[""India, exc. British.. \"" 4"", """", ""4"", ""12""]"	"unreadable or merged unit field '"" 4'; right block"
+bb1928:p224:t1	37	"[""Italy .. \"" 7"", """", ""7"", ""487""]"	"unreadable or merged unit field '"" 7'; right block"
+bb1928:p224:t1	38	"[""Japan .. \"" 240"", """", ""240"", ""5086""]"	"unreadable or merged unit field '"" 240'; right block"
+bb1928:p224:t1	39	"[""Poland .. \"" 7239"", """", ""7239"", ""33510""]"	"unreadable or merged unit field '"" 7239'; right block"
+bb1928:p224:t1	40	"[""Siam .. \"" 2"", """", ""2"", ""20""]"	"unreadable or merged unit field '"" 2'; right block"
+bb1928:p224:t1	41	"[""Sweden .. \"" 583"", """", ""583"", ""2215""]"	"unreadable or merged unit field '"" 583'; right block"
+bb1928:p224:t1	42	"[""U. S., America .. \"" 1940"", """", ""1940"", ""22266""]"	"unreadable or merged unit field '"" 1940'; right block"
+bb1928:p224:t1	47	"[""British India .. \"" —"", """", ""—"", ""7041""]"	"unreadable or merged unit field '"" —'; right block"
+bb1928:p224:t1	48	"[""Burma .. \"" —"", """", ""—"", ""1026""]"	"unreadable or merged unit field '"" —'; right block"
+bb1928:p224:t1	49	"[""Canada .. \"" —"", """", ""—"", ""37""]"	"unreadable or merged unit field '"" —'; right block"
+bb1928:p224:t1	50	"[""Hong Kong .. \"" —"", """", ""—"", ""841""]"	"unreadable or merged unit field '"" —'; right block"
+bb1928:p224:t1	51	"[""Straits Settlements .. \"" —"", """", ""—"", ""3211""]"	"unreadable or merged unit field '"" —'; right block"
+bb1928:p226:t1	3	"[""United Kingdom .. { doz. 70462 yds. 46013 }"", ""70462 46013"", ""70462 46013"", ""403918""]"	unreadable or merged unit field 'doz. 70462 yds. 46013'; right block
+bb1928:p226:t1	5	"[""British India .. { doz. 20220 yds. 456 }"", ""20220 456"", ""20220 456"", ""116910""]"	unreadable or merged unit field 'doz. 20220 yds. 456'; right block
+bb1928:p226:t1	6	"[""Hong Kong .. { doz. 386 yds. — }"", ""386 —"", ""386 —"", ""936""]"	unreadable or merged unit field 'doz. 386 yds. —'; right block
+bb1928:p226:t1	7	"[""Irish Free State .. { doz. 82 yds. — }"", ""82 —"", ""82 —"", ""866""]"	unreadable or merged unit field 'doz. 82 yds. —'; right block
+bb1928:p226:t1	8	"[""Total British Possessions { doz. 20688 yds. 456 }"", ""20688 456"", ""20688 456"", ""118712""]"	unreadable country or unattached continuation unit 'Total British Possessions { doz. 20688 yds. 456 }'; right block
+bb1928:p226:t1	10	"[""Austria .. { doz. — yds. 1679 }"", ""— 1679"", ""— 1679"", ""929""]"	unreadable or merged unit field 'doz. — yds. 1679'; right block
+bb1928:p226:t1	11	"[""Belgium .. { doz. 130 yds. 24 }"", ""130 24"", ""130 24"", ""2376""]"	unreadable or merged unit field 'doz. 130 yds. 24'; right block
+bb1928:p226:t1	12	"[""China .. { doz. — yds. — }"", ""— —"", ""— —"", ""308""]"	unreadable or merged unit field 'doz. — yds. —'; right block
+bb1928:p226:t1	13	"[""Czecho Slovakia .. { doz. 44 yds. 14 }"", ""44 14"", ""44 14"", ""1326""]"	unreadable or merged unit field 'doz. 44 yds. 14'; right block
+bb1928:p226:t1	14	"[""France .. { doz. 73 yds. 120 }"", ""73 120"", ""73 120"", ""1547""]"	unreadable or merged unit field 'doz. 73 yds. 120'; right block
+bb1928:p226:t1	15	"[""Germany .. { doz. 1706 yds. 5107 }"", ""1706 5107"", ""1706 5107"", ""28657""]"	unreadable or merged unit field 'doz. 1706 yds. 5107'; right block
+bb1928:p226:t1	16	"[""Holland .. { doz. 884 yds. — }"", ""884 —"", ""884 —"", ""16048""]"	unreadable or merged unit field 'doz. 884 yds. —'; right block
+bb1928:p226:t1	17	"[""India, exc. British .. { doz. — yds. 28 }"", ""— 28"", ""— 28"", ""12""]"	unreadable or merged unit field 'doz. — yds. 28'; right block
+bb1928:p226:t1	18	"[""Italy .. { doz. 928 yds. 1600 }"", ""928 1600"", ""928 1600"", ""8471""]"	unreadable or merged unit field 'doz. 928 yds. 1600'; right block
+bb1928:p226:t1	19	"[""Japan .. { doz. 23153 yds. — }"", ""23153 —"", ""23153 —"", ""202047""]"	unreadable or merged unit field 'doz. 23153 yds. —'; right block
+bb1928:p226:t1	20	"[""Poland .. { doz. 3 yds. — }"", ""3 —"", ""3 —"", ""43""]"	unreadable or merged unit field 'doz. 3 yds. —'; right block
+bb1928:p226:t1	21	"[""Switzerland .. { doz. 904 yds. 2138 }"", ""904 2138"", ""904 2138"", ""5737""]"	unreadable or merged unit field 'doz. 904 yds. 2138'; right block
+bb1928:p226:t1	22	"[""U. S., America .. { doz. 611 yds. — }"", ""611 —"", ""611 —"", ""6215""]"	unreadable or merged unit field 'doz. 611 yds. —'; right block
+bb1928:p226:t1	23	"[""Total .. { doz. 119586 yds. 57179 }"", ""119586 57179"", ""119586 57179"", ""796346""]"	unreadable or merged unit field 'doz. 119586 yds. 57179'; right block
+bb1928:p230:t1	3	"[""United Kingdom { cwt. 12 No of doz. 787 } 675"", """", """", """"]"	unreadable or merged unit field 'cwt. 12 No of doz. 787 } 675'; left block
+bb1928:p230:t1	5	"[""British India { cwt. 21623 No. of doz. 121817 } 683191"", """", """", """"]"	unreadable or merged unit field 'cwt. 21623 No. of doz. 121817 } 683191'; left block
+bb1928:p230:t1	7	"[""Egypt { cwt. 5 No. of doz. 48 } 143"", """", """", """"]"	unreadable or merged unit field 'cwt. 5 No. of doz. 48 } 143'; left block
+bb1928:p230:t1	8	"[""Germany { cwt. — No. of doz. 1 } 4"", """", """", """"]"	unreadable or merged unit field 'cwt. — No. of doz. 1 } 4'; left block
+bb1928:p230:t1	9	"[""Total { cwt. 21640 No. of doz. 122653 } 684013"", """", """", """"]"	unreadable or merged unit field 'cwt. 21640 No. of doz. 122653 } 684013'; left block
+bb1928:p233:t1	15	"[""Sumatra .. glas."", ""14121"", ""14121"", ""15178""]"	unreadable or merged unit field 'glas.'; right block
+bb1928:p234:t1	44	"[""British India .. (No. cwt."", ""172 ?"", ""172 3"", ""989""]"	ambiguous numerical cell '?'; right block
+bb1928:p235:t1	9	"[""Straits Settlements .."", ""No. 69"", ""69"", ""253""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	26	"[""United Kingdom .."", ""cwt. 20441"", ""20441"", ""406712""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	28	"[""British India .."", ""1"", ""1"", ""79""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	30	"[""Austria .."", ""6272"", ""6272"", ""72961""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	31	"[""Belgium .."", ""795"", ""795"", ""17183""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	32	"[""Czecho Slovakia .."", ""161"", ""161"", ""3362""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	33	"[""Finland .."", ""1050"", ""1050"", ""10874""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	34	"[""Germany .."", ""2656"", ""2656"", ""44509""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	35	"[""Holland .."", ""1770"", ""1770"", ""45639""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	36	"[""Italy .."", ""1040"", ""1040"", ""12419""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	37	"[""Jugo-Slavia .."", ""278"", ""278"", ""3175""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	38	"[""Norway .."", ""6863"", ""6863"", ""81694""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	39	"[""Sweden .."", ""8818"", ""8818"", ""114956""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	40	"[""U. S., America .."", ""2"", ""2"", ""29""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	42	"[""Total .."", ""50147"", ""50147"", ""813592""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	45	"[""United Kingdom .."", ""cwt. 11640"", ""11640"", ""594062""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	47	"[""Australia .."", ""8"", ""8"", ""7801""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	48	"[""British India .."", ""58"", ""58"", ""7496""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	50	"[""Straits Settlements .."", ""1"", ""1"", ""84""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	52	"[""Total British Possessions"", ""67"", ""67"", ""15506""]"	two-unit quantity cannot be separated; left block
+bb1928:p235:t1	5	"[""Austria .."", ""cwt. 691"", ""691"", ""18620""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	6	"[""Belgium .."", ""274"", ""274"", ""5840""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	8	"[""Czecho Slovakia .."", ""135"", ""135"", ""4444""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	10	"[""Finland .."", ""346"", ""346"", ""9846""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	11	"[""France .."", ""19"", ""19"", ""1980""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	12	"[""Germany .."", ""1733"", ""1733"", ""47622""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	13	"[""Holland .."", ""1147"", ""1147"", ""32578""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	14	"[""Italy .."", ""25"", ""25"", ""1084""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	15	"[""Japan .."", ""11"", ""11"", ""661""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	16	"[""Jugo-Slavia .."", ""20"", ""20"", ""471""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	17	"[""Norway .."", ""214"", ""214"", ""5181""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	18	"[""Or. For. Coun. in Europe .."", ""233"", ""233"", ""4296""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	19	"[""Sweden .."", ""870"", ""870"", ""39009""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	20	"[""Switzerland .."", ""13"", ""13"", ""1121""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	21	"[""U. S., America .."", ""58"", ""58"", ""4841""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	23	"[""Total .."", ""17496"", ""17496"", ""787218""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	25	"[""United Kingdom .."", ""cwt. 79608"", ""79608"", ""424225""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	27	"[""British India .."", ""202"", ""202"", ""1558""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	28	"[""Canada .."", ""11"", ""11"", ""317""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	30	"[""Total British Possessions"", ""213"", ""213"", ""1918""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	32	"[""Austria .."", ""60"", ""60"", ""1981""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	33	"[""Belgium .."", ""222"", ""222"", ""6494""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	34	"[""Czecho Slovakia .."", ""64"", ""64"", ""1839""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	35	"[""Esthonia .."", ""48"", ""48"", ""1475""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	36	"[""Finland .."", ""580"", ""580"", ""9197""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	37	"[""France .."", ""3"", ""3"", ""92""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	38	"[""Germany .."", ""695"", ""695"", ""14811""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	39	"[""Holland .."", ""43"", ""43"", ""394""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	40	"[""Italy .."", ""117"", ""117"", ""4129""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	42	"[""Norway .."", ""776"", ""776"", ""14604""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	43	"[""Or. For. Coun. in Europe .."", ""44"", ""44"", ""591""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	44	"[""Sweden .."", ""2069"", ""2069"", ""36997""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	45	"[""Switzerland .."", ""16"", ""16"", ""424""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	46	"[""U. S., America .."", ""6483"", ""6483"", ""35097""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	48	"[""Total .."", ""91041"", ""91041"", ""554283""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	50	"[""United Kingdom .."", ""cwt. 58"", ""58"", ""2522""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	52	"[""British India .."", ""17"", ""17"", ""721""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	54	"[""Czecho Slovakia .."", ""164"", ""164"", ""5094""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	55	"[""Germany .."", ""400"", ""400"", ""15230""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	56	"[""Italy .."", ""22"", ""22"", ""666""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	57	"[""Japan .."", ""9"", ""9"", ""657""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	58	"[""Norway .."", ""119"", ""119"", ""3864""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	59	"[""Sweden .."", ""88"", ""88"", ""2921""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	61	"[""Total .."", ""877"", ""877"", ""331675""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	63	"[""United Kingdom .."", ""cwt. 944"", ""944"", ""41246""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	66	"[""British India .."", ""3"", ""3"", ""118""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	67	"[""Total British Possessions"", ""3"", ""3"", ""294""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	71	"[""France .."", ""1"", ""1"", ""122""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	72	"[""Germany .."", ""1"", ""1"", ""98""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	73	"[""U. S., America .."", ""2"", ""2"", ""196""]"	two-unit quantity cannot be separated; right block
+bb1928:p235:t1	75	"[""Total .."", ""951"", ""951"", ""41972""]"	two-unit quantity cannot be separated; right block
+bb1928:p236:t1	14	"[""cwt. {"", ""112"", ""112"", ""21160""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	17	"[""cwt. {"", ""—"", ""—"", ""3""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	20	"[""cwt. {"", ""640"", ""640"", ""27183""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	22	"[""cwt. {"", ""—"", ""—"", ""54""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	24	"[""cwt. {"", ""—"", ""—"", ""218""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	26	"[""cwt. {"", ""—"", ""—"", ""12""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	28	"[""cwt. {"", ""—"", ""—"", ""162""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	30	"[""cwt. {"", ""161"", ""161"", ""23299""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p236:t1	32	"[""cwt. {"", ""913"", ""913"", ""72091""]"	unreadable country or unattached continuation unit 'cwt. {'; right block
+bb1928:p239:t1	6	"[""United Kingdom .. (No. cwt."", ""3260318"", ""3260318"", ""219330""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	7	"["""", ""834"", ""834"", """"]"	figures without a row label; right block
+bb1928:p239:t1	9	"[""British India .. (No. cwt."", ""74367"", ""74367"", ""11005""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	10	"["""", ""461"", ""461"", """"]"	figures without a row label; right block
+bb1928:p239:t1	12	"[""Belgium .. (No. cwt."", ""2000"", ""2000"", ""9""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	13	"[""France .. (No. cwt."", ""730"", ""730"", ""95""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	14	"[""Germany .. (No. cwt."", ""305360"", ""305360"", ""18614""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	15	"[""U. S., America .. (No. cwt."", ""252"", ""252"", """"]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	16	"["""", ""574145"", ""574145"", ""35311""]"	figures without a row label; right block
+bb1928:p239:t1	17	"["""", ""358"", ""358"", """"]"	figures without a row label; right block
+bb1928:p239:t1	18	"[""Total .. (No. cwt."", ""4216920"", ""4216920"", ""284364""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	19	"[""1905"", ""1905"", """", """"]"	unreadable country or unattached continuation unit '1905'; right block
+bb1928:p239:t1	21	"[""United Kingdom .. (No. cwt."", ""39340"", ""39340"", ""2153""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	22	"["""", ""11"", ""11"", """"]"	figures without a row label; right block
+bb1928:p239:t1	24	"[""France .. (No. cwt."", ""1000"", ""1000"", ""5""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	25	"[""Germany .. (No. cwt."", ""13000"", ""13000"", ""261""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	26	"[""U. S., America .. (No. cwt."", ""2"", ""2"", """"]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	27	"["""", ""5000"", ""5000"", ""166""]"	figures without a row label; right block
+bb1928:p239:t1	28	"[""Total .. (No. cwt."", ""58340"", ""58340"", ""2585""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	29	"[""14"", ""14"", """", """"]"	unreadable country or unattached continuation unit '14'; right block
+bb1928:p239:t1	31	"[""United Kingdom .. (No. cwt."", ""4995000"", ""4995000"", ""13882""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	32	"["""", ""48"", ""48"", """"]"	figures without a row label; right block
+bb1928:p239:t1	34	"[""Germany .. (No. cwt."", ""105000"", ""105000"", ""290""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	35	"[""U. S., America .. (No. cwt."", ""3"", ""3"", """"]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	36	"["""", ""35000"", ""35000"", ""316""]"	figures without a row label; right block
+bb1928:p239:t1	37	"[""Total .. (No. cwt."", ""5135000"", ""5135000"", ""14488""]"	two-unit quantity cannot be separated; right block
+bb1928:p239:t1	38	"[""52"", ""52"", """", """"]"	unreadable country or unattached continuation unit '52'; right block
+bb1928:p240:t1	3	"[""United Kingdom .. (coils cwt. 98479 539)"", ""98479 539"", ""98479 539"", ""55150""]"	unreadable or merged unit field 'coils cwt. 98479 539'; left block
+bb1928:p240:t1	5	"[""Australia .. (coils cwt. — —)"", ""—"", ""—"", ""10""]"	unreadable or merged unit field 'coils cwt. — —'; left block
+bb1928:p240:t1	7	"[""France .. (coils cwt. 300 —)"", ""300"", ""300"", ""80""]"	unreadable or merged unit field 'coils cwt. 300 —'; left block
+bb1928:p240:t1	8	"[""Germany .. (coils cwt. 47070 206)"", ""47070 206"", ""47070 206"", ""15960""]"	unreadable or merged unit field 'coils cwt. 47070 206'; left block
+bb1928:p240:t1	9	"[""Total .. (coils cwt. 145849 745)"", ""145849 745"", ""145849 745"", ""71200""]"	unreadable or merged unit field 'coils cwt. 145849 745'; left block
+bb1928:p240:t1	13	"[""United Kingdom .. (No. cwt. 456000 29)"", ""456000 29"", ""456000 29"", ""6197""]"	unreadable or merged unit field 'No. cwt. 456000 29'; left block
+bb1928:p242:t1	17	"[""Total .. (No. lin. ft.)"", ""3796500"", ""3796500"", ""103545""]"	two-unit quantity cannot be separated; left block
+bb1928:p246:t1	26	"[""Other Foreign Countries in Europe .."", ""Other Foreign Countries in Europe .."", ""Other Foreign Countries in Europe .."", ""Other Foreign Countries in Europe ..""]"	ambiguous numerical cell 'Other Foreign Countries in Europe ..'; right block
+bb1928:p246:t1	29	"["""", ""3"", ""3"", ""15""]"	figures without a row label; right block
+bb1928:p255:t1	8	"[""China, exc. Hong Kong .."", ""3 186"", ""—"", ""3986"", ""239"", ""—"", ""239""]"	ambiguous numerical cell '3 186'
+bb1928:p268:t1	53	"[""Ship Stores .. \"""", ""Ship Stores .. \"""", ""Ship Stores .. \"""", ""Ship Stores .. \"""", ""Ship Stores .. \"""", ""Ship Stores .. \"""", ""Ship Stores .. \""""]"	"ambiguous numerical cell 'Ship Stores .. ""'"
+bb1928:p280:t1	7	"["""", ""cwt. —"", ""72"", ""72"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	9	"["""", ""cwt. —"", ""1597"", ""1597"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	11	"["""", ""cwt. —"", ""44"", ""44"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	13	"["""", ""cwt. —"", ""1713"", ""1713"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	16	"["""", ""cwt. —"", ""27"", ""27"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	18	"["""", ""cwt. —"", ""226"", ""226"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	20	"["""", ""cwt. —"", ""79"", ""79"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	22	"["""", ""cwt. —"", ""16"", ""16"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	24	"["""", ""cwt. —"", ""2061"", ""2061"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	27	"["""", ""cwt. —"", ""15"", ""15"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	30	"["""", ""cwt. —"", ""327"", ""327"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	32	"["""", ""cwt. —"", ""10"", ""10"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	34	"["""", ""cwt. —"", ""337"", ""337"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	37	"["""", ""cwt. —"", ""67"", ""67"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	39	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	41	"["""", ""cwt. —"", ""51"", ""51"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	43	"["""", ""cwt. —"", ""470"", ""470"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	46	"["""", ""cwt. —"", ""295"", ""295"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	49	"["""", ""cwt. —"", ""210"", ""210"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	51	"["""", ""cwt. —"", ""106"", ""106"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	53	"["""", ""cwt. —"", ""1774"", ""1774"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	55	"["""", ""cwt. —"", ""674"", ""677"", """", """", """"]"	figures without a row label
+bb1928:p280:t1	57	"["""", ""cwt. —"", ""2764"", ""2764"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	6	"["""", ""cwt. —"", ""2764"", ""2764"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	8	"["""", ""cwt. —"", ""—"", ""—"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	10	"["""", ""cwt. —"", ""41"", ""41"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	12	"["""", ""cwt. —"", ""10"", ""10"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	14	"["""", ""cwt. —"", ""27"", ""27"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	16	"["""", ""cwt. —"", ""2842"", ""2842"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	19	"["""", ""cwt. —"", ""3"", ""3"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	21	"["""", ""cwt. —"", ""1"", ""1"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	23	"["""", ""cwt. —"", ""43"", ""43"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	25	"["""", ""cwt. —"", ""287"", ""287"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	27	"["""", ""cwt. —"", ""1"", ""1"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	29	"["""", ""cwt. —"", ""12"", ""12"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	31	"["""", ""cwt. —"", ""3484"", ""3484"", """", """", """"]"	figures without a row label
+bb1928:p281:t1	36	"[""Australia .."", ""\"" 3"", ""3"", ""6"", ""650"", ""260"", ""910""]"	"ambiguous numerical cell '"" 3'"
+bb1928:p281:t1	37	"[""British East Africa .."", ""\"" 4"", ""—"", ""4"", ""160"", ""—"", ""160""]"	"ambiguous numerical cell '"" 4'"
+bb1928:p281:t1	38	"[""British India .."", ""\"" 949"", ""101"", ""1050"", ""10250"", ""1163"", ""11413""]"	"ambiguous numerical cell '"" 949'"
+bb1928:p281:t1	39	"[""Maldives Islands .."", ""\"" 500"", ""13"", ""513"", ""4159"", ""454"", ""4613""]"	"ambiguous numerical cell '"" 500'"
+bb1928:p281:t1	40	"[""Other Br. Poss. in Africa .."", ""\"" —"", ""23"", ""23"", ""—"", ""200"", ""200""]"	"ambiguous numerical cell '"" —'"
+bb1928:p281:t1	41	"[""Straits Settlements .."", ""\"" 18"", ""23"", ""41"", ""4310"", ""1000"", ""5310""]"	"ambiguous numerical cell '"" 18'"
+bb1928:p281:t1	44	"[""France .."", ""\"" 49"", ""—"", ""49"", ""2250"", ""—"", ""2250""]"	"ambiguous numerical cell '"" 49'"
+bb1928:p281:t1	45	"[""Germany .."", ""\"" —"", ""6"", ""6"", ""—"", ""420"", ""420""]"	"ambiguous numerical cell '"" —'"
+bb1928:p281:t1	46	"[""India, exc. British .."", ""\"" 1"", ""—"", ""1"", ""5"", ""—"", ""5""]"	"ambiguous numerical cell '"" 1'"
+bb1928:p281:t1	47	"[""Java .."", ""\"" 1"", ""—"", ""1"", ""225"", ""—"", ""225""]"	"ambiguous numerical cell '"" 1'"
+bb1928:p281:t1	48	"[""U. S., America .."", ""\"" 50"", ""12"", ""62"", ""3458"", ""750"", ""4208""]"	"ambiguous numerical cell '"" 50'"
+bb1928:p283:t1	26	"[""Cotton manufactures not elsewhere specified—"", """", """", """", ""—"", ""1205"", ""1205""]"	figures displaced onto a heading row
+bb1928:p283:t1	28	"[""British Possessions -- { doz."", ""—"", ""30"", ""30"", ""—"", ""799"", ""799""]"	unreadable country or unattached continuation unit '-'
+bb1928:p283:t1	36	"[""Woollen and worsted manufactures of all descriptions—"", """", """", """", ""114"", ""1617"", ""1731""]"	figures displaced onto a heading row
+bb1928:p285:t1	31	"[""British India .. „ 12"", ""—"", ""—"", ""12"", ""165"", ""—"", ""165""]"	unreadable or merged unit field '„ 12'
+bb1928:p285:t1	32	"[""Mauritius .. „ —"", ""—"", ""—"", ""—"", ""—"", ""5"", ""5""]"	unreadable or merged unit field '„ —'
+bb1928:p285:t1	33	"[""Total British Possessions 12"", ""—"", ""—"", ""12"", ""165"", ""5"", ""170""]"	unreadable country or unattached continuation unit 'Total British Possessions 12'
+bb1928:p285:t1	35	"[""Sumatra .. „ —"", ""—"", ""—"", ""—"", ""25"", ""—"", ""25""]"	unreadable or merged unit field '„ —'
+bb1928:p285:t1	36	"[""Total .. 1496"", ""—"", ""—"", ""1496"", ""28634"", ""5"", ""28639""]"	unreadable or merged unit field '1496'
+bb1928:p285:t1	40	"[""British India .. „ 413"", ""—"", ""—"", ""413"", ""5799"", ""—"", ""5799""]"	unreadable or merged unit field '„ 413'
+bb1928:p285:t1	41	"[""Maldives Islands .. „ 31"", ""—"", ""1"", ""32"", ""434"", ""24"", ""458""]"	unreadable or merged unit field '„ 31'
+bb1928:p285:t1	42	"[""Palestine .. „ 20"", ""—"", ""—"", ""20"", ""280"", ""—"", ""280""]"	unreadable or merged unit field '„ 20'
+bb1928:p285:t1	43	"[""Straits Settlements .. „ 18460"", ""—"", ""—"", ""18460"", ""258448"", ""—"", ""258448""]"	unreadable or merged unit field '„ 18460'
+bb1928:p285:t1	44	"[""Total British Possessions 19076"", ""—"", ""1"", ""19077"", ""267090"", ""24"", ""267114""]"	unreadable country or unattached continuation unit 'Total British Possessions 19076'
+bb1928:p285:t1	46	"[""Germany .. „ 10"", ""—"", ""—"", ""10"", ""16"", ""—"", ""16""]"	unreadable or merged unit field '„ 10'
+bb1928:p285:t1	47	"[""Total .. 19086"", ""—"", ""1"", ""19087"", ""267106"", ""24"", ""267130""]"	unreadable or merged unit field '19086'
+bb1928:p289:t1	8	"[""United Kingdom .. ewt."", ""2287"", ""45"", ""2332"", ""475093"", ""34933"", ""510026""]"	unreadable or merged unit field 'ewt.'
+bb1928:p293:t1	6	"[""British India ( No. tons. )"", ""1"", ""—"", ""1"", ""16"", ""—"", ""16""]"	two-unit quantity cannot be separated
+bb1928:p302:t1	29	"[""United Kingdom .. gals."", ""25 40"", ""25 40"", ""399""]"	ambiguous numerical cell '25 40'; left block
+bb1928:p302:t1	31	"[""Java .. .."", ""6007 9638"", ""6007 9638"", ""12015""]"	ambiguous numerical cell '6007 9638'; left block
+bb1928:p302:t1	32	"[""Total .."", ""6032 9678"", ""6032 9678"", ""12414""]"	article total in unresolved multiple-quantity layout; left block
+bb1928:p307:t1	6	"[""Tot 1 .. ( No. 18 cwt. 105 )"", """", ""18 105"", ""12722""]"	unreadable country or unattached continuation unit 'Tot 1'; right block
+bb1928:p307:t1	29	"[""China .. „ 3"", """", ""3"", ""100""]"	unreadable or merged unit field '„ 3'; right block
+bb1928:p307:t1	32	"[""United Kingdom .. value —"", """", ""—"", ""4277""]"	unreadable or merged unit field 'value —'; right block
+bb1928:p307:t1	34	"[""British India .. , —"", """", ""—"", ""383""]"	unreadable or merged unit field ', —'; right block
+bb1928:p307:t1	39	"[""British India .. lb. —"", """", ""—"", ""6615""]"	unreadable or merged unit field 'lb. —'; right block
+bb1928:p307:t1	41	"[""United Kingdom .. lb. 1075"", """", ""1075"", ""1835""]"	unreadable or merged unit field 'lb. 1075'; right block
+bb1928:p307:t1	43	"[""British India .. „ 176"", """", ""176"", ""84""]"	unreadable or merged unit field '„ 176'; right block
+bb1928:p309:t1	9	"[""Foreign Countries— Borneo, exc British U. S., America .. „"", ""— 12282"", ""81942 30258"", ""— 1511""]"	ambiguous numerical cell '— 12282'; right block
+bb1928:p309:t1	10	"[""Total .."", ""20619"", ""120537"", ""31747""]"	article total in unresolved multiple-quantity layout; right block
+bb1928:p311:t1	6	"[""United Kingdom .. (No. cwt.)"", ""1901600"", ""1901600"", ""148525""]"	two-unit quantity cannot be separated; left block
+bb1928:p311:t1	8	"[""British India .. (No. cwt.)"", ""72450"", ""72450"", ""10519""]"	two-unit quantity cannot be separated; left block
+bb1928:p311:t1	9	"[""Total .. (No. cwt.)"", ""1974050"", ""1974050"", ""159044""]"	two-unit quantity cannot be separated; left block
+bb1928:p311:t1	10	"["""", ""461"", ""461"", """"]"	figures without a row label; left block
+bb1928:p311:t1	12	"[""United Kingdom .. (No. cwt.)"", ""20640"", ""20640"", ""1445""]"	two-unit quantity cannot be separated; left block
+bb1928:p311:t1	14	"[""United Kingdom .. (coils. cwt.)"", ""28479"", ""28479"", ""28096""]"	two-unit quantity cannot be separated; left block
+bb1928:p311:t1	16	"[""United Kingdom .. (No. cwt.)"", ""60000"", ""60000"", ""1596""]"	two-unit quantity cannot be separated; left block

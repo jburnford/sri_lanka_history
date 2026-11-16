@@ -1,0 +1,78 @@
+table_id	year_volume	kind	decision	row_count	discovery	dating_or_reason
+bb1869:p11:t2	1869	acreage_by_crop	used	49	province crop summary	Explicit page year 1868; paired tables follow page text year order.
+bb1869:p11:t3	1869	acreage_by_crop	used	49	province crop summary	Explicit page year 1869; paired tables follow page text year order.
+bb1869:p11:t4	1869	live_stock	used	10	reviewed early produce block	Year printed in each numeric column header.
+bb1869:p530:t1	1869	land_produce_stock	used	150	land return heading	No explicit reporting year in table/page text; year_data left empty.
+bb1869:p535:t1	1869	land_produce_stock	used	68	reviewed early produce block	Facing page 536 heading explicitly says STOCK, &c, 1869.; Western Province block.
+bb1869:p535:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p536:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p536:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p537:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p537:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p538:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p538:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p539:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p539:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p540:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p540:t2	1869		skipped	0	reviewed early produce block	Monetary values of produce in pounds/shillings/pence, rather than produce quantities; outside requested measures.
+bb1869:p541:t1	1869		skipped	0	reviewed early produce block	Price-only table; outside the requested acreage, produce quantities and stock counts.
+bb1869:p542:t1	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p542:t2	1869		skipped	0	reviewed early produce block	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1902:p16:t1	1902	acreage_by_crop	used	110	province crop summary	Explicit page year 1901; paired tables follow page text year order.
+bb1902:p16:t2	1902	acreage_by_crop	used	110	province crop summary	Explicit page year 1902; paired tables follow page text year order.
+bb1902:p16:t3	1902	live_stock	used	10	colony livestock summary	Year printed in each numeric column header.
+bb1902:p680:t1	1902	land_produce_stock	used	86	district return header; crop/stock section	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p681:t1	1902	land_produce_stock	used	90	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p682:t1	1902	land_produce_stock	used	84	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p683:t1	1902	land_produce_stock	used	104	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p684:t1	1902	land_produce_stock	used	100	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p685:t1	1902	land_produce_stock	used	102	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p686:t1	1902	land_produce_stock	used	102	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p687:t1	1902	land_produce_stock	used	42	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p688:t1	1902	land_produce_stock	used	55	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p689:t1	1902	land_produce_stock	used	25	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1902:p690:t1	1902	land_produce_stock	used	112	reviewed target	No explicit reporting year in table/page text; year_data left empty.
+bb1902:p691:t1	1902		skipped	0	reviewed target	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1904:p18:t1	1904	acreage_by_crop	used	110	province crop summary	Explicit page year 1903; paired tables follow page text year order.
+bb1904:p18:t2	1904	acreage_by_crop	used	110	province crop summary	Explicit page year 1904; paired tables follow page text year order.
+bb1904:p18:t3	1904	live_stock	used	10	colony livestock summary	Year printed in each numeric column header.
+bb1904:p726:t1	1904	land_produce_stock	used	88	district return header; crop/stock section	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p727:t1	1904	land_produce_stock	used	92	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p728:t1	1904	land_produce_stock	used	84	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p729:t1	1904	land_produce_stock	used	104	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p730:t1	1904	land_produce_stock	used	102	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p731:t1	1904	land_produce_stock	used	102	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p732:t1	1904	land_produce_stock	used	106	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p733:t1	1904	land_produce_stock	used	48	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p734:t1	1904	land_produce_stock	used	50	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p735:t1	1904	land_produce_stock	used	25	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1904:p736:t1	1904	land_produce_stock	used	112	reviewed target	No explicit reporting year in table/page text; year_data left empty.
+bb1904:p737:t1	1904		skipped	0	reviewed target	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1912:p16:t4	1912	acreage_by_crop	used	110	province crop summary	Explicit page year 1911; paired tables follow page text year order.
+bb1912:p17:t1	1912	acreage_by_crop	used	110	province crop summary	Explicit page year 1912; paired tables follow page text year order.
+bb1912:p17:t2	1912	live_stock	used	10	colony livestock summary	Year printed in each numeric column header.
+bb1912:p253:t1	1912	land_produce_stock	used	78	district return header; crop/stock section	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p254:t1	1912	land_produce_stock	used	98	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p255:t1	1912	land_produce_stock	used	88	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p256:t1	1912	land_produce_stock	used	110	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p257:t1	1912	land_produce_stock	used	92	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p258:t1	1912	land_produce_stock	used	82	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p259:t1	1912	land_produce_stock	used	72	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p260:t1	1912	land_produce_stock	used	74	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p261:t1	1912	land_produce_stock	used	41	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p262:t1	1912	land_produce_stock	used	32	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p263:t1	1912	land_produce_stock	used	44	district return header	No explicit reporting year in table or page text; year_data left empty.
+bb1912:p264:t1	1912	land_produce_stock	used	112	reviewed target	No explicit reporting year in table/page text; year_data left empty.
+bb1912:p265:t1	1912		skipped	0	reviewed target	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1924:p395:t1	1924		skipped	0	crop/stock section	Crop headers are shifted against data columns (and some row labels/figures also shift); no safe crop-to-number mapping.
+bb1924:p396:t1	1924		skipped	0	crop/stock section	Crop headers are shifted against data columns (and some row labels/figures also shift); no safe crop-to-number mapping.
+bb1924:p397:t1	1924	land_produce_stock	used	168	land return heading	Page footnote explicitly says figures are for 1923.
+bb1924:p400:t1	1924	live_stock	used	168	stock section	No explicit year for the count table in page text; year_data left empty.
+bb1925:p305:t1	1925		skipped	0	crop/stock section	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1925:p308:t1	1925		skipped	0	stock section	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1926:p315:t1	1926		skipped	0	crop/stock section	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1926:p318:t1	1926	live_stock	used	174	stock section	No explicit year for the count table in page text; year_data left empty.
+bb1928:p327:t1	1928	acreage_by_crop	used	480	crop/stock section	Rubber: July 1928 census, explicitly stated in page text. Other crops: mixed census-based estimates (1921/1924), no unique data year.
+bb1928:p330:t1	1928	live_stock	used	174	stock section	No explicit year for the count table in page text; year_data left empty.
+bb1933:p219:t1	1933		skipped	0	crop/stock section	Collapsed side-by-side crops/livestock layout: livestock figures appear beside crop names; crop figures/animal labels missing.
+bb1934:p221:t1	1934		skipped	0	crop/stock section	Collapsed side-by-side crops/livestock layout: livestock figures appear beside crop names; crop figures/animal labels missing.

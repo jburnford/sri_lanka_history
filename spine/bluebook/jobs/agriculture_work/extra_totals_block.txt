@@ -1,0 +1,66 @@
+# Extra diagnostics on non-acreage_by_crop tables. They annotate suspect printed
+# totals too, without mixing these comparisons into the requested acreage report.
+ACREAGE_AUDIT = list(AUDIT)
+CELL_INDEX = {(tid,ri,ci):i for i,(tid,ri,ci,*_) in enumerate(PROVENANCE)}
+
+def check_cells(t, label, target, parts):
+    if (t['id'],*target) not in CELL_INDEX:return
+    ids=[CELL_INDEX[t['id'],*p] for p in parts if (t['id'],*p) in CELL_INDEX]
+    add_check(t,label,CELL_INDEX[t['id'],*target],ids)
+
+for tid in ['bb1869:p530:t1','bb1902:p690:t1','bb1904:p736:t1','bb1912:p264:t1']:
+    t=TABLES[tid]; groups=[]; district_rows=[]; subtotal=None
+    for ri,r in enumerate(t['rows'][t['header_rows']:],t['header_rows']):
+        if province_row(r):
+            if district_rows:groups.append((list(district_rows),subtotal))
+            district_rows=[];subtotal=None
+            continue
+        if total_label(r[0]) or not r[0].strip():
+            if ri==len(t['rows'])-1:
+                # Final colony total: use each province subtotal, or its district
+                # observations when that province has no printed subtotal.
+                if district_rows:groups.append((list(district_rows),subtotal))
+                agg=[sub for ds,sub in groups if sub is not None]
+                agg += [d for ds,sub in groups if sub is None for d in ds]
+                for ci in range(1,len(r)):
+                    check_cells(t,'colony total: '+DATA[CELL_INDEX[tid,ri,ci]]['measure_as_printed'],(ri,ci),[(d,ci) for d in agg])
+            else:
+                subtotal=ri
+                for ci in range(1,len(r)):
+                    check_cells(t,'province subtotal: '+DATA[CELL_INDEX[tid,ri,ci]]['parent_area_as_printed']+'; '+DATA[CELL_INDEX[tid,ri,ci]]['measure_as_printed'],(ri,ci),[(d,ci) for d in district_rows])
+        else:district_rows.append(ri)
+        tc=3 if t['year']==1869 else 4
+        check_cells(t,'area: '+(trim(r[0]) or '(unlabelled subtotal)'),(ri,tc),[(ri,ci) for ci in range(1,tc)])
+
+t=TABLES['bb1869:p535:t1']
+for ci in range(1,18):
+    check_cells(t,'Western Province total; '+t['rows'][2][ci],(6,ci),[(r,ci) for r in [3,4,5]])
+# Crop total columns may include/exclude pasture or selected crops, so the district
+# return's acreage total is not presumed to equal every adjacent crop column.
+
+for tid in ['bb1924:p397:t1','bb1924:p400:t1','bb1926:p318:t1','bb1928:p330:t1']:
+    t=TABLES[tid];cis=list(range(1,len(t['rows'][0]))) if tid.endswith('397:t1') else list(range(1,len(t['rows'][0]),2))
+    by_row=defaultdict(dict)
+    for (table,ri,ci),idx in CELL_INDEX.items():
+        if table==tid:by_row[ri][ci]=idx
+    provinces=[];districts=defaultdict(list);colony=None;parent_ri=None
+    for ri,cols in sorted(by_row.items()):
+        row=DATA[next(iter(cols.values()))]
+        if row['area_level']=='colony_total':colony=ri
+        elif row['area_level']=='province':provinces.append(ri);parent_ri=ri
+        else:
+            # Some single-district province headings have no numeric row.
+            # Do not attach those districts to the preceding numeric province.
+            if parent_ri is not None and row['parent_area_as_printed']==DATA[by_row[parent_ri][cis[0]]]['area_as_printed']:
+                districts[parent_ri].append(ri)
+            else:provinces.append(ri);parent_ri=None
+        if tid.endswith('397:t1'):
+            check_cells(t,'cultivated total: '+row['area_as_printed'],(ri,4),[(ri,c) for c in [1,2,3]])
+    for pri,ds in districts.items():
+        for ci in cis:
+            check_cells(t,'province total: '+DATA[by_row[pri][ci]]['area_as_printed']+'; '+DATA[by_row[pri][ci]]['measure_as_printed'],(pri,ci),[(r,ci) for r in ds])
+    if colony is not None:
+        for ci in cis:
+            check_cells(t,'colony total: '+DATA[by_row[colony][ci]]['measure_as_printed'],(colony,ci),[(r,ci) for r in provinces])
+OTHER_AUDIT = AUDIT[len(ACREAGE_AUDIT):]
+AUDIT = ACREAGE_AUDIT

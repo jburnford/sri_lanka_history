@@ -1,0 +1,25 @@
+table_id	reason
+bb1869:p535:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p536:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p536:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p537:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p537:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p538:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p538:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p539:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p539:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p540:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p540:t2	Monetary values of produce in pounds/shillings/pence, rather than produce quantities; outside requested measures.
+bb1869:p541:t1	Price-only table; outside the requested acreage, produce quantities and stock counts.
+bb1869:p542:t1	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1869:p542:t2	Complex crop/produce block: shifted or absent area/column labels, subdistrict hierarchy or unlabelled continuation; not safely aligned.
+bb1902:p691:t1	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1904:p737:t1	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1912:p265:t1	Unlabelled continuation of uncultivated-land return; district/province row alignment cannot be established safely.
+bb1924:p395:t1	Crop headers are shifted against data columns (and some row labels/figures also shift); no safe crop-to-number mapping.
+bb1924:p396:t1	Crop headers are shifted against data columns (and some row labels/figures also shift); no safe crop-to-number mapping.
+bb1925:p305:t1	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1925:p308:t1	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1926:p315:t1	Province totals occur beside district labels, followed by an unlabelled numeric row; refusing to reassign printed area labels.
+bb1933:p219:t1	Collapsed side-by-side crops/livestock layout: livestock figures appear beside crop names; crop figures/animal labels missing.
+bb1934:p221:t1	Collapsed side-by-side crops/livestock layout: livestock figures appear beside crop names; crop figures/animal labels missing.

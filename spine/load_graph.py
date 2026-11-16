@@ -39,7 +39,7 @@ def floats(*keys):
             if r.get(k) is not None: r[k] = float(r[k])
     return f
 
-CONSTRAINTS = [("Article", "id"), ("Name", "id"), ("Place", "id"), ("Taxon", "id"), ("Concept", "id"), ("BlueBookTable", "id"), ("BlueBookOfficer", "id"), ("Profile", "id"), ("WikidataPerson", "id"),
+CONSTRAINTS = [("Article", "id"), ("Name", "id"), ("Place", "id"), ("Taxon", "id"), ("Concept", "id"), ("BlueBookTable", "id"), ("BlueBookOfficer", "id"), ("Observation", "id"), ("Profile", "id"), ("WikidataPerson", "id"),
                ("ColPerson", "id"), ("Posting", "id"), ("Territory", "id")]
 
 def main():
@@ -95,6 +95,18 @@ def main():
             run(s, "bluebook/tables_index.tsv.gz", "UNWIND $rows AS r CREATE (t:BlueBookTable) SET t = r", conv=ints("year", "pdf_page", "n_rows", "n_cols", "n_links"))
             run(s, "bluebook/table_name_links.tsv.gz", """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table}), (n:Name {id: r.type + ':' + r.key})
                   CREATE (t)-[:HAS_LABEL {cells:r.cells, labels:r.labels, polity_at_date:r.polity_at_date}]->(n)""", batch=5000, conv=ints("cells"))
+        ob = "bluebook/observations.tsv.gz"                       # printed figures extracted from Blue Book tables
+        if (HERE / ob).exists():
+            def conv(r):
+                r["value"] = float(r["value"]) if r.get("value") not in (None, "") else None
+                for k in ("year_volume", "year_data"): r[k] = int(r[k]) if r.get(k) else None
+            run(s, ob, """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table})
+                  CREATE (o:Observation {id:r.id, kind:r.kind, year_volume:r.year_volume, year_data:r.year_data, area_as_printed:r.area_as_printed,
+                          parent_as_printed:r.parent_as_printed, measure_as_printed:r.measure_as_printed, unit_as_printed:r.unit_as_printed,
+                          value_as_printed:r.value_as_printed, value:r.value, note:r.note})-[:PRINTED_IN]->(t)
+                  WITH o, r
+                  CALL (o, r) { WITH o, r WHERE r.area_key IS NOT NULL MATCH (n:Name {id:'PLACE:' + r.area_key}) CREATE (o)-[:ABOUT_PLACE]->(n) }
+                  CALL (o, r) { WITH o, r WHERE r.measure_key IS NOT NULL MATCH (n:Name {id:r.measure_type + ':' + r.measure_key}) CREATE (o)-[:MEASURES]->(n) }""", batch=5000, conv=conv)
         om = "bluebook/extracted/officer_matches.tsv"            # people named in the Civil Establishment, per volume
         if (HERE / om).exists():
             run(s, om, """UNWIND $rows AS r CREATE (o:BlueBookOfficer {id:r.bb_person, year:r.year_volume, surname:r.surname, initials:r.initials,

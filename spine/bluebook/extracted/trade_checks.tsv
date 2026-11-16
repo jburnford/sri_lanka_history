@@ -1,0 +1,739 @@
+year_volume	flow	scope	article_as_printed	article_start_table	total_table_id	total_row_index	unit_as_printed	measure	component	total_as_printed	country_sum	difference_sum_minus_total	skipped_rows_in_article	status
+1925	import		Grain (rice, not in the husk)—	bb1925:p175:t1	bb1925:p175:t1	22	cwt.	quantity_total		8321381	8321382	1	0	mismatch
+1925	import		Poultry and game, dead—	bb1925:p177:t1	bb1925:p177:t1	33	No.	quantity_home_consumption		56958	26958	-30000	0	mismatch
+1925	import		Curry stuffs, coriander seed—	bb1925:p178:t1	bb1925:p178:t1	53		value_total_rs		536820	536840	20	0	mismatch
+1925	import		Curry stuffs, coriander seed—	bb1925:p178:t1	bb1925:p178:t1	53		value_total_rs		536820	536840	20	0	mismatch
+1925	import		Curry stuffs, cummin seed—	bb1925:p179:t1	bb1925:p179:t1	12		value_total_rs		552904	522904	-30000	0	mismatch
+1925	import		Curry stuffs, other—	bb1925:p179:t1	bb1925:p179:t1	7		value_total_rs		2684	2664	-20	0	mismatch
+1925	import		Tinned or bottled in syrup or spirits : Other—	bb1925:p180:t1	bb1925:p180:t1	58		value_total_rs		102353	102043	-310	0	mismatch
+1925	import		Milk, preserved, sweetened, or otherwise, skimmed—	bb1925:p181:t1	bb1925:p181:t1	28		value_total_rs		75020	75420	400	0	mismatch
+1925	import		Animal, refined : Ghee—	bb1925:p181:t1	bb1925:p181:t1	63	cwt.	quantity_total		3948	3946	-2	0	mismatch
+1925	import		Spirits, brandy—	bb1925:p182:t1	bb1925:p182:t1	43							3	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Spirits, gin—	bb1925:p182:t1	bb1925:p182:t1	48							3	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Spirits, liqueur—	bb1925:p182:t1	bb1925:p182:t1	59							9	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Spirits, rum—	bb1925:p182:t1	bb1925:p182:t1	9							5	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Spirits, spirits of wine rectified—	bb1925:p182:t1	bb1925:p182:t1	19							7	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Spirits, other—	bb1925:p182:t1	bb1925:p182:t1	26							3	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import		Sugar, refined, other sorts, including sugar candy—	bb1925:p182:t1	bb1925:p182:t1	47	cwt.	quantity_total		793463	793007	-456	0	mismatch
+1925	import		Sugar, refined, other sorts, including sugar candy—	bb1925:p182:t1	bb1925:p182:t1	47	cwt.	quantity_home_consumption		794467	794011	-456	0	mismatch
+1925	import		Provisions, unenumerated—	bb1925:p183:t1	bb1925:p183:t1	20	cwt.	quantity_home_consumption		16507	16506	-1	0	mismatch
+1925	import		Opium.	bb1925:p185:t1	bb1925:p185:t1	42							0	uncheckable total; Total row has no readable printed figure
+1925	import		Precious and semi-precious stones and pearls, diamonds—	bb1925:p185:t1	bb1925:p185:t1	51	carat	quantity_total		396	483	87	0	mismatch
+1925	import		Precious and semi-precious stones and pearls, diamonds—	bb1925:p185:t1	bb1925:p185:t1	51	carat	quantity_home_consumption		396	483	87	0	mismatch
+1925	import		Precious and semi-precious stones and pearls, diamonds—	bb1925:p185:t1	bb1925:p185:t1	51		value_total_rs		44502	84598	40096	0	mismatch
+1925	import		Logs, squares, other—	bb1925:p186:t1	bb1925:p186:t1	9	tons	quantity_home_consumption		1170	1171	1	0	mismatch
+1925	import		Sawn, staves, scantlings—	bb1925:p186:t1	bb1925:p186:t1	15							0	uncheckable total; Total row has no readable printed figure
+1925	import		Gums and resins, lac—	bb1925:p187:t1	bb1925:p187:t1	21	cwt.	quantity_total		61	55	-6	0	mismatch
+1925	import		Gums and resins, lac—	bb1925:p187:t1	bb1925:p187:t1	21	cwt.	quantity_home_consumption		61	55	-6	0	mismatch
+1925	import		Gums and resins, lac—	bb1925:p187:t1	bb1925:p187:t1	21		value_total_rs		9932	8831	-1101	0	mismatch
+1925	import		Gums, and resins, rosin—	bb1925:p187:t1	bb1925:p187:t1	26	cwt.	quantity_total		284	159	-125	0	mismatch
+1925	import		Gums, and resins, rosin—	bb1925:p187:t1	bb1925:p187:t1	26	cwt.	quantity_home_consumption		284	159	-125	0	mismatch
+1925	import		Gums, and resins, rosin—	bb1925:p187:t1	bb1925:p187:t1	26		value_total_rs		4517	2549	-1968	0	mismatch
+1925	import		Gums and resins, other—	bb1925:p187:t1	bb1925:p187:t1	38	cwt.	quantity_total		812	811	-1	0	mismatch
+1925	import		Gums and resins, other—	bb1925:p187:t1	bb1925:p187:t1	38	cwt.	quantity_home_consumption		812	811	-1	0	mismatch
+1925	import		Tar and pitch—	bb1925:p191:t1	bb1925:p191:t1	24							7	uncheckable total; two-unit quantity cannot be separated
+1925	import		Goods unmanufactured not elsewhere specific—	bb1925:p191:t1	bb1925:p191:t1	56	cwt.	quantity_total		10059	10141	82	0	mismatch
+1925	import		Goods unmanufactured not elsewhere specific—	bb1925:p191:t1	bb1925:p191:t1	56	cwt.	quantity_home_consumption		10059	10141	82	0	mismatch
+1925	import		Tiles—	bb1925:p191:t1	bb1925:p191:t1	29							14	uncheckable total; two-unit quantity cannot be separated
+1925	import		Pipes—	bb1925:p191:t1	bb1925:p191:t1	36	cwt.	quantity_total		14317	9	-14308	2	mismatch
+1925	import		Pipes—	bb1925:p191:t1	bb1925:p191:t1	36	cwt.	quantity_home_consumption		14317	9	-14308	2	mismatch
+1925	import		Pipes—	bb1925:p191:t1	bb1925:p191:t1	36		value_total_rs		101674	189	-101485	2	mismatch
+1925	import		Hollowware (household, kitchen, &c., utensils enamelled or tinned)—	bb1925:p194:t1	bb1925:p195:t1	15	cwt.	quantity_total		5319	5339	20	0	mismatch
+1925	import		Hollowware (household, kitchen, &c., utensils enamelled or tinned)—	bb1925:p194:t1	bb1925:p195:t1	15		value_total_rs		305274	305214	-60	0	mismatch
+1925	import		Transformers and converters—	bb1925:p200:t1	bb1925:p200:t1	34	No.	quantity_total		5	4	-1	0	mismatch
+1925	import		Transformers and converters—	bb1925:p200:t1	bb1925:p200:t1	34	cwt.	quantity_total		2024	1843	-181	0	mismatch
+1925	import		Transformers and converters—	bb1925:p200:t1	bb1925:p200:t1	34	No.	quantity_home_consumption		5	4	-1	0	mismatch
+1925	import		Transformers and converters—	bb1925:p200:t1	bb1925:p200:t1	34	cwt.	quantity_home_consumption		2024	1843	-181	0	mismatch
+1925	import		Transformers and converters—	bb1925:p200:t1	bb1925:p200:t1	34		value_total_rs		110974	81088	-29886	0	mismatch
+1925	import		Sugar making and refining machinery—	bb1925:p200:t1	bb1925:p200:t1	40	cwt.	quantity_total		146	6	-140	4	mismatch
+1925	import		Prime movers, not electrical, internal combustion—	bb1925:p201:t1	bb1925:p201:t1	20		value_total_rs		1026500	1031500	5000	0	mismatch
+1925	import		Pumping machinery—	bb1925:p201:t1	bb1925:p201:t1	14		value_total_rs		141218	141219	1	0	mismatch
+1925	import		Machinery not elsewhere specified, dutiable—	bb1925:p202:t1	bb1925:p202:t1	40		value_total_rs		1192308	1192268	-40	0	mismatch
+1925	import		Piece goods of cotton, dyed—	bb1925:p203:t1	bb1925:p203:t1	57		value_total_rs		12277703	12277713	10	0	mismatch
+1925	import		Small wares, including ribbons and trimmings—	bb1925:p204:t1	bb1925:p204:t1	20	yds.	quantity_home_consumption		416465	416464	-1	0	mismatch
+1925	import		Cotton manufactures not elsewhere specified—	bb1925:p204:t1	bb1925:p204:t1	40	doz.	quantity_total		83386	86376	2990	0	mismatch
+1925	import		Cotton manufactures not elsewhere specified—	bb1925:p204:t1	bb1925:p204:t1	40	doz.	quantity_home_consumption		86386	85476	-910	0	mismatch
+1925	import		Cotton manufactures not elsewhere specified—	bb1925:p204:t1	bb1925:p204:t1	40		value_total_rs		543719	544059	340	0	mismatch
+1925	import		Berlin—	bb1925:p204:t1	bb1925:p204:t1	7	lb.	quantity_home_consumption		1125	1152	27	0	mismatch
+1925	import		Carpets and rugs—	bb1925:p204:t1	bb1925:p204:t1	31	No.	quantity_total		2404	2704	300	0	mismatch
+1925	import		Piece goods—	bb1925:p206:t1	bb1925:p206:t1	28	yds.	quantity_home_consumption		2035060	2035061	1	0	mismatch
+1925	import		Silk manufactures, broadstuff—	bb1925:p206:t1	bb1925:p206:t1	53	yds.	quantity_home_consumption		724268	717268	-7000	0	mismatch
+1925	import		Silk manufactures, handkerchiefs, scarves, and shawls—	bb1925:p206:t1	bb1925:p206:t1	12		value_total_rs		398579	373579	-25000	0	mismatch
+1925	import		Silk manufactures, lace and articles thereof—	bb1925:p206:t1	bb1925:p206:t1	19	yds	quantity_home_consumption		32613	31613	-1000	0	mismatch
+1925	import		Jute manufactures, other—	bb1925:p207:t1	bb1925:p207:t1	54		value_total_rs		108749	108740	-9	0	mismatch
+1925	import		Acids, other —	bb1925:p209:t1	bb1925:p209:t1	54	gals.	quantity_total		7178	7181	3	0	mismatch
+1925	import		Acids, other —	bb1925:p209:t1	bb1925:p209:t1	54	gals.	quantity_home_consumption		7178	7181	3	0	mismatch
+1925	import		Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, aniline—	bb1925:p210:t1	bb1925:p210:t1	8		value_total_rs		12231	11722	-509	0	mismatch
+1925	import		Painters' colours and materials not elsewhere specified—	bb1925:p210:t1	bb1925:p210:t1	40		value_total_rs		855474	855476	2	0	mismatch
+1925	import		Varnish—	bb1925:p212:t1	bb1925:p212:t1	15	gals.	quantity_total		20152	20153	1	0	mismatch
+1925	import		Leather, dressed, hides—	bb1925:p212:t1	bb1925:p212:t1	39	cwt.	quantity_home_consumption		86	77	-9	0	mismatch
+1925	import		Saddlery and harness—	bb1925:p212:t1	bb1925:p212:t1	31	cwt.	quantity_total		23	25	2	0	mismatch
+1925	import		Saddlery and harness—	bb1925:p212:t1	bb1925:p212:t1	31	cwt.	quantity_home_consumption		23	25	2	0	mismatch
+1925	import		Other descriptions—	bb1925:p212:t1	bb1925:p213:t1	10	No.	quantity_total		75930	75925	-5	0	mismatch
+1925	import		Other descriptions—	bb1925:p212:t1	bb1925:p213:t1	10	No.	quantity_home_consumption		75930	75925	-5	0	mismatch
+1925	import		Paper, printing—	bb1925:p213:t1	bb1925:p213:t1	35		value_total_rs		779973	779473	-500	0	mismatch
+1925	import		Playing cards —	bb1925:p214:t1	bb1925:p214:t1	11	doz. packs	quantity_total		40323	0	-40323	6	mismatch
+1925	import		Playing cards —	bb1925:p214:t1	bb1925:p214:t1	11	cwt.	quantity_total		958	0	-958	6	mismatch
+1925	import		Playing cards —	bb1925:p214:t1	bb1925:p214:t1	11	doz. packs	quantity_home_consumption		40323	0	-40323	6	mismatch
+1925	import		Playing cards —	bb1925:p214:t1	bb1925:p214:t1	11	cwt.	quantity_home_consumption		958	0	-958	6	mismatch
+1925	import		Playing cards —	bb1925:p214:t1	bb1925:p214:t1	11		value_total_rs		55126	0	-55126	6	mismatch
+1925	import		Other manufactures of paper not elsewhere specified (dutable)—	bb1925:p214:t1	bb1925:p214:t1	37		value_total_rs		432488	432485	-3	0	mismatch
+1925	import		Road, mechanically-propelled motor cycles—	bb1925:p215:t1	bb1925:p215:t1	62		value_total_rs		246208	246298	90	0	mismatch
+1925	import		Ships and boats (new) complete, boats and vessels without means of propulsion other than oars—	bb1925:p216:t1	bb1925:p216:t1	22							4	uncheckable total; two-unit quantity cannot be separated
+1925	import		Ships and boats (new) complete, other vessels—	bb1925:p216:t1	bb1925:p216:t1	33							5	uncheckable total; two-unit quantity cannot be separated
+1925	import		Ammunition : Cartridge cases, filled—	bb1925:p217:t1	bb1925:p217:t1	22							18	uncheckable total; two-unit quantity cannot be separated
+1925	import		Ammunition : Cartridge cases, empty—	bb1925:p217:t1	bb1925:p217:t1	34							9	uncheckable total; two-unit quantity cannot be separated
+1925	import		Ammunition : Percussion caps—	bb1925:p217:t1	bb1925:p217:t1	42							7	uncheckable total; two-unit quantity cannot be separated
+1925	import		Arms, small arms, guns : Muzzle-loading, double-barrelled—	bb1925:p218:t1	bb1925:p218:t1	24		value_total_rs		1565	1568	3	0	mismatch
+1925	import		Books, printed, including music : Other—	bb1925:p219:t1	bb1925:p219:t1	39		value_total_rs		510286	510292	6	0	mismatch
+1925	import		Lamps and lanterns (except electric)—	bb1925:p221:t1	bb1925:p221:t1	46		value_total_rs		417210	417300	90	0	mismatch
+1925	import		Stationery, other than paper—	bb1925:p224:t1	bb1925:p224:t1	25		value_total_rs		441648	441561	-87	3	mismatch
+1925	import		Stores, military and naval—	bb1925:p224:t1	bb1925:p224:t1	56	cases	quantity_total		13924	13922	-2	3	mismatch
+1925	import		Stores, military and naval—	bb1925:p224:t1	bb1925:p224:t1	56	cases	quantity_home_consumption		13924	13922	-2	3	mismatch
+1925	import		Stores, military and naval—	bb1925:p224:t1	bb1925:p224:t1	57	tons	quantity_total		5298	5300	2	3	mismatch
+1925	import		Stores, military and naval—	bb1925:p224:t1	bb1925:p224:t1	57	tons	quantity_home_consumption		5298	5300	2	3	mismatch
+1925	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1925:p224:t1	bb1925:p224:t1	75		value_total_rs		54369	54083	-286	2	mismatch
+1925	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Other—	bb1925:p224:t1	bb1925:p224:t1	17		value_total_rs		2085	1638	-447	5	mismatch
+1925	import		Tea chests and shooks—	bb1925:p224:t1	bb1925:p224:t1	34		value_total_rs		4209147	4207862	-1285	3	mismatch
+1925	import		Toys—	bb1925:p224:t1	bb1925:p224:t1	62		value_total_rs		249737	249834	97	3	mismatch
+1925	import		Goods manufactured wholly or in part not elsewhere specified (dutiable)—	bb1925:p225:t1	bb1925:p225:t1	50	cases	quantity_home_consumption		16696	16697	1	0	mismatch
+1925	import		Goods manufactured wholly or in part not elsewhere specified (dutiable)—	bb1925:p225:t1	bb1925:p225:t1	50		value_total_rs		3157718	3158347	629	0	mismatch
+1925	import		Goods manufactured wholly or in part not elsewhere specified (free)—	bb1925:p225:t1	bb1925:p225:t1	62	cases	quantity_home_consumption		55	50	-5	0	mismatch
+1925	export		Other foodstuffs for animals—	bb1925:p231:t1	bb1925:p231:t1	35		value_other_produce_rs		3489	3428	-61	0	mismatch
+1925	export		Cacao (raw)—	bb1925:p232:t1	bb1925:p232:t1	47	lb.	quantity_total		77704253	7704253	-70000000	0	mismatch
+1925	export		Coconuts, fresh—	bb1925:p233:t1	bb1925:p233:t1	34	No.	quantity_ceylon_produce		23288786	23288571	-215	2	mismatch
+1925	export		Coconuts, fresh—	bb1925:p233:t1	bb1925:p233:t1	34	No.	quantity_total		23288786	23288571	-215	2	mismatch
+1925	export		Coconuts, fresh—	bb1925:p233:t1	bb1925:p233:t1	34		value_ceylon_produce_rs		1940622	1940607	-15	2	mismatch
+1925	export		Coconuts, fresh—	bb1925:p233:t1	bb1925:p233:t1	34		value_total_rs		1940622	1940607	-15	2	mismatch
+1925	export		Coconuts, desiccated—	bb1925:p233:t1	bb1925:p234:t1	11	cwt.	quantity_ceylon_produce		794161	793894.67	-266.33	0	mismatch
+1925	export		Coconuts, desiccated—	bb1925:p233:t1	bb1925:p234:t1	11	cwt.	quantity_total		794161	794094.67	-66.33	0	mismatch
+1925	export		Coffee—	bb1925:p234:t1	bb1925:p234:t1	22	cwt.	quantity_total		40	37	-3	0	mismatch
+1925	export		Spices, cinnamon, plantation—	bb1925:p238:t1	bb1925:p238:t1	33	cwt.	quantity_ceylon_produce	quills	30224	30214	-10	0	mismatch
+1925	export		Rubber—	bb1925:p250:t1	bb1925:p250:t1	52	lb.	quantity_total		111027265	111027365	100	0	mismatch
+1925	export		Rubber—	bb1925:p250:t1	bb1925:p250:t1	52		value_total_rs		185076491	185071491	-5000	0	mismatch
+1925	export		Dyeing materials, cinchona bark—	bb1925:p251:t1	bb1925:p251:t1	17	cwt.	quantity_total		166	156	-10	0	mismatch
+1925	export		Tiles—	bb1925:p255:t1	bb1925:p255:t1	33							5	uncheckable total; two-unit quantity cannot be separated
+1925	export		Rubber machinery—	bb1925:p258:t1	bb1925:p258:t1	13							8	uncheckable total; ambiguous numerical cell '2 136'
+1925	export		Machinery, other—	bb1925:p258:t1	bb1925:p258:t1	29							13	uncheckable total; ambiguous numerical cell '— 32'
+1925	export		Piece goods of cotton, bleached—	bb1925:p259:t1	bb1925:p259:t1	49		value_ceylon_produce_rs		30020	10020	-20000	0	mismatch
+1925	export		Cotton manufactures not elsewhere specified—	bb1925:p261:t1	bb1925:p261:t1	18							4	uncheckable total; two-unit quantity cannot be separated
+1925	export		Manufactures of mixed materials of all descriptions—	bb1925:p261:t1	bb1925:p261:t1	42	yds.	quantity_other_produce		7585	7587	2	0	mismatch
+1925	export		Manufactures of mixed materials of all descriptions—	bb1925:p261:t1	bb1925:p261:t1	42	yds.	quantity_total		7596	7598	2	0	mismatch
+1925	export		Coir yarn—	bb1925:p262:t1	bb1925:p262:t1	40	cwt.	quantity_total		131387	131297	-90	0	mismatch
+1925	export		Coir mats and matting—	bb1925:p262:t1	bb1925:p263:t1	15	No.	quantity_total		40037	40042	5	0	mismatch
+1925	export		Coir mats and matting—	bb1925:p262:t1	bb1925:p263:t1	15	yds.	quantity_total		215468	429855	214387	0	mismatch
+1925	export		Coir mats and matting—	bb1925:p262:t1	bb1925:p263:t1	15		value_ceylon_produce_rs		29956	45542	15586	0	mismatch
+1925	export		Coir mats and matting—	bb1925:p262:t1	bb1925:p263:t1	15		value_other_produce_rs		5	15	10	0	mismatch
+1925	export		Coir mats and matting—	bb1925:p262:t1	bb1925:p263:t1	15		value_total_rs		29961	45557	15596	0	mismatch
+1925	export		Coir manufactures not otherwise specified—	bb1925:p263:t1	bb1925:p263:t1	27	cwt.	quantity_ceylon_produce		1231	98	-1133	0	mismatch
+1925	export		Cordage, cables, ropes, and twine of coir—	bb1925:p263:t1	bb1925:p263:t1	39	cwt.	quantity_ceylon_produce		20123	20121	-2	0	mismatch
+1925	export		Cordage, cables, ropes, and twine of coir—	bb1925:p263:t1	bb1925:p263:t1	39		value_ceylon_produce_rs		280145	32880	-247265	0	mismatch
+1925	export		Cordage, cables, ropes, and twine of coir—	bb1925:p263:t1	bb1925:p263:t1	39		value_total_rs		280204	32939	-247265	0	mismatch
+1925	export		Lubricating oil—	bb1925:p266:t1	bb1925:p266:t1	27	gals.	quantity_other_produce		17495	17009	-486	0	mismatch
+1925	export		Soap, household and laundry in bars, powder, and cakes or soft—	bb1925:p266:t1	bb1925:p266:t1	42	cwt.	quantity_other_produce		377	340	-37	0	mismatch
+1925	export		Soap, household and laundry in bars, powder, and cakes or soft—	bb1925:p266:t1	bb1925:p266:t1	42	cwt.	quantity_total		812	765	-47	0	mismatch
+1925	export		Paper of all descriptions—	bb1925:p267:t1	bb1925:p268:t1	19	cwt.	quantity_ceylon_produce		14	5	-9	0	mismatch
+1925	export		Rubber tyres and tubes, pneumatic, outer—	bb1925:p271:t1	bb1925:p271:t1	18	No.	quantity_other_produce		6095	5995	-100	0	mismatch
+1925	export		Rubber tyres and tubes, pneumatic, outer—	bb1925:p271:t1	bb1925:p271:t1	18	No.	quantity_total		6095	5995	-100	0	mismatch
+1925	export		Curios—	bb1925:p274:t1	bb1925:p274:t1	60	pkgs.	quantity_total		654	653	-1	0	mismatch
+1925	export		Curios—	bb1925:p274:t1	bb1925:p274:t1	60		value_other_produce_rs		8122	8102	-20	0	mismatch
+1925	export		Stores, Military and Naval—	bb1925:p275:t1	bb1925:p275:t1	36	pkgs.	quantity_other_produce		2437	0	-2437	10	mismatch
+1925	export		Stores, Military and Naval—	bb1925:p275:t1	bb1925:p275:t1	36	tons	quantity_other_produce		10119	0	-10119	10	mismatch
+1925	export		Stores, Military and Naval—	bb1925:p275:t1	bb1925:p275:t1	36	pkgs.	quantity_total		2437	0	-2437	10	mismatch
+1925	export		Stores, Military and Naval—	bb1925:p275:t1	bb1925:p275:t1	36	tons	quantity_total		10119	0	-10119	10	mismatch
+1925	import	government stores imports	Spirits of wine, rectified—	bb1925:p280:t1	bb1925:p280:t1	50							3	uncheckable total; article total in unresolved multiple-quantity layout
+1925	import	government stores imports	Asphalt—	bb1925:p280:t1	bb1925:p280:t1	28	cwt.	quantity_home_consumption		19175	19085	-90	0	mismatch
+1925	import	government stores imports	Tar and pitch—	bb1925:p281:t1	bb1925:p281:t1	10	gals.	quantity_total		328271	0	-328271	1	mismatch
+1925	import	government stores imports	Tar and pitch—	bb1925:p281:t1	bb1925:p281:t1	10	cwt.	quantity_total		38088	0	-38088	1	mismatch
+1925	import	government stores imports	Tar and pitch—	bb1925:p281:t1	bb1925:p281:t1	10	gals.	quantity_home_consumption		328271	0	-328271	1	mismatch
+1925	import	government stores imports	Tar and pitch—	bb1925:p281:t1	bb1925:p281:t1	10	cwt.	quantity_home_consumption		38088	0	-38088	1	mismatch
+1925	import	government stores imports	Tar and pitch—	bb1925:p281:t1	bb1925:p281:t1	10		value_total_rs		164709	0	-164709	1	mismatch
+1925	import	government stores imports	Electric lighting accessories and fittings, including switches—	bb1925:p284:t1	bb1925:p284:t1	27		value_total_rs		106863	106859	-4	0	mismatch
+1925	import	government stores imports	Electric goods and apparatus, not elsewhere specified—	bb1925:p284:t1	bb1925:p284:t1	34		value_total_rs		448624	448604	-20	0	mismatch
+1925	import	government stores imports	Machine tools—	bb1925:p285:t1	bb1925:p285:t1	9	No.	quantity_total		31	17	-14	0	mismatch
+1925	import	government stores imports	Machine tools—	bb1925:p285:t1	bb1925:p285:t1	9	cwt.	quantity_total		2	16	14	0	mismatch
+1925	import	government stores imports	Machine tools—	bb1925:p285:t1	bb1925:p285:t1	9	No.	quantity_home_consumption		31	17	-14	0	mismatch
+1925	import	government stores imports	Machine tools—	bb1925:p285:t1	bb1925:p285:t1	9	cwt.	quantity_home_consumption		2	16	14	0	mismatch
+1925	import	government stores imports	Weighing machinery—	bb1925:p285:t1	bb1925:p285:t1	15	No.	quantity_total		21	20	-1	0	mismatch
+1925	import	government stores imports	Weighing machinery—	bb1925:p285:t1	bb1925:p285:t1	15	cwt.	quantity_total		112	113	1	0	mismatch
+1925	import	government stores imports	Weighing machinery—	bb1925:p285:t1	bb1925:p285:t1	15	No.	quantity_home_consumption		21	20	-1	0	mismatch
+1925	import	government stores imports	Weighing machinery—	bb1925:p285:t1	bb1925:p285:t1	15	cwt.	quantity_home_consumption		112	113	1	0	mismatch
+1925	import	government stores imports	Calcium carbide—	bb1925:p287:t1	bb1925:p287:t1	18	cwt.	quantity_home_consumption		37	373	336	0	mismatch
+1925	import	government stores imports	Ammunition, cartridge cases, filled—	bb1925:p289:t1	bb1925:p289:t1	8							4	uncheckable total; two-unit quantity cannot be separated
+1924	import		Arrowroot, atta, tapioca, soojee, and sago—	bb1924:p264:t1	bb1924:p264:t1	12		value_total_rs		205618	205318	-300	0	mismatch
+1924	import		Hay and straw—	bb1924:p264:t1	bb1924:p264:t1	42		value_total_rs		50602	45602	-5000	0	mismatch
+1924	import		Aerated and mineral waters—	bb1924:p265:t1	bb1924:p265:t1	70	bot.	quantity_total		94862	84862	-10000	0	mismatch
+1924	import		Aerated and mineral waters—	bb1924:p265:t1	bb1924:p265:t1	70	bot.	quantity_home_consumption		94722	94742	20	0	mismatch
+1924	import		Beer and ale, in bottles—	bb1924:p265:t1	bb1924:p265:t1	15	gals.	quantity_total		117631	53061	-64570	0	mismatch
+1924	import		Cheese—	bb1924:p265:t1	bb1924:p265:t1	71		value_total_rs		140413	140483	70	0	mismatch
+1924	import		Cacao (prepared)—	bb1924:p266:t1	bb1924:p266:t1	10		value_total_rs		5924	5724	-200	0	mismatch
+1924	import		Confectionery—	bb1924:p266:t1	bb1924:p266:t1	15		value_total_rs		623035	613035	-10000	0	mismatch
+1924	import		Curry stuffs, cummin seed—	bb1924:p266:t1	bb1924:p266:t1	31		value_total_rs		570119	540119	-30000	0	mismatch
+1924	import		Curry stuffs, garlic—	bb1924:p266:t1	bb1924:p266:t1	45		value_total_rs		390068	390099	31	0	mismatch
+1924	import		Spirits, brandy—	bb1924:p270:t1	bb1924:p270:t1	21							4	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import		Spirits, gin—	bb1924:p270:t1	bb1924:p270:t1	29							5	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import		Spirits, liqueur—	bb1924:p270:t1	bb1924:p270:t1	44							11	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import		Spirits, rum—	bb1924:p270:t1	bb1924:p270:t1	54							6	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import		Spirits, spirits of wine rectified—	bb1924:p270:t1	bb1924:p270:t1	64							8	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import		Vegetables, raw, onions—	bb1924:p271:t1	bb1924:p271:t1	11		value_total_rs		3156649	3158649	2000	0	mismatch
+1924	import		Vegetables, raw, potatoes—	bb1924:p271:t1	bb1924:p271:t1	21		value_total_rs		1731741	581741	-1150000	0	mismatch
+1924	import		Tobacco, manufactured, cigar:—	bb1924:p273:t1	bb1924:p273:t1	12	lb.	quantity_total		7272	4395	-2877	0	mismatch
+1924	import		Tobacco, manufactured, cigar:—	bb1924:p273:t1	bb1924:p273:t1	12	lb.	quantity_home_consumption		7272	4395	-2877	0	mismatch
+1924	import		Tobacco, manufactured, cigar:—	bb1924:p273:t1	bb1924:p273:t1	12		value_total_rs		47209	27904	-19305	0	mismatch
+1924	import		Fire clay—	bb1924:p273:t1	bb1924:p273:t1	42		value_total_rs		9603	6051	-3552	0	mismatch
+1924	import		Moulding sand—	bb1924:p273:t1	bb1924:p273:t1	52	cwt.	quantity_home_consumption		5193	5693	500	0	mismatch
+1924	import		Logs, squares, teak—	bb1924:p274:t1	bb1924:p274:t1	19	tons	quantity_home_consumption		5364	6064	700	0	mismatch
+1924	import		Sawn, other—	bb1924:p275:t1	bb1924:p275:t1	16							4	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Cotton, raw—	bb1924:p275:t1	bb1924:p275:t1	23							3	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Cotton, waste—	bb1924:p275:t1	bb1924:p275:t1	32							5	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Fibre, hemp—	bb1924:p275:t1	bb1924:p275:t1	44							2	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Fibre, other—	bb1924:p275:t1	bb1924:p275:t1	52							2	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Seeds for expressing oil therefrom, castor—	bb1924:p275:t1	bb1924:p275:t1	8							2	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Seeds for expressing oil therefrom, other—	bb1924:p275:t1	bb1924:p275:t1	16							2	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Gums and resins, benjamin—	bb1924:p275:t1	bb1924:p275:t1	28							3	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Gums and resins, dammar—	bb1924:p275:t1	bb1924:p275:t1	35							19	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Gums and resins, dammar—	bb1924:p275:t1	bb1924:p275:t1	37							19	uncheckable total; ambiguous numerical cell 'Total ..'
+1924	import		Oils, fats, and greases, fish (and marine animal), other—	bb1924:p276:t1	bb1924:p276:t1	24		value_total_rs		324	334	10	0	mismatch
+1924	import		Vegetable, other than essential, castor oil, unrefined—	bb1924:p276:t1	bb1924:p276:t1	37		value_total_rs		158362	158382	20	0	mismatch
+1924	import		Fertilizers, bone meal—	bb1924:p277:t1	bb1924:p277:t1	41		value_total_rs		1285591	1285600	9	0	mismatch
+1924	import		Goods unmanufactured not elsewhere specified—	bb1924:p279:t1	bb1924:p279:t1	29		value_total_rs		140194	140214	20	0	mismatch
+1924	import		Bricks—	bb1924:p279:t1	bb1924:p279:t1	45		value_total_rs		45510	45501	-9	0	mismatch
+1924	import		Porcelainware and Chinaware—	bb1924:p280:t1	bb1924:p280:t1	44	cwt.	quantity_total		12778	13778	1000	0	mismatch
+1924	import		Porcelainware and Chinaware—	bb1924:p280:t1	bb1924:p280:t1	44	cwt.	quantity_home_consumption		12778	13778	1000	0	mismatch
+1924	import		Earthenware and stoneware—	bb1924:p280:t1	bb1924:p280:t1	23	cwt.	quantity_total		15061	73380	58319	1	mismatch
+1924	import		Earthenware and stoneware—	bb1924:p280:t1	bb1924:p280:t1	23	cwt.	quantity_home_consumption		15061	73380	58319	1	mismatch
+1924	import		Earthenware and stoneware—	bb1924:p280:t1	bb1924:p280:t1	23		value_total_rs		224343	950218	725875	1	mismatch
+1924	import		Glass and glassware, other—	bb1924:p280:t1	bb1924:p280:t1	59		value_total_rs		708808	708208	-600	0	mismatch
+1924	import		Bars, rods, angles, shapes, and sections, iron—	bb1924:p281:t1	bb1924:p281:t1	17		value_total_rs		182993	172993	-10000	0	mismatch
+1924	import		Brass and alloys of copper: Nails, screws, and wire—	bb1924:p284:t1	bb1924:p284:t1	31	cwt.	quantity_home_consumption		1782	1802	20	0	mismatch
+1924	import		Oil pressing and refining machinery—	bb1924:p289:t1	bb1924:p289:t1	8	cwt.	quantity_total		285	261	-24	0	mismatch
+1924	import		Oil pressing and refining machinery—	bb1924:p289:t1	bb1924:p289:t1	8	cwt.	quantity_home_consumption		285	261	-24	0	mismatch
+1924	import		Sugar making and refining machinery—	bb1924:p289:t1	bb1924:p289:t1	13		value_total_rs		730	230	-500	0	mismatch
+1924	import		Tea-making machinery—	bb1924:p289:t1	bb1924:p289:t1	22		value_total_rs		819950	859950	40000	0	mismatch
+1924	import		Pumping machinery—	bb1924:p289:t1	bb1924:p289:t1	20	cwt.	quantity_total		713	833	120	0	mismatch
+1924	import		Pumping machinery—	bb1924:p289:t1	bb1924:p289:t1	20	cwt.	quantity_home_consumption		713	833	120	0	mismatch
+1924	import		Typewriters, complete—	bb1924:p290:t1	bb1924:p290:t1	19	No.	quantity_total		500	600	100	0	mismatch
+1924	import		Typewriters, complete—	bb1924:p290:t1	bb1924:p290:t1	19	cwt.	quantity_total		211	222	11	0	mismatch
+1924	import		Typewriters, complete—	bb1924:p290:t1	bb1924:p290:t1	19	No.	quantity_home_consumption		500	600	100	0	mismatch
+1924	import		Typewriters, complete—	bb1924:p290:t1	bb1924:p290:t1	19	cwt.	quantity_home_consumption		212	222	10	0	mismatch
+1924	import		Weighing machines—	bb1924:p290:t1	bb1924:p290:t1	41	cwt.	quantity_home_consumption		285	385	100	0	mismatch
+1924	import		Weighing machines—	bb1924:p290:t1	bb1924:p290:t1	41		value_total_rs		38911	38811	-100	0	mismatch
+1924	import		Machinery not elsewhere specified, dutiable—	bb1924:p290:t1	bb1924:p290:t1	23	cwt.	quantity_total		23174	23374	200	0	mismatch
+1924	import		Machinery not elsewhere specified, dutiable—	bb1924:p290:t1	bb1924:p290:t1	23	cwt.	quantity_home_consumption		23174	23374	200	0	mismatch
+1924	import		Piece goods of cotton, dyed—	bb1924:p291:t1	bb1924:p291:t1	33	yds.	quantity_home_consumption		22522886	22521786	-1100	0	mismatch
+1924	import		Piece goods of cotton, dyed—	bb1924:p291:t1	bb1924:p291:t1	33		value_total_rs		12285511	12255561	-29950	0	mismatch
+1924	import		Piece goods of cotton, gray—	bb1924:p291:t1	bb1924:p291:t1	43		value_total_rs		1684472	1734472	50000	0	mismatch
+1924	import		Piece goods of cotton, printed—	bb1924:p291:t1	bb1924:p291:t1	54		value_total_rs		2998185	2998221	36	0	mismatch
+1924	import		Cotton manufactures not elsewhere specified—	bb1924:p292:t1	bb1924:p292:t1	31	doz.	quantity_total		86730	92247	5517	4	mismatch
+1924	import		Cotton manufactures not elsewhere specified—	bb1924:p292:t1	bb1924:p292:t1	31	yds.	quantity_total		881928	859553	-22375	4	mismatch
+1924	import		Cotton manufactures not elsewhere specified—	bb1924:p292:t1	bb1924:p292:t1	31	doz.	quantity_home_consumption		86730	92257	5527	4	mismatch
+1924	import		Cotton manufactures not elsewhere specified—	bb1924:p292:t1	bb1924:p292:t1	31	yds.	quantity_home_consumption		881928	859583	-22345	4	mismatch
+1924	import		Cotton manufactures not elsewhere specified—	bb1924:p292:t1	bb1924:p292:t1	31		value_total_rs		468211	429860	-38351	4	mismatch
+1924	import		Carpets and rugs—	bb1924:p293:t1	bb1924:p293:t1	21		value_total_rs		52754	52764	10	0	mismatch
+1924	import		Silk manufactures, velvet—	bb1924:p295:t1	bb1924:p295:t1	9		value_total_rs		16805	15805	-1000	0	mismatch
+1924	import		Artificial silk manufactures other than apparel—	bb1924:p295:t1	bb1924:p295:t1	44	yds.	quantity_total		562949	562749	-200	0	mismatch
+1924	import		Artificial silk manufactures other than apparel—	bb1924:p295:t1	bb1924:p295:t1	44	yds.	quantity_home_consumption		562949	562749	-200	0	mismatch
+1924	import		Cordage cables, ropes, and twine of hemp—	bb1924:p295:t1	bb1924:p295:t1	14		value_total_rs		53175	59675	6500	0	mismatch
+1924	import		Piece goods—	bb1924:p295:t1	bb1924:p295:t1	33		value_total_rs		52479	82379	29900	0	mismatch
+1924	import		Sail cloth or canvas—	bb1924:p295:t1	bb1924:p295:t1	41	yds.	quantity_total		132147	112147	-20000	0	mismatch
+1924	import		Sail cloth or canvas—	bb1924:p295:t1	bb1924:p295:t1	41	yds.	quantity_home_consumption		132147	112147	-20000	0	mismatch
+1924	import		Jute manufactures, hessians—	bb1924:p296:t1	bb1924:p296:t1	14	yds.	quantity_total		2162245	2162305	60	0	mismatch
+1924	import		Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, aniline—	bb1924:p299:t1	bb1924:p299:t1	8	cwt.	quantity_home_consumption		93	92	-1	0	mismatch
+1924	import		Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, aniline—	bb1924:p299:t1	bb1924:p299:t1	8		value_total_rs		15018	15021	3	0	mismatch
+1924	import		Candles—	bb1924:p299:t1	bb1924:p299:t1	15	cwt.	quantity_home_consumption		10354	2263	-8091	0	mismatch
+1924	import		Candles—	bb1924:p299:t1	bb1924:p299:t1	15		value_total_rs		523793	523548	-245	0	mismatch
+1924	import		Oils, fats, and resins not elsewhere specified—	bb1924:p300:t1	bb1924:p300:t1	25		value_total_rs		43078	43088	10	0	mismatch
+1924	import		Machinery belting—	bb1924:p301:t1	bb1924:p301:t1	24	cwt.	quantity_home_consumption		219	119	-100	0	mismatch
+1924	import		Other descriptions—	bb1924:p301:t1	bb1924:p301:t1	45	No.	quantity_total		62754	62508	-246	0	mismatch
+1924	import		Other descriptions—	bb1924:p301:t1	bb1924:p301:t1	45	No.	quantity_home_consumption		62754	62704	-50	0	mismatch
+1924	import		Stationery, including notepaper pads, manuscript books (except exercise books in paper covers)—	bb1924:p302:t1	bb1924:p302:t1	17		value_total_rs		176763	176673	-90	0	mismatch
+1924	import		Ships and boats (new) complete, boats and vessels without means of propulsion other than oars—	bb1924:p304:t1	bb1924:p304:t1	47							6	uncheckable total; two-unit quantity cannot be separated
+1924	import		Cinema ograph films—	bb1924:p308:t1	bb1924:p308:t1	53							6	uncheckable total; two-unit quantity cannot be separated
+1924	import		Organs and pianos, not automatic : Pianos—	bb1924:p310:t1	bb1924:p310:t1	29		value_total_rs		111412	106412	-5000	0	mismatch
+1924	import		Records—	bb1924:p310:t1	bb1924:p310:t1	62		value_total_rs		53556	53526	-30	0	mismatch
+1924	import		Spirits, perfumed—	bb1924:p311:t1	bb1924:p311:t1	56	gals.	quantity_total		2595	2460	-135	0	mismatch
+1924	import		Sports goods (except sporting guns and rifles, ammunition, and rubber balls)—	bb1924:p311:t1	bb1924:p311:t1	28		value_total_rs		83010	82010	-1000	0	mismatch
+1924	import		Stationery, other than paper—	bb1924:p311:t1	bb1924:p311:t1	56		value_total_rs		394577	395577	1000	0	mismatch
+1924	import		Straits Settlements { cases 72 72	bb1924:p312:t1	bb1924:p312:t1	15							6	uncheckable total; unreadable or merged unit field 'tons 5534 5534'
+1924	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1924:p312:t1	bb1924:p312:t1	34		value_total_rs		54175	53833	-342	3	mismatch
+1924	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Other—	bb1924:p312:t1	bb1924:p312:t1	45	cwt.	quantity_total		84	168	84	0	mismatch
+1924	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Other—	bb1924:p312:t1	bb1924:p312:t1	45	cwt.	quantity_home_consumption		84	168	84	0	mismatch
+1924	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Other—	bb1924:p312:t1	bb1924:p312:t1	45		value_total_rs		2505	5000	2495	0	mismatch
+1924	import		Tea chests and shooks—	bb1924:p312:t1	bb1924:p312:t1	17	No.	quantity_total		2328477	2327477	-1000	1	mismatch
+1924	import		Tea chests and shooks—	bb1924:p312:t1	bb1924:p312:t1	17	No.	quantity_home_consumption		2328477	2327477	-1000	1	mismatch
+1924	import		Tea chests and shooks—	bb1924:p312:t1	bb1924:p312:t1	17		value_total_rs		4157865	4151320	-6545	1	mismatch
+1924	import		Toys—	bb1924:p312:t1	bb1924:p312:t1	44	cases	quantity_total		3527	3547	20	1	mismatch
+1924	import		Toys—	bb1924:p312:t1	bb1924:p312:t1	44	cases	quantity_home_consumption		3515	44682	41167	1	mismatch
+1924	import		Toys—	bb1924:p312:t1	bb1924:p312:t1	44		value_total_rs		280353	238833	-41520	1	mismatch
+1924	export		Cacao (raw)—	bb1924:p320:t1	bb1924:p320:t1	40	lb.	quantity_ceylon_produce		7767320	7717320	-50000	0	mismatch
+1924	export		Cacao (raw)—	bb1924:p320:t1	bb1924:p320:t1	40	lb.	quantity_total		7767320	7717320	-50000	0	mismatch
+1924	export		Coconuts, fresh—	bb1924:p320:t1	bb1924:p321:t1	22	No.	quantity_ceylon_produce		20121041	29121041	9000000	0	mismatch
+1924	export		Milk, preserved—	bb1924:p324:t1	bb1924:p324:t1	41	cwt.	quantity_other_produce		345	341	-4	0	mismatch
+1924	export		Tea—	bb1924:p328:t1	bb1924:p329:t1	47							4	uncheckable total; ambiguous numerical cell '204931217*'
+1924	export		Fibre, coir, bristles—	bb1924:p333:t1	bb1924:p333:t1	62	cwt.	quantity_total		168247	167950	-297	0	mismatch
+1924	export		Nuts and kernels for expressing oil therefrom, copra—	bb1924:p335:t1	bb1924:p335:t1	25		value_total_rs		31008191	30008191	-1000000	0	mismatch
+1924	export		Dry and dry salted, other—	bb1924:p338:t1	bb1924:p338:t1	30	cwt.	quantity_total		5695	5693	-2	0	mismatch
+1924	export		Rubber—	bb1924:p338:t1	bb1924:p338:t1	55	lb.	quantity_other_produce		6635695	6635895	200	0	mismatch
+1924	export		Rubber—	bb1924:p338:t1	bb1924:p338:t1	55	lb.	quantity_total		89596516	89597026	510	0	mismatch
+1924	export		Rubber—	bb1924:p338:t1	bb1924:p338:t1	55		value_other_produce_rs		5185620	5185621	1	0	mismatch
+1924	export		Dyeing materials, sapanwood—	bb1924:p339:t1	bb1924:p339:t1	26	cwt.	quantity_ceylon_produce		311	2311	2000	0	mismatch
+1924	export		Kapok—	bb1924:p339:t1	bb1924:p339:t1	55		value_ceylon_produce_rs		350604	350601	-3	0	mismatch
+1924	export		Kapok—	bb1924:p339:t1	bb1924:p339:t1	55		value_total_rs		350604	350601	-3	0	mismatch
+1924	export		Tiles—	bb1924:p343:t1	bb1924:p343:t1	17							3	uncheckable total; unreadable or merged unit field 'No. 60354 1661 62015 } 1307 547 1854'
+1924	export		Electrical goods and apparatus of all descriptions—	bb1924:p345:t1	bb1924:p345:t1	32		value_other_produce_rs		9737	9707	-30	0	mismatch
+1924	export		Electrical goods and apparatus of all descriptions—	bb1924:p345:t1	bb1924:p345:t1	32		value_total_rs		9737	9707	-30	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	53	No.	quantity_other_produce		74	75	1	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	53		value_ceylon_produce_rs		375	750	375	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	53		value_other_produce_rs		214639	429278	214639	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	53		value_total_rs		215014	430028	215014	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	54		value_ceylon_produce_rs		375	750	375	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	54		value_other_produce_rs		214639	429278	214639	0	mismatch
+1924	export		Tea machinery—	bb1924:p345:t1	bb1924:p345:t1	54		value_total_rs		215014	430028	215014	0	mismatch
+1924	export		Machinery, other—	bb1924:p346:t1	bb1924:p346:t1	23							12	uncheckable total; ambiguous numerical cell '— 172'
+1924	export		Furniture—	bb1924:p346:t1	bb1924:p347:t1	13	No.	quantity_ceylon_produce		2997	45	-2952	0	mismatch
+1924	export		Furniture—	bb1924:p346:t1	bb1924:p347:t1	13	No.	quantity_other_produce		308	68	-240	0	mismatch
+1924	export		Furniture—	bb1924:p346:t1	bb1924:p347:t1	13	No.	quantity_total		3305	113	-3192	0	mismatch
+1924	export		Piece goods of cotton, dyed—	bb1924:p348:t1	bb1924:p348:t1	25	yds.	quantity_total		41378	741378	700000	0	mismatch
+1924	export		Cordage, cables, ropes and twine of coir—	bb1924:p351:t1	bb1924:p351:t1	31		value_ceylon_produce_rs		272983	272980	-3	0	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22	No.	quantity_ceylon_produce		66001	0	-66001	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22	yds.	quantity_other_produce		64667	0	-64667	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22	No.	quantity_other_produce		3934503	0	-3934503	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22	yds.	quantity_total		64667	0	-64667	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22	No.	quantity_total		4000504	0	-4000504	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22		value_ceylon_produce_rs		4469	0	-4469	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22		value_other_produce_rs		1207956	0	-1207956	16	mismatch
+1924	export		Textile manufactures not elsewhere specified—	bb1924:p352:t1	bb1924:p352:t1	22		value_total_rs		1212425	0	-1212425	16	mismatch
+1924	export		Chemical manufactures and products not elsewhere specified, including drugs, medicines, medical preparations—	bb1924:p353:t1	bb1924:p353:t1	22	cwt.	quantity_other_produce		192	1926	1734	0	mismatch
+1924	export		Lubricating oil—	bb1924:p354:t1	bb1924:p354:t1	26	gal.	quantity_other_produce		19412	18203	-1209	0	mismatch
+1924	export		Lubricating oil—	bb1924:p354:t1	bb1924:p354:t1	26	gal.	quantity_total		19412	18203	-1209	0	mismatch
+1924	export		Other manufactures—	bb1924:p359:t1	bb1924:p359:t1	53		value_ceylon_produce_rs		21161	20956	-205	0	mismatch
+1924	export		Curios—	bb1924:p362:t1	bb1924:p363:t1	20		value_ceylon_produce_rs		150550	149950	-600	0	mismatch
+1924	export		Curios—	bb1924:p362:t1	bb1924:p363:t1	20		value_total_rs		159083	158483	-600	0	mismatch
+1924	export		Stores, Military and Naval—	bb1924:p364:t1	bb1924:p364:t1	17							13	uncheckable total; two-unit quantity cannot be separated
+1924	export		Straw, grass, rush, &c., manufactures not elsewhere specified, mats and mattings—	bb1924:p364:t1	bb1924:p365:t1	18	No.	quantity_ceylon_produce		307758	307158	-600	0	mismatch
+1924	export		Straw, grass, rush, &c., manufactures not elsewhere specified, mats and mattings—	bb1924:p364:t1	bb1924:p365:t1	18	No.	quantity_total		308178	305838	-2340	0	mismatch
+1924	export		Straw, grass, rush, &c., manufactures not elsewhere specified, mats and mattings—	bb1924:p364:t1	bb1924:p365:t1	18		value_ceylon_produce_rs		10733	10783	50	0	mismatch
+1924	export		Goods manufactured wholly or in part not elsewhere specified—	bb1924:p365:t1	bb1924:p366:t1	12		value_ceylon_produce_rs		59255	59315	60	0	mismatch
+1924	export		Goods manufactured wholly or in part not elsewhere specified—	bb1924:p365:t1	bb1924:p366:t1	12		value_total_rs		367072	367132	60	0	mismatch
+1924	import	government stores imports	Spirits of wine, rectified—	bb1924:p368:t1	bb1924:p368:t1	30							3	uncheckable total; article total in unresolved multiple-quantity layout
+1924	import	government stores imports	Cotton, raw—	bb1924:p368:t1	bb1924:p368:t1	42		value_total_rs		9086	9087	1	0	mismatch
+1924	import	government stores imports	Porcelain ware and chinaware—	bb1924:p369:t1	bb1924:p369:t1	44		value_total_rs		775	774	-1	0	mismatch
+1924	import	government stores imports	Machinery, not elsewhere specified—	bb1924:p373:t1	bb1924:p373:t1	10							4	uncheckable total; two-unit quantity cannot be separated
+1924	import	government stores imports	Cordage, cables, ropes, and twine of hemp—	bb1924:p374:t1	bb1924:p374:t1	32	cwt.	quantity_total		375	259	-116	1	mismatch
+1924	import	government stores imports	Cordage, cables, ropes, and twine of hemp—	bb1924:p374:t1	bb1924:p374:t1	32	cwt.	quantity_home_consumption		20966	259	-20707	1	mismatch
+1924	import	government stores imports	Textile manufactures, not elsewhere specified—	bb1924:p374:t1	bb1924:p374:t1	13							3	uncheckable total; unreadable or merged unit field 'yds. 42682 doz. —'
+1924	import	government stores imports	Turpentine—	bb1924:p375:t1	bb1924:p375:t1	36		value_total_rs		15611	15011	-600	0	mismatch
+1924	import	government stores imports	Leather, manufactures of (except boots and shoes and gloves), other descriptions—	bb1924:p376:t1	bb1924:p376:t1	5							3	uncheckable total; unreadable or merged unit field 'No. cwt. 2383 51) 2383 51 ) 19981'
+1924	import	government stores imports	Other manufactures—	bb1924:p376:t1	bb1924:p376:t1	17	No.	quantity_total		17292	34479	17187	1	mismatch
+1924	import	government stores imports	Other manufactures—	bb1924:p376:t1	bb1924:p376:t1	17	No.	quantity_home_consumption		17292	34479	17187	1	mismatch
+1924	import	government stores imports	Other manufactures—	bb1924:p376:t1	bb1924:p376:t1	17		value_total_rs		32710	64405	31695	1	mismatch
+1926	import		Oil seed cake, gingelly poonac—	bb1926:p186:t1	bb1926:p186:t1	42		value_total_rs		3037741	3087741	50000	0	mismatch
+1926	import		Meat not elsewhere specified—	bb1926:p187:t1	bb1926:p187:t1	23		value_total_rs		19718	19713	-5	0	mismatch
+1926	import		Poultry and game, alive—	bb1926:p187:t1	bb1926:p187:t1	29		value_total_rs		168699	168669	-30	0	mismatch
+1926	import		Aerated and mineral waters—	bb1926:p187:t1	bb1926:p187:t1	12	bot.	quantity_total		145590	145390	-200	0	mismatch
+1926	import		Aerated and mineral waters—	bb1926:p187:t1	bb1926:p187:t1	12	bot.	quantity_home_consumption		145590	145390	-200	0	mismatch
+1926	import		Coffee, roasted and ground, mixed—	bb1926:p188:t1	bb1926:p188:t1	29		value_total_rs		2282	2382	100	0	mismatch
+1926	import		Curry stuffs, coriander seed—	bb1926:p188:t1	bb1926:p188:t1	48	cwt.	quantity_total		57610	43565	-14045	1	mismatch
+1926	import		Curry stuffs, coriander seed—	bb1926:p188:t1	bb1926:p188:t1	48	cwt.	quantity_home_consumption		57610	43565	-14045	1	mismatch
+1926	import		Curry stuffs, coriander seed—	bb1926:p188:t1	bb1926:p188:t1	48		value_total_rs		1006895	810266	-196629	1	mismatch
+1926	import		Fruits, fresh—	bb1926:p190:t1	bb1926:p190:t1	15	cwt.	quantity_total		19891	19861	-30	0	mismatch
+1926	import		Fruits, fresh—	bb1926:p190:t1	bb1926:p190:t1	15	cwt.	quantity_home_consumption		19891	19890	-1	0	mismatch
+1926	import		Fruits, dried or otherwise preserved : Raisins—	bb1926:p190:t1	bb1926:p190:t1	62		value_total_rs		31118	41118	10000	0	mismatch
+1926	import		Salt, table—	bb1926:p191:t1	bb1926:p191:t1	27		value_total_rs		14157	13986	-171	0	mismatch
+1926	import		Salt, other—	bb1926:p191:t1	bb1926:p191:t1	37		value_total_rs		1758422	3517149	1758727	0	mismatch
+1926	import		Spices, other—	bb1926:p192:t1	bb1926:p192:t1	40	cwt.	quantity_total		299	229	-70	0	mismatch
+1926	import		Spirits, brandy—	bb1926:p192:t1	bb1926:p192:t1	49							4	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import		Spirits, gin—	bb1926:p192:t1	bb1926:p192:t1	55							3	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import		Spirits, liqueur—	bb1926:p192:t1	bb1926:p192:t1	64							7	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import		Spirits, rum—	bb1926:p192:t1	bb1926:p192:t1	10							6	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import		Spirits, spirits of wine rectified—	bb1926:p192:t1	bb1926:p192:t1	18							5	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import		Provisions, unenumerated—	bb1926:p193:t1	bb1926:p193:t1	24		value_total_rs		2031570	2031577	7	0	mismatch
+1926	import		Wines, still, medicated wine—	bb1926:p194:t1	bb1926:p194:t1	37	gals.	quantity_home_consumption		6411	6402	-9	0	mismatch
+1926	import		Wines, still, port, in bottle—	bb1926:p194:t1	bb1926:p194:t1	46	gals.	quantity_home_consumption		3583	3553	-30	0	mismatch
+1926	import		Tobacco, manufactured, cigars—	bb1926:p194:t1	bb1926:p194:t1	64		value_total_rs		44951	54951	10000	0	mismatch
+1926	import			bb1926:p195:t1	bb1926:p195:t1	61	tons	quantity_total		663335	663355	20	0	mismatch
+1926	import			bb1926:p195:t1	bb1926:p195:t1	61		value_total_rs		16324703	16274703	-50000	0	mismatch
+1926	import		Logs, squares, teak—	bb1926:p196:t1	bb1926:p196:t1	50		value_total_rs		1799197	799197	-1000000	0	mismatch
+1926	import		Sawn, staves, scantlings—	bb1926:p196:t1	bb1926:p196:t1	35	tons	quantity_total		5104	5604	500	0	mismatch
+1926	import		Gums and resins, benjamin—	bb1926:p197:t1	bb1926:p197:t1	12		value_total_rs		77877	77897	20	0	mismatch
+1926	import		Oils, fats, and greases, fish (and marine animal), cod liver oil—	bb1926:p198:t1	bb1926:p198:t1	36		value_total_rs		3872	3873	1	0	mismatch
+1926	import		Plants and roots—	bb1926:p200:t1	bb1926:p200:t1	34	pkgs.	quantity_total		51	52	1	0	mismatch
+1926	import		Tar and pitch—	bb1926:p201:t1	bb1926:p201:t1	21							8	uncheckable total; unreadable or merged unit field 'gals. 805992 89644 cwt.'
+1926	import		Tiles—	bb1926:p201:t1	bb1926:p201:t1	36							11	uncheckable total; unreadable or merged unit field 'No. 10248911 cwt.'
+1926	import		Glass and glassware, other—	bb1926:p202:t1	bb1926:p202:t1	17		value_total_rs		1010686	1007066	-3620	0	mismatch
+1926	import		Abrasive manufactured, stones and slates wholly or mainly manufactured, other—	bb1926:p202:t1	bb1926:p202:t1	60		value_total_rs		148596	142596	-6000	0	mismatch
+1926	import		Wire, fencing, barbed—	bb1926:p203:t1	bb1926:p203:t1	53		value_total_rs		937882	948882	11000	0	mismatch
+1926	import		Hollowware (household, kitchen, &c., utensils enamelled or tinned)—	bb1926:p204:t1	bb1926:p205:t1	17	cwt.	quantity_total		9832	9830	-2	0	mismatch
+1926	import		Metals not elsewhere specified, wrought or manufactured, other sorts—	bb1926:p207:t1	bb1926:p207:t1	33		value_total_rs		137358	137429	71	0	mismatch
+1926	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Clocks and watches : Other parts—	bb1926:p209:t1	bb1926:p209:t1	8		value_total_rs		3038	0	-3038	7	mismatch
+1926	import		ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)—	bb1926:p209:t1	bb1926:p209:t1	21	cwt.	quantity_total		3969	180	-3789	2	mismatch
+1926	import		ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)—	bb1926:p209:t1	bb1926:p209:t1	21	cwt.	quantity_home_consumption		3969	180	-3789	2	mismatch
+1926	import		ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)—	bb1926:p209:t1	bb1926:p209:t1	21		value_total_rs		289274	16430	-272844	2	mismatch
+1926	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified—	bb1926:p209:t1	bb1926:p209:t1	21	No.	quantity_total		406606	85169	-321437	7	mismatch
+1926	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified—	bb1926:p209:t1	bb1926:p209:t1	21	No.	quantity_home_consumption		406606	85169	-321437	7	mismatch
+1926	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified—	bb1926:p209:t1	bb1926:p209:t1	21		value_total_rs		426115	77068	-349047	7	mismatch
+1926	import		Electrical machinery not elsewhere enumerated—	bb1926:p210:t1	bb1926:p210:t1	39		value_total_rs		553623	353623	-200000	0	mismatch
+1926	import		Foundry and workshop machinery—	bb1926:p210:t1	bb1926:p210:t1	11	cwt.	quantity_total		5073	5075	2	0	mismatch
+1926	import		Foundry and workshop machinery—	bb1926:p210:t1	bb1926:p210:t1	11	cwt.	quantity_home_consumption		5073	5075	2	0	mismatch
+1926	import		Typewriters, parts—	bb1926:p212:t1	bb1926:p212:t1	14							4	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Weighing machines—	bb1926:p212:t1	bb1926:p212:t1	29							7	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Machinery not elsewhere specified, dutiable—	bb1926:p212:t1	bb1926:p212:t1	50							16	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Furniture—	bb1926:p212:t1	bb1926:p212:t1	32							22	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		U. S., America „ —	bb1926:p212:t1	bb1926:p212:t1	49							1	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Cotton yarn and twist, bleached—	bb1926:p212:t1	bb1926:p212:t1	55							3	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Cotton yarn and twist, dyed—	bb1926:p212:t1	bb1926:p212:t1	62							4	uncheckable total; unsupported import table layout; column meanings ambiguous
+1926	import		Piece goods of cotton, dyed—	bb1926:p213:t1	bb1926:p213:t1	56		value_total_rs		13891530	13891590	60	0	mismatch
+1926	import		Piece goods of cotton, printed—	bb1926:p213:t1	bb1926:p213:t1	17		value_total_rs		5218301	5218401	100	0	mismatch
+1926	import		Thread—	bb1926:p214:t1	bb1926:p214:t1	12		value_total_rs		817777	817807	30	2	mismatch
+1926	import		Flannel, mixed—	bb1926:p214:t1	bb1926:p214:t1	66	yds.	quantity_total		49428	43153	-6275	0	mismatch
+1926	import		Flannel, mixed—	bb1926:p214:t1	bb1926:p214:t1	66	yds.	quantity_home_consumption		49428	43153	-6275	0	mismatch
+1926	import		Flannel, mixed—	bb1926:p214:t1	bb1926:p214:t1	66		value_total_rs		49780	44033	-5747	0	mismatch
+1926	import		Berlin—	bb1926:p214:t1	bb1926:p214:t1	10							2	uncheckable total; ambiguous numerical cell 'Total ..'
+1926	import		Blankets—	bb1926:p214:t1	bb1926:p214:t1	28							4	uncheckable total; ambiguous numerical cell 'Total ..'
+1926	import		Carpets and rugs—	bb1926:p214:t1	bb1926:p214:t1	50							6	uncheckable total; ambiguous numerical cell 'Total ..'
+1926	import		Carpets and rugs—	bb1926:p214:t1	bb1926:p214:t1	58							6	uncheckable total; ambiguous numerical cell 'Total ..'
+1926	import		Silk manufactures, handkerchiefs, scarves, and shawls—	bb1926:p216:t1	bb1926:p216:t1	12		value_total_rs		341665	281665	-60000	0	mismatch
+1926	import		Silk manufactures, velvet—	bb1926:p216:t1	bb1926:p216:t1	45	yds.	quantity_total		16662	13837	-2825	1	mismatch
+1926	import		Silk manufactures, velvet—	bb1926:p216:t1	bb1926:p216:t1	45	yds.	quantity_home_consumption		16662	13837	-2825	1	mismatch
+1926	import		Silk manufactures, velvet—	bb1926:p216:t1	bb1926:p216:t1	45		value_total_rs		39969	33870	-6099	1	mismatch
+1926	import		Cordage, cables, ropes, and twine of coir—	bb1926:p217:t1	bb1926:p217:t1	47	cwt.	quantity_total		1548	1538	-10	0	mismatch
+1926	import		Cordage, cables, ropes, and twine of coir—	bb1926:p217:t1	bb1926:p217:t1	47	cwt.	quantity_home_consumption		1548	1538	-10	0	mismatch
+1926	import		Piece goods—	bb1926:p217:t1	bb1926:p217:t1	9		value_total_rs		415111	41461	-373650	0	mismatch
+1926	import		Jute manufactures, sacks and bags, empty, new—	bb1926:p217:t1	bb1926:p217:t1	53		value_total_rs		1181587	1131627	-49960	7	mismatch
+1926	import		Haberdashery and millinery—	bb1926:p218:t1	bb1926:p218:t1	29		value_total_rs		1035463	1226371	190908	0	mismatch
+1926	import		Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, alizarine—	bb1926:p220:t1	bb1926:p220:t1	56		value_total_rs		1760	1810	50	0	mismatch
+1926	import		Petroleum, kerosine oil, in bulk—	bb1926:p221:t1	bb1926:p221:t1	32		value_total_rs		5819340	5919340	100000	0	mismatch
+1926	import		Petroleum, kerosine oil, in cases—	bb1926:p221:t1	bb1926:p221:t1	37	gals.	quantity_total		172688	16335	-156353	1	mismatch
+1926	import		Petroleum, kerosine oil, in cases—	bb1926:p221:t1	bb1926:p221:t1	37	gals.	quantity_home_consumption		172688	16335	-156353	1	mismatch
+1926	import		Petroleum, kerosine oil, in cases—	bb1926:p221:t1	bb1926:p221:t1	37		value_total_rs		159563	18846	-140717	1	mismatch
+1926	import		Other—	bb1926:p221:t1	bb1926:p221:t1	8		value_total_rs		20511	20501	-10	0	mismatch
+1926	import		Soap, household and laundry, in bars, powder, and cakes or soft—	bb1926:p221:t1	bb1926:p221:t1	21		value_total_rs		1451677	1451623	-54	0	mismatch
+1926	import		Varnish—	bb1926:p222:t1	bb1926:p222:t1	14	gals.	quantity_total		18411	18406	-5	0	mismatch
+1926	import		Varnish—	bb1926:p222:t1	bb1926:p222:t1	14	gals.	quantity_home_consumption		18411	18406	-5	0	mismatch
+1926	import		Oils, fats, and resins not elsewhere specified—	bb1926:p222:t1	bb1926:p222:t1	32		value_total_rs		43168	43068	-100	0	mismatch
+1926	import		Leather, dressed, hides—	bb1926:p222:t1	bb1926:p222:t1	53	cwt.	quantity_total		11	114	103	0	mismatch
+1926	import		Other descriptions—	bb1926:p222:t1	bb1926:p223:t1	10							7	uncheckable total; unreadable or merged unit field 'No. cwt. 86594 890) (86594 890) 237001'
+1926	import		Paper, printing—	bb1926:p223:t1	bb1926:p223:t1	43	cwt.	quantity_home_consumption		46024	45724	-300	0	mismatch
+1926	import		Paper, printing—	bb1926:p223:t1	bb1926:p223:t1	56	cwt.	quantity_total		13693	46024	32331	0	mismatch
+1926	import		Paper, printing—	bb1926:p223:t1	bb1926:p223:t1	56	cwt.	quantity_home_consumption		13693	45724	32031	0	mismatch
+1926	import		Paper, printing—	bb1926:p223:t1	bb1926:p223:t1	56		value_total_rs		580547	817694	237147	0	mismatch
+1926	import		Paper, packing and wrapping—	bb1926:p223:t1	bb1926:p223:t1	22		value_total_rs		484487	474487	-10000	0	mismatch
+1926	import		Paper, tissue—	bb1926:p223:t1	bb1926:p223:t1	35		value_total_rs		47432	47332	-100	0	mismatch
+1926	import		Paper, blotting—	bb1926:p223:t1	bb1926:p223:t1	45		value_total_rs		40709	40711	2	0	mismatch
+1926	import		Playing cards—	bb1926:p224:t1	bb1926:p224:t1	13							9	uncheckable total; two-unit quantity cannot be separated
+1926	import		Other manufactures of paper not elsewhere specified (dutable)—	bb1926:p224:t1	bb1926:p224:t1	40		value_total_rs		657995	657895	-100	0	mismatch
+1926	import		Other manufactures of paper not elsewhere specified (free)—	bb1926:p224:t1	bb1926:p224:t1	57	cwt.	quantity_home_consumption		349	340	-9	0	mismatch
+1926	import		Road, mechanically-propelled motor cars—	bb1926:p225:t1	bb1926:p225:t1	24	No.	quantity_total		2570	2567	-3	0	mismatch
+1926	import		Road, mechanically-propelled motor lorries used solely for conveyance of goods—	bb1926:p225:t1	bb1926:p225:t1	34		value_total_rs		2597550	2597050	-500	0	mismatch
+1926	import		Road, mechanically-propelled motor cycles—	bb1926:p225:t1	bb1926:p225:t1	43		value_total_rs		325357	325307	-50	0	mismatch
+1926	import		Road, mechanically-propelled tractors (including steam rollers), agricultural—	bb1926:p225:t1	bb1926:p225:t1	50		value_total_rs		14410	13510	-900	0	mismatch
+1926	import		Road, mechanically-propelled tractors (including steam rollers, &c) —	bb1926:p225:t1	bb1926:p225:t1	9		value_total_rs		87742	86842	-900	0	mismatch
+1926	import		Road, other than mechanically-propelled cycles—	bb1926:p225:t1	bb1926:p225:t1	21		value_total_rs		425646	424746	-900	0	mismatch
+1926	import		Road, wheels, rims, and spokes, for other road vehicles—	bb1926:p226:t1	bb1926:p226:t1	34		value_total_rs		15317	15314	-3	0	mismatch
+1926	import		Golf, tennis, and other rubber balls—	bb1926:p227:t1	bb1926:p227:t1	34							1	uncheckable total; ambiguous numerical cell '7 56'
+1926	import		Other manufactures—	bb1926:p227:t1	bb1926:p227:t1	50		value_total_rs		142916	142961	45	0	mismatch
+1926	import		Ammunition, fuses, and blasting accessories : Safety fuse—	bb1926:p228:t1	bb1926:p228:t1	8							4	uncheckable total; unreadable or merged unit field 'coils 275341 cwt. 862 } 862'
+1926	import		Baskets and basketware—	bb1926:p229:t1	bb1926:p229:t1	53		value_total_rs		4995	5195	200	0	mismatch
+1926	import		Cinematograph films—	bb1926:p230:t1	bb1926:p230:t1	21	lin.ft.	quantity_total		317462	2060062	1742600	0	mismatch
+1926	import		Cinematograph films—	bb1926:p230:t1	bb1926:p230:t1	21	lin.ft.	quantity_home_consumption		317462	2060062	1742600	0	mismatch
+1926	import		Lamps and lanterns (except electric)—	bb1926:p231:t1	bb1926:p231:t1	42		value_total_rs		701334	700895	-439	0	mismatch
+1926	import		Pictures and prints: Other—	bb1926:p233:t1	bb1926:p233:t1	55	doz.	quantity_total		2155	20155	18000	0	mismatch
+1926	import		Pictures and prints: Other—	bb1926:p233:t1	bb1926:p233:t1	55	doz.	quantity_home_consumption		2155	20155	18000	0	mismatch
+1926	import		Starch of all kinds—	bb1926:p233:t1	bb1926:p233:t1	51	cwt.	quantity_home_consumption		43	433	390	0	mismatch
+1926	import		Stationery, other than paper—	bb1926:p234:t1	bb1926:p234:t1	21	cwt.	quantity_total		1233	4963	3730	0	mismatch
+1926	import		Stationery, other than paper—	bb1926:p234:t1	bb1926:p234:t1	21	cwt.	quantity_home_consumption		1263	4963	3700	0	mismatch
+1926	import		Stores, military and naval—	bb1926:p234:t1	bb1926:p234:t1	35							1	uncheckable total; ambiguous numerical cell '25556 — 4089701'
+1926	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1926:p234:t1	bb1926:p234:t1	51		value_total_rs		83647	83644	-3	0	mismatch
+1926	import		Toys—	bb1926:p234:t1	bb1926:p234:t1	53	cases	quantity_total		2966	2967	1	0	mismatch
+1926	import		Goods manufactured wholly or in part not elsewhere specified (durable)—	bb1926:p235:t1	bb1926:p235:t1	51	cases	quantity_total		13311	13061	-250	0	mismatch
+1926	import		Goods manufactured wholly or in part not elsewhere specified (durable)—	bb1926:p235:t1	bb1926:p235:t1	51	cases	quantity_home_consumption		13311	13061	-250	0	mismatch
+1926	import		Goods manufactured wholly or in part not elsewhere specified (free)—	bb1926:p235:t1	bb1926:p235:t1	66		value_total_rs		6048	6068	20	0	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11	cwt.	quantity_ceylon_produce		5	0	-5	1	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11	cwt.	quantity_other_produce		944	75	-869	1	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11	cwt.	quantity_total		949	75	-874	1	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11		value_ceylon_produce_rs		40	0	-40	1	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11		value_other_produce_rs		9362	757	-8605	1	mismatch
+1926	export		Grain, gram—	bb1926:p240:t1	bb1926:p240:t1	11		value_total_rs		9402	757	-8645	1	mismatch
+1926	export		Other—	bb1926:p241:t1	bb1926:p241:t1	53	No.	quantity_total		29292	25292	-4000	0	mismatch
+1926	export		Coconuts, fresh—	bb1926:p243:t1	bb1926:p243:t1	36		value_total_rs		1393682	1093682	-300000	0	mismatch
+1926	export		Spices, cinnamon, plantation—	bb1926:p248:t1	bb1926:p248:t1	35		value_total_rs		4210205	4210250	45	0	mismatch
+1926	export		Spices, cloves—	bb1926:p248:t1	bb1926:p248:t1	44		value_ceylon_produce_rs	quills	1202	1204	2	0	mismatch
+1926	export		Spices, cloves—	bb1926:p248:t1	bb1926:p248:t1	44		value_total_rs		3577	3579	2	0	mismatch
+1926	export		Tea—	bb1926:p250:t1	bb1926:p251:t1	28	lb.	quantity_ceylon_produce		215819449	215819389	-60	0	mismatch
+1926	export		Tea—	bb1926:p250:t1	bb1926:p251:t1	28		value_ceylon_produce_rs		211837072	211767072	-70000	0	mismatch
+1926	export		Tobacco, manufactured, other—	bb1926:p252:t1	bb1926:p252:t1	17		value_other_produce_rs		02	402	400	0	mismatch
+1926	export		Other—	bb1926:p254:t1	bb1926:p254:t1	42		value_ceylon_produce_rs		97320	97340	20	0	mismatch
+1926	export		Fibre, other—	bb1926:p256:t1	bb1926:p256:t1	22	cwt.	quantity_ceylon_produce		5326	5236	-90	0	mismatch
+1926	export		Nuts and kernels for expressing oil therefrom, other—	bb1926:p257:t1	bb1926:p257:t1	23	cwt.	quantity_total		142	162	20	0	mismatch
+1926	export		Oil, cinnamon leaf—	bb1926:p258:t1	bb1926:p258:t1	41	oz.	quantity_ceylon_produce		1603984	1597984	-6000	0	mismatch
+1926	export		Oil, cinnamon leaf—	bb1926:p258:t1	bb1926:p258:t1	41	oz.	quantity_total		1603984	1597984	-6000	0	mismatch
+1926	export		Rubber—	bb1926:p260:t1	bb1926:p260:t1	53	lb.	quantity_ceylon_produce		131840505	95114525	-36725980	0	mismatch
+1926	export		Rubber—	bb1926:p260:t1	bb1926:p260:t1	53		value_other_produce_rs		14344996	14344997	1	0	mismatch
+1926	export		Plants and roots—	bb1926:p263:t1	bb1926:p263:t1	34		value_ceylon_produce_rs		1361	1355	-6	0	mismatch
+1926	export		Other—	bb1926:p265:t1	bb1926:p265:t1	52		value_other_produce_rs		97674	98674	1000	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	45		value_ceylon_produce_rs		915	1830	915	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	45		value_other_produce_rs		71455	157463	86008	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	45		value_total_rs		72370	159293	86923	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	46		value_ceylon_produce_rs		915	1830	915	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	46		value_other_produce_rs		71455	157463	86008	0	mismatch
+1926	export		Tea machinery—	bb1926:p267:t1	bb1926:p267:t1	46		value_total_rs		72370	159293	86923	0	mismatch
+1926	export		Machinery, other—	bb1926:p268:t1	bb1926:p268:t1	57	cwt.	quantity_ceylon_produce		8	0	-8	18	mismatch
+1926	export		Machinery, other—	bb1926:p268:t1	bb1926:p268:t1	57	cwt.	quantity_other_produce		47	65	18	18	mismatch
+1926	export		Machinery, other—	bb1926:p268:t1	bb1926:p268:t1	57	cwt.	quantity_total		47	65	18	18	mismatch
+1926	export		Manufactures of mixed materials of all descriptions—	bb1926:p271:t1	bb1926:p271:t1	31	yds.	quantity_total		6077	5077	-1000	0	mismatch
+1926	export		Coir mats and matting—	bb1926:p272:t1	bb1926:p273:t1	16							17	uncheckable total; ambiguous numerical cell '( No. 3702 yds. 7945 )'
+1926	export		Cordage, cables, ropes, and twine of coir—	bb1926:p273:t1	bb1926:p273:t1	36	No.	quantity_total		20618	19618	-1000	0	mismatch
+1926	export		Textile manufactures not elsewhere specified—	bb1926:p274:t1	bb1926:p274:t1	39		value_other_produce_rs		1613438	1612538	-900	0	mismatch
+1926	export		Textile manufactures not elsewhere specified—	bb1926:p274:t1	bb1926:p274:t1	39		value_total_rs		1613438	1612538	-900	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13	doz.	quantity_ceylon_produce		41	2	-39	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13	doz.	quantity_other_produce		5761	42	-5719	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13	doz.	quantity_total		5802	44	-5758	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13		value_ceylon_produce_rs		1570	850	-720	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13		value_other_produce_rs		62711	7826	-54885	0	mismatch
+1926	export		Rs. Rs. Rs.	bb1926:p275:t1	bb1926:p275:t1	13		value_total_rs		64281	8676	-55605	0	mismatch
+1926	export		Leather, dressed, hides—	bb1926:p277:t1	bb1926:p277:t1	19	cwt.	quantity_total		115	105	-10	0	mismatch
+1926	export		Leather, tanned—	bb1926:p277:t1	bb1926:p277:t1	34		value_total_rs		835629	839229	3600	0	mismatch
+1926	export		Goods manufactured wholly or in part not elsewhere specified—	bb1926:p287:t1	bb1926:p287:t1	38	owt.	quantity_other_produce		5402	5412	10	0	mismatch
+1926	export		Goods manufactured wholly or in part not elsewhere specified—	bb1926:p287:t1	bb1926:p287:t1	38	owt.	quantity_total		7962	7972	10	0	mismatch
+1926	import	government stores imports	Spirits of wine, rectified—	bb1926:p290:t1	bb1926:p290:t1	18							3	uncheckable total; article total in unresolved multiple-quantity layout
+1926	import	government stores imports	Coal—	bb1926:p290:t1	bb1926:p290:t1	8	lb.	quantity_total		167112	0	-167112	1	mismatch
+1926	import	government stores imports	Coal—	bb1926:p290:t1	bb1926:p290:t1	8	lb.	quantity_home_consumption		167112	0	-167112	1	mismatch
+1926	import	government stores imports	Coal—	bb1926:p290:t1	bb1926:p290:t1	8		value_total_rs		2657072	0	-2657072	1	mismatch
+1926	import	government stores imports	Sawn sleepers—	bb1926:p291:t1	bb1926:p291:t1	5	tons	quantity_total		11086	11001	-85	1	mismatch
+1926	import	government stores imports	Sawn sleepers—	bb1926:p291:t1	bb1926:p291:t1	5	tons	quantity_home_consumption		11086	11001	-85	1	mismatch
+1926	import	government stores imports	Sawn sleepers—	bb1926:p291:t1	bb1926:p291:t1	5		value_total_rs		1595831	1591764	-4067	1	mismatch
+1926	import	government stores imports	Cotton waste—	bb1926:p291:t1	bb1926:p291:t1	12	cwt.	quantity_total		1322	1122	-200	1	mismatch
+1926	import	government stores imports	Cotton waste—	bb1926:p291:t1	bb1926:p291:t1	12	cwt.	quantity_home_consumption		1322	1122	-200	1	mismatch
+1926	import	government stores imports	Cotton waste—	bb1926:p291:t1	bb1926:p291:t1	12		value_total_rs		42396	34996	-7400	1	mismatch
+1926	import	government stores imports	Vegetable, other than essential, linseed oil—	bb1926:p291:t1	bb1926:p291:t1	27	gals.	quantity_total		27397	22500	-4897	1	mismatch
+1926	import	government stores imports	Vegetable, other than essential, linseed oil—	bb1926:p291:t1	bb1926:p291:t1	27	gals.	quantity_home_consumption		27397	22500	-4897	1	mismatch
+1926	import	government stores imports	Vegetable, other than essential, linseed oil—	bb1926:p291:t1	bb1926:p291:t1	27		value_total_rs		62774	59902	-2872	1	mismatch
+1926	import	government stores imports	Seeds (agricultural and horticultural) other than oil seeds, other—	bb1926:p291:t1	bb1926:p291:t1	10	lb.	quantity_total		1106	168	-938	1	mismatch
+1926	import	government stores imports	Seeds (agricultural and horticultural) other than oil seeds, other—	bb1926:p291:t1	bb1926:p291:t1	10	lb.	quantity_home_consumption		1106	168	-938	1	mismatch
+1926	import	government stores imports	Seeds (agricultural and horticultural) other than oil seeds, other—	bb1926:p291:t1	bb1926:p291:t1	10		value_total_rs		3780	690	-3090	1	mismatch
+1926	import	government stores imports	Bricks—	bb1926:p291:t1	bb1926:p291:t1	26	No.	quantity_total		225549	224574	-975	1	mismatch
+1926	import	government stores imports	Bricks—	bb1926:p291:t1	bb1926:p291:t1	26	No.	quantity_home_consumption		225549	224574	-975	1	mismatch
+1926	import	government stores imports	Bricks—	bb1926:p291:t1	bb1926:p291:t1	26		value_total_rs		18286	17408	-878	1	mismatch
+1926	import	government stores imports	Pipes—	bb1926:p291:t1	bb1926:p291:t1	32	cwt.	quantity_total		2500	1874	-626	1	mismatch
+1926	import	government stores imports	Pipes—	bb1926:p291:t1	bb1926:p291:t1	32	cwt.	quantity_home_consumption		2500	1874	-626	1	mismatch
+1926	import	government stores imports	Pipes—	bb1926:p291:t1	bb1926:p291:t1	32		value_total_rs		14982	12127	-2855	1	mismatch
+1926	import	government stores imports	Piece goods of cotton, dyed—	bb1926:p296:t1	bb1926:p296:t1	6	yds.	quantity_total		43770	43470	-300	1	mismatch
+1926	import	government stores imports	Piece goods of cotton, dyed—	bb1926:p296:t1	bb1926:p296:t1	6	yds.	quantity_home_consumption		43770	43470	-300	1	mismatch
+1926	import	government stores imports	Piece goods of cotton, dyed—	bb1926:p296:t1	bb1926:p296:t1	6		value_total_rs		35382	35231	-151	1	mismatch
+1926	import	government stores imports	Textile manufactures, not elsewhere specified—	bb1926:p296:t1	bb1926:p296:t1	13	yds.	quantity_total		42364	40704	-1660	1	mismatch
+1926	import	government stores imports	Textile manufactures, not elsewhere specified—	bb1926:p296:t1	bb1926:p296:t1	13	yds.	quantity_home_consumption		42364	40704	-1660	1	mismatch
+1926	import	government stores imports	Textile manufactures, not elsewhere specified—	bb1926:p296:t1	bb1926:p296:t1	13		value_total_rs		49295	39633	-9662	1	mismatch
+1926	import	government stores imports	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c., except cotton banians—	bb1926:p296:t1	bb1926:p296:t1	17	doz.	quantity_total		946	938	-8	1	mismatch
+1926	import	government stores imports	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c., except cotton banians—	bb1926:p296:t1	bb1926:p296:t1	17	doz.	quantity_home_consumption		946	938	-8	1	mismatch
+1926	import	government stores imports	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c., except cotton banians—	bb1926:p296:t1	bb1926:p296:t1	17		value_total_rs		79824	79093	-731	1	mismatch
+1926	import	government stores imports	Chemical manufactures and products, not elsewhere specified, including drugs, medicines, medicinal preparations—	bb1926:p297:t1	bb1926:p297:t1	39		value_total_rs		445129	445099	-30	0	mismatch
+1926	import	government stores imports	Motor spirit, in bulk—	bb1926:p297:t1	bb1926:p297:t1	7		value_total_rs		33750	32850	-900	0	mismatch
+1926	import	government stores imports	Other manufactures of paper, not elsewhere specified—	bb1926:p298:t1	bb1926:p298:t1	19		value_total_rs		348633	348658	25	0	mismatch
+1928	import		Grain (rice, not in the husk)—	bb1928:p197:t1	bb1928:p197:t1	25		value_total_rs		108150832	103150432	-5000400	0	mismatch
+1928	import		Other—	bb1928:p198:t1	bb1928:p198:t1	22	cwt.	quantity_home_consumption		2156	2056	-100	0	mismatch
+1928	import		Seeds, feeding, cotton—	bb1928:p198:t1	bb1928:p198:t1	51		value_total_rs		161174	39174	-122000	0	mismatch
+1928	import		Poultry and game, dead—	bb1928:p199:t1	bb1928:p199:t1	37	No.	quantity_total		48506	47606	-900	0	mismatch
+1928	import		Poultry and game, dead—	bb1928:p199:t1	bb1928:p199:t1	37	No.	quantity_home_consumption		48506	47606	-900	0	mismatch
+1928	import		Curry stuffs, cummin seed—	bb1928:p201:t1	bb1928:p201:t1	10		value_total_rs		537509	537709	200	0	mismatch
+1928	import		Fruits, dried or otherwise preserved : Other—	bb1928:p202:t1	bb1928:p202:t1	55		value_total_rs		114382	114332	-50	0	mismatch
+1928	import		Tinned or bottled in syrup or spirits : Other—	bb1928:p202:t1	bb1928:p202:t1	38	cwt.	quantity_total		3284	3294	10	0	mismatch
+1928	import		Tinned or bottled in syrup or spirits : Other—	bb1928:p202:t1	bb1928:p202:t1	38	cwt.	quantity_home_consumption		3284	3294	10	0	mismatch
+1928	import		Milk, preserved, sweetened, or otherwise, full cream—	bb1928:p202:t1	bb1928:p202:t1	63	lb.	quantity_total		2089497	2089507	10	0	mismatch
+1928	import		Milk, preserved, sweetened, or otherwise, full cream—	bb1928:p202:t1	bb1928:p202:t1	63	lb.	quantity_home_consumption		2089497	2089507	10	0	mismatch
+1928	import		Spirits, brandy—	bb1928:p204:t1	bb1928:p204:t1	48							9	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Spirits, gin—	bb1928:p204:t1	bb1928:p204:t1	56							6	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Spirits, liqueur—	bb1928:p204:t1	bb1928:p204:t1	11							10	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Spirits, rum—	bb1928:p204:t1	bb1928:p204:t1	20							6	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Spirits, spirits of wine rectified—	bb1928:p204:t1	bb1928:p204:t1	31							8	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Spirits, whisky—	bb1928:p204:t1	bb1928:p204:t1	36							3	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import		Provisions, unenumerated—	bb1928:p205:t1	bb1928:p205:t1	29		value_total_rs		2132331	2132341	10	0	mismatch
+1928	import		Wines, still, claret, in bottle—	bb1928:p205:t1	bb1928:p205:t1	68		value_total_rs		8291	8201	-90	0	mismatch
+1928	import		Tobacco, manufactured, cigars—	bb1928:p206:t1	bb1928:p206:t1	70		value_total_rs		46063	46072	9	0	mismatch
+1928	import		Asphalt—	bb1928:p207:t1	bb1928:p207:t1	18		value_total_rs		1066296	1066298	2	0	mismatch
+1928	import		Waxes (other than sealing and paraffin), beeswax—	bb1928:p209:t1	bb1928:p209:t1	63		value_total_rs		36069	37069	1000	0	mismatch
+1928	import		Oils, fats, and greases, animal (except marine animal), not refined, other—	bb1928:p210:t1	bb1928:p210:t1	26		value_total_rs		50749	59749	9000	0	mismatch
+1928	import		Mineral, crude petroleum—	bb1928:p210:t1	bb1928:p210:t1	48		value_total_rs		13971108	13970608	-500	0	mismatch
+1928	import		Fertilizers, guano, fish guano—	bb1928:p211:t1	bb1928:p211:t1	40	cwt.	quantity_total		162329	158490	-3839	2	mismatch
+1928	import		Fertilizers, guano, fish guano—	bb1928:p211:t1	bb1928:p211:t1	40	cwt.	quantity_home_consumption		162329	158490	-3839	2	mismatch
+1928	import		Fertilizers, guano, fish guano—	bb1928:p211:t1	bb1928:p211:t1	40		value_total_rs		1492348	1451802	-40546	2	mismatch
+1928	import		Bricks—	bb1928:p213:t1	bb1928:p213:t1	24	No.	quantity_home_consumption		325445	325421	-24	0	mismatch
+1928	import		Tiles—	bb1928:p213:t1	bb1928:p213:t1	40		value_total_rs		965762	965162	-600	0	mismatch
+1928	import		Pipes—	bb1928:p213:t1	bb1928:p213:t1	47		value_total_rs		153950	154950	1000	0	mismatch
+1928	import		Earthenware and stoneware—	bb1928:p214:t1	bb1928:p214:t1	66	cwt.	quantity_total		18928	109947	91019	1	mismatch
+1928	import		Earthenware and stoneware—	bb1928:p214:t1	bb1928:p214:t1	66	cwt.	quantity_home_consumption		18928	109947	91019	1	mismatch
+1928	import		Earthenware and stoneware—	bb1928:p214:t1	bb1928:p214:t1	66		value_total_rs		162095	1218719	1056624	1	mismatch
+1928	import		Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—	bb1928:p214:t1	bb1928:p214:t1	55	cwt.	quantity_total		1595506	1594969	-537	3	mismatch
+1928	import		Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—	bb1928:p214:t1	bb1928:p214:t1	55	cwt.	quantity_home_consumption		1595506	1594634	-872	3	mismatch
+1928	import		Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross—	bb1928:p214:t1	bb1928:p214:t1	55		value_total_rs		3193648	3189293	-4355	3	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other—	bb1928:p215:t1	bb1928:p215:t1	16	No.	quantity_total		5566	5089	-477	1	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other—	bb1928:p215:t1	bb1928:p215:t1	16	No.	quantity_home_consumption		5566	5089	-477	1	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other—	bb1928:p215:t1	bb1928:p215:t1	16		value_total_rs		123383	103634	-19749	1	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars—	bb1928:p215:t1	bb1928:p215:t1	7	cwt.	quantity_total		107767	52145	-55622	1	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars—	bb1928:p215:t1	bb1928:p215:t1	7	cwt.	quantity_home_consumption		107767	52145	-55622	1	mismatch
+1928	import		ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars—	bb1928:p215:t1	bb1928:p215:t1	7		value_total_rs		525945	207478	-318467	1	mismatch
+1928	import		Brass and alloys of copper : Nails, screws, and wire—	bb1928:p217:t1	bb1928:p217:t1	30		value_total_rs		257950	257905	-45	0	mismatch
+1928	import		Tin, solder—	bb1928:p218:t1	bb1928:p218:t1	59		value_total_rs		43001	48001	5000	0	mismatch
+1928	import		Metals not elsewhere specified, wrought or manufactured, other sorts—	bb1928:p219:t1	bb1928:p219:t1	42		value_total_rs		114867	114862	-5	0	mismatch
+1928	import		Cutlery and hardware, knives, scissors, razors, and other cutler's ware—	bb1928:p219:t1	bb1928:p219:t1	65		value_total_rs		419210	419215	5	0	mismatch
+1928	import		Clocks and watches: Clocks, complete—	bb1928:p220:t1	bb1928:p220:t1	46		value_total_rs		171762	171771	9	0	mismatch
+1928	import		Electric lighting accessories and fittings, including switches—	bb1928:p221:t1	bb1928:p221:t1	77	No.	quantity_total		840774	849774	9000	0	mismatch
+1928	import		Electric lighting accessories and fittings, including switches—	bb1928:p221:t1	bb1928:p221:t1	77	No.	quantity_home_consumption		840774	849774	9000	0	mismatch
+1928	import		Boilers and boiler house plant—	bb1928:p221:t1	bb1928:p221:t1	36		value_total_rs		560476	500476	-60000	0	mismatch
+1928	import		Generators, alternators, and dynamos—	bb1928:p222:t1	bb1928:p222:t1	12	cwt.	quantity_total		2407	2401	-6	0	mismatch
+1928	import		Tea-making machinery—	bb1928:p223:t1	bb1928:p223:t1	11		value_total_rs		1508595	1508685	90	0	mismatch
+1928	import		Prime movers, not electrical, internal combustion—	bb1928:p223:t1	bb1928:p223:t1	26		value_total_rs		1061298	1066298	5000	0	mismatch
+1928	import		Pumping machinery—	bb1928:p223:t1	bb1928:p223:t1	15		value_total_rs		184889	185889	1000	0	mismatch
+1928	import		Textile machinery—	bb1928:p223:t1	bb1928:p223:t1	24	No.	quantity_total		17	127	110	0	mismatch
+1928	import		Textile machinery—	bb1928:p223:t1	bb1928:p223:t1	24	cwt.	quantity_total		703	692	-11	0	mismatch
+1928	import		Textile machinery—	bb1928:p223:t1	bb1928:p223:t1	24	No.	quantity_home_consumption		17	127	110	0	mismatch
+1928	import		Textile machinery—	bb1928:p223:t1	bb1928:p223:t1	24	cwt.	quantity_home_consumption		703	692	-11	0	mismatch
+1928	import		Furniture—	bb1928:p224:t1	bb1928:p224:t1	43	No.	quantity_home_consumption		20614	836	-19778	19	mismatch
+1928	import		Furniture—	bb1928:p224:t1	bb1928:p224:t1	43		value_total_rs		167848	41740	-126108	19	mismatch
+1928	import		Manufactures of wood and timber not elsewhere specified—	bb1928:p224:t1	bb1928:p225:t1	19		value_total_rs		79119	66963	-12156	5	mismatch
+1928	import		Piece goods of cotton, bleached—	bb1928:p225:t1	bb1928:p225:t1	70		value_total_rs		5766578	5766278	-300	0	mismatch
+1928	import		Cotton manufactures, not elsewhere specified—	bb1928:p226:t1	bb1928:p226:t1	23							19	uncheckable total; unreadable or merged unit field 'doz. 119586 yds. 57179'
+1928	import		Blankets—	bb1928:p227:t1	bb1928:p227:t1	42		value_total_rs		179491	179485	-6	0	mismatch
+1928	import		Silk manufactures, broadstuff—	bb1928:p228:t1	bb1928:p228:t1	24	yds.	quantity_total		1476266	1476265	-1	0	mismatch
+1928	import		Silk manufactures, broadstuff—	bb1928:p228:t1	bb1928:p228:t1	24	yds.	quantity_home_consumption		1476266	1476265	-1	0	mismatch
+1928	import		Jute manufactures, sacks and bags empty, new—	bb1928:p230:t1	bb1928:p230:t1	9							5	uncheckable total; unreadable or merged unit field 'cwt. 21640 No. of doz. 122653 } 684013'
+1928	import		Haberdashery and millinery—	bb1928:p230:t1	bb1928:p230:t1	61		value_total_rs		1086265	1086266	1	0	mismatch
+1928	import		Petroleum, kerosine oil, in cases—	bb1928:p233:t1	bb1928:p233:t1	17	gals.	quantity_total		96121	82000	-14121	1	mismatch
+1928	import		Petroleum, kerosine oil, in cases—	bb1928:p233:t1	bb1928:p233:t1	17	gals.	quantity_home_consumption		96121	82000	-14121	1	mismatch
+1928	import		Petroleum, kerosine oil, in cases—	bb1928:p233:t1	bb1928:p233:t1	17		value_total_rs		105178	90000	-15178	1	mismatch
+1928	import		Saddlery and harness—	bb1928:p234:t1	bb1928:p234:t1	46	No.	quantity_total		645	473	-172	1	mismatch
+1928	import		Saddlery and harness—	bb1928:p234:t1	bb1928:p234:t1	46	cwt.	quantity_total		16	13	-3	1	mismatch
+1928	import		Saddlery and harness—	bb1928:p234:t1	bb1928:p234:t1	46	No.	quantity_home_consumption		645	473	-172	1	mismatch
+1928	import		Saddlery and harness—	bb1928:p234:t1	bb1928:p234:t1	46	cwt.	quantity_home_consumption		16	13	-3	1	mismatch
+1928	import		Saddlery and harness—	bb1928:p234:t1	bb1928:p234:t1	46		value_total_rs		10029	9040	-989	1	mismatch
+1928	import		Other descriptions—	bb1928:p235:t1	bb1928:p235:t1	22	No.	quantity_total		119244	119175	-69	1	mismatch
+1928	import		Other descriptions—	bb1928:p235:t1	bb1928:p235:t1	22	No.	quantity_home_consumption		119244	119175	-69	1	mismatch
+1928	import		Other descriptions—	bb1928:p235:t1	bb1928:p235:t1	22		value_total_rs		261814	261561	-253	1	mismatch
+1928	import		Paper, printing—	bb1928:p235:t1	bb1928:p235:t1	42							14	uncheckable total; two-unit quantity cannot be separated
+1928	import		Paper, writing (including envelopes)—	bb1928:p235:t1	bb1928:p235:t1	23							21	uncheckable total; two-unit quantity cannot be separated
+1928	import		Paper, packing and wrapping—	bb1928:p235:t1	bb1928:p235:t1	48							19	uncheckable total; two-unit quantity cannot be separated
+1928	import		Paper, tissue—	bb1928:p235:t1	bb1928:p235:t1	61							9	uncheckable total; two-unit quantity cannot be separated
+1928	import		Paper, blotting—	bb1928:p235:t1	bb1928:p235:t1	75							7	uncheckable total; two-unit quantity cannot be separated
+1928	import		Paper, other (dutiable)—	bb1928:p236:t1	bb1928:p236:t1	28	cwt.	quantity_total		6067	10167	4100	0	mismatch
+1928	import		Paper, other (dutiable)—	bb1928:p236:t1	bb1928:p236:t1	28	cwt.	quantity_home_consumption		6067	10167	4100	0	mismatch
+1928	import		Exercise books in paper covers—	bb1928:p236:t1	bb1928:p236:t1	57		value_total_rs		207924	208424	500	0	mismatch
+1928	import		Other manufactures of paper not elsewhere specified (free)—	bb1928:p236:t1	bb1928:p237:t1	21		value_total_rs		84177	83977	-200	0	mismatch
+1928	import		Road, mechanically-propelled, motor cars—	bb1928:p237:t1	bb1928:p237:t1	57		value_total_rs		5658676	5658626	-50	0	mismatch
+1928	import		Other manufactures—	bb1928:p239:t1	bb1928:p239:t1	52		value_total_rs		132701	132695	-6	0	mismatch
+1928	import		Ammunition : Cartridge cases, filled—	bb1928:p239:t1	bb1928:p239:t1	18							12	uncheckable total; two-unit quantity cannot be separated
+1928	import		Ammunition : Cartridge cases, empty—	bb1928:p239:t1	bb1928:p239:t1	28							8	uncheckable total; two-unit quantity cannot be separated
+1928	import		Ammunition : Percussion caps—	bb1928:p239:t1	bb1928:p239:t1	37							7	uncheckable total; two-unit quantity cannot be separated
+1928	import		Ammunition, fuses, and blasting accessories : Safety fuse—	bb1928:p240:t1	bb1928:p240:t1	9							5	uncheckable total; unreadable or merged unit field 'coils cwt. 145849 745'
+1928	import		Ammunition : Pyrotechnic products (fireworks)—	bb1928:p240:t1	bb1928:p240:t1	42	cwt.	quantity_total		6484	4684	-1800	0	mismatch
+1928	import		Ammunition : Pyrotechnic products (fireworks)—	bb1928:p240:t1	bb1928:p240:t1	42	cwt.	quantity_home_consumption		6484	4684	-1800	0	mismatch
+1928	import		Cinematograph films—	bb1928:p242:t1	bb1928:p242:t1	17							1	uncheckable total; two-unit quantity cannot be separated
+1928	import		Lamps and lanterns (except electric)—	bb1928:p243:t1	bb1928:p243:t1	35		value_total_rs		466520	466519	-1	0	mismatch
+1928	import		Matches, safety—	bb1928:p244:t1	bb1928:p244:t1	14	gross	quantity_total		361022	411022	50000	0	mismatch
+1928	import		Oil and floor cloth—	bb1928:p245:t1	bb1928:p245:t1	14	yds.	quantity_home_consumption		100455	91455	-9000	0	mismatch
+1928	import		Starch of all kinds—	bb1928:p245:t1	bb1928:p245:t1	51		value_total_rs		7770	7870	100	0	mismatch
+1928	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1928:p246:t1	bb1928:p246:t1	60	cwt.	quantity_total		2331	3331	1000	0	mismatch
+1928	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1928:p246:t1	bb1928:p246:t1	60	cwt.	quantity_home_consumption		2331	3331	1000	0	mismatch
+1928	import		Straw, grass, rush, &c., manufactures not elsewhere specified : Mats and matting—	bb1928:p246:t1	bb1928:p246:t1	60		value_total_rs		82302	82272	-30	0	mismatch
+1928	import		Tca chests and shooks—	bb1928:p246:t1	bb1928:p246:t1	30	No.	quantity_total		4132646	4132643	-3	2	mismatch
+1928	import		Tca chests and shooks—	bb1928:p246:t1	bb1928:p246:t1	30	No.	quantity_home_consumption		4132646	4132643	-3	2	mismatch
+1928	import		Tca chests and shooks—	bb1928:p246:t1	bb1928:p246:t1	30		value_total_rs		5595590	5595575	-15	2	mismatch
+1928	export		Grain rice, not in the husk—	bb1928:p252:t1	bb1928:p252:t1	29	cwt.	quantity_other_produce		18966	18962	-4	0	mismatch
+1928	export		Grain and flour not elsewhere specified—	bb1928:p252:t1	bb1928:p252:t1	39		value_other_produce_rs		344101	344201	100	0	mismatch
+1928	export		Oil seed cake, coconut poonac—	bb1928:p252:t1	bb1928:p253:t1	13	cwt.	quantity_ceylon_produce		201514	291514	90000	0	mismatch
+1928	export		Oil seed cake, coconut poonac—	bb1928:p252:t1	bb1928:p253:t1	13	cwt.	quantity_total		201514	291514	90000	0	mismatch
+1928	export		Beche-de-mer—	bb1928:p254:t1	bb1928:p254:t1	8	cwt.	quantity_ceylon_produce		730	680	-50	0	mismatch
+1928	export		Cacao (raw)—	bb1928:p254:t1	bb1928:p254:t1	42	lb.	quantity_ceylon_produce		8245193	8240147	-5046	0	mismatch
+1928	export		Cacao (raw)—	bb1928:p254:t1	bb1928:p254:t1	42	lb.	quantity_total		8245198	8240147	-5051	0	mismatch
+1928	export		Coconuts, fresh—	bb1928:p254:t1	bb1928:p255:t1	22	No.	quantity_ceylon_produce		18016191	18012205	-3986	1	mismatch
+1928	export		Coconuts, fresh—	bb1928:p254:t1	bb1928:p255:t1	22	No.	quantity_total		18016191	18012205	-3986	1	mismatch
+1928	export		Coconuts, fresh—	bb1928:p254:t1	bb1928:p255:t1	22		value_ceylon_produce_rs		1424287	1424048	-239	1	mismatch
+1928	export		Coconuts, fresh—	bb1928:p254:t1	bb1928:p255:t1	22		value_total_rs		1424287	1424048	-239	1	mismatch
+1928	export		Coconuts, desiccated—	bb1928:p255:t1	bb1928:p255:t1	65		value_ceylon_produce_rs		19840117	19840717	600	0	mismatch
+1928	export		Coconuts, desiccated—	bb1928:p255:t1	bb1928:p255:t1	65		value_total_rs		19840117	19840717	600	0	mismatch
+1928	export		Spices, cinnamon, plantation—	bb1928:p260:t1	bb1928:p260:t1	39	cwt.	quantity_total		45722	45742	20	0	mismatch
+1928	export		Tea—	bb1928:p262:t1	bb1928:p263:t1	60	lb.	quantity_other_produce		1828623	1828573	-50	0	mismatch
+1928	export		Plumbago—	bb1928:p265:t1	bb1928:p265:t1	29		value_ceylon_produce_rs		2704859	2754359	49500	0	mismatch
+1928	export		Plumbago—	bb1928:p265:t1	bb1928:p265:t1	29		value_total_rs		2704859	2754359	49500	0	mismatch
+1928	export		Other—	bb1928:p266:t1	bb1928:p266:t1	16		value_other_produce_rs		80661	80916	255	0	mismatch
+1928	export		Other—	bb1928:p266:t1	bb1928:p266:t1	16		value_total_rs		83941	84196	255	0	mismatch
+1928	export		Fibre, coir, mattress—	bb1928:p268:t1	bb1928:p268:t1	37	cwt.	quantity_total		287036	387036	100000	0	mismatch
+1928	export		Oil, coconut—	bb1928:p271:t1	bb1928:p272:t1	16	cwt.	quantity_ceylon_produce		779112	779052	-60	0	mismatch
+1928	export		Oil, other—	bb1928:p272:t1	bb1928:p272:t1	29	cwt.	quantity_total		299	209	-90	0	mismatch
+1928	export		Rubber—	bb1928:p273:t1	bb1928:p273:t1	29	lb.	quantity_ceylon_produce		128326444	128626144	299700	0	mismatch
+1928	export		Rubber—	bb1928:p273:t1	bb1928:p273:t1	29		value_ceylon_produce_rs		73985953	73985950	-3	0	mismatch
+1928	export		Rubber—	bb1928:p273:t1	bb1928:p273:t1	29		value_total_rs		80755062	80754062	-1000	0	mismatch
+1928	export		Dyeing materials, sapanwood—	bb1928:p273:t1	bb1928:p273:t1	54		value_ceylon_produce_rs		9039	9099	60	0	mismatch
+1928	export		Dyeing materials, sapanwood—	bb1928:p273:t1	bb1928:p273:t1	54		value_total_rs		9039	9099	60	0	mismatch
+1928	export		Goods unmanufactured not elsewhere specified—	bb1928:p277:t1	bb1928:p277:t1	23	cwt.	quantity_ceylon_produce		2275	2315	40	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	38		value_ceylon_produce_rs		139	278	139	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	38		value_other_produce_rs		95	190	95	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	38		value_total_rs		234	468	234	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	39		value_ceylon_produce_rs		139	278	139	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	39		value_other_produce_rs		95	190	95	0	mismatch
+1928	export		Tiles—	bb1928:p277:t1	bb1928:p277:t1	39		value_total_rs		234	468	234	0	mismatch
+1928	export		Other—	bb1928:p277:t1	bb1928:p278:t1	13		value_other_produce_rs		93622	93624	2	0	mismatch
+1928	export		Rubber machinery—	bb1928:p280:t1	bb1928:p280:t1	42		value_other_produce_rs		3751	37510	33759	8	mismatch
+1928	export		Rubber machinery—	bb1928:p280:t1	bb1928:p280:t1	42		value_total_rs		3751	37510	33759	8	mismatch
+1928	export		Machinery, other—	bb1928:p280:t1	bb1928:p281:t1	30	No.	quantity_total		98	95	-3	19	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49	No.	quantity_ceylon_produce		1902	327	-1575	11	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49	No.	quantity_other_produce		277	96	-181	11	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49	No.	quantity_total		2179	423	-1756	11	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49		value_ceylon_produce_rs		51153	25692	-25461	11	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49		value_other_produce_rs		13593	9316	-4277	11	mismatch
+1928	export		Furniture—	bb1928:p281:t1	bb1928:p281:t1	49		value_total_rs		64752	35038	-29714	11	mismatch
+1928	export		Manufactures of wood and timber not elsewhere specified—	bb1928:p282:t1	bb1928:p282:t1	19		value_ceylon_produce_rs		3752	2022	-1730	0	mismatch
+1928	export		Piece goods of cotton, dyed—	bb1928:p282:t1	bb1928:p282:t1	48		value_ceylon_produce_rs		250210	260210	10000	0	mismatch
+1928	export		Piece goods of cotton, dyed—	bb1928:p282:t1	bb1928:p282:t1	48		value_other_produce_rs		58732	58762	30	0	mismatch
+1928	export		Piece goods of cotton, dyed—	bb1928:p282:t1	bb1928:p282:t1	48		value_total_rs		318972	317972	-1000	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	22		value_other_produce_rs		760	2095	1335	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	22		value_total_rs		760	2095	1335	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	23		value_other_produce_rs		760	2095	1335	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	23		value_total_rs		760	2095	1335	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	24		value_other_produce_rs		1205	2095	890	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	24		value_total_rs		1205	2095	890	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	25		value_other_produce_rs		1205	2095	890	0	mismatch
+1928	export		Small wares, including ribbons and trimmings—	bb1928:p283:t1	bb1928:p283:t1	25		value_total_rs		1205	2095	890	0	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	33	yds.	quantity_other_produce		668	678	10	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	33		value_ceylon_produce_rs		114	342	228	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	33		value_other_produce_rs		1617	3722	2105	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	33		value_total_rs		1731	4064	2333	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	34	doz.	quantity_other_produce		45	15	-30	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	34	doz.	quantity_total		48	18	-30	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	34		value_ceylon_produce_rs		114	342	228	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	34		value_other_produce_rs		1617	3722	2105	2	mismatch
+1928	export		Cotton manufactures not elsewhere specified—	bb1928:p283:t1	bb1928:p283:t1	34		value_total_rs		1731	4064	2333	2	mismatch
+1928	export		Coir yarn—	bb1928:p284:t1	bb1928:p284:t1	56		value_ceylon_produce_rs		1635827	1635817	-10	0	mismatch
+1928	export		Coir yarn—	bb1928:p284:t1	bb1928:p284:t1	56		value_total_rs		1635827	1635817	-10	0	mismatch
+1928	export		Coir mats and matting—	bb1928:p285:t1	bb1928:p285:t1	26	No.	quantity_total		34784	34898	114	0	mismatch
+1928	export		Coir mats and matting—	bb1928:p285:t1	bb1928:p285:t1	27	yds.	quantity_total		2202	2088	-114	0	mismatch
+1928	export		Coir manufactures not otherwise specified—	bb1928:p285:t1	bb1928:p285:t1	36							5	uncheckable total; unreadable or merged unit field '1496'
+1928	export		Cordage, cables, ropes, and twine of coir—	bb1928:p285:t1	bb1928:p285:t1	47							7	uncheckable total; unreadable or merged unit field '19086'
+1928	export		Textile manufactures not elsewhere specified—	bb1928:p286:t1	bb1928:p286:t1	42	yds.	quantity_other_produce		53337	62337	9000	0	mismatch
+1928	export		Textile manufactures not elsewhere specified—	bb1928:p286:t1	bb1928:p286:t1	42	yds.	quantity_total		53337	62337	9000	0	mismatch
+1928	export		Textile manufactures not elsewhere specified—	bb1928:p286:t1	bb1928:p286:t1	42		value_total_rs		1682217	1682208	-9	0	mismatch
+1928	export		Lubricating oil—	bb1928:p288:t1	bb1928:p288:t1	17		value_other_produce_rs		34171	34136	-35	0	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19	cwt.	quantity_ceylon_produce		3155	868	-2287	1	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19	cwt.	quantity_other_produce		574	529	-45	1	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19	cwt.	quantity_total		3729	1397	-2332	1	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19		value_ceylon_produce_rs		606273	131180	-475093	1	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19		value_other_produce_rs		86605	51672	-34933	1	mismatch
+1928	export		Leather, tanned—	bb1928:p289:t1	bb1928:p289:t1	19		value_total_rs		692878	182852	-510026	1	mismatch
+1928	export		Casks—	bb1928:p296:t1	bb1928:p296:t1	30	No.	quantity_other_produce		594	574	-20	0	mismatch
+1928	export		Cinematograph films—	bb1928:p296:t1	bb1928:p296:t1	48	lin. ft.	quantity_other_produce		163774	161974	-1800	0	mismatch
+1928	export		Cinematograph films—	bb1928:p296:t1	bb1928:p296:t1	48	lin. ft.	quantity_total		163774	161974	-1800	0	mismatch
+1928	export		Curios—	bb1928:p297:t1	bb1928:p297:t1	42		value_other_produce_rs		2198	2186	-12	0	mismatch
+1928	export		Curios—	bb1928:p297:t1	bb1928:p297:t1	42		value_total_rs		187907	227997	40090	0	mismatch
+1928	export		Straw, grass, rush, &c., manufactures not elsewhere specified, hats—	bb1928:p299:t1	bb1928:p299:t1	10	No.	quantity_ceylon_produce		424	413	-11	0	mismatch
+1928	import	government stores imports	Spirits of wine, rectified—	bb1928:p302:t1	bb1928:p302:t1	32							3	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import	government stores imports	Provisions unenumerated—	bb1928:p302:t1	bb1928:p302:t1	39		value_total_rs		8338	8238	-100	0	mismatch
+1928	import	government stores imports	Cotton waste—	bb1928:p303:t1	bb1928:p303:t1	15		value_total_rs		37013	36963	-50	0	mismatch
+1928	import	government stores imports	Earthenware and stoneware—	bb1928:p304:t1	bb1928:p304:t1	8		value_total_rs		132182	152182	20000	0	mismatch
+1928	import	government stores imports	Manufactures of brass or copper not elsewhere specified—	bb1928:p305:t1	bb1928:p305:t1	21		value_total_rs		7165	71650	64485	0	mismatch
+1928	import	government stores imports	Telegraph and telephone instruments and apparatus—	bb1928:p306:t1	bb1928:p306:t1	18		value_total_rs		250137	247137	-3000	0	mismatch
+1928	import	government stores imports	Furniture—	bb1928:p307:t1	bb1928:p307:t1	30	No.	quantity_home_consumption		20	17	-3	1	mismatch
+1928	import	government stores imports	Furniture—	bb1928:p307:t1	bb1928:p307:t1	30		value_total_rs		456	356	-100	1	mismatch
+1928	import	government stores imports	Manufactures of wood and timber, not elsewhere specified—	bb1928:p307:t1	bb1928:p307:t1	35		value_total_rs		4660	0	-4660	2	mismatch
+1928	import	government stores imports	Cotton yarn and twist, dyed—	bb1928:p307:t1	bb1928:p307:t1	44	No.	quantity_home_consumption		1251	0	-1251	2	mismatch
+1928	import	government stores imports	Cotton yarn and twist, dyed—	bb1928:p307:t1	bb1928:p307:t1	44		value_total_rs		1919	0	-1919	2	mismatch
+1928	import	government stores imports	Blankets—	bb1928:p308:t1	bb1928:p308:t1	20		value_total_rs		2236	236	-2000	0	mismatch
+1928	import	government stores imports	Lubricating oil—	bb1928:p309:t1	bb1928:p309:t1	10							2	uncheckable total; article total in unresolved multiple-quantity layout
+1928	import	government stores imports	Ammunition, cartridge cases, filled—	bb1928:p311:t1	bb1928:p311:t1	9							4	uncheckable total; two-unit quantity cannot be separated

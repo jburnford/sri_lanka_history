@@ -1,0 +1,503 @@
+table_id	area_or_measure	printed_total	computed_sum	difference	status	part_count	missing_part_count	unreadable_part_count
+bb1869:p530:t1	area: Colombo	813920	813920	0	agree	2	0	0
+bb1869:p530:t1	area: Kégalla	329080	329080	0	agree	2	0	0
+bb1869:p530:t1	area: Ratnapura	1060920	1060920	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	631827	631827	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	1572093	1572093	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; Estimated Acreage of the Colony.	2203920	2203920	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	province subtotal: WESTERN PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	area: (unlabelled subtotal)	2203920	2203920	0	agree	2	0	0
+bb1869:p530:t1	area: Kurunégala	193396	193396	0	agree	2	0	0
+bb1869:p530:t1	area: Puttalam	654112	654112	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	125638	125638	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	721870	721870	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; Estimated Acreage of the Colony.	847508	847508	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	province subtotal: NORTH-WESTERN PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	area: (unlabelled subtotal)	847508	847508	0	agree	2	0	0
+bb1869:p530:t1	area: Galle	348720	348720	0	agree	2	0	0
+bb1869:p530:t1	area: Mátara	320000	320000	0	agree	2	0	0
+bb1869:p530:t1	area: Hambantota	567680	567680	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	188811	188811	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	1047589	1047589	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; Estimated Acreage of the Colony.	1236400	1236400	0	agree	3	0	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	province subtotal: SOUTHERN PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	3	3	0
+bb1869:p530:t1	area: (unlabelled subtotal)	1236400	1236400	0	agree	2	0	0
+bb1869:p530:t1	area: Trincomalee	1173700	1173700	0	agree	2	0	0
+bb1869:p530:t1	area: Batticaloa	2151040	2151040	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	59851\frac{3}{4}	59851.75	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	3264888\frac{1}{4}	3264888.25	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; Estimated Acreage of the Colony.	3324740	3324740	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	province subtotal: EASTERN PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	2	2	0
+bb1869:p530:t1	area: (unlabelled subtotal)	3324740	3324740	0	agree	2	0	0
+bb1869:p530:t1	area: Jaffna	602880	602880	0	agree	2	0	0
+bb1869:p530:t1	area: Mannár	727870	727870	0	agree	2	0	0
+bb1869:p530:t1	area: Vanny	755620	755620	0	agree	2	0	0
+bb1869:p530:t1	area: Nuwarakalawiya	1850880	1850880	0	agree	2	0	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	148649	148649	0	agree	4	0	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	3788601	3788601	0	agree	4	0	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; Estimated Acreage of the Colony.	3937250	3937250	0	agree	4	0	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	province subtotal: NORTHERN PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	area: (unlabelled subtotal)	3937250	3937250	0	agree	2	0	0
+bb1869:p530:t1	area: Kandy Proper	178856\frac{1}{2}	178856.5	0	agree	2	0	0
+bb1869:p530:t1	area: Mátalé	27907	27907	0	agree	2	1	0
+bb1869:p530:t1	area: Nuwara Eliya	96400	96400	0	agree	2	0	0
+bb1869:p530:t1	area: Badulla	36054	36054	0	agree	2	1	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; Estimated Acreage of cul- tivated Land in the Colony.	269292\frac{1}{2}	269292.5	0	agree	4	0	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; Estimated Acreage of un- cultivated Land in the Colony.	69925	69925	0	agree	4	2	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; Estimated Acreage of the Colony.	339217\frac{1}{2}	339217.5	0	agree	4	0	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; * Number of Estates aban- doned.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	province subtotal: CENTRAL PROVINCE.; * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	4	4	0
+bb1869:p530:t1	area: (unlabelled subtotal)	339217\frac{1}{2}	339217.5	0	agree	2	0	0
+bb1869:p530:t1	colony total: Estimated Acreage of cul- tivated Land in the Colony.	1424069\frac{1}{4}	1424069.25	0	agree	6	0	0
+bb1869:p530:t1	colony total: Estimated Acreage of un- cultivated Land in the Colony.	10464966\frac{1}{4}	10464966.25	0	agree	6	0	0
+bb1869:p530:t1	colony total: Estimated Acreage of the Colony.	11889035\frac{1}{2}	11889035.5	0	agree	6	0	0
+bb1869:p530:t1	colony total: * Number of Estates in Culti- vation.				uncheckable: no printed numeric total	6	6	0
+bb1869:p530:t1	colony total: * Number of Estates aban- doned.				uncheckable: no printed numeric total	6	6	0
+bb1869:p530:t1	colony total: * Number of Es- tates cultivated, wholly or par- tially, on the métairie system.				uncheckable: no printed numeric total	6	6	0
+bb1869:p530:t1	area: Total —	11889035\frac{1}{2}	11889035.5	0	agree	2	0	0
+bb1902:p690:t1	area: Colombo	393,143	393143	0	agree	3	0	0
+bb1902:p690:t1	area: Kalutara	139,415	139415	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Western Province.; With Grain of all kinds.	117,434	117434	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Western Province.; With Fruits and Vegetables of all kinds.	289,862	289862	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Western Province.; With Products other than Grain, Fruit, and Vegetables.	125,262	125262	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Western Province.; Total.	532,558	532558	0	agree	2	0	0
+bb1902:p690:t1	area: Total	532,558	532558	0	agree	3	0	0
+bb1902:p690:t1	area: Kandy	261,993	261993	0	agree	3	0	0
+bb1902:p690:t1	area: Matale	60,245	60245	0	agree	3	0	0
+bb1902:p690:t1	area: Nuwara Eliya	110,603	110603	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Central Province.; With Grain of all kinds.	78,201	78201	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Central Province.; With Fruits and Vegetables of all kinds.	24,424	24424	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Central Province.; With Products other than Grain, Fruit, and Vegetables.	330,216	330216	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Central Province.; Total.	432,841	432841	0	agree	3	0	0
+bb1902:p690:t1	area: Total	432,841	432841	0	agree	3	0	0
+bb1902:p690:t1	area: Jaffna	125,663	125663	0	agree	3	0	0
+bb1902:p690:t1	area: Mannar	15,374	15374	0	agree	3	0	0
+bb1902:p690:t1	area: Mullaitivu	14,676	14676	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Northern Province.; With Grain of all kinds.	71,069	71069	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Northern Province.; With Fruits and Vegetables of all kinds.	18,722	18722	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Northern Province.; With Products other than Grain, Fruit, and Vegetables.	65,922	65922	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Northern Province.; Total.	155,713	155713	0	agree	3	0	0
+bb1902:p690:t1	area: Total	155,713	155713	0	agree	3	0	0
+bb1902:p690:t1	area: Galle	114,859	114859	0	agree	3	0	0
+bb1902:p690:t1	area: Hambantota	74,911	74911	0	agree	3	0	0
+bb1902:p690:t1	area: Marara	121,965	121965	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Southern Province.; With Grain of all kinds.	127,234	127234	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Southern Province.; With Fruits and Vegetables of all kinds.	82,382	82382	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Southern Province.; With Products other than Grain, Fruit, and Vegetables.	102,119	102119	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Southern Province.; Total.	311,735	311735	0	agree	3	0	0
+bb1902:p690:t1	area: Total	311,735	311735	0	agree	3	0	0
+bb1902:p690:t1	area: Batticaloa	111,698	111698	0	agree	3	0	0
+bb1902:p690:t1	area: Trincomalee	15,582	15582	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Eastern Province.; With Grain of all kinds.	89,149	89149	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Eastern Province.; With Fruits and Vegetables of all kinds.	4,102	4102	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Eastern Province.; With Products other than Grain, Fruit, and Vegetables.	34,029	34029	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Eastern Province.; Total.	127,280	127280	0	agree	2	0	0
+bb1902:p690:t1	area: Total	127,280	127280	0	agree	3	0	0
+bb1902:p690:t1	area: Kurunegala	153,418	153418	0	agree	3	0	0
+bb1902:p690:t1	area: Puttalam	55,997	55997	0	agree	3	0	0
+bb1902:p690:t1	area: Chilaw	94,886	94886	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: North-Western Province.; With Grain of all kinds.	100,649	100649	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: North-Western Province.; With Fruits and Vegetables of all kinds.	64,593	64593	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: North-Western Province.; With Products other than Grain, Fruit, and Vegetables.	139,059	139059	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: North-Western Province.; Total.	304,301	304301	0	agree	3	0	0
+bb1902:p690:t1	area: Total	304,301	304301	0	agree	3	0	0
+bb1902:p690:t1	area: Anuradhapura	49,140			uncheckable: unreadable numeric string	3	0	1
+bb1902:p690:t1	area: Badulla	130,722	130722	0	agree	3	0	0
+bb1902:p690:t1	area: Ratnapura	123,574	123574	0	agree	3	0	0
+bb1902:p690:t1	area: Kegalla	148,750	148750	0	agree	3	0	0
+bb1902:p690:t1	province subtotal: Province of Sabaragamuwa.; With Grain of all kinds.	114,600	114600	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Province of Sabaragamuwa.; With Fruits and Vegetables of all kinds.	93,250	93250	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Province of Sabaragamuwa.; With Products other than Grain, Fruit, and Vegetables.	64,474	64474	0	agree	2	0	0
+bb1902:p690:t1	province subtotal: Province of Sabaragamuwa.; Total.	272,324	272324	0	agree	2	0	0
+bb1902:p690:t1	area: Total	272,324	272324	0	agree	3	0	0
+bb1902:p690:t1	colony total: With Grain of all kinds.	799,982	799982	0	agree	9	0	0
+bb1902:p690:t1	colony total: With Fruits and Vegetables of all kinds.	595,646	595646	0	agree	9	0	0
+bb1902:p690:t1	colony total: With Products other than Grain, Fruit, and Vegetables.	920,986			uncheckable: unreadable numeric string	9	0	1
+bb1902:p690:t1	colony total: Total.	2,316,614	2316614	0	agree	9	0	0
+bb1902:p690:t1	area: Grand Total	2,316,614	2316614	0	agree	3	0	0
+bb1904:p736:t1	area: Colombo	395,671	395671	0	agree	3	0	0
+bb1904:p736:t1	area: Kalutara	144,829	144829	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Western Province.; With Grain of all kinds.	119,153	119153	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Western Province.; With Fruits and Vegetables of all kinds.	292,252	292252	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Western Province.; With Products other than Grain, Fruit, and Vegetables.	129,095	129095	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Western Province.; Total.	540,500	540500	0	agree	2	0	0
+bb1904:p736:t1	area: Total	540,500	540500	0	agree	3	0	0
+bb1904:p736:t1	area: Kandy	254,837	254837	0	agree	3	0	0
+bb1904:p736:t1	area: Matale	64,733	64733	0	agree	3	0	0
+bb1904:p736:t1	area: Nuwara Eliya	111,614	111614	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Central Province.; With Grain of all kinds.	79,211	79211	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Central Province.; With Fruits and Vegetables of all kinds.	26,404	26404	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Central Province.; With Products other than Grain, Fruit, and Vegetables.	325,569	325569	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Central Province.; Total.	431,184	431184	0	agree	3	0	0
+bb1904:p736:t1	area: Total	431,184	431184	0	agree	3	0	0
+bb1904:p736:t1	area: Jaffna	131,397	131397	0	agree	3	0	0
+bb1904:p736:t1	area: Mannar	14,666	14666	0	agree	3	0	0
+bb1904:p736:t1	area: Mullaitivu	16,016	16016	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Northern Province.; With Grain of all kinds.	73,199	73199	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Northern Province.; With Fruits and Vegetables of all kinds.	71,580	71580	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Northern Province.; With Products other than Grain, Fruit, and Vegetables.	17,300	17300	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Northern Province.; Total.	162,079	162079	0	agree	3	0	0
+bb1904:p736:t1	area: Total	162,079	162079	0	agree	3	0	0
+bb1904:p736:t1	area: Galle	123,441	123441	0	agree	3	0	0
+bb1904:p736:t1	area: Hambantota	83,607	83607	0	agree	3	0	0
+bb1904:p736:t1	area: Matara	122,441	122441	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Southern Province.; With Grain of all kinds.	135,110	135110	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Southern Province.; With Fruits and Vegetables of all kinds.	89,996	89996	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Southern Province.; With Products other than Grain, Fruit, and Vegetables.	104,383	104383	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Southern Province.; Total.	329,489	329489	0	agree	3	0	0
+bb1904:p736:t1	area: Total	329,489	329489	0	agree	3	0	0
+bb1904:p736:t1	area: Batticaloa	112,927	112927	0	agree	3	0	0
+bb1904:p736:t1	area: Trincomalee	15,338	15338	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Eastern Province.; With Grain of all kinds.	89,789	89789	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Eastern Province.; With Fruits and Vegetables of all kinds.	32,134	32134	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Eastern Province.; With Products other than Grain, Fruit, and Vegetables.	6,342	6342	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Eastern Province.; Total.	128,265	128265	0	agree	2	0	0
+bb1904:p736:t1	area: Total	128,265	128265	0	agree	3	0	0
+bb1904:p736:t1	area: Kurunegala	232,682	232682	0	agree	3	0	0
+bb1904:p736:t1	area: Puttalam	10,759	10759	0	agree	3	0	0
+bb1904:p736:t1	area: Chilaw	97,976	97976	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: North-Western Province.; With Grain of all kinds.	110,845	110845	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: North-Western Province.; With Fruits and Vegetables of all kinds.	196,936	196936	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: North-Western Province.; With Products other than Grain, Fruit, and Vegetables.	33,636	33636	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: North-Western Province.; Total.	341,417	341417	0	agree	3	0	0
+bb1904:p736:t1	area: Total	341,417	341417	0	agree	3	0	0
+bb1904:p736:t1	area: Anuradhapura	55,114	55114	0	agree	3	0	0
+bb1904:p736:t1	area: Badulla	117,980	117980	0	agree	3	0	0
+bb1904:p736:t1	area: Ratnapura	118,490	118490	0	agree	3	0	0
+bb1904:p736:t1	area: Kegalla	162,853	162853	0	agree	3	0	0
+bb1904:p736:t1	province subtotal: Province of Sabaragamuwa.; With Grain of all kinds.	115,797	115797	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Province of Sabaragamuwa.; With Fruits and Vegetables of all kinds.	99,114	99114	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Province of Sabaragamuwa.; With Products other than Grain, Fruit, and Vegetables.	66,432	66432	0	agree	2	0	0
+bb1904:p736:t1	province subtotal: Province of Sabaragamuwa.; Total.	281,343	281343	0	agree	2	0	0
+bb1904:p736:t1	area: Total	281,343	281343	0	agree	3	0	0
+bb1904:p736:t1	colony total: With Grain of all kinds.	766,504	815442	-48938	mismatch	9	0	0
+bb1904:p736:t1	colony total: With Fruits and Vegetables of all kinds.	822,246	828388	-6142	mismatch	9	0	0
+bb1904:p736:t1	colony total: With Products other than Grain, Fruit, and Vegetables.	743,507	743541	-34	mismatch	9	0	0
+bb1904:p736:t1	colony total: Total.	2,332,257	2387371	-55114	mismatch	9	0	0
+bb1904:p736:t1	area: Grand Total	2,332,257	2332257	0	agree	3	0	0
+bb1912:p264:t1	area: Colombo	396,535	396535	0	agree	3	0	0
+bb1912:p264:t1	area: Kalutara	163,030	163030	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Western Province.; With Grain of all kinds.	116,330	116330	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Western Province.; With Fruits and Vegetables of all kinds.	13,567	13567	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Western Province.; With Products other than Grain, Fruit, and Vegetables.	429,668	429668	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Western Province.; Total.	559,565	559565	0	agree	2	0	0
+bb1912:p264:t1	area: Total	559,565	559565	0	agree	3	0	0
+bb1912:p264:t1	area: Kandy	237,325	237325	0	agree	3	0	0
+bb1912:p264:t1	area: Matale	87,997	87997	0	agree	3	0	0
+bb1912:p264:t1	area: Nuwara Eliya	19,211	19211	0	agree	3	1	0
+bb1912:p264:t1	province subtotal: Central Province.; With Grain of all kinds.	78,476	78476	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Central Province.; With Fruits and Vegetables of all kinds.	29,703	29703	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Central Province.; With Products other than Grain, Fruit, and Vegetables.	236,354	236354	0	agree	3	1	0
+bb1912:p264:t1	province subtotal: Central Province.; Total.	344,533	344533	0	agree	3	0	0
+bb1912:p264:t1	area: Total	344,533	344533	0	agree	3	0	0
+bb1912:p264:t1	area: Jaffna	140,515	140515	0	agree	3	0	0
+bb1912:p264:t1	area: Mannar	15,659	15659	0	agree	3	0	0
+bb1912:p264:t1	area: Mullaittivu	17,585	17585	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Northern Province.; With Grain of all kinds.	74,132½	74132.5	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Northern Province.; With Fruits and Vegetables of all kinds.	20,508½	20508.5	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Northern Province.; With Products other than Grain, Fruit, and Vegetables.	79,118	79118	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Northern Province.; Total.	173,759	173759	0	agree	3	0	0
+bb1912:p264:t1	area: Total	173,759	173759	0	agree	3	0	0
+bb1912:p264:t1	area: Galle	183,705	183705	0	agree	3	0	0
+bb1912:p264:t1	area: Hambantota	44,362	44362	0	agree	3	0	0
+bb1912:p264:t1	area: Matara	142,697	142697	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Southern Province.; With Grain of all kinds.	120,633	120633	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Southern Province.; With Fruits and Vegetables of all kinds.	122,050	122050	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Southern Province.; With Products other than Grain, Fruit, and Vegetables.	128,081	128081	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Southern Province.; Total.	370,764	370764	0	agree	3	0	0
+bb1912:p264:t1	area: Total	370,764	370764	0	agree	3	0	0
+bb1912:p264:t1	area: Batticaloa	100,406	100406	0	agree	3	0	0
+bb1912:p264:t1	area: Trincomalee	17,337	17337	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Eastern Province.; With Grain of all kinds.	79,083	79083	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Eastern Province.; With Fruits and Vegetables of all kinds.	37,127	37127	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Eastern Province.; With Products other than Grain, Fruit, and Vegetables.	1,533	1533	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Eastern Province.; Total.	117,743	117743	0	agree	2	0	0
+bb1912:p264:t1	area: Total	117,743	117743	0	agree	3	0	0
+bb1912:p264:t1	area: Kurunegala	559,488	559488	0	agree	3	0	0
+bb1912:p264:t1	area: Puttalam	57,971	57981	-10	mismatch	3	0	0
+bb1912:p264:t1	area: Chilaw	112,143	113143	-1000	mismatch	3	0	0
+bb1912:p264:t1	province subtotal: North-Western Province.; With Grain of all kinds.	255,635	255635	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: North-Western Province.; With Fruits and Vegetables of all kinds.	160,878	160888	-10	mismatch	3	0	0
+bb1912:p264:t1	province subtotal: North-Western Province.; With Products other than Grain, Fruit, and Vegetables.	314,089	314089	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: North-Western Province.; Total.	730,602	729602	1000	mismatch	3	0	0
+bb1912:p264:t1	area: Total	730,602	730602	0	agree	3	0	0
+bb1912:p264:t1	area: Anuradhapura	48,496	48496	0	agree	3	0	0
+bb1912:p264:t1	area: Badulla	139,573	139573	0	agree	3	0	0
+bb1912:p264:t1	area: Ratnapura	122,917	122917	0	agree	3	0	0
+bb1912:p264:t1	area: Kegalla	211,988	211988	0	agree	3	0	0
+bb1912:p264:t1	province subtotal: Province of Sabaragamuwa; With Grain of all kinds.	82,228	82228	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Province of Sabaragamuwa; With Fruits and Vegetables of all kinds.	105,485	105485	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Province of Sabaragamuwa; With Products other than Grain, Fruit, and Vegetables.	147,192	147192	0	agree	2	0	0
+bb1912:p264:t1	province subtotal: Province of Sabaragamuwa; Total.	334,905	334905	0	agree	2	0	0
+bb1912:p264:t1	area: Total	334,905	334905	0	agree	3	0	0
+bb1912:p264:t1	colony total: With Grain of all kinds.	897,618½	897618.5	0	agree	9	0	0
+bb1912:p264:t1	colony total: With Fruits and Vegetables of all kinds.	505,538½	505538.5	0	agree	9	0	0
+bb1912:p264:t1	colony total: With Products other than Grain, Fruit, and Vegetables.	1,416,783	1416783	0	agree	9	0	0
+bb1912:p264:t1	colony total: Total.	2,819,940	2819940	0	agree	9	0	0
+bb1912:p264:t1	area: Grand Total	2,819,940	2819940	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Paddy.	124062½	124062.5	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Fine Grain.	11075	11075	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Tobacco.	312½	312.5	0	agree	3	1	0
+bb1869:p535:t1	Western Province total; Coffee.	18542½	18542.5	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Pepper.	188	188	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Mustard.	110¾	110.75	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Indian Corn.	373	3657.5	-3284.5	mismatch	3	0	0
+bb1869:p535:t1	Western Province total; Grain (Small).	298½	138	160.5	mismatch	3	1	0
+bb1869:p535:t1	Western Province total; Gingelej.	147½	20.5	127	mismatch	3	2	0
+bb1869:p535:t1	Western Province total; Cotton.	10	10	0	agree	3	2	0
+bb1869:p535:t1	Western Province total; Pasture, in acres.	18240	18240	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Total Number of Acres in Crop.	170292¾	170292	0.75	mismatch	3	0	0
+bb1869:p535:t1	Western Province total; Total Number of Acres of uncultivated Land.	1288546¾	1388547	-100000.25	mismatch	3	0	0
+bb1869:p535:t1	Western Province total; Horses.	5097	5097	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Horned Cattle.	197135	197135	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Sheep.	3811	3811	0	agree	3	0	0
+bb1869:p535:t1	Western Province total; Goats.	12074	12074	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Ceylon	2,484,098	2484098	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Western Province	495,966	495966	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Colombo	360,036	360027	9	mismatch	3	0	0
+bb1924:p397:t1	cultivated total: Kalutara	135,930	135930	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Central Province	361,316	361316	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Kandy	95,690	95690	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Matale	138,861	138861	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Nuwara Eliya	126,765	126765	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Southern Province	363,615	363615	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Galle	174,310	174310	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Matara	154,319	154319	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Hambantota	34,986	34986	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Northern Province	176,105	176105	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Jaffna	144,824	144824	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Mannar	15,519	15519	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Mullaittivu	15,762	15762	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Eastern Province	108,761	108761	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Batticaloa	88,786	88786	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Trincomalee	19,975	19975	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: North-Western Province	473,014	473014	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Kurunegala	322,773	322773	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Puttalam	51,909	51909	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Chilaw	98,332	98332	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Anuradhapura	74,827	74827	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Badulla	138,495	138495	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Province of Sabaragamuwa	291,999	291999	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Ratnapura	111,601	111601	0	agree	3	0	0
+bb1924:p397:t1	cultivated total: Kegalla	180,398	180398	0	agree	3	0	0
+bb1924:p397:t1	province total: Western Province; With Grains of all kinds.	107,674	107665	9	mismatch	2	0	0
+bb1924:p397:t1	province total: Western Province; With Vegetables of all kinds.	22,973	22973	0	agree	2	0	0
+bb1924:p397:t1	province total: Western Province; With Products other than Grains and Vegetables.	365,319	365319	0	agree	2	0	0
+bb1924:p397:t1	province total: Western Province; Total.	495,966	495966	0	agree	2	0	0
+bb1924:p397:t1	province total: Western Province; Area in Acres of Pasture Land.	2,251	2251	0	agree	2	0	0
+bb1924:p397:t1	province total: Western Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	7,443	7443	0	agree	2	0	0
+bb1924:p397:t1	province total: Central Province; With Grains of all kinds.	87,313	87313	0	agree	3	0	0
+bb1924:p397:t1	province total: Central Province; With Vegetables of all kinds.	19,825	19825	0	agree	3	0	0
+bb1924:p397:t1	province total: Central Province; With Products other than Grains and Vegetables.	254,178	254178	0	agree	3	0	0
+bb1924:p397:t1	province total: Central Province; Total.	361,316	361316	0	agree	3	0	0
+bb1924:p397:t1	province total: Central Province; Area in Acres of Pasture Land.	38,286	38286	0	agree	3	0	0
+bb1924:p397:t1	province total: Central Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	198,737	198737	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; With Grains of all kinds.	126,627	126627	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; With Vegetables of all kinds.	41,870	41870	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; With Products other than Grains and Vegetables.	195,118	195118	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; Total.	363,615	363615	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; Area in Acres of Pasture Land.	28,286	28286	0	agree	3	0	0
+bb1924:p397:t1	province total: Southern Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	173,680	173680	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; With Grains of all kinds.	89,838	89838	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; With Vegetables of all kinds.	9,656	9656	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; With Products other than Grains and Vegetables.	76,611	76611	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; Total.	176,105	176105	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; Area in Acres of Pasture Land.	114,983	114983	0	agree	3	0	0
+bb1924:p397:t1	province total: Northern Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	56,501			uncheckable: unreadable numeric string	3	0	1
+bb1924:p397:t1	province total: Eastern Province; With Grains of all kinds.	101,614	101614	0	agree	2	0	0
+bb1924:p397:t1	province total: Eastern Province; With Vegetables of all kinds.	2,399	2399	0	agree	2	0	0
+bb1924:p397:t1	province total: Eastern Province; With Products other than Grains and Vegetables.	4,748	4748	0	agree	2	0	0
+bb1924:p397:t1	province total: Eastern Province; Total.	108,761	108761	0	agree	2	0	0
+bb1924:p397:t1	province total: Eastern Province; Area in Acres of Pasture Land.	80,897	80897	0	agree	2	0	0
+bb1924:p397:t1	province total: Eastern Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	219,064	219064	0	agree	2	0	0
+bb1924:p397:t1	province total: North-Western Province; With Grains of all kinds.	145,676	145676	0	agree	3	0	0
+bb1924:p397:t1	province total: North-Western Province; With Vegetables of all kinds.	2,775	2775	0	agree	3	0	0
+bb1924:p397:t1	province total: North-Western Province; With Products other than Grains and Vegetables.	324,563	324563	0	agree	3	0	0
+bb1924:p397:t1	province total: North-Western Province; Total.	473,014	473014	0	agree	3	0	0
+bb1924:p397:t1	province total: North-Western Province; Area in Acres of Pasture Land.	82,246	82246	0	agree	3	0	0
+bb1924:p397:t1	province total: North-Western Province; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	140,472	140472	0	agree	3	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; With Grains of all kinds.	81,406	81406	0	agree	2	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; With Vegetables of all kinds.	10,256	10256	0	agree	2	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; With Products other than Grains and Vegetables.	200,337	200337	0	agree	2	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; Total.	291,999	291999	0	agree	2	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; Area in Acres of Pasture Land.	41,566	41566	0	agree	2	0	0
+bb1924:p397:t1	province total: Province of Sabaragamuwa; Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	58,429	58429	0	agree	2	0	0
+bb1924:p397:t1	colony total: With Grains of all kinds.	852,212	852212	0	agree	9	0	0
+bb1924:p397:t1	colony total: With Vegetables of all kinds.	120,565	120565	0	agree	9	0	0
+bb1924:p397:t1	colony total: With Products other than Grains and Vegetables.	1,511,321	1511321	0	agree	9	0	0
+bb1924:p397:t1	colony total: Total.	2,484,098	2484098	0	agree	9	0	0
+bb1924:p397:t1	colony total: Area in Acres of Pasture Land.	742,410	742410	0	agree	9	0	0
+bb1924:p397:t1	colony total: Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	1,030,810			uncheckable: unreadable numeric string	9	0	1
+bb1924:p400:t1	province total: Western Province; Horses.	229	229	0	agree	2	0	0
+bb1924:p400:t1	province total: Western Province; Buffaloes.	35,968	35968	0	agree	2	0	0
+bb1924:p400:t1	province total: Western Province; Black Cattle.	161,674	161674	0	agree	2	0	0
+bb1924:p400:t1	province total: Western Province; Sheep.	550	550	0	agree	2	0	0
+bb1924:p400:t1	province total: Western Province; Goats.	14,708	14708	0	agree	2	0	0
+bb1924:p400:t1	province total: Western Province; Swine.	30,438	30438	0	agree	2	0	0
+bb1924:p400:t1	province total: Central Province; Horses.	237	237	0	agree	3	0	0
+bb1924:p400:t1	province total: Central Province; Buffaloes.	58,107	58107	0	agree	3	0	0
+bb1924:p400:t1	province total: Central Province; Black Cattle.	49,092	49092	0	agree	3	0	0
+bb1924:p400:t1	province total: Central Province; Sheep.	1,151	1151	0	agree	3	0	0
+bb1924:p400:t1	province total: Central Province; Goats.	8,877	8877	0	agree	3	0	0
+bb1924:p400:t1	province total: Central Province; Swine.	922	922	0	agree	3	0	0
+bb1924:p400:t1	province total: Southern Province; Horses.	311	311	0	agree	3	0	0
+bb1924:p400:t1	province total: Southern Province; Buffaloes.	39,670	39670	0	agree	3	0	0
+bb1924:p400:t1	province total: Southern Province; Black Cattle.	117,600	117600	0	agree	3	0	0
+bb1924:p400:t1	province total: Southern Province; Sheep.	—			uncheckable: no printed numeric total	3	3	0
+bb1924:p400:t1	province total: Southern Province; Goats.	10,212	10212	0	agree	3	0	0
+bb1924:p400:t1	province total: Southern Province; Swine.	907	907	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Horses.	494	494	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Buffaloes.	28,601	28601	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Black Cattle.	123,917	123917	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Sheep.	51,500	51500	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Goats.	64,584	64584	0	agree	3	0	0
+bb1924:p400:t1	province total: Northern Province; Swine.	68	68	0	agree	3	1	0
+bb1924:p400:t1	province total: Eastern Province; Horses.	39	39	0	agree	2	0	0
+bb1924:p400:t1	province total: Eastern Province; Buffaloes.	52,610	52610	0	agree	2	0	0
+bb1924:p400:t1	province total: Eastern Province; Black Cattle.	74,733	74733	0	agree	2	0	0
+bb1924:p400:t1	province total: Eastern Province; Sheep.	625	625	0	agree	2	0	0
+bb1924:p400:t1	province total: Eastern Province; Goats.	10,703	10703	0	agree	2	0	0
+bb1924:p400:t1	province total: Eastern Province; Swine.	59	59	0	agree	2	1	0
+bb1924:p400:t1	province total: North-Western Province; Horses.	209	209	0	agree	3	0	0
+bb1924:p400:t1	province total: North-Western Province; Buffaloes.	161,872	161872	0	agree	3	0	0
+bb1924:p400:t1	province total: North-Western Province; Black Cattle.	244,620	244620	0	agree	3	0	0
+bb1924:p400:t1	province total: North-Western Province; Sheep.	5,398	5398	0	agree	3	0	0
+bb1924:p400:t1	province total: North-Western Province; Goats.	28,051	28051	0	agree	3	0	0
+bb1924:p400:t1	province total: North-Western Province; Swine.	12,573	12273	300	mismatch	3	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Horses.	145	145	0	agree	2	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Buffaloes.	44,126	44126	0	agree	2	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Black Cattle.	60,187	60187	0	agree	2	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Sheep.	138	138	0	agree	2	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Goats.	9,490	9490	0	agree	2	0	0
+bb1924:p400:t1	province total: Sabaragamuwa; Swine.	4,744	4744	0	agree	2	0	0
+bb1924:p400:t1	colony total: Horses.	1,922	1922	0	agree	9	0	0
+bb1924:p400:t1	colony total: Buffaloes.	446,239	446239	0	agree	9	0	0
+bb1924:p400:t1	colony total: Black Cattle.	936,638	936638	0	agree	9	0	0
+bb1924:p400:t1	colony total: Sheep.	59,487	59487	0	agree	9	1	0
+bb1924:p400:t1	colony total: Goats.	158,489	158489	0	agree	9	0	0
+bb1924:p400:t1	colony total: Swine.	50,273	50273	0	agree	9	0	0
+bb1926:p318:t1	province total: Western Province; Black Cattle.	172,767	172767	0	agree	2	0	0
+bb1926:p318:t1	province total: Western Province; Buffaloes.	36,912	36912	0	agree	2	0	0
+bb1926:p318:t1	province total: Western Province; Goats.	15,331	15331	0	agree	2	0	0
+bb1926:p318:t1	province total: Western Province; Horses.	295	295	0	agree	2	0	0
+bb1926:p318:t1	province total: Western Province; Sheep.	462	462	0	agree	2	0	0
+bb1926:p318:t1	province total: Western Province; Swine.	24,171	24171	0	agree	2	0	0
+bb1926:p318:t1	province total: Central Province; Black Cattle.	64,054	64054	0	agree	3	0	0
+bb1926:p318:t1	province total: Central Province; Buffaloes.	46,039	46039	0	agree	3	0	0
+bb1926:p318:t1	province total: Central Province; Goats.	11,960	11960	0	agree	3	0	0
+bb1926:p318:t1	province total: Central Province; Horses.	141	141	0	agree	3	0	0
+bb1926:p318:t1	province total: Central Province; Sheep.	38	38	0	agree	3	0	0
+bb1926:p318:t1	province total: Central Province; Swine.	1,232	1232	0	agree	3	0	0
+bb1926:p318:t1	province total: Southern Province; Black Cattle.	115,583	115583	0	agree	3	0	0
+bb1926:p318:t1	province total: Southern Province; Buffaloes.	38,269	38269	0	agree	3	0	0
+bb1926:p318:t1	province total: Southern Province; Goats.	7,737	7737	0	agree	3	0	0
+bb1926:p318:t1	province total: Southern Province; Horses.	141	141	0	agree	3	0	0
+bb1926:p318:t1	province total: Southern Province; Sheep.	—			uncheckable: no printed numeric total	3	3	0
+bb1926:p318:t1	province total: Southern Province; Swine.	806	806	0	agree	3	1	0
+bb1926:p318:t1	province total: Northern Province; Black Cattle.	127,627	127627	0	agree	3	0	0
+bb1926:p318:t1	province total: Northern Province; Buffaloes.	29,181	29181	0	agree	3	0	0
+bb1926:p318:t1	province total: Northern Province; Goats.	76,759	76759	0	agree	3	0	0
+bb1926:p318:t1	province total: Northern Province; Horses.	471	471	0	agree	3	1	0
+bb1926:p318:t1	province total: Northern Province; Sheep.	54,306	54306	0	agree	3	1	0
+bb1926:p318:t1	province total: Northern Province; Swine.	41	41	0	agree	3	1	0
+bb1926:p318:t1	province total: Eastern Province; Black Cattle.	87,448	87448	0	agree	2	0	0
+bb1926:p318:t1	province total: Eastern Province; Buffaloes.	62,601	62601	0	agree	2	0	0
+bb1926:p318:t1	province total: Eastern Province; Goats.	10,121	10121	0	agree	2	0	0
+bb1926:p318:t1	province total: Eastern Province; Horses.	36	36	0	agree	2	0	0
+bb1926:p318:t1	province total: Eastern Province; Sheep.	1,008	1008	0	agree	2	0	0
+bb1926:p318:t1	province total: Eastern Province; Swine.	28	28	0	agree	2	0	0
+bb1926:p318:t1	province total: North-Western Province; Black Cattle.	271,729	271729	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Western Province; Buffaloes.	173,751	173751	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Western Province; Goats.	36,031	36031	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Western Province; Horses.	146	146	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Western Province; Sheep.	5,769	5769	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Western Province; Swine.	15,986	15986	0	agree	3	0	0
+bb1926:p318:t1	province total: North-Central Province; Black Cattle.	57,782			uncheckable: no numeric parts	1	1	0
+bb1926:p318:t1	province total: North-Central Province; Buffaloes.	72,695			uncheckable: no numeric parts	1	1	0
+bb1926:p318:t1	province total: North-Central Province; Goats.	8,567			uncheckable: no numeric parts	1	1	0
+bb1926:p318:t1	province total: North-Central Province; Horses.	29			uncheckable: no numeric parts	1	1	0
+bb1926:p318:t1	province total: North-Central Province; Sheep.	—			uncheckable: no printed numeric total	1	1	0
+bb1926:p318:t1	province total: North-Central Province; Swine.	8			uncheckable: no numeric parts	1	1	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Black Cattle.	64,189	64189	0	agree	2	0	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Buffaloes.	44,930	44930	0	agree	2	0	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Goats.	12,179	12179	0	agree	2	0	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Horses.	145	145	0	agree	2	0	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Sheep.	74	74	0	agree	2	0	0
+bb1926:p318:t1	province total: Province of Sabaragamuwa; Swine.	5,130	5130	0	agree	2	0	0
+bb1926:p318:t1	colony total: Black Cattle.	1,017,708	1017708	0	agree	9	0	0
+bb1926:p318:t1	colony total: Buffaloes.	519,704	519704	0	agree	9	0	0
+bb1926:p318:t1	colony total: Goats.	183,413	183413	0	agree	9	0	0
+bb1926:p318:t1	colony total: Horses.	1,561	1561	0	agree	9	0	0
+bb1926:p318:t1	colony total: Sheep.	61,861	61861	0	agree	9	2	0
+bb1926:p318:t1	colony total: Swine.	48,065	48065	0	agree	9	0	0
+bb1928:p330:t1	province total: Western Province; Black Cattle.	179,517	179517	0	agree	2	0	0
+bb1928:p330:t1	province total: Western Province; Buffaloes.	41,201	41201	0	agree	2	0	0
+bb1928:p330:t1	province total: Western Province; Goats.	18,138	18138	0	agree	2	0	0
+bb1928:p330:t1	province total: Western Province; Horses.	857	857	0	agree	2	0	0
+bb1928:p330:t1	province total: Western Province; Sheep.	517	517	0	agree	2	0	0
+bb1928:p330:t1	province total: Western Province; Swine.	26,573	26573	0	agree	2	0	0
+bb1928:p330:t1	province total: Central Province; Black Cattle.	69,067	69067	0	agree	3	0	0
+bb1928:p330:t1	province total: Central Province; Buffaloes.	48,918	48918	0	agree	3	0	0
+bb1928:p330:t1	province total: Central Province; Goats.	11,860	11860	0	agree	3	0	0
+bb1928:p330:t1	province total: Central Province; Horses.	164	164	0	agree	3	0	0
+bb1928:p330:t1	province total: Central Province; Sheep.	930	930	0	agree	3	0	0
+bb1928:p330:t1	province total: Central Province; Swine.	676	676	0	agree	3	0	0
+bb1928:p330:t1	province total: Southern Province; Black Cattle.	133,574	133574	0	agree	3	0	0
+bb1928:p330:t1	province total: Southern Province; Buffaloes.	45,800	45800	0	agree	3	0	0
+bb1928:p330:t1	province total: Southern Province; Goats.	7,438	7438	0	agree	3	0	0
+bb1928:p330:t1	province total: Southern Province; Horses.	112	112	0	agree	3	0	0
+bb1928:p330:t1	province total: Southern Province; Sheep.	—			uncheckable: no printed numeric total	3	3	0
+bb1928:p330:t1	province total: Southern Province; Swine.	678	678	0	agree	3	1	0
+bb1928:p330:t1	province total: Northern Province; Black Cattle.	124,599	124599	0	agree	3	0	0
+bb1928:p330:t1	province total: Northern Province; Buffaloes.	30,991	30951	40	mismatch	3	0	0
+bb1928:p330:t1	province total: Northern Province; Goats.	62,661	62661	0	agree	3	0	0
+bb1928:p330:t1	province total: Northern Province; Horses.	339	339	0	agree	3	0	0
+bb1928:p330:t1	province total: Northern Province; Sheep.	49,928	49928	0	agree	3	1	0
+bb1928:p330:t1	province total: Northern Province; Swine.	64	64	0	agree	3	2	0
+bb1928:p330:t1	province total: Eastern Province; Black Cattle.	92,065	92065	0	agree	2	0	0
+bb1928:p330:t1	province total: Eastern Province; Buffaloes.	65,182	65182	0	agree	2	0	0
+bb1928:p330:t1	province total: Eastern Province; Goats.	10,230	10230	0	agree	2	0	0
+bb1928:p330:t1	province total: Eastern Province; Horses.	28	28	0	agree	2	0	0
+bb1928:p330:t1	province total: Eastern Province; Sheep.	1,866	1808	58	mismatch	2	0	0
+bb1928:p330:t1	province total: Eastern Province; Swine.	1	1	0	agree	2	1	0
+bb1928:p330:t1	province total: North-Western Province; Black Cattle.	277,634	277634	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Western Province; Buffaloes.	182,330	182330	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Western Province; Goats.	29,713	29713	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Western Province; Horses.	123	123	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Western Province; Sheep.	3,414	3414	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Western Province; Swine.	12,003	12003	0	agree	2	0	0
+bb1928:p330:t1	province total: North-Central Province; Black Cattle.	59,282	59282	0	agree	1	0	0
+bb1928:p330:t1	province total: North-Central Province; Buffaloes.	80,163	80163	0	agree	1	0	0
+bb1928:p330:t1	province total: North-Central Province; Goats.	13,156	13156	0	agree	1	0	0
+bb1928:p330:t1	province total: North-Central Province; Horses.	26	26	0	agree	1	0	0
+bb1928:p330:t1	province total: North-Central Province; Sheep.	3	3	0	agree	1	0	0
+bb1928:p330:t1	province total: North-Central Province; Swine.	1	1	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Black Cattle.	57,777	57777	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Buffaloes.	16,450	16450	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Goats.	3,846	3846	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Horses.	163	163	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Sheep.	234	234	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Uva; Swine.	505	505	0	agree	1	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Black Cattle.	66,972	66972	0	agree	2	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Buffaloes.	46,489	46489	0	agree	2	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Goats.	12,927	12927	0	agree	2	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Horses.	132	132	0	agree	2	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Sheep.	146	146	0	agree	2	0	0
+bb1928:p330:t1	province total: Province of Sabaragamuwa; Swine.	6,302	6302	0	agree	2	0	0
+bb1928:p330:t1	colony total: Black Cattle.	1,060,487	1060487	0	agree	9	0	0
+bb1928:p330:t1	colony total: Buffaloes.	557,524	557524	0	agree	9	0	0
+bb1928:p330:t1	colony total: Goats.	169,969	169969	0	agree	9	0	0
+bb1928:p330:t1	colony total: Horses.	1,944	1944	0	agree	9	0	0
+bb1928:p330:t1	colony total: Sheep.	57,038	57038	0	agree	9	1	0
+bb1928:p330:t1	colony total: Swine.	46,803	46803	0	agree	9	0	0
