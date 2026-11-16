@@ -1,0 +1,10 @@
+__pycache__/
+*.log
+# rebuilt by build_graph_tables.py from the decision files
+graph/
+# the research assistant's review exports and files that name the reviewer: not published without her consent
+gold/
+grounding/people_review.jsonl
+# Codex working output
+bluebook/jobs/*_codex.log
+bluebook/jobs/*_last_message.txt

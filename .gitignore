@@ -1,0 +1,8 @@
+# Whole-project repository for the Ceylon / Sri Lanka history work.
+# Everything is ignored unless listed here, because this folder also holds scans, PDFs and third-party
+# material that must not be published (see SOURCES.md).
+/*
+!/.gitignore
+!/README.md
+!/SOURCES.md
+!/spine/
