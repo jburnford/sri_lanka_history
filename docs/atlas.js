@@ -102,10 +102,10 @@ function note(text) {
 }
 
 function makeMap() {
-  map = L.map("map", { zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 5, maxZoom: 17, preferCanvas: true });
+  map = L.map("map", { zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 5, maxZoom: 17 });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution('<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>');
-  for (const [name, z] of [["paper", 406], ["grid", 240], ["boundary", 380], ["route", 420], ["markers", 440], ["selected", 480]]) {
+  for (const [name, z] of [["paper", 406], ["grid", 240], ["boundary", 380], ["route", 420], ["markers", 440], ["towns", 450], ["selected", 480]]) {
     const pane = map.createPane(name);
     pane.style.zIndex = z;
   }
@@ -142,13 +142,19 @@ function layerStyle(meta, feature) {
 }
 
 function vector(meta, collection) {
+  const towns = meta.id === "urban_census";
+  const markerStyle = {
+    pane: towns ? "towns" : "markers",
+    radius: towns ? 4 : 3.4,
+    color: "#fff9ec",
+    weight: 1.35,
+    fillColor: meta.color,
+    fillOpacity: .97,
+  };
   return L.geoJSON(collection, {
-    pane: meta.points ? "markers" : meta.group === "Boundaries" ? "boundary" : "route",
-    style: (feature) => layerStyle(meta, feature),
-    pointToLayer: (feature, coordinate) => L.circleMarker(coordinate, {
-      pane: "markers", radius: meta.id === "urban_census" ? 4 : 3.4,
-      color: "#fff9ec", weight: 1.35, fillColor: meta.color, fillOpacity: .97,
-    }),
+    pane: meta.points ? markerStyle.pane : meta.group === "Boundaries" ? "boundary" : "route",
+    style: (feature) => meta.points ? markerStyle : layerStyle(meta, feature),
+    pointToLayer: (_, coordinate) => L.circleMarker(coordinate, markerStyle),
     onEachFeature(feature, layer) {
       const title = nameOf(feature.properties);
       const atlasLabel = feature.properties.anchor_name || title;
@@ -457,7 +463,8 @@ function searchFeature(query) {
       const key = id + "/" + title;
       if (haystack.includes(needle) && !seen.has(key)) {
         seen.add(key);
-        matches.push({ meta, feature, title, rank: normalized(title) === needle ? 0 : normalized(title).startsWith(needle) ? 1 : 2 });
+        const exact = [title, p.anchor_name, p.qid].some((value) => normalized(value) === needle);
+        matches.push({ meta, feature, title, rank: exact ? 0 : normalized(title).startsWith(needle) ? 1 : 2 });
       }
     }
   }
