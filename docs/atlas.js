@@ -8,7 +8,7 @@ const searchableLayers = new Map();
 const instant = new Intl.NumberFormat("en", { maximumFractionDigits: 4 });
 const label = (key) => String(key || "").replaceAll("_", " ").replace(/^./, (c) => c.toUpperCase());
 const printable = (value) => typeof value === "number" ? instant.format(value) : String(value ?? "—");
-const nameOf = (p) => p.historical_corridor || p.name || p.place_as_printed || p.feature_id || "Unnamed feature";
+const nameOf = (p) => p.historical_corridor || p.name || p.historical_name || p.place_as_printed || p.feature_id || "Unnamed feature";
 const normalized = (s) => String(s ?? "").normalize("NFKD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 const featureId = (f) => String(f.properties.feature_id);
 const COUNTRY = "country:ceylon";
@@ -231,6 +231,11 @@ function addLayerControls() {
       const title = add(row, "span", entry.title);
       if (entry.id === "rail_1936_osm") add(title, "small", "Working reconstruction");
       if (entry.id === "road_1936_osm_candidates") add(title, "small", "Modern comparison");
+      if (entry.id === "road_1893_traces") add(title, "small", entry.count + " selected traces");
+      if (entry.id === "gazetteer_1834_points") add(title, "small", entry.count + " grounded entries");
+    }
+    if (group === "Places" && getLayer("gazetteer_1834_points")) {
+      action(section, "Browse Gazetteer index →", () => openRecords("gazetteer_1834_index"));
     }
   }
   byId("reset-layers").addEventListener("click", resetLayers);
@@ -293,12 +298,38 @@ async function paintInspector() {
   const p = feature.properties;
   add(root, "span", meta.title, "tag");
   add(root, "h2", nameOf(p));
+  if (meta.id === "gazetteer_1834_points") {
+    add(root, "p", p.modern_name, "help");
+    details(root, [
+      ["Gazetteer attestation", p.represented_date],
+      ["Original publication", p.published_date],
+      ["Variants", p.historical_aliases],
+      ["Feature", p.category],
+      ["Location", p.location_scope],
+      ["Place match", p.grounding_note],
+      ["Entry locator", p.source_locator],
+      ["Coordinate locator", p.geometry_source_locator],
+      ["Coordinate reference date", p.geometry_reference_date],
+    ]);
+    if (p.excerpt) {
+      add(root, "h3", "Entry opening");
+      add(root, "p", p.excerpt, "help");
+    }
+    const refs = add(root, "div", undefined, "inspector-links");
+    link(refs, p.source_url, "Gazetteer page ↗");
+    link(refs, p.geometry_source_url, "Coordinate source ↗");
+    if (p.qid) link(refs, "https://www.wikidata.org/wiki/" + encodeURIComponent(p.qid), p.qid + " ↗");
+    action(refs, "Island overview", clearSelection);
+    return;
+  }
   add(root, "p", p.significance || p.geometry_note || p.location_note || p.note || meta.description, "help");
   details(root, [
     ["Represented date", p.represented_date || p.map_year],
     ["Published date", p.published_date],
     ["Geometry", p.geometry_role || p.geometry_method || p.location_role || p.point_scope],
     ["Review", p.review_status || p.osm_match_status],
+    ["Legend", p.legend_class],
+    ["Coverage", p.coverage],
     ["Distance", p.length_km == null ? null : instant.format(p.length_km) + " km"],
     ["Source locator", p.source_locator],
   ]);
@@ -307,6 +338,12 @@ async function paintInspector() {
   if (p.geometry_source_url && p.geometry_source_url !== p.source_url) link(links, p.geometry_source_url, "Geometry source ↗");
   if (p.qid) link(links, "https://www.wikidata.org/wiki/" + encodeURIComponent(p.qid), p.qid + " ↗");
   action(links, "Island overview", clearSelection);
+  if (meta.id === "road_1893_traces" && getRaster("ferguson1893")) {
+    action(links, "Show Ferguson’s map", () => {
+      document.querySelector('[data-layer="ferguson1893"]').checked = true;
+      toggle("ferguson1893", true);
+    });
+  }
   if (meta.group === "Boundaries" || meta.id === "urban_census") await censusInspector(root, p.feature_id, ticket);
   if (meta.group === "Transport" && p.corridor_id) await transportInspector(root, p.corridor_id, ticket);
   if (meta.id === "motor_amenity_places_1936") {
@@ -459,11 +496,11 @@ function searchFeature(query) {
     for (const feature of list) {
       const p = feature.properties;
       const title = nameOf(p);
-      const haystack = normalized([title, p.qid, p.wikidata_aliases_en, p.anchor_name, p.ref].filter(Boolean).join(" "));
+      const haystack = normalized([title, p.modern_name, p.historical_aliases, p.qid, p.wikidata_aliases_en, p.anchor_name, p.ref].filter(Boolean).join(" "));
       const key = id + "/" + title;
       if (haystack.includes(needle) && !seen.has(key)) {
         seen.add(key);
-        const exact = [title, p.anchor_name, p.qid].some((value) => normalized(value) === needle);
+        const exact = [title, p.modern_name, p.anchor_name, p.qid].some((value) => normalized(value) === needle);
         matches.push({ meta, feature, title, rank: exact ? 0 : normalized(title).startsWith(needle) ? 1 : 2 });
       }
     }
@@ -552,7 +589,7 @@ function openRecords(id, query = "") {
 }
 
 function recordYear(row) {
-  return String(row.year ?? row.event_year ?? row.represented_date ?? row.start_date ?? "").match(/^\d{4}/)?.[0] || "";
+  return String(row.year ?? row.event_year ?? row.represented_date ?? row.start_date ?? row.published_date ?? "").match(/^\d{4}/)?.[0] || "";
 }
 
 async function paintRecords() {
@@ -601,6 +638,17 @@ function showRecord(row, title) {
   byId("record-title").textContent = title;
   const body = byId("record-details");
   body.replaceChildren();
+  if (row.feature_id && selectedDataset === "gazetteer_1834_index") {
+    action(body, "Show on map →", async () => {
+      const id = "gazetteer_1834_points";
+      const point = (await geometry(id)).features.find((item) => featureId(item) === row.feature_id);
+      if (!point) return;
+      byId("record-dialog").close();
+      document.querySelector('[data-layer="' + id + '"]').checked = true;
+      toggle(id, true);
+      selectFeature(getLayer(id), point, true);
+    });
+  }
   details(body, Object.entries(row).filter(([key]) => key !== "components").map(([key, value]) => [label(key), value]));
   if (row.components) {
     add(body, "h3", "Components");
@@ -677,6 +725,9 @@ function bindViews() {
   byId("csv").addEventListener("click", downloadCSV);
   byId("source-search").addEventListener("input", paintSources);
   byId("verification-link").addEventListener("click", () => openRecords("census_reconciliation", "human review"));
+  const gazetteer = byId("gazetteer-index-link");
+  gazetteer.hidden = !getLayer("gazetteer_1834_points");
+  gazetteer.addEventListener("click", () => openRecords("gazetteer_1834_index"));
 }
 
 async function start() {

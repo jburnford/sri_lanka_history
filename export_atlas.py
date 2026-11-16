@@ -17,6 +17,7 @@ LAYERS = [
     ("province_census", "Province reference", "Boundaries", "Generalized modern OSM boundaries used as an approximate reference.", "#817589", False),
     ("urban_census", "Census towns", "Places", "Modern coordinates for census settlements and municipality anchors.", "#8f5f31", True),
     ("historical_wikidata_places", "Historic landmarks", "Places", "Reviewed landmarks, with historical evidence and modern coordinates documented separately.", "#a36a25", True),
+    ("gazetteer_1834_points", "1834 Gazetteer places", "Places", "Modern reference points for grounded entries in Casie Chitty’s Gazetteer.", "#267c71", False),
     ("motor_amenity_places_1936", "Motor map amenities, 1936", "Places", "Matched places from the map’s amenity lists. Points locate places, not individual establishments.", "#76609a", False),
     ("ferguson_towns_1893", "Ferguson towns, 1893", "Places", "Towns plotted on the 1893 map.", "#766c49", False),
     ("road_ferry_chronology", "Roads & ferries, 1936", "Transport", "Traced corridors. Earlier evidence is linked where available.", "#ae593b", True),
@@ -26,7 +27,7 @@ LAYERS = [
     ("road_1915_traces", "Roads, 1915", "Transport", "Approximate lines taken from a schematic railway map.", "#a36a48", False),
     ("rail_1915_traces", "Railways, 1915", "Transport", "Approximate schematic rail traces.", "#4a738e", False),
     ("rail_1915_osm_candidates", "Rail alignment candidate, 1915", "Transport", "Modern geometry compared with historical evidence.", "#477785", False),
-    ("road_1893_traces", "Roads, 1893", "Transport", "Roads traced from Ferguson’s map.", "#a7664a", False),
+    ("road_1893_traces", "Ferguson road traces, 1893", "Transport", "Selected corridors traced from the printed road symbols. The map sheet shows additional roads.", "#962249", False),
     ("rail_1893_traces", "Railways, 1893", "Transport", "Mapped railway alignments and statuses from Ferguson’s map.", "#51758c", False),
     ("rail_1915_controls", "Rail map controls, 1915", "Transport", "Control points and residuals for registration of the schematic map.", "#635687", False),
 ]
@@ -41,6 +42,7 @@ TABLES = [
     ("road_rail_crossings_1925", "Road–rail crossings, 1925", ["description","rail_section","miles","chains","road_class"]),
     ("road_alignment_review", "Road alignment review", ["historical_name","status","finding","uncertainty","reviewed_on"]),
     ("gazetteer_1834_attestations", "Gazetteer attestations, 1834", ["name_as_printed","place_match","claim_type","claim","represented_date"]),
+    ("gazetteer_1834_index", "1834 Gazetteer entry index", ["name_as_printed","place_match","grounding_status","qid","source_locator"]),
     ("motor_amenity_listings_1936", "Motor map amenity listings", ["place_as_printed","facility_kind","province_as_printed","note"]),
     ("motor_amenity_observations_1936", "Motor map amenity observations", ["feature_id","metric","value","represented_date"]),
     ("historical_wikidata_places", "Historic landmarks", ["name","category","represented_date","significance","qid"]),
@@ -82,7 +84,7 @@ def export_raster(identifier, source, maximum):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("gpkg", nargs="?", type=Path,
-                        default=ROOT.parent.parent / "geography/historical-gis/ceylon-history.gpkg")
+                        default=ROOT / "geography/historical-gis/ceylon-history.gpkg")
     args = parser.parse_args()
     DATA.mkdir(parents=True, exist_ok=True)
     gdal.UseExceptions()
@@ -92,6 +94,7 @@ def main():
     target.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER)
     with sqlite3.connect(f"{args.gpkg.resolve().as_uri()}?mode=ro", uri=True) as conn:
         conn.row_factory = sqlite3.Row
+        available = {row[0] for row in conn.execute("SELECT table_name FROM gpkg_contents")}
 
         def table(name):
             return [{k: v for k, v in dict(row).items() if k not in OMIT and v is not None}
@@ -99,6 +102,8 @@ def main():
 
         layers = []
         for identifier, title, group, description, color, visible in LAYERS:
+            if identifier == "gazetteer_1834_points" and identifier not in available:
+                continue
             collection = []
             points = False
             layer = dataset.GetLayerByName(identifier)
@@ -124,6 +129,8 @@ def main():
 
         tables = []
         for identifier, title, fields in TABLES:
+            if identifier == "gazetteer_1834_index" and identifier not in available:
+                continue
             rows = table(identifier)
             write(identifier + ".records.json", rows)
             tables.append(dict(id=identifier, title=title, fields=fields, count=len(rows)))
