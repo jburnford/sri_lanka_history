@@ -69,10 +69,11 @@ def main():
     (HERE / "tables").mkdir(exist_ok=True); (HERE / "pages").mkdir(exist_ok=True)
     inv = []
     for v in csv.DictReader(open(HERE / "volumes.tsv"), delimiter="\t"):
+        if v.get("key") == "skip": continue
         fs = glob.glob(str(ROOT / v["folder"] / "*" / "*_layout.jsonl"))
         if not fs: print("missing", v["folder"]); continue
-        year = v["year"]; nt = 0; section = None; secs = collections.Counter(); np_ = 0
-        with gzip.open(HERE / f"tables/{year}.jsonl.gz", "wt") as ft, gzip.open(HERE / f"pages/{year}.jsonl.gz", "wt") as fp:
+        year = v["year"]; key = v.get("key") or year; nt = 0; section = None; secs = collections.Counter(); np_ = 0
+        with gzip.open(HERE / f"tables/{key}.jsonl.gz", "wt") as ft, gzip.open(HERE / f"pages/{key}.jsonl.gz", "wt") as fp:
             for line in open(fs[0]):
                 d = json.loads(line); np_ += 1
                 blocks = sorted(d["blocks"], key=lambda b: (b["bbox"][1], b["bbox"][0]))
@@ -96,7 +97,7 @@ def main():
                         k += 1; nt += 1
                         nh = sum(1 for r in p.rows if r["head"] or all(c["th"] for c in r["cells"]))
                         above = [h["text"] for h in heads if h["y"] <= b["bbox"][1]][-3:]
-                        ft.write(json.dumps({"id": f"bb{year}:p{d['pdf_page']}:t{k}", "year": int(year), "volume": v["folder"], "pdf_page": d["pdf_page"],
+                        ft.write(json.dumps({"id": f"bb{key}:p{d['pdf_page']}:t{k}", "year": int(year), "volume": v["folder"], "pdf_page": d["pdf_page"],
                             "printed_page": printed, "section": section, "headings": above, "bbox": b["bbox"], "n_rows": len(rows), "n_cols": w,
                             "header_rows": nh, "rows": rows}, ensure_ascii=False) + "\n")
                         secs[section or ""] += 1

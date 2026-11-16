@@ -93,6 +93,11 @@ def main():
         s.run("MATCH (c:ColPerson) WHERE c.wikidata_qid IS NOT NULL MERGE (w:WikidataPerson {id:'wd:' + c.wikidata_qid}) ON CREATE SET w.qid = c.wikidata_qid MERGE (c)-[:SAME_AS {source:'col_matching person_grounding.final'}]->(w)").consume()
         if (HERE / "bluebook/tables_index.tsv.gz").exists():       # Ceylon Blue Book tables and their labels
             run(s, "bluebook/tables_index.tsv.gz", "UNWIND $rows AS r CREATE (t:BlueBookTable) SET t = r", conv=ints("year", "pdf_page", "n_rows", "n_cols", "n_links"))
+            if (HERE / "bluebook/table_confidence.tsv.gz").exists():   # evidence that the table was read correctly (bluebook/confidence.py)
+                run(s, "bluebook/table_confidence.tsv.gz", """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table_id})
+                      SET t.confidence = r.level, t.totals_checked = r.totals_checked, t.totals_agree = r.totals_agree,
+                          t.share_in_second_reading = toFloat(r.share_in_second_reading), t.confidence_flags = r.flags""",
+                    conv=ints("totals_checked", "totals_agree"))
             run(s, "bluebook/table_name_links.tsv.gz", """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table}), (n:Name {id: r.type + ':' + r.key})
                   CREATE (t)-[:HAS_LABEL {cells:r.cells, labels:r.labels, polity_at_date:r.polity_at_date}]->(n)""", batch=5000, conv=ints("cells"))
         ob = "bluebook/observations.tsv.gz"                       # printed figures extracted from Blue Book tables

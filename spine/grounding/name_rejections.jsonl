@@ -13,3 +13,4 @@
 {"type": "COMMODITY", "key": "gems", "qid": "Q124395889", "reason": "a rock band", "by": "Claude, spot check 2026-11-16"}
 {"type": "TAXON", "key": "pink disease", "qid": "Q2170663", "reason": "acrodynia, a human disease; the journal means the Corticium disease of rubber and tea", "by": "Claude, spot check 2026-11-16"}
 {"type": "TAXON", "key": "jambu", "qid": "Q2097498", "reason": "Acmella oleracea; in Ceylon jambu is a Syzygium fruit tree", "by": "Claude, spot check 2026-11-16"}
+{"type": "PLACE", "key": "mango", "qid": "Q20432799", "reason": "the journal means the fruit, tagged as a place by the extraction", "by": "Claude, spot check 2026-11-16"}

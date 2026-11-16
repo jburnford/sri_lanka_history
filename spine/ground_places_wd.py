@@ -29,6 +29,7 @@ def main():
             if r.get("missing"): continue
             ent[r["requested"]] = r; ent[r["qid"]] = r
             if f == "sri_lanka_wikidata": sl.add(r["qid"])
+    rejected = {(d["key"], d["qid"]) for d in read_jsonl(HERE / "grounding/name_rejections.jsonl") if d["type"] == "PLACE"}
     search = {d["query"]: d["results"] for d in read_jsonl(HERE / "cache/wd_search.jsonl")}
     done = {d["key"] for d in read_jsonl(HERE / "grounding/places_tier1.jsonl") if d["status"] == "matched"}
     if (HERE / "grounding/places_tier1b.jsonl").exists():   # names settled in the review pass; the rest go on to Wikidata search
@@ -62,6 +63,8 @@ def main():
         use = role_class(r["roles"])
         def match(c, conf, why):
             # guards: a plausible-looking exact match is still refused when the context contradicts it
+            if (d["key"], c["qid"]) in rejected:
+                d.update(status="review", reason="match rejected by a person", rejected=c["qid"]); return
             if sl_signal and not c["in_sri_lanka"] and c["sitelinks"] < 150:
                 d.update(status="review", reason="journal context is Ceylon; best candidate is elsewhere", proposed=c["qid"]); return
             if not c["in_sri_lanka"] and c["sitelinks"] < 10 and r["articles"] >= 50:

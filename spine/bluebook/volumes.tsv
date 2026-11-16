@@ -1,14 +1,65 @@
-folder	year	note	archive_org_identifier
-CeylonBlueBook1869_6acf30f3	1869		ceylon-blue-book-1869
-256_09aa22d0	1889	part 1	wbsl.256
-329_3f30844b_p0301	1890	sample, pages 301-340 only	wbsl.329
-73593_769915ab	1902		india.history.resource.73593
-74455_2dba4a33	1904		india.history.resource.74455
-73658_a6c18f3c	1912	supplementary	india.history.resource.73658
-CeylonBlueBook1924_b80b2f0e	1924		ceylon-blue-book-1924
-CeylonBlueBook1925_92b2fb0b	1925		ceylon-blue-book-1925
-CeylonBlueBook1926_6893abef	1926		ceylon-blue-book-1926
-CeylonBlueBook1928_8589e5b4	1928		ceylon-blue-book-1928
-CeylonBlueBook1930_51affe26	1930		ceylon-blue-book-1930
-CeylonBlueBook1933_7bbdf5e3	1933		ceylon-blue-book-1933
-CeylonBlueBook1934_2b966a00	1934		ceylon-blue-book-1934
+folder	year	note	archive_org_identifier	key
+637_ebc1951b	1863		wbsl.637	
+CeylonBlueBook1866_99d0f7b6	1866		ceylonbluebook-1866	
+CeylonBlueBook1868_86853821	1868		ceylon-blue-book-1868	
+CeylonBlueBook1869_6acf30f3	1869		ceylon-blue-book-1869	
+CeylonBlueBook_1871_063526c4	1871		ceylon-blue-book-1871	
+CeylonBlueBook1877_525fb06b	1877		ceylon-blue-book-1877	
+736_c6e1246d	1877	second copy of 1877; not loaded	wbsl.736	skip
+302_cb698416	1880		wbsl.302	
+436_a6c265e4	1881		wbsl.436	
+402_a6b71c4e	1882		wbsl.402	
+460_dc4ddfaa	1883		wbsl.460	
+384_bdd769fc	1885		wbsl.384	
+669_dd91224a	1886		wbsl.669	
+638_511687ff	1887		wbsl.638	
+256_09aa22d0	1889	part 1	wbsl.256	
+119_a6f18573	1889	part 2	wbsl.119	1889b
+329_3f30844b	1890		wbsl.329	
+336_6c15443c	1891		wbsl.336	
+367_a1cd399c	1892		wbsl.367	
+74454_81092272	1892	second copy of 1892; not loaded	india.history.resource.74454	skip
+257_30d07888	1893		wbsl.257	
+407_7de7e61e	1894		wbsl.407	
+CeylonBlueBook1896_79be9e0e	1896		ceylon-blue-book-1896	
+CeylonBlueBook1897_85a9dc78	1897		ceylonbluebook-1897	
+CeylonBlueBook1898_152e8fed	1898		ceylonbluebook-1898	
+CeylonBlueBook1899_55521625	1899		ceylonbluebook-1899	
+73661_33a17ce7	1900		india.history.resource.73661	
+73659_f68a45f0	1901		india.history.resource.73659	
+73593_769915ab	1902		india.history.resource.73593	
+73596_e69df99d	1903		india.history.resource.73596	
+74455_2dba4a33	1904		india.history.resource.74455	
+CeylonBlueBook1905_dfbe4e85	1905		ceylonbluebook-1905	
+73595_b633f4f3	1906		india.history.resource.73595	
+CeylonBlueBook1907_e7a5483c	1907		ceylonbluebook-1907	
+CeylonBlueBook1908_0baf64fb	1908		ceylonbluebook-1908	
+CeylonBlueBook1910_c70f6f6b	1910		ceylonbluebook-1910	
+CeylonBlueBook1911_fa7c8be5	1911		ceylonbluebook-1911	
+73658_a6c18f3c	1912	supplementary	india.history.resource.73658	
+73656_2a5d4e82	1913		india.history.resource.73656	
+74453_4412538b	1914		india.history.resource.74453	
+73433_e344e439	1915		india.history.resource.73433	
+73432_a9d1df41	1916		india.history.resource.73432	
+CeylonBlueBook1917_5345d493	1917		ceylonbluebook-1917	
+CeylonBlueBook1918_72d6ceda	1918		ceylonbluebook-1918	
+74282_dd819c71	1919		india.history.resource.74282	
+CeylonBlueBook1920_9c8ef806	1920		ceylonbluebook-1920	
+CeylonBlueBook1921_8763f095	1921		ceylonbluebook-1921	
+CeylonBlueBook1922_b978a224	1922		ceylonbluebook-1922	
+CeylonBlueBook1923_8fb9c1b0	1923		ceylonbluebook-1923	
+CeylonBlueBook1924_b80b2f0e	1924		ceylon-blue-book-1924	
+CeylonBlueBook1925_92b2fb0b	1925		ceylon-blue-book-1925	
+CeylonBlueBook1926_6893abef	1926		ceylon-blue-book-1926	
+CeylonBlueBook1927_ad280f0c	1927		ceylon-blue-book-1927	
+CeylonBlueBook1928_8589e5b4	1928		ceylon-blue-book-1928	
+CeylonBlueBook1929_8cd48383	1929		ceylon-blue-book-1929	
+CeylonBlueBook1930_51affe26	1930		ceylon-blue-book-1930	
+CeylonBlueBook1931_36256559	1931		ceylon-blue-book-1931	
+CeylonBlueBook1932_8005293d	1932		ceylon-blue-book-1932	
+CeylonBlueBook1933_7bbdf5e3	1933		ceylon-blue-book-1933	
+CeylonBlueBook1934_2b966a00	1934		ceylon-blue-book-1934	
+CeylonBlueBook1935_a8a791d7	1935		ceylon-blue-book-1935	
+CeylonBlueBook1936_89b2689b	1936		ceylon-blue-book-1936	
+CeylonBlueBook1937_39c0270a	1937		ceylon-blue-book-1937	
+CeylonBlueBook1938_1643a5da	1938		ceylon-blue-book-1938	
