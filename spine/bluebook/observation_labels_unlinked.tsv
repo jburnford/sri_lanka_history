@@ -62,7 +62,6 @@ article	Electric lighting accessories and fittings, including switches	198
 article	Oil seed cake, coconut poonac	198
 article	Tea machinery	198
 article	Porcelainware and Chinaware	195
-article	Sugar, refined, other sorts, including sugar candy	189
 article	Blankets	189
 article	Basket and basketware	189
 article	Cutlery and hardware, knives, scissors, razors, and other cutler's ware	186
@@ -145,7 +144,6 @@ article	Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross	114
 article	Tubes, pipes, and fittings	114
 article	Nails and tacks (other than wire nails), rivets, and washers	114
 article	Satin	114
-measure	Sugar	112
 measure	Total.	112
 article	Other foodstuffs for animals	111
 article	Curry stuffs, cummin seed	111
@@ -261,6 +259,7 @@ article	Silk manufactures, ribbons	69
 article	Bleaching materials, other	69
 article	Road, mechanically-propelled, motor cars	69
 article	Tinned or bottled in syrup or spirits : Jams, jellies, marmalades	66
+article	Salt, table	66
 article	Precious and semi-precious stones and pearls, diamonds	66
 article	Cloths and stuffs, mixed	66
 article	Matches, safety	66
@@ -310,12 +309,12 @@ article	Prime movers, not electrical, hydraulic	55
 article	Ships and boats (new) complete, other vessels	55
 article	Ammunition : Cartridge cases, filled	55
 article	Curry stuffs, fennel seed	54
+article	Salt, other	54
 article	Stones and slates, coral stones	54
 article	Seeds for expressing oil therefrom, other	54
 article	Arms, small arms, guns : Rifles and carbines, single-barrelled, with magazine	54
 article	Bêche-de-mer	54
 article	Birds' nests	54
-article	Sugar, unrefined, and jaggery	54
 article	Rubber Latex	54
 country	Other British Possession in Africa	54
 article	Road, other than mechanically-propelled carts and carriages for animal traction	54
@@ -371,6 +370,7 @@ article	Playing cards	42
 article	Cordage, cables, ropes and twine of coir	42
 article	Books, printed, including music: Other	42
 measure	Cinna- mon.	40
+article	Mutton, tinned	39
 article	Poultry and game, dead	39
 article	Vegetable : Other	39
 article	Mineral, crude petroleum	39
@@ -406,6 +406,7 @@ article	Rs. Rs. Rs.	36
 area	Mataru.	34
 area	Rubnapura.	34
 area	Baticaloa.	34
+article	Mutton, frozen	33
 country	Other Br. Poss. in Asia	33
 article	Fertilizers, kainit	33
 article	Fertilizers, sulphate of potash	33
@@ -427,7 +428,6 @@ measure	Palmyra.	30
 measure	Vege- tables.	30
 article	Seeds, feeding, other.	30
 article	Seeds, mustard	30
-article	Sugar, refined, in lumps and loaves	30
 article	Gums and resins, dammar	30
 article	Gums and resins, lac	30
 article	Coke	30
@@ -477,7 +477,6 @@ measure	* Number of Estates in Culti- vation.	25
 measure	* Number of Estates aban- doned.	25
 measure	* Number of Es- tates cultivated, wholly or par- tially, on the métairie system.	25
 article	Ammunition : Percussion caps	25
-article	Sugar, unrefined and jaggery	24
 article	Fuller's earth	24
 article	Non-ferrous metalliferrous ores and scrap of all descriptions	24
 article	Sawn, sleepers	24

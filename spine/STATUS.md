@@ -26,15 +26,16 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Type | Matched | In review | Unmatched or skipped | Not attempted |
 |---|---:|---:|---:|---:|
 | Places (374,553 records) | 71.6% | 9.9% | 0.4% | 18.1% |
-| Taxa (164,859 records) | 52.2% | 3.7% | 18.6% | 25.5% |
-| Commodities (134,358 records) | 64.2% | 1.3% | 19.6% | 15.0% |
-| Organisations (88,690 records) | 5.9% | 0.4% | 37.0% | 56.8% |
+| Taxa (164,859 records) | 52.0% | 3.7% | 18.7% | 25.5% |
+| Commodities (134,358 records) | 66.8% | 1.5% | 16.7% | 15.0% |
+| Organisations (88,690 records) | 6.0% | 0.4% | 36.8% | 56.8% |
 
 "Not attempted" is the long tail: names in fewer than 15 articles (taxa matched by the Catalogue of Life go
-down to 3). The taxon, commodity and organisation figures will rise a little: Wikidata throttled the read-back
-of candidates, and about 12,000 lower-ranked candidates were still to be read when this was written
-(`cache/fetch_names.log`). Rerun `ground_names_wd.py`, `join_wd_taxa_col.py`, `build_graph_tables.py`,
-`load_graph.py` when it finishes.
+down to 3). All Wikidata candidates have now been read back. A second search adds the journal's own description
+to the query ("mace spice", "Liberian coffee variety"), which found items filed under a modern name: sugar,
+mace, Liberian coffee, black tea. Still unmatched and frequent: cocoa, pepper (several senses), plumbago
+(graphite), Indian tea, Ceylon tea, chillies, dadap, lucerne. These need either a person's decision or the
+local Wikidata dump, where an old name can be looked up directly among aliases.
 
 **Common names now reach the same taxon as scientific names.** A Wikidata item matched to a printed name is a
 `Concept` node. A taxon item is tied to its Catalogue of Life record by its scientific name (`SAME_TAXON`), and

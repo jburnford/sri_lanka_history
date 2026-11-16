@@ -20,7 +20,16 @@ def queries(r, t):
         h = "insect species" if re.search(r"\b(insect|pest|beetle|moth|bug|scale)\b", roles) else \
             "fungus species" if re.search(r"\b(fung|disease|blight|rust|mildew)\b", roles) else \
             "animal species" if re.search(r"\b(animal|bird|fish|mammal|cattle)\b", roles) else "plant species"
-    return list(dict.fromkeys([f"{name} {h}".strip(), name]))
+    qs = [f"{name} {h}".strip(), name]
+    # third query: the name with the journal's own commonest description of it ("plumbago mineral",
+    # "dadap shade tree"), which finds items filed under a modern name with the old one as an alias
+    top = re.sub(r" \(\d+\)$", "", r["roles"].split(" | ")[0]).strip()
+    if t in ("TAXON", "COMMODITY") and top and top not in ("product", "crop", "plant", "traded product", "commodity", "agricultural product"): qs.append(f"{name} {top}")
+    elif t in ("TAXON", "COMMODITY"):
+        alt = [re.sub(r" \(\d+\)$", "", x).strip() for x in r["roles"].split(" | ")[1:4]]
+        alt = [a for a in alt if a not in ("product", "crop", "plant", "traded product", "commodity", "agricultural product", "export")]
+        if alt: qs.append(f"{name} {alt[0]}")
+    return list(dict.fromkeys(qs))
 
 def main():
     t = sys.argv[1]; min_articles = int(sys.argv[2]) if len(sys.argv) > 2 else 15

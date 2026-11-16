@@ -19,7 +19,7 @@ from common import *
 import search_names_wd as sn
 
 BAD = re.compile(r"\b(disambiguation|wikimedia|family name|surname|given name|film|album|song|single by|painting|novel|"
-                 r"television|video game|band|episode|scientific article|scholarly article|human|character|ship|"
+                 r"television|video game|band|rockband|musical group|episode|scientific article|scholarly article|human|character|ship|"
                  r"taxonomic rank|magazine|journal|newspaper|book|poem|play by|opera|company|brand|village|town|city|"
                  r"commune|municipality|river|crater|asteroid|racehorse|race horse|operon|gene|soft drink|rose cultivar|restaurant|software|website|game|library|dictionary|musician|singer|story|framework|programming|operating system|protocol|locomotive|aircraft|automobile|car model|typeface|color|colour|mascot|deity|goddess|mythology|surname|name)\b", re.I)
 ORG_OK = re.compile(r"\b(organi[sz]ation|society|association|institut|department|ministry|agency|company|firm|bank|"
@@ -85,7 +85,7 @@ THING = re.compile(r"\b(plant|tree|shrub|grass|palm|crop|fruit|vegetable|spice|c
                    r"insect|bird|fish|mammal|livestock|compound|chemical|alkaloid|stereoisomer|mineral|ore|metal|element|"
                    r"beverage|drink|material|resin|gum|latex|polymer|dye|pigment|fertili[sz]er|manure|sugar|sweetener|flour|"
                    r"meal|product|commodity|substance|tuber|root|leaf|leaves|bark|flower|herb|berry|fodder|forage|textile|"
-                   r"fabric|rock|salt|acid|protein|extract|essential|tobacco|ingredient|staple|pest|parasite|fung|bacteri|"
+                   r"fabric|rock|salt|acid|protein|extract|carbohydrate|tea\b|coffee|cocoa|rubber|essential|tobacco|ingredient|staple|pest|parasite|fung|bacteri|"
                    r"virus|disease|infection)", re.I)
 MINERAL = re.compile(r"\b(mineral|ore|graphite|metal|gem|stone|mining|mine)\b")
 
@@ -145,6 +145,7 @@ def main():
             cands.append(c)
         good = sorted([c for c in cands if c["near"] and c["kind"]], key=lambda c: (not c["exact"], -c["sitelinks"]))
         if any(c["exact"] for c in good): good = [c for c in good if c["exact"]]
+        if t == "TAXON" and any(c["kind"] == "taxon" for c in good): good = [c for c in good if c["kind"] == "taxon"]   # an organism name wants an organism
         if any(c["label_exact"] for c in good): good = [c for c in good if c["label_exact"]]   # the item's own name beats an alias
         d = {"type": t, "key": r["key"], "records": r["records"], "articles": r["articles"], "first": r["first"],
              "last": r["last"], "surfaces": r["surfaces"], "roles": r["roles"], "source": "wikidata_mcp_search",

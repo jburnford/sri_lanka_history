@@ -10,3 +10,6 @@
 {"type": "TAXON", "key": "weevil", "qid": "Q20060281", "reason": "one weevil species; the journal means weevils in general", "by": "Claude, spot check 2026-11-16"}
 {"type": "COMMODITY", "key": "cocoa", "qid": "Q1062396", "reason": "cocoa powder; the journal means the crop and its beans", "by": "Claude, spot check 2026-11-16"}
 {"type": "TAXON", "key": "cocoa", "qid": "Q1062396", "reason": "cocoa powder; the journal means the crop", "by": "Claude, spot check 2026-11-16"}
+{"type": "COMMODITY", "key": "gems", "qid": "Q124395889", "reason": "a rock band", "by": "Claude, spot check 2026-11-16"}
+{"type": "TAXON", "key": "pink disease", "qid": "Q2170663", "reason": "acrodynia, a human disease; the journal means the Corticium disease of rubber and tea", "by": "Claude, spot check 2026-11-16"}
+{"type": "TAXON", "key": "jambu", "qid": "Q2097498", "reason": "Acmella oleracea; in Ceylon jambu is a Syzygium fruit tree", "by": "Claude, spot check 2026-11-16"}
