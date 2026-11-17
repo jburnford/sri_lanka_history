@@ -104,6 +104,7 @@ PROVENANCE = []
 USED = {}
 SKIPPED = {}
 AUDIT = []
+CELL_CHECKS = defaultdict(list)   # DATA index -> statuses of the acreage totals checks it takes part in
 
 
 def register(t, kind, dating):
@@ -152,6 +153,7 @@ def add_check(t, label, total_index, part_indices):
         difference = decimal_string(Decimal(pval)-Decimal(computed))
         status = 'agree' if Decimal(difference) == 0 else 'mismatch'
     AUDIT.append([t['id'],label,tr['value_as_printed'],computed,difference,status,len(parts),nulls,len(invalid)])
+    for i in [total_index]+list(part_indices): CELL_CHECKS[i].append(status)
     if status == 'mismatch':
         DATA[total_index]['note'] += '; printed total does not add up (printed minus sum = ' + difference + ')'
     elif status.startswith('uncheckable'):
@@ -430,6 +432,53 @@ for ci in range(1,len(t['rows'][0])):
         parts=[r for r in district_indices if parents[r]==pri]
         add_check(t,'measure: '+trim(t['rows'][2][ci])+'; '+t['rows'][pri][0]+' vs districts',grid[pri,ci],[grid[r,ci] for r in parts])
 
+# Second printings. Each volume reprints the previous year's acreage table, so most figures are printed twice, set in
+# type and read by OCR separately. Match them on data year, area and crop (printed spellings joined, nothing else
+# changed), note the other printing on each figure, and say which printing the totals checks favour where they differ.
+CROP_SPELLINGS = {'cocoanuts':'coconuts','coconutts':'coconuts','coconnuts':'coconuts','cinna mon':'cinnamon','cinamon':'cinnamon',
+                  'other grains':'other grain','pasturage':'pasture','cocoa':'cacao'}
+
+
+def match_key(r):
+    def norm(s):
+        s=re.sub(r'(\w)[-‐]\s*(\w)',r'\1\2',s.lower()); s=re.sub(r'[^a-z ]',' ',s); return re.sub(r'\s+',' ',s).strip()
+    area=norm(r['area_as_printed']); area='total' if area in ('','total','ceylon') else area
+    crop=norm(r['measure_as_printed']); crop=CROP_SPELLINGS.get(crop,crop)
+    return r['year_data'],area,crop
+
+
+def totals_verdict(i):
+    st=[x for x in CELL_CHECKS.get(i,[]) if not x.startswith('uncheckable')]
+    return '' if not st else ('adds up' if all(x=='agree' for x in st) else 'does not add up')
+
+
+def volume_of(tid): return tid[2:].split(':')[0]
+
+
+PRINTINGS=defaultdict(list)
+for i,r in enumerate(DATA):
+    if r['table_kind']=='acreage_by_crop' and r['year_data']: PRINTINGS[match_key(r)].append(i)
+REPRINTS=[]
+for key,idx in PRINTINGS.items():
+    if len({volume_of(DATA[i]['table_id']) for i in idx})<2: continue
+    for i in idx:
+        r=DATA[i]; mine=totals_verdict(i)
+        for j in idx:
+            o=DATA[j]
+            if volume_of(o['table_id'])==volume_of(r['table_id']): continue
+            where=f"the {volume_of(o['table_id'])} volume ({o['table_id']})"
+            theirs=totals_verdict(j)
+            both_blank=missing(r['value_as_printed']) and missing(o['value_as_printed'])
+            if (r['value'] and r['value']==o['value']) or both_blank or (not r['value'] and r['value_as_printed']==o['value_as_printed']):
+                status='agree'; r['note']+=f'; second printing: same figure in {where}'
+            else:
+                status='differ' if r['value'] and o['value'] else 'one missing or unreadable'
+                verdict={('adds up','does not add up'):'the totals favour this printing',('does not add up','adds up'):'the totals favour the other printing',
+                         ('adds up','adds up'):'both printings add up (a revision, or errors that cancel)',('does not add up','does not add up'):'neither printing adds up'}.get((mine,theirs),'the totals cannot decide')
+                shown=o['value_as_printed'] if o['value_as_printed'].strip() else '(blank)'
+                r['note']+=f'; second printing: {where} prints {shown}; {verdict}'
+            if i<j: REPRINTS.append([*key,r['table_id'],r['value_as_printed'],r['value'],mine,o['table_id'],o['value_as_printed'],o['value'],theirs,status])
+
 # Extra diagnostics on non-acreage_by_crop tables. They annotate suspect printed
 # totals too, without mixing these comparisons into the requested acreage report.
 ACREAGE_AUDIT = list(AUDIT)
@@ -547,6 +596,7 @@ def write_tsv(path, header, rows):
 OUT.mkdir(exist_ok=True)
 write_tsv(OUT/'agriculture.tsv',FIELDS,([r[k] for k in FIELDS] for r in DATA))
 write_tsv(OUT/'agriculture_skipped.tsv',['table_id','reason'],sorted(SKIPPED.items(),key=lambda x:(TABLES[x[0]]['year'],TABLES[x[0]]['pdf_page'],x[0])))
+write_tsv(OUT/'agriculture_second_printing.tsv',['year_data','area','crop','table_id','value_as_printed','value','totals','other_table_id','other_value_as_printed','other_value','other_totals','status'],sorted(REPRINTS))
 write_tsv(OUT/'agriculture_checks.tsv',['table_id','area_or_measure','printed_total','computed_sum','difference'],(r[:5] for r in AUDIT if r[5]!='agree'))
 write_tsv(WORK/'totals_audit.tsv',['table_id','area_or_measure','printed_total','computed_sum','difference','status','part_count','missing_part_count','unreadable_part_count'],AUDIT)
 write_tsv(WORK/'other_totals_audit.tsv',['table_id','area_or_measure','printed_total','computed_sum','difference','status','part_count','missing_part_count','unreadable_part_count'],OTHER_AUDIT)
@@ -580,6 +630,9 @@ lines += ['', 'The complete reviewed candidate inventory, including per-table da
  '- Footnote marks in a figure or heading (for example the tea totals 1901–1911, which a footnote compares with Ferguson\'s Directory, or rubber 1914–1921, interplanted or excluding small holdings) carry the footnote text in note.',
  '- Crop names are as printed: Cocoanuts, Coconuts, Cocoa-nuts; Cocoa and Cacao; Pasture and Pasturage. Units as printed (Acres, Acre, OCR "Aeres", "Acrea").',
  '- Not taken in this pass: the district returns that follow later in each volume, and livestock.','',
+ '## Second printings','',
+ f'Each volume reprints the previous year\'s table, so most acreage figures are printed twice, set in type and read by OCR separately. `agriculture_second_printing.tsv` pairs every figure with its other printings (same data year, area and crop; printed crop spellings such as Cocoanuts/Coconuts joined): {len(REPRINTS):,} pairs, {sum(x[-1]=="agree" for x in REPRINTS):,} the same, {sum(x[-1]=="differ" for x in REPRINTS)} different, {sum(x[-1]!="agree" and x[-1]!="differ" for x in REPRINTS)} with one side blank or unreadable. Each figure\'s note names its other printing; where they differ it gives the other figure and which printing the totals checks favour. The 1921 census figures repeated in 1922 and 1923 are paired too.','',
+ f'Where two printings differ, `totals` / `other_totals` say whether the totals each takes part in add up. One adds up and the other does not in {sum(x[-1]=="differ" and {x[6],x[10]}=={"adds up","does not add up"} for x in REPRINTS)} pairs: the one that adds up is most likely the right reading. Neither adds up in {sum(x[-1]=="differ" and x[6]==x[10]=="does not add up" for x in REPRINTS)}; both add up in {sum(x[-1]=="differ" and x[6]==x[10]=="adds up" for x in REPRINTS)}, which suggests a revision between editions or two errors that cancel. No figure is changed on this evidence.','',
  '## Reading the fields','',
  '- The source is OCR, not page images. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.',
  '- Each row corresponds to one selected source measurement cell, including blank and no-figure cells. Zero-based source row and column are recorded in note; the unaltered cell is also recorded in `jobs/agriculture_work/source_cells.tsv`. Repeated expanded province/district heading cells produce no observations.',

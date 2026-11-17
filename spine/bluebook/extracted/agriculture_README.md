@@ -93,6 +93,12 @@ Almost every volume opens with a summary "Agricultural Statistics": acres under 
 - Crop names are as printed: Cocoanuts, Coconuts, Cocoa-nuts; Cocoa and Cacao; Pasture and Pasturage. Units as printed (Acres, Acre, OCR "Aeres", "Acrea").
 - Not taken in this pass: the district returns that follow later in each volume, and livestock.
 
+## Second printings
+
+Each volume reprints the previous year's table, so most acreage figures are printed twice, set in type and read by OCR separately. `agriculture_second_printing.tsv` pairs every figure with its other printings (same data year, area and crop; printed crop spellings such as Cocoanuts/Coconuts joined): 3,959 pairs, 3,814 the same, 122 different, 23 with one side blank or unreadable. Each figure's note names its other printing; where they differ it gives the other figure and which printing the totals checks favour. The 1921 census figures repeated in 1922 and 1923 are paired too.
+
+Where two printings differ, `totals` / `other_totals` say whether the totals each takes part in add up. One adds up and the other does not in 61 pairs: the one that adds up is most likely the right reading. Neither adds up in 42; both add up in 14, which suggests a revision between editions or two errors that cancel. No figure is changed on this evidence.
+
 ## Reading the fields
 
 - The source is OCR, not page images. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.
