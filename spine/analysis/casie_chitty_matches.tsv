@@ -1,8 +1,10 @@
 id	headword	alt_spellings	kind	distances	journal_exact	journal_spelling_candidates	journal_decision	journal_qid	wikidata_class	wikidata_exact	wikidata_spelling_candidates
 cc1834:0001	Adam's Berg		hill	6 mi north east of Kahawatte					no_wikidata_candidate		
-cc1834:0002	Adam's Bridge		island		adam s bridge (14)				no_wikidata_candidate		
+cc1834:0002	Adam's Bridge		gulf		adam s bridge (14)		review		no_wikidata_candidate		
 cc1834:0003	Adam’s Peak			71 mi south east of Colombo	adams peak (3)	adam s peak (169)			wikidata_spelling_candidate		Q60789 Adam's Peak (mountain in Sri Lanka)
 cc1834:0004	Adikaripattoo		division			adikari pattu (1)			no_wikidata_candidate		
+cc1834:0387	Adikaripattoo		division			adikari pattu (1)			no_wikidata_candidate		
+cc1834:0388	Adikaripattoo		division			adikari pattu (1)			no_wikidata_candidate		
 cc1834:0005	AhangaiTime	yahangama, the bed village	village						no_wikidata_candidate		
 cc1834:0006	Aitgalle		village	7 mi north east of Kandy					no_wikidata_candidate		
 cc1834:0007	Akeria		village			aker (1)			no_wikidata_candidate		
@@ -11,6 +13,7 @@ cc1834:0009	Akkarapattoo		district			akkarapattu (1)			no_wikidata_candidate
 cc1834:0010	Alambel		village	8 mi north of Mullativoe					no_wikidata_candidate		
 cc1834:0011	Alauwe		village						no_wikidata_candidate		
 cc1834:0012	Allaputty	Allepitty	island						no_wikidata_candidate		
+cc1834:0389	Allipoot	Allupotta.	post		allipoot (1)	aliput (3); alupota (1)			no_wikidata_candidate		
 cc1834:0013	Alutgama	new village	village	1 2 mi south of Caltura	alutgama (25)	aluthgama (1)	review		wikidata_exact	Q4737576 Alutgama (village in Central Province, Sri Lanka) | Q4737578 Alutgama (village in Sri Lanka) | Q4737579 Alutgama (human settlement in Matale District, Sri) | Q4737580 Alutgama (human settlement in Matale District, Sri)	
 cc1834:0014	Alutkoor Korle		province						no_wikidata_candidate		
 cc1834:0015	Alutnuwera	new city	village	7 mi east of Ballangodde It					no_wikidata_candidate		
@@ -24,7 +27,7 @@ cc1834:0022	Analativoe		island		analativoe (1)	analativu (1)			wikidata_spelling
 cc1834:0023	Andipane		rest house	12 mi north of Chilaw					no_wikidata_candidate		
 cc1834:0024	Anewulundanpattoo		province						no_wikidata_candidate		
 cc1834:0025	Anetivoe	the Elephant's island	village						no_wikidata_candidate		
-cc1834:0026	Annamalle	the Swan's hill	village			annamalai (1); anamalai (1); anamall (1)			no_wikidata_candidate		
+cc1834:0026	Annamalle	the Swan's hill	village			anamalai (1); annamalai (1); anamall (1)			no_wikidata_candidate		
 cc1834:0027	Annatewamadoo		village						no_wikidata_candidate		
 cc1834:0028	Annooraadhapoora		province	53 mi south east of Arrippo		anuradhapura (837)			no_wikidata_candidate		
 cc1834:0029	Arranderre		village	13 mi east of Ruangwelle					no_wikidata_candidate		
@@ -33,16 +36,17 @@ cc1834:0031	Arrippo		river			arippu (9); aripu (6); aripo (2)			wikidata_spellin
 cc1834:0032	Arrookgam		village	64 mi east of Batticalo					no_wikidata_candidate		
 cc1834:0033	Arrookgam Aar		river						no_wikidata_candidate		
 cc1834:0034	Atchankulam		village						no_wikidata_candidate		
-cc1834:0035	Atchuwelly		village	29 mi east of Colombo					no_wikidata_candidate		
+cc1834:0035	Atchuwelly		village						no_wikidata_candidate		
+cc1834:avisawella	Avisahavile	Avissawelle	village	29 mi east of Colombo		avisawella (71); awisawella (42); avissawella (19)			wikidata_spelling_candidate		Q3537406 Avissawella (town in Western Province, Sri Lanka)
 cc1834:0036	Baddagama		village	12 mi north east of Galle	baddagama (3)				no_wikidata_candidate		
-cc1834:0037	Badulla		station		badulla (874)	badulla oya (6); badula (2); badulia (1)	matched	Q799713	wikidata_exact	Q390096 Badulla (city in Sri Lanka)	
+cc1834:0037	Badulla		station		badulla (874)	badulla oya (6); badula (2); baddula (1)	matched	Q799713	wikidata_exact	Q390096 Badulla (city in Sri Lanka)	
 cc1834:0038	Ballangodde		village	29 mi east of Ratnapura	ballangodde (1)	balangoda (220); ballangoda (3); balangode (1)			wikidata_spelling_candidate		Q804637 Baḷangoḍa (human settlement)
 cc1834:0039	Ballapane		village	44 mi north east of Colombo					no_wikidata_candidate		
 cc1834:0040	Ballanekanda		mountain						no_wikidata_candidate		
 cc1834:0041	Bambimodu	Wambeemody	village	25 mi south east of Batticalo					no_wikidata_candidate		
 cc1834:0042	Bandarakoswatta	the Kings' s Jack tree grove	village	35 mi north west of Kandy	bandarakoswatta (4)	bandarakoswatte (1)			no_wikidata_candidate		
 cc1834:0043	Bangalle	Vankale	village	8 mi north of Arrippo		bangala (5); vankalai (2); bangalla (1)			wikidata_spelling_candidate		Q3536211 Vankalai (village in Sri Lanka)
-cc1834:0044	Barbareen	Beruwala	town		beruwala (11)	beruwalla (3)			wikidata_exact	Q829211 Beruwala (human settlement)	
+cc1834:0044	Barbareen	Beruwala	town		beruwala (11)	beruwalla (3)	review		wikidata_exact	Q829211 Beruwala (human settlement)	
 cc1834:0045	Batticalo		district			batticaloa (770)			wikidata_spelling_candidate		Q7908192 Vaddukoddai (town in Sri Lanka) | Q810963 Batticaloa (city in Eastern Province, Sri Lanka)
 cc1834:0046	Batticalo		town			batticaloa (770)			wikidata_spelling_candidate		Q7908192 Vaddukoddai (town in Sri Lanka) | Q810963 Batticaloa (city in Eastern Province, Sri Lanka)
 cc1834:0047	Batticotta	Vattukote	village		batticotta (1)				wikidata_exact	Q7908192 Vaddukoddai (town in Sri Lanka)	
@@ -58,10 +62,13 @@ cc1834:0056	Bintenna		village		bintenna (29)	bintenne (33)	matched	Q88289263	wik
 cc1834:0057	Bogambera		village		bogambera (1)				no_wikidata_candidate		
 cc1834:0058	Bolawalane		village			bolawalana (1)			no_wikidata_candidate		
 cc1834:0059	Bootella		village						no_wikidata_candidate		
+cc1834:0390	Bulatgamme								no_wikidata_candidate		
 cc1834:0060	Calpentyn		town	93 mi north of Colombo	calpentyn (59)	kalpentyn (6); calpentin (1); calpentine (1)	review		no_wikidata_candidate		
+cc1834:0391	Calpentyn (Gulf of)		peninsula						no_wikidata_candidate		
 cc1834:0061	Caltura	Kalutotta	district		caltura (1)	kaltura (4); kalutotte (1)	matched	Q1295530	no_wikidata_candidate		
 cc1834:0062	Caltura		town	25 mi south of Colombo	caltura (1)	kaltura (4)	matched	Q1295530	no_wikidata_candidate		
-cc1834:0063	Carrativoe		village	12 mi north west of Putlam		karativu (5); karativoe (1); carativoe (1)			no_wikidata_candidate		
+cc1834:0063	Carrativoe		village	12 mi north west of Putlam		karativu (5); carativoe (1); karativoe (1)			no_wikidata_candidate		
+cc1834:0392	CEYLON		island		ceylon (20617)		matched	Q918153	wikidata_exact	Q2670092 Dominion of Ceylon (predecessor of the modern day country of) | Q4526612 Sri Lanka (main island in the nation of Sri Lanka) | Q854 Sri Lanka (island country in South Asia) | Q918153 British Ceylon (Sri Lankan British Crown colony)	
 cc1834:0064	Chilaw		district		chilaw (367)		matched	Q2495639	wikidata_exact	Q2495639 Chilaw (large town in Puttalam district, Sri Lan)	
 cc1834:0065	Chilaw		district	49 mi north of Colombo	chilaw (367)		matched	Q2495639	wikidata_exact	Q2495639 Chilaw (large town in Puttalam district, Sri Lan)	
 cc1834:0066	Colombo			368 mi south west of Madras	colombo (6682)	colombia (275)	matched	Q35381	wikidata_exact	Q35381 Colombo (largest city and de facto capital of Sri)	
@@ -69,7 +76,7 @@ cc1834:0067	Condachy		village	4 mi south of Arrippo					no_wikidata_candidate
 cc1834:0068	Cottiar	Cottiarum	province			kottiar (4); kottiyar (1)			no_wikidata_candidate		
 cc1834:0069	Cottiar		village			kottiar (4); kottiyar (1)			no_wikidata_candidate		
 cc1834:0070	Cotta	Jayawardhanapoora	village	6 mi east of Colombo	cotta (31)	kotte (11); cotie (4); kotta (3)	matched	Q104870488	no_wikidata_candidate		
-cc1834:0071	Dalugama		village	7 mi north east of Colombo	dalugama (11)				wikidata_exact	Q5211741 Dalugama (suburb in Western Province, Sri Lanka)	
+cc1834:0071	Dalugama		village	7 mi north east of Colombo	dalugama (11)		matched	Q5211741	wikidata_exact	Q5211741 Dalugama (suburb in Western Province, Sri Lanka)	
 cc1834:0072	Dambadiniya		division	27 mi south of Kurnagalle					no_wikidata_candidate		
 cc1834:0073	Dambool		village		dambool (4)	dambulla (99); dambula (6); dambuluoya (1)	matched	Q377343	no_wikidata_candidate		
 cc1834:0074	Deduro Oya		river			deduru oya (20); deduruoya (12)			wikidata_spelling_candidate		Q11014761 Deduru Oya (River in Sri Lanka)
@@ -80,10 +87,11 @@ cc1834:0078	Dharmarajagal		rock						no_wikidata_candidate
 cc1834:0079	Dikwelle		province			dikwella (9); dickwella (5)			wikidata_spelling_candidate		Q1210193 Dickwella (human settlement) | Q27455065 Dikwela () | Q65315132 Dickwella Beach (beach in the south coast of Sri Lanka)
 cc1834:0080	Diwurungala		rock						no_wikidata_candidate		
 cc1834:0081	Dodenwelle		village	7 mi south west of Kandy					no_wikidata_candidate		
-cc1834:0082	Dondra Head	Dewandere, the Island’s end	island		dondra head (6)				wikidata_exact	Q2426307 Dondra Head (cape in Sri Lanka)	
+cc1834:0082	Dondra Head	Dewandere, the Island’s end	island		dondra head (6)		review		wikidata_exact	Q2426307 Dondra Head (cape in Sri Lanka)	
 cc1834:0083	Doodendoowe		village						no_wikidata_candidate		
 cc1834:0084	Doombera		district		doombera (3)	dumbera (3); doomberra (2)			no_wikidata_candidate		
-cc1834:0085	Ekelle		village		ekelle (4)	ekela (2); ekele (2); ekel (1)			no_wikidata_candidate		
+cc1834:0085	Ekelle		village		ekelle (4)	ekele (2); ekela (2); ekel (1)			no_wikidata_candidate		
+cc1834:0393	Budumalwal		village						no_wikidata_candidate		
 cc1834:0086	Eraoor		village			eraur (3)			no_wikidata_candidate		
 cc1834:0087	Erroopasse		village	1 1 mi east of Bootella					no_wikidata_candidate		
 cc1834:0088	Erukalampitty		village						no_wikidata_candidate		
@@ -96,7 +104,8 @@ cc1834:0094	Fort M'Donald		post						no_wikidata_candidate
 cc1834:0095	Fort M'Dowall		post						no_wikidata_candidate		
 cc1834:0096	Galgamma		village	22 mi north east of Putlam					no_wikidata_candidate		
 cc1834:0097	Galkisse		village			galkissa (4)			wikidata_spelling_candidate		Q27441693 Galkissa ()
-cc1834:0098	Galle	a pound	district		galle (975)	gal oya (2); gala oya (1); galoya (1)	matched	Q647649	wikidata_exact	Q319366 Galle (city in Southern Province, Sri Lanka)	
+cc1834:0098	Galle	a pound	district		galle (975)	gal oya (2); galoya (1); ga le (1)	matched	Q647649	wikidata_exact	Q319366 Galle (city in Southern Province, Sri Lanka)	
+cc1834:galle-town	Galle		town	72 mi south east of Colombo	galle (975)	gal oya (2); galoya (1); ga le (1)	matched	Q647649	wikidata_exact	Q319366 Galle (city in Southern Province, Sri Lanka)	
 cc1834:0099	Gampola		village		gampola (288)	gampole (2); gaampola (1)	matched	Q8264065	wikidata_exact	Q8264065 Gampola (city in Central Province, Sri Lanka)	
 cc1834:0100	Gangaboddepattoo		province						no_wikidata_candidate		
 cc1834:0101	Gangaboddepattoo		province						no_wikidata_candidate		
@@ -111,6 +120,7 @@ cc1834:0109	Gonnagamme		village						wikidata_spelling_candidate		Q27457415 Gona
 cc1834:0110	Goonnumalle		village						no_wikidata_candidate		
 cc1834:0111	Gorkadenia		village						no_wikidata_candidate		
 cc1834:0112	Habboorenne		village						no_wikidata_candidate		
+cc1834:0427	Halpe		village		halpe (3)				no_wikidata_candidate		
 cc1834:0113	Hambantotte		post		hambantotte (4)	hambantota (587); hambantotta (3); hambantote (1)	matched	Q1025283	wikidata_spelling_candidate		Q1025283 Hambantota (main town in Hambantota District, Southe)
 cc1834:0114	Hangramketty	Hanguranketta	town	16 mi south east of Kandy	hanguranketta (1)	hanguranketa (35); hangurankette (4); hanguranketty (1)			wikidata_spelling_candidate		Q5648094 Hanguranketa (small City in Central Province, Sri Lank) | Q96418525 Hanguranketha (town in Central Province, Sri Lanka)
 cc1834:0115	Hangwelle		village	18 mi east of Colombo	hangwelle (1)	hangwella (1)			no_wikidata_candidate		
@@ -126,11 +136,13 @@ cc1834:0124	Hickgodde		village						no_wikidata_candidate
 cc1834:0125	Himberewe		village						no_wikidata_candidate		
 cc1834:0126	Hina Korle		province						no_wikidata_candidate		
 cc1834:0127	Hondaella		village						no_wikidata_candidate		
-cc1834:0128	Huluganga		river		huluganga (2)	hoolooganga (3); hulu ganga (1); hooluganga (1)			wikidata_exact	Q5936415 Huluganga (village in Central Province, Sri Lanka)	
+cc1834:0128	Huluganga		river		huluganga (2)	hoolooganga (3); hooluganga (1); hulu ganga (1)			wikidata_exact	Q5936415 Huluganga (village in Central Province, Sri Lanka)	
 cc1834:0129	Idalgashena		mountain	1 1 mi east of Kalupane	idalgashena (1)				no_wikidata_candidate		
 cc1834:0130	Idamalpane		village	52 mi north east of Colombo					no_wikidata_candidate		
 cc1834:0131	Idangodde		village			idangoda (2)			wikidata_spelling_candidate		Q27455252 Idangoda ()
-cc1834:0132	Iddegoddepattoo		province	5 mi north west of Pallawarayenkattoo					no_wikidata_candidate		
+cc1834:0132	Iddegoddepattoo		province						no_wikidata_candidate		
+cc1834:0428	Ilpekadawe		village						no_wikidata_candidate		
+cc1834:0394	Irrentivoe	the Two Brother s Island, the Double Island	gulf	5 mi north west of Pallawarayenkattoo					no_wikidata_candidate		
 cc1834:0133	Jaffna		province		jaffna (1377)		matched	Q1520182	wikidata_exact	Q215277 Jaffna (capital city of the Northern Province of)	
 cc1834:0134	Jaffnapatam		town	296 mi south west of Madras	jaffnapatam (1)				no_wikidata_candidate		
 cc1834:0135	Jayelle	Kanuwane	village						no_wikidata_candidate		
@@ -140,16 +152,20 @@ cc1834:0138	Kadirawelly		village	48 mi north west of Batticalo		kadiraveli (1)		
 cc1834:0139	Kaits		village			kayts (45)			wikidata_spelling_candidate		Q6380719 Kayts (island in Sri Lanka)
 cc1834:0140	Kalani	Kallania	village	10 mi north east of Colombo	kalani (2)	kalane (1)			no_wikidata_candidate		
 cc1834:0141	Kalani Ganga		river	3 mi northward of Colombo					no_wikidata_candidate		
-cc1834:0142	Kalinga		village	15 mi south east of Manaar					no_wikidata_candidate		
+cc1834:0142	Kalinga		village						no_wikidata_candidate		
+cc1834:0395	Kal Aar	rock river	river	15 mi south east of Manaar	kal aar (1)	kallar (3); kalaru (1)			no_wikidata_candidate		
 cc1834:0143	Kallupane		village			kalupane (2); kalupana (1); kaluphani (1)			no_wikidata_candidate		
-cc1834:0144	Kalu Ganga		river		kalu ganga (12)	kaluganga (46)			wikidata_spelling_candidate		Q6354551 Kaluganga (village in Central Province, Sri Lanka)
+cc1834:0144	Kalu Ganga		river		kalu ganga (12)	kaluganga (46)	review		wikidata_spelling_candidate		Q6354551 Kaluganga (village in Central Province, Sri Lanka)
 cc1834:0145	Kalumulle		village	4 mi south of Caltura					no_wikidata_candidate		
 cc1834:0146	Kaluwamodera		village	1 1 mi south of Caltura					no_wikidata_candidate		
 cc1834:0147	Kandaboddepattoo		division						no_wikidata_candidate		
 cc1834:0148	Kandakooda		village	8 mi south west of Calpentyn					no_wikidata_candidate		
 cc1834:0149	Kandakooly		village	3 mi south west of Calpentyn					no_wikidata_candidate		
 cc1834:0150	Kandane		village			kandana (1)			wikidata_spelling_candidate		Q6361287 Kandana (suburb in Western Province, Sri Lanka)
+cc1834:0429	Kancfally	Dantalawa	village						no_wikidata_candidate		
 cc1834:0151	Kandelooky		village	6 mi south of Mardodde					no_wikidata_candidate		
+cc1834:0396	Kandyan Provinces				kandyan provinces (21)	kandian provinces (1)	review		no_wikidata_candidate		
+cc1834:kandy	Kandy		city		kandy (2022)	candia (3); kandiy (1)	matched	Q203197	wikidata_exact	Q203197 Kandy (capital city in Central Province, Sri La)	
 cc1834:0152	Kannya	virgin		7 mi north west of Trincomalee		kano (10); kanniyai (4); kanaya (2)			no_wikidata_candidate		
 cc1834:0153	Karadive		island	12 mi north west of Calpentyn					no_wikidata_candidate		
 cc1834:0154	Karadive	Amsterdam	island		amsterdam (864)		matched	Q727	no_wikidata_candidate		
@@ -167,7 +183,8 @@ cc1834:0165	Kaymel		village		kaymel (1)				no_wikidata_candidate
 cc1834:0166	Kaythady		village			kaitadi (2)			wikidata_spelling_candidate		Q6348605 Kaithady (place in Sri Lanka)
 cc1834:0167	Kirimettyapattoo		province						no_wikidata_candidate		
 cc1834:0168	Kirinde Oya		river		kirinde oya (1)	kirinda (8); kirindi oya (5); kirindi (3)			wikidata_spelling_candidate		Q104372621 Kirinda (coastal village in Sri Lanka) | Q17068343 Kirinda (village in Southern Province, Sri Lanka) | Q35530226 Kirindi Oya () | Q55059582 Kirindi Oya (River in Sri Lanka)
-cc1834:0169	Kittoolgalle		village		kittoolgalle (1)	kitulgala (48); kitulgalla (2); kittulgalla (2)			no_wikidata_candidate		
+cc1834:0169	Kittoolgalle		village		kittoolgalle (1)	kitulgala (48); kittulgalla (2); kitulgalla (2)			no_wikidata_candidate		
+cc1834:0397	KIwulagedera		province						no_wikidata_candidate		
 cc1834:0170	Klaly		village						no_wikidata_candidate		
 cc1834:0171	Kokatticholy		village						no_wikidata_candidate		
 cc1834:0172	Kokelay		village						no_wikidata_candidate		
@@ -175,22 +192,23 @@ cc1834:0173	Kombokepattoo		division						no_wikidata_candidate
 cc1834:0174	Kombocan	Kumukan	river						no_wikidata_candidate		
 cc1834:0175	Koodremale	Horse Mountain	hill	19 mi north east of Calpentyn					no_wikidata_candidate		
 cc1834:0176	Koondesale		town	4 mi east of Kandy					no_wikidata_candidate		
-cc1834:0177	Koorroowittia		village			kuruwita (16); kuruwitta (2); kuruwitte (2)			no_wikidata_candidate		
+cc1834:0177	Koorroowittia		village			kuruwita (16); kuruwitte (2); kuruwiti (2)			no_wikidata_candidate		
 cc1834:0178	Kapay		village			cape (198); capua (1)			no_wikidata_candidate		
 cc1834:0179	Korlepattoo		province						no_wikidata_candidate		
 cc1834:0180	Kottadeniya		village	28 mi south west of Kurnagalle	kottadeniya (1)	kotadeniya (2)			no_wikidata_candidate		
 cc1834:0181	Kosgodde		village	20 mi south of Caltura		kosgoda (7)			wikidata_spelling_candidate		Q15239801 Kosgoda (town in Southern Province, Sri Lanka)
-cc1834:0182	Kottapettia		village			kottapeta (1); kothapeta (1)			no_wikidata_candidate		
+cc1834:0182	Kottapettia		village			kothapeta (1); kottapeta (1)			no_wikidata_candidate		
 cc1834:0183	Kumarawannipattoo		province						no_wikidata_candidate		
 cc1834:0184	Kurisyipetty		village	3 mi south west of Calpentyn					no_wikidata_candidate		
 cc1834:0185	Kurnagalle		town	58 mi north east of Colombo; 30 mi north west of Kandy					no_wikidata_candidate		
-cc1834:0186	Kurundu Oya	The Cinnamon River	river		kurundu oya (10)	kurunduoya (5); kurunda oya (1); kurunda (1)			no_wikidata_candidate		
+cc1834:0186	Kurundu Oya	The Cinnamon River	river		kurundu oya (10)	kurunduoya (5); kurunda (1); kurunda oya (1)	review		no_wikidata_candidate		
 cc1834:0187	Kuruwikolam	The Bird's Tank	village						no_wikidata_candidate		
 cc1834:0188	Lewelle		village		lewelle (1)				wikidata_spelling_candidate		Q15242288 Lewella (village in Central Province, Sri Lanka)
 cc1834:0189	Lunuwila	a salt lake	village		lunuwila (70)	lunuville (2)	matched	Q6704490	wikidata_exact	Q6704490 Lunuwila (town in North Western Province, Sri Lank)	
 cc1834:0190	Madampe		village		madampe (75)		review		wikidata_exact	Q17070713 Madampe (place in North Western Province, Sri Lan)	
 cc1834:0191	Madampe	Mahadampa	village	8 mi south east of Chilaw	madampe (75)	mahadampe (1)	review		wikidata_exact	Q17070713 Madampe (place in North Western Province, Sri Lan)	
 cc1834:0192	Maddawallatenne		post	15 mi north east of Kurnagalle; 12 mi north west of Kandy		madawalatenna (6); madawallatenna (1); madawalatenne (1)			no_wikidata_candidate		
+cc1834:0398	Maderegamuwe		village						no_wikidata_candidate		
 cc1834:0193	Madoolla		village			madulla (5); madoola (1)			wikidata_spelling_candidate		Q6728780 Madulla (village in Central Province, Sri Lanka)
 cc1834:0194	Madramkooly		post	9 mi south of Putlam					no_wikidata_candidate		
 cc1834:0195	Mahabola		village						no_wikidata_candidate		
@@ -206,10 +224,13 @@ cc1834:0204	Makkoon	Makgona	village						no_wikidata_candidate
 cc1834:0205	Mallagam		village		mallagam (1)				wikidata_spelling_candidate		Q27443957 Malagamua ()
 cc1834:0206	Manaar		island		manaar (15)	mannar (530)	matched	Q1280127	wikidata_spelling_candidate		Q1280127 Mannar (town in Sri Lanka)
 cc1834:0207	Manaar		town	142 mi north by west of Colombo	manaar (15)	mannar (530)	matched	Q1280127	wikidata_spelling_candidate		Q1280127 Mannar (town in Sri Lanka)
+cc1834:0399	Manaar (Gulf of)		gulf						no_wikidata_candidate		
+cc1834:0400	Mangalawelly		district						no_wikidata_candidate		
 cc1834:0208	Manguel Korle		province						no_wikidata_candidate		
-cc1834:0209	Manipay		village		manipay (5)	manipai (1); manippay (1)			wikidata_exact	Q6749816 Manipay (town in Sri Lanka)	
+cc1834:0209	Manipay		village		manipay (5)	manipai (1); manippay (1)	matched	Q6749816	wikidata_exact	Q6749816 Manipay (town in Sri Lanka)	
 cc1834:0210	Manmoone		province			manmunai (2)			no_wikidata_candidate		
-cc1834:0211	Mantotte	Mantai	village	13 mi north of Arrippo	mantai (6)	mantota (5); mantua (2); manta (2)			wikidata_spelling_candidate		Q15245625 Manthai (town in Sri Lanka)
+cc1834:0430	Mantotta	"Maatottam, “great garden"""	province			mantota (5)			no_wikidata_candidate		
+cc1834:0211	Mantotte	Mantai	village	13 mi north of Arrippo	mantai (6)	mantota (5); mantua (2); manta (2)	matched	Q115400829	wikidata_spelling_candidate		Q15245625 Manthai (town in Sri Lanka)
 cc1834:0212	Maplegamme		village	1 2 mi north east of Baddagama					no_wikidata_candidate		
 cc1834:0213	Marawille		village	13 mi south of Chilaw		marawila (105); maravila (30); marawilla (11)			wikidata_spelling_candidate		Q14207190 Marawila (town in Puttalam District, Sri Lanka)
 cc1834:0214	Marchikotta		village	2 mi north of Pomparrippo					no_wikidata_candidate		
@@ -218,15 +239,17 @@ cc1834:0216	Matele		province		matele (1)	matella (1)			no_wikidata_candidate
 cc1834:0217	Matelen		village	10 mi north west of Mullativoe					no_wikidata_candidate		
 cc1834:0218	Mature		district			matura (3)			no_wikidata_candidate		
 cc1834:0219	Mature		town			matura (3)			no_wikidata_candidate		
-cc1834:0220	Maturatta	Mattooratte	post		maturatta (15)	maturata (127); matu ratta (1); matu rata (1)	review		wikidata_spelling_candidate		Q6791993 Maturata (village in Central Province, Sri Lanka)
-cc1834:0221	Medagamwelle		village	6 mi north east of Kattabowe; 17 mi south east of Kandy					no_wikidata_candidate		
+cc1834:0220	Maturatta	Mattooratte	post		maturatta (15)	maturata (127); matu rata (1); matu ratta (1)	review		wikidata_spelling_candidate		Q6791993 Maturata (village in Central Province, Sri Lanka)
+cc1834:0401	Mavittapuram		parish	14 mi north of Jaffnapatam					no_wikidata_candidate		
+cc1834:0221	Medagamwelle		village	6 mi north east of Kattabowe					no_wikidata_candidate		
+cc1834:0402	Wedamaha Nuwera		village	17 mi south east of Kandy					no_wikidata_candidate		
 cc1834:0222	Medapalatta		province			medapalata (1)			no_wikidata_candidate		
 cc1834:0223	Medapattoo		korle			meda pattu (2); medapattu (1)			wikidata_spelling_candidate		Q104820627 Medapattu (place in Sri Lanka)
 cc1834:0224	Medapattoo		korle			meda pattu (2); medapattu (1)			wikidata_spelling_candidate		Q104820627 Medapattu (place in Sri Lanka)
 cc1834:0225	Mee Oya		river			maui (26); mie (4); mau (3)			wikidata_spelling_candidate		Q16309285 Mi Oya () | Q35428444 Ma Oya () | Q35428457 Ma Oya () | Q35428470 Ma Oya ()
 cc1834:0226	Midigama		village						no_wikidata_candidate		
 cc1834:0227	Mihintallai		mountain			mihintale (39)			wikidata_spelling_candidate		Q1478212 Mihintale (mountain) | Q27455006 Mihintale ()
-cc1834:0228	Minnery	Mennairia	village	56 mi south west of Trincomalee	minnery (1)	minneriya (63); minneri (5); minnerie (1)			wikidata_spelling_candidate		Q27442120 Minneriya (mountain in Sri Lanka) | Q4295008 Minneriya (a small town in Sri Lanka which has two )
+cc1834:0228	Minnery	Mennairia	village	56 mi south west of Trincomalee	minnery (1)	minneriya (63); minneri (5); mineri (1)			wikidata_spelling_candidate		Q27442120 Minneriya (mountain in Sri Lanka) | Q4295008 Minneriya (a small town in Sri Lanka which has two )
 cc1834:0229	Minuangodde		village						no_wikidata_candidate		
 cc1834:0230	Mirisgoona Oya		river						no_wikidata_candidate		
 cc1834:0231	Mogamalle		village						no_wikidata_candidate		
@@ -234,6 +257,7 @@ cc1834:0232	Moharry		village			mohar (1)			no_wikidata_candidate
 cc1834:0233	Moneiserampattoo		province						no_wikidata_candidate		
 cc1834:0234	Monesseram	Muniyaiswara	village						no_wikidata_candidate		
 cc1834:0235	Monewattebagepattoo		division						no_wikidata_candidate		
+cc1834:0431	Moodelekooda	The Alligator’s bay	province						no_wikidata_candidate		
 cc1834:0236	Moongil Aar	The Bamboo river	river						no_wikidata_candidate		
 cc1834:0237	Morotto			7 mi south of Colombo		morottu (1)			no_wikidata_candidate		
 cc1834:0238	Morruwa Korle		province						no_wikidata_candidate		
@@ -248,12 +272,12 @@ cc1834:0246	Nadene		village						no_wikidata_candidate
 cc1834:0247	Nadokadoo		province						no_wikidata_candidate		
 cc1834:0248	Nainativoe	Haarlem	island		haarlem (25)	harlem (3); nayinativu (1)	matched	Q9920	wikidata_spelling_candidate		Q920529 Nainativu (island in Sri Lanka)
 cc1834:0249	Nakendella		village						no_wikidata_candidate		
-cc1834:0250	Nalande		village		nalande (6)	nalanda (65); nalanda oya (1); nalande oya (1)			wikidata_spelling_candidate		Q17072124 Nalanda (village in Central Province, Sri Lanka) | Q6960793 Nalanda (human settlement in Srilanka)
+cc1834:0250	Nalande		village		nalande (6)	nalanda (65); nalande oya (1); nalanda oya (1)	review		wikidata_spelling_candidate		Q17072124 Nalanda (village in Central Province, Sri Lanka) | Q6960793 Nalanda (human settlement in Srilanka)
 cc1834:0251	Nallooruwa		village						wikidata_spelling_candidate		Q27457679 Nalluruwa ()
 cc1834:0252	Namunukulakande		mountain		namunukulakande (1)	namunukulakanda (3); namunukula kanda (1)			no_wikidata_candidate		
 cc1834:0253	Nanaatan		province						no_wikidata_candidate		
 cc1834:0254	Nanaatan		village	10 mi south east of Manaar					no_wikidata_candidate		
-cc1834:0255	Narakally		village			narakal (1); narakkal (1)			no_wikidata_candidate		
+cc1834:0255	Narakally		village			narakkal (1); narakal (1)			no_wikidata_candidate		
 cc1834:0256	Narangalakande		mountain						no_wikidata_candidate		
 cc1834:0257	Nawakadoo	from Nawa nine, and Kadoo, a sword	village	15 mi south west of Calpentyn					no_wikidata_candidate		
 cc1834:0258	Navakeery			9 mi north east of Jaffnapatam		navakkiri (1)			no_wikidata_candidate		
@@ -278,7 +302,7 @@ cc1834:0276	Oodeville		village						no_wikidata_candidate
 cc1834:0277	Ooma Oya		river		ooma oya (2)	umaoya (2)			no_wikidata_candidate		
 cc1834:0278	Oonadiya Parwatte	the hot water mountain	mountain						no_wikidata_candidate		
 cc1834:0279	Oorelya		village	10 mi east of Chilaw		urelu (3)			no_wikidata_candidate		
-cc1834:0280	Oorl Aar			7 mi south west of Calpentyn					no_wikidata_candidate		
+cc1834:0280	Oorl Aar		gulf	7 mi south west of Calpentyn					no_wikidata_candidate		
 cc1834:0281	Ootarapalatta		province						no_wikidata_candidate		
 cc1834:0282	Oottooankande		village						no_wikidata_candidate		
 cc1834:0283	Ouladangawa		village						no_wikidata_candidate		
@@ -299,7 +323,7 @@ cc1834:0297	Panebakry		village						no_wikidata_candidate
 cc1834:0298	Pangragam		village						no_wikidata_candidate		
 cc1834:0299	Panichankeny		village	39 mi north west of Batticalo					wikidata_spelling_candidate		Q27441261 Panichan Keni ()
 cc1834:0300	Panniagalle		village						no_wikidata_candidate		
-cc1834:0301	Panoa	Panahe	province			panay (10); panau (1)			wikidata_spelling_candidate		Q804 Panama (sovereign state in Central America)
+cc1834:0301	Panoa	Panahe	province			panay (10); panau (1)			no_wikidata_candidate		
 cc1834:0302	Pantura	Panadura	village		panadura (48)	panadure (23)	matched	Q7129771	wikidata_exact	Q7129771 Panadura (town in Sri Lanka)	
 cc1834:0303	Paragoda		pass						wikidata_exact	Q7134589 Paragoda (village in Central Province, Sri Lanka)	
 cc1834:0304	Paramakande		hill	15 mi east of Putlam					no_wikidata_candidate		
@@ -308,19 +332,42 @@ cc1834:0306	Pasdoem Korle		province						no_wikidata_candidate
 cc1834:0307	Pasimadoo		village						no_wikidata_candidate		
 cc1834:0308	Passbage		village			pasbage (1); passbagey (1)			no_wikidata_candidate		
 cc1834:0309	Passera		post		passera (2)	paser (1)			no_wikidata_candidate		
-cc1834:0310	Pedro	St	village	3 mi north west of Manaar	pedro (11)	pedro oya (1); pedru (1); sty (1)			no_wikidata_candidate		
+cc1834:0310	Pedro	St	village	3 mi north west of Manaar	pedro (11)	pedru (1); pedro oya (1); stye (1)	review		no_wikidata_candidate		
 cc1834:0311	Peliagodde		village	5 mi north east of Colombo		peliyagoda (4)			wikidata_spelling_candidate		Q3533154 Peliyagoda (suburb in Western Province, Sri Lanka)
 cc1834:0312	Pereatory		village						no_wikidata_candidate		
 cc1834:0313	Perlwellipattoo		province						no_wikidata_candidate		
 cc1834:0314	Perrumamadoo		village						no_wikidata_candidate		
 cc1834:0315	Resale		village	8 mi north west of Manaar					no_wikidata_candidate		
+cc1834:0403	Pichampitty		village						no_wikidata_candidate		
+cc1834:0404	Plopalle		village						no_wikidata_candidate		
+cc1834:0405	Pohalpittia		village						no_wikidata_candidate		
+cc1834:point-pedro	Point Pedro		village	21 mi north east of Jaffnapatam	point pedro (63)		matched	Q2307889	wikidata_exact	Q2307889 Point Pedro (town in Sri Lanka)	
+cc1834:polonnaruwa	Pollannaroowa		city			polanaruwa (1); polannaruwa (1)			no_wikidata_candidate		
+cc1834:0406	Pomparippoo		province			pomparippu (2)			no_wikidata_candidate		
+cc1834:0407	Pomparippoo		village	31 mi north of Putlam		pomparippu (2)			no_wikidata_candidate		
+cc1834:0408	Pomparippoo		river	1 5 mi north of Damboolla		pomparippu (2)			no_wikidata_candidate		
+cc1834:0409	Poneryn	Pooneri	village						no_wikidata_candidate		
+cc1834:0410	Porativoe		province			porativu (1); porativue (1)			no_wikidata_candidate		
+cc1834:0411	Porativoe		village	10 mi south of Batticalo		porativu (1); porativue (1)			no_wikidata_candidate		
+cc1834:0412	Potane		village	10 mi north east of Yalle		potana (1); poththanae (1)			wikidata_spelling_candidate		Q27447296 Pottana () | Q27449619 Pothana ()
+cc1834:0413	Potane		village	10 mi north east of Carrativoe		potana (1); poththanae (1)			wikidata_spelling_candidate		Q27447296 Pottana () | Q27449619 Pothana ()
+cc1834:0414	Puludiwayel		village	5 mi south west of Putlam; 24 mi south of Calpentyn					no_wikidata_candidate		
+cc1834:0415	Pungudutive	Middleburgh	island		middleburgh (1)				wikidata_spelling_candidate		Q3536056 Pungudutivu (island in Sri Lanka)
+cc1834:0416	Punnalle		village			punnalai (1); punalai (1)			wikidata_spelling_candidate		Q27447704 Punnalai ()
+cc1834:0417	Putlam		district		putlam (5)	puttlam (1)	matched	Q3088741	no_wikidata_candidate		
+cc1834:0418	Putlam		district		putlam (5)	puttlam (1)	matched	Q3088741	no_wikidata_candidate		
+cc1834:puttalam-town	Putlam	Putalam	town	85 mi north east of Colombo	putlam (5); putalam (1)	puttalam (576); puttlam (1)	matched	Q3088741	wikidata_spelling_candidate		Q3088741 Puttalam (large town in North Western Province, Sr)
+cc1834:0419	Puttoor		village		puttoor (1)	puttur (4); putoor (1); pootoor (1)			wikidata_spelling_candidate		Q2119342 Puttur (town in Sri Lanka)
+cc1834:0420	Pyagalle		village	5 mi south of Caltura					no_wikidata_candidate		
+cc1834:0421	Quiparawa		lake						no_wikidata_candidate		
 cc1834:0316	Ragampattoo		division						no_wikidata_candidate		
 cc1834:0317	Rajawannipattoo		province						no_wikidata_candidate		
 cc1834:0318	Raly		village						no_wikidata_candidate		
-cc1834:0319	Rambodda		village		rambodda (5)	ramboda (113); rambodde (7); rambody (1)			wikidata_spelling_candidate		Q7289257 Ramboda (village in Central Province, Sri Lanka)
+cc1834:0319	Rambodda		village		rambodda (5)	ramboda (113); rambodde (7); rambody (1)	review		wikidata_spelling_candidate		Q7289257 Ramboda (village in Central Province, Sri Lanka)
 cc1834:0320	Rambooken		village	12 mi north east of Caltura					no_wikidata_candidate		
-cc1834:0321	Ranny		village	11 mi west of Walewy; 9 mi north east of Tangalle		ranna (9); ranua (1); rana (1)			no_wikidata_candidate		
-cc1834:0322	Ratmalane		village	8 mi south of Colombo; 52 mi south east of Colombo	ratmalane (2)	ratmalana (3)			wikidata_spelling_candidate		Q15116985 Ratmalana (suburb in Colombo District, Western Prov)
+cc1834:0321	Ranny		village	11 mi west of Walewy; 9 mi north east of Tangalle		ranna (9); ranau (1); rana (1)			no_wikidata_candidate		
+cc1834:0322	Ratmalane		village	8 mi south of Colombo	ratmalane (2)	ratmalana (3)			wikidata_spelling_candidate		Q15116985 Ratmalana (suburb in Colombo District, Western Prov)
+cc1834:ratnapura	Ratnapoora	the city of rubies	post	52 mi south east of Colombo	ratnapoora (1)	ratnapura (678); rathnapura (4); ratna pura (1)	review		wikidata_spelling_candidate		Q508753 Ratnapura (city in Sabaragamuwa, Sri Lanka)
 cc1834:0323	Ridepane		hill						no_wikidata_candidate		
 cc1834:0324	Ruangwelle		post	42 mi north east of Colombo					no_wikidata_candidate		
 cc1834:0325	Rygam Korle		province						no_wikidata_candidate		
@@ -328,9 +375,10 @@ cc1834:0326	Suffragam	Habaragamuwa	province						no_wikidata_candidate
 cc1834:0327	Salpitty Korle		province						no_wikidata_candidate		
 cc1834:0328	Sammantorre								no_wikidata_candidate		
 cc1834:0329	Sangany		village			sangan (1)			no_wikidata_candidate		
-cc1834:0330	Seedoowa		village			siduwa (1); seeduwa (1)			wikidata_spelling_candidate		Q7445712 Seeduwa (suburb in Gampaha, Western Province, Sri)
+cc1834:0330	Seedoowa		village			seeduwa (1); siduwa (1)			wikidata_spelling_candidate		Q7445712 Seeduwa (suburb in Gampaha, Western Province, Sri)
 cc1834:0331	Seegiri		province			sigiriya (17); sigiri (7)			wikidata_spelling_candidate		Q272153 Sigiriya (ancient rock fortress near Dambulla, Sri)
-cc1834:0332	Senakoodiyiruppoo		village	30 mi east of Colombo					no_wikidata_candidate		
+cc1834:0332	Senakoodiyiruppoo		village						no_wikidata_candidate		
+cc1834:0422	SItawaka			30 mi east of Colombo					no_wikidata_candidate		
 cc1834:0333	Seven Kories		province						no_wikidata_candidate		
 cc1834:0334	Tally		village	8 mi north west of Putlam		taloe (1); talleai (1)			no_wikidata_candidate		
 cc1834:0335	Talamanaar		village			talamannar (1)			no_wikidata_candidate		
@@ -338,6 +386,7 @@ cc1834:0336	Taldenia		village	2 mi east of Lewelle		taldena (21); taldeniya (1)	
 cc1834:0337	Tallawittia		village			talawitiya (3)			no_wikidata_candidate		
 cc1834:0338	Tamana Nuwera		town	6 mi east of Putlam					no_wikidata_candidate		
 cc1834:0339	Tamankadewe		district						no_wikidata_candidate		
+cc1834:0432	Tambalagam	Tambuligama, the village of betel leaf	province			tambalagama (1)			no_wikidata_candidate		
 cc1834:0340	Tambalagam		village	14 mi north west of Trincomalee		tambalagama (1)			no_wikidata_candidate		
 cc1834:0341	Tambagamme		village						no_wikidata_candidate		
 cc1834:0342	Tangalle		town	22 mi north east of Mature	tangalle (44)	tangalla (59)	matched	Q598658	wikidata_exact	Q598658 Tangalle (city in Sri Lanka)	
@@ -347,24 +396,28 @@ cc1834:0345	Tibbattoogodde		village						no_wikidata_candidate
 cc1834:0346	Tilliaddy		village			tiliady (1)			no_wikidata_candidate		
 cc1834:0347	Tillipally		village						no_wikidata_candidate		
 cc1834:0348	Tolpuram	the old city	village			tholpuram (1)			wikidata_exact	Q122829853 Tholpuram ()	
-cc1834:0349	Tope	a grove	village	5 mi north of Negombo		toppu (2); toppoo (1); topo (1)			no_wikidata_candidate		
+cc1834:0349	Tope	a grove	village	5 mi north of Negombo		toppu (2); topo (1); toppoo (1)			no_wikidata_candidate		
 cc1834:0350	Topette		village						no_wikidata_candidate		
 cc1834:0351	Topore		village						no_wikidata_candidate		
 cc1834:0352	Totawelly	the garden plain	village						no_wikidata_candidate		
 cc1834:0353	Trikoil	Tirukovil, the holy temple	village						no_wikidata_candidate		
 cc1834:0354	Trincomalee		town	130 mi south east of Jaffnapatam; 3 mi west of Trincomalee	trincomalee (671)	trincomalie (5); trincomale (1); trincomalle (1)	matched	Q323873	wikidata_exact	Q323873 Trincomalee (city in Sri Lanka)	
 cc1834:0355	Tumpane		district		tumpane (35)	tumpana (1)	review		no_wikidata_candidate		
-cc1834:0356	Udapalatta		province			uda palata (14); udapalata (11); uda palate (1)			no_wikidata_candidate		
+cc1834:0356	Udapalatta		province			uda palata (14); udapalata (11); oodapalata (1)			no_wikidata_candidate		
 cc1834:0357	Udaratta		division			udarata (1)			no_wikidata_candidate		
-cc1834:0358	Uwa		province			uva (916); uvu (1); oowa (1)			no_wikidata_candidate		
+cc1834:0358	Uwa		province			uva (916); uvu (1); uva oya (1)			no_wikidata_candidate		
 cc1834:0359	Velangahena		post						no_wikidata_candidate		
 cc1834:0360	Vertaltivoe	or Wertleteevoe	village	9 mi north of Mantotte Its					no_wikidata_candidate		
 cc1834:0361	Villaway		village						no_wikidata_candidate		
 cc1834:0362	Villaghepolla		village	65 mi north west of Matura					no_wikidata_candidate		
 cc1834:0363	Virdodde		village	7 mi south west of Putlam; 26 mi south of Calpentyn					no_wikidata_candidate		
+cc1834:0423	Virgel		river	25 mi southward of Triricomalee					no_wikidata_candidate		
+cc1834:0424	Virundagodde		town	11 mi north east of Carrativoe					no_wikidata_candidate		
+cc1834:0425	Wahacotta		village			wahakotte (10); wahacotte (3)			wikidata_spelling_candidate		Q7959726 Wahacotte (village in Central Province, Sri Lanka)
 cc1834:0364	Walalawetty Korle		province						no_wikidata_candidate		
 cc1834:0365	Walapanne		province			walapane (81); walapana (4)			wikidata_spelling_candidate		Q16056582 Walapane (town in Sri Lanka)
-cc1834:0366	Walawe Ganga		island	2 mi northward of Hambantotte	walawe ganga (7)	walaweganga (2); wallaweganga (1); wallawe ganga (1)			wikidata_exact	Q12988844 Walawe River (river in Sri Lanka) | Q34819875 Walawe Ganga (river in Sri Lanka) | Q34819892 Walawe Ganga ()	
+cc1834:0366	Walawe Ganga		island	2 mi northward of Hambantotte	walawe ganga (7)	walaweganga (2); wallawe ganga (1); wallaweganga (1)	review		wikidata_exact	Q12988844 Walawe River (river in Sri Lanka) | Q34819875 Walawe Ganga (river in Sri Lanka) | Q34819892 Walawe Ganga ()	
+cc1834:0426	Wallametty torre		village						no_wikidata_candidate		
 cc1834:0367	Wannarpanne		village						wikidata_spelling_candidate		Q7915103 Vannarpannai (suburb in Northern, Sri Lanka)
 cc1834:0368	Wanny		country		wanny (4)	wanni (62); vanni (21); wannu (3)			no_wikidata_candidate		
 cc1834:0369	Warrakapolle		village	35 mi east of Colombo		warakapola (1)			wikidata_spelling_candidate		Q27459466 Warakapola (small town in Kegalle District)

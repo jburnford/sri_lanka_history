@@ -110,16 +110,31 @@ Tea Association). Local identifiers for the Ceylon bodies are a decision for you
 
 ## The 1834 Ceylon Gazetteer (Casie Chitty)
 
-Parsed from the Internet Archive text you sent into 386 entries (`gazetteer/casie_chitty_1834.jsonl`): headword,
-bracketed alternative spellings, kind of place, "N miles <direction> of <place>" statements (122 entries), and
+Parsed from the Internet Archive text you sent into 439 entries (`gazetteer/casie_chitty_1834.jsonl`): headword,
+bracketed alternative spellings, kind of place, "N miles <direction> of <place>" statements (137 entries), and
 the entry text. `analysis/casie_chitty_matches.tsv` lines the headwords up with the journal and with Wikidata's
-Sri Lanka items: 82 headwords occur in the journal as printed and 93 more under a nearby spelling; 28 match a
-Wikidata item exactly and 57 by a spelling-tolerant comparison (Bentotte / Bentota). Those are candidates, not
-decisions. Known gaps: the entries for Ceylon, Kandy, Trincomalee and a few other long articles open in a way
-the parser does not recognise, so their text is attached to the entry before them (flagged with a note).
-The review found a larger case: about 16 entries from Pichampitty to Quiparawa sit inside "Resale"
-(`cc1834:0315`), plus Budumalwal, Wedamaha Nuwera and Wallametty torre inside their neighbours; none of them
-is indexed. Worth redoing on the fresh OCR.
+Sri Lanka items: 96 headwords occur in the journal as printed and 108 more under a nearby spelling; 32 match a
+Wikidata item exactly and 65 by a spelling-tolerant comparison (Bentotte / Bentota). Those are candidates, not
+decisions.
+
+Re-parsed on 17 November 2026 (the first parse had 386 entries). The review's finding was right: one misread
+headword, "Resale" for Pesale, moved the parser's place in the alphabet from P to R, and the 22 entries from
+Pichampitty to Quiparawa were attached to it. The parser now takes alphabetical order from the longest
+consistent run of entries, so one misread letter is an outlier. It also reads entries that open "Kandy. The
+name ...", "CEYLON. The island ...", "Calpentyn (Gulf of). This ...", "Maderegamuwe. a village" (a stop for the
+comma) and headwords the OCR garbled ("Ga//e", "Ha/pe", "llpekadawe"). 53 entries are new; none was dropped,
+and 26 earlier entries lost text that belonged to a neighbour. Ids stay with their entry
+(`gazetteer/casie_chitty_ids.tsv`, keyed on the source line); new entries are numbered from 0387, and six take
+the ids the atlas had already given them by hand (`cc1834:kandy`, `cc1834:galle-town`, ...).
+
+Three headwords are out of alphabetical order where they stand and are probably misread first letters:
+Resale (Pesale), Wedamaha Nuwera (among the Med- entries) and Budumalwal (among the E- entries). They carry a
+note; I have not checked them on the 1834 page images. The Internet Archive text of the 1834 original was read
+as Tamil script and is unusable, so this is still the 1989 Navrang reprint's text; a fresh OCR of the 1834
+scan would settle the misreadings.
+
+The atlas index (`analysis/hgis_chitty_1834_index.tsv`, 393 entries) does not yet list the 46 new entries that
+it did not already hold.
 
 ## What to trust, and how far
 
