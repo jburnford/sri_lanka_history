@@ -1,5 +1,6 @@
 role	label_as_printed	rows
 article	Unenumerated	9366
+country	India, exc. British	8938
 country	Austria	6082
 article	Other	5771
 country	Other British Possessions in Asia	4782
@@ -226,6 +227,7 @@ article	Machinery, sewing machines	288
 article	Anatto seeds	288
 article	Tea machinery	288
 country	Other Parts of the British Empire	287
+country	India (exc. British)	287
 article	Plate, electro-plate	282
 article	Marine stores	282
 article	Carpets and rugs	282
@@ -351,6 +353,7 @@ article	Curry stuffs, fennel seed	183
 article	Lime and clay	183
 article	Small wares, including ribbons and trimmings	182
 article	Unenumerated, dutiable—contd.	180
+article	Pig products, bacon, ham, and pork	180
 article	Tubes, pipes, and fittings	180
 article	Mill board, straw board, card board, and paste board	180
 article	Golf, tennis, and other rubber balls	180
@@ -369,6 +372,7 @@ article	Oil, fish	174
 article	Cuttle fish	174
 article	Military and Naval stores	174
 article	Bolts and nuts	174
+country	India (non-British)	174
 article	Yellow metal	171
 article	Wire, other descriptions of wire	171
 article	Shawls	171
@@ -380,7 +384,9 @@ article	Brass sheets	168
 article	Myrobolans	168
 article	Zinc slabs	165
 article	Beads	165
+article	Oil (refined for food), olive	165
 article	Hoop iron	165
+article	Oil, kerosine, case	162
 article	Salt	162
 article	Machinery, locomotive	162
 article	Hides	162
@@ -466,12 +472,15 @@ article	Silk and Satin.	129
 article	Plate, electroplate—contd.	129
 article	Railway plant and rolling stock, carriages and trucks and parts thereof	129
 article	Soldering fluid	129
+country	India, exo. British	129
 article	Aniline	129
 article	Vegetable : Olive	129
 article	Bleaching materials, other	129
+article	Cordage cables, ropes, and twine of hemp	129
 article	Tanks and drums of iron and steel, black painted or galvanized	129
 article	Oil pressing and refining machinery	128
 country	Other British Pos- sessions in Asia	126
+article	Oil, kerosine, bulk	126
 article	Horns, sambur	126
 country	British N. Borneo	126
 country	Other Foreign Coun. in Australasia	126
@@ -527,8 +536,10 @@ measure	Pasture.	110
 article	Weighing machines	110
 article	Aërated and Mineral Waters	108
 article	Arippo	108
+country	India, excluding British	108
 article	Cycles and parts (other than motor cycles and tyres and tubes)	108
 article	Fertilizers, bone meal	108
+article	Fertilizers, guano, fish guano	108
 article	Arms, small arms, guns : Breech-loading, single-barrelled	108
 article	Arms, small arms, guns : Rifles and carbines, single-barrelled, with magazine	108
 article	Stones and slates, coral stones	108
@@ -612,6 +623,7 @@ measure	Cinna- mon.	84
 measure	With Grain of all kinds.	84
 measure	With Fruits and Vegetables of all kinds.	84
 measure	With Products other than Grain, Fruit, and Vegetables.	84
+article	Seeds (exc. food stuffs), tea	84
 article	Poonac, gingelly	84
 article	Coconut leaf quills	84
 article	Rails and fish plates of steel or iron	84
@@ -715,6 +727,7 @@ article	Road, other than mechanically-propelled other sorts (including wheelbarr
 article	Arms, small arms, rifles and carbines, single-barrelled, with magazine	60
 article	Books, printed, including music, other	60
 article	Oil, castor, unrefined	60
+article	Corn offals, bran, and pollard	60
 article	Spices cloves	60
 measure	Swine	58
 country	India exc. British	57
@@ -732,6 +745,7 @@ article	Explosives, Cartridges	54
 article	Keys	54
 article	Biche-de-mer	54
 article	Textile, unenumerated	54
+country	India, exe. British	54
 country	Other British Possession in Asia	54
 article	Transformers and converters	54
 article	Rail, wagons and trucks, parts	54
@@ -779,6 +793,7 @@ article	Goods unmanufactured not elsewhere specific	48
 country	Or. For. Coun. in America	48
 article	Asses	45
 article	Alkali	45
+country	India, exc., British	45
 article	Tortoise-shell—contd.	45
 article	Instruments, musical, pianos and pianolas (complete)	45
 article	Corn offals, bran and pollard	45
@@ -811,6 +826,7 @@ article	Machinery not elsewhere specified, free	40
 article	Arcanuts	39
 article	Piece goods.	39
 country	in America	39
+article	Oil (refined for food), Olive	39
 article	Beer and ale, bottled—contd.	39
 article	Fertilizers, poonac, groundnut	39
 article	Wire manufactures, wire netting.	39
@@ -924,6 +940,7 @@ article	Outch	27
 article	Chinaware—contd.	27
 article	Cars, motor, chassis	27
 article	Oil seed cake, linseed poonac	27
+article	Seeds (agricultural and horticultural) other than oil seeds, tea	27
 article	Tanning substances not elsewhere specified, bark for tanning and dyeing	27
 article	Huberdashery, buttons and studs, pins, including hat pins	27
 article	Nails, screws, and wire	27
@@ -996,6 +1013,7 @@ country	Ships' stores	24
 article	Timber	21
 article	Brass, brass ware	21
 article	Brit. Col.	21
+country	India, ex. British	21
 country	Sunatra	21
 article	Coul	21
 article	Furnish	21
@@ -1046,6 +1064,7 @@ country	Other British Possessions in Africa.	18
 article	Berlin wool	18
 article	Chalk and Stearine	18
 country	Franco	18
+article	Oil, kerosine, in case	18
 country	In Europe	18
 article	Cable, cordage, and twine	18
 article	Instruments, musical, pianos and pinolus (complete)	18
@@ -1187,6 +1206,7 @@ country	Maldivi Islands	12
 country	Other Foreign Countries—	12
 article	Cars motor, chassis	12
 article	Seeds, ginglyll	12
+country	India, exc. British.	12
 article	Railway plant and rolling stock, rails and fish plates of steel or iron	12
 article	Bloche-de-mer	12
 article	Dammor	12
@@ -1204,6 +1224,8 @@ article	Other.	12
 article	Grain; other	12
 article	Craton seed	12
 article	Seeds for expressing oil therefrom, castor	12
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, indigo (natural)	12
+country	India, Exc. British	12
 article	Road, engines for motor cars, cycles, and tricycles	12
 article	Road, wheels, rims, and spokes for motor cars, motor cycles, and tricycles	12
 article	Wire manufactures, cables and ropes (except insulated telephone and telegraph cables.)	12
@@ -1335,6 +1357,7 @@ article	Swine	6
 article	Frozen, fish	6
 article	Fullerscarth	6
 country	Hong King	6
+country	India, exc. British—	6
 article	Brass, nails, and wire	6
 article	Tiles and tiles	6
 article	Combs and brushes	6
@@ -1387,7 +1410,9 @@ article	Thread— Cotton.	6
 country	tries in Africa	6
 country	Other Foreign Countries in Africa*	6
 country	Phil ppine Islands	6
+country	India, exc. British,	6
 country	Sumpatra	6
+country	India, exc British	6
 country	Jaya	6
 country	BULLION AND COIN.	6
 country	Now South Wales	6
@@ -1418,6 +1443,7 @@ country	Be'gium	6
 article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, other (synthetic)	6
 article	Rail, locomotives	6
 country	Purma	6
+country	India, Exc, British	6
 article	Arms, small arms, rifles and carbines, single-barrelled, without magazine	6
 country	ANIMALS, NOT FOR FOOD.	6
 article	CLASS IV.	6
@@ -1488,6 +1514,7 @@ article	Non-ferrous metalliferous ores and scrap of all description	6
 country	New Zeland	6
 article	Oil seed cake gingelly poonac	6
 article	Seeds for expressing oil therefrom, Castor	6
+article	Fertilizers, guano, Peruvian guano	6
 article	Rail, carriages, complete	6
 article	Arms, small arms, guns : Pistols, single-barrelled, not magazine.	6
 country	Ships & stores	6
@@ -1617,6 +1644,7 @@ article	Glass, window, and German sheet	3
 article	Lorries and parts	3
 article	Paper hanging	3
 article	Uopra	3
+article	Seeds (exc. foodstuffs), tea	3
 country	Co:hin-China	3
 article	Feather ware	3
 country	United Kingdom pieces	3
@@ -1632,6 +1660,7 @@ article	"Straits Settlements . """	3
 article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, cochineal	3
 article	Road, other than mechanically propelled, hand trucks and trolleys	3
 article	Ammunition, propellant powders : Cordite	3
+country	India, exc. Brtiish	3
 article	INSTRUMENTS, other	3
 article	Glass and glassware, window glass	3
 article	Mining and quarry products manufactured, not elsewhere specified	3
@@ -1655,6 +1684,7 @@ country	Othe For. Coun. in Europe	3
 country	Other For. Coun. in Europe,,	3
 article	Abrasives manufactured, cement per cwt. or part thereof in excess of 5 cwt. gross per barrel	3
 article	Wire insulated electric	3
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, indigo (natural)	3
 country	Or. For. Coun.inEurope	3
 article	Road, other than mechanically-propelled hand trucks and trollies	3
 article	Road, engines for motor car cycles and tractors	3

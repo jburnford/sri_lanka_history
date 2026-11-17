@@ -68,3 +68,9 @@ def role_class(roles):
         if re.search(r"\b(city|town|port|village)\b", txt): s += n
         if re.search(r"\b(colony|presidency|province|state|country|protectorate|district|region|island|continent)\b", txt): p += n
     return "settlement" if s > 2 * p and s else "area" if p > 2 * s and p else "mixed"
+
+
+def is_synonym_status(status):
+    """Catalogue of Life statuses that point to another, accepted name. "provisionally accepted" and "accepted" do not:
+    for those the first item of the classification is the parent (a genus), which must not be read as a synonym target."""
+    return "synonym" in (status or "") or (status or "") == "misapplied"

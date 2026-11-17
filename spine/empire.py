@@ -40,12 +40,21 @@ class Empire:
         t = self.terr[tid]
         return (t["start"] is None or y1 >= t["start"]) and (t["end"] is None or y0 <= t["end"])
 
+    def contains(self, tid, y0, y1):
+        """The territory's recorded dates hold the whole span, not just part of it."""
+        t = self.terr[tid]
+        return (t["start"] is None or y0 >= t["start"]) and (t["end"] is None or y1 <= t["end"])
+
     def polity_at(self, qid, y0, y1=None, max_hops=4):
         """-> (territory dict, path list, hops) or (None, [], None). hops == 0 means the item itself is in date."""
         y1 = y1 or y0
         starts = self.by_qid.get(qid, [])
-        for s in starts:
-            if self.covers(s, y0, y1): return self.terr[s], [], 0
+        direct = [s for s in starts if self.covers(s, y0, y1)]
+        if len(direct) > 1:                 # several territories share the item: prefer one whose dates hold the whole span
+            whole = [s for s in direct if self.contains(s, y0, y1)]
+            if len(whole) == 1: direct = whole
+            else: return None, [f"ambiguous: {len(direct)} territories for this item overlap {y0}-{y1}"], None
+        if direct: return self.terr[direct[0]], [], 0
         seen, frontier = set(starts), [(s, []) for s in starts]
         for hop in range(1, max_hops + 1):
             nxt, hits = [], []

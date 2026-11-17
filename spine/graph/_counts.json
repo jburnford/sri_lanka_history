@@ -1,10 +1,10 @@
 {
  "articles": 53501,
- "concepts": 970,
+ "concepts": 969,
  "concept_links": 606,
  "resolutions": 13816,
  "places": 2777,
- "taxa": 3637,
+ "taxa": 3631,
  "mentions": 845450,
  "names": 169425,
  "profiles": 38579,
@@ -15,5 +15,6 @@
  "postings": 12492,
  "col_places": 392,
  "territories": 739,
- "territory_edges": 1176
+ "territory_edges": 1160,
+ "territory_edges_dropped": 16
 }

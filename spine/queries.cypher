@@ -72,13 +72,22 @@ RETURN x.name AS polity, min(t.year) AS firstVolume, max(t.year) AS lastVolume, 
 ORDER BY tables DESC LIMIT 20;
 
 // 11. A traded article by destination and year, from the Blue Book ledgers: citronella oil exports (Ceylon produce, lb.).
-MATCH (o:Observation)-[:MEASURES]->(:Name {key:'citronella oil'})
-WHERE o.kind = 'trade:export:quantity_ceylon_produce' AND o.value IS NOT NULL
-OPTIONAL MATCH (o)-[:ABOUT_PLACE]->(n:Name)-[:RESOLVES_TO]->(p:Place)
-WITH coalesce(p.label, o.area_as_printed) AS destination, o.year_volume AS year, sum(o.value) AS lb
+//     Only links marked exact are used: a heading such as "China, exc. Hong Kong" is linked to China as excludes_part and
+//     is shown under its printed label instead. year_data is the year the period ends; period_as_printed has the period.
+MATCH (o:Observation)-[m:MEASURES]->(:Name {key:'citronella oil'})
+WHERE o.kind = 'trade:export:quantity_ceylon_produce' AND o.value IS NOT NULL AND m.relation = 'exact'
+OPTIONAL MATCH (o)-[a:ABOUT_PLACE]->(n:Name)-[:RESOLVES_TO]->(p:Place) WHERE a.relation = 'exact'
+WITH coalesce(p.label, o.area_as_printed) AS destination, o.year_data AS year, sum(o.value) AS lb
 RETURN destination, collect(toString(year) + ': ' + toString(toInteger(lb))) AS byYear, sum(lb) AS total ORDER BY total DESC LIMIT 12;
 
 // 12. Acreage under a crop by province across volumes (Blue Book "Agricultural Statistics").
+//     A year's return is often printed again in the next volume. Each (crop, year, province) is counted once, from the
+//     earliest volume that prints it; printings lists the volumes, and differing lists the figures when they disagree.
 MATCH (o:Observation {kind:'agriculture:acreage_by_crop'})-[:MEASURES]->(m:Name) WHERE m.key IN ['tea', 'coffee', 'cinchona', 'rubber', 'cacao']
   AND o.value IS NOT NULL AND o.year_data IS NOT NULL AND NOT toLower(o.area_as_printed) CONTAINS 'total'
-RETURN m.key AS crop, o.year_data AS year, toInteger(sum(o.value)) AS acresSummedOverProvinces, count(*) AS provinces ORDER BY crop, year;
+WITH m.key AS crop, o.year_data AS year, toLower(trim(o.area_as_printed)) AS province, o ORDER BY o.year_volume
+WITH crop, year, province, collect(o) AS os
+WITH crop, year, province, head(os).value AS acres, size(os) AS printings,
+     [x IN os WHERE x.value <> head(os).value | province + ' ' + toString(x.year_volume) + ': ' + toString(toInteger(x.value))] AS diff
+RETURN crop, year, toInteger(sum(acres)) AS acresSummedOverProvinces, count(*) AS provinces, max(printings) AS timesPrinted,
+       reduce(l = [], d IN collect(diff) | l + d) AS differingLaterPrintings ORDER BY crop, year;

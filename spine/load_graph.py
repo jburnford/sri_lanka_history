@@ -88,7 +88,7 @@ def main():
               WITH po, r
               CALL (po, r) { WITH po, r WHERE r.place IS NOT NULL MATCH (pl:Place {id:r.place}) CREATE (po)-[:AT]->(pl) }
               CALL (po, r) { WITH po, r WHERE r.colony IS NOT NULL MATCH (co:Place {id:r.colony}) CREATE (po)-[:IN_COLONY]->(co) }
-              CALL (po, r) { WITH po, r WHERE r.polity_at_date IS NOT NULL MATCH (t:Territory {id:r.polity_at_date}) CREATE (po)-[:IN_POLITY]->(t) }""",
+              CALL (po, r) { WITH po, r WHERE r.polity_at_date IS NOT NULL MATCH (t:Territory {id:r.polity_at_date}) CREATE (po)-[:IN_POLITY {coverage:r.polity_coverage, by_lineage:r.polity_by_lineage}]->(t) }""",
             batch=2000, conv=ints("start", "end", "acting", "polity_by_lineage"))
         s.run("MATCH (c:ColPerson) WHERE c.wikidata_qid IS NOT NULL MERGE (w:WikidataPerson {id:'wd:' + c.wikidata_qid}) ON CREATE SET w.qid = c.wikidata_qid MERGE (c)-[:SAME_AS {source:'col_matching person_grounding.final'}]->(w)").consume()
         if (HERE / "bluebook/tables_index.tsv.gz").exists():       # Ceylon Blue Book tables and their labels
@@ -100,23 +100,31 @@ def main():
                     conv=ints("totals_checked", "totals_agree"))
             run(s, "bluebook/table_name_links.tsv.gz", """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table}), (n:Name {id: r.type + ':' + r.key})
                   CREATE (t)-[:HAS_LABEL {cells:r.cells, labels:r.labels, polity_at_date:r.polity_at_date}]->(n)""", batch=5000, conv=ints("cells"))
+        ts = "bluebook/trade_place_senses.tsv"                    # places the trade returns name that the journal's names do not cover
+        if (HERE / ts).exists():
+            run(s, ts, """UNWIND $rows AS r WITH r WHERE r.action = 'link' AND r.qid IS NOT NULL
+                  MERGE (p:Place {id:'wd:' + r.qid}) ON CREATE SET p.qid = r.qid, p.label = r.place_label, p.name = r.place_label, p.description = r.place_description, p.lat = r.lat, p.lon = r.lon
+                  MERGE (n:Name {id:'PLACE:' + r.spine_key}) ON CREATE SET n.type = 'PLACE', n.key = r.spine_key, n.label = r.place_label, n.records = 0, n.articles = 0, n.source = 'bluebook/trade_place_senses.tsv'
+                  MERGE (n)-[x:RESOLVES_TO]->(p) ON CREATE SET x.status = 'matched', x.confidence = 'medium', x.source = 'bluebook/trade_place_senses.tsv', x.rule = 'trade sense decided by Claude, not reviewed by a person'
+                  SET n.resolution_status = 'matched'""", conv=floats("lat", "lon"))
         ob = "bluebook/observations.tsv.gz"                       # printed figures extracted from Blue Book tables
         if (HERE / ob).exists():
             def conv(r):
                 r["value"] = float(r["value"]) if r.get("value") not in (None, "") else None
                 for k in ("year_volume", "year_data"): r[k] = int(r[k]) if r.get(k) else None
             run(s, ob, """UNWIND $rows AS r MATCH (t:BlueBookTable {id:r.table})
-                  CREATE (o:Observation {id:r.id, kind:r.kind, year_volume:r.year_volume, year_data:r.year_data, area_as_printed:r.area_as_printed,
-                          parent_as_printed:r.parent_as_printed, measure_as_printed:r.measure_as_printed, unit_as_printed:r.unit_as_printed,
+                  CREATE (o:Observation {id:r.id, kind:r.kind, year_volume:r.year_volume, year_data:r.year_data, period_as_printed:r.period_as_printed,
+                          area_as_printed:r.area_as_printed, parent_as_printed:r.parent_as_printed, measure_as_printed:r.measure_as_printed,
+                          unit_as_printed:r.unit_as_printed, article_unit_as_printed:r.article_unit_as_printed,
                           value_as_printed:r.value_as_printed, value:r.value, note:r.note})-[:PRINTED_IN]->(t)
                   WITH o, r
-                  CALL (o, r) { WITH o, r WHERE r.area_key IS NOT NULL MATCH (n:Name {id:'PLACE:' + r.area_key}) CREATE (o)-[:ABOUT_PLACE]->(n) }
-                  CALL (o, r) { WITH o, r WHERE r.measure_key IS NOT NULL MATCH (n:Name {id:r.measure_type + ':' + r.measure_key}) CREATE (o)-[:MEASURES]->(n) }""", batch=5000, conv=conv)
+                  CALL (o, r) { WITH o, r WHERE r.area_key IS NOT NULL MATCH (n:Name {id:'PLACE:' + r.area_key}) CREATE (o)-[:ABOUT_PLACE {relation:r.area_relation}]->(n) }
+                  CALL (o, r) { WITH o, r WHERE r.measure_key IS NOT NULL MATCH (n:Name {id:r.measure_type + ':' + r.measure_key}) CREATE (o)-[:MEASURES {relation:r.measure_relation}]->(n) }""", batch=5000, conv=conv)
         om = "bluebook/extracted/officer_matches.tsv"            # people named in the Civil Establishment, per volume
         if (HERE / om).exists():
             run(s, om, """UNWIND $rows AS r CREATE (o:BlueBookOfficer {id:r.bb_person, year:r.year_volume, surname:r.surname, initials:r.initials,
-                  name:r.names_as_printed, offices:r.offices_as_printed, appointment_years:r.appointment_years})
-                  WITH o, r UNWIND split(coalesce(r.tables, ''), ' ') AS tid MATCH (t:BlueBookTable {id:tid}) CREATE (o)-[:LISTED_IN]->(t)""", batch=2000, conv=ints("year_volume"))
+                  name:r.names_as_printed, offices:r.offices_as_printed, appointment_years:r.appointment_years, entries:r.entries, grouping:r.grouping})
+                  WITH o, r UNWIND split(coalesce(r.tables, ''), ' ') AS tid MATCH (t:BlueBookTable {id:tid}) CREATE (o)-[:LISTED_IN]->(t)""", batch=2000, conv=ints("year_volume", "entries"))
             run(s, om, """UNWIND $rows AS r WITH r WHERE r.col_status = 'matched' MATCH (o:BlueBookOfficer {id:r.bb_person}), (c:ColPerson {id:r.col_person})
                   CREATE (o)-[:IDENTIFIED_AS {authority:'colonial_office_list', source:'bluebook/match_officers.py', confidence:r.col_confidence, review_status:'unreviewed'}]->(c)""")
             run(s, om, """UNWIND $rows AS r WITH r WHERE r.journal_profile_candidate IS NOT NULL MATCH (o:BlueBookOfficer {id:r.bb_person}), (p:Profile {id:r.journal_profile_candidate})

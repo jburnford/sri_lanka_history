@@ -139,9 +139,13 @@ def main():
             near = exact or bool(ks & nm)
             kind = fits(t, w, desc, r["roles"])
             if (r["key"], qid) in rejected: kind = None
+            inc = [int(y) for y in w.get("inception", []) if y.isdigit()]
+            late = t == "ORG" and bool(inc) and str(r.get("first") or "").isdigit() and min(inc) > int(r["first"])
+            if late: kind = None          # founded after the journal first names it: a namesake or a predecessor, not this body
             c = {"qid": qid, "label": w.get("labels", {}).get("en") or w.get("labels", {}).get("mul"), "description": desc,
                  "exact": exact, "label_exact": lab_exact, "near": near, "kind": kind, "sitelinks": w.get("sitelinks", 0),
                  "hinted_rank": i + 1 if qi == 0 else None}
+            if late: c["founded_after_first_mention"] = True
             for f in ("taxon_name", "natural_product_of_taxon", "inception", "dissolved", "headquarters", "country"):
                 if w.get(f): c[f] = w[f][:3]
             cands.append(c)

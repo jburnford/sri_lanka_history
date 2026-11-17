@@ -27,7 +27,8 @@ def main():
         if u:
             slim["usage"] = {k: u.get(k) for k in ("id", "name", "authorship", "rank", "status")}
             cl = u.get("classification") or []
-            if u.get("status") != "accepted" and cl: slim["accepted"] = {k: cl[0].get(k) for k in ("id", "name", "authorship", "rank", "status")}
+            if is_synonym_status(u.get("status")) and cl:      # a provisionally accepted name has its genus first here, not an accepted name
+                slim["accepted"] = {k: cl[0].get(k) for k in ("id", "name", "authorship", "rank", "status")}
             slim["family"] = next((c["name"] for c in cl if c.get("rank") == "family"), None)
             slim["kingdom"] = next((c["name"] for c in cl if c.get("rank") == "kingdom"), None)
         return n, slim
@@ -42,7 +43,7 @@ def main():
             d = {"qid": qid, "taxon_name": n, "source": f"catalogue_of_life:{g.RELEASE}"}
             if c.get("match") and u and key(u["name"]) == key(n):
                 d.update(status="matched", col_usage_id=u["id"], col_name=u["name"], col_authorship=u.get("authorship"), col_rank=u.get("rank"),
-                         col_status=u.get("status"), col_accepted=c.get("accepted"), family=c.get("family"), kingdom=c.get("kingdom")); ok += 1
+                         col_status=u.get("status"), col_accepted=c.get("accepted") if is_synonym_status(u.get("status")) else None, family=c.get("family"), kingdom=c.get("kingdom")); ok += 1
             else: d.update(status="unmatched")
             fh.write(json.dumps(d, ensure_ascii=False) + "\n")
     print(f"wikidata taxon items: {len(want)}; joined to Catalogue of Life: {ok}")

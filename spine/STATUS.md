@@ -112,7 +112,7 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Places with a QID | 2,777 |
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
 | Wikidata concepts (taxa, products, diseases, organisations) | 970 |
-| Blue Book tables and officials (person-years) | 48,091 and 167,416 |
+| Blue Book tables and official name groups (volume, surname, given names as printed) | 48,091 and 167,801 |
 | Blue Book figures (acreage, district returns, trade, annual series) | 434,973 |
 | Person profiles | 38,579; 680 linked to Wikidata and/or a Colonial Office List person |
 | Colonial Office List officials and postings | 1,212 and 12,492 |
@@ -160,9 +160,10 @@ Tea Association). Local identifiers for the Ceylon bodies are a decision for you
   model writes plausible tables on blank pages (a 1905 blank verso became "quarterly statements, Q1-Q4").
 - **300,107 links from table labels to names the spine had already resolved**: 21,492 tables name a known
   place, commodity or taxon. Trade partners get the polity for the volume's year.
-- **People**: 167,416 person-years of officials in the 40 volumes that print the lists (1863–1917). 6,100
+- **People**: 167,801 name groups of officials (one per volume, surname and given names as printed; a proposal that
+  the entries are one person, not a count of people) in the 40 volumes that print the lists (1863–1917). 6,089
   match a Colonial Office List person (562 "high": a Ceylon posting's start year and two initials agree;
-  5,439 medium; 99 low) and 13,108 have a journal profile as a candidate. In a sample of 20 earlier matches
+  5,430 medium; 97 low) and 13,182 have a journal profile as a candidate. In a sample of 20 earlier matches
   about 5 were uncertain (common surnames such as de Saram, Dias, Koch with one initial).
 - **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
   figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
@@ -232,22 +233,36 @@ it did not already hold.
   postings get a neighbour's polity (Newfoundland → Dominion of Canada 1867–1931, Penang and Malacca →
   Singapore Crown Colony, Northern Rhodesia → Southern Rhodesia). Not fixed yet.
 
-## Known faults confirmed on 17 Nov 2026, not yet fixed
+## The outside review of 17 Nov 2026 and what was done about it
 
-An outside review (`FOUNDATIONS_REVIEW_2026-11-17.md`, Codex Astra 6.2) found seven faults. I reran each check
-against the graph and the files; all seven hold. Until they are fixed, do not quote:
+`FOUNDATIONS_REVIEW_2026-11-17.md` (Codex Astra 6.2) found seven faults. I reran each of its checks; all seven held.
+They were fixed the same evening, the graph was rebuilt, and each check was run again. None of the fixes has been
+looked at by a person.
 
-- **Trade by destination for India, Victoria, China or Borneo.** "India, exc. British" (8,938 figures, plus about 400
-  under misspellings) is linked to the British Raj, the opposite of what it says; "China, exc. Hong Kong" and
-  "Borneo, exc. British" are cut the same way; all 6,188 "Victoria" figures point to Victoria, British Columbia.
-- **The count of officials as people.** The 167,416 entries are (volume, surname, first initial) groups, so John,
-  Joseph and Jerome Perera of 1892 are one entry. It is a count of name keys, not of people or person-years.
-- **Acreage from query 12** for any year printed in two volumes: it adds both printings (coffee 1868 shows
-  414,132 acres; each volume prints 207,066). The data are right; the query is wrong.
-- **Trade values filtered by unit.** 52,611 rupee values carry `unit_as_printed` "cwt." (the article's quantity unit).
-- Also: 30 postings run past the dates of the polity they are given; 10 provisionally accepted species are loaded as
-  synonyms of their genus; "Indian Bank" (journal, 1898–99) is matched to a bank founded in 1907; 16 of 1,176
-  lineage edges are silently dropped at load.
+| Fault | Fix | Check after |
+|---|---|---|
+| "India, exc. British" (9,807 figures) linked to the British Raj; "Victoria" (6,223) to the Canadian city | `bluebook/trade_place_senses.tsv` decides such headings: the first is left as a printed category, the second is the Australian state (QID read from the local Wikidata dump). Every link now carries a `relation`: exact, excludes_part, includes_more, qualified, broader_head | no "India, exc." figure has a place; Victoria → Q36687 |
+| Article links that fell back to a head word ("Spirits, whisky" → spirits) | still linked, but marked `broader_head` (88,880 figures); only 58,840 trade and acreage figures have an exact commodity link | — |
+| Officials grouped on surname and first initial | grouped on given names as printed; initials alone join a fuller name only when one fits (2,643 groups), and are flagged when several do (93). 385 more groups than before | John, Joseph, Jerome and "J." Perera of 1892 are four groups |
+| Query 12 added both printings of a year's acreage | counts each crop, year and province once, from the earliest volume, and lists later printings that differ | coffee 1868 = 207,066 acres |
+| Rupee values carried the article's quantity unit | `unit_as_printed` is the unit of the figure (Rs. for values); `article_unit_as_printed` keeps the other; `period_as_printed` keeps the period ("1910-11", "6 months ended 1910-06") | all 155,862 trade values are Rs. |
+| Postings given a polity whose dates they overrun | `IN_POLITY` has `coverage`: whole or part; ties between territories prefer the one holding the whole span, else no polity | 25 postings marked part, none unmarked |
+| Provisionally accepted species loaded as synonyms of their genus | only synonym statuses point to an accepted name | none left (was 10) |
+| "Indian Bank" (1898–99) matched to a bank founded 1907 | a body founded after the journal first names it is not offered | unmatched; also drops "Imperial Bureau of Mycology" (named 1918, founded 1920), and settles "Macmillan & Co." |
+| 16 lineage edges dropped silently at load | listed in `analysis/territory_edges_dropped.tsv` with the missing end | load table 1,160 = graph 1,160 |
+
+Observation ids now number figures within their own table, so a change to one table no longer renumbers the rest.
+
+**Still open from the review, not done:**
+- A single-initial group ("J. Perera", "John Perera") can still be several men; nothing in a volume says. Entries
+  with no given name (13,236) are not in the graph. Entry-level nodes with their own ids are not built.
+- `bluebook/link_cells.py` (table labels, not figures) still cuts labels at a comma or bracket.
+- The journal's own name "victoria" is still matched to Victoria, British Columbia; it needs a review of its uses.
+- 88,880 figures with only a head-word commodity link need real article matches before they are added up by commodity.
+- Mention-level evidence for journal names, Sinhala and Tamil keys, decision ids, and a staged, checked release of
+  the graph (the review's second section) are not started.
+- The 43 Statistical View series-years where two period labels share a first year keep both labels in
+  `period_as_printed` but still share `year_data`.
 
 ## Changes made outside this folder
 

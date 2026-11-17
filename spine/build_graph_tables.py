@@ -30,6 +30,10 @@ def w(name, header, rows):
 def year_of(issue):
     m = re.match(r"(\d{4})", issue or ""); return int(m.group(1)) if m else None
 
+def acc(d):
+    """The accepted name a decision points to, only when its own status is a synonym status (see common.is_synonym_status)."""
+    return d.get("col_accepted") if is_synonym_status(d.get("col_status")) else None
+
 def main():
     OUT.mkdir(exist_ok=True); counts = {}
     E = Empire()
@@ -84,8 +88,8 @@ def main():
                 res.append(("TAXON", d["key"], "", d["status"], "", d["source"], d.get("reason") or "", "")); continue
             tid = "cl:" + d["col_usage_id"]
             taxa[tid] = (tid, d["col_name"], d.get("col_authorship"), d.get("col_rank"), d.get("col_status"), d.get("family"), d.get("kingdom"),
-                         "cl:" + d["col_accepted"]["id"] if d.get("col_accepted") else "")
-            if d.get("col_accepted"):
+                         "cl:" + d["col_accepted"]["id"] if acc(d) else "")
+            if acc(d):
                 a = d["col_accepted"]; taxa.setdefault("cl:" + a["id"], ("cl:" + a["id"], a.get("name"), a.get("authorship"), a.get("rank"), a.get("status"), d.get("family"), d.get("kingdom"), ""))
             res.append(("TAXON", d["key"], tid, "matched", "high" if d.get("col_match_type") == "exact" else "medium", d["source"], d.get("col_match_type") or "", ""))
     # ---- Wikidata tier for vernacular taxa, commodities and organisations (ground_names_wd.py)
@@ -98,8 +102,8 @@ def main():
         if j and j["status"] == "matched":                            # same taxon in the Catalogue of Life
             tid = "cl:" + j["col_usage_id"]
             taxa.setdefault(tid, (tid, j["col_name"], j.get("col_authorship"), j.get("col_rank"), j.get("col_status"), j.get("family"), j.get("kingdom"),
-                                  "cl:" + j["col_accepted"]["id"] if j.get("col_accepted") else ""))
-            if j.get("col_accepted"):
+                                  "cl:" + j["col_accepted"]["id"] if acc(j) else ""))
+            if acc(j):
                 a = j["col_accepted"]; taxa.setdefault("cl:" + a["id"], ("cl:" + a["id"], a.get("name"), a.get("authorship"), a.get("rank"), a.get("status"), j.get("family"), j.get("kingdom"), ""))
             clinks.add(("wd:" + qid, tid, "SAME_TAXON"))
     for t in ("taxon", "commodity", "org"):
@@ -187,24 +191,31 @@ def main():
         cp.append(("col:" + p["person_id"], p["person_id"], p.get("surname"), p.get("given_names"), p.get("birth_year"),
                    colq.get(p["person_id"]), min(p.get("editions") or [None]), max(p.get("editions") or [None])))
         for e in ev.get(p["person_id"], []):
-            ys = e.get("year_start"); polity = lineage = ""
+            ys = e.get("year_start"); polity = lineage = cover = ""
             q = e.get("colony_qid") or e.get("place_qid")
             if ys and q and q in E.by_qid:
                 terr, _, hops = E.polity_at(q, ys, e.get("year_end") or ys)
-                if terr: polity, lineage = terr["id"], int(bool(hops))
+                if terr:
+                    polity, lineage = terr["id"], int(bool(hops))
+                    cover = "whole" if E.contains(terr["id"], ys, e.get("year_end") or ys) else "part"   # part: the posting runs outside the polity's dates
             posts.append((f"col:{p['person_id']}#{e.get('seq')}", "col:" + p["person_id"], e.get("position"), e.get("position_norm"), ys, e.get("year_end"),
                           int(bool(e.get("is_acting"))), e.get("place_raw"), ("wd:" + e["place_qid"]) if e.get("place_qid") else "", e.get("place_label"),
-                          ("wd:" + e["colony_qid"]) if e.get("colony_qid") else "", e.get("colony_label"), polity, lineage))
+                          ("wd:" + e["colony_qid"]) if e.get("colony_qid") else "", e.get("colony_label"), polity, lineage, cover))
             for qf, lf in (("place_qid", "place_label"), ("colony_qid", "colony_label")):
                 if e.get(qf): colplaces.setdefault(e[qf], e.get(lf))
     counts["col_persons"] = w("col_persons", ["id", "person_id", "surname", "given_names", "birth_year", "wikidata_qid", "first_edition", "last_edition"], cp)
     counts["postings"] = w("postings", ["id", "person", "position", "position_norm", "start", "end", "acting", "place_as_recorded", "place", "place_label",
-                                        "colony", "colony_label", "polity_at_date", "polity_by_lineage"], posts)
+                                        "colony", "colony_label", "polity_at_date", "polity_by_lineage", "polity_coverage"], posts)
     counts["col_places"] = w("col_places", ["id", "qid", "label"], [("wd:" + q, q, l) for q, l in colplaces.items()])
     # ---- Empire Evolution
     counts["territories"] = w("territories", ["id", "name", "qid", "start", "end", "type"], [(t["id"], t["name"], t["qid"], t["start"], t["end"], t["type"]) for t in E.terr.values()])
     edges = {(a, b, rel) for a, lst in E.adj.items() for b, rel, d in lst if d == "out"}
-    counts["territory_edges"] = w("territory_edges", ["from", "to", "type"], sorted(edges))
+    dangling = sorted(e for e in edges if e[0] not in E.terr or e[1] not in E.terr)       # an end that is not a territory in the manifest
+    counts["territory_edges"] = w("territory_edges", ["from", "to", "type"], sorted(edges - set(dangling)))
+    counts["territory_edges_dropped"] = len(dangling)
+    with open(HERE / "analysis/territory_edges_dropped.tsv", "w") as fh:
+        fh.write("from\tto\ttype\tmissing_end\n")
+        for a_, b_, rel in dangling: fh.write(f"{a_}\t{b_}\t{rel}\t{' '.join(x for x in (a_, b_) if x not in E.terr)}\n")
     json.dump(counts, open(OUT / "_counts.json", "w"), indent=1)
     print(json.dumps(counts, indent=1))
 

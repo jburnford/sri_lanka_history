@@ -35,7 +35,8 @@ def main():
         if u:
             slim["usage"] = {k: u.get(k) for k in ("id", "name", "authorship", "rank", "status", "code", "label")}
             cl = u.get("classification") or []
-            if u.get("status") != "accepted" and cl: slim["accepted"] = {k: cl[0].get(k) for k in ("id", "name", "authorship", "rank", "status", "label")}
+            if is_synonym_status(u.get("status")) and cl:      # a provisionally accepted name has its genus first here, not an accepted name
+                slim["accepted"] = {k: cl[0].get(k) for k in ("id", "name", "authorship", "rank", "status", "label")}
             slim["family"] = next((c["name"] for c in cl if c.get("rank") == "family"), None)
             slim["kingdom"] = next((c["name"] for c in cl if c.get("rank") == "kingdom"), None)
         return r["key"], slim
@@ -76,7 +77,7 @@ def main():
         u = c.get("usage")
         if c.get("match") and u and key(u["name"]) == r["key"]:
             d.update(status="matched", col_usage_id=u["id"], col_name=u["name"], col_authorship=u.get("authorship"), col_rank=u.get("rank"),
-                     col_status=u.get("status"), col_accepted=c.get("accepted"), family=c.get("family"), kingdom=c.get("kingdom"), col_match_type=c.get("type"))
+                     col_status=u.get("status"), col_accepted=c.get("accepted") if is_synonym_status(u.get("status")) else None, family=c.get("family"), kingdom=c.get("kingdom"), col_match_type=c.get("type"))
             s = "matched:" + (u.get("status") or "?")
             # A common word can collide with an unrelated genus (anthrax the disease / Anthrax the fly; castor the
             # oil plant / Castor the beaver). Refuse the match when the journal's own usage points to another kingdom.
