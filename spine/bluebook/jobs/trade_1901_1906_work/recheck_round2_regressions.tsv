@@ -3,5 +3,18 @@ sample_number	before_article	after_article	judgement	reason
 52	Claret— In bottle	Wines, still— Claret— In bottle	no	article_as_printed: expected 'Claret— In bottle', got 'Wines, still— Claret— In bottle'
 53	Claret— In bottle	Wines, still— Claret— In bottle	no	article_as_printed: expected 'Claret— In bottle', got 'Wines, still— Claret— In bottle'
 54	Claret— In wood	Wines, still— Claret— In wood	no	article_as_printed: expected 'Claret— In wood', got 'Wines, still— Claret— In wood'
+137	Unenumerated		removed from output	withheld rather than labelled as readable data
+138	Ebony		removed from output	withheld rather than labelled as readable data
+139	Ebony		removed from output	withheld rather than labelled as readable data
+140	Ebony		removed from output	withheld rather than labelled as readable data
+141	Ebony		removed from output	withheld rather than labelled as readable data
+142	Halmilla		removed from output	withheld rather than labelled as readable data
+143	Satin		removed from output	withheld rather than labelled as readable data
+144	Teak		removed from output	withheld rather than labelled as readable data
 158	Rifles— Magazine	Arms— Rifles— Magazine	no	article_as_printed: expected 'Rifles— Magazine', got 'Arms— Rifles— Magazine'
 163	Rifles— Single	Arms— Rifles— Single	no	article_as_printed: expected 'Rifles— Single', got 'Arms— Rifles— Single'
+228	Fibre— Palmyra		removed from output	withheld rather than labelled as readable data
+229	Fibre— Palmyra		removed from output	withheld rather than labelled as readable data
+230	Horns— Deer		removed from output	withheld rather than labelled as readable data
+231	Horns— Other		removed from output	withheld rather than labelled as readable data
+232	Natural History Specimens		removed from output	withheld rather than labelled as readable data

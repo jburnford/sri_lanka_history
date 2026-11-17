@@ -1,0 +1,53 @@
+table_id	source_row	country_cell	figures	disposition	skip_reason
+bb1901:p639:t1	13	For. Coun.—	"[""3"", ""—"", ""3"", ""280"", ""—"", ""280""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	15	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""56328"", ""56328""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	17	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""435078"", ""435078""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	20	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""2223100"", ""2223100""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	2	Br. Col.—	"[""11"", ""11"", ""722""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	5	Br. Col.—	"[""8"", ""8"", ""62""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	7	For. Coun.—	"["""", """", ""2634""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	13	Br. Col.—	"[""714"", ""714"", ""4444""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	15	For. Coun.—	"[""19610"", ""19610"", ""1""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	22	Br. Col.—	"[""1240"", ""1240"", ""3905""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	26	Br. Col.—	"[""73"", ""73"", ""178""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	29	For. Coun.—	"[""1033"", ""1033"", ""3252""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	34	Br. Col.—	"["""", """", ""6""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	43	Br. Col.—	"[""1143"", ""1143"", ""1911""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	47	Br. Col.—	"[""12"", ""12"", ""298""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	51	For. Coun.	"[""20"", ""20"", ""197""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	8	Br. Col.—	"[""12"", ""12"", ""244""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	11	Br. Col.—	"[""40"", ""40"", ""4400""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	14	For. Coun.—	"[""1206"", ""1206"", ""115639""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	17	Br. Col.—	"[""21"", ""21"", ""900""]"	reassociated	
+bb1902:p607:t1	21	For. Coun.—	"[""40"", ""40"", ""703""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	24	Br. Col.—	"[""5"", ""5"", ""35""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	27	For. Coun.—	"[""906"", ""906"", ""3958""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	34	Br. Col.—	"[""66"", ""66"", ""3084""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	37	For. Coun.—	"[""1"", ""1"", ""66""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p613:t1	53	Br. Col.— { doz.	"[""88889"", ""85577"", """"]"	withheld	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	56	For. Coun.— { yds.	"[""119"", ""119"", ""45""]"	withheld	country alignment uncertain: displaced braced unit lines
+bb1902:p635:t1	5	For. Coun.—	"[""—"", ""—"", ""10""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p637:t1	37	Br. Col.— ... { No.	"[""342505"", ""342505"", ""3951722""]"	braced second line	
+bb1902:p647:t1	4	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""10"", ""10""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p650:t1	5	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""605"", ""605""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	9	For. Coun.—	"[""—"", ""3"", ""3"", ""—"", ""200"", ""200""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	4	Br. Col.—	"[""—"", ""74"", ""74"", ""—"", ""1306"", ""1306"", """"]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	6	For. Coun.—	"[""326"", ""11"", ""337"", ""3000"", ""103"", ""3103"", """"]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	17	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""448500"", ""448500""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	19	Br. Col.—	"[""—"", ""—"", ""—"", ""—"", ""350000"", ""350000""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1903:p642:t1	11	Br. Col.—	"[""—"", ""—"", ""3""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1903:p642:t1	13	For. Coun.—	"[""25"", ""25"", ""1097""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	35	For. Coun.—	"["""", """", ""178""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1904:p700:t1	30	Br. Col.—	"["""", ""395"", ""395"", ""—"", ""4579"", ""4579""]"	verified total	
+bb1904:p710:t1	27	For. Coun.—	"["""", """", """", """", """", ""443""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1905:p658:t1	41	Br. Col.—	"[""932"", ""932"", ""10789""]"	withheld	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1905:p668:t1	15	Br. Col.—	"[""610439"", ""610439"", ""10452032""]"	verified total	
+bb1905:p696:t1	14	Br. Col.—	"[""4"", ""4"", ""10""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1905:p717:t1	72	For. Coun.—	"[""1000"", ""—"", ""1000"", ""1564"", ""155"", ""1719""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1905:p719:t1	24	Br. Col.—	"[""—"", ""89"", ""89"", ""—"", ""1271"", ""1271""]"	verified total	
+bb1905:p720:t1	19	Br. Col.—	"[""3"", ""50"", ""53"", ""214"", ""1620"", ""1864""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1905:p721:t1	7	Br. Col.—	"[""372410"", ""1116"", ""373526"", ""7262"", ""72"", ""7334""]"	verified total	
+bb1906:p660:t1	14	Br. Col.—	"[""1356"", ""1356"", ""37101""]"	verified total	
+bb1906:p675:t1	43	Br. Col.— ... { doz.	"[""213767"", ""218639"", """"]"	braced second line	
+bb1906:p682:t1	10	Br. Col.—	"[""—"", ""—"", ""42""]"	withheld	country alignment uncertain: figures on a country-group marker
+bb1906:p715:t1	9	Br. Col.—	"[""4"", ""25"", ""29"", ""50"", ""250"", ""300""]"	withheld	country alignment uncertain: figures on a country-group marker

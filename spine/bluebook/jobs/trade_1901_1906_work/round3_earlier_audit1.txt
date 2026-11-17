@@ -1,0 +1,125 @@
+{
+  "recheck_counts": {
+    "yes": 184,
+    "cannot tell": 1,
+    "removed from output": 41,
+    "no": 14
+  },
+  "by_old_verdict": {
+    "cannot_tell": {
+      "cannot tell": 1
+    },
+    "not_on_page": {
+      "removed from output": 2
+    },
+    "ok": {
+      "yes": 126,
+      "removed from output": 17,
+      "no": 7
+    },
+    "wrong_article": {
+      "yes": 52,
+      "removed from output": 8,
+      "no": 4
+    },
+    "wrong_country": {
+      "removed from output": 1,
+      "yes": 4
+    },
+    "wrong_unit": {
+      "removed from output": 11,
+      "no": 1,
+      "yes": 2
+    },
+    "wrong_value": {
+      "removed from output": 2,
+      "no": 2
+    }
+  },
+  "metrics": {
+    "1_heading_examples": {
+      "before": 4572,
+      "after": 693
+    },
+    "2_fused_class_group": {
+      "before": 7242,
+      "after": 0
+    },
+    "3_cotton_as_article": {
+      "before": 213,
+      "after": 0
+    },
+    "4_country_list_units": {
+      "before": 990,
+      "after": 0
+    },
+    "5_braces_in_labels": {
+      "before": 227,
+      "after": 0
+    },
+    "6_wrapped_country_fragments": {
+      "before": 48,
+      "after": 0
+    },
+    "7_country_furniture": {
+      "before": 375,
+      "after": 0
+    },
+    "8_government_ledger_rows": {
+      "before": 1803,
+      "after": 1788
+    },
+    "9_tea_components": {
+      "before": 0,
+      "after": 627
+    },
+    "8_government_notes": {
+      "before": 0,
+      "after": 1788
+    },
+    "4_collapsed_source_rows": {
+      "after": 504
+    },
+    "5_ambiguous_brace_source_rows": {
+      "after": 0
+    },
+    "7_lost_country_source_rows": {
+      "after": 0
+    },
+    "9_tea_skipped_source_rows": {
+      "after": 0
+    },
+    "1_heading_uncertain_rows": {
+      "after": 1903
+    },
+    "5_decoded_brace_rows": {
+      "after": 192
+    },
+    "6_joined_or_reassociated_rows": {
+      "after": 784
+    },
+    "6_possible_shift_rows": {
+      "after": 736
+    },
+    "changed_article_as_printed": {
+      "after": 27059
+    },
+    "changed_class_as_printed": {
+      "after": 37956
+    },
+    "changed_group_as_printed": {
+      "after": 17148
+    },
+    "changed_country_as_printed": {
+      "after": 1215
+    },
+    "changed_unit_as_printed": {
+      "after": 1930
+    }
+  },
+  "output_rows": {
+    "before": 79371,
+    "after": 78575
+  },
+  "numeric_provenance_errors": 0
+}

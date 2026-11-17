@@ -1,0 +1,35 @@
+# A historical atlas of influence in Ceylon
+
+Research proposal, 17 November 2026. Companion to the [knowledge graph foundations review](FOUNDATIONS_REVIEW_2026-11-17.md).
+
+**Who connected a particular town to capital, trade, education, religion, and government, and how did those connections change over time?** The directories offer a starting point for an integrated historical GIS and knowledge graph. A researcher could begin with a street in Colombo, a firm in Kandy, or a temple, and follow the people and institutions that connected it to other places.
+
+## What the directories make possible
+
+Ferguson’s 1922 Colombo mercantile list, corrected through December 1921, has separate columns for firms and addresses, partners and assistants, and principal correspondents and agencies. One entry identifies N. D. H. Abdul Caffoor as proprietor and places the business at Caffoor Buildings, Main Street, Fort. That single listing supplies a person, firm, business address, role, and date. The column headings explain the relationships. Across a street, the same evidence could answer a larger question. Which firms working side by side represented businesses in different parts of the island or overseas? [Ferguson’s 1922 directory, printed p. 430, local PDF p. 468](https://www.historyofceylontea.com/ceylon-publications/fergusons-directory/1922-fergusons-ceylon-directory/quick-view/index.php)
+
+The same volume lists licensed pawnbrokers and principal Chetty firms in Colombo, bankers and merchants in Kandy, officers of commercial and educational associations, and past officers of the Ceylon Chamber of Commerce. The 1909 directory offers another route. Its list of Buddhist clergy connects named people with temples, colleges, offices, and localities. These sections allow a history of influence to begin with institutions outside the colonial government and then ask where their members encountered the state. [Ferguson’s 1922 directory, local PDF pp. 462, 547–548, 687](https://www.historyofceylontea.com/ceylon-publications/fergusons-directory/1922-fergusons-ceylon-directory/quick-view/index.php) · [Ferguson’s 1909 directory, local PDF p. 1542](https://www.historyofceylontea.com/ceylon-publications/fergusons-directory/1909-fergusons-ceylon-directory/quick-view/index.php)
+
+## Three research directions
+
+| Direction | What to connect | What a historian could ask |
+|---|---|---|
+| Commercial Ceylon | Proprietors, partners, assistants, firms, branches, correspondents, agencies, business addresses, estates, and ports | Which Kandy businesses had direct external connections? Which depended on Colombo intermediaries? Where did credit, agency work, and estate management overlap? |
+| Civic, religious, and educational authority | Temple offices, schools, colleges, societies, trustees, committee officers, publishers, and their localities | Which people connected institutions across towns? Where did religious or educational networks have a different geography from commercial ones? |
+| Private influence and public office | People in those networks linked to municipal bodies, Legislative Council representation, appointments, petitions, and government contracts where documented | Who held commercial or associational positions before entering public office? Which influential institutions had little visible overlap with the colonial administration? |
+
+Leave **“elite” as a historical question**. A directory entry establishes whom the compiler included and in what capacity. Proprietorship, chairing an association, holding a lending licence, and leading a college each supply different evidence of influence. Preserving those distinctions lets a researcher ask who appears influential by which measure. The 1909 clergy list explicitly selects people the compiler considered prominent. That editorial judgement is part of the evidence.
+
+## How to use the larger Chandra corpus
+
+**Use the directories to generate questions for other sources.** Search for a person, business, building, or institution using spelling variants alongside partners, offices, and nearby places. A Gazette notice might date the dissolution of a partnership. An advertisement might identify a branch or an agency. A journal article might show what an institution did. The locally held 1877 collection of Supreme Court and Kandy District Court decisions on the liability of estate owners and superintendents is a promising complement. Its accounts of advances, purchasing authority, and disputes could show what a directory’s occupational title meant in practice. [Local Chandra text of the 1877 decisions](/mnt/data/jic823/ocr_chandra/out_chandra2/cu31924025004213_8eb5e57a/cu31924025004213/cu31924025004213.md)
+
+**Index the whole corpus by page, then extract relationships section by section.** Chandra’s layout output supplies PDF page numbers, block types, bounding boxes, and content. A page-level index can support discovery across the collection while work on the graph concentrates on recurring layouts. A name in a partners column, a name in a correspondents column, and a name in an advertisement support different claims. Give each listing a citation and each identified person or firm a durable local ID, including those without Wikidata items. Link to the existing History of Ceylon Tea estate and planter registers. The project can then contribute the commercial, civic, and institutional connections around them. [OCR source registry](sources/ocr_registry.tsv) · [Estate and planter linking approach](links/build_hoct_index.py)
+
+**Give each mapped relationship a place role and a date.** The Abdul Caffoor listing supports a business address. A different source might establish a residence, warehouse, estate interest, or the location of a represented firm. Each answers a different geographical question. An address known only to Main Street can be shown at street precision, and a Kandy listing can remain at town precision. Keep the date the relationship is attested separate from the publication date. The 1922 mercantile list was corrected through December 1921, while the same volume’s retrospective Chamber list dates offices to earlier years.
+
+## First pilot: Colombo and Kandy around 1921–22
+
+Start with three bounded sections of the 1922 directory: Colombo merchants and agents, Kandy merchants and bankers, and one set of association officers. Follow a handful of people and firms across the sections, then look for independent evidence in the Gazettes, administration reports, and the *Tropical Agriculturist*. Use the 1909 directory for an earlier comparison where the sections are comparable.
+
+The pilot should let a researcher **click a business address and see who worked there, in what capacity, which other places the firm was connected to, and the page supporting each connection**. The reverse journey matters just as much. Opening a person or institution should reveal its changing geography and the evidence for each location. Try both journeys for a commercial proprietor, a professional assistant, and a religious or educational officeholder before extending the approach across decades or to another colony.

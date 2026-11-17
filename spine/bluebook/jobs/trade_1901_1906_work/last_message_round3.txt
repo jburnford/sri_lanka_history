@@ -1,0 +1,7 @@
+Repaired `read_trade_old.py` and regenerated all three outputs. The third recheck found **267 of 279 samples agree with the scans, 11 were withheld, and one remains ambiguous**. Every emitted figure passed the source-row provenance check.
+
+The Yellow Metal repair puts 87 on Mauritius and 900 on British India. Across all six volumes, the country-alignment audit found 52 markers carrying figures and withheld 177 source rows where the alignment was uncertain. The reader also recovered **371 measures from the 1902 Tea exports**. The OCR omits 35 total-value cells and contains conflicting quantities on two source rows.
+
+Both earlier rechecks were rerun. The first lost 13 previously agreeing rows because of group-heading conflicts identified in the third scan. The second had no regressions.
+
+[Repair report](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/README_round3.md) · [279-row recheck](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/recheck3.tsv) · [Earlier recheck changes](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/recheck_round3_earlier_regressions.tsv)

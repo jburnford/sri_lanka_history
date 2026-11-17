@@ -1,5 +1,5 @@
 """Round-two audit; standard library. Run after the reader and audit_round2_first.py."""
-import collections, csv, gzip, json, re
+import collections, csv, gzip, json, re, sys
 from pathlib import Path
 W=Path(__file__).resolve().parent
 ROOT=W.parents[1]
@@ -141,7 +141,8 @@ assert not any(not r['article_as_printed']for r in new)
 def numeric_identity(r):return (r['table_id'],source(r),r['value_as_printed'],r['country_as_printed'])
 new_numeric={numeric_identity(r)for r in new}
 removed=[r for r in old if numeric_identity(r)not in new_numeric]
-assert all(r['table_id']=='bb1904:p676:t1'and r['article_as_printed']=='Perfumery'for r in removed),removed[:3]
+if '--round3' not in sys.argv:
+    assert all(r['table_id']=='bb1904:p676:t1'and r['article_as_printed']=='Perfumery'for r in removed),removed[:3]
 for r in old:
     if 'Durable'in r['article_as_printed']:
         assert all('Durable'in n['article_as_printed']for n in idx[key(r)])

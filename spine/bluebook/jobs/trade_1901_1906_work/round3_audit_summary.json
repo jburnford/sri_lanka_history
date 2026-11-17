@@ -1,0 +1,169 @@
+{
+  "output_measure_rows": [
+    79072,
+    78575
+  ],
+  "A_marker_candidates": {
+    "withheld": 44,
+    "reassociated": 1,
+    "braced second line": 2,
+    "verified total": 5
+  },
+  "A_markers_by_volume": {
+    "1901": 4,
+    "1902": 32,
+    "1903": 2,
+    "1904": 3,
+    "1905": 7,
+    "1906": 4
+  },
+  "A_marker_tables": 27,
+  "A_takeouts_source_rows": 177,
+  "A_braced_takeouts_source_rows": 21,
+  "A_takeouts_measure_rows": [
+    573,
+    0
+  ],
+  "A_Yellow_Metal_reviewed_shift_measure_rows": [
+    6,
+    9
+  ],
+  "B_Cinnamon_components": [
+    0,
+    278
+  ],
+  "B_Cinnamon_other_quantity": [
+    110,
+    56
+  ],
+  "B_Cinnamon_cropped_value_totals": 25,
+  "B_Cinnamon_unreadable_source_rows": 2,
+  "B_Tea_components": [
+    434,
+    627
+  ],
+  "B_p687_plain_Tea_components": [
+    12,
+    0
+  ],
+  "B_Port_China_quantity_cells": [
+    2,
+    0
+  ],
+  "C_bare_named_leaves_in_reviewed_groups": {
+    "Arms": [
+      348,
+      0
+    ],
+    "Fruit, fresh": [
+      144,
+      0
+    ],
+    "Meat, frozen": [
+      159,
+      0
+    ]
+  },
+  "C_full_names_in_reviewed_groups": {
+    "Arms": [
+      225,
+      573
+    ],
+    "Fruit, fresh": [
+      408,
+      552
+    ],
+    "Meat, frozen": [
+      111,
+      306
+    ]
+  },
+  "C_Printing_Materials": [
+    0,
+    102
+  ],
+  "C_Printing_Materials_relocated_from_split": 93,
+  "D_blank_quantity_units": [
+    802,
+    430
+  ],
+  "D_retained_quantities_new_unit": 359,
+  "D_units_by_evidence": {
+    "ditto": 239,
+    "carried or explicit": 120
+  },
+  "D_units_extracted_with_first_quantity_source_rows": 6,
+  "E_reviewed_conflict_source_rows": 275,
+  "E_reviewed_conflict_measure_rows": [
+    1626,
+    0
+  ],
+  "E_literal_number_as_nested_subgroup": [
+    0,
+    306
+  ],
+  "E_Pearls_group_leak": [
+    84,
+    0
+  ],
+  "F_Gibraltar_Green_dash": [
+    1,
+    0
+  ],
+  "G_1902_Tea": [
+    0,
+    371
+  ],
+  "G_1902_Tea_by_page": {
+    "bb1902:p650:t1": 210,
+    "bb1902:p651:t1": 161
+  },
+  "G_1902_Tea_source_rows": 58,
+  "G_1902_Tea_lost_value_totals": 35,
+  "G_1902_Tea_unreadable_source_rows": 2,
+  "new_recheck": {
+    "agrees": 267,
+    "withheld": 11,
+    "cannot tell": 1
+  },
+  "new_recheck_by_old_verdict": {
+    "cannot_tell": {
+      "cannot tell": 1
+    },
+    "ok": {
+      "agrees": 246,
+      "withheld": 4
+    },
+    "wrong": {
+      "agrees": 21,
+      "withheld": 7
+    }
+  },
+  "earlier_rechecks": {
+    "first": [
+      {
+        "yes": 197,
+        "cannot tell": 1,
+        "removed from output": 26,
+        "no": 16
+      },
+      {
+        "yes": 184,
+        "cannot tell": 1,
+        "removed from output": 41,
+        "no": 14
+      }
+    ],
+    "second": [
+      {
+        "yes": 224,
+        "no": 14
+      },
+      {
+        "yes": 224,
+        "no": 14
+      }
+    ]
+  },
+  "numeric_provenance_errors": 0
+}

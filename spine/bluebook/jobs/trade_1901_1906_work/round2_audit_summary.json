@@ -1,7 +1,7 @@
 {
   "output_rows": {
     "before": 78964,
-    "after": 79072
+    "after": 78575
   },
   "metrics": {
     "A_orphan_Other_or_Arabian": {
@@ -10,7 +10,7 @@
     },
     "A_at_least_three_levels": {
       "before": 90,
-      "after": 3453
+      "after": 3475
     },
     "B_bare_named_food_subentries": {
       "before": 669,
@@ -42,11 +42,11 @@
     },
     "G_wrong_cells_on_unequal_reversed_quantities": {
       "before": 78,
-      "after": 0
+      "after": 6
     },
     "G_reversed_page_quantity_rows": {
       "before": 454,
-      "after": 450
+      "after": 461
     },
     "H_missing_Cotton_on_two_reviewed_continuations": {
       "before": 105,
@@ -54,11 +54,11 @@
     },
     "H_1902_export_empty_class": {
       "before": 1710,
-      "after": 1710
+      "after": 2243
     },
     "H_literal_1_or_L_class": {
       "before": 5721,
-      "after": 5721
+      "after": 5907
     },
     "H_1906_p733_wrong_class": {
       "before": 0,
@@ -86,10 +86,10 @@
     },
     "J_country_rows_with_empty_group": {
       "before": 10380,
-      "after": 9849
+      "after": 9615
     },
     "J_retained_rows_newly_given_country_group": {
-      "after": 639
+      "after": 744
     },
     "I_explicit_ambiguous_subcolumn_skips": {
       "after": 16
@@ -117,10 +117,10 @@
     }
   },
   "first_recheck_counts": {
-    "yes": 197,
+    "yes": 184,
     "cannot tell": 1,
-    "removed from output": 26,
-    "no": 16
+    "removed from output": 41,
+    "no": 14
   },
   "first_recheck_regressions": [
     {
@@ -152,6 +152,62 @@
       "reason": "article_as_printed: expected 'Claret— In wood', got 'Wines, still— Claret— In wood'"
     },
     {
+      "sample_number": "137",
+      "before_article": "Unenumerated",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "138",
+      "before_article": "Ebony",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "139",
+      "before_article": "Ebony",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "140",
+      "before_article": "Ebony",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "141",
+      "before_article": "Ebony",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "142",
+      "before_article": "Halmilla",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "143",
+      "before_article": "Satin",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "144",
+      "before_article": "Teak",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
       "sample_number": "158",
       "before_article": "Rifles— Magazine",
       "after_article": "Arms— Rifles— Magazine",
@@ -164,10 +220,45 @@
       "after_article": "Arms— Rifles— Single",
       "judgement": "no",
       "reason": "article_as_printed: expected 'Rifles— Single', got 'Arms— Rifles— Single'"
+    },
+    {
+      "sample_number": "228",
+      "before_article": "Fibre— Palmyra",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "229",
+      "before_article": "Fibre— Palmyra",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "230",
+      "before_article": "Horns— Deer",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "231",
+      "before_article": "Horns— Other",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
+    },
+    {
+      "sample_number": "232",
+      "before_article": "Natural History Specimens",
+      "after_article": "",
+      "judgement": "removed from output",
+      "reason": "withheld rather than labelled as readable data"
     }
   ],
   "numeric_provenance_errors": 0,
-  "baseline_measure_rows_withheld": 6,
+  "baseline_measure_rows_withheld": 2231,
   "sample2_ambiguous_source_rows": [
     176
   ]

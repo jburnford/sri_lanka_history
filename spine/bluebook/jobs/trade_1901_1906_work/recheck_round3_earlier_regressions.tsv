@@ -1,0 +1,16 @@
+audit	sample_number	table_id	source_row	before	after	old_article	new_article	reason
+first	137	bb1904:p697:t1	6	yes	removed from output	Unenumerated		group number disagrees with the Other heading: (2) Other
+first	138	bb1904:p697:t1	14	yes	removed from output	Ebony		group number disagrees with the Other heading: (2) Other
+first	139	bb1904:p697:t1	14	yes	removed from output	Ebony		group number disagrees with the Other heading: (2) Other
+first	140	bb1904:p697:t1	18	yes	removed from output	Ebony		group number disagrees with the Other heading: (2) Other
+first	141	bb1904:p697:t1	19	yes	removed from output	Ebony		group number disagrees with the Other heading: (2) Other
+first	142	bb1904:p697:t1	23	yes	removed from output	Halmilla		group number disagrees with the Other heading: (2) Other
+first	143	bb1904:p697:t1	38	yes	removed from output	Satin		group number disagrees with the Other heading: (2) Other
+first	144	bb1904:p697:t1	44	yes	removed from output	Teak		group number disagrees with the Other heading: (2) Other
+first	226	bb1906:p716:t1	9	no	removed from output	Fibre— Coir		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	227	bb1906:p716:t1	10	no	removed from output	Fibre— Coir		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	228	bb1906:p716:t1	20	yes	removed from output	Fibre— Palmyra		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	229	bb1906:p716:t1	22	yes	removed from output	Fibre— Palmyra		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	230	bb1906:p716:t1	33	yes	removed from output	Horns— Deer		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	231	bb1906:p716:t1	38	yes	removed from output	Horns— Other		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+first	232	bb1906:p716:t1	44	yes	removed from output	Natural History Specimens		subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous

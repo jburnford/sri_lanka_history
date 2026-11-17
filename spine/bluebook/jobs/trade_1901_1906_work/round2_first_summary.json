@@ -1,9 +1,9 @@
 {
   "recheck_counts": {
-    "yes": 197,
+    "yes": 184,
     "cannot tell": 1,
-    "removed from output": 26,
-    "no": 16
+    "removed from output": 41,
+    "no": 14
   },
   "by_old_verdict": {
     "cannot_tell": {
@@ -13,14 +13,14 @@
       "removed from output": 2
     },
     "ok": {
-      "yes": 134,
-      "removed from output": 9,
+      "yes": 126,
+      "removed from output": 17,
       "no": 7
     },
     "wrong_article": {
-      "yes": 57,
-      "removed from output": 1,
-      "no": 6
+      "yes": 52,
+      "removed from output": 8,
+      "no": 4
     },
     "wrong_country": {
       "removed from output": 1,
@@ -71,55 +71,55 @@
     },
     "9_tea_components": {
       "before": 0,
-      "after": 434
+      "after": 627
     },
     "8_government_notes": {
       "before": 0,
       "after": 1788
     },
     "4_collapsed_source_rows": {
-      "after": 498
+      "after": 504
     },
     "5_ambiguous_brace_source_rows": {
       "after": 0
     },
     "7_lost_country_source_rows": {
-      "after": 43
+      "after": 0
     },
     "9_tea_skipped_source_rows": {
-      "after": 69
+      "after": 0
     },
     "1_heading_uncertain_rows": {
-      "after": 1414
+      "after": 1903
     },
     "5_decoded_brace_rows": {
-      "after": 240
+      "after": 192
     },
     "6_joined_or_reassociated_rows": {
-      "after": 777
+      "after": 784
     },
     "6_possible_shift_rows": {
-      "after": 729
+      "after": 736
     },
     "changed_article_as_printed": {
-      "after": 27672
+      "after": 27059
     },
     "changed_class_as_printed": {
-      "after": 38244
+      "after": 37956
     },
     "changed_group_as_printed": {
-      "after": 18153
+      "after": 17148
     },
     "changed_country_as_printed": {
-      "after": 1236
+      "after": 1215
     },
     "changed_unit_as_printed": {
-      "after": 1773
+      "after": 1930
     }
   },
   "output_rows": {
     "before": 79371,
-    "after": 79072
+    "after": 78575
   },
   "numeric_provenance_errors": 0
 }

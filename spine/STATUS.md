@@ -253,6 +253,16 @@ looked at by a person.
 
 Observation ids now number figures within their own table, so a change to one table no longer renumbers the rest.
 
+**Officials against the Colonial Office List's establishment lists (17 Nov, evening).** The biographies in
+`col_matching` cover few of Ceylon's officials; the List also prints each colony's establishment, parsed there for
+three pilot editions only. `col_roster/extract_ceylon_roster.py` runs that repo's own rules parser over the 49
+editions to 1948: 21,102 Ceylon entries (`col_roster/ceylon_roster.tsv`; about 2% are plainly not people, and
+1,605 sit under a running head shared with another colony). `col_roster/match_bluebook_roster.py` compares each
+Blue Book volume with the nearest edition: 7,011 Blue Book name groups have a unique roster match
+(`bluebook_roster_matches.tsv`), 3,261 of them with no biography match. 62% of roster names are found in the Blue
+Book of that year (`roster_coverage.tsv`). In 16 new matches I read, the offices agreed in 14 or 15. Not loaded
+into the graph; not checked against the pages; the editions of 1948 gave no Ceylon entries.
+
 **Still open from the review, not done:**
 - A single-initial group ("J. Perera", "John Perera") can still be several men; nothing in a volume says. Entries
   with no given name (13,236) are not in the graph. Entry-level nodes with their own ids are not built.

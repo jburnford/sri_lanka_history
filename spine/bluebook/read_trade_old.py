@@ -61,12 +61,13 @@ def num(c):
     return "", False
 
 
-def flow_of(t):
+def flow_of(t, *, wide_exports=False):
     h = " ".join(t["rows"][0]).lower() if t["rows"] else ""
     first = t["rows"][0][0].strip().lower() if t["rows"] else ""
     if "countr" not in h: return None
     if first.startswith("imports") and t["n_cols"] == 5: return "import"
-    if first.startswith("exports") and t["n_cols"] in (8, 9): return "export"
+    widths = (8, 9, 11, 12) if wide_exports else (8, 9)
+    if first.startswith("exports") and t["n_cols"] in widths: return "export"
     return None
 
 
@@ -221,6 +222,24 @@ CLASS_PREFIX = re.compile(r'^((?:[IVXL]+|1|11|111)\.\s*[—–-]*\s*)(Manufactur
 GROUP_TEXT = re.compile(r'^\((\d+|[a-z])\)\.?\s*(Chemical,? Dyeing,? and Tanning(?: Materials)?|Apparel, made up|Food and Drink|Animals, Living|Live Animals|Of Metal \(other than Machinery\.?\)|Metal \(other than Machinery\)|Of Metal other than Machinery|Metal other than Machinery|Of Metal other|Of Metal \(other|Other Mixed Materials|Of Mixed Materials|Silk and Satin|Timber[,;] [un-]*worked|Miscellaneous|Narcotics|Spirits|Textile|Cotton|Linen|Lineh|Woollen|Metal|Other)', re.I)
 UNIT_END = re.compile(r'(?:^|\s)(\{?\s*(?:No\. of Bunches\.?|reams\.?|oz\.?|pwt\.?|gross|val\.?|wt\.?|bots\.?|Bot\.?|pcs\.?|Bars|b\.?|4 doz\.?(?: cases)?|cwt\.?|cwts\.?|tons?\.?|lb\.?|lbs\.?|gals?\.?|yds\.?|doz\.?|pkgs\.?|pieces\.?|cases\.?|No\.?|pairs\.?|bundles\.?|heads?\.?|feet\.?|ft\.?|sq\. ft\.?|' + '|'.join(re.escape(x) for x in sorted(DITTO, key=len, reverse=True)) + r'))\s*$', re.I)
 GENERIC = {'other', 'tinned', 'fresh', 'dried', 'dyed', 'gray', 'grey', 'free', 'dutiable', 'in wood', 'in bottle', 'in bottles', 'bottled', 'unmixed', 'mixed', 'bleached', 'printed', 'single', 'double', 'magazine', 'scientific', 'agricultural', 'locomotive', 'unrefined', 'refined or candied'}
+REVIEWED_CHILDREN = {
+    'Arms': ('Guns, single', 'Guns, double'),
+    'Fruit, fresh': ('Apples', 'Grapes', 'Other'),
+    'Meat, frozen': ('Beef', 'Fish', 'Mutton', 'Pork', 'Poultry and Game'),
+}
+TEA_COMPONENTS = ('black', 'green')
+TEA_HEADER = re.compile(r'^Black(?:\s+(.+?))?\s+Green(?:\s+(.+))?$', re.I)
+CINNAMON_HEADER = re.compile(r'^(Plantation|Quills)[.,]?\s+(Chips)\.?$', re.I)
+GROUP_SHIFT = 'country alignment uncertain: figures on a country-group marker'
+BRACE_SHIFT = 'country alignment uncertain: displaced braced unit lines'
+REVIEWED_GROUP_CONFLICTS = {
+    'bb1902:p656:t1': '(4)',
+    'bb1902:p663:t1': '(8)',
+    'bb1902:p665:t1': '(8)',
+    'bb1904:p695:t1': '(8)',
+    'bb1904:p697:t1': '(2)',
+    'bb1906:p716:t1': '(6)',
+}
 
 
 def name_key(s):
@@ -262,6 +281,11 @@ def table_measures(t, flow):
             elif 'value' in k and 'import' in k: result.append('value_total_rs')
             else: return None
         return result if sorted(result) == sorted(IMPORT) else None
+    if t['rows'][2][2:4] == ['Black', 'Green'] and t['rows'][1][2] == t['rows'][1][3]:
+        titles = list(map(name_key, t['rows'][1][2:9]))
+        prefixes = ('produce', 'produce', 'british', 'total', 'produce', 'british', 'total')
+        if len(titles) == len(prefixes) and all(title.startswith(p) for title, p in zip(titles, prefixes)):
+            return [EXPORT[0], *EXPORT]
     result = []; category = ''
     for j, title in enumerate(t['rows'][1][2:], 2):
         top = name_key(t['rows'][0][j])
@@ -276,6 +300,21 @@ def table_measures(t, flow):
         if not category: return None
         result.append(category + '_' + suffix + ('_rs' if category == 'value' else ''))
     return result if sorted(result) == sorted(EXPORT) else None
+
+
+def tea_header(row):
+    """Find the printed component labels, sometimes fused with figures."""
+    if len(row) < 5: return None
+    first, second = row[2:4]
+    merged = TEA_HEADER.fullmatch(first)
+    if merged:
+        return [*merged.groups(), *row[3:]] if all(merged.groups()) else []
+    if re.match(r'^Black\b', first) and re.match(r'^Green\b', second):
+        figures = [re.sub(r'^(?:Black|Green)\s*', '', x) for x in (first, second)]
+        if not any(figures): return []
+        other = re.sub(r'^Black\s+', '', row[4])
+        return [*figures, other, *row[5:]]
+    return None
 
 
 class HeadingEvidence:
@@ -295,7 +334,7 @@ class HeadingEvidence:
         # Tea—contd. and Dyed—contd. are article continuations.
         for ts in tables:
             for t in ts:
-                if not flow_of(t): continue
+                if not flow_of(t, wide_exports=True): continue
                 for r in t['rows'][1:]:
                     _,s=peel_structure(r[0])
                     s=re.sub(CONT,'',s,flags=re.I).strip()
@@ -305,7 +344,7 @@ class HeadingEvidence:
         for ts in tables:
             seq=[]; last=None; context=''; flow=None; group=''
             for t in ts:
-                f=flow_of(t)
+                f=flow_of(t, wide_exports=True)
                 if not f: continue
                 if f!=flow:
                     sequences.append(seq); seq=[]; context=''; group=''; last=None; flow=f
@@ -370,7 +409,7 @@ class HeadingEvidence:
         for ts in tables:
             prior = ''; previous_flow = None
             for t in ts:
-                f = flow_of(t)
+                f = flow_of(t, wide_exports=True)
                 if not f: continue
                 if f != previous_flow: prior = ''; previous_flow = f
                 last = None
@@ -400,7 +439,7 @@ class HeadingEvidence:
         for run, ts in enumerate(tables):
             stack=[]; prev={}; flow=None; last=None
             for t in ts:
-                f=flow_of(t)
+                f=flow_of(t, wide_exports=True)
                 if not f: continue
                 if f!=flow: stack=[]; prev={}; flow=f; last=None
                 for r in t['rows'][1:]:
@@ -449,8 +488,11 @@ class HeadingEvidence:
         self.children[name_key('Seeds, excluding Food Stuffs')].add('unenumerated')
         # A terminal top-level article after the bullion/coin entries, as
         # printed; the alphabetical heuristic alone cannot distinguish it.
-        self.top_level = {name_key('Pearls and Precious Stones')}
+        self.top_level = {name_key('Pearls and Precious Stones'), name_key('Yellow Metal')}
         for children in self.children.values(): children.difference_update(self.top_level)
+        for parent, leaves in REVIEWED_CHILDREN.items():
+            self.children[name_key(parent)].update(map(name_key, leaves))
+            self.branches.add(name_key(parent))
         # Elliptical comma leaves: learn Cinnamon, Wild from the full forms
         # in other volumes, without changing the current row's word Wild.
         for p, children in self.children.items():
@@ -497,6 +539,9 @@ class ModernReader(Reader):
         self.last_country = ''
         self.last_cg = ''
         self.total_units = []
+        self.last_printed_unit = ''
+        self.unit_branch = ''
+        self.group_problem = ''
 
     def start(self, name, t, i, continued=False):
         name = clean(name).strip()
@@ -540,6 +585,10 @@ class ModernReader(Reader):
         self.finish()
         self.pending = ''
         self.article, self.cg, self.unit = full, self.pending_cg, ''
+        branch = name_key(self.parent)
+        if not branch or branch != self.unit_branch:
+            self.last_printed_unit = ''
+        self.unit_branch = branch
         self.pending_cg = ''
         self.article_note = uncertainty
         if not self.parent: self.top_name = name
@@ -576,21 +625,39 @@ class ModernReader(Reader):
                 # Repeated continuation headings must not discard a live parent.
                 old = name_key(re.sub(r'^(?:[IVXL]+|1|11|111)\.', '', self.cl))
                 new = name_key(re.sub(r'^(?:[IVXL]+|1|11|111)\.', '', text))
-                if old and new and not (old.startswith(new) or new.startswith(old)):
+                old_number, new_number = self.cl.partition('.')[0], text.partition('.')[0]
+                if old and new:
+                    changed = not (old.startswith(new) or new.startswith(old))
+                else:
+                    changed = self.cl and old_number != new_number
+                if changed:
                     self.gr = ''; self.parent = ''; self.top_name = ''; self.heading_context=[]
+                    self.pending = self.group_problem = self.last_printed_unit = ''
                 self.cl = text
             else:
-                if re.match(r'^\(\d+\)', text):
-                    old = re.sub(r'\s*\([a-z]\).*', '', self.gr)
+                number, title = text.split(')', 1)
+                nested = number[1:].isalpha() or (
+                    re.search(r'Raw Materials', self.cl, re.I)
+                    and name_key(title).startswith(('miscellaneous', 'timber')))
+                old = re.split(r'\s+\(\w+\)', self.gr, maxsplit=1)[0]
+                if not nested:
                     same = name_key(old) == name_key(text)
-                    if not same: self.parent = ''; self.top_name = ''; self.heading_context=[]
+                    if not same: self.parent = ''; self.top_name = ''; self.heading_context=[]; self.last_printed_unit=''
                     self.gr = (text + self.gr[len(old):]) if same else text
+                    self.group_problem = ''
+                    if name_key(title) == 'other' and REVIEWED_GROUP_CONFLICTS.get(t['id']) == number + ')':
+                        self.group_problem = 'group number disagrees with the Other heading: ' + text
                 else:
-                    old = re.search(r'\([a-z]\).*', self.gr)
-                    same = old and name_key(old[0]) == name_key(text)
-                    if not same: self.parent = ''; self.top_name = ''; self.heading_context=[]
-                    self.gr = re.sub(r'\s*\([a-z]\).*', '', self.gr).strip() + ' ' + text
-                if not same and re.match(r'^\([a-z]\)', text) and not re.search('contd', s, re.I): self.pending = text
+                    previous = self.gr[len(old):].strip()
+                    if re.match(r'^\([a-z]\)', old): old, previous = '', old
+                    same = name_key(previous) == name_key(text)
+                    if not same: self.parent = ''; self.top_name = ''; self.heading_context=[]; self.last_printed_unit=''
+                    self.gr = ' '.join(filter(None, (old, text)))
+                    if self.group_problem.startswith('subgroup'):
+                        self.group_problem = ''
+                    if REVIEWED_GROUP_CONFLICTS.get(t['id']) == number + ')' and not self.group_problem:
+                        self.group_problem = 'subgroup letter disagrees with the OCR: ' + self.gr
+                if not same and nested and not re.search('contd', s, re.I): self.pending = text
         if not rest or not re.search('[A-Za-z]', rest) or rest in ('Rs.', 'Rs'): return
         # An isolated tail of Manufactured Articles is never a parent.
         rest = re.sub(r'^Articles\.?\s*[—–-]*\s*contd\.?\s*', '', rest, flags=re.I).strip()
@@ -684,6 +751,16 @@ class ModernReader(Reader):
             if body and len(set(body)) == 1 and len(body)>2:
                 r = [body[0], ''] + ['']*(len(r)-2)
             rows.append({'i':i, 'r':r, 'raw':raw, 'notes':[]})
+        # The scan identifies the two displaced Yellow Metal country labels.
+        # Keep the figures on their original rows, including the printed total.
+        if t['id'] == 'bb1902:p607:t1' and [r['r'][1] for r in rows[17:20]] == [
+                'Br. Col.—', 'British India ... "', 'Mauritius ... "']:
+            rows[17]['r'][1] = 'Br. Col.— ' + rows[18]['r'][1]
+            rows[18]['r'][1] = rows[19]['r'][1]
+            rows[19]['r'][1] = ''
+            for item in rows[17:20]:
+                item['notes'].append('country-group alignment verified against the page')
+            rows[16]['omit'] = {'value_total_rs': 'OCR value disagrees with the reviewed Yellow Metal figure'}
         # Two independent names can occupy one OCR cell. Split only when
         # their following country runs have an explicit change of printed unit.
         for j, item in enumerate(rows):
@@ -709,13 +786,22 @@ class ModernReader(Reader):
         j = 0
         while j < len(rows)-1:
             x, y = rows[j], rows[j+1]; r, s = x['r'], y['r']
-            # A heading may share the first continued country's figures,
-            # with its leaf displaced onto the next country row.
-            if r[0].endswith(('—','–')) and any(re.search(r'\d',v) for v in r[2:]) and re.search(CONT+r'$',s[0],re.I):
-                leaf=strip_cont(s[0])
-                if name_key(leaf) in self.evidence.children[name_key(r[0])]:
+            # A class title may wrap across the previous article's total.
+            if re.match(r'^[IVXL1]+\.\s*[—–-]+\s*Bullion and$', r[0]) and clean(s[0]) == 'Coin':
+                r[0] += ' ' + s[0]
+                s[0] = ''
+            cinnamon = CINNAMON_HEADER.fullmatch(r[2].rstrip('-') + s[2]) if r[2].endswith('-') else None
+            if cinnamon and name_key(r[0]) == 'cinnamonplantation':
+                r[2] = ' '.join(cinnamon.groups())
+                s[2] = ''
+            # A data-bearing heading can precede its displaced first leaf.
+            if r[0].endswith(('—','–')) and any(re.search(r'\d',v) for v in r[2:]):
+                u = UNIT_END.search(r[1])
+                leaf = name_key(strip_cont(s[0]))
+                if leaf in self.evidence.children[name_key(r[0])] and (
+                        re.search(CONT+r'$',s[0],re.I) or (u and u[1] not in DITTO)):
                     r[0] += ' '+s[0]
-                    s[0]=''
+                    s[0] = ''
             # Wrapped article names without data (Refined or / Candied).
             if r[0] and r[0] not in ('Rs.', 'Rs') and re.search('[A-Za-z]', r[0]) and not r[1] and (r[0].endswith('-') or clean(r[0]+' '+s[0]) in self.evidence.names) and s[0] and not re.match(r'^[IVXL]+\.|^\(', r[0]) and not r[0].endswith(('—','–','--')) and not re.search('contd',r[0],re.I):
                 s[0] = r[0].rstrip('-') + ('' if r[0].endswith('-') else ' ') + s[0]
@@ -760,28 +846,34 @@ class ModernReader(Reader):
             j+=1
         return rows
 
-    def tea_values(self, figs):
-        figs = list(figs)
-        while len(figs)>6 and not figs[-1]: figs.pop()
-        # OCR occasionally merges Black and Green into one cell.
-        if len(figs)==6 and len(figs[0].split())==2:
-            figs = figs[0].split()+figs[1:]
-        def n(s):
-            v,ok=num(s); return int(v or 0) if ok else None
-        ns=[n(x) for x in figs]
-        if None in ns: return None
-        if len(figs)==7 and sum(ns[:3])==ns[3] and ns[4]+ns[5]==ns[6]:
-            names=[EXPORT[0], EXPORT[0]]+EXPORT[1:]
-            return [(m,r,'component black' if j==0 else 'component green' if j==1 else '') for j,(m,r) in enumerate(zip(names,figs))]
-        if len(figs)==6 and ns[0]+ns[1]==ns[2] and ns[3]+ns[4]==ns[5]:
-            names=[EXPORT[0], EXPORT[0]]+EXPORT[2:]
-            return [(m,r,'component black' if j==0 else 'component green' if j==1 else '') for j,(m,r) in enumerate(zip(names,figs))]
-        return None
+    def component_values(self, figs, components, *, missing_value_total=False):
+        """Map literal cells, retaining only columns present in the OCR."""
+        names = [EXPORT[0], *EXPORT]
+        if len(figs) == 6 and len(figs[0].split()) == 2:
+            figs = figs[0].split() + figs[1:]
+        if missing_value_total:
+            names.pop()
+        elif len(figs) == 6:
+            names.remove(EXPORT[1])
+        vals = [num(raw) for raw in figs]
+        if len(figs) != len(names) or not all(ok for _, ok in vals):
+            return None
+        numbers = [int(v or 0) for v, _ in vals]
+        total = names.index(EXPORT[2])
+        if sum(numbers[:total]) != numbers[total]:
+            return None
+        if not missing_value_total and sum(numbers[-3:-1]) != numbers[-1]:
+            return None
+        return [(m, raw, 'component ' + components[j] if j < 2 else '')
+                for j, (m, raw) in enumerate(zip(names, figs))]
 
     def read(self, tables):
-        for t in tables:
-            flow=flow_of(t)
-            if not flow: continue
+        selected = [t for t in tables if flow_of(t, wide_exports=True)]
+        tea_pages = {t['pdf_page'] for t in selected if flow_of(t, wide_exports=True) == 'export'
+                     and any(tea_header(r) is not None for r in t['rows'])}
+        previous_page = None
+        for t in selected:
+            flow=flow_of(t, wide_exports=True)
             gov=flow=='import' and t['pdf_page'] in self.government_pages
             if flow!=self.flow or gov!=self.gov:
                 self.finish(); self.flow=flow; self.reset(); self.gov=gov
@@ -790,6 +882,19 @@ class ModernReader(Reader):
                 for i,r in enumerate(t['rows'][1:],1): self.skip(t,i,r,'unrecognized table measure headers')
                 continue
             raw_leaf=None
+            shift = ''
+            shift_parent = ''
+            tea_on_page = t['pdf_page'] in tea_pages
+            tea_continued = any(re.search(r'\bTea\s*' + CONT, r[0], re.I) for r in t['rows'][2:8])
+            # Some OCR pages omit the labels at a page break. The contiguous
+            # Tea run still has its component header on the facing page.
+            adjacent_tea_header = (t['pdf_page'] - 1 in tea_pages and tea_continued
+                or t['pdf_page'] + 1 in tea_pages)
+            prior_cinnamon = self.quantity_components if (
+                self.cur and name_key(self.article).endswith('cinnamonplantation')
+                and self.quantity_components and self.quantity_components[-1] == 'chips'
+                and previous_page == t['pdf_page'] - 1) else []
+            previous_page = t['pdf_page']
             for item in self.table_rows(t):
                 i,r,original=item['i'],item['r'],item['raw']
                 if not any(r): continue
@@ -800,8 +905,16 @@ class ModernReader(Reader):
                     r=['',r[0]+' '+r[1]]+r[2:]
                 elif r[0] and LEADERS.search(r[0]) and not r[-1] and num(r[1])[1] and (re.search(r'\d',r[1]) or r[1] in EMPTY- {''}): r=['']+r[:-1]
                 a,c=r[:2]; figs=r[2:]
+                header = tea_header(r) if flow == 'export' else None
+                if header:
+                    figs = header
+                cinnamon = next((m for cell in r[1:4] if (m := CINNAMON_HEADER.fullmatch(cell))), None)
+                if cinnamon:
+                    if a: self.label(a,t,i)
+                    self.quantity_components = [x.lower() for x in cinnamon.groups()]
+                    continue
                 after_label=''
-                if a and c and any(re.search(r'\d', x) for x in figs):
+                if a and name_key(a) != 'printingmaterials' and c and any(re.search(r'\d', x) for x in figs):
                     for cut in [m.start() for m in re.finditer(' ', a)]:
                         left,right=a[:cut],a[cut+1:]
                         h=re.split('[—–]',right,maxsplit=1)[0].strip()
@@ -827,13 +940,18 @@ class ModernReader(Reader):
                 c=re.sub(r'^(?:[—–-]*\s*contd\.?\s*)+', '', c, flags=re.I).strip()
                 c=re.sub(r'^(?:\.{2,}|…)[\s.…]*','',c)
                 hasfig=any(re.search(r'\d',x) for x in figs)
+                shift_leaf = (shift_parent and (
+                    name_key(a) in self.evidence.children[shift_parent]
+                    or (shift_parent in ('gold', 'silver', 'copper') and name_key(a) == 'coin')))
                 if a and any(re.search(r'gal\.?\s+cases|gals?\.?\s*&\s*cases',x,re.I) for x in figs):
                     self.label(a,t,i,True)
                     self.cur['unsafe']='quantity sub-columns gal. / cases: OCR row alignment ambiguous'
                     self.skip(t,i,original,self.cur['unsafe'])
                     continue
                 if not hasfig and all(x in EMPTY or x in ('Rs.','Rs','Black','Green') for x in figs):
-                    if a: self.label(a + (' contd.' if re.fullmatch(r'[—–-]*\s*contd\.?',r[1],re.I) else ''),t,i)
+                    if a:
+                        if not shift_leaf: shift = shift_parent = ''
+                        self.label(a + (' contd.' if re.fullmatch(r'[—–-]*\s*contd\.?',r[1],re.I) else ''),t,i)
                     if class_tail and 'Manufactured' in self.cl and 'Articles' not in self.cl: self.cl += ' Articles'
                     if group_tail and group_tail not in self.gr: self.gr += ' ' + group_tail
                     g=GROUP.match(c)
@@ -844,7 +962,17 @@ class ModernReader(Reader):
                     if not c or re.fullmatch(r'(?:[—–-]*\s*contd\.?\s*)+',c,re.I): continue
                 # A new heading sharing an old total must take effect AFTER it.
                 g=GROUP.match(c)
-                total_before=bool(a and hasfig and self.cur and not self.cur.get('closed') and (not c or (g and not c[g.end():].strip())))
+                group_remainder = c[g.end():].strip() if g else ''
+                group_only = g and not group_remainder
+                group_unit = LEADERS.split(group_remainder, maxsplit=1)
+                # A group marker can share a genuine second unit line. The
+                # leaders and preceding braced record identify that line;
+                # a bare brace next to a marker alone cannot do so.
+                braced_group_line = (g and len(group_unit) == 2 and not group_unit[0]
+                    and group_unit[1].startswith('{') and UNIT_END.fullmatch(group_unit[1])
+                    and self.block and self.block[-1]['t'] is t
+                    and 'braced unit line' in self.block[-1]['notes'])
+                total_before=bool(hasfig and self.cur and not self.cur.get('closed') and ((a and not c) or group_only))
                 if total_before and g:
                     accumulated=collections.defaultdict(Decimal)
                     for rec in self.block:
@@ -853,17 +981,38 @@ class ModernReader(Reader):
                                 v,ok=num(raw)
                                 if v: accumulated[m]+=Decimal(v)
                     total_before = len(figs)>=len(measures) and all(num(raw)[1] and Decimal(num(raw)[0] or '0')==accumulated[m] for m,raw in zip(measures,figs))
+                    if total_before:
+                        notes.append('figures on country-group marker verified as the previous article total')
+                if a and not total_before and not shift_leaf:
+                    shift = shift_parent = ''
+                if hasfig and g and not total_before and not braced_group_line:
+                    tail = LEADERS.sub('', group_remainder, count=1).strip() if not group_unit[0] else group_remainder
+                    if not tail or tail.startswith('{'):
+                        shift = BRACE_SHIFT if tail.startswith('{') or shift == BRACE_SHIFT else GROUP_SHIFT
+                        if a.endswith(('—','–','--')): shift_parent = name_key(a)
+                        # A partially displaced value column can start before
+                        # its first figure on a group marker.
+                        if flow == 'export':
+                            for rec in self.block[:]:
+                                values = rec['values']
+                                if rec['t'] is not t or len(values) != 6: continue
+                                ns = [Decimal(num(raw)[0] or '0') for _,raw,_ in values]
+                                if ns[3] + ns[4] != ns[5]:
+                                    self.skip(t,rec['i'],rec['raw'],shift)
+                                    self.block.remove(rec)
+                                    self.cur['skips'] += 1
+                                    self.cur['countries'] -= rec['kind'] == 'country'
                 deferred=a if total_before else ''
                 if a and not total_before: self.label(a,t,i,True)
+                if prior_cinnamon and name_key(self.article).endswith('cinnamonplantation'):
+                    self.quantity_components = prior_cinnamon
                 if class_tail and 'Manufactured' in self.cl and 'Articles' not in self.cl: self.cl += ' Articles'
                 if group_tail and group_tail not in self.gr: self.gr += ' ' + group_tail
                 if g:
-                    self.cg='British Colonies' if g[1].lower().startswith('br') else 'Foreign Countries'
+                    marked_group = 'British Colonies' if g[1].lower().startswith('br') else 'Foreign Countries'
+                    self.cg = marked_group
+                    if deferred: self.pending_cg = marked_group
                     c=c[g.end():].strip()
-                    if not c and hasfig and not total_before:
-                        self.skip(t,i,original,'country name lost: unlabelled figures on a country-group heading')
-                        if self.cur: self.cur['skips']+=1
-                        continue
                     if not c and not hasfig: continue
                 if re.search(r'carried\s+(?:over|forward)|brought\s+forward',c,re.I):
                     self.skip(t,i,original,'carried over / brought forward, not data'); continue
@@ -872,6 +1021,10 @@ class ModernReader(Reader):
                 if self.pending:
                     self.start(re.sub(r'^\(\w+\)\s*','',self.pending).strip('—–- '),t,i)
                     notes.append('article named by its group heading')
+                if (shift or self.group_problem) and (hasfig or (c and any(figs))):
+                    self.skip(t,i,original,shift or self.group_problem)
+                    if self.cur: self.cur['skips'] += 1
+                    continue
                 if not self.cur or (self.cur.get('closed') and not a and (c or not any('braced unit line' in z['notes'] for z in self.block))):
                     if self.pending:
                         self.start(re.sub(r'^\(\w+\)\s*','',self.pending).strip('—–- '),t,i)
@@ -885,6 +1038,13 @@ class ModernReader(Reader):
                     continue
                 kind='article_total' if not c or re.match(r'^total\b',c,re.I) else 'country'
                 country=''; unit=self.unit
+                # On some pages the OCR puts the unit into the first
+                # quantity cell, before its figure, instead of beside the country.
+                explicit_unit = ''
+                if measures[0].startswith('quantity'):
+                    unit_cell = re.fullmatch(r'(.+?)\s+(\d[\d,]*|[—–-])', figs[0])
+                    if unit_cell and UNIT_END.fullmatch(unit_cell[1]) and unit_cell[1] not in DITTO:
+                        explicit_unit, figs = unit_cell[1], [unit_cell[2], *figs[1:]]
                 if kind=='country':
                     parts=LEADERS.split(c,maxsplit=1)
                     country=parts[0].strip(); tail=parts[1].strip() if len(parts)>1 else ''
@@ -895,9 +1055,14 @@ class ModernReader(Reader):
                     if not country and tail.startswith('{') and self.last_country:
                         country=self.last_country; self.cg=self.last_cg
                         notes.append('second unit line of the same country')
-                    if tail in DITTO or not tail:
-                        unit=self.unit
-                        if tail in DITTO: notes.append('unit from ditto')
+                    if explicit_unit and (not tail or tail in DITTO):
+                        unit = self.unit = self.last_printed_unit = explicit_unit
+                        notes.append('unit printed beside the first quantity')
+                    elif tail in DITTO or not tail:
+                        unit = self.unit or (self.last_printed_unit if tail in DITTO else '')
+                        if tail in DITTO:
+                            notes.append('unit from ditto')
+                            if unit: self.unit = unit
                     else:
                         unit=tail.lstrip('{').strip()
                         if '{' in tail: notes.append('braced unit line')
@@ -906,6 +1071,7 @@ class ModernReader(Reader):
                         if not UNIT_END.fullmatch(unit) or LEADERS.search(unit) or re.search(r'["{}]|Br\.? Col|For\.? Coun',unit,re.I):
                             self.cur['unsafe']='collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace'
                         self.unit=unit
+                        if not self.cur['unsafe']: self.last_printed_unit = unit
                     if not country or re.search(r'\d|[{}]',country):
                         if '{' in c or '}' in c: self.cur['unsafe']='ambiguous braced units: country cannot be assigned'
                         self.skip(t,i,original,'country label not readable'); self.cur['skips']+=1; continue
@@ -927,21 +1093,57 @@ class ModernReader(Reader):
                 if len(component_header)==2 and all(component_header):
                     self.quantity_components=[m[1] for m in component_header]
                     figs=[m[2] for m in component_header]+figs[2:]
-                if flow=='export' and name_key(self.article)=='tea':
-                    values=self.tea_values(figs)
+                split_tea = flow == 'export' and name_key(self.article) == 'tea' and (tea_on_page or adjacent_tea_header)
+                if split_tea:
+                    values = self.component_values(figs, TEA_COMPONENTS)
+                    if not tea_on_page and not tea_continued and len(figs) == 6:
+                        # The OCR may retain the other-produce quantity and
+                        # drop the rightmost value. Require a unique layout.
+                        cropped = self.component_values(figs, TEA_COMPONENTS, missing_value_total=True)
+                        if cropped:
+                            values = None if values else cropped
                     if values is None:
-                        self.skip(t,i,original,'tea row fits no Black + Green + other = total reading'); self.cur['skips']+=1; continue
+                        self.skip(t,i,original,'tea component columns or totals are unreadable'); self.cur['skips']+=1; continue
+                    if len(values) == 6 and values[-1][0] != EXPORT[-1]:
+                        self.skip(t,i,original,'tea value_total_rs missing: OCR ends at other-produce value')
+                elif self.quantity_components and self.quantity_components[-1] == 'chips':
+                    values = self.component_values(figs, self.quantity_components)
+                    if values is None and len(figs) == 6:
+                        values = self.component_values(figs, self.quantity_components, missing_value_total=True)
+                        if values:
+                            self.skip(t,i,original,'Cinnamon value_total_rs missing: OCR ends at other-produce value')
+                    if values is None:
+                        self.skip(t,i,original,'Cinnamon component columns or totals are unreadable')
+                        self.cur['skips'] += 1
+                        continue
                 else:
-                    if len(figs)!=len(measures) or not all(num(x)[1] for x in figs):
+                    if len(measures) == 7 and len(figs) == 7 and figs[1] in EMPTY:
+                        # The extra Green column is vacant after the Tea block.
+                        figs = figs[:1] + figs[2:]
+                    regular_measures = EXPORT if len(measures) == 7 else measures
+                    if len(figs)!=len(regular_measures) or not all(num(x)[1] for x in figs):
                         self.skip(t,i,original,'figures beyond layout or a figure cell is not a plain number'); self.cur['skips']+=1
                         if deferred: self.label(deferred,t,i)
                         continue
                     values=[(measures[0] if self.quantity_components and j<2 else m,x,
                              'component '+self.quantity_components[j] if self.quantity_components and j<2 else '')
-                            for j,(m,x) in enumerate(zip(measures,figs))]
+                            for j,(m,x) in enumerate(zip(regular_measures,figs))]
+                omit = item.get('omit', {})
+                if (t['id'],i) == ('bb1903:p635:t1',25):
+                    omit = {m: 'OCR figure occupies a quantity cell printed as a dash' for m in IMPORT[:2]}
+                if (t['id'],i) == ('bb1903:p668:t1',64):
+                    omit = {IMPORT[1]: 'home-consumption figure withheld: OCR omits the illegible final digit'}
+                if (t['id'],i) == ('bb1903:p682:t1',37):
+                    values = [(m,raw,extra) for m,raw,extra in values if extra != 'component green']
+                    self.skip(t,i,original,'Green quantity withheld: OCR has a dash in a printed blank cell')
+                if omit:
+                    values = [(m,raw,extra) for m,raw,extra in values if m not in omit]
+                    for reason in set(omit.values()):
+                        self.skip(t,i,original,reason)
                 if kind=='country': self.cur['countries']+=1
                 self.block.append(dict(t=t,i=i,raw=original,kind=kind,country=country,unit=unit,cg=self.cg,
                                        cl=self.cl,gr=self.gr,notes=notes,values=values))
+                if braced_group_line: self.cg = marked_group
                 if deferred: self.label(deferred,t,i)
                 if after_label: self.label(after_label,t,i)
         self.finish()

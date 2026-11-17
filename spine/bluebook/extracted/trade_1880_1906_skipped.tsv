@@ -215,44 +215,44 @@ bb1901:p624:t1	4	"[""Umbrellas"", ""United Kingdom ... doz. Br. Col.-- British I
 bb1901:p624:t1	5	"[""Varnish"", ""United Kingdom ... cwt. Br. Col.-- British India ... \"" Hongkong ... \"" For. Coun.-- Belgium ... \"" Germany ... \"" Holland ... \"" U. S. of America ... \"""", ""495 8 2 4 2 18 25 554"", ""489 8 2 4 2 18 25 548"", ""24860 374 113 840 154 524 1963 28828""]"	figures beyond layout or a figure cell is not a plain number
 bb1901:p624:t1	6	"[""Watches"", ""United Kingdom ... No. Br. Col.-- British India ... \"" South Australia ... \"" For. Coun.-- China ... \"" France ... \"" Germany ... \"" Switzerland ... \"""", ""3421 4646 2 1 1057 350 279 9756"", ""3483 4646 2 1 1057 350 279 9818"", ""40321 63814 16 32 3417 1758 1659 111017""]"	figures beyond layout or a figure cell is not a plain number
 bb1901:p624:t1	7	"[""Unenumerated-- Dutiable"", ""United Kingdom ... No. Br. Col.-- Aden ... \"" British India ... \"" Burma ... \"" Hongkong ... \"" Maldive Islands ... \"" Natal ... \"" New South Wales ... \"" Straits Settlements ... \"" Victoria ... \"""", ""173760 67 94994 125 1604 47 1 4 404 142"", ""174212 67 94990 125 1604 47 1 4 404 142"", ""383301 217 73694 21838 186 24 75 84 2727 3167""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p632:t1	49	"["""", ""United Kingdom ..."", ""tation, Chips."", """", """", """", """", """"]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	3	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Austria ... cwt."", ""46"", ""400"", ""—"", ""446"", ""26974"", ""—"", ""26974""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	4	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Belgium ... \"""", ""859"", ""2103"", ""—"", ""2962"", ""179142"", ""—"", ""179142""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	5	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""France ... \"""", ""298"", ""275"", ""—"", ""573"", ""34655"", ""—"", ""34655""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	6	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Germany ... \"""", ""7822"", ""6209"", ""—"", ""14031"", ""848595"", ""—"", ""848595""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	7	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Holland ... \"""", ""45"", ""920"", ""—"", ""965"", ""58363"", ""—"", ""58363""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	8	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Italy ... \"""", ""1005"", ""1142"", ""—"", ""2147"", ""129850"", ""—"", ""129850""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	9	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Spain ... \"""", ""2668"", ""925"", ""—"", ""3593"", ""217305"", ""—"", ""217305""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	10	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""U. S. of America ... \"""", ""3722"", ""200"", ""—"", ""3922"", ""237202"", ""—"", ""237202""]"	figures beyond layout or a figure cell is not a plain number
-bb1901:p633:t1	11	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", """", ""24467"", ""14977"", ""—"", ""39444"", ""2385573"", ""—"", ""2385573""]"	figures beyond layout or a figure cell is not a plain number
 bb1901:p633:t1	12	"[""(2) Food and Drink—contd. Cinnamon, Plantation—contd."", ""Wild ..."", ""United Kingdom ... cwt."", ""176"", ""—"", ""176"", ""591"", ""—"", ""591""]"	figures with no article heading above them
-bb1901:p634:t1	40	"[""Tea ..."", ""United Kingdom ... lb."", ""102637473"", ""260949"", ""—"", ""102698422"", ""33956479"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	42	"["""", ""Aden ... \"""", ""7419"", ""—"", ""—"", ""7419"", ""2448"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	43	"["""", ""British India ... \"""", ""1132790"", ""785"", ""—"", ""1133575"", ""374080"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	44	"["""", ""British East Africa ... \"""", ""28700"", ""—"", ""—"", ""28700"", ""9471"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	45	"["""", ""British West Indies ... \"""", ""30147"", ""7150"", ""—"", ""37297"", ""12308"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	46	"["""", ""Burma ... \"""", ""10648"", ""17443"", ""—"", ""28091"", ""9270"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	47	"["""", ""Canada ... \"""", ""2828457"", ""549013"", ""—"", ""3377470"", ""1114565"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	48	"["""", ""Cape Colony ... \"""", ""85985"", ""—"", ""—"", ""85985"", ""28375"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	49	"["""", ""Gibraltar ... \"""", ""2500"", ""—"", ""—"", ""2500"", ""825"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	50	"["""", ""Hongkong ... \"""", ""434766"", ""403"", ""—"", ""435169"", ""143606"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	51	"["""", ""Malta ... \"""", ""365288"", ""6825"", ""—"", ""372113"", ""122797"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	52	"["""", ""Maldives Islands ... \"""", ""780"", ""—"", ""—"", ""780"", ""257"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	53	"["""", ""Mauritius ... \"""", ""58866"", ""—"", ""—"", ""58866"", ""19426"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	54	"["""", ""Natal ... \"""", ""55627"", ""—"", ""—"", ""55627"", ""18357"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	55	"["""", ""Newfoundland ... \"""", ""170877"", ""—"", ""—"", ""170877"", ""56389"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	56	"["""", ""New South Wales ... \"""", ""7160537"", ""1714"", ""—"", ""7162251"", ""2363543"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	57	"["""", ""New Zealand ... \"""", ""3300723"", ""—"", ""—"", ""3300723"", ""1089239"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	58	"["""", ""Other British Possessions in Asia ... \"""", ""5745"", ""—"", ""—"", ""5745"", ""1896"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	59	"["""", ""Queensland ... \"""", ""779325"", ""—"", ""—"", ""779326"", ""257177"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	60	"["""", ""South Australia ... \"""", ""1913880"", ""1262"", ""—"", ""1915142"", ""631997"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1901:p634:t1	61	"["""", ""Straits Settlements ... \"""", ""128851"", ""—"", ""—"", ""128851"", ""42521"", ""—""]"	tea row fits no Black + Green + other = total reading
+bb1901:p634:t1	40	"[""Tea ..."", ""United Kingdom ... lb."", ""102637473"", ""260949"", ""—"", ""102698422"", ""33956479"", ""—""]"	tea component columns or totals are unreadable
+bb1901:p634:t1	42	"["""", ""Aden ... \"""", ""7419"", ""—"", ""—"", ""7419"", ""2448"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	43	"["""", ""British India ... \"""", ""1132790"", ""785"", ""—"", ""1133575"", ""374080"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	44	"["""", ""British East Africa ... \"""", ""28700"", ""—"", ""—"", ""28700"", ""9471"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	45	"["""", ""British West Indies ... \"""", ""30147"", ""7150"", ""—"", ""37297"", ""12308"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	46	"["""", ""Burma ... \"""", ""10648"", ""17443"", ""—"", ""28091"", ""9270"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	47	"["""", ""Canada ... \"""", ""2828457"", ""549013"", ""—"", ""3377470"", ""1114565"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	48	"["""", ""Cape Colony ... \"""", ""85985"", ""—"", ""—"", ""85985"", ""28375"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	49	"["""", ""Gibraltar ... \"""", ""2500"", ""—"", ""—"", ""2500"", ""825"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	50	"["""", ""Hongkong ... \"""", ""434766"", ""403"", ""—"", ""435169"", ""143606"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	51	"["""", ""Malta ... \"""", ""365288"", ""6825"", ""—"", ""372113"", ""122797"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	52	"["""", ""Maldives Islands ... \"""", ""780"", ""—"", ""—"", ""780"", ""257"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	53	"["""", ""Mauritius ... \"""", ""58866"", ""—"", ""—"", ""58866"", ""19426"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	54	"["""", ""Natal ... \"""", ""55627"", ""—"", ""—"", ""55627"", ""18357"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	55	"["""", ""Newfoundland ... \"""", ""170877"", ""—"", ""—"", ""170877"", ""56389"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	56	"["""", ""New South Wales ... \"""", ""7160537"", ""1714"", ""—"", ""7162251"", ""2363543"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	57	"["""", ""New Zealand ... \"""", ""3300723"", ""—"", ""—"", ""3300723"", ""1089239"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	58	"["""", ""Other British Possessions in Asia ... \"""", ""5745"", ""—"", ""—"", ""5745"", ""1896"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	59	"["""", ""Queensland ... \"""", ""779325"", ""—"", ""—"", ""779326"", ""257177"", ""—""]"	tea component columns or totals are unreadable
+bb1901:p634:t1	60	"["""", ""South Australia ... \"""", ""1913880"", ""1262"", ""—"", ""1915142"", ""631997"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1901:p634:t1	61	"["""", ""Straits Settlements ... \"""", ""128851"", ""—"", ""—"", ""128851"", ""42521"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
 bb1901:p638:t1	66	"["""", ""Russia in Europe ... \"""", ""1 case butterflies"", ""—"", ""1 case butterflies"", ""75"", ""—"", ""75""]"	figures beyond layout or a figure cell is not a plain number
 bb1901:p638:t1	69	"["""", """", ""1 case butterflies"", ""—"", ""1 case butterflies"", ""—"", ""—"", ""—""]"	figures with no article heading above them
-bb1901:p639:t1	13	"["""", ""For. Coun.—"", ""3"", ""—"", ""3"", ""280"", ""—"", ""280""]"	country name lost: unlabelled figures on a country-group heading
+bb1901:p639:t1	13	"["""", ""For. Coun.—"", ""3"", ""—"", ""3"", ""280"", ""—"", ""280""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	14	"["""", ""Austria ... \"""", ""2"", ""—"", ""2"", ""100"", ""—"", ""100""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	15	"["""", ""Belgium ... \"""", ""5"", ""—"", ""5"", ""45"", ""—"", ""45""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	16	"["""", ""Egypt ... \"""", ""—"", ""2"", ""2"", ""—"", ""15"", ""15""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	17	"["""", ""France ... \"""", ""1"", ""—"", ""1"", ""90"", ""—"", ""90""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	18	"["""", ""Germany ... \"""", ""4"", ""—"", ""4"", ""500"", ""—"", ""500""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	19	"["""", ""Japan ... \"""", ""29"", ""—"", ""29"", ""750"", ""—"", ""750""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	20	"["""", ""Java ... \"""", ""2"", ""—"", ""2"", ""100"", ""—"", ""100""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	21	"["""", ""Other For. Coun. in Australasia ... \"""", ""21"", ""—"", ""21"", ""1160"", ""—"", ""1160""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	22	"["""", ""Russia in Europe ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p639:t1	23	"["""", """", ""331"", ""24"", ""355"", ""5257"", ""4800"", ""10057""]"	country alignment uncertain: figures on a country-group marker
 bb1901:p642:t1	47	"["""", ""doz."", ""—"", ""107"", ""107"", ""—"", ""6064"", ""6064""]"	figures with no article heading above them
 bb1901:p642:t1	48	"["""", ""yds."", ""—"", ""16891"", ""16891"", ""—"", ""—"", ""—""]"	figures with no article heading above them
-bb1901:p644:t1	24	"[""Iron—"", ""Corrugated ... Maldiv Islands... cwt."", ""—"", ""60"", ""60"", ""—"", ""200"", ""200""]"	figures with no article heading above them
+bb1901:p644:t1	24	"[""Iron—"", ""Corrugated ... Maldiv Islands... cwt."", ""—"", ""60"", ""60"", ""—"", ""200"", ""200""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1901:p644:t1	48	"[""Lead—"", ""Tea Lead ... British India ... cwt."", ""—"", ""744"", ""744"", ""—"", ""13272"", ""13272""]"	figures with no article heading above them
 bb1901:p644:t1	49	"[""Lead—"", ""Straits Settlements ... \"""", ""—"", ""41"", ""41"", ""—"", ""605"", ""605""]"	figures with no article heading above them
 bb1901:p644:t1	50	"[""Lead—"", ""Zanzibar ... \"""", ""—"", ""2"", ""2"", ""—"", ""30"", ""30""]"	figures with no article heading above them
@@ -274,9 +274,10 @@ bb1901:p650:t1	12	"[""Manure ..."", ""United Kingdom ... cwt. Br. Col.— Britis
 bb1901:p650:t1	13	"["""", """", ""2971"", ""457"", ""3428"", ""18594"", ""1655"", ""20249""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1901:p651:t1	13	"["""", ""& 1 roll"", """", """", ""& 1 roll"", """", """", """"]"	country label not readable
 bb1901:p651:t1	15	"["""", ""& 1 roll"", """", """", ""& 1 roll"", """", """", """"]"	figures with no article heading above them
-bb1901:p654:t1	15	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""56328"", ""56328""]"	country name lost: unlabelled figures on a country-group heading
-bb1901:p654:t1	17	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""435078"", ""435078""]"	country name lost: unlabelled figures on a country-group heading
-bb1901:p654:t1	20	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""2223100"", ""2223100""]"	country name lost: unlabelled figures on a country-group heading
+bb1901:p654:t1	15	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""56328"", ""56328""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	16	"["""", ""British India ... \"""", ""—"", ""—"", ""—"", ""—"", ""378750"", ""378750""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	17	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""435078"", ""435078""]"	country alignment uncertain: figures on a country-group marker
+bb1901:p654:t1	20	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""2223100"", ""2223100""]"	country alignment uncertain: figures on a country-group marker
 bb1902:p590:t1	16	"[""Goats ..."", ""Br. Col.— ... No."", """", """", """"]"	country label not readable
 bb1902:p590:t1	39	"["""", ""United Kingdom ... No."", ""kegs 5 3474"", ""kegs 5 3474"", ""1398""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p590:t1	48	"["""", """", ""5 736880"", ""5 736880"", ""5427""]"	figures beyond layout or a figure cell is not a plain number
@@ -305,27 +306,65 @@ bb1902:p596:t1	9	"["""", """", ""2115"", ""2115"", ""27803""]"	collapsed article
 bb1902:p596:t1	10	"[""Beans ..."", ""United Kingdom ... cwt. Br. Col.— British India ... \"" Burma ... \"" Hongkong ... \"" Maldives Islands ... \"" For. Coun.— China ... \"" Italy ... \"""", ""13 2827 7726 25226 7 16758 45"", ""13 2827 49139 25226 7 16758 45"", ""159 19794 49139 141024 16 96373 415""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p596:t1	11	"["""", """", ""52602"", ""52602"", ""306920""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1902:p601:t1	1	"[""(2) Food and Drink—contd."", ""(2) Food and Drink—contd."", ""(2) Food and Drink—contd."", ""(2) Food and Drink—contd."", ""Rs.""]"	country label not readable
-bb1902:p606:t1	2	"["""", ""Br. Col.—"", ""11"", ""11"", ""722""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	5	"["""", ""Br. Col.—"", ""8"", ""8"", ""62""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	7	"["""", ""For. Coun.—"", """", """", ""2634""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	13	"["""", ""Br. Col.—"", ""714"", ""714"", ""4444""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	15	"["""", ""For. Coun.—"", ""19610"", ""19610"", ""1""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	22	"["""", ""Br. Col.—"", ""1240"", ""1240"", ""3905""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	26	"["""", ""Br. Col.—"", ""73"", ""73"", ""178""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	29	"["""", ""For. Coun.—"", ""1033"", ""1033"", ""3252""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	34	"["""", ""Br. Col.—"", """", """", ""6""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	43	"["""", ""Br. Col.—"", ""1143"", ""1143"", ""1911""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	47	"["""", ""Br. Col.—"", ""12"", ""12"", ""298""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p606:t1	51	"["""", ""For. Coun."", ""20"", ""20"", ""197""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	8	"[""Plates ..."", ""Br. Col.—"", ""12"", ""12"", ""244""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	11	"["""", ""Br. Col.—"", ""40"", ""40"", ""4400""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	14	"["""", ""For. Coun.—"", ""1206"", ""1206"", ""115639""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	17	"["""", ""Br. Col.—"", ""21"", ""21"", ""900""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	21	"["""", ""For. Coun.—"", ""40"", ""40"", ""703""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	24	"[""Dutiable ..."", ""Br. Col.—"", ""5"", ""5"", ""35""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	27	"["""", ""For. Coun.—"", ""906"", ""906"", ""3958""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	34	"[""Alizarine ..."", ""Br. Col.—"", ""66"", ""66"", ""3084""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p607:t1	37	"["""", ""For. Coun.—"", ""1"", ""1"", ""66""]"	country name lost: unlabelled figures on a country-group heading
+bb1902:p606:t1	2	"["""", ""Br. Col.—"", ""11"", ""11"", ""722""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	3	"["""", ""British India ... \"""", """", """", ""14849""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	5	"["""", ""Br. Col.—"", ""8"", ""8"", ""62""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	6	"["""", ""British India ... \"""", """", """", ""7183""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	7	"["""", ""For. Coun.—"", """", """", ""2634""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	8	"["""", ""Belgium ... \"""", ""1896"", ""1396"", ""17623""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	9	"["""", ""Germany ... \"""", ""479"", ""479"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	10	"["""", ""Sweden ... \"""", ""2172"", ""2172"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	11	"["""", """", ""5988"", ""5988"", ""38632""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	13	"["""", ""Br. Col.—"", ""714"", ""714"", ""4444""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	14	"["""", ""British India ... \"""", """", """", ""99759""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	15	"["""", ""For. Coun.—"", ""19610"", ""19610"", ""1""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	16	"["""", ""Belgium ... \"""", """", """", ""1200""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	17	"["""", ""China ... \"""", ""237"", ""237"", ""10673""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	18	"["""", ""Germany ... \"""", ""1373"", ""1373"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	19	"["""", ""Sweden ... \"""", """", """", ""145842""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	20	"["""", """", ""26786"", ""26786"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	22	"["""", ""Br. Col.—"", ""1240"", ""1240"", ""3905""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	23	"["""", ""British India ... \"""", """", """", ""5997""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	24	"["""", """", ""3240"", ""3240"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	26	"["""", ""Br. Col.—"", ""73"", ""73"", ""178""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	27	"["""", ""British India ... \"""", ""5"", ""5"", ""150""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	28	"["""", ""Straits Settlements ... \"""", """", """", ""5653""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	29	"["""", ""For. Coun.—"", ""1033"", ""1033"", ""3252""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	30	"["""", ""Belgium ... \"""", ""579"", ""579"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	31	"["""", ""Germany ... \"""", """", """", ""32560""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	32	"["""", """", ""5103"", ""5103"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	34	"["""", ""Br. Col.—"", """", """", ""6""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	35	"["""", ""British India ... \"""", ""1000"", ""1000"", ""10000""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	36	"["""", ""New South Wales ... \"""", ""409"", ""409"", ""3694""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	37	"["""", ""Victoria ... \"""", ""10012"", ""10012"", ""100000""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	38	"["""", ""South Australia ... \"""", """", """", ""113932""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	39	"["""", """", ""11442"", ""11442"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	43	"["""", ""Br. Col.—"", ""1143"", ""1143"", ""1911""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	44	"["""", ""British India ... \"""", """", """", ""2334""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	45	"["""", """", ""1849"", ""1849"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	47	"["""", ""Br. Col.—"", ""12"", ""12"", ""298""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	48	"["""", ""British India ... cwt."", """", """", ""320""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	49	"["""", """", ""13"", ""13"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	51	"["""", ""For. Coun."", ""20"", ""20"", ""197""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	52	"["""", ""Germany ... \"""", """", """", ""2313""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p606:t1	53	"["""", """", ""200"", ""200"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	8	"[""Plates ..."", ""Br. Col.—"", ""12"", ""12"", ""244""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	9	"["""", ""New South Wales ... \"""", ""7526"", ""7526"", ""85057""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	11	"["""", ""Br. Col.—"", ""40"", ""40"", ""4400""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	12	"["""", ""British India ... \"""", ""957"", ""957"", ""91869""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	13	"["""", ""Straits Settlements ... \"""", ""30"", ""30"", ""2459""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	14	"["""", ""For. Coun.—"", ""1206"", ""1206"", ""115639""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	16	"[""Yellow Metal ..."", ""United Kingdom ... cwt."", ""30"", ""30"", ""1380""]"	OCR value disagrees with the reviewed Yellow Metal figure
+bb1902:p607:t1	21	"["""", ""For. Coun.—"", ""40"", ""40"", ""703""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	22	"["""", ""Belgium ... \"""", ""44"", ""44"", ""797""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	24	"[""Dutiable ..."", ""Br. Col.—"", ""5"", ""5"", ""35""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	25	"["""", ""British India ... \"""", ""70"", ""70"", ""1066""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	27	"["""", ""For. Coun.—"", ""906"", ""906"", ""3958""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	28	"["""", ""Belgium ... \"""", ""2750"", ""2750"", ""12815""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	29	"["""", ""Germany ... \"""", ""6247"", ""6247"", ""35916""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	34	"[""Alizarine ..."", ""Br. Col.—"", ""66"", ""66"", ""3084""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	37	"["""", ""For. Coun.—"", ""1"", ""1"", ""66""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p607:t1	38	"["""", ""Belgium ... \"""", ""1"", ""1"", ""93""]"	country alignment uncertain: figures on a country-group marker
 bb1902:p611:t1	3	"[""Shells. ...."", ""Br. Col.— British India ... cwt. Maldivé Islands ... \"""", ""14 4299"", ""14 4299"", ""100 36210""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p611:t1	4	"["""", ""For. Coun.— Germany ... \"""", ""— —"", ""— —"", ""78""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1902:p611:t1	5	"["""", """", ""4313"", ""4313"", ""36388""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -345,8 +384,27 @@ bb1902:p611:t1	18	"[""Teak ..."", ""Br. Col.— British India ... tons Burma ...
 bb1902:p611:t1	19	"["""", """", ""6491"", ""6491"", ""624568""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1902:p612:t1	79	"[""Carried over"", ""Carried over"", """", """", """"]"	carried over / brought forward, not data
 bb1902:p613:t1	5	"["""", ""Brought forward"", ""9768789"", ""9816368"", ""Rs. 1765494""]"	carried over / brought forward, not data
-bb1902:p613:t1	72	"["""", ""yds."", ""432182"", ""460972"", ""361403""]"	figures with no article heading above them
-bb1902:p613:t1	73	"["""", ""doz."", ""168480"", ""163857"", """"]"	figures with no article heading above them
+bb1902:p613:t1	53	"["""", ""Br. Col.— { doz."", ""88889"", ""85577"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	54	"["""", ""British India ... { yds."", ""72355"", ""70279"", ""120787""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	55	"["""", ""Straits Settlements ... { doz."", ""68688"", ""58688"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	56	"["""", ""For. Coun.— { yds."", ""119"", ""119"", ""45""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	57	"["""", ""Austria ... \"""", ""402"", ""402"", ""280""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	58	"["""", ""Belgium ... \"""", ""—"", ""7375"", ""—""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	59	"["""", ""China ... { yds."", ""511"", ""511"", ""196""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	60	"["""", ""France ... { doz."", ""9"", ""9"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	61	"["""", ""Germany ... { yds."", ""360"", ""360"", ""828""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	62	"["""", ""Holland ... { doz."", ""60"", ""60"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	63	"["""", ""India (exc. British) ... { yds."", ""8661"", ""8661"", ""6324""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	64	"["""", ""Italy ... { doz."", ""2345"", ""1095"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	65	"["""", ""Japan ... { yds."", ""2090"", ""2090"", ""10050""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	66	"["""", ""Switzerland ... { doz."", ""4831"", ""4470"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	67	"["""", ""India (exc. British) ... { yds."", ""1501"", ""1501"", ""1697""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	68	"["""", ""Italy ... { doz."", ""1029"", ""1029"", """"]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	69	"["""", ""Japan ... { yds."", ""6087"", ""6337"", ""2803""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	70	"["""", ""Switzerland ... { doz."", ""2851"", ""2851"", ""505""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	71	"["""", """", ""2829"", ""2829"", ""7328""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	72	"["""", ""yds."", ""432182"", ""460972"", ""361403""]"	country alignment uncertain: displaced braced unit lines
+bb1902:p613:t1	73	"["""", ""doz."", ""168480"", ""163857"", """"]"	country alignment uncertain: displaced braced unit lines
 bb1902:p615:t1	53	"["""", ""Carried over ..."", ""37901"", ""39138"", ""20729""]"	carried over / brought forward, not data
 bb1902:p616:t1	5	"["""", ""Brought forward ..."", ""37901"", ""39138"", ""20729""]"	carried over / brought forward, not data
 bb1902:p620:t1	65	"["""", ""Carried over ..."", ""297"", ""298"", ""17078""]"	carried over / brought forward, not data
@@ -361,50 +419,94 @@ bb1902:p628:t1	6	"[""Gunny Bags ..."", ""United Kingdom ... cwt. Br. Col.— Bri
 bb1902:p628:t1	7	"["""", """", ""8331"", ""8331"", ""98313""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1902:p628:t1	8	"[""Haberdashery ..."", ""United Kingdom ... pkgs. Br. Col.— British India ... \"" Burma ... \"" Cape Colony ... \"" Gibraltar ... \"" Hongkong ... \"" Maldivé Islands ... \"" Malta ... \"" Mauritius ... \"" Natal ... \"" New South Wales ... \"" New Zealand ... \"" Queensland ... \"" South Australia ... \"" Straits Settlements ... \"" Tasmania ... \"" Victoria ... \"" West Australia ... \"" For. Coun.— Austria ... \"" Belgium ... \"" China ... \"" Egypt ... \"" France ... \"" Germany ... \"" Italy ... \"" Japan ... \"" Java ... \"" Philippine Islands ... \"" Russia in Europe ... \"" Switzerland ... \"""", ""9742 16148 8 9 2 9 29 12 4 1 25 17 6 45 365 1 42 20 88 1 279 61 125 405 5 57 2 1 1 1"", ""9709 16148 8 9 2 9 29 12 4 1 25 17 6 45 365 1 42 20 81 1 279 61 125 403 5 57 2 1 1 1"", ""1037491 545969 145 168 234 329 340 467 27 8 552 228 118 705 22246 15 1108 346 13851 66 6868 8172 8406 40888 567 1853 75 2 15 6""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p628:t1	9	"["""", """", ""27511"", ""27469"", ""1691948""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1902:p635:t1	5	"["""", ""For. Coun.—"", ""—"", ""—"", ""10""]"	country name lost: unlabelled figures on a country-group heading
+bb1902:p635:t1	5	"["""", ""For. Coun.—"", ""—"", ""—"", ""10""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p635:t1	6	"["""", ""Germany ... \"""", ""4138"", ""4138"", ""9645""]"	country alignment uncertain: figures on a country-group marker
 bb1902:p637:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p637:t1	52	"["""", """", ""tons"", ""32901"", ""4978518""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p637:t1	53	"["""", """", ""No."", ""528561"", ""4978518""]"	figures beyond layout or a figure cell is not a plain number
 bb1902:p638:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
-bb1902:p647:t1	4	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""10"", ""10""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p650:t1	5	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""605"", ""605""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p650:t1	29	"["""", ""United Kingdom ... lb."", ""103182944"", ""411514"", ""—"", ""103593858"", ""37293789"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	31	"["""", ""Aden ... \"""", ""6820"", ""—"", ""—"", ""6820"", ""2383"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	32	"["""", ""British Guiana ... \"""", ""250"", ""—"", ""—"", ""250"", ""90"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	33	"["""", ""British East Africa ... \"""", ""11740"", ""—"", ""—"", ""11740"", ""4227"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	34	"["""", ""British India ... \"""", ""811581"", ""27760"", ""—"", ""839341"", ""302162"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	35	"["""", ""British West Indies ... \"""", ""39250"", ""—"", ""—"", ""39250"", ""14130"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	36	"["""", ""Burma ... \"""", ""6298"", ""1486"", ""—"", ""7784"", ""2802"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	37	"["""", ""Canada ... \"""", ""4251367"", ""736534"", ""—"", ""4987901"", ""1795644"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	38	"["""", ""Cape Colony ... \"""", ""251183"", ""—"", ""—"", ""251183"", ""90426"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	39	"["""", ""Gibraltar ... \"""", ""3500"", ""—"", ""—"", ""3500"", ""1260"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	40	"["""", ""Hongkong ... \"""", ""280572"", ""24080"", ""—"", ""304652"", ""109675"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	41	"["""", ""Maldiv Islands ... \"""", ""802"", ""—"", ""—"", ""802"", ""289"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	42	"["""", ""Malta ... \"""", ""351665"", ""—"", ""—"", ""351565"", ""126563"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	43	"["""", ""Mauritius ... \"""", ""76389"", ""—"", ""—"", ""76389"", ""27500"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	44	"["""", ""Natal ... \"""", ""130535"", ""—"", ""—"", ""130535"", ""46993"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	45	"["""", ""Newfoundland ... \"""", ""147063"", ""250"", ""—"", ""147313"", ""53032"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	46	"["""", ""New South Wales ... \"""", ""6276506"", ""—"", ""—"", ""6276506"", ""2259542"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	47	"["""", ""New Zealand ... \"""", ""3114574"", ""75"", ""—"", ""3114649"", ""1121274"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	48	"["""", ""Other British Possessions in Africa ... \"""", ""41518"", ""—"", ""—"", ""41518"", ""14947"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	49	"["""", ""Other British Possessions in Asia ... \"""", ""4557"", ""—"", ""—"", ""4557"", ""1640"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	50	"["""", ""Queensland ... \"""", ""875025"", ""—"", ""—"", ""875025"", ""315009"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	51	"["""", ""South Australia ... \"""", ""1423006"", ""—"", ""—"", ""1423006"", ""512282"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	52	"["""", ""Straits Settlements ... \"""", ""212353"", ""—"", ""—"", ""212353"", ""76447"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	53	"["""", ""Tasmania ... \"""", ""90219"", ""—"", ""—"", ""90219"", ""32479"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	54	"["""", ""Victoria ... \"""", ""6362478"", ""—"", ""—"", ""6362478"", ""2290492"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	55	"["""", ""West Australia ... \"""", ""693467"", ""—"", ""—"", ""693467"", ""249648"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	56	"["""", ""Zanzibar ... \"""", ""28456"", ""—"", ""—"", ""28456"", ""10245"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	58	"["""", ""Arabia ... \"""", ""3530"", ""—"", ""—"", ""3530"", ""1271"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	59	"["""", ""Algiers ... \"""", ""100"", ""—"", ""—"", ""100"", ""36"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	60	"["""", ""Austria ... \"""", ""67434"", ""—"", ""—"", ""67434"", ""24276"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	61	"["""", ""Belgium ... \"""", ""116300"", ""—"", ""—"", ""116300"", ""41868"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	62	"["""", ""China (excluding Hongkong) ... \"""", ""4244856"", ""2500"", ""—"", ""4247356"", ""1529048"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	63	"["""", ""Cochin China ... \"""", ""130"", ""—"", ""—"", ""130"", ""47"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	64	"["""", ""Denmark ... \"""", ""36563"", ""—"", ""—"", ""36563"", ""13162"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	65	"["""", ""Egypt ... \"""", ""132803"", ""1200"", ""—"", ""134003"", ""48241"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	66	"["""", ""France ... \"""", ""198416"", ""—"", ""—"", ""198416"", ""71430"", ""—""]"	tea row fits no Black + Green + other = total reading
-bb1902:p650:t1	67	"["""", ""Germany ... \"""", ""607063"", ""—"", ""—"", ""607063"", ""218543"", ""—""]"	tea row fits no Black + Green + other = total reading
+bb1902:p647:t1	4	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""10"", ""10""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p647:t1	5	"["""", ""British India ... \"""", ""7"", ""1"", ""8"", ""157"", ""76"", ""233""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p647:t1	6	"["""", ""Straits Settlements ... \"""", ""—"", ""3"", ""3"", ""—"", ""174"", ""174""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p647:t1	7	"["""", """", ""7"", ""4"", ""11"", ""157"", ""260"", ""417""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p648:t1	45	"["""", ""United Kingdom ... cwt."", ""3745"", ""2055"", ""5810"", ""370910"", ""—"", ""370910""]"	Cinnamon component columns or totals are unreadable
+bb1902:p648:t1	66	"["""", ""Spain ... \"""", ""3676"", ""1322"", ""4997"", ""319009"", ""—"", ""319009""]"	Cinnamon component columns or totals are unreadable
+bb1902:p650:t1	5	"["""", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""605"", ""605""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p650:t1	6	"["""", ""British India ... \"""", ""—"", ""21"", ""21"", ""—"", ""171"", ""171""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p650:t1	7	"["""", ""Straits Settlements \"""", ""—"", ""10"", ""10"", ""—"", ""100"", ""100""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p650:t1	8	"["""", """", ""—"", ""73"", ""73"", ""—"", ""876"", ""876""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p650:t1	29	"["""", ""United Kingdom ... lb."", ""103182944"", ""411514"", ""—"", ""103593858"", ""37293789"", ""—""]"	tea component columns or totals are unreadable
+bb1902:p650:t1	31	"["""", ""Aden ... \"""", ""6820"", ""—"", ""—"", ""6820"", ""2383"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	32	"["""", ""British Guiana ... \"""", ""250"", ""—"", ""—"", ""250"", ""90"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	33	"["""", ""British East Africa ... \"""", ""11740"", ""—"", ""—"", ""11740"", ""4227"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	34	"["""", ""British India ... \"""", ""811581"", ""27760"", ""—"", ""839341"", ""302162"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	35	"["""", ""British West Indies ... \"""", ""39250"", ""—"", ""—"", ""39250"", ""14130"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	36	"["""", ""Burma ... \"""", ""6298"", ""1486"", ""—"", ""7784"", ""2802"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	37	"["""", ""Canada ... \"""", ""4251367"", ""736534"", ""—"", ""4987901"", ""1795644"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	38	"["""", ""Cape Colony ... \"""", ""251183"", ""—"", ""—"", ""251183"", ""90426"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	39	"["""", ""Gibraltar ... \"""", ""3500"", ""—"", ""—"", ""3500"", ""1260"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	40	"["""", ""Hongkong ... \"""", ""280572"", ""24080"", ""—"", ""304652"", ""109675"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	41	"["""", ""Maldiv Islands ... \"""", ""802"", ""—"", ""—"", ""802"", ""289"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	42	"["""", ""Malta ... \"""", ""351665"", ""—"", ""—"", ""351565"", ""126563"", ""—""]"	tea component columns or totals are unreadable
+bb1902:p650:t1	43	"["""", ""Mauritius ... \"""", ""76389"", ""—"", ""—"", ""76389"", ""27500"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	44	"["""", ""Natal ... \"""", ""130535"", ""—"", ""—"", ""130535"", ""46993"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	45	"["""", ""Newfoundland ... \"""", ""147063"", ""250"", ""—"", ""147313"", ""53032"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	46	"["""", ""New South Wales ... \"""", ""6276506"", ""—"", ""—"", ""6276506"", ""2259542"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	47	"["""", ""New Zealand ... \"""", ""3114574"", ""75"", ""—"", ""3114649"", ""1121274"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	48	"["""", ""Other British Possessions in Africa ... \"""", ""41518"", ""—"", ""—"", ""41518"", ""14947"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	49	"["""", ""Other British Possessions in Asia ... \"""", ""4557"", ""—"", ""—"", ""4557"", ""1640"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	50	"["""", ""Queensland ... \"""", ""875025"", ""—"", ""—"", ""875025"", ""315009"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	51	"["""", ""South Australia ... \"""", ""1423006"", ""—"", ""—"", ""1423006"", ""512282"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	52	"["""", ""Straits Settlements ... \"""", ""212353"", ""—"", ""—"", ""212353"", ""76447"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	53	"["""", ""Tasmania ... \"""", ""90219"", ""—"", ""—"", ""90219"", ""32479"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	54	"["""", ""Victoria ... \"""", ""6362478"", ""—"", ""—"", ""6362478"", ""2290492"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	55	"["""", ""West Australia ... \"""", ""693467"", ""—"", ""—"", ""693467"", ""249648"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	56	"["""", ""Zanzibar ... \"""", ""28456"", ""—"", ""—"", ""28456"", ""10245"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	58	"["""", ""Arabia ... \"""", ""3530"", ""—"", ""—"", ""3530"", ""1271"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	59	"["""", ""Algiers ... \"""", ""100"", ""—"", ""—"", ""100"", ""36"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	60	"["""", ""Austria ... \"""", ""67434"", ""—"", ""—"", ""67434"", ""24276"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	61	"["""", ""Belgium ... \"""", ""116300"", ""—"", ""—"", ""116300"", ""41868"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	62	"["""", ""China (excluding Hongkong) ... \"""", ""4244856"", ""2500"", ""—"", ""4247356"", ""1529048"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	63	"["""", ""Cochin China ... \"""", ""130"", ""—"", ""—"", ""130"", ""47"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	64	"["""", ""Denmark ... \"""", ""36563"", ""—"", ""—"", ""36563"", ""13162"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	65	"["""", ""Egypt ... \"""", ""132803"", ""1200"", ""—"", ""134003"", ""48241"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	66	"["""", ""France ... \"""", ""198416"", ""—"", ""—"", ""198416"", ""71430"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p650:t1	67	"["""", ""Germany ... \"""", ""607063"", ""—"", ""—"", ""607063"", ""218543"", ""—""]"	tea value_total_rs missing: OCR ends at other-produce value
+bb1902:p656:t1	5	"[""Other ..."", ""United Kingdom ... cwt."", ""4"", ""—"", ""4"", ""100"", ""25"", ""125""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	7	"["""", ""British India ... \"""", ""129"", ""41"", ""170"", ""2338"", ""530"", ""2868""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	8	"["""", ""Maldivé Islands ... \"""", ""—"", ""2"", ""2"", ""—"", ""38"", ""38""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	9	"["""", ""Straits Settlements ... \"""", ""—"", ""1"", ""1"", ""—"", ""8"", ""8""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	10	"["""", ""West Australia ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	12	"["""", ""Egypt ... \"""", ""—"", ""10"", ""10"", ""—"", ""50"", ""50""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	13	"["""", ""France ... \"""", ""1247"", ""—"", ""1247"", ""1498"", ""—"", ""1498""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	14	"["""", ""Germany ... \"""", ""27"", ""40"", ""67"", ""200"", ""600"", ""800""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	15	"["""", ""U. S. of America ... \"""", ""—"", ""—"", ""—"", ""20"", ""—"", ""20""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	16	"["""", """", ""1408"", ""94"", ""1502"", ""4181"", ""1251"", ""5432""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	19	"["""", ""British India ... No."", ""2410429"", ""—"", ""2410429"", ""96416"", ""—"", ""96416""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	20	"[""Other ..."", ""United Kingdom ... cwt."", ""933"", ""2527"", ""3460"", ""13893"", ""35560"", ""49453""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	22	"["""", ""British India ... \"""", ""2838"", ""201"", ""3039"", ""2121"", ""2010"", ""4131""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	23	"["""", """", ""3771"", ""2728"", ""6499"", ""16014"", ""37570"", ""53584""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	25	"["""", ""British India ... cwt."", ""1068"", ""—"", ""1068"", ""26116"", ""—"", ""26116""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	28	"["""", ""British India ... cwt."", ""8500"", ""—"", ""8500"", ""1409"", ""—"", ""1409""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	30	"["""", ""British India ... cwt."", ""2"", ""—"", ""2"", ""25"", ""—"", ""25""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	31	"["""", ""Hongkong ... \"""", ""8"", ""—"", ""8"", ""200"", ""—"", ""200""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	33	"["""", ""India (exc. British) ... \"""", ""17500"", ""—"", ""17500"", ""2187"", ""—"", ""2187""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	34	"["""", """", ""17510"", ""—"", ""17510"", ""2412"", ""—"", ""2412""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	36	"["""", ""British India ... cwt."", ""—"", ""1"", ""1"", ""—"", ""12"", ""12""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	38	"["""", ""British India ... gal."", ""—"", ""6232"", ""6232"", ""—"", ""3355"", ""3355""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	39	"[""Tortoise shell ..."", ""United Kingdom ... lb."", ""1082"", ""2134"", ""3216"", ""11935"", ""21800"", ""33735""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	41	"["""", ""British India ... \"""", ""28"", ""—"", ""28"", ""4"", ""—"", ""4""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	43	"["""", ""Denmark ... \"""", ""36"", ""—"", ""36"", ""125"", ""—"", ""125""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	44	"["""", """", ""1146"", ""2134"", ""3280"", ""12064"", ""21800"", ""33864""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	45	"[""Unenumerated ..."", ""United Kingdom ... cwt."", ""54"", ""—"", ""54"", ""1367"", ""—"", ""1367""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	47	"["""", ""British India ... \"""", ""70"", ""26"", ""96"", ""737"", ""273"", ""1010""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	48	"["""", ""Maldivé Islands ... \"""", ""31"", ""—"", ""31"", ""40"", ""—"", ""40""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	49	"["""", ""Natal ... \"""", ""58"", ""—"", ""58"", ""87"", ""15"", ""102""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	50	"["""", ""Straits Settlements ... \"""", ""1"", ""—"", ""1"", ""60"", ""—"", ""60""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	51	"["""", ""Victoria ... \"""", ""1"", ""—"", ""1"", ""100"", ""—"", ""100""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	53	"["""", ""Germany ... \"""", ""100"", ""—"", ""100"", ""423"", ""—"", ""423""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	54	"["""", ""Madagascar ... \"""", ""11"", ""330"", ""341"", ""10"", ""710"", ""720""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
+bb1902:p656:t1	55	"["""", """", ""326"", ""356"", ""682"", ""2824"", ""998"", ""3822""]"	subgroup letter disagrees with the OCR: (3) Other (4) Miscellaneous
 bb1902:p657:t1	16	"["""", ""British India ... \"""", ""66"", ""—"", ""66"", ""3416"", ""—"", ""3416""]"	figures with no article heading above them
 bb1902:p657:t1	18	"["""", ""India (exc. British) ... \"""", ""85"", ""—"", ""85"", ""2345"", ""—"", ""2345""]"	figures with no article heading above them
 bb1902:p657:t1	19	"["""", """", ""151"", ""—"", ""151"", ""5761"", ""—"", ""5761""]"	figures with no article heading above them
@@ -431,18 +533,135 @@ bb1902:p657:t1	48	"["""", ""China ... \"""", ""—"", ""—"", ""—"", ""—"",
 bb1902:p657:t1	49	"["""", ""India (exc. British) ... \"""", ""158"", ""—"", ""158"", ""3175"", ""—"", ""3175""]"	figures with no article heading above them
 bb1902:p657:t1	50	"["""", ""Japan ... \"""", ""—"", ""—"", ""—"", ""—"", ""40"", ""40""]"	figures with no article heading above them
 bb1902:p657:t1	51	"["""", """", ""3121"", ""4"", ""3125"", ""56423"", ""328"", ""56651""]"	figures with no article heading above them
-bb1902:p658:t1	9	"["""", ""For. Coun.—"", ""—"", ""3"", ""3"", ""—"", ""200"", ""200""]"	country name lost: unlabelled figures on a country-group heading
+bb1902:p658:t1	9	"["""", ""For. Coun.—"", ""—"", ""3"", ""3"", ""—"", ""200"", ""200""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	10	"["""", ""China ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	11	"["""", ""Egypt ... \"""", ""16"", ""16"", ""32"", ""2080"", ""945"", ""3025""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	12	"["""", ""Germany ... \"""", ""—"", ""1"", ""1"", ""—"", ""40"", ""40""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	13	"["""", ""India (exc. British) ... \"""", ""8"", ""—"", ""8"", ""200"", ""—"", ""200""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	14	"["""", ""Italy ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	15	"["""", ""Japan ... \"""", ""—"", ""1"", ""1"", ""—"", ""20"", ""20""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	16	"["""", ""Java ... \"""", ""—"", ""1"", ""1"", ""—"", ""15"", ""15""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	17	"["""", ""Philippine Islands ... \"""", ""2"", ""8"", ""10"", ""150"", ""2010"", ""2160""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p658:t1	19	"["""", """", ""117"", ""1120"", ""1237"", ""13580"", ""104755"", ""118335""]"	country alignment uncertain: figures on a country-group marker
 bb1902:p660:t1	31	"["""", ""21"", ""1848"", ""1869"", ""1502"", ""27176"", ""28678"", """"]"	country label not readable
 bb1902:p660:t1	42	"["""", ""8"", ""56"", ""64"", ""80"", ""3503"", ""3583"", """"]"	country label not readable
 bb1902:p660:t1	46	"["""", ""42"", ""42"", ""42"", ""—"", ""528"", ""528"", """"]"	country label not readable
 bb1902:p660:t1	53	"["""", ""124"", ""124"", ""124"", ""—"", ""1109"", ""1109"", """"]"	country label not readable
 bb1902:p660:t1	67	"["""", ""57"", ""87"", ""144"", ""300"", ""7400"", ""7400"", """"]"	country label not readable
-bb1902:p661:t1	4	"[""(2) Of Metal other Electroplate"", ""Br. Col.—"", ""—"", ""74"", ""74"", ""—"", ""1306"", ""1306"", """"]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p661:t1	6	"[""(2) Of Metal other Electroplate"", ""For. Coun.—"", ""326"", ""11"", ""337"", ""3000"", ""103"", ""3103"", """"]"	country name lost: unlabelled figures on a country-group heading
+bb1902:p661:t1	4	"[""(2) Of Metal other Electroplate"", ""Br. Col.—"", ""—"", ""74"", ""74"", ""—"", ""1306"", ""1306"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	5	"[""(2) Of Metal other Electroplate"", ""British India ... \"""", ""—"", ""—"", ""—"", ""—"", ""—"", ""—"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	6	"[""(2) Of Metal other Electroplate"", ""For. Coun.—"", ""326"", ""11"", ""337"", ""3000"", ""103"", ""3103"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	7	"[""(2) Of Metal other Electroplate"", ""Germany ... \"""", ""10"", ""—"", ""10"", ""2"", ""—"", ""2"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	8	"[""(2) Of Metal other Electroplate"", ""U. S. of America ... \"""", ""—"", ""—"", ""—"", ""—"", ""—"", ""—"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1902:p661:t1	9	"["""", """", ""336"", ""195"", ""531"", ""3002"", ""3885"", ""6887"", """"]"	country alignment uncertain: figures on a country-group marker
 bb1902:p661:t1	66	"[""Books, printed"", """", """", ""2875"", ""8867"", ""11242"", ""605"", ""15942"", ""16547""]"	figures beyond layout or a figure cell is not a plain number
+bb1902:p663:t1	3	"[""Rope ..."", ""United Kingdom ... cwt."", ""119"", ""—"", ""119"", ""1190"", ""—"", ""1190""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	5	"["""", ""Aden ... \"""", ""182"", ""—"", ""182"", ""1820"", ""—"", ""1820""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	6	"["""", ""British India ... \"""", ""19"", ""—"", ""19"", ""190"", ""—"", ""190""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	7	"["""", ""Burma ... \"""", ""50"", ""—"", ""50"", ""500"", ""—"", ""500""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	8	"["""", ""Straits Settlements ... \"""", ""15652"", ""—"", ""15652"", ""156520"", ""—"", ""156520""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	10	"["""", ""China ... \"""", ""18"", ""—"", ""18"", ""180"", ""—"", ""180""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	11	"["""", ""Egypt ... \"""", ""8"", ""—"", ""8"", ""80"", ""—"", ""80""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	12	"["""", ""France ... \"""", ""8"", ""—"", ""8"", ""80"", ""—"", ""80""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	13	"["""", """", ""16056"", ""—"", ""16056"", ""160560"", ""—"", ""160560""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	14	"[""Yarn ..."", ""United Kingdom ... cwt."", ""55675"", ""—"", ""55675"", ""570669"", ""—"", ""570669""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	16	"["""", ""Aden ... \"""", ""5"", ""—"", ""5"", ""51"", ""—"", ""51""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	17	"["""", ""British India ... \"""", ""511"", ""—"", ""511"", ""5238"", ""—"", ""5238""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	18	"["""", ""Hongkong ... \"""", ""103"", ""—"", ""103"", ""1056"", ""—"", ""1056""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	19	"["""", ""New South Wales ... \"""", ""3356"", ""—"", ""3356"", ""34399"", ""—"", ""34399""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	20	"["""", ""New Zealand ... \"""", ""397"", ""—"", ""397"", ""4070"", ""—"", ""4070""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	21	"["""", ""Other British Possessions in Asia ... \"""", ""1"", ""—"", ""1"", ""10"", ""—"", ""10""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	22	"["""", ""Queensland ... \"""", ""180"", ""—"", ""180"", ""1845"", ""—"", ""1845""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	23	"["""", ""South Australia ... \"""", ""141"", ""—"", ""141"", ""1445"", ""—"", ""1445""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	24	"["""", ""Straits Settlements ... \"""", ""295"", ""—"", ""295"", ""3024"", ""—"", ""3024""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	25	"["""", ""Victoria ... \"""", ""1921"", ""—"", ""1921"", ""19690"", ""—"", ""19690""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	26	"["""", ""West Australia ... \"""", ""30"", ""—"", ""30"", ""308"", ""—"", ""308""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	28	"["""", ""Austria ... \"""", ""105"", ""—"", ""105"", ""1076"", ""—"", ""1076""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	29	"["""", ""Belgium ... \"""", ""524"", ""—"", ""524"", ""5371"", ""—"", ""5371""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	30	"["""", ""China ... \"""", ""103"", ""—"", ""103"", ""1056"", ""—"", ""1056""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	31	"["""", ""France ... \"""", ""2121"", ""—"", ""2121"", ""21740"", ""—"", ""21740""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	32	"["""", ""Germany ... \"""", ""8756"", ""—"", ""8756"", ""89749"", ""—"", ""89749""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	33	"["""", ""Holland ... \"""", ""645"", ""—"", ""645"", ""6611"", ""—"", ""6611""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	34	"["""", ""India (exc. British) ... \"""", ""25"", ""—"", ""25"", ""256"", ""—"", ""256""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	35	"["""", ""Italy ... \"""", ""1192"", ""—"", ""1192"", ""12218"", ""—"", ""12218""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	36	"["""", ""U.S. of America ... \"""", ""1984"", ""—"", ""1984"", ""19823"", ""—"", ""19823""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	37	"["""", """", ""78020"", ""—"", ""78020"", ""799705"", ""—"", ""799705""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	38	"[""Other ..."", ""United Kingdom ... cwt."", ""—"", ""—"", ""—"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	40	"["""", ""British India ... \"""", ""160"", ""—"", ""160"", ""2509"", ""—"", ""2509""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	41	"["""", ""Malta ... \"""", ""3"", ""—"", ""3"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	42	"["""", ""Maldives Islands ... \"""", ""2"", ""—"", ""2"", ""20"", ""—"", ""20""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	43	"["""", ""Other British Possessions in Asia ... \"""", ""—"", ""—"", ""—"", ""4"", ""—"", ""4""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	44	"["""", ""Queensland ... \"""", ""2"", ""—"", ""2"", ""20"", ""—"", ""20""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	45	"["""", ""Straits Settlements ... \"""", ""22"", ""—"", ""22"", ""370"", ""—"", ""370""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	46	"["""", ""Zanzibar ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	47	"["""", """", ""190"", ""—"", ""190"", ""3148"", ""—"", ""3148""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	48	"[""Coppersh ..."", ""United Kingdom ... cwt."", ""14135"", ""—"", ""14135"", ""181061"", ""—"", ""181061""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	50	"["""", ""British India ... \"""", ""587"", ""—"", ""587"", ""5879"", ""—"", ""5879""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	51	"["""", ""Mauritius ... \"""", ""—"", ""—"", ""—"", ""10"", ""—"", ""10""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	53	"["""", ""Austria ... \"""", ""16863"", ""—"", ""16863"", ""167740"", ""—"", ""167740""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	54	"["""", ""Belgium ... \"""", ""20552"", ""—"", ""20552"", ""215849"", ""—"", ""215849""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	55	"["""", ""China ... \"""", ""1"", ""—"", ""1"", ""20"", ""—"", ""20""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	56	"["""", ""France ... \"""", ""112297"", ""—"", ""112297"", ""1233965"", ""—"", ""1233965""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	57	"["""", ""Germany ... \"""", ""178712"", ""—"", ""178712"", ""1927365"", ""—"", ""1927365""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	58	"["""", ""Holland ... \"""", ""476"", ""—"", ""476"", ""4680"", ""—"", ""4680""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	59	"["""", ""Russia in Europe ... \"""", ""34001"", ""—"", ""34001"", ""362378"", ""—"", ""362378""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p663:t1	60	"["""", """", ""377624"", ""—"", ""377624"", ""4098947"", ""—"", ""4098947""]"	group number disagrees with the Other heading: (8) Other
 bb1902:p664:t1	37	"[""III.—Manufactured (3) Other—contd. Curios and Fancy Articles"", """", """", ""229"", ""334"", ""563"", ""23812"", ""40833"", ""64645""]"	figures beyond layout or a figure cell is not a plain number
-bb1902:p670:t1	17	"[""Gold—"", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""448500"", ""448500""]"	country name lost: unlabelled figures on a country-group heading
-bb1902:p670:t1	19	"[""Silver—"", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""350000"", ""350000""]"	country name lost: unlabelled figures on a country-group heading
+bb1902:p665:t1	4	"[""Furniture—contd."", ""China ... pkgs."", ""87"", ""—"", ""87"", ""801"", ""—"", ""801""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	5	"["""", ""Egypt ... \"""", ""28"", ""—"", ""28"", ""500"", ""—"", ""500""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	6	"["""", ""France ... \"""", ""34"", ""—"", ""34"", ""460"", ""—"", ""460""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	7	"["""", ""Germany ... \"""", ""32"", ""3"", ""35"", ""685"", ""300"", ""985""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	8	"["""", ""India (exc. British) ... \"""", ""18"", ""2"", ""15"", ""103"", ""120"", ""223""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	9	"["""", ""Mozambique ... \"""", ""4"", ""—"", ""4"", ""200"", ""—"", ""200""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	10	"["""", """", ""3047"", ""174"", ""3221"", ""43195"", ""9760"", ""52955""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	11	"[""Glass and Glassware"", ""United Kingdom ... pkgs."", ""—"", ""19"", ""19"", ""—"", ""839"", ""839""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	13	"["""", ""British India ... \"""", ""—"", ""1764"", ""1764"", ""—"", ""5491"", ""5491""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	14	"["""", ""Burma ... \"""", ""—"", ""4"", ""4"", ""—"", ""90"", ""90""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	15	"["""", ""Maldiv Islands ... \"""", ""—"", ""32"", ""32"", ""—"", ""735"", ""735""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	16	"["""", ""Straits Settlements ... \"""", ""—"", ""8"", ""8"", ""—"", ""616"", ""616""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	18	"["""", ""Belgium ... \"""", ""—"", ""1"", ""1"", ""—"", ""50"", ""50""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	19	"["""", """", ""—"", ""1828"", ""1828"", ""—"", ""7821"", ""7821""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	21	"["""", ""British India ... No."", ""—"", ""3063708"", ""3063708"", ""—"", ""426990"", ""426990""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	22	"["""", ""Maldiv Islands ... \"""", ""—"", ""9800"", ""9800"", ""—"", ""1455"", ""1455""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	23	"["""", ""Straits Settlements ... \"""", ""—"", ""3200"", ""3200"", ""—"", ""640"", ""640""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	25	"["""", ""India (exc. British) ... \"""", ""—"", ""4500"", ""4500"", ""—"", ""820"", ""820""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	26	"["""", """", ""—"", ""3081208"", ""3081208"", ""—"", ""429905"", ""429905""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	27	"[""Haberdashery and Millinery..."", ""United Kingdom ... pkgs."", ""5"", ""11"", ""16"", ""500"", ""765"", ""1265""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	29	"["""", ""British India ... \"""", ""—"", ""18"", ""18"", ""—"", ""1870"", ""1870""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	30	"["""", ""Maldiv Islands ... \"""", ""—"", ""13"", ""13"", ""—"", ""1202"", ""1202""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	31	"["""", ""Other British Possessions in Asia ... \"""", ""—"", ""2"", ""2"", ""—"", ""150"", ""150""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	32	"["""", ""Straits Settlements ... \"""", ""1"", ""13"", ""14"", ""5"", ""1040"", ""1045""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	34	"["""", ""Germany ... \"""", ""1"", ""1"", ""2"", ""150"", ""400"", ""550""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	35	"["""", """", ""7"", ""58"", ""65"", ""655"", ""5427"", ""6082""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	36	"[""Harness and Saddlery"", ""United Kingdom ... pkgs."", ""—"", ""4"", ""4"", ""—"", ""525"", ""525""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	38	"["""", ""British India ... \"""", ""2"", ""3"", ""5"", ""60"", ""150"", ""210""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	39	"["""", ""Straits Settlements ... \"""", ""1"", ""1"", ""2"", ""100"", ""500"", ""600""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	40	"["""", """", ""3"", ""8"", ""11"", ""160"", ""1175"", ""1335""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	42	"["""", ""British India ... pkgs."", ""2"", ""—"", ""2"", ""60"", ""—"", ""60""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	44	"["""", ""Belgium ... \"""", ""—"", ""1"", ""1"", ""—"", ""105"", ""105""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	45	"["""", ""India (exc. British) ... \"""", ""—"", ""2"", ""2"", ""—"", ""180"", ""180""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	46	"["""", """", ""2"", ""3"", ""5"", ""60"", ""285"", ""345""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	47	"[""Instruments—Musical"", ""United Kingdom ... No."", ""—"", ""18"", ""18"", ""—"", ""8845"", ""8845""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	49	"["""", ""British India ... \"""", ""18"", ""11"", ""24"", ""19"", ""2198"", ""2215""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	50	"["""", ""Cape Colony ... \"""", ""—"", ""1"", ""1"", ""—"", ""1000"", ""1000""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	51	"["""", ""Maldiv Islands ... \"""", ""—"", ""1"", ""1"", ""—"", ""25"", ""25""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	52	"["""", ""South Australia ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	53	"["""", ""Straits Settlements ... \"""", ""—"", ""1"", ""1"", ""—"", ""300"", ""300""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	55	"["""", ""Germany ... \"""", ""1"", ""1"", ""2"", ""50"", ""600"", ""650""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	56	"["""", ""Switzerland ... \"""", ""—"", ""1"", ""1"", ""—"", ""900"", ""900""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	57	"["""", """", ""15"", ""34"", ""49"", ""94"", ""13866"", ""13960""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	58	"[""Scientific"", ""United Kingdom ... No."", ""—"", ""15"", ""15"", ""—"", ""3700"", ""3700""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	60	"["""", ""British India ... \"""", ""—"", ""9"", ""9"", ""—"", ""615"", ""615""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	61	"["""", ""Straits Settlements ... \"""", ""—"", ""11"", ""11"", ""—"", ""573"", ""573""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	63	"["""", ""Germany ... \"""", ""—"", ""3"", ""3"", ""—"", ""12"", ""12""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	64	"["""", ""U. S. of America ... \"""", ""—"", ""2"", ""2"", ""—"", ""50"", ""50""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p665:t1	65	"["""", """", ""—"", ""40"", ""40"", ""—"", ""4950"", ""4950""]"	group number disagrees with the Other heading: (8) Other
+bb1902:p670:t1	17	"[""Gold—"", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""448500"", ""448500""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	18	"[""Coin ..."", ""British India ... val."", ""—"", ""—"", ""—"", ""—"", ""—"", ""—""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	19	"[""Silver—"", ""Br. Col.—"", ""—"", ""—"", ""—"", ""—"", ""350000"", ""350000""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	20	"[""Coin ..."", ""Br. India ... val."", ""—"", ""—"", ""—"", ""—"", ""250000"", ""250000""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	21	"["""", ""Burma ... \"""", ""—"", ""—"", ""—"", ""—"", ""120000"", ""120000""]"	country alignment uncertain: figures on a country-group marker
+bb1902:p670:t1	22	"["""", ""Mauritius ... \"""", ""—"", ""—"", ""—"", ""—"", ""720000"", ""720000""]"	country alignment uncertain: figures on a country-group marker
 bb1903:p622:t1	4	"[""Cattle ..."", ""Br. Col.— British India ... No. New S. Wales ... \"" Victoria ... \"""", ""21357 17 18"", ""21357 17 18"", ""474475 340 3100""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p622:t1	5	"["""", """", ""21392"", ""21392"", ""477915""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1903:p622:t1	7	"[""Game and Poultry ..."", ""United Kingdom ... No. Br. Col.— British India ... \"""", ""6 158003"", ""6 158003"", ""75 123363""]"	figures beyond layout or a figure cell is not a plain number
@@ -499,6 +718,7 @@ bb1903:p632:t1	14	"[""Liqueur"", ""United Kingdom ... gals. Br. Col.— British 
 bb1903:p632:t1	15	"["""", """", ""1073"", ""1059"", ""15971""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1903:p632:t1	16	"[""Rum"", ""United Kingdom ... gals. For. Coun.— France ... \"" Germany ... \"""", ""193 22 —"", ""193 22 —"", ""999 186 3""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p632:t1	17	"["""", """", ""215"", ""215"", ""1188""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1903:p635:t1	25	"["""", ""China ... .."", ""1"", ""1"", ""1""]"	OCR figure occupies a quantity cell printed as a dash
 bb1903:p640:t1	4	"["""", """", ""14"", ""14"", ""135""]"	figures with no article heading above them
 bb1903:p640:t1	2	"[""Arecanuts"", ""... Br. Col.— Straits Settlements ... cwt. For. Coun.— India (exc. British) ... \"""", ""13"", ""13"", ""Rs. 130""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1903:p640:t1	3	"["""", """", ""1"", ""1"", ""5""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -537,8 +757,10 @@ bb1903:p642:t1	5	"["""", ""Maldiv Islands ... \"""", ""1"", ""1"", ""58""]"	figu
 bb1903:p642:t1	6	"["""", ""Burma ... \"""", ""19"", ""19"", ""1150""]"	figures with no article heading above them
 bb1903:p642:t1	7	"["""", ""For. Coun.—Russia in Asia ... \"""", ""—"", ""—"", ""20""]"	figures with no article heading above them
 bb1903:p642:t1	8	"["""", """", ""2508"", ""2508"", ""124886""]"	figures with no article heading above them
-bb1903:p642:t1	11	"["""", ""Br. Col.—"", ""—"", ""—"", ""3""]"	country name lost: unlabelled figures on a country-group heading
-bb1903:p642:t1	13	"["""", ""For. Coun.—"", ""25"", ""25"", ""1097""]"	country name lost: unlabelled figures on a country-group heading
+bb1903:p642:t1	11	"["""", ""Br. Col.—"", ""—"", ""—"", ""3""]"	country alignment uncertain: figures on a country-group marker
+bb1903:p642:t1	12	"["""", ""British India ... \"""", ""—"", ""—"", ""—""]"	country alignment uncertain: figures on a country-group marker
+bb1903:p642:t1	13	"["""", ""For. Coun.—"", ""25"", ""25"", ""1097""]"	country alignment uncertain: figures on a country-group marker
+bb1903:p642:t1	14	"["""", ""Germany ... \"""", ""52"", ""52"", ""4820""]"	country alignment uncertain: figures on a country-group marker
 bb1903:p643:t1	1	"[""II.—Raw Materials—contd."", ""II.—Raw Materials—contd."", ""II.—Raw Materials—contd."", ""II.—Raw Materials—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p643:t1	3	"[""Shells ..."", ""Br. Col.— British India ... cwt. Maldiv Islands ... \"""", ""140 3370"", ""140 3370"", ""566 24033""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p643:t1	4	"["""", """", ""3510"", ""3510"", ""24599""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -611,12 +833,8 @@ bb1903:p665:t1	13	"["""", """", ""312909"", ""312909"", ""260452""]"	collapsed a
 bb1903:p665:t1	14	"[""Mats, Mat Bags, and Baskets"", ""... United Kingdom ... No. Br. Col.— British India ... \"" Hongkong ... \"" Maldiv Islands ... \"" Straits Settlements ... \"" For. Coun.— China ... \"" India (exc. British) ... \"" Japan ... \"""", ""139 456570 5002 295 205 31400 155 30912"", ""139 456570 5002 295 205 31400 155 30912"", ""491 12297 748 611 443 16370 75 10542""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p665:t1	15	"["""", """", ""524678"", ""524678"", ""41577""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1903:p666:t1	2	"[""(3) Other—contd."", ""United Kingdom ... No."", ""12"", ""12"", ""136""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1903:p668:t1	4	"[""Writing—contd."", ""Germany"", ""reams 528"", ""528"", ""719""]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p668:t1	10	"[""Dutiable ..."", ""United Kingdom"", ""reams 3335"", ""3330"", ""19355""]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p668:t1	23	"[""Free"", ""United Kingdom"", ""reams 1742"", ""1742"", ""9402""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	28	"["""", ""Germany"", ""rolls 2270 reams 26"", ""2270 26"", ""3927 293""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	32	"["""", """", ""rolls 230"", ""230"", """"]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p668:t1	33	"[""Pasteboard"", ""United Kingdom"", ""pieces 35553"", ""35553"", ""2388""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	37	"[""Perfumery"", ""United Kingdom"", ""gal. 478 cases 356"", ""gal. 436 cases 356"", ""58628""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	39	"["""", ""British India"", ""4 704"", ""4 704"", ""10057""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	44	"["""", ""Austria"", ""46 2"", ""46 2"", ""2092""]"	figures beyond layout or a figure cell is not a plain number
@@ -624,14 +842,13 @@ bb1903:p668:t1	46	"["""", ""France"", ""237 21"", ""237 21"", ""9929""]"	figures
 bb1903:p668:t1	47	"["""", ""Germany"", ""1177 152"", ""875 151"", ""31672""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	49	"["""", ""U. S. America"", ""2 3"", ""2 8"", ""1470""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p668:t1	50	"["""", """", ""1944 1255"", ""1600 1259"", ""114337""]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p668:t1	51	"[""Photographic Materials"", ""United Kingdom"", ""cases 218"", ""217"", ""30558""]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p668:t1	65	"[""Pictures"", ""United Kingdom"", ""No. 30829"", ""30859"", ""13539""]"	figures beyond layout or a figure cell is not a plain number
+bb1903:p668:t1	64	"["""", """", ""27"", ""266"", ""35692""]"	home-consumption figure withheld: OCR omits the illegible final digit
 bb1903:p672:t1	1	"[""III.--Manufactured Articles--contd. (3) Other--contd."", ""III.--Manufactured Articles--contd. (3) Other--contd."", ""III.--Manufactured Articles--contd. (3) Other--contd."", ""III.--Manufactured Articles--contd. (3) Other--contd."", ""Rs.""]"	country label not readable
 bb1903:p672:t1	52	"[""Unenumerated-- Dutiable"", ""United Kingdom ... No."", ""4904"", ""4904"", ""374429*""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p673:t1	60	"["""", ""British India ... Bars"", ""1 Bar & 1 Parcel"", ""1 Bar & 1 Parcel"", ""2300""]"	figures beyond layout or a figure cell is not a plain number
-bb1903:p682:t1	27	"[""Tea ..."", ""United Kingdom ... lb."", ""Black 95472634"", ""Green 1794853"", ""—"", ""97267487"", ""37934320"", ""—"", ""37934320""]"	tea row fits no Black + Green + other = total reading
-bb1903:p682:t1	59	"["""", ""Denmark ... \"""", ""26956"", ""600"", ""—"", ""26556"", ""10357"", ""—"", ""10357""]"	tea row fits no Black + Green + other = total reading
-bb1903:p682:t1	62	"["""", ""Germany ... \"""", ""597038"", ""1374"", ""—"", ""598462"", ""233400"", ""—"", ""233400""]"	tea row fits no Black + Green + other = total reading
+bb1903:p682:t1	37	"["""", ""Gibraltar ... \"""", ""14900"", ""—"", ""—"", ""14900"", ""5811"", ""—"", ""5811""]"	Green quantity withheld: OCR has a dash in a printed blank cell
+bb1903:p682:t1	59	"["""", ""Denmark ... \"""", ""26956"", ""600"", ""—"", ""26556"", ""10357"", ""—"", ""10357""]"	tea component columns or totals are unreadable
+bb1903:p682:t1	62	"["""", ""Germany ... \"""", ""597038"", ""1374"", ""—"", ""598462"", ""233400"", ""—"", ""233400""]"	tea component columns or totals are unreadable
 bb1903:p694:t1	45	"[""Coir— Matting"", """", """", ""445"", ""—"", ""445"", ""5338"", ""—"", ""5338""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p696:t1	39	"["""", ""British India ... \"" No. 200 2"", ""—"", ""542"", ""No. 200 544"", ""16"", ""4027"", ""4043""]"	figures beyond layout or a figure cell is not a plain number
 bb1903:p696:t1	40	"["""", ""Maldiv Islands ... \"" No. 5700 0"", ""—"", ""No. 1470 17"", ""No. 7170 17"", ""55"", ""762"", ""817""]"	figures beyond layout or a figure cell is not a plain number
@@ -833,7 +1050,17 @@ bb1904:p663:t1	9	"["""", """", ""47269"", ""47245"", ""25006""]"	collapsed artic
 bb1904:p663:t1	10	"[""Cables, Cordage, &c. ..."", ""United Kingdom ... cwt. Br. Col.— British India ... \"" Hong Kong ... \"" Maldiv Islands ... \"" For. Coun.— Germany ... \"" U. S. of America ... \"" China ... \"""", ""150 748 95 137 3 1 20"", ""150 748 95 137 3 1 20"", ""5401 14760 3545 1010 46 163 793""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p663:t1	11	"["""", """", ""1154"", ""1154"", ""25718""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p665:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
-bb1904:p665:t1	35	"["""", ""For. Coun.—"", """", """", ""178""]"	country name lost: unlabelled figures on a country-group heading
+bb1904:p665:t1	35	"["""", ""For. Coun.—"", """", """", ""178""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	36	"["""", ""Austria ... \"""", ""5"", ""5"", """"]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	37	"["""", ""Belgium ... \"""", ""238"", ""238"", ""3112""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	38	"["""", ""China ... \"""", ""687"", ""687"", ""7390""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	39	"["""", ""France ... \"""", ""6"", ""6"", ""489""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	40	"["""", ""Germany ... \"""", ""3707"", ""3707"", ""50781""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	41	"["""", ""Holland ... \"""", ""727"", ""727"", ""8650""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	42	"["""", ""Italy ... \"""", ""2"", ""2"", ""118""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	43	"["""", ""Japan ... \"""", ""104"", ""104"", ""1463""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	44	"["""", ""U. S. of America ... \"""", ""201"", ""201"", ""768""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p665:t1	45	"["""", """", ""19540"", ""19524"", ""321850""]"	country alignment uncertain: figures on a country-group marker
 bb1904:p666:t1	1	"[""III. — Manufactured Articles—contd."", ""III. — Manufactured Articles—contd."", ""III. — Manufactured Articles—contd."", ""III. — Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p668:t1	2	"[""Window and German sheet ..."", ""United Kingdom ... cwt. Br. Col.— British India ... \"" For. Coun.— Austria ... \"" Belgium ... \"" Germany ... \"""", ""264 12 30 1117 316"", ""264 12 30 1117 316"", ""Rs. 4685 400 345 9384 3707""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p668:t1	3	"["""", """", ""1739"", ""1739"", ""18521""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -922,10 +1149,9 @@ bb1904:p680:t1	9	"["""", """", ""519"", ""519"", ""23253""]"	collapsed article b
 bb1904:p680:t1	10	"[""Watches"", ""United Kingdom ... No. Br. Col.— British India ... \"" Straits Settlements ... \"" For. Coun.— Austria ... \"" Egypt ... \"" France ... \"" Germany ... \"" Switzerland ... \"" U. S. of America ... \"""", ""3299 2393 2 72 10 81 72 471 1828"", ""3300 2393 2 72 10 81 72 471 1828"", ""40992 37392 35 177 2511 535 177 3512 7739""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p680:t1	11	"["""", """", ""8228"", ""8229"", ""93070""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p680:t1	12	"[""Unenumerated— Dutiable"", ""United Kingdom ... No. Br. Col.— Aden ... \"" British India ... \"" Burma ... \"" Hong Kong ... \"" Maldiv Islands ... \"" Natal ... \"" Straits Settlements ... \"" Victoria ... \"" West Australia ... \"""", ""5151 9 2168 14 301 1 3 24 36 1"", ""5120 9 2169 14 301 1 3 24 36 1"", ""462826 498 59088 162 2559 8 114 1356 3600 240""]"	figures beyond layout or a figure cell is not a plain number
-bb1904:p690:t1	30	"[""Tea ..."", ""United Kingdom ... lb."", ""Black 102522125 Green 1736795"", ""—"", ""104258920"", ""37533211"", ""—"", ""37533211""]"	tea row fits no Black + Green + other = total reading
-bb1904:p690:t1	37	"["""", ""Canada ... \"""", ""4381899"", ""1584836"", ""5966737"", ""2148025"", ""—"", ""2148025""]"	tea row fits no Black + Green + other = total reading
-bb1904:p690:t1	49	"["""", ""Other British Possessions in Asia ... \"""", ""47369"", ""—"", ""4745"", ""1709"", ""—"", ""1709""]"	tea row fits no Black + Green + other = total reading
-bb1904:p691:t1	26	"["""", ""For."", ""152534484"", ""95394849"", ""157929342"", ""56854563"", ""—"", ""56854563""]"	tea row fits no Black + Green + other = total reading
+bb1904:p690:t1	37	"["""", ""Canada ... \"""", ""4381899"", ""1584836"", ""5966737"", ""2148025"", ""—"", ""2148025""]"	tea component columns or totals are unreadable
+bb1904:p690:t1	49	"["""", ""Other British Possessions in Asia ... \"""", ""47369"", ""—"", ""4745"", ""1709"", ""—"", ""1709""]"	tea component columns or totals are unreadable
+bb1904:p691:t1	26	"["""", ""For."", ""152534484"", ""95394849"", ""157929342"", ""56854563"", ""—"", ""56854563""]"	tea component columns or totals are unreadable
 bb1904:p692:t1	3	"[""II.—Raw Materials. (1) Textile— (Cotton Kapok)"", ""United Kingdom ... lb. Br. Col.— British India ... \"" Maldiv Islands ... \"" Natal ... \"" Victoria ... \"" For. Coun.— Belgium ... \"" China ... \"" Germany ... \"" Holland ... \"" India (exc. British) ... \"" Italy ... \"" Japan ... \"""", ""18513 86610 4312 1280 4178 90 86 4950 50897 4200 2340 112"", ""— — — — — — — — — — — — —"", ""18513 86610 4312 1280 4178 90 86 4950 50897 4200 2340 112"", ""3731 7416 355 304 420 6 6 1465 10724 305 633 10"", ""— — — — — — — — — — — — —"", ""3731 7416 355 304 420 6 6 1465 10724 305 633 10""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p692:t1	4	"["""", """", ""177568"", ""—"", ""177568"", ""25375"", ""—"", ""25375""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p692:t1	5	"[""(2) Metal— Unenumerated ..."", ""United Kingdom ... cwt. Br. Col.— British India ... \"" Hong Kong ... \"" Maldiv Islands ... \"" Other British Possessions in Asia ... \"" For. Coun.— India (exc. British) ... \"""", ""— — — — — — — — — —"", ""956 11974 — 53 33 — — — — —"", ""956 11974 — 53 33 — — — — —"", ""— — — — — — — — — —"", ""4680 27753 5 191 400 2 — — — —"", ""4680 27753 5 191 400 2 — — — —""]"	figures beyond layout or a figure cell is not a plain number
@@ -956,10 +1182,96 @@ bb1904:p694:t1	11	"["""", ""Mozambique ... \"""", ""80"", ""—"", ""80"", ""486
 bb1904:p694:t1	12	"["""", ""New Caledonia ... \"""", ""61"", ""—"", ""61"", ""371"", ""—"", ""371""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p694:t1	13	"["""", ""U. S. of America... \"""", ""3138"", ""—"", ""3138"", ""19079"", ""—"", ""19079""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p694:t1	14	"["""", """", ""131416"", ""—"", ""131416"", ""799009"", ""—"", ""799009""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1904:p695:t1	3	"["""", ""Austria ... No."", ""cases 6 4"", ""— 12"", ""cases 6 16"", ""20"", ""—"", ""20""]"	figures beyond layout or a figure cell is not a plain number
-bb1904:p695:t1	4	"["""", ""Germany ... \"""", ""case 1 —"", ""—"", ""case 1 —"", ""275"", ""500"", ""775""]"	figures beyond layout or a figure cell is not a plain number
-bb1904:p695:t1	7	"["""", """", ""cases 7"", """", ""cases 7"", """", """", """"]"	figures beyond layout or a figure cell is not a plain number
-bb1904:p695:t1	8	"["""", """", ""No. 18"", ""27"", ""No. 45"", ""995"", ""1475"", ""2470""]"	figures with no article heading above them
+bb1904:p695:t1	3	"["""", ""Austria ... No."", ""cases 6 4"", ""— 12"", ""cases 6 16"", ""20"", ""—"", ""20""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	4	"["""", ""Germany ... \"""", ""case 1 —"", ""—"", ""case 1 —"", ""275"", ""500"", ""775""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	5	"["""", ""Italy ... \"""", ""7"", ""—"", ""7"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	6	"["""", ""U. S. of America ... \"""", """", """", """", ""450"", ""—"", ""450""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	7	"["""", """", ""cases 7"", """", ""cases 7"", """", """", """"]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	8	"["""", """", ""No. 18"", ""27"", ""No. 45"", ""995"", ""1475"", ""2470""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	9	"[""Plants and Roots"", ""United Kingdom ... pkgs."", ""16"", ""1"", ""17"", ""590"", ""10"", ""600""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	11	"["""", ""British India ... \"""", ""345"", ""—"", ""345"", ""1317"", ""—"", ""1317""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	12	"["""", ""Burma ... \"""", ""5"", ""—"", ""5"", ""215"", ""—"", ""215""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	13	"["""", ""Hong Kong ... \"""", ""1"", ""—"", ""1"", ""75"", ""—"", ""75""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	14	"["""", ""Mauritius ... \"""", ""18"", ""—"", ""18"", ""550"", ""—"", ""550""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	15	"["""", ""Natal ... \"""", ""4"", ""—"", ""4"", ""630"", ""—"", ""630""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	16	"["""", ""Other British Possessions in Africa ... \"""", ""1"", ""—"", ""1"", ""10"", ""—"", ""10""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	17	"["""", ""Straits Settlements ... \"""", ""2"", ""—"", ""2"", ""200"", ""—"", ""200""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	18	"["""", ""Victoria ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	19	"["""", ""West Australia ... \"""", ""5"", ""—"", ""5"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	21	"["""", ""Austria ... \"""", ""3"", ""—"", ""3"", ""15"", ""—"", ""15""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	22	"["""", ""Germany ... \"""", ""17"", ""—"", ""17"", ""150"", ""—"", ""150""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	23	"["""", ""Italy ... \"""", ""1"", ""—"", ""1"", ""25"", ""—"", ""25""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	24	"["""", ""Other For. Coun. in Australasia ... \"""", ""6"", ""—"", ""6"", ""60"", ""—"", ""60""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	25	"["""", ""Philippine Islands ... \"""", ""3"", ""—"", ""3"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	26	"["""", ""South America ... \"""", ""7"", ""—"", ""7"", ""250"", ""—"", ""250""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	27	"["""", """", ""435"", ""1"", ""436"", ""4312"", ""10"", ""4322""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	28	"[""Plumbago"", ""United Kingdom ... cwt."", ""145128"", ""—"", ""145128"", ""1814100"", ""—"", ""1814100""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	30	"["""", ""British India ... \"""", ""862"", ""—"", ""862"", ""10775"", ""—"", ""10775""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	31	"["""", ""Burma ... \"""", ""232"", ""—"", ""232"", ""2900"", ""—"", ""2900""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	32	"["""", ""Victoria ... \"""", ""2151"", ""—"", ""2151"", ""26888"", ""—"", ""26888""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	34	"["""", ""Belgium ... \"""", ""46636"", ""—"", ""46636"", ""582950"", ""—"", ""582950""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	35	"["""", ""China (exc. Hong Kong) ... \"""", ""144"", ""—"", ""144"", ""1800"", ""—"", ""1800""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	36	"["""", ""Egypt ... \"""", ""20"", ""—"", ""20"", ""250"", ""—"", ""250""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	37	"["""", ""France ... \"""", ""2896"", ""—"", ""2896"", ""36200"", ""—"", ""36200""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	38	"["""", ""Germany ... \"""", ""103995"", ""—"", ""103995"", ""1299937"", ""—"", ""1299937""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	39	"["""", ""Holland ... \"""", ""752"", ""—"", ""752"", ""9400"", ""—"", ""9400""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	40	"["""", ""India (exc. British) ... \"""", ""6"", ""—"", ""6"", ""74"", ""—"", ""74""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	41	"["""", ""Italy ... \"""", ""68"", ""—"", ""68"", ""850"", ""—"", ""850""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	42	"["""", ""Japan ... \"""", ""6817"", ""—"", ""6817"", ""85213"", ""—"", ""85213""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	43	"["""", ""Russia in Europe ... \"""", ""5429"", ""—"", ""5429"", ""67862"", ""—"", ""67862""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	44	"["""", ""Sweden ... \"""", ""400"", ""—"", ""400"", ""5000"", ""—"", ""5000""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	45	"["""", ""U. S. of America ... \"""", ""205668"", ""—"", ""205668"", ""2570851"", ""—"", ""2570851""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	46	"[""Seeds—"", """", ""521204"", ""—"", ""521204"", ""6515050"", ""—"", ""6515050""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	48	"["""", ""British India ... cwt."", ""16"", ""10"", ""26"", ""150"", ""109"", ""259""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	49	"[""Rubber"", ""United Kingdom ... cwt."", ""37"", ""—"", ""37"", ""4800"", ""—"", ""4800""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	51	"["""", ""Aden ... \"""", ""—"", ""—"", ""—"", ""10"", ""—"", ""10""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	52	"["""", ""British India ... \"""", ""82"", ""—"", ""82"", ""5338"", ""—"", ""5338""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	53	"["""", ""British East Africa ... \"""", ""4"", ""—"", ""4"", ""1000"", ""—"", ""1000""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	54	"["""", ""Burma ... \"""", ""51"", ""—"", ""51"", ""2200"", ""—"", ""2200""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	55	"["""", ""Mauritius ... \"""", ""4"", ""—"", ""4"", ""450"", ""—"", ""450""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	56	"["""", ""Other British Possessions in Asia ... \"""", ""4"", ""—"", ""4"", ""600"", ""—"", ""600""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	57	"["""", ""Queensland ... \"""", ""3"", ""—"", ""3"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	58	"["""", ""Straits Settlements ... \"""", ""74"", ""—"", ""74"", ""4170"", ""—"", ""4170""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	60	"["""", ""Java ... \"""", ""17"", ""—"", ""17"", ""1785"", ""—"", ""1785""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	61	"["""", ""Philippine Islands ... \"""", ""1"", ""—"", ""1"", ""11"", ""—"", ""11""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	62	"["""", ""Sumatra ... \"""", ""—"", ""—"", ""—"", ""15"", ""—"", ""15""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	63	"["""", """", ""277"", ""—"", ""277"", ""20479"", ""—"", ""20479""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p695:t1	64	"[""Tea"", ""United Kingdom ... cwt."", ""199"", ""—"", ""199"", ""13909"", ""—"", ""13909""]"	group number disagrees with the Other heading: (8) Other
+bb1904:p697:t1	5	"["""", ""Belgium ... cwt."", ""—"", ""—"", ""—"", ""636"", ""—"", ""636""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	6	"["""", ""France ... \"""", ""2"", ""—"", ""2"", ""50"", ""—"", ""50""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	7	"["""", ""Germany ... \"""", ""70"", ""—"", ""70"", ""450"", ""—"", ""450""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	8	"["""", ""U. S. of America ... \"""", ""2784"", ""—"", ""2784"", ""14378"", ""—"", ""14378""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	9	"["""", """", ""6423"", ""61"", ""6484"", ""197277"", ""629"", ""197106""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	11	"[""Ebony ..."", ""United Kingdom ... tons"", ""121"", ""—"", ""121"", ""25723"", ""—"", ""25723""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	13	"["""", ""British India ... \"""", ""—"", ""—"", ""—"", ""95"", ""—"", ""95""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	14	"["""", ""Hong Kong ... \"""", ""3"", ""—"", ""3"", ""450"", ""—"", ""450""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	16	"["""", ""Belgium ... \"""", ""73"", ""—"", ""73"", ""12000"", ""—"", ""12000""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	17	"["""", ""France ... \"""", ""—"", ""—"", ""—"", ""150"", ""—"", ""150""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	18	"["""", ""Germany ... \"""", ""101"", ""—"", ""101"", ""22500"", ""—"", ""22500""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	19	"["""", """", ""298"", ""—"", ""298"", ""60918"", ""—"", ""60918""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	21	"["""", ""British India ... tons"", ""64"", ""—"", ""64"", ""2870"", ""—"", ""2870""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	23	"["""", ""India (exc. British) ... \"""", ""19"", ""—"", ""19"", ""665"", ""—"", ""665""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	24	"["""", """", ""83"", ""—"", ""83"", ""3535"", ""—"", ""3535""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	26	"["""", ""British India ... tons"", ""102"", ""—"", ""102"", ""3610"", ""—"", ""3610""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	28	"["""", ""India (exc. British) ... \"""", ""93"", ""—"", ""93"", ""3705"", ""—"", ""3705""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	29	"["""", """", ""195"", ""—"", ""195"", ""7315"", ""—"", ""7315""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	30	"[""Satin ..."", ""United Kingdom ... tons"", ""143"", ""—"", ""143"", ""15378"", ""—"", ""15378""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	32	"["""", ""British India ... \"""", ""428"", ""—"", ""428"", ""17398"", ""—"", ""17398""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	33	"["""", ""Hong Kong ... \"""", ""1"", ""—"", ""1"", ""100"", ""—"", ""100""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	35	"["""", ""France ... \"""", ""67"", ""—"", ""67"", ""7970"", ""—"", ""7970""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	36	"["""", ""Germany ... \"""", ""145"", ""—"", ""145"", ""12636"", ""—"", ""12636""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	37	"["""", ""India (exc. British) ... \"""", ""72"", ""—"", ""72"", ""3498"", ""—"", ""3498""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	38	"["""", """", ""856"", ""—"", ""856"", ""56980"", ""—"", ""56980""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	40	"["""", ""British India ... tons"", ""—"", ""27"", ""27"", ""—"", ""2325"", ""2325""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	41	"["""", ""Maldiv Islands ... \"""", ""—"", ""1"", ""1"", ""—"", ""100"", ""100""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	43	"["""", ""Egypt ... \"""", ""—"", ""3"", ""3"", ""—"", ""750"", ""750""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	44	"["""", """", ""—"", ""31"", ""31"", ""—"", ""3175"", ""3175""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	46	"["""", ""United Kingdom ... tons"", ""—"", ""—"", ""—"", ""5"", ""—"", ""5""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	48	"["""", ""British India ... \"""", ""2567"", ""11"", ""2678"", ""41434"", ""236"", ""41670""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	49	"["""", ""Maldiv Islands ... \"""", ""4"", ""—"", ""4"", ""225"", ""—"", ""225""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	51	"["""", ""India (exc. British) ... \"""", ""239"", ""—"", ""239"", ""4517"", ""—"", ""4517""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	52	"["""", ""U. S. America ... \"""", ""—"", ""—"", ""—"", ""20"", ""—"", ""20""]"	group number disagrees with the Other heading: (2) Other
+bb1904:p697:t1	53	"["""", """", ""2910"", ""11"", ""2921"", ""46201"", ""236"", ""46437""]"	group number disagrees with the Other heading: (2) Other
 bb1904:p702:t1	3	"[""Bricks and Tiles"", ""Br. Col.— British India ... No. Maldiv Islands ... \"" South Australia ... \"""", ""230017 6500 —"", ""500 — 4"", ""230517 6500 4"", ""4473 160 —"", ""187 — 2"", ""4610 160 2""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p702:t1	4	"["""", """", ""236517"", ""504"", ""237021"", ""4633"", ""189"", ""4772""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p702:t1	5	"[""Cable, Cordage, and Twine other than Coir ..."", ""Br. Col.— British India ... cwt. Maldiv Islands ... \"""", ""— 1"", ""13 2"", ""13 3"", ""— 40"", ""168 200"", ""168 240""]"	figures beyond layout or a figure cell is not a plain number
@@ -990,8 +1302,27 @@ bb1904:p708:t1	6	"[""Pictures ..."", ""United Kingdom ... No. Br. Col.— Britis
 bb1904:p708:t1	7	"["""", """", ""119"", ""459"", ""578"", ""1407"", ""2007"", ""3414""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1904:p708:t1	8	"[""Foona"", ""United Kingdom ... cwt. Br. Col.— British India ... \"" For. Coun.— Belgium ... \"" Germany ... \"" Holland ... \"" U. S. of America \"""", ""1500 69 91613 150409 42 40"", ""— — — — — —"", ""1500 69 91613 150409 42 40"", ""6444 395 392288 698492 200 170"", ""— — — — — —"", ""6444 395 392288 698492 200 170""]"	figures beyond layout or a figure cell is not a plain number
 bb1904:p708:t1	9	"["""", """", ""243673"", ""—"", ""243673"", ""1097989"", ""—"", ""1097989""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1904:p710:t1	27	"["""", ""For. Coun.—"", """", """", """", """", """", ""443""]"	country name lost: unlabelled figures on a country-group heading
-bb1904:p710:t1	44	"["""", ""British India ... val."", ""—"", ""—"", ""—"", ""—"", ""1995000"", ""1995000""]"	figures with no article heading above them
+bb1904:p710:t1	21	"["""", ""Other British Possessions in Asia ... \"""", ""—"", ""49"", ""49"", ""10"", ""1206"", ""21598""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	22	"["""", ""Queensland ... \"""", ""—"", ""2"", ""2"", ""25"", ""160"", ""1216""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	23	"["""", ""Straits Settlements ... \"""", ""10"", ""99"", ""109"", ""750"", ""3405"", ""185""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	24	"["""", ""Tasmania ... \"""", ""—"", ""—"", ""—"", ""5"", ""—"", ""4155""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	25	"["""", ""Victoria ... \"""", ""1"", ""—"", ""1"", ""115"", ""100"", ""5""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	26	"["""", ""West Australia ... \"""", ""—"", ""3"", ""3"", ""89"", ""354"", ""215""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	27	"["""", ""For. Coun.—"", """", """", """", """", """", ""443""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	28	"["""", ""Austria ... \"""", ""—"", ""1"", ""1"", ""—"", ""660"", ""660""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	29	"["""", ""Belgium ... \"""", ""4"", ""14"", ""18"", ""50"", ""910"", ""960""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	30	"["""", ""Egypt ... \"""", ""—"", ""1"", ""1"", ""—"", ""90"", ""90""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	31	"["""", ""France ... \"""", ""10"", ""—"", ""10"", ""200"", ""100"", ""300""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	32	"["""", ""Germany ... \"""", ""26"", ""9"", ""35"", ""435"", ""1500"", ""1935""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	33	"["""", ""India(exc. British) ... \"""", ""1"", ""5"", ""6"", ""20"", ""74"", ""94""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	34	"["""", ""Italy ... \"""", ""—"", ""—"", ""—"", ""—"", ""50"", ""50""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	35	"["""", ""Japan ... \"""", ""—"", ""1"", ""1"", ""—"", ""20"", ""20""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	36	"["""", ""Java ... \"""", ""—"", ""219"", ""219"", ""10"", ""4925"", ""4935""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	37	"["""", ""Mozambique ... \"""", ""—"", ""—"", ""—"", ""—"", ""30"", ""30""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	38	"["""", ""Spain ... \"""", ""—"", ""—"", ""—"", ""—"", ""50"", ""50""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	39	"["""", ""Sweden ... \"""", ""—"", ""—"", ""—"", ""—"", ""30"", ""30""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	40	"["""", ""U. S. of America... \"""", ""666"", ""7"", ""673"", ""55565"", ""577"", ""56142""]"	country alignment uncertain: figures on a country-group marker
+bb1904:p710:t1	41	"["""", """", ""910"", ""1338"", ""2248"", ""63297"", ""53159"", ""166456""]"	country alignment uncertain: figures on a country-group marker
 bb1904:p712:t1	11	"[""Cotton Seed ..."", ""... For Coun.— Egypt ... cwt."", ""3"", ""3"", ""25""]"	figures with no article heading above them
 bb1904:p714:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p649:t1	3	"[""Cattle ..."", ""Br. Col.— British India ... No. Maldivé Islands ... \"" Victoria ... \"""", ""22878 2 15"", ""22878 2 15"", ""467375 25 3350""]"	figures beyond layout or a figure cell is not a plain number
@@ -1166,8 +1497,34 @@ bb1905:p695:t1	52	"["""", ""U. S. of America ... \"""", ""17 1"", ""17 1"", ""89
 bb1905:p695:t1	53	"["""", """", ""1570 940"", ""1768 1005"", ""89260""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p695:t1	42	"["""", ""Victoria ... \"""", ""— —"", ""— —"", ""2""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p695:t1	46	"["""", ""Egypt ... \"""", ""— —"", ""— —"", ""1""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1905:p696:t1	14	"["""", ""Br. Col.—"", ""4"", ""4"", ""10""]"	country name lost: unlabelled figures on a country-group heading
+bb1905:p696:t1	14	"["""", ""Br. Col.—"", ""4"", ""4"", ""10""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p696:t1	15	"["""", ""Strait Settlements ... \"""", ""32"", ""32"", ""163""]"	country alignment uncertain: figures on a country-group marker
 bb1905:p696:t1	51	"[""Sleepers and Keys"", ""... New South Wales ... No."", ""6"", ""6"", ""18""]"	figures with no article heading above them
+bb1905:p707:t1	44	"["""", ""United Kingdom ... cwt."", ""2913"", ""3094"", ""—"", ""6007"", ""296025"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	46	"["""", ""British India ... \"""", ""35"", ""7"", ""—"", ""42"", ""2070"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	47	"["""", ""Burma ... \"""", ""—"", ""5"", ""—"", ""5"", ""246"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	48	"["""", ""Canada ... \"""", ""19"", ""25"", ""—"", ""44"", ""2168"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	49	"["""", ""Hong Kong ... \"""", ""714"", ""—"", ""—"", ""714"", ""35186"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	50	"["""", ""New South Wales ... \"""", ""56"", ""305"", ""—"", ""361"", ""17790"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	51	"["""", ""New Zealand ... \"""", ""29"", ""173"", ""—"", ""202"", ""9955"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	52	"["""", ""Queensland ... \"""", ""—"", ""35"", ""—"", ""35"", ""1725"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	53	"["""", ""South Australia ... \"""", ""3"", ""37"", ""—"", ""40"", ""1971"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	54	"["""", ""Victoria ... \"""", ""55"", ""150"", ""—"", ""205"", ""10102"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	56	"["""", ""Austria ... \"""", ""66"", ""580"", ""—"", ""646"", ""31835"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	57	"["""", ""Belgium ... \"""", ""1237"", ""2249"", ""—"", ""3486"", ""171790"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	58	"["""", ""Denmark ... \"""", ""113"", ""12"", ""—"", ""125"", ""6160"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	59	"["""", ""France ... \"""", ""319"", ""248"", ""—"", ""567"", ""27942"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	60	"["""", ""Germany ... \"""", ""7780"", ""8604"", ""—"", ""16384"", ""807404"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	61	"["""", ""Holland ... \"""", ""305"", ""1386"", ""—"", ""1691"", ""83332"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	62	"["""", ""India (exc. British) ... \"""", ""2"", ""—"", ""—"", ""2"", ""99"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	63	"["""", ""Italy ... \"""", ""1531"", ""1438"", ""—"", ""2969"", ""146312"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	64	"["""", ""Norway ... \"""", ""8"", ""12"", ""—"", ""20"", ""986"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	65	"["""", ""Other For. Coun. in America ... \"""", ""1940"", ""—"", ""—"", ""1940"", ""95603"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	66	"["""", ""South America ... \"""", ""290"", ""—"", ""—"", ""290"", ""14291"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	67	"["""", ""Spain ... \"""", ""4436"", ""1088"", ""—"", ""5524"", ""272223"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	68	"["""", ""Turkey in Europe ... \"""", ""4"", ""60"", ""—"", ""64"", ""3154"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	69	"["""", ""U. S. of America ... \"""", ""4975"", ""587"", ""—"", ""5562"", ""274095"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
+bb1905:p707:t1	70	"["""", """", ""26830"", ""20095"", ""—"", ""46925"", ""2312464"", ""—""]"	Cinnamon value_total_rs missing: OCR ends at other-produce value
 bb1905:p707:t1	71	"["""", """", """", """", """", """", """", ""2312464""]"	figures with no article heading above them
 bb1905:p708:t1	5	"[""Cloves and Mace ..."", ""United Kingdom ... cwt. Br. Col.— British India ... \"""", ""11"", ""—"", ""11"", ""976"", ""—"", ""976""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p708:t1	6	"["""", ""Burma ... \"""", ""9"", ""—"", ""9"", ""470"", ""—"", ""470""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -1216,8 +1573,8 @@ bb1905:p708:t1	54	"["""", ""Egypt ... \"""", ""—"", ""4"", ""4"", ""—"", ""3
 bb1905:p708:t1	55	"["""", ""Germany ... \"""", ""—"", ""34"", ""34"", ""—"", ""306"", ""306""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p708:t1	56	"["""", ""India (exc. British) ... \"""", ""—"", ""6"", ""6"", ""—"", ""54"", ""54""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p708:t1	57	"["""", """", ""—"", ""12"", ""12"", ""—"", ""108"", ""108""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1905:p709:t1	34	"[""Tea ..."", ""United Kingdom ... lb."", ""11171903"", ""264807"", ""—"", ""111983810"", ""39194333"", ""39194333""]"	tea row fits no Black + Green + other = total reading
-bb1905:p709:t1	37	"["""", ""British East Africa ... \"""", ""17603"", ""—"", ""17617"", ""6161"", ""5"", ""6166""]"	tea row fits no Black + Green + other = total reading
+bb1905:p709:t1	34	"[""Tea ..."", ""United Kingdom ... lb."", ""11171903"", ""264807"", ""—"", ""111983810"", ""39194333"", ""39194333""]"	tea component columns or totals are unreadable
+bb1905:p709:t1	37	"["""", ""British East Africa ... \"""", ""17603"", ""—"", ""17617"", ""6161"", ""5"", ""6166""]"	tea component columns or totals are unreadable
 bb1905:p711:t1	11	"["""", ""United Kingdom ... lb."", ""Ceylon Kapok or Tree Cotton. 168"", ""Produce Cotton for Spinning. —"", ""Total. 168"", ""100"", ""—"", ""100""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p712:t1	3	"[""Croton Seed—contd."", ""For. Coun.— Germany ... cwt. U. S. of America \"""", ""— 63"", ""— —"", ""— 63"", ""15 1209"", ""— —"", ""15 1209""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p711:t1	63	"[""Croton Seed"", ""United Kingdom ... cwt."", ""57"", ""—"", ""57"", ""2450"", ""—"", ""2450""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -1238,8 +1595,11 @@ bb1905:p712:t1	14	"[""Fibre— Coir ..."", ""United Kingdom ... cwt. Br. Col.—
 bb1905:p713:t1	56	"["""", ""British India ... \"""", ""(case 1) 41"", ""—"", ""(case 1) 41"", ""235"", ""—"", ""235""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p714:t1	7	"["""", ""Germany ... \"""", ""(case 1) 133"", ""—"", ""case 1) 133"", ""1040"", ""—"", ""1040""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p714:t1	9	"["""", ""(cases 2) 260"", ""150"", ""cases 2) 410"", ""3470"", ""1085"", ""4555"", """"]"	country label not readable
-bb1905:p717:t1	72	"["""", ""For. Coun.—"", ""1000"", ""—"", ""1000"", ""1564"", ""155"", ""1719""]"	country name lost: unlabelled figures on a country-group heading
-bb1905:p717:t1	76	"["""", """", ""1000"", ""—"", ""1000"", ""1599"", ""2076"", ""3675""]"	figures with no article heading above them
+bb1905:p717:t1	72	"["""", ""For. Coun.—"", ""1000"", ""—"", ""1000"", ""1564"", ""155"", ""1719""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p717:t1	73	"["""", ""Italy ... yds."", ""172"", ""—"", ""172"", ""25"", ""—"", ""25""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p717:t1	74	"["""", ""Java ... \"""", ""56"", ""—"", ""56"", ""10"", ""—"", ""10""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p717:t1	75	"["""", """", ""1228"", ""9550"", ""10778"", ""1599"", ""2076"", ""3675""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p717:t1	76	"["""", """", ""1000"", ""—"", ""1000"", ""1599"", ""2076"", ""3675""]"	country alignment uncertain: figures on a country-group marker
 bb1905:p718:t1	7	"[""Gray ..."", ""Br. Col. British India ... lb. For. Coun.—China... \"""", ""86468 —"", ""— 200"", ""86468 200"", ""33654 —"", ""— 150"", ""33654 150""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p718:t1	8	"["""", """", ""86468"", ""200"", ""86668"", ""33654"", ""150"", ""33804""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p718:t1	9	"[""(c) Linen— Piece Goods"", ""United Kingdom ... yds. Br. Col.—Br. India ... Burma ... Cape Colony ... Maldiv Islands... Straits Settlements \"""", ""— — — — — —"", ""100 1000 100 400 200 300"", ""100 1000 100 400 200 300"", ""— — — — — —"", ""150 187 100 150 150 375"", ""150 187 100 150 150 375""]"	figures beyond layout or a figure cell is not a plain number
@@ -1256,7 +1616,8 @@ bb1905:p718:t1	21	"[""(2) Of Metal (other than Machinery) Brass— Nails and Wir
 bb1905:p718:t1	22	"["""", """", ""—"", ""4"", ""4"", ""—"", ""376"", ""376""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1905:p718:t1	23	"[""Brassware ..."", ""United Kingdom ... cwt. Br. Col.—Br. India ... Canada ... New Zealand ... For. Coun.— India (exc. British) ... Java ... U. S. of America \"""", ""— 21 — — — — — —"", ""— 2364 2 — — 1 1 —"", ""— 2385 2 — — 1 1 —"", ""80 2476 — — — — —"", ""105 8449 100 70 — 60 77 50"", ""185 10925 100 70 — 60 77 50""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p718:t1	24	"["""", """", ""21"", ""2368"", ""2389"", ""2556"", ""8911"", ""11467""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1905:p720:t1	19	"[""Zinc— Perforated ..."", ""Br. Col.—"", ""3"", ""50"", ""53"", ""214"", ""1620"", ""1864""]"	country name lost: unlabelled figures on a country-group heading
+bb1905:p720:t1	19	"[""Zinc— Perforated ..."", ""Br. Col.—"", ""3"", ""50"", ""53"", ""214"", ""1620"", ""1864""]"	country alignment uncertain: figures on a country-group marker
+bb1905:p720:t1	20	"["""", ""British India ... cwt."", ""—"", ""4"", ""4"", ""—"", ""100"", ""100""]"	country alignment uncertain: figures on a country-group marker
 bb1905:p723:t1	22	"[""III.—Manufactured (3) Other—contd. Curios and Fancy Articles—contd."", """", """", ""433"", ""172"", ""605"", ""23915"", ""18763"", ""42678""]"	figures beyond layout or a figure cell is not a plain number
 bb1905:p723:t1	34	"["""", """", ""20"", ""39"", ""59"", ""5589"", ""9084"", ""14673"", """"]"	figures with no article heading above them
 bb1905:p723:t1	40	"[""Earthenware ..."", ""Maldiv Islands ... No."", ""12650"", ""No. 4000 pkgs. 76"", ""No. 16650 pkgs. 76"", ""261"", ""3607"", ""3868"", """"]"	figures beyond layout or a figure cell is not a plain number
@@ -1286,7 +1647,6 @@ bb1906:p656:t1	12	"[""Maldive ..."", ""Br. Col.— British India ... cwt. Maldiv
 bb1906:p656:t1	13	"["""", """", ""61892"", ""61892"", ""1794899""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1906:p656:t1	14	"[""Tinned ..."", ""United Kingdom ... lb. Br. Col.— British India ... \"" New South Wales ... \"" Straits Settlements ... \"" For. Coun.— China ... \"" Egypt ... \"" France ... \"" Germany ... \"" Norway ... \"" Portugal ... \"" Russia in Europe ... \"" South America ... \"" U. S. of America ... \"""", ""129388 1649 272 2240 3143 10 12634 13602 1478 3304 56 2240 32224"", ""129388 1649 272 2240 3143 10 12634 13602 1478 3304 56 2240 32224"", ""73238 719 99 622 794 2 4499 4309 418 912 30 3123 9497""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p656:t1	15	"["""", """", ""202240"", ""202240"", ""28262""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
-bb1906:p660:t1	14	"["""", ""Br. Col.—"", ""1356"", ""1356"", ""37101""]"	country name lost: unlabelled figures on a country-group heading
 bb1906:p662:t1	4	"[""Pepper (whole) ..."", ""Br. Col.— British India ... cwt. Straits Settlements ... \"""", ""170 278"", ""170 278"", ""4086 9450""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p662:t1	5	"["""", ""For. Coun.— India (exc. British) ... \"""", ""6"", ""6"", ""151""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1906:p662:t1	6	"["""", """", ""454"", ""454"", ""13687""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
@@ -1330,7 +1690,11 @@ bb1906:p680:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactu
 bb1906:p680:t1	58	"["""", ""Carried over ... \"""", ""28136"", ""29099"", ""935830""]"	carried over / brought forward, not data
 bb1906:p681:t1	2	"[""Hardware—contd."", ""Brought forward ..."", ""28136"", ""29099"", ""935830""]"	carried over / brought forward, not data
 bb1906:p682:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p682:t1	10	"["""", ""Br. Col.—"", ""—"", ""—"", ""42""]"	country name lost: unlabelled figures on a country-group heading
+bb1906:p682:t1	10	"["""", ""Br. Col.—"", ""—"", ""—"", ""42""]"	country alignment uncertain: figures on a country-group marker
+bb1906:p682:t1	11	"["""", ""British India ... \"""", ""—"", ""—"", ""42""]"	country alignment uncertain: figures on a country-group marker
+bb1906:p682:t1	13	"["""", ""Austria ... \"""", ""7"", ""7"", ""278""]"	country alignment uncertain: figures on a country-group marker
+bb1906:p682:t1	14	"["""", ""Germany ... \"""", ""8"", ""8"", ""568""]"	country alignment uncertain: figures on a country-group marker
+bb1906:p682:t1	15	"["""", """", ""20"", ""20"", ""1667""]"	country alignment uncertain: figures on a country-group marker
 bb1906:p683:t1	3	"["""", ""Brought forward ..."", ""1258"", ""1258"", ""Rs. 41840""]"	carried over / brought forward, not data
 bb1906:p686:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p688:t1	1	"[""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""III.—Manufactured Articles—contd."", ""Rs.""]"	figures beyond layout or a figure cell is not a plain number
@@ -1397,32 +1761,59 @@ bb1906:p702:t1	9	"["""", """", ""7666"", ""7646"", ""59356""]"	collapsed article
 bb1906:p702:t1	10	"[""Unenumerated— Dutiable ..."", ""United Kingdom ... No. Br. Col.-- Aden ... \"" British India ... \"" Burma ... \"" Hong Kong ... \"" Maldive Islands ... \"" Malta ... \"" Mauritius ... \"" Natal ... \"" South Australia ... \"" Straits Settlements ... \"" Victoria ... \"" Zanzibar ... \"" For. Coun.-- Austria ... \"" Belgium ... \"" China ... \"" Egypt ... \"" France ... \"""", ""6094 6 2567 74 17 1 26 2 1 28 95 1 67 126 18 3 149"", ""7637 6 2567 74 17 1 26 2 1 28 95 1 68 126 18 3 149"", ""673894 310 83683 550 250 60 8 77 162 74 843 504 1 3397 3675 334 311 12403""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p702:t1	11	"["""", ""Carried over ..."", ""9275"", ""10819"", ""780536""]"	carried over / brought forward, not data
 bb1906:p703:t1	5	"["""", ""Brought forward ..."", ""9275"", ""10819"", ""Rs. 780536""]"	carried over / brought forward, not data
-bb1906:p710:t1	46	"["""", ""United Kingdom ... cwt."", ""2935 3229"", ""—"", ""6164"", ""310665"", ""—"", ""310665""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	48	"["""", ""British India ... \"""", ""19 3"", ""—"", ""22"", ""1109"", ""—"", ""1109""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	49	"["""", ""Canada ... \"""", ""22 62"", ""—"", ""84"", ""4234"", ""—"", ""4234""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	50	"["""", ""New South Wales ... \"""", ""8 278"", ""—"", ""286"", ""14414"", ""—"", ""14414""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	51	"["""", ""New Zealand ... \"""", ""— 78"", ""—"", ""78"", ""3931"", ""—"", ""3931""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	52	"["""", ""South Australia ... \"""", ""8 30"", ""—"", ""38"", ""1915"", ""—"", ""1915""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	53	"["""", ""Victoria ... \"""", ""49 245"", ""—"", ""294"", ""14818"", ""—"", ""14818""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	54	"["""", ""For. Coun.—Austria ... \"""", ""121 1287"", ""—"", ""1408"", ""70963"", ""—"", ""70963""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	55	"["""", ""Belgium ... \"""", ""914 3134"", ""—"", ""4048"", ""204019"", ""—"", ""204019""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	56	"["""", ""Denmark ... \"""", ""93 —"", ""—"", ""93"", ""4687"", ""—"", ""4687""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	57	"["""", ""Egypt ... \"""", ""16 —"", ""—"", ""16"", ""806"", ""—"", ""806""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	58	"["""", ""France ... \"""", ""327 286"", ""—"", ""613"", ""30896"", ""—"", ""30896""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	59	"["""", ""Germany ... \"""", ""9538 7982"", ""—"", ""17520"", ""883008"", ""—"", ""883008""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	60	"["""", ""Holland ... \"""", ""580 2699"", ""—"", ""3279"", ""165261"", ""—"", ""165261""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	61	"["""", ""Italy ... \"""", ""1549 1137"", ""—"", ""2686"", ""135375"", ""—"", ""135375""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	62	"["""", ""Other For. Coun. in Africa ... \"""", ""149 —"", ""—"", ""149"", ""7509"", ""—"", ""7509""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	63	"["""", ""Other For. Coun. in America ... \"""", ""2949 —"", ""—"", ""2949"", ""148630"", ""—"", ""148630""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	64	"["""", ""Philippine Islands ... \"""", ""2 —"", ""—"", ""2"", ""101"", ""—"", ""101""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	65	"["""", ""Spain ... \"""", ""3991 1284"", ""—"", ""5275"", ""265860"", ""—"", ""265860""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	66	"["""", ""Turkey in Asia ... \"""", ""16 —"", ""—"", ""16"", ""806"", ""—"", ""806""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	67	"["""", ""U. S. of America ... \"""", ""6606 796"", ""—"", ""7402"", ""373061"", ""—"", ""373061""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p710:t1	68	"["""", """", ""29892 22530"", ""—"", ""52422"", ""2642068"", ""—"", ""2642068""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p712:t1	22	"[""Tea ..."", ""United Kingdom ... lb."", ""Black 107724161"", ""Green 430038"", ""Black —"", ""108154199"", ""38935511"", ""—"", ""38935511""]"	tea row fits no Black + Green + other = total reading
-bb1906:p713:t1	29	"["""", """", ""166742132"", ""8784994"", ""20"", ""170527146"", ""61389765"", ""7"", ""61389772""]"	tea row fits no Black + Green + other = total reading
+bb1906:p713:t1	29	"["""", """", ""166742132"", ""8784994"", ""20"", ""170527146"", ""61389765"", ""7"", ""61389772""]"	tea component columns or totals are unreadable
 bb1906:p713:t1	51	"[""Unenumerated ..."", """", """", ""845"", ""2052"", ""2897"", ""32816"", ""30594"", ""63410""]"	figures beyond layout or a figure cell is not a plain number
-bb1906:p715:t1	9	"[""Myrobolans..."", ""Br. Col.—"", ""4"", ""25"", ""29"", ""50"", ""250"", ""300""]"	country name lost: unlabelled figures on a country-group heading
+bb1906:p715:t1	9	"[""Myrobolans..."", ""Br. Col.—"", ""4"", ""25"", ""29"", ""50"", ""250"", ""300""]"	country alignment uncertain: figures on a country-group marker
+bb1906:p716:t1	3	"["""", ""For. Coun.—Austria cwt."", ""1209"", ""—"", ""1209"", ""6855"", ""—"", ""6855""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	4	"["""", ""Belgium ... \"""", ""33228"", ""—"", ""33228"", ""188403"", ""—"", ""188403""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	5	"["""", ""Denmark ... \"""", ""150"", ""—"", ""150"", ""850"", ""—"", ""850""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	6	"["""", ""France ... \"""", ""3266"", ""—"", ""3266"", ""18518"", ""—"", ""18518""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	7	"["""", ""Germany ... \"""", ""31668"", ""—"", ""31668"", ""179558"", ""—"", ""179558""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	8	"["""", ""Holland ... \"""", ""4191"", ""—"", ""4191"", ""23763"", ""—"", ""23763""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	9	"["""", ""Italy ... \"""", ""229"", ""—"", ""229"", ""1298"", ""—"", ""1298""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	10	"["""", ""Japan ... \"""", ""1172"", ""—"", ""1172"", ""6645"", ""—"", ""6645""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	11	"["""", ""Mozambique ... \"""", ""795"", ""—"", ""795"", ""4508"", ""—"", ""4508""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	12	"["""", ""New Caledonia ... \"""", ""61"", ""—"", ""61"", ""346"", ""—"", ""346""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	13	"["""", ""U. S. of America... \"""", ""18482"", ""—"", ""18482"", ""104793"", ""—"", ""104793""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	14	"["""", """", ""163380"", ""—"", ""163380"", ""926364"", ""—"", ""926364""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	15	"[""Kitul ..."", ""United Kingdom ... cwt."", ""2676"", ""—"", ""2676"", ""96863"", ""—"", ""96863""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	16	"["""", ""For. Coun.— Germany ... \"""", ""—"", ""—"", ""—"", ""2"", ""—"", ""2""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	17	"["""", """", ""2676"", ""—"", ""2676"", ""96865"", ""—"", ""96865""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	18	"[""Palmyra ..."", ""United Kingdom ... cwt."", ""1270"", ""17"", ""1287"", ""19790"", ""500"", ""20290""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	19	"["""", ""Br. Col.— New South Wales ... \"""", ""56"", ""—"", ""56"", ""1055"", ""—"", ""1055""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	20	"["""", ""New Zealand ... \"""", ""63"", ""10"", ""73"", ""1845"", ""280"", ""2125""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	21	"["""", ""South Australia ... \"""", ""17"", ""—"", ""17"", ""340"", ""—"", ""340""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	22	"["""", ""Victoria ... \"""", ""25"", ""—"", ""25"", ""420"", ""—"", ""420""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	23	"["""", ""For. Coun.— Belgium ... \"""", ""809"", ""—"", ""809"", ""12405"", ""—"", ""12405""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	24	"["""", ""France ... \"""", ""346"", ""—"", ""346"", ""3137"", ""—"", ""3137""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	25	"["""", ""Germany ... \"""", ""1679"", ""—"", ""1679"", ""22668"", ""—"", ""22668""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	26	"["""", ""Holland ... \"""", ""461"", ""—"", ""461"", ""5551"", ""—"", ""5551""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	27	"["""", ""Japan ... \"""", ""99"", ""—"", ""99"", ""1294"", ""—"", ""1294""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	28	"["""", """", ""4825"", ""27"", ""4852"", ""68505"", ""780"", ""69285""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	29	"[""Other ..."", ""Br. Col.—Br. India cwt."", ""—"", ""—"", ""—"", ""20"", ""—"", ""20""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	30	"[""Gum Horns— Deer ..."", ""Br. Col.— South Australia... cwt."", ""—"", ""14"", ""14"", ""—"", ""320"", ""320""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	31	"["""", ""United Kingdom ... cwt."", ""526"", ""—"", ""526"", ""63120"", ""—"", ""63120""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	32	"["""", ""For. Coun.— Egypt ... \"""", ""18"", ""—"", ""18"", ""2160"", ""—"", ""2160""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	33	"["""", """", ""544"", ""—"", ""544"", ""65280"", ""—"", ""65280""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	34	"[""Sambur ..."", ""United Kingdom ... cwt."", ""654"", ""—"", ""654"", ""15042"", ""—"", ""15042""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	35	"["""", ""For. Coun.— Egypt ... \"""", ""43"", ""—"", ""43"", ""989"", ""—"", ""989""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	36	"["""", """", ""697"", ""—"", ""697"", ""16031"", ""—"", ""16031""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	37	"[""Other ..."", ""United Kingdom ... cwt."", ""487"", ""—"", ""487"", ""7242"", ""—"", ""7242""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	38	"["""", ""For. Coun.— France ... \"""", ""22"", ""—"", ""22"", ""300"", ""—"", ""300""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	39	"["""", """", ""509"", ""—"", ""509"", ""7542"", ""—"", ""7542""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	40	"[""Ivory ..."", ""United Kingdom ... lb."", ""372"", ""—"", ""372"", ""2800"", ""—"", ""2800""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	41	"[""Mica Natural History Specimens ..."", ""United Kingdom ... cwt."", ""99"", ""—"", ""99"", ""7516"", ""—"", ""7516""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	42	"["""", ""United Kingdom ... No."", ""83"", ""30"", ""113"", ""1150"", ""1100"", ""2250""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	43	"["""", ""Br. Col.— British India ... \"""", ""23"", ""—"", ""23"", ""180"", ""—"", ""180""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	44	"["""", ""Straits Settlements ... \"""", ""5"", ""—"", ""5"", ""15"", ""—"", ""15""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	45	"["""", ""Tasmania ... \"""", ""27"", ""—"", ""27"", ""100"", ""—"", ""100""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	46	"["""", ""Victoria ... \"""", ""20"", ""—"", ""20"", ""50"", ""—"", ""50""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	47	"["""", ""West Australia ... \"""", ""2"", ""—"", ""2"", ""10"", ""—"", ""10""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	48	"["""", ""For. Coun.—Austria No."", ""8"", ""—"", ""8"", ""150"", ""—"", ""150""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	49	"["""", ""Belgium ... \"""", ""20"", ""—"", ""20"", ""390"", ""—"", ""390""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	50	"["""", ""Germany ... \"""", ""312"", ""—"", ""312"", ""2950"", ""—"", ""2950""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	51	"["""", ""U. S. of America ... \"""", ""30"", ""—"", ""30"", ""450"", ""—"", ""450""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
+bb1906:p716:t1	52	"["""", """", ""530"", ""30"", ""560"", ""5445"", ""1100"", ""6545""]"	subgroup letter disagrees with the OCR: (3) Other (6) Miscellaneous
 bb1906:p719:t1	2	"[""I.—Raw Materials— (3) Other—contd. Tallow and Grease"", ""... Br. Col.—Br. India cwt."", ""130"", ""26"", ""156"", ""Rs. 1910"", ""Rs. 320"", ""Rs. 2230""]"	figures with no article heading above them
 bb1906:p719:t1	3	"["""", ""... Mauritius \"""", ""—"", ""29"", ""29"", ""—"", ""834"", ""834""]"	figures with no article heading above them
 bb1906:p719:t1	4	"["""", ""... Straits Settlements \"""", ""6"", ""—"", ""6"", ""100"", ""—"", ""100""]"	figures with no article heading above them
@@ -1451,6 +1842,14 @@ bb1906:p723:t1	22	"[""Boats ..."", ""Br. Col.— British India ... No. For. Coun
 bb1906:p723:t1	23	"["""", """", ""6"", ""2"", ""8"", ""580"", ""7530"", ""8110""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1906:p723:t1	24	"[""Books, printed ..."", ""United Kingdom ... No. Br. Col.—Br. India „ Burma ... „ Hong Kong ... „ Mauritius ... „ New South Wales „ Straits Settlements „ For. Coun.—Austria „ China ... „ Germany ... „ Phillippine Islands „ Sweden ... „ U. S. of America... „"", ""1280 80 — 10 — — — — — — — — —"", ""4700 1175 85 — 2000 20 35 30 88 — 30 12 1000"", ""5980 1255 85 10 2000 20 35 30 88 4 30 12 1000"", ""740 115 — 25 — — — — — — — — —"", ""3721 1501 150 — 60 550 75 20 100 — 20 25 1000"", ""4461 1616 150 25 60 550 75 20 100 5 20 25 1000""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p723:t1	25	"["""", """", ""1374"", ""9175"", ""10549"", ""885"", ""7222"", ""8107""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1906:p726:t1	36	"["""", ""Maldiv Islands ... No. 6000"", ""} No. 19100 pkgs. 49"", ""} No. 25100 pkgs. 49"", ""} 211"", ""} 2089"", ""} 27"", ""} 2300"", """", """", """", """"]"	figures beyond layout or a figure cell is not a plain number
+bb1906:p726:t1	37	"["""", ""New Zealand ... pkgs."", ""} No. 19100 pkgs. 49"", ""} No. 25100 pkgs. 49"", ""} 211"", ""} 2089"", ""} 27"", ""} 2300"", ""—"", ""1"", ""—"", ""340""]"	figures beyond layout or a figure cell is not a plain number
+bb1906:p726:t1	42	"["""", """", ""No. 6000 Pkgs. 2"", ""No. 19100 Pkgs. 1040"", ""No. 25100 Pkgs. 1042"", ""} 236"", ""} 10412"", ""} 10648"", """", """", """", """"]"	figures beyond layout or a figure cell is not a plain number
+bb1906:p726:t1	33	"[""Earthenware ..."", ""United Kingdom ... pkgs."", ""—"", ""4"", ""4"", ""—"", ""98"", ""98"", """", """", """", """"]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1906:p726:t1	35	"["""", ""British India ... \"""", ""1"", ""983"", ""984"", ""10"", ""7808"", ""7818"", """", """", """", """"]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1906:p726:t1	38	"["""", ""Straits Settlements ... \"""", ""—"", ""2"", ""2"", ""—"", ""50"", ""50"", """", """", """", """"]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1906:p726:t1	39	"["""", ""West Australia ... \"""", ""—"", ""1"", ""1"", ""—"", ""—"", ""—"", """", """", """", """"]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
+bb1906:p726:t1	41	"["""", ""Austria ... \"""", ""1"", ""—"", ""1"", ""15"", ""—"", ""15"", """", """", """", """"]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1906:p729:t1	4	"[""Oil— Castor"", ""Br. Col.— British India ... cwt. Maldives Islands ... \"""", ""— —"", ""3 4"", ""3 4"", ""— —"", ""180 60"", ""180 60""]"	figures beyond layout or a figure cell is not a plain number
 bb1906:p729:t1	5	"["""", """", ""—"", ""7"", ""7"", ""—"", ""240"", ""240""]"	collapsed article block or ambiguous units: unit contains country list, fragment, or unreadable brace
 bb1906:p729:t1	6	"[""Cinnamon"", ""United Kingdom ... oz. For. Coun.— France ... \"" Germany ... \"""", ""62275 2400 38812"", ""— — —"", ""62275 2400 38812"", ""13121 1380 4345"", ""— — —"", ""13121 1380 4345""]"	figures beyond layout or a figure cell is not a plain number
