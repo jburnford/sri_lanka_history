@@ -1,14 +1,15 @@
 {
-  "rows": 4918,
-  "numeric_values_verified": 3379,
-  "tables_used": 53,
-  "tables_skipped": 24,
-  "unique_source_cells_verified": 4918,
+  "rows": 12686,
+  "numeric_values_verified": 9170,
+  "tables_used": 134,
+  "tables_skipped": 376,
+  "unique_source_cells_verified": 12686,
+  "acreage_blocks_recomputed": 90,
   "acreage_total_statuses": {
-    "agree": 200,
-    "mismatch": 17,
-    "uncheckable: unreadable numeric string": 1,
-    "uncheckable: no printed numeric total": 36
+    "agree": 935,
+    "mismatch": 161,
+    "uncheckable: unreadable numeric string": 16,
+    "uncheckable: no printed numeric total": 41
   },
   "result": "PASS"
 }

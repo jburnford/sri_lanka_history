@@ -17,6 +17,170 @@ bb1902:p16:t2	measure: Tea.	434330*	434030	300
 bb1902:p16:t2	measure: Cocoanuts.	853186	853181	5
 bb1904:p18:t1	measure: Cotton.	—		
 bb1912:p16:t4	measure: Tobacco.	14374	14394	-20
+bb1863:p10:t2	area: Eastern [1862]	160663\frac{3}{4}	160664	-0.25
+bb1863:p10:t2	area: Northern [1862]	101199\frac{1}{2}	101199.75	-0.25
+bb1863:p10:t2	area: (unlabelled colony total) [1862]	1201257\frac{1}{2}	1201257.75	-0.25
+bb1863:p10:t2	measure: Other Grain. [1862]	113443\frac{3}{4}	113444.25	-0.5
+bb1863:p10:t2	measure: Tobacco. [1862]	15847\frac{1}{2}	15847.25	0.25
+bb1863:p10:t2	area: Western [1863]	226042\frac{1}{10}	220042.1	6000
+bb1863:p10:t2	area: Northern [1863]	105895\frac{1}{2}	105895	0.5
+bb1863:p10:t2	area: (unlabelled colony total) [1863]	1277170\frac{1}{2}	1277170.6	-0.1
+bb1863:p10:t2	measure: TOTAL. [1863]	1277170\frac{1}{2}	1283171.1	-6000.6
+bb1866:p11:t2	area: Western	177143	177143.5	-0.5
+bb1866:p11:t2	area: North-Western	156852\frac{1}{2}	156852.25	0.25
+bb1866:p11:t2	area: (unlabelled colony total)	1,046,156\frac{1}{2}		
+bb1866:p11:t2	measure: Other Grain.	79502\frac{5}{12}		
+bb1866:p11:t2	measure: Tobacco.	6634\frac{3}{4}	6624.75	10
+bb1866:p11:t2	measure: TOTAL.	1,046,156\frac{1}{2}	1046157.25	-0.75
+bb1868:p11:t2	area: Northern	89576\frac{3}{4}	89577.25	-0.5
+bb1868:p11:t2	area: (unlabelled colony total)	1768378\frac{3}{8}	1768378	0.375
+bb1868:p11:t2	measure: Other Grain.	87582\frac{1}{2}	87583.25	-0.75
+bb1868:p11:t2	measure: TOTAL.	1768378\frac{3}{8}	1768378.25	0.125
+bb1868:p11:t3	area: Eastern	96909\frac{1}{2}	96909.25	0.25
+bb1868:p11:t3	area: Northern	83719	83779	-60
+bb1868:p11:t3	area: Central	1084565\frac{1}{2}	1084565.875	-0.375
+bb1868:p11:t3	measure: Paddy.	461287\frac{1}{2}	461347.5	-60
+bb1868:p11:t3	measure: TOTAL.	1794722\frac{3}{8}	1794722.25	0.125
+bb1880:p8:t4	area: Eastern	82302 13/18		
+bb1880:p8:t4	area: (unlabelled colony total)	1722298 13/18		
+bb1880:p8:t4	measure: Paddy.	581565 13/18		
+bb1880:p8:t4	measure: Total.	1722298 13/18		
+bb1880:p8:t5	area: Western	701088	701034	54
+bb1880:p8:t5	area: North-Western.	299865	299862	3
+bb1880:p8:t5	area: Southern	281149	301149	-20000
+bb1880:p8:t5	area: Eastern	128687	148687	-20000
+bb1880:p8:t5	area: North-Central	33946	32208.5	1737.5
+bb1880:p8:t5	area: (unlabelled colony total)	2943459	2583459	360000
+bb1880:p8:t5	measure: Paddy	583118	583114	4
+bb1880:p8:t5	measure: Other Grain.	232205	252205	-20000
+bb1880:p8:t5	measure: Coffee.	341460½	341470	-9.5
+bb1880:p8:t5	measure: To-bacco.	99957	9957	90000
+bb1880:p8:t5	measure: Cocon-nuts.	524334	542634	-18300
+bb1880:p8:t5	measure: Pasture.	756801	756751	50
+bb1880:p8:t5	measure: Total.	2943459	2493509	449950
+bb1881:p10:t5	area: Western	701,038	975538	-274500
+bb1881:p10:t5	area: North-Western.	299,865	249350	50515
+bb1881:p10:t5	area: Southern	281,149	251288	29861
+bb1881:p10:t5	area: Eastern	128,687	112919	15768
+bb1881:p10:t5	area: Northern	273,946	273607.75	338.25
+bb1881:p10:t5	area: Central	774,828	224913	549915
+bb1881:p10:t5	area: North-Central	33,946	32246.25	1699.75
+bb1881:p10:t5	area: (unlabelled colony total)	2,193,459		
+bb1881:p10:t5	measure: Paddy	583,118	549818	33300
+bb1881:p10:t5	measure: Other Grain	32,205	69711	-37506
+bb1881:p10:t5	measure: Coffee	34,460	80457.5	-45997.5
+bb1881:p10:t5	measure: Cinna-mon	311,41		
+bb1881:p10:t5	measure: Cotton	173½	35.5	138
+bb1881:p10:t5	measure: Tea	14,266	8809	5457
+bb1881:p10:t5	measure: Cocoa-nuts.	524,334	585924	-61590
+bb1881:p10:t5	measure: Pasture.	756,801	509206	247595
+bb1881:p10:t5	measure: Total.	2,193,459	2493459	-300000
+bb1881:p10:t6	measure: Paddy	549,292	548892	400
+bb1881:p10:t6	measure: Other Grain	15,055	73683	-58628
+bb1881:p10:t6	measure: Coffee	36,183	71838.5	-35655.5
+bb1881:p10:t6	measure: Cinna-mon	320,57		
+bb1881:p10:t6	measure: To-bacco.	10,996	10896	100
+bb1881:p10:t6	measure: Pasture.	779,701	784711	-5010
+bb1882:p10:t6	measure: Coffee.	361838½	71734.5	290104
+bb1882:p10:t6	measure: Cinna- mon.	32057	32107	-50
+bb1882:p10:t6	measure: Pasture.	779701	784701	-5000
+bb1882:p11:t1	measure: Paddy.	579245	570245	9000
+bb1882:p11:t1	measure: Other Grain.	138741	137741	1000
+bb1882:p11:t1	measure: Coffee.	324618\frac{1}{2}	65418	259200.5
+bb1882:p11:t1	measure: Cotton.	215\frac{1}{2}		
+bb1883:p10:t4	measure: Paddy	579245		
+bb1883:p10:t4	measure: Other Grain	138741		
+bb1883:p10:t4	measure: Coffee.	321618\frac{1}{2}	324618.5	-3000
+bb1883:p10:t4	measure: Coconutts	555718		
+bb1883:p10:t4	measure: Pasturage.	793082		
+bb1883:p11:t1	measure: ☼ Coffee.	292779	292679	100
+bb1883:p11:t1	measure: Cacao	7960	8020	-60
+bb1883:p11:t1	measure: Cinna- mon.	84652	34652	50000
+bb1883:p11:t1	measure: Pastur- age	734769½	581477.5	153292
+bb1885:p13:t1	measure: Paddy.	604464	604461	3
+bb1885:p13:t1	measure: Coffee.	231976	236981	-5005
+bb1885:p13:t2	measure: Other Grain.	108298	108308	-10
+bb1886:p13:t1	measure: Other Grain	108298	108268	30
+bb1886:p13:t1	measure: Cacao.	13776	5739	8037
+bb1889b:p14:t2	measure: Coffee.	72776*	184622	-111846
+bb1889b:p14:t2	measure: Cacao.	15617*	127763	-112146
+bb1889b:p14:t2	measure: Cotton.	361	461	-100
+bb1889b:p14:t2	measure: Cinchona.	10589.		
+bb1889b:p14:t3	measure: Tobacco.	17484	17439	45
+bb1889b:p14:t3	measure: Cocoanuts.	656766	656816	-50
+bb1890:p295:t1	measure: Other Grain.	130227	129927	300
+bb1890:p295:t1	measure: Cinchona.	80084	30084	50000
+bb1890:p295:t2	measure: Paddy.	536367	536364	3
+bb1891:p297:t1	measure: Paddy.	536367	536064	303
+bb1891:p297:t1	measure: Other Grain.	124302	124272	30
+bb1891:p297:t1	measure: Coffee.	66530	66527	3
+bb1891:p297:t1	measure: Tobacco.	9515	9520	-5
+bb1891:p297:t2	measure: Other Grain.	122418	122118	300
+bb1891:p297:t2	measure: Cacao.	15471	19471	-4000
+bb1891:p297:t2	measure: Cinchona.	12127	12172	-45
+bb1892:p310:t1	measure: Paddy.	563421	563426	-5
+bb1892:p310:t1	measure: Other Grain.	122418	122518	-100
+bb1892:p310:t1	measure: Cocoanuts.	759605	809655	-50050
+bb1892:p310:t1	measure: Cinchona.	12127	12222	-95
+bb1892:p310:t2	measure: Other Grain.	105066	105071	-5
+bb1892:p310:t2	measure: Cocoanuts.	766512	766522	-10
+bb1892:p310:t2	measure: Cinchona.	11430	11480	-50
+bb1893:p18:t1	measure: Cocoanuts.	766512	766522	-10
+bb1893:p18:t2	measure: Paddy.	545940	545937	3
+bb1893:p18:t2	measure: Other Grain.	124119	124149	-30
+bb1893:p18:t2	measure: Coffee.	33048	33045	3
+bb1894:p14:t1	measure: Cocoanuts.	776977	777027	-50
+bb1894:p14:t1	measure: Cinchona.	4136	4186	-50
+bb1894:p14:t2	measure: Paddy.	564844	564864	-20
+bb1894:p14:t2	measure: Other Grain.	122329	119329	3000
+bb1894:p14:t2	measure: Coffee.	20931	20631	300
+bb1894:p14:t2	measure: Cacao.	26708	25708	1000
+bb1896:p15:t1	measure: Paddy.	589077	541475	47602
+bb1896:p15:t2	measure: Coffee.	23003	22973	30
+bb1896:p15:t2	measure: Tea.	365824	368824	-3000
+bb1897:p17:t1	measure: Paddy.	619388	619358	30
+bb1897:p17:t1	measure: Coffee.	23003	22973	30
+bb1897:p17:t1	measure: Cacao.	30882	29882	1000
+bb1897:p17:t1	measure: Cocoanuts.	871245	871185	60
+bb1898:p15:t1	measure: Cinnamon.	42239	42289	-50
+bb1899:p15:t2	measure: Cacao.	27119	27179	-60
+bb1900:p18:t1	measure: Other Grain.	98728	103728	-5000
+bb1900:p18:t1	measure: Tea.	417448	417443	5
+bb1900:p18:t2	measure: Cocoanuts.	846115	846165	-50
+bb1901:p16:t2	measure: Cacao.	23934	24934	-1000
+bb1901:p16:t2	measure: Cocoanuts.	846458	896458	-50000
+bb1903:p18:t1	measure: Paddy.	700714	697714	3000
+bb1903:p18:t1	measure: Coffee.	5757	5557	200
+bb1903:p18:t1	measure: Cacao.	32625	32628	-3
+bb1903:p18:t1	measure: Cinnamon.	38889	38891	-2
+bb1903:p18:t1	measure: Tobacco	13071	13041	30
+bb1903:p18:t1	measure: Cocoanuts.	853186	853253	-67
+bb1903:p18:t2	measure: Paddy.	711869½	711839	30.5
+bb1903:p18:t2	measure: Cotton.	—		
+bb1903:p18:t2	measure: Tea.	460715*	460710	5
+bb1903:p18:t2	measure: Tobacco.	14327	14387	-60
+bb1903:p18:t2	measure: Cocoanuts.	890409	880414	9995
+bb1905:p15:t1	measure: Paddy.	711406	631406	80000
+bb1905:p15:t2	measure: Paddy.	697711	697411	300
+bb1905:p15:t2	measure: Tobacco.	12885	12880	5
+bb1906:p16:t1	measure: Tobacco.	12885\frac{3}{4}	12880.75	5
+bb1906:p16:t2	measure: Other Grain.	137007	137017	-10
+bb1908:p14:t3	measure: Cinna-mon.	54423	44423	10000
+bb1911:p14:t3	measure: Tobacco.	14374	14394	-20
+bb1913:p15:t3	measure: Rubber.	232731	232735	-4
+bb1914:p15:t2	measure: Rubber.	232731	232735	-4
+bb1915:p14:t4	measure: Coconuts.	97770	977701	-879931
+bb1915:p14:t4	measure: Cin-chona.	—		
+bb1916:p16:t3	measure: Cin-chona.	—		
+bb1916:p16:t4	measure: Paddy.	672075	678075	-6000
+bb1917:p15:t2	measure: Paddy.	672075	678066	-5991
+bb1917:p15:t2	measure: Coffee.	830	890	-60
+bb1919:p14:t3	measure: Cin-chona.	—		
+bb1920:p15:t2	measure: Cin-chona.	—		
+bb1920:p15:t3	measure: Coconuts.	945057	946057	-1000
+bb1921:p15:t2	measure: Coconuts.	945057	946057	-1000
+bb1922:p15:t2	measure: Paddy.	798514	705514	93000
+bb1922:p15:t2	measure: Other Grains.	160665	160700	-35
 bb1928:p327:t1	measure: Cacao.; SOUTHERN PROVINCE vs districts	—		
 bb1928:p327:t1	measure: Cacao.; NORTHERN PROVINCE vs districts	—		
 bb1928:p327:t1	measure: Cacao.; EASTERN PROVINCE vs districts	—		

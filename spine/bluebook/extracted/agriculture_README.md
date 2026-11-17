@@ -1,6 +1,6 @@
 # Agriculture extract
 
-4,918 observation rows from 53 tables; 3,379 numeric values. Missing-value cells are retained as rows. 24 candidate tables were skipped. All 13 supplied volumes were searched. This is a selective extraction, not complete coverage of every volume.
+12,686 observation rows from 134 tables; 9,170 numeric values. Missing-value cells are retained as rows. 376 candidate tables were skipped. The first pass searched 13 volumes for all three kinds of table; a second pass (below) took the opening Agricultural Statistics tables from 41 more. This is a selective extraction, not complete coverage of every volume.
 
 Rebuild from this folder using the standard library only:
 
@@ -13,20 +13,61 @@ Rebuild from this folder using the standard library only:
 
 | Volume | Kind | Tables used (observation rows) |
 | --- | --- | --- |
+| 1863 | acreage_by_crop | bb1863:p10:t2 (98) |
+| 1866 | acreage_by_crop | bb1866:p11:t2 (49), bb1866:p11:t3 (49) |
+| 1868 | acreage_by_crop | bb1868:p11:t2 (49), bb1868:p11:t3 (49) |
 | 1869 | acreage_by_crop | bb1869:p11:t2 (49), bb1869:p11:t3 (49) |
 | 1869 | land_produce_stock | bb1869:p530:t1 (150), bb1869:p535:t1 (68) |
 | 1869 | live_stock | bb1869:p11:t4 (10) |
+| 1871 | acreage_by_crop | bb1871:p13:t2 (49), bb1871:p13:t3 (49) |
+| 1877 | — | No tables extracted |
+| 1880 | acreage_by_crop | bb1880:p8:t4 (56), bb1880:p8:t5 (80) |
+| 1881 | acreage_by_crop | bb1881:p10:t5 (80), bb1881:p10:t6 (80) |
+| 1882 | acreage_by_crop | bb1882:p10:t6 (80), bb1882:p11:t1 (80) |
+| 1883 | acreage_by_crop | bb1883:p10:t4 (80), bb1883:p11:t1 (80) |
+| 1885 | acreage_by_crop | bb1885:p13:t1 (80), bb1885:p13:t2 (80) |
+| 1886 | acreage_by_crop | bb1886:p13:t1 (80), bb1886:p13:t2 (90) |
+| 1887 | acreage_by_crop | bb1887:p14:t2 (90), bb1887:p14:t3 (90) |
 | 1889 | — | No tables extracted |
-| 1890 | — | No tables extracted |
+| 1889b | acreage_by_crop | bb1889b:p14:t2 (90), bb1889b:p14:t3 (100) |
+| 1890 | acreage_by_crop | bb1890:p295:t1 (100), bb1890:p295:t2 (100) |
+| 1891 | acreage_by_crop | bb1891:p297:t1 (100), bb1891:p297:t2 (100) |
+| 1892 | acreage_by_crop | bb1892:p310:t1 (100), bb1892:p310:t2 (100) |
+| 1893 | acreage_by_crop | bb1893:p18:t1 (100), bb1893:p18:t2 (100) |
+| 1894 | acreage_by_crop | bb1894:p14:t1 (100), bb1894:p14:t2 (100) |
+| 1896 | acreage_by_crop | bb1896:p15:t1 (100), bb1896:p15:t2 (100) |
+| 1897 | acreage_by_crop | bb1897:p17:t1 (100), bb1897:p17:t2 (100) |
+| 1898 | acreage_by_crop | bb1898:p15:t1 (100), bb1898:p15:t2 (100) |
+| 1899 | acreage_by_crop | bb1899:p15:t1 (100), bb1899:p15:t2 (100) |
+| 1900 | acreage_by_crop | bb1900:p18:t1 (100), bb1900:p18:t2 (100) |
+| 1901 | acreage_by_crop | bb1901:p16:t1 (100), bb1901:p16:t2 (100) |
 | 1902 | acreage_by_crop | bb1902:p16:t1 (110), bb1902:p16:t2 (110) |
 | 1902 | land_produce_stock | bb1902:p680:t1 (86), bb1902:p681:t1 (90), bb1902:p682:t1 (84), bb1902:p683:t1 (104), bb1902:p684:t1 (100), bb1902:p685:t1 (102), bb1902:p686:t1 (102), bb1902:p687:t1 (42), bb1902:p688:t1 (55), bb1902:p689:t1 (25), bb1902:p690:t1 (112) |
 | 1902 | live_stock | bb1902:p16:t3 (10) |
+| 1903 | acreage_by_crop | bb1903:p18:t1 (110), bb1903:p18:t2 (110) |
 | 1904 | acreage_by_crop | bb1904:p18:t1 (110), bb1904:p18:t2 (110) |
 | 1904 | land_produce_stock | bb1904:p726:t1 (88), bb1904:p727:t1 (92), bb1904:p728:t1 (84), bb1904:p729:t1 (104), bb1904:p730:t1 (102), bb1904:p731:t1 (102), bb1904:p732:t1 (106), bb1904:p733:t1 (48), bb1904:p734:t1 (50), bb1904:p735:t1 (25), bb1904:p736:t1 (112) |
 | 1904 | live_stock | bb1904:p18:t3 (10) |
+| 1905 | acreage_by_crop | bb1905:p15:t1 (110), bb1905:p15:t2 (120) |
+| 1906 | acreage_by_crop | bb1906:p16:t1 (120), bb1906:p16:t2 (110) |
+| 1907 | acreage_by_crop | bb1907:p17:t1 (110), bb1907:p17:t2 (110) |
+| 1908 | acreage_by_crop | bb1908:p14:t2 (110), bb1908:p14:t3 (110) |
+| 1910 | acreage_by_crop | bb1910:p14:t2 (110), bb1910:p14:t3 (110) |
+| 1911 | acreage_by_crop | bb1911:p14:t2 (110), bb1911:p14:t3 (110) |
 | 1912 | acreage_by_crop | bb1912:p16:t4 (110), bb1912:p17:t1 (110) |
 | 1912 | land_produce_stock | bb1912:p253:t1 (78), bb1912:p254:t1 (98), bb1912:p255:t1 (88), bb1912:p256:t1 (110), bb1912:p257:t1 (92), bb1912:p258:t1 (82), bb1912:p259:t1 (72), bb1912:p260:t1 (74), bb1912:p261:t1 (41), bb1912:p262:t1 (32), bb1912:p263:t1 (44), bb1912:p264:t1 (112) |
 | 1912 | live_stock | bb1912:p17:t2 (10) |
+| 1913 | acreage_by_crop | bb1913:p15:t2 (110), bb1913:p15:t3 (110) |
+| 1914 | acreage_by_crop | bb1914:p15:t2 (110), bb1914:p15:t3 (110) |
+| 1915 | acreage_by_crop | bb1915:p14:t3 (110), bb1915:p14:t4 (110) |
+| 1916 | acreage_by_crop | bb1916:p16:t3 (110), bb1916:p16:t4 (110) |
+| 1917 | acreage_by_crop | bb1917:p15:t2 (110), bb1917:p15:t3 (110) |
+| 1918 | acreage_by_crop | bb1918:p15:t2 (110), bb1918:p15:t3 (110) |
+| 1919 | acreage_by_crop | bb1919:p14:t2 (110), bb1919:p14:t3 (110) |
+| 1920 | acreage_by_crop | bb1920:p15:t2 (110), bb1920:p15:t3 (110) |
+| 1921 | acreage_by_crop | bb1921:p15:t2 (90), bb1921:p15:t3 (90) |
+| 1922 | acreage_by_crop | bb1922:p15:t2 (90), bb1922:p15:t3 (90) |
+| 1923 | acreage_by_crop | bb1923:p15:t2 (90), bb1923:p15:t3 (90) |
 | 1924 | land_produce_stock | bb1924:p397:t1 (168) |
 | 1924 | live_stock | bb1924:p400:t1 (168) |
 | 1925 | — | No tables extracted |
@@ -38,6 +79,19 @@ Rebuild from this folder using the standard library only:
 | 1934 | — | No tables extracted |
 
 The complete reviewed candidate inventory, including per-table dating decisions and counts, is in `jobs/agriculture_work/candidate_inventory.tsv`. Each excluded candidate has a reason in `agriculture_skipped.tsv`.
+
+## Second pass: opening Agricultural Statistics, 1862–1923
+
+Almost every volume opens with a summary "Agricultural Statistics": acres under each crop by province, printed twice, for the previous year and for the volume year. The first pass took these from 1869, 1902, 1904, 1912 and 1928 only. The second pass (`SECOND_PASS` in the script) adds the pair from every other volume that prints one, read with the same rules as the first pass (`simple_acreage`), so every printed total is checked the same way.
+
+- Years: the year captions printed between the two tables, read from the page text; the order (previous year first) was checked against the page images for 1885, 1910, 1911, 1921 and 1922. Where two volumes print the same year the figures agree, apart from OCR digit slips.
+- 1863 prints both years (1862, 1863) as two blocks of one parsed table; checks are labelled with the year in brackets.
+- 1877 prints no table: the page says the agricultural returns for 1877 were found so defective that they were not given.
+- 1910 and 1911: the Blue Book year changed, and one table covers January 1, 1910, to June 30, 1911. Its figures carry year_data 1910 and a note giving the period. It is printed in both volumes.
+- 1921–1923: the 1921 table is from the Census of Production, 1921. In the 1922 and 1923 volumes only paddy, other grains and cotton are for the year printed; the other crops repeat the 1921 census figures (page footnote), so those figures carry year_data 1921 and a note.
+- Footnote marks in a figure or heading (for example the tea totals 1901–1911, which a footnote compares with Ferguson's Directory, or rubber 1914–1921, interplanted or excluding small holdings) carry the footnote text in note.
+- Crop names are as printed: Cocoanuts, Coconuts, Cocoa-nuts; Cocoa and Cacao; Pasture and Pasturage. Units as printed (Acres, Acre, OCR "Aeres", "Acrea").
+- Not taken in this pass: the district returns that follow later in each volume, and livestock.
 
 ## Reading the fields
 
@@ -59,7 +113,7 @@ The complete reviewed candidate inventory, including per-table dating decisions 
 
 ## Totals checks
 
-254 acreage total comparisons were attempted: 200 agree, 17 differ, 37 cannot be checked. Agreement is 200/217 (92.2%) of computable comparisons, or 200/254 (78.7%) of all attempted comparisons.
+1153 acreage total comparisons were attempted: 935 agree, 161 differ, 57 cannot be checked. Agreement is 935/1096 (85.3%) of computable comparisons, or 935/1153 (81.1%) of all attempted comparisons.
 
 Every printed TOTAL row/column in the eight opening acreage tables is checked, including the 1869 corner grand totals in both directions. The 1928 CEYLON row is compared with provinces, and each numeric province summary with its districts; districts are never added again to province totals. Row totals and column totals are separate comparisons, so they may overlap in the cells they assess.
 

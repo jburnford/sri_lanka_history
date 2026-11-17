@@ -16,18 +16,22 @@ ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'extracted'
 WORK = ROOT / 'jobs/agriculture_work'
 YEARS = [1869,1889,1890,1902,1904,1912,1924,1925,1926,1928,1930,1933,1934]
+# Second pass: volumes from which only the opening "Agricultural Statistics" tables are taken (file keys).
+MORE_VOLUMES = ['1863','1866','1868','1871','1877','1880','1881','1882','1883','1885','1886','1887','1889b',
+                '1891','1892','1893','1894','1896','1897','1898','1899','1900','1901','1903','1905','1906','1907',
+                '1908','1910','1911','1913','1914','1915','1916','1917','1918','1919','1920','1921','1922','1923']
 FIELDS = 'table_id year_volume year_data pdf_page printed_page table_kind area_level area_as_printed parent_area_as_printed measure_as_printed unit_as_printed value_as_printed value note'.split()
 TABLES = {}
 PAGES = {}
-for year in YEARS:
-    with gzip.open(ROOT / f'tables/{year}.jsonl.gz', 'rt') as f:
+for key in [str(y) for y in YEARS] + MORE_VOLUMES:
+    with gzip.open(ROOT / f'tables/{key}.jsonl.gz', 'rt') as f:
         for line in f:
             t = json.loads(line)
             TABLES[t['id']] = t
-    with gzip.open(ROOT / f'pages/{year}.jsonl.gz', 'rt') as f:
+    with gzip.open(ROOT / f'pages/{key}.jsonl.gz', 'rt') as f:
         for line in f:
             p = json.loads(line)
-            PAGES[year,p['pdf_page']] = p
+            PAGES[key,p['pdf_page']] = p
 
 
 def trim(s):
@@ -160,27 +164,129 @@ def add_check(t, label, total_index, part_indices):
                 DATA[i]['note'] += '; this cell prevents a complete total check'
 
 
-def simple_acreage(tid, yd):
-    t=TABLES[tid]; register(t,'acreage_by_crop',f'Explicit page year {yd}; paired tables follow page text year order.')
+def simple_acreage(tid, yd, crop_ri=0, end=None, label='', dating=None, col_years=None, col_notes=None, cell_notes=None):
+    """One province-by-crop block: crop names in row crop_ri, units in the row below, provinces down to `end`.
+    col_years / col_notes override the year or add notes for one column; cell_notes for one (row, column)."""
+    t=TABLES[tid]; dating=dating or f'Explicit page year {yd}; paired tables follow page text year order.'
+    if tid in USED: USED[tid]['dating'] += ' ' + dating
+    else: register(t,'acreage_by_crop',dating)
+    head=t['rows'][crop_ri]; units=t['rows'][crop_ri+1]
+    first=crop_ri+2; end=len(t['rows']) if end is None else end
+    col_years=col_years or {}; col_notes=col_notes or {}; cell_notes=cell_notes or {}
     grid={}; totals=[]; ordinary=[]
-    for ri,r in enumerate(t['rows'][2:],2):
+    for ri in range(first,end):
+        r=t['rows'][ri]
         total = total_label(r[0]) or not r[0].strip()
         if total: totals.append(ri)
         else: ordinary.append(ri)
         for ci in range(1,len(r)):
-            grid[ri,ci]=emit(t,ri,ci,'acreage_by_crop','colony_total' if total else 'province',r[0],'',t['rows'][0][ci],t['rows'][1][ci],yd,['printed total'] if total else [])
-    ncols=len(t['rows'][0])
-    totalcols=[ci for ci in range(1,ncols) if total_label(t['rows'][0][ci])]
-    for ri in range(2,len(t['rows'])):
+            ns=(['printed total'] if total else [])+col_notes.get(ci,[])+cell_notes.get((ri,ci),[])
+            grid[ri,ci]=emit(t,ri,ci,'acreage_by_crop','colony_total' if total else 'province',r[0],'',head[ci],units[ci],col_years.get(ci,yd),ns)
+    ncols=len(head)
+    totalcols=[ci for ci in range(1,ncols) if total_label(head[ci])]
+    for ri in range(first,end):
         for ci in totalcols:
-            add_check(t,'area: '+(trim(t['rows'][ri][0]) or '(unlabelled colony total)'),grid[ri,ci],[grid[ri,c] for c in range(1,ncols) if c not in totalcols])
+            add_check(t,'area: '+(trim(t['rows'][ri][0]) or '(unlabelled colony total)')+label,grid[ri,ci],[grid[ri,c] for c in range(1,ncols) if c not in totalcols])
     for ri in totals:
         for ci in range(1,ncols):
-            add_check(t,'measure: '+trim(t['rows'][0][ci]),grid[ri,ci],[grid[r,ci] for r in ordinary])
+            add_check(t,'measure: '+trim(head[ci])+label,grid[ri,ci],[grid[r,ci] for r in ordinary])
 
 
 for tid,yd in [('bb1869:p11:t2',1868),('bb1869:p11:t3',1869),('bb1902:p16:t1',1901),('bb1902:p16:t2',1902),('bb1904:p18:t1',1903),('bb1904:p18:t2',1904),('bb1912:p16:t4',1911),('bb1912:p17:t1',1912)]:
     simple_acreage(tid,yd)
+
+# Second pass: the opening "Agricultural Statistics" of the other volumes. Each page prints the previous year's
+# table and then the volume year's, with the years as captions between them (read from the page text and checked
+# against the page images for 1885, 1910, 1911, 1921 and 1922). Where two volumes print the same year, the figures
+# agree (for example 1905 in the 1905 and 1906 volumes).
+FOOTNOTE_SKIP = re.compile(r'Spinning|[Cc]itronella|Cloth is manufactured|Figures not available|nearest (?:hundred|thousand)')
+
+
+def footnote_notes(tid):
+    """A note for each cell carrying a footnote mark, quoting the page footnote with that mark when there is exactly one."""
+    t=TABLES[tid]; key=tid[2:].split(':')[0]
+    lines=[x.strip() for x in PAGES[key,t['pdf_page']]['text'] if x.strip()[:1] in '*†‡§' and not FOOTNOTE_SKIP.search(x)]
+    out={}
+    for ri,r in enumerate(t['rows']):
+        for ci,c in enumerate(r):
+            m=re.search(r'[*†‡§]',c)
+            if not m or ci==0: continue
+            found=[x for x in lines if x.startswith(m[0])]
+            out[ri,ci]=['page footnote: '+found[0]] if len(found)==1 else ['footnote mark '+m[0]+'; no matching footnote found in the page text']
+    return out
+
+
+def column_footnotes(tid, crop_ri):
+    """A footnote mark in a crop or unit heading applies to the whole column."""
+    t=TABLES[tid]; cells=footnote_notes(tid); out={}
+    for (ri,ci),ns in cells.items():
+        if ri in (crop_ri,crop_ri+1): out.setdefault(ci,[]).extend(ns)
+    return out, {k:v for k,v in cells.items() if k[0] not in (crop_ri,crop_ri+1)}
+
+
+PERIOD_1910 = 'period printed as January 1, 1910, to June 30, 1911 (the Blue Book year changed); year_data gives the first year'
+CENSUS_1921 = 'from the Census of Production, 1921 (page footnote)'
+SECOND_PASS = [
+    # (table, data year, crop row, end row, notes for every cell)
+    ('bb1863:p10:t2',1862,0,9,[]), ('bb1863:p10:t2',1863,10,None,[]),
+    ('bb1866:p11:t2',1865,0,None,[]), ('bb1866:p11:t3',1866,0,None,[]),
+    ('bb1868:p11:t2',1867,0,None,[]), ('bb1868:p11:t3',1868,0,None,[]),
+    ('bb1871:p13:t2',1870,0,None,[]), ('bb1871:p13:t3',1871,0,None,[]),
+    ('bb1880:p8:t4',1879,0,None,[]), ('bb1880:p8:t5',1880,0,None,[]),
+    ('bb1881:p10:t5',1880,0,None,[]), ('bb1881:p10:t6',1881,0,None,[]),
+    ('bb1882:p10:t6',1881,1,None,[]), ('bb1882:p11:t1',1882,0,None,[]),
+    ('bb1883:p10:t4',1882,0,None,[]), ('bb1883:p11:t1',1883,0,None,[]),
+    ('bb1885:p13:t1',1884,0,None,[]), ('bb1885:p13:t2',1885,0,None,[]),
+    ('bb1886:p13:t1',1885,0,None,[]), ('bb1886:p13:t2',1886,0,None,[]),
+    ('bb1887:p14:t2',1886,0,None,[]), ('bb1887:p14:t3',1887,0,None,[]),
+    ('bb1889b:p14:t2',1888,0,None,[]), ('bb1889b:p14:t3',1889,0,None,[]),
+    ('bb1890:p295:t1',1889,0,None,[]), ('bb1890:p295:t2',1890,0,None,[]),
+    ('bb1891:p297:t1',1890,0,None,[]), ('bb1891:p297:t2',1891,0,None,[]),
+    ('bb1892:p310:t1',1891,0,None,[]), ('bb1892:p310:t2',1892,0,None,[]),
+    ('bb1893:p18:t1',1892,0,None,[]), ('bb1893:p18:t2',1893,0,None,[]),
+    ('bb1894:p14:t1',1893,0,None,[]), ('bb1894:p14:t2',1894,0,None,[]),
+    ('bb1896:p15:t1',1895,0,None,[]), ('bb1896:p15:t2',1896,0,None,[]),
+    ('bb1897:p17:t1',1896,0,None,[]), ('bb1897:p17:t2',1897,0,None,[]),
+    ('bb1898:p15:t1',1897,0,None,[]), ('bb1898:p15:t2',1898,0,None,[]),
+    ('bb1899:p15:t1',1898,0,None,[]), ('bb1899:p15:t2',1899,0,None,[]),
+    ('bb1900:p18:t1',1899,0,None,[]), ('bb1900:p18:t2',1900,0,None,[]),
+    ('bb1901:p16:t1',1900,0,None,[]), ('bb1901:p16:t2',1901,0,None,[]),
+    ('bb1903:p18:t1',1902,0,None,[]), ('bb1903:p18:t2',1903,0,None,[]),
+    ('bb1905:p15:t1',1904,0,None,[]), ('bb1905:p15:t2',1905,0,None,[]),
+    ('bb1906:p16:t1',1905,0,None,[]), ('bb1906:p16:t2',1906,0,None,[]),
+    ('bb1907:p17:t1',1906,0,None,[]), ('bb1907:p17:t2',1907,0,None,[]),
+    ('bb1908:p14:t2',1907,0,None,[]), ('bb1908:p14:t3',1908,0,None,[]),
+    ('bb1910:p14:t2',1909,0,None,[]), ('bb1910:p14:t3',1910,0,None,[PERIOD_1910]),
+    ('bb1911:p14:t2',1910,0,None,[PERIOD_1910]), ('bb1911:p14:t3',1911,0,None,[]),
+    ('bb1913:p15:t2',1912,0,None,[]), ('bb1913:p15:t3',1913,0,None,[]),
+    ('bb1914:p15:t2',1913,0,None,[]), ('bb1914:p15:t3',1914,0,None,[]),
+    ('bb1915:p14:t3',1914,1,None,[]), ('bb1915:p14:t4',1915,1,None,[]),
+    ('bb1916:p16:t3',1915,1,None,[]), ('bb1916:p16:t4',1916,1,None,[]),
+    ('bb1917:p15:t2',1916,0,None,[]), ('bb1917:p15:t3',1917,0,None,[]),
+    ('bb1918:p15:t2',1917,0,None,[]), ('bb1918:p15:t3',1918,0,None,[]),
+    ('bb1919:p14:t2',1918,0,None,[]), ('bb1919:p14:t3',1919,0,None,[]),
+    ('bb1920:p15:t2',1919,0,None,[]), ('bb1920:p15:t3',1920,0,None,[]),
+    ('bb1921:p15:t2',1920,0,None,['from the Blue Book for 1920 (page footnote)']),
+    ('bb1921:p15:t3',1921,0,None,[CENSUS_1921]),
+    ('bb1922:p15:t2',1921,0,None,[CENSUS_1921]),
+    ('bb1922:p15:t3',1922,0,None,'census'), ('bb1923:p15:t2',1922,0,None,'census'), ('bb1923:p15:t3',1923,0,None,'census'),
+]
+for tid,yd,crop_ri,end,notes in SECOND_PASS:
+    head=TABLES[tid]['rows'][crop_ri]
+    col_notes,cell_notes=column_footnotes(tid,crop_ri)
+    col_years={}
+    if notes=='census':
+        # Page footnote: figures other than paddy, other grains and cotton (which are for the year) are from the 1921 census.
+        for ci in range(1,len(head)):
+            if not re.match(r'Paddy|Other Grain|Cotton',head[ci]):
+                col_years[ci]=1921
+                col_notes.setdefault(ci,[]).append(f'printed in the {yd} table but {CENSUS_1921}; only paddy, other grains and cotton are for {yd}')
+        notes=[]
+    for ci in range(1,len(head)): col_notes[ci]=notes+col_notes.get(ci,[])
+    two_blocks=sum(1 for x in SECOND_PASS if x[0]==tid)>1
+    simple_acreage(tid,yd,crop_ri,end,f' [{yd}]' if two_blocks else '',
+                   dating=f'{yd}: year caption printed above the table; previous-year table first.' if not two_blocks else f'{yd}: block captioned {yd}.',
+                   col_years=col_years,col_notes=col_notes,cell_notes=cell_notes)
 
 # Colony-wide livestock summaries, each header supplies its own year.
 for tid in ['bb1869:p11:t4','bb1902:p16:t3','bb1904:p18:t3','bb1912:p17:t2']:
@@ -429,7 +535,8 @@ for tid,t in TABLES.items():
     if reasons or tid in USED or tid in SKIPPED:
         CANDIDATES[tid]='; '.join(reasons) or 'reviewed target'
         if tid not in USED and tid not in SKIPPED:
-            SKIPPED[tid]='Candidate layout not reviewed sufficiently for safe extraction.'
+            SKIPPED[tid]=('Not reviewed: the second pass took only the opening Agricultural Statistics tables from this volume.'
+                          if tid[2:].split(':')[0] in MORE_VOLUMES else 'Candidate layout not reviewed sufficiently for safe extraction.')
 
 
 def write_tsv(path, header, rows):
@@ -450,19 +557,29 @@ write_tsv(WORK/'candidate_inventory.tsv',['table_id','year_volume','kind','decis
 agreements=sum(r[5]=='agree' for r in AUDIT);mismatches=sum(r[5]=='mismatch' for r in AUDIT);uncheckable=len(AUDIT)-agreements-mismatches
 numeric=sum(bool(r['value']) for r in DATA)
 lines=['# Agriculture extract','',
- f'{len(DATA):,} observation rows from {len(USED)} tables; {numeric:,} numeric values. Missing-value cells are retained as rows. {len(SKIPPED)} candidate tables were skipped. All 13 supplied volumes were searched. This is a selective extraction, not complete coverage of every volume.','',
+ f'{len(DATA):,} observation rows from {len(USED)} tables; {numeric:,} numeric values. Missing-value cells are retained as rows. {len(SKIPPED)} candidate tables were skipped. The first pass searched 13 volumes for all three kinds of table; a second pass (below) took the opening Agricultural Statistics tables from {len(MORE_VOLUMES)} more. This is a selective extraction, not complete coverage of every volume.','',
  'Rebuild from this folder using the standard library only:','',
  '```sh','/home/jic823/miniforge3/bin/python jobs/agriculture_work/extract_agriculture.py','/home/jic823/miniforge3/bin/python jobs/agriculture_work/validate_agriculture.py','```','',
  '## Coverage','',
  '| Volume | Kind | Tables used (observation rows) |','| --- | --- | --- |']
-for y in YEARS:
+for y in sorted([str(y) for y in YEARS]+MORE_VOLUMES):
     found=False
     for kind in ['acreage_by_crop','land_produce_stock','live_stock']:
-        ids=[tid for tid,u in USED.items() if TABLES[tid]['year']==y and u['kind']==kind]
+        ids=[tid for tid,u in USED.items() if tid[2:].split(':')[0]==y and u['kind']==kind]
         if ids:
             found=True;lines.append(f'| {y} | {kind} | '+', '.join(f'{tid} ({counts[tid]})' for tid in ids)+' |')
     if not found:lines.append(f'| {y} | — | No tables extracted |')
 lines += ['', 'The complete reviewed candidate inventory, including per-table dating decisions and counts, is in `jobs/agriculture_work/candidate_inventory.tsv`. Each excluded candidate has a reason in `agriculture_skipped.tsv`.', '',
+ '## Second pass: opening Agricultural Statistics, 1862–1923','',
+ 'Almost every volume opens with a summary "Agricultural Statistics": acres under each crop by province, printed twice, for the previous year and for the volume year. The first pass took these from 1869, 1902, 1904, 1912 and 1928 only. The second pass (`SECOND_PASS` in the script) adds the pair from every other volume that prints one, read with the same rules as the first pass (`simple_acreage`), so every printed total is checked the same way.','',
+ '- Years: the year captions printed between the two tables, read from the page text; the order (previous year first) was checked against the page images for 1885, 1910, 1911, 1921 and 1922. Where two volumes print the same year the figures agree, apart from OCR digit slips.',
+ '- 1863 prints both years (1862, 1863) as two blocks of one parsed table; checks are labelled with the year in brackets.',
+ '- 1877 prints no table: the page says the agricultural returns for 1877 were found so defective that they were not given.',
+ '- 1910 and 1911: the Blue Book year changed, and one table covers January 1, 1910, to June 30, 1911. Its figures carry year_data 1910 and a note giving the period. It is printed in both volumes.',
+ '- 1921–1923: the 1921 table is from the Census of Production, 1921. In the 1922 and 1923 volumes only paddy, other grains and cotton are for the year printed; the other crops repeat the 1921 census figures (page footnote), so those figures carry year_data 1921 and a note.',
+ '- Footnote marks in a figure or heading (for example the tea totals 1901–1911, which a footnote compares with Ferguson\'s Directory, or rubber 1914–1921, interplanted or excluding small holdings) carry the footnote text in note.',
+ '- Crop names are as printed: Cocoanuts, Coconuts, Cocoa-nuts; Cocoa and Cacao; Pasture and Pasturage. Units as printed (Acres, Acre, OCR "Aeres", "Acrea").',
+ '- Not taken in this pass: the district returns that follow later in each volume, and livestock.','',
  '## Reading the fields','',
  '- The source is OCR, not page images. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.',
  '- Each row corresponds to one selected source measurement cell, including blank and no-figure cells. Zero-based source row and column are recorded in note; the unaltered cell is also recorded in `jobs/agriculture_work/source_cells.tsv`. Repeated expanded province/district heading cells produce no observations.',
