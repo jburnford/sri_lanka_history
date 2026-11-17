@@ -1,6 +1,6 @@
 # Agriculture extract
 
-12,686 observation rows from 134 tables; 9,191 numeric values. Missing-value cells are retained as rows. 376 candidate tables were skipped. The first pass searched 13 volumes for all three kinds of table; a second pass (below) took the opening Agricultural Statistics tables from 41 more. This is a selective extraction, not complete coverage of every volume.
+12,906 observation rows from 136 tables; 9,352 numeric values. Missing-value cells are retained as rows. 390 candidate tables were skipped. The first pass searched 13 volumes for all three kinds of table; a second pass (below) took the opening Agricultural Statistics tables from 42 more. This is a selective extraction, not complete coverage of every volume.
 
 Rebuild from this folder using the standard library only:
 
@@ -52,6 +52,7 @@ Rebuild from this folder using the standard library only:
 | 1906 | acreage_by_crop | bb1906:p16:t1 (120), bb1906:p16:t2 (110) |
 | 1907 | acreage_by_crop | bb1907:p17:t1 (110), bb1907:p17:t2 (110) |
 | 1908 | acreage_by_crop | bb1908:p14:t2 (110), bb1908:p14:t3 (110) |
+| 1909 | acreage_by_crop | bb1909:p14:t2 (110), bb1909:p14:t3 (110) |
 | 1910 | acreage_by_crop | bb1910:p14:t2 (110), bb1910:p14:t3 (110) |
 | 1911 | acreage_by_crop | bb1911:p14:t2 (110), bb1911:p14:t3 (110) |
 | 1912 | acreage_by_crop | bb1912:p16:t4 (110), bb1912:p17:t1 (110) |
@@ -84,7 +85,7 @@ The complete reviewed candidate inventory, including per-table dating decisions 
 
 Almost every volume opens with a summary "Agricultural Statistics": acres under each crop by province, printed twice, for the previous year and for the volume year. The first pass took these from 1869, 1902, 1904, 1912 and 1928 only. The second pass (`SECOND_PASS` in the script) adds the pair from every other volume that prints one, read with the same rules as the first pass (`simple_acreage`), so every printed total is checked the same way.
 
-- Years: the year captions printed between the two tables, read from the page text; the order (previous year first) was checked against the page images for 1885, 1910, 1911, 1921 and 1922. Where two volumes print the same year the figures nearly always agree, apart from OCR digit slips. A few differ in print: 1918 Southern rubber and the rubber total (30664 / 281491 in the 1918 volume, 8664 / 259491 in the 1919 volume), 1922 North-Central paddy (162327 and 62327) and the 1921 tobacco total (12646 and 12709).
+- Years: the year captions printed between the two tables, read from the page text; the order (previous year first) was checked against the page images for 1885, 1910, 1911, 1921 and 1922. Where two volumes print the same year the figures agree, apart from OCR digit slips and six figures that differ in print (checked on both pages): the 1915 coconut total (97770 and 977701), 1918 Southern rubber and the rubber total (30664 / 281491 in the 1918 volume, 8664 / 259491 in the 1919 volume), the 1921 tobacco total (12646 and 12709), and 1922 North-Central paddy and the paddy total (162327 / 850409 and 62327 / 750409).
 - 1863 prints both years (1862, 1863) as two blocks of one parsed table; checks are labelled with the year in brackets.
 - 1877 prints no table: the page says the agricultural returns for 1877 were found so defective that they were not given.
 - 1910 and 1911: the Blue Book year changed, and one table covers January 1, 1910, to June 30, 1911. Its figures carry year_data 1910 and a note giving the period. It is printed in both volumes.
@@ -95,9 +96,9 @@ Almost every volume opens with a summary "Agricultural Statistics": acres under 
 
 ## Second printings
 
-Each volume reprints the previous year's table, so most acreage figures are printed twice, set in type and read by OCR separately. `agriculture_second_printing.tsv` pairs every figure with its other printings (same data year, area and crop; printed crop spellings such as Cocoanuts/Coconuts joined): 3,959 pairs, 3,912 the same, 42 different, 5 with one side blank or unreadable. Each figure's note names its other printing; where they differ it gives the other figure and which printing the totals checks favour. The 1921 census figures repeated in 1922 and 1923 are paired too.
+Each volume reprints the previous year's table, so most acreage figures are printed twice, set in type and read by OCR separately. `agriculture_second_printing.tsv` pairs every figure with its other printings (same data year, area and crop; printed crop spellings such as Cocoanuts/Coconuts joined): 4,179 pairs, 4,159 the same, 15 different, 5 with one side blank or unreadable. Each figure's note names its other printing; where they differ it gives the other figure and which printing the totals checks favour. The 1921 census figures repeated in 1922 and 1923 are paired too.
 
-Where two printings differ, `totals` / `other_totals` say whether the totals each takes part in add up. One adds up and the other does not in 29 pairs: the one that adds up is most likely the right reading. Neither adds up in 5; both add up in 8, which suggests a revision between editions or two errors that cancel. No figure is changed on this evidence.
+Where two printings differ, `totals` / `other_totals` say whether the totals each takes part in add up. One adds up and the other does not in 6 pairs: the one that adds up is most likely the right reading. Neither adds up in 1; both add up in 8, which suggests a revision between editions or two errors that cancel. No figure is changed on this evidence.
 
 ## Page-image readings, 1879–1891
 
@@ -111,11 +112,11 @@ Misprints in the Blue Book itself stay as printed. 50 printed figures that the p
 
 ## Review against the page images, 17 November 2026
 
-A review compared 1,239 cells outside the 1879–1891 readings with the page images at high zoom (whole tables in the volumes for 1863, 1866, 1871, 1901, 1902, 1903, 1905, 1906, 1918, 1919 and 1922) and found 35 that the OCR misread, about 3%; every figure was in the right row, column, crop, province and year. 34 are now applied from `page_readings/acreage_cells.tsv` (the 35th, 1902 North-Western cinnamon in the 1903 volume, is ambiguous on the page). Fractions are the systematic weakness: the OCR reads ¼ and ¾ as ½ and drops fractions altogether in the 1905 table. Tables not compared cell by cell (most volumes outside those listed) can be expected to carry errors at about that rate; a second printing or a printed total catches many but not all. A figure whose fraction has no exact decimal form (2/3, 11/12 in 1865) has its value rounded to four decimal places, with a note; value_as_printed keeps the fraction.
+A review compared about 1,570 cells outside the 1879–1891 readings with the page images at high zoom: whole tables in the volumes for 1863, 1866, 1868, 1869, 1871, 1894, 1896, 1901, 1902, 1903, 1905, 1906, 1918, 1919 and 1922, every figure with no second printing in 1920 and 1923, and both pages of every pair of printings that disagreed from 1892 on. Every figure was in the right row, column, crop, province and year. In the whole tables about 3% of cells were misread by the OCR (45 of about 1,540). 74 misread cells in all are now applied from `page_readings/acreage_cells.tsv`, alongside the five from the outlier check. Fractions are the systematic weakness: the OCR reads eighths and quarters as ½ and drops fractions altogether in the 1905 table; broken type (3 for 8, 5 for 6, 0 for 9) accounts for most of the rest. Ten of the 74 rest on a broken or faint glyph that the other volume prints clearly, and their notes say so. Three cells stay as the OCR read them because the page cannot settle them (1893 total other grain, 1908 Central tobacco in the 1909 volume, 1916 North-Central paddy in the 1917 volume). Tables not compared cell by cell are now protected mainly by their second printing: a figure the two printings agree on was read the same way twice from separately set type. A figure whose fraction has no exact decimal form (2/3, 11/12 in 1865) has its value rounded to four decimal places, with a note; value_as_printed keeps the fraction.
 
 The same review compared 1,316 cells of the 1879–1891 readings with the page images and found none that differs from a legible figure. One reading was changed: the 1882 coffee total in the 1883 volume, a broken 4 first read as 1 (321618½, now 324618½). In two pairs of tables (1880 in the 1880 and 1881 volumes, 1882 in the 1882 and 1883 volumes) the second printing's reading was partly taken from the first, so agreement between those printings is weaker evidence than for the others.
 
-An outlier check of every acreage series (see `page_readings/README.md`) found five OCR misreadings outside these tables, read from the page images and applied the same way: `page_readings/acreage_cells.tsv` (1921 Eastern paddy 103380 in the 1922 volume, 1904 Sabaragamuwa paddy 89469 in the 1905 volume, 1895 Northern paddy 52887, 1894 Sabaragamuwa cacao 1111 and North-Western coffee 876). Its other findings (`page_readings/acreage_outliers.tsv`) are figures the page prints, including misprints in one volume that the other volume prints correctly; those are left as printed, and their second-printing notes give the other figure.
+An outlier check of every acreage series (see `page_readings/README.md`) found five OCR misreadings outside these tables, read from the page images and applied the same way, the first rows of `page_readings/acreage_cells.tsv` (1921 Eastern paddy 103380 in the 1922 volume, 1904 Sabaragamuwa paddy 89469 in the 1905 volume, 1895 Northern paddy 52887, 1894 Sabaragamuwa cacao 1111 and North-Western coffee 876). Its other findings (`page_readings/acreage_outliers.tsv`) are figures the page prints, including misprints in one volume that the other volume prints correctly; those are left as printed, and their second-printing notes give the other figure.
 
 ## Reading the fields
 
@@ -137,7 +138,7 @@ An outlier check of every acreage series (see `page_readings/README.md`) found f
 
 ## Totals checks
 
-1153 acreage total comparisons were attempted: 1028 agree, 83 differ, 42 cannot be checked. Agreement is 1028/1111 (92.5%) of computable comparisons, or 1028/1153 (89.2%) of all attempted comparisons.
+1175 acreage total comparisons were attempted: 1083 agree, 50 differ, 42 cannot be checked. Agreement is 1083/1133 (95.6%) of computable comparisons, or 1083/1175 (92.2%) of all attempted comparisons.
 
 Every printed TOTAL row/column in the opening acreage tables is checked, including the 1869 corner grand totals in both directions. The 1928 CEYLON row is compared with provinces, and each numeric province summary with its districts; districts are never added again to province totals. Row totals and column totals are separate comparisons, so they may overlap in the cells they assess.
 

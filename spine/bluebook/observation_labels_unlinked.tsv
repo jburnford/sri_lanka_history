@@ -2,9 +2,9 @@ role	label_as_printed	rows
 article	Other	1446
 country	Ships Stores	1251
 article	Curios	927
-area	Total	816
+area	Total	838
+measure	Other Grain.	774
 article	Goods manufactured wholly or in part not elsewhere specified	768
-measure	Other Grain.	754
 country	Austria	730
 article	Non-ferrous metals and manufactures of all descriptions	636
 article	Textile manufactures not elsewhere specified	531
@@ -40,17 +40,17 @@ article	Haberdashery and millinery	282
 article	Manufactures of iron or steel, unenumerated	273
 article	Rubber tyres and tubes, pneumatic, outer	273
 article	Paper of all descriptions	270
+measure	Cinna-mon.	266
 article	Chemical manufactures and products not elsewhere specified, including drugs, medicines, medicinal preparations	264
 article	Manufactures of paper not elsewhere specified	264
 article	Boots and shoes	255
 article	Toys	255
 article	Road, mechanically-propelled motor cars	255
+measure	Cin-chona.	250
 article	Earthenware and stoneware	249
 article	Jewellery and gold and silver-smiths' wares	249
-measure	Cinna-mon.	246
 article	Glass and glassware, other	246
 article	Cotton manufactures not elsewhere specified	246
-measure	Cin-chona.	230
 article	Other descriptions	222
 article	Machinery not elsewhere specified, dutiable	220
 article	Cinematograph films	214

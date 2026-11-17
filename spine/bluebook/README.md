@@ -1,18 +1,18 @@
 # Ceylon Blue Books in the spine
 
 Started 16 November 2026 from the Chandra OCR in `/mnt/data/jic823/ocr_chandra/out_chandra2` (read only).
-Volumes present: 62, covering 1863 to 1938 with gaps (1889 is in two parts; second copies of 1877 and 1892
+Volumes present: 63, covering 1863 to 1938 with gaps (1889 is in two parts; second copies of 1877 and 1892
 are listed but not loaded). `volumes.tsv` maps folder to year and archive.org item; add a line when a new volume arrives and rerun.
 
 ## Layers
 
 | Layer | Script | Output | What it is |
 |---|---|---|---|
-| Tables as printed | `build_tables.py` | `tables/<year>.jsonl.gz`, `pages/<year>.jsonl.gz`, `inventory.tsv` | One record per printed table: page, running section, headings above it, cells. Nothing interpreted. 46,999 tables. |
+| Tables as printed | `build_tables.py` | `tables/<year>.jsonl.gz`, `pages/<year>.jsonl.gz`, `inventory.tsv` | One record per printed table: page, running section, headings above it, cells. Nothing interpreted. 48,091 tables. |
 | Labels linked to the spine | `link_cells.py` | `cell_links.tsv.gz`, `table_name_links.tsv.gz`, `unlinked_labels.tsv` | A row or column label links when the spine has already matched that name to an entity. Places also get the polity for the volume's year. |
 | People in the Civil Establishment | `extract_officers.py` | `extracted/officers_index.tsv`, `extracted/civil_establishment.tsv` | 1863–1917 (39 volumes): the alphabetical list of officers and the returns (office, name, date of appointment, salary, department). From 1907 the list is "Name and Office \| Page" in one or two printed columns; `column` says which. |
 | People matched | `match_officers.py` | `extracted/officer_matches.tsv` | Blue Book person-years matched to Colonial Office List persons (surname, initials, a Ceylon posting in time); journal profiles offered as candidates only. |
-| Agriculture (Codex Sol job) | `jobs/agriculture.md`, `jobs/agriculture_work/` | `extracted/agriculture*.tsv` | 12,686 figures from 134 tables in 48 volumes. The first pass (seven volumes) took acreage by crop, land/produce/stock by district and live stock; 24 tables with misaligned OCR columns were skipped, not guessed. A second pass took the opening Agricultural Statistics (acres by crop and province, previous year and volume year) from every other volume, 1862–1923 (1877 prints none). The 1879–1891 tables (21, where the OCR is worst) were read by eye from the page images instead: `page_readings/acreage/`, 1,816 cells; 222 differ from the OCR string (the note quotes it). An outlier check and then a cell-by-cell comparison of eleven volumes' tables with the page images found 39 more OCR misreadings, applied from `page_readings/acreage_cells.tsv`; outside the tables compared, expect about 3% of cells to be misread. 50 printed figures that are probably wrong at source or not comparable stay as printed, marked in note by kind: misprint, error in the return, doubtful outlier, shared figure (`page_readings/acreage_suspect.tsv`). 1,028 of 1,153 printed acreage totals agree (83 do not, 42 cannot be checked); the rest are OCR digit slips or errors at source, flagged in `note`, never corrected. Most years are printed twice (each volume reprints the previous year): `extracted/agriculture_second_printing.tsv` pairs the printings, 3,912 of 3,959 pairs agree, and each figure's note names its other printing. |
+| Agriculture (Codex Sol job) | `jobs/agriculture.md`, `jobs/agriculture_work/` | `extracted/agriculture*.tsv` | 12,906 figures from 136 tables in 49 volumes. The first pass (seven volumes) took acreage by crop, land/produce/stock by district and live stock; 24 tables with misaligned OCR columns were skipped, not guessed. A second pass took the opening Agricultural Statistics (acres by crop and province, previous year and volume year) from every other volume, 1862–1923 (1877 prints none). The 1879–1891 tables (21, where the OCR is worst) were read by eye from the page images instead: `page_readings/acreage/`, 1,816 cells; 222 differ from the OCR string (the note quotes it). An outlier check, a cell-by-cell comparison of fifteen volumes' tables with the page images, and a reading of both pages wherever two printings disagreed found 79 more OCR misreadings, applied from `page_readings/acreage_cells.tsv`. About 3% of cells were misread in the tables compared whole; elsewhere a figure is protected by its second printing. 50 printed figures that are probably wrong at source or not comparable stay as printed, marked in note by kind: misprint, error in the return, doubtful outlier, shared figure (`page_readings/acreage_suspect.tsv`). 1,083 of 1,175 printed acreage totals agree (50 do not, 42 cannot be checked); the rest are OCR digit slips or errors at source, flagged in `note`, never corrected. Most years are printed twice (each volume reprints the previous year): `extracted/agriculture_second_printing.tsv` pairs the printings, 4,159 of 4,179 pairs agree (9 of the rest differ in print), and each figure's note names its other printing. |
 | Trade (Codex Sol job) | `jobs/trade.md`, `jobs/trade_work/` | `extracted/trade*.tsv` | 88,045 figures: imports and exports by article and country for 1924, 1925, 1926, 1928. 78–85% of articles have printed totals that equal the sum of their country rows; the rest are OCR digit errors or skipped rows, listed in `trade_checks.tsv`. 1930–34 do not print the country ledgers. |
 | Figures linked to the spine | `link_observations.py` | `observations.tsv.gz`, `observation_labels_unlinked.tsv` | Each figure's area or country and its crop or article, where the printed label is a name already resolved. `label_aliases.tsv` holds Blue Book spellings ("U. S., America"). |
 
@@ -43,11 +43,11 @@ Every table has a confidence level in `table_confidence.tsv.gz` (and on the `Blu
 
 | Level | Tables | Meaning |
 |---|---:|---|
-| `summed` | 1,833 | every printed total that could be checked equals the sum of its parts, and at least one is non-trivial (a non-zero total of two or more non-zero parts) |
-| `two_readings` | 13,046 | at least 90% of the numbers are also in a second, conventional OCR reading of the page, and the table has at least 10 distinct numbers of 3+ digits |
-| `partly` | 8,248 | at least half the totals agree (one non-trivially), or at least 70% of 5+ distinct numbers are in the second reading |
-| `unconfirmed` | 23,743 | nothing confirms it. Not evidence of error: mostly tables of names and words, tables with few numbers, sideways pages and the 1880-1894 volumes, where the second reading is poor |
-| `suspect` | 129 | the page is blank or a section title page and the table is invented. Do not use |
+| `summed` | 1,903 | every printed total that could be checked equals the sum of its parts, and at least one is non-trivial (a non-zero total of two or more non-zero parts) |
+| `two_readings` | 13,545 | at least 90% of the numbers are also in a second, conventional OCR reading of the page, and the table has at least 10 distinct numbers of 3+ digits |
+| `partly` | 8,429 | at least half the totals agree (one non-trivially), or at least 70% of 5+ distinct numbers are in the second reading |
+| `unconfirmed` | 24,083 | nothing confirms it. Not evidence of error: mostly tables of names and words, tables with few numbers, sideways pages and the 1880-1894 volumes, where the second reading is poor |
+| `suspect` | 131 | the page is blank or a section title page and the table is invented. Do not use |
 
 What the tests showed:
 
@@ -58,7 +58,7 @@ What the tests showed:
 - **On printed pages the numbers are mostly right.** In the 1925-1938 volumes 91-94% of numbers of three or
   more digits are also in the second reading. For numbers that a printed total proves correct the second
   reading has 96%, so the model's own misread rate there is about 2% (about 4% in 1897; five volumes tested).
-- **A total that does not agree is weak evidence.** 64,203 of 168,652 sum checks agree (unlabelled running subtotals, which were only kept when they agreed, are no longer counted). In the failures read
+- **A total that does not agree is weak evidence.** 65,391 of 172,546 sum checks agree (unlabelled running subtotals, which were only kept when they agreed, are no longer counted). In the failures read
   by eye the numbers were usually right and the check was wrong: a table continued from another page, a
   running subtotal, or columns of different units under one heading.
 - **Sideways tables** are read by the model but not by the second reading, so they stay `unconfirmed`.

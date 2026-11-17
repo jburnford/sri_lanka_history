@@ -38,3 +38,43 @@ bb1905:p15:t2	11	2	105968¾	the page prints 105968¾; the OCR reads '105968'. Fo
 bb1905:p15:t2	11	8	12885¾	the page prints 12885¾; the OCR reads '12885'. Found when the whole table was compared with the page image on review, 17 November 2026
 bb1905:p15:t2	5	1	122426	the page prints 122426; the OCR reads '122126' (broken 4; the column total requires 122426). Found when the whole table was compared with the page image on review, 17 November 2026
 bb1922:p15:t2	4	2	32713	the page prints 32713; the OCR reads '32748' (under a perforation stamp; the 1921 volume and the column total give 32713). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1868:p11:t2	6	2	23621 1/8	the page prints 23621 1/8; the OCR reads '23621\frac{1}{2}'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1868:p11:t2	6	7	89576 7/8	the page prints 89576 7/8; the OCR reads '89576\frac{3}{4}'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1868:p11:t2	8	2	87582 7/8	the page prints 87582 7/8; the OCR reads '87582\frac{1}{2}'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1868:p11:t3	5	7	96909 1/4	the page prints 96909 1/4; the OCR reads '96909\frac{1}{2}' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1868:p11:t3	7	7	1084565 7/8	the page prints 1084565 7/8; the OCR reads '1084565\frac{1}{2}' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t2	7	2	11360 5/8	the page prints 11360 5/8; the OCR reads '11360½' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t2	7	7	1084565 7/8	the page prints 1084565 7/8; the OCR reads '1084565¾' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t2	8	2	93548 3/8	the page prints 93548 3/8; the OCR reads '93548¾' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t2	8	7	1794722 3/8	the page prints 1794722 3/8; the OCR reads '1794722¾' (both volumes print this figure). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t3	2	2	12192 3/8	the page prints 12192 3/8; the OCR reads '12192¾'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t3	2	5	312 1/8	the page prints 312 1/8; the OCR reads '312½'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t3	2	7	173359 1/2	the page prints 173359 1/2; the OCR reads '173359¼'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t3	8	2	77710 3/8	the page prints 77710 3/8; the OCR reads '77710¾'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1869:p11:t3	8	5	14947 1/8	the page prints 14947 1/8; the OCR reads '14947½'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1894:p14:t2	4	2	8570	the page prints 8570; the OCR reads '5570' (the first digit is a broken 8, like the other 8s on this scan; the column total (122329) requires 8570). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1892:p310:t2	10	2	33073	the glyph is broken or faint; read as 33073, which the other volume prints clearly; the OCR reads '33078'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1892:p310:t2	9	10	6439	the page prints 6439; the OCR reads '6489'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1894:p14:t1	3	9	7532	the page prints 7532; the OCR reads '7582'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1893:p18:t2	10	3	908	the glyph is broken or faint; read as 908, which the other volume prints clearly; the OCR reads '905'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1893:p18:t2	10	1	81208	the glyph is broken or faint; read as 81208, which the other volume prints clearly; the OCR reads '81205'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1894:p14:t1	9	10	1938	the glyph is broken or faint; read as 1938, which the other volume prints clearly; the OCR reads '1988'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1897:p17:t1	3	1	60486	the page prints 60486; the OCR reads '60456'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1897:p17:t1	6	9	21092	the page prints 21092; the OCR reads '21032'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1897:p17:t1	10	4	1200	the glyph is broken or faint; read as 1200, which the other volume prints clearly; the OCR reads '200'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1896:p15:t2	11	7	368824	the page prints 368824; the OCR reads '365824'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1898:p15:t1	11	5	42289	the page prints 42289; the OCR reads '42239'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1900:p18:t1	8	2	3763	the page prints 3763; the OCR reads '8763'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1899:p15:t2	10	4	1000	the page prints 1000; the OCR reads '1060'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1900:p18:t1	10	7	64268	the page prints 64268; the OCR reads '64263'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1900:p18:t2	7	9	306234	the page prints 306234; the OCR reads '306284'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t1	7	5	53	the glyph is broken or faint; read as 53, which the other volume prints clearly; the OCR reads '55'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t2	6	8	3200	the page prints 3200; the OCR reads '3260'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t2	7	1	95787½	the page prints 95787½; the OCR reads '95757'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t2	5	9	105543	the page prints 105543; the OCR reads '105548'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t2	11	9	880409	the page prints 880409; the OCR reads '890409'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1903:p18:t2	2	7	28559	the glyph is broken or faint; read as 28559, which the other volume prints clearly; the OCR reads '28554'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1906:p16:t2	5	2	40683	the page prints 40683; the OCR reads '40693'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1909:p14:t2	3	2	13996	the glyph is broken or faint; read as 13996, which the other volume prints clearly; the OCR reads '13096'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1909:p14:t3	10	2	17290	the glyph is broken or faint; read as 17290, which the other volume prints clearly; the OCR reads '17230'. Found when the two printings were compared on the page images on review, 17 November 2026
+bb1917:p15:t2	9	3	507	the glyph is broken or faint; read as 507, which the other volume prints clearly; the OCR reads '567'. Found when the two printings were compared on the page images on review, 17 November 2026

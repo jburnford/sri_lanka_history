@@ -11,7 +11,8 @@ bb1905:p15:t2	3	5	1905	Central	Cinnamon.	1798	source_error	printed 1798 in both 
 bb1906:p16:t1	3	5	1905	Central	Cinnamon.	1798	source_error	printed 1798 in both volumes; Central cinnamon is 189 in 1904 and 180 in 1906, so probably an error in the return (the island total carries it)
 bb1905:p15:t2	11	5	1905	Total	Cinnamon.	32450	source_error	includes the Southern (1757) and Central (1798) figures, both probably errors in the return; the total is 41679 in 1904 and 43383 in 1906
 bb1906:p16:t1	11	5	1905	Total	Cinnamon.	32450	source_error	includes the Southern (1757) and Central (1798) figures, both probably errors in the return; the total is 41679 in 1904 and 43383 in 1906
-bb1908:p14:t3	11	5	1908	Total	Cinna-mon.	54423	misprint	printed 54423; the provinces add to 44423
+bb1908:p14:t3	11	5	1908	Total	Cinna-mon.	54423	misprint	printed 54423 in both volumes; the provinces add to 44423
+bb1909:p14:t2	11	5	1908	Total	Cinna-mon.	54423	misprint	printed 54423 in both volumes; the provinces add to 44423
 bb1863:p10:t2	14	4	1863	Southern	Cotton.	105806	source_error	printed 105806 (the row total carries it); Southern cotton is 412 in 1862 and 19½ in 1865, so an error in the return (perhaps entered in the wrong column: Southern pasture is only 6172)
 bb1863:p10:t2	18	4	1863		Cotton.	106321\frac{6}{10}	source_error	includes the Southern figure 105806, an error in the return; the total is 775½ in 1862
 bb1885:p13:t1	7	6	1884	Central	Cotton.	912	source_error	printed 912 (the island total carries it); Central cotton is 2 in 1883 and 56 in 1885, so probably an error in the return
@@ -41,7 +42,6 @@ bb1916:p16:t3	12	1	1915	Total	Paddy.	785100	source_error	includes the Western fi
 bb1922:p15:t3	8	1	1922	North-Central	Paddy.	162327	misprint	printed 162327 in the 1922 volume; the 1923 volume prints 62327 for 1922, and North-Central paddy is 61910 in 1921
 bb1922:p15:t3	11	1	1922	Total	Paddy.	850409	misprint	printed 850409 in the 1922 volume, including the North-Central misprint; the 1923 volume prints 750409
 bb1915:p14:t4	12	9	1915	Total	Coconuts.	97770	misprint	printed 97770 in the 1915 volume; the provinces add to 977701, which the 1916 volume prints
-bb1897:p17:t1	10	4	1896	Sabaragamuwa	Cacao.	200	misprint	printed 200 in the 1897 volume (the leading 1 missing); the 1896 volume prints 1200, which the column total requires
 bb1906:p16:t2	7	8	1906	North-Western	Tobacco.	25278	source_error	printed 25278 in both volumes (the island total carries it); North-Western tobacco is 1402¾ in 1905, so probably an error in the return
 bb1907:p17:t1	7	8	1906	North-Western	Tobacco.	25278	source_error	printed 25278 in both volumes (the island total carries it); North-Western tobacco is 1402¾ in 1905, so probably an error in the return
 bb1906:p16:t2	10	8	1906	Sabaragamuwa	Tobacco.	39412	source_error	"printed 39412 in both volumes (the island total carries it); Sabaragamuwa tobacco is ""—"" in 1905, so probably an error in the return"

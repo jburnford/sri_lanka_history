@@ -52,7 +52,10 @@ def main():
             hs = " ".join(h)
             # ---- index. Up to 1906: Name | Office | Page. From 1907: "Name and Office" | Page, printed in one
             #      or two columns (2 or 4 cells, sometimes 3 when the last Page column was not read).
-            groups = index_groups(h) if re.search(r"names? of officers?|^name", h[0]) and "office" in hs and "page" in hs else []
+            # Some scans show the edge of the facing page, and the OCR reads its page numbers as a leading "Page"
+            # column (1909, even pages): the index then starts in the second cell.
+            first = h[1] if h[0].strip(" .") == "page" and len(h) > 1 else h[0]
+            groups = index_groups(h) if re.search(r"names? of officers?|^name", first) and "office" in hs and "page" in hs else []
             if groups:
                 for ri, r in enumerate(t["rows"][1:], 1):
                     for gi, (nc, oc, pc) in enumerate(groups):

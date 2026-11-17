@@ -4,9 +4,10 @@ The OCR model sometimes writes a plausible table for a blank page that has show-
 Show-through is light grey, not black, so the share of dark pixels inside the table's outline on the scan
 separates a printed table from an invented one. Sideways and faint pages still have ink; blank ones have none.
 
+Usage: page_ink.py [volume key ...]   with keys, only those volumes are measured and the rest kept.
 Output: bluebook/ink.tsv.gz   table_id, dark_share (inside the table outline), page_dark_share
 """
-import csv, gzip, json
+import csv, gzip, json, sys
 from pathlib import Path
 import fitz
 import numpy as np
@@ -30,11 +31,17 @@ def share(dark, box):
 
 def main():
     pdf_by_stem = {p.stem: p for p in PDFS.glob("*/*.pdf")}
+    only = set(sys.argv[1:])        # volume keys to (re)measure; the others are kept from the existing file
+    keep = []
+    if only and (BB / "ink.tsv.gz").exists():
+        keep = [r for r in csv.reader(gzip.open(BB / "ink.tsv.gz", "rt"), delimiter="\t")][1:]
+        keep = [r for r in keep if r[0].split(":")[0][2:] not in only]
     with gzip.open(BB / "ink.tsv.gz", "wt", newline="") as fh:
-        w = csv.writer(fh, delimiter="\t", lineterminator="\n"); w.writerow(["table_id", "dark_share", "page_dark_share"])
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n"); w.writerow(["table_id", "dark_share", "page_dark_share"]); w.writerows(keep)
         for v in csv.DictReader(open(BB / "volumes.tsv"), delimiter="\t"):
             if v.get("key") == "skip": continue
             key = v.get("key") or v["year"]
+            if only and key not in only: continue
             inner = [p.name for p in (OCR / v["folder"]).iterdir() if p.is_dir()][0]
             boxes = {}
             for l in open(OCR / v["folder"] / inner / f"{inner}_layout.jsonl"):
