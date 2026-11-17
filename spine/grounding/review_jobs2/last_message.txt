@@ -1,0 +1,8 @@
+Completed all **1,754 names**, in input order.
+
+- [Proposals](places_review_proposals.jsonl)
+- [Summary and ten least-certain decisions](places_review_summary.md)
+
+Results: 423 matches, 583 none, 727 ambiguous, 21 not places.
+
+Validation passed: every selected or possible QID appears in its record’s candidates, and no rejected candidate was selected.

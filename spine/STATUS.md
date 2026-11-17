@@ -42,7 +42,8 @@ page images by readers who had not seen the extraction.
     `reviewed_proposal`, confidence medium). Commodities are now 70.3% matched by record.
   - *Place names in review.* It read the 600 most frequent of 1,077 and proposed 160 matches (48 read, none
     rejected), applied the same way; 440 names it left open carry its note (ambiguous between which items, or
-    no fitting candidate) in `grounding/place_review_notes.jsonl`. A second run is on the remaining names.
+    no fitting candidate) in `grounding/place_review_notes.jsonl`. A second run read the remaining 1,754 names
+    and proposed 423 matches (50 read, none rejected), also applied. Places are 77.5% matched by record.
   - *Statistical View series.* The annual series reprinted in every volume (population, births, deaths,
     schools, revenue, expenditure, imports, exports, shipping, land sales): 45,118 figures from 49 volumes.
     `bluebook/statistical_view_consensus.py` takes the value most volumes print: 2,437 series-years, 1,967 with
@@ -99,7 +100,7 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Articles (canonical copies) | 53,501 |
 | Printed names, all types | 169,425 |
 | Article-to-name links | 845,450 |
-| Places with a QID | 2,499 |
+| Places with a QID | 2,777 |
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
 | Wikidata concepts (taxa, products, diseases, organisations) | 970 |
 | Blue Book tables and officials (person-years) | 48,091 and 167,416 |
@@ -113,8 +114,8 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Type | Matched | In review | Unmatched or skipped | Not attempted |
 |---|---:|---:|---:|---:|
 | Places (374,553 records; before the review rerun) | 73.4% | 13.3% | 0.5% | 12.7% |
-| Taxa (164,859 records) | 51.9% | 3.8% | 18.7% | 25.5% |
-| Commodities (134,358 records) | 65.3% | 3.0% | 16.7% | 15.0% |
+| Taxa (164,859 records) | 56.5% | 3.3% | 14.7% | 25.5% |
+| Commodities (134,358 records) | 70.2% | 2.7% | 12.1% | 15.0% |
 | Organisations (88,690 records) | 5.8% | 0.4% | 37.0% | 56.8% |
 
 "Not attempted" is the long tail: place names in fewer than 5 articles, other names in fewer than 15 (taxa matched by the Catalogue of Life go
