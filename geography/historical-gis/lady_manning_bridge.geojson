@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "lady_manning_bridge",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "road-bridge:lk:batticaloa:lady-manning",
+      "properties": {
+        "feature_id": "road-bridge:lk:batticaloa:lady-manning",
+        "name": "Lady Manning Bridge",
+        "alternate_name": "Old Kallady Bridge",
+        "place": "Batticaloa, Sri Lanka",
+        "feature_type": "road_bridge",
+        "geometry_role": "Manually digitized centerline of the surviving historic steel truss deck",
+        "geometry_scope": "Deck between visually identified abutments",
+        "length_m": 281,
+        "historical_road_opening_date": "1928-10-09",
+        "historical_opening_event": "Opening of bridge and road approaches",
+        "historical_opening_source_url": "https://archive.org/download/colonial-reports-1928-1455/ColonialReports1928-1455.pdf#page=99",
+        "historical_opening_source_locator": "Ceylon Annual General Report for 1928, p. 40, Kalladi Bridge",
+        "historical_map_year": 1936,
+        "historical_map_url": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332276~90100738",
+        "historical_map_locator": "Rumsey 10791.002, Batticaloa inset, label Lady Manning Bridge",
+        "identity_source_url": "https://openjicareport.jica.go.jp/pdf/11829124_02.pdf#page=24",
+        "identity_source_locator": "JICA 2006 Executive Summary, Figure 13.1, p. 44, Existing Kallady Bridge",
+        "survival_observed_date": "2025-12-17",
+        "survival_source_url": "https://www.protezionecivile.gov.it/static/6425ca939c7a070d8aa5616d60ca8eb7/advisory-mission-sri-lanka-2025-final-report-070126-hr.pdf#page=46",
+        "survival_source_locator": "Assessment of the Old Kallady Bridge, p. 45, drone and deck photographs",
+        "coordinate_source": "Esri World Imagery, Vantor Vivid Advanced imagery, GE01",
+        "coordinate_source_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=81.7045%2C7.7174%2C81.7105%2C7.7210&bboxSR=4326&imageSR=4326&size=1200%2C720&format=png32&f=json",
+        "coordinate_source_acquired": "2024-08-28",
+        "coordinate_source_accessed": "2026-11-16",
+        "coordinate_source_resolution_m": 0.46,
+        "coordinate_source_reported_accuracy_m": 8.47,
+        "coordinate_source_pixels": "Zero-based pixel centers NW (339, 202), SE (786, 446)",
+        "coordinate_uncertainty": "Absolute placement inherits imagery accuracy and visual abutment selection. The 1936 inset confirms bridge identity.",
+        "network_connection": "Standalone bridge deck feature",
+        "method_file": "lady_manning_bridge_method.md"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [81.7061975, 7.7199875],
+          [81.7084325, 7.7187675]
+        ]
+      }
+    }
+  ]
+}

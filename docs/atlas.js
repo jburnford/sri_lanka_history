@@ -105,7 +105,7 @@ function makeMap() {
   map = L.map("map", { zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 5, maxZoom: 17 });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution('<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>');
-  for (const [name, z] of [["paper", 406], ["grid", 240], ["boundary", 380], ["route", 420], ["markers", 440], ["towns", 450], ["selected", 480]]) {
+  for (const [name, z] of [["relief", 230], ["paper", 406], ["grid", 240], ["boundary", 380], ["route", 420], ["markers", 440], ["towns", 450], ["selected", 480]]) {
     const pane = map.createPane(name);
     pane.style.zIndex = z;
   }
@@ -128,7 +128,7 @@ function fitIsland() {
 function layerStyle(meta, feature) {
   if (meta.group === "Boundaries") {
     const district = meta.id === "district_census_1946" || meta.id === "headmen_divisions_1934";
-    return { color: meta.color, weight: district ? 1 : 1.35, fillColor: "#f4e9d5", fillOpacity: district ? .15 : .96, opacity: .84, pane: "boundary" };
+    return { color: meta.color, weight: district ? 1 : 1.35, fillColor: "#f4e9d5", fillOpacity: district ? (reliefShown() ? .04 : .15) : reliefShown() ? .22 : .96, opacity: .84, pane: "boundary" };
   }
   const ferry = feature.properties.mode === "ferry";
   const candidate = meta.id.includes("candidate");
@@ -177,12 +177,34 @@ function geometry(id) {
   });
 }
 
+function rasterLayer(id, raster) {
+  const rumsey = '<a href="https://www.davidrumsey.com/about/copyright-and-permissions">David Rumsey Map Collection, Stanford University Libraries</a>';
+  const options = {
+    opacity: raster.base ? 1 : .82, pane: raster.base ? "relief" : "paper",
+    attribution: raster.attribution || rumsey,
+  };
+  if (!raster.tiles) return L.imageOverlay("data/" + id + ".webp", raster.bounds, { ...options, alt: raster.title });
+  return L.tileLayer(raster.tiles, {
+    ...options, bounds: raster.bounds, minNativeZoom: raster.min_zoom, maxNativeZoom: raster.max_zoom, maxZoom: 17,
+  });
+}
+
+// With the relief underneath, boundary fills thin out so the hills show through.
+const reliefShown = () => atlas.rasters.some((raster) => raster.base && activeLayers.has(raster.id));
+
+function restyleBoundaries() {
+  for (const meta of atlas.layers) {
+    if (meta.group === "Boundaries") activeLayers.get(meta.id)?.setStyle((feature) => layerStyle(meta, feature));
+  }
+}
+
 async function toggle(id, show) {
   const epoch = (layerEpoch.get(id) || 0) + 1;
   layerEpoch.set(id, epoch);
   if (!show) {
     activeLayers.get(id)?.remove();
     activeLayers.delete(id);
+    if (getRaster(id)?.base) restyleBoundaries();
     return;
   }
   if (activeLayers.has(id)) return;
@@ -190,14 +212,12 @@ async function toggle(id, show) {
     const raster = getRaster(id);
     const meta = getLayer(id);
     const layer = raster
-      ? L.imageOverlay("data/" + id + ".webp", raster.bounds, {
-        opacity: .82, pane: "paper", alt: raster.title,
-        attribution: '<a href="https://www.davidrumsey.com/about/copyright-and-permissions">David Rumsey Map Collection, Stanford University Libraries</a>',
-      })
+      ? rasterLayer(id, raster)
       : vector(meta, await geometry(id));
     if (layerEpoch.get(id) !== epoch) return;
     layer.addTo(map);
     activeLayers.set(id, layer);
+    if (raster?.base) restyleBoundaries();
   } catch (error) {
     if (layerEpoch.get(id) === epoch) {
       const input = document.querySelector('[data-layer="' + id + '"]');
@@ -210,7 +230,7 @@ async function toggle(id, show) {
 function addLayerControls() {
   const root = byId("layer-list");
   root.replaceChildren();
-  for (const group of ["Boundaries", "Places", "Map sheets", "Transport"]) {
+  for (const group of ["Relief", "Boundaries", "Places", "Map sheets", "Transport"]) {
     const entries = [...atlas.layers, ...atlas.rasters].filter((item) => item.group === group);
     if (!entries.length) continue;
     const section = add(root, "details", undefined, "layer-group");
@@ -227,7 +247,7 @@ function addLayerControls() {
       const swatch = add(row, "span", undefined, "swatch");
       swatch.style.setProperty("--swatch", entry.color ?? "#aa8751");
       if (entry.points) swatch.classList.add("points");
-      if (group === "Boundaries" || group === "Map sheets") swatch.classList.add("area");
+      if (group === "Boundaries" || group === "Map sheets" || group === "Relief") swatch.classList.add("area");
       const title = add(row, "span", entry.title);
       if (entry.id === "rail_1936_osm") add(title, "small", "Working reconstruction");
       if (entry.id === "road_1936_osm_candidates") add(title, "small", "Modern comparison");

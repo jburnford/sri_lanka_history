@@ -1,0 +1,50 @@
+feature_id	kind	name	unit_name	parent	1881	1881_male	1881_female	1891	1891_male	1891_female	locator	scope_1881	scope_1891	note
+country:ceylon	country	Ceylon	Ceylon		2759738	1469553	1290185	3007789	1593376	1414413	Table III, p. 12, PDF p. 17			
+province:western	province	Western Province	Western	Ceylon	671500	351319	320181	762533	398462	364071	Table III, p. 12, PDF p. 17			
+province:sabaragamuwa	province	Province of Sabaragamuwa	Sabaragamuwa	Ceylon	225829	124078	101751	258626	141755	116871	Table III, p. 12, PDF p. 17			1881 comparator for territory later organized as the province. The existing unit ID does not date its legal establishment to 1881.
+province:north-western	province	North-Western Province	North Western	Ceylon	293327	158026	135301	320070	174655	145415	Table III, p. 12, PDF p. 17			
+province:central	province	Central Province	Central	Ceylon	473669	268896	204773	474487	262651	211836	Table III, p. 12, PDF p. 17			
+province:uva	province	Province of Uva	Uva	Ceylon	165692	92627	73065	159201	88134	71067	Table III, p. 12, PDF p. 17			1881 comparator for territory later organized as the province. The existing unit ID does not date its legal establishment to 1881.
+province:north-central	province	North-Central Province	North Central	Ceylon	66146	35580	30566	75333	41345	33988	Table III, p. 12, PDF p. 17			
+province:northern	province	Northern Province	Northern	Ceylon	302500	151565	150935	319296	160361	158935	Table III, p. 12, PDF p. 17			
+province:eastern	province	Eastern Province	Eastern	Ceylon	127555	66577	60978	148444	77381	71063	Table III, p. 12, PDF p. 17			
+province:southern	province	Southern Province	Southern	Ceylon	433520	220885	212635	489799	248632	241167	Table III, p. 12, PDF p. 17			
+urban:colombo	municipality	Colombo, Municipality of	Colombo Town	Western Province	110502	62225	48277	126825	71684	55141	Table III, p. 12, PDF p. 17			
+district:colombo-excluding-municipality	district	Colombo District (exclusive of the Municipality)	Colombo (excluding Municipality)	Western Province	279286	143775	135511	319419	163668	155751	Table III, p. 12, PDF p. 17	Excludes the Municipality. Negombo is tabulated as a separate district.	Excludes the Municipality. Negombo is tabulated as a separate district.	
+district:negombo	district	Negombo District	Negombo	Western Province	116691	61360	55331	132657	69481	63176	Table III, p. 12, PDF p. 17	Separate census district in the source.	Separate census district in the source.	
+district:kalutara	district	Kalutara District	Kalutara	Western Province	165021	83959	81062	183632	93629	90003	Table III, p. 12, PDF p. 17			
+district:ratnapura	district	Ratnapura District	Ratnapura	Province of Sabaragamuwa	105874	59380	46494	107999	59638	48361	Table III, p. 12, PDF p. 17			
+district:kegalla	district	Kégalla District	Kegalla	Province of Sabaragamuwa	119955	64698	55257	150627	82117	68510	Table III, p. 12, PDF p. 17			
+district:kurunegala	district	Kurunégala District	Kurunegala	North-Western Province	215173	114989	100184	230187	124673	105514	Table III, p. 12, PDF p. 17			
+district:puttalam	district	Puttalam District	Puttalam	North-Western Province	26421	14746	11675	26652	15323	11329	Table III, p. 12, PDF p. 17	Excludes Chilaw District.	Excludes Chilaw District.	
+district:chilaw	district	Chilaw District	Chilaw	North-Western Province	51733	28291	23442	63231	34659	28572	Table III, p. 12, PDF p. 17			
+district:kandy	district	Kandy District	Kandy	Central Province	288332	162277	126055	288353	157588	130765	Table III, p. 12, PDF p. 17			
+district:matale	district	Mátalé District	Matale	Central Province	86655	48470	38185	76514	41359	35155	Table III, p. 12, PDF p. 17			
+district:nuwara-eliya	district	Nuwara Eliya District	Nuwara Eliya	Central Province	98682	58149	40533	109620	63704	45916	Table III, p. 12, PDF p. 17			
+district:badulla	district	Badulla District	Badulla	Province of Uva	165692	92627	73065	159201	88134	71067	Table III, p. 12, PDF p. 17			
+district:anuradhapura	district	Nuwarakaláwiya District (including Tamankaduwa)	Anuradhapura	North-Central Province	66146	35580	30566	75333	41345	33988	Table III, p. 12, PDF p. 17	Includes Tamankaduwa.	Includes Tamankaduwa.	Nuwarakaláwiya was the historical district in North-Central Province. Named unit link follows its successor, Anuradhapura.
+district:jaffna	district	Jaffna District	Jaffna	Northern Province	265583	131483	134100	279284	137612	141672	Table III, p. 12, PDF p. 17			
+district:mannar	district	Mannár District	Mannar	Northern Province	21348	11320	10028	24511	14085	10426	Table III, p. 12, PDF p. 17			
+district:mullaitivu	district	Mullaitívu District	Mullaitivu	Northern Province	7638	4213	3425	7342	3964	3378	Table III, p. 12, PDF p. 17	Separate census district in the source.	Separate census district in the source.	Historical district boundaries unverified against the later district of the same name.
+district:vavuniya	district	Vavuniya District	Vavuniya	Northern Province	7931	4549	3382	8159	4700	3459	Table III, p. 12, PDF p. 17	Excludes separately tabulated Mullaitivu District.	Excludes separately tabulated Mullaitivu District.	1946 and retrospective figures may use broader district coverage.
+district:batticaloa	district	Batticaloa District	Batticaloa	Eastern Province	105358	54598	50760	122699	63135	59564	Table III, p. 12, PDF p. 17			
+district:trincomalee	district	Trincomalee District	Trincomalee	Eastern Province	22197	11979	10218	25745	14246	11499	Table III, p. 12, PDF p. 17			
+district:galle	district	Galle District	Galle	Southern Province	209680	105808	103872	222895	110983	111912	Table III, p. 12, PDF p. 17			
+district:matara	district	Mátara District	Matara	Southern Province	151923	77516	74407	177586	91122	86464	Table III, p. 12, PDF p. 17			
+district:hambantota	district	Hambantota District	Hambantota	Southern Province	71917	37561	34356	89318	46527	42791	Table III, p. 12, PDF p. 17			
+urban:negombo-1881-local-board-limits	local board	Negombo, Local Board of, as constituted in 1881	Negombo (1881 Local Board limits)	Negombo District	9141	4858	4283	9522	5024	4498	Table III, p. 13, PDF p. 18	1881 Local Board limits.	Population according to the 1881 limits.	Fixed-area comparison as indicated by the table footnote.
+urban:negombo	local board	Negombo, Local Board of, as at present constituted	Negombo	Negombo District				18933	9535	9398	Table III, p. 13, PDF p. 18		1891 Local Board limits.	Contemporary limits differ from the 1881 limits reported in a separate source row.
+urban:kalutara	local board	Kalutara, Local Board of	Kalutara	Kalutara District	10211	5156	5055	10864	5401	5463	Table III, p. 13, PDF p. 18			
+urban:ratnapura	local board	Ratnapura, Local Board of	Ratnapura	Ratnapura District	2888	1712	1176	3527	2080	1447	Table III, p. 13, PDF p. 18	Town of Ratnapura, per footnote.	Local Board.	
+urban:kurunegala	local board	Kurunégala, Local Board of	Kurunegala	Kurunégala District	4221	2696	1525	4745	2918	1827	Table III, p. 13, PDF p. 18	1881 Local Board limits.	1891 Local Board limits.	The table specifically says the Local Board limits of 1881 differ from those of 1891.
+urban:puttalam	local board	Puttalam, Local Board of	Puttalam	Puttalam District	5085	2916	2169	5034	2945	2089	Table III, p. 14, PDF p. 19			
+urban:chilaw	local board	Chilaw, Local Board of	Chilaw	Chilaw District	3436	1912	1524	3738	2115	1623	Table III, p. 14, PDF p. 19	Chilaw Town, per footnote.	Local Board.	
+urban:kandy	municipality	Kandy, Municipality of	Kandy Town	Kandy District	22026	13167	8859	20375	11622	8753	Table III, p. 14, PDF p. 19			
+urban:matale	local board	Mátalé, Local Board of	Matale	Mátalé District	4032	2589	1443	4197	2481	1716	Table III, p. 14, PDF p. 19	Mátalé Town, per footnote.	Local Board.	
+urban:nuwara-eliya	local board	Nuwara Eliya, Local Board of, and outside Local Board limits	Nuwara Eliya	Nuwara Eliya District	1791	1222	569	2726	1718	1008	Table III, p. 14, PDF p. 19	Local Board and outside Local Board limits.	Local Board and outside Local Board limits.	Combined area as printed. The count does not identify the Local Board alone.
+urban:badulla	local board	Badulla, Local Board of	Badulla	Badulla District	4746	2874	1872	5023	2850	2173	Table III, p. 14, PDF p. 19			
+urban:batticaloa	local board	Batticaloa, Local Board of	Batticaloa	Batticaloa District	6004	3169	2835	7257	3863	3394	Table III, p. 15, PDF p. 20	Batticaloa Town within Police limits, per footnote.	Local Board.	
+urban:trincomalee	town	Trincomalee, Town of	Trincomalee	Trincomalee District	9731	5149	4582	11596	6378	5218	Table III, p. 15, PDF p. 20			
+urban:galle	municipality	Galle, Municipality of	Galle Town	Galle District	31743	16577	15166	33590	17003	16587	Table III, p. 15, PDF p. 20			
+urban:matara	local board	Mátara, Local Board of	Matara	Mátara District	7522	3846	3676	8602	4344	4258	Table III, p. 15, PDF p. 20			
+urban:hambantota	four gravets	Hambantota, the Four Gravets of	Hambantota	Hambantota District	2045	1097	948	2576	1436	1140	Table III, p. 15, PDF p. 20	Four Gravets.	Four Gravets.	The historical enumeration area includes the Four Gravets.

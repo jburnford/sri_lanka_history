@@ -1,0 +1,34 @@
+# key	identity_confidence	note
+61	inferred	Map 17's lines round the Batticaloa lagoon lie 6-13 km from Map 7's; cell matched by order along the coast and by where Map 17 prints 61
+62+65	inferred	as 61; two Map 7 pieces (cell under the word BATTICALOA and the lagoon strip) joined because Map 17 prints 62+65 across both
+66	inferred	as 61; coastal cell east of Sammanturai
+67	inferred	as 61; number read on Map 17 but its outline there differs from Map 7's
+63+64	printed number read directly	Map 7 draws a line inside this cell (Koralai | Eravur) that Map 17 omits; kept as one feature as on Map 17
+35	inferred	number read on Map 17; matched to Map 7's small coastal cell by position (Map 17 lines here are up to 5 km from Map 7's)
+36	inferred	as 35
+39	inferred	as 35
+40	inferred	as 35
+42	printed number read directly	geometry from Map 7; Map 17 draws the 42|43 line up to 8 km further east
+43	printed number read directly	geometry from Map 7; see 42
+100	printed number read directly	geometry from Map 7; Map 17 draws the 100|102 line 3-6 km from Map 7's
+102	printed number read directly	see 100
+55	printed number read directly	the island carries the number; a mainland sliver between two dotted lines opposite the island is added by inference (hatched like 55 on Map 17)
+53	inferred	Map 17 prints 53 on one island only; the three island outlines that segmented are all given to 53; smaller islands are missing from the layer
+22	printed number read directly	boundary with 23 and 24 uncertain by about 3 km where the words "Matale S." cover the dotted line
+9	printed number read directly	Map 7 shows two coastal strips here ("Totamune Div." and "Mudaliyar's"); Map 17 has one cell 9; outline follows Map 17
+1	printed number read directly	outline follows Map 17 (Map 7's dotted lines are hidden by lettering); a few km uncertain
+2	printed number read directly	outline partly follows Map 17 (lettering hides Map 7's lines)
+7	printed number read directly	outline partly follows Map 17
+12	printed number read directly	outline partly follows Map 17
+11	printed number read directly	outline partly follows Map 17
+13	printed number read directly	outline partly follows Map 17
+19	printed number read directly	outline partly follows Map 17
+20	printed number read directly	outline partly follows Map 17
+21	printed number read directly	outline partly follows Map 17
+25	printed number read directly	includes the strip south of the figure 25 between Kotmale and the Uva boundary (divided from it on Map 17 only by a thick dash)
+89	printed number read directly	includes a small cell south of a dotted arc at the Nuwaragam border, cut off only by the letter K
+KPEN	uncertain: no number is printed on the Kalpitiya peninsula; it is shaded like 84 (not 83) on Maps 17, 18 and 19	kept as its own feature
+COL	inferred	unnumbered cluster of small cells at Colombo on Map 17, taken to be the Municipality (the key's 1 is the Mudaliyar's Division); outline from Map 17, rough
+KAN	inferred	unnumbered small cell with a town blob between 13 and 14 on Map 17, taken to be Kandy town
+GAL	inferred	two unnumbered slivers beside 29 on Map 17, taken to be Galle Municipality (key 29 is "beyond Municipal limits")
+CHI	uncertain: small unnumbered coastal cell on Map 7 between Pitigal N and S, not drawn on Map 17; perhaps Chilaw town	

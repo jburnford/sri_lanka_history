@@ -3,7 +3,9 @@
 import argparse
 import hashlib
 import json
+import shutil
 import sqlite3
+import subprocess
 import tempfile
 from pathlib import Path
 
@@ -49,15 +51,63 @@ TABLES = [
     ("historical_wikidata_places", "Historic landmarks", ["name","category","represented_date","significance","qid"]),
     ("source_catalogue", "Source catalogue", ["title","published_date","kind","source_id"]),
 ]
+TILE_ZOOM = (6, 12)  # zoom 12 is about 38 m a pixel; the georeferenced sheets are 43 m a pixel
 OMIT = {"fid", "geom", "local_reference", "tags_json", "osm_nodes_json", "source_pixels_json", "source_pixels"}
 RASTERS = [
     ("motor1936", "Motor Map, 1936", "motor-map-1936/ceylon-motor-map-1936.tif", "Georeferenced image of the 1936 Survey Department Motor Map.", "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332276~90100738", 1900),
     ("ferguson1893", "Ferguson’s map, 1893", "ferguson-1893/ferguson-1893.tif", "Georeferenced image of Ferguson’s 1893 map of Ceylon.", "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338023~90105863", 1900),
 ]
+ELEVATION = Path("/mnt/data/jic823/ceylon_hgis_elevation/srtm_30m")
+RELIEF_RAMP = """0 205 217 184
+100 221 224 194
+300 235 224 190
+600 226 205 168
+1000 209 182 150
+1500 192 163 138
+2000 206 191 176
+2600 236 231 226
+nv 0 0 0 0
+"""
 
 
 def write(filename, value):
     (DATA / filename).write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":"), default=str))
+
+
+def tile(identifier, tif, source):
+    """Cut a Web Mercator image into tiles, unless the tiles on disk already come from this source file."""
+    tiles = DATA / "tiles" / identifier
+    stamp = tiles / "source.txt"
+    signature = f"{source.name} {source.stat().st_size} {int(source.stat().st_mtime)} z{TILE_ZOOM[0]}-{TILE_ZOOM[1]}"
+    if stamp.exists() and stamp.read_text() == signature:
+        return
+    shutil.rmtree(tiles, ignore_errors=True)
+    subprocess.run(["gdal2tiles.py", "-q", "--xyz", "-z", f"{TILE_ZOOM[0]}-{TILE_ZOOM[1]}", "-r", "lanczos",
+                    "--tiledriver=WEBP", "--webp-quality=82", "-w", "none", "-x", "--processes=8",
+                    tif, str(tiles)], check=True)
+    for sidecar in tiles.rglob("*.aux.xml"):
+        sidecar.unlink()
+    stamp.write_text(signature)
+
+
+def export_relief():
+    """Tinted relief from the SRTM mosaic: a height tint darkened by the hillshade, sea left transparent."""
+    import numpy
+    dem, shade = ELEVATION / "ceylon_srtm_30m.tif", ELEVATION / "ceylon_srtm_30m_hillshade.tif"
+    with tempfile.TemporaryDirectory() as work:
+        ramp, tint, lit, warped = (str(Path(work) / name) for name in ("ramp.txt", "tint.tif", "lit.tif", "warped.tif"))
+        Path(ramp).write_text(RELIEF_RAMP)
+        gdal.DEMProcessing(tint, str(dem), "color-relief", colorFilename=ramp, addAlpha=True)
+        factor = numpy.clip(gdal.Open(str(shade)).ReadAsArray().astype("float32") / 185, .45, 1.3)
+        source = gdal.Open(tint)
+        target = gdal.GetDriverByName("GTiff").CreateCopy(lit, source, options=["COMPRESS=DEFLATE", "TILED=YES"])
+        for band in (1, 2, 3):
+            values = source.GetRasterBand(band).ReadAsArray() * factor
+            target.GetRasterBand(band).WriteArray(numpy.clip(values, 0, 255).astype("uint8"))
+        target = None
+        gdal.Warp(warped, lit, dstSRS="EPSG:3857", resampleAlg="bilinear")
+        tile("relief", warped, dem)
+    return [[5.8, 79.4], [10.0, 82.0]]
 
 
 def export_raster(identifier, source, maximum):
@@ -75,6 +125,7 @@ def export_raster(identifier, source, maximum):
         left, top, _ = transform.TransformPoint(geom[0], geom[3])
         right, bottom, _ = transform.TransformPoint(geom[0] + raster.RasterXSize * geom[1],
                                                     geom[3] + raster.RasterYSize * geom[5])
+        tile(identifier, tif, source)  # the single preview image below is too coarse to read place names
         scale = maximum / max(raster.RasterXSize, raster.RasterYSize)
         destination = str(DATA / (identifier + ".webp"))
         gdal.Translate(destination, raster, format="WEBP", creationOptions=["QUALITY=88"], width=round(raster.RasterXSize * scale),
@@ -136,13 +187,30 @@ def main():
             write(identifier + ".records.json", rows)
             tables.append(dict(id=identifier, title=title, fields=fields, count=len(rows)))
 
+    # Rasters whose source images are not on this machine keep the entry and tiles they already have.
+    previous = {}
+    if (DATA / "atlas.json").exists():
+        previous = {item["id"]: item for item in json.loads((DATA / "atlas.json").read_text()).get("rasters", [])}
     rasters = []
+    if (ELEVATION / "ceylon_srtm_30m.tif").exists():
+        rasters.append(dict(id="relief", title="Relief, SRTM 30 m", group="Relief",
+                            description="Modern surface from the February 2000 shuttle radar survey, tinted by height. A base for reading the historical layers against the hills.",
+                            url="https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+                            attribution='Relief: SRTM, via <a href="https://github.com/tilezen/joerd/blob/master/docs/attribution.md">Tilezen terrain tiles</a>',
+                            bounds=export_relief(), visible=True, base=True, tiles="data/tiles/relief/{z}/{x}/{y}.webp",
+                            min_zoom=TILE_ZOOM[0], max_zoom=TILE_ZOOM[1]))
+    elif "relief" in previous:
+        rasters.append(previous["relief"])
     for identifier, title, relative, description, url, maximum in RASTERS:
         source = args.gpkg.parent.parent / relative
         if source.exists():
             bounds = export_raster(identifier, source, maximum)
             rasters.append(dict(id=identifier, title=title, group="Map sheets", description=description,
-                                url=url, bounds=bounds, visible=False))
+                                url=url, bounds=bounds, visible=False,
+                                tiles=f"data/tiles/{identifier}/{{z}}/{{x}}/{{y}}.webp",
+                                min_zoom=TILE_ZOOM[0], max_zoom=TILE_ZOOM[1]))
+        elif identifier in previous:
+            rasters.append(previous[identifier])
 
     write("atlas.json", dict(layers=layers, tables=tables, rasters=rasters,
                             revision=hashlib.sha256(args.gpkg.read_bytes()).hexdigest()[:12]))

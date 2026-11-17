@@ -1,0 +1,12 @@
+segment_id	corridor_id	name	gauge_mm	pixels	note
+1915-rail:main-west	rail:main	Maradana–Peradeniya Junction via Polgahawela	1676	527,998 540,968 564,949 581,931 606,914 620,920 637,926	Schematic junction positions.
+1915-rail:main-east	rail:main	Peradeniya Junction–Bandarawela via Hatton and Nanu Oya	1676	637,926 670,947 686,971 683,998 665,1027 666,1043 684,1052 728,1038 744,1054 763,1062 786,1066 804,1058	Trace ends at the interpreted Bandarawela symbol. The adjacent Badulla marking is ambiguous at this scale. Government chronology dates service to Badulla to 1924.
+1915-rail:matale	rail:matale	Peradeniya Junction–Matale via Kandy	1676	637,926 665,935 679,916 684,888 689,863	
+1915-rail:northern	rail:northern	Polgahawela–Kankesanturai via Jaffna	1676	606,914 595,881 596,855 590,806 589,763 602,717 616,674 629,621 643,569 642,512 633,455 611,407 578,380 545,370 520,357 510,339	
+1915-rail:mannar	rail:mannar	Medawachchiya Junction–Talaimannar	1676	629,621 596,611 560,591 526,571 495,552 479,532 455,512 444,494	Shown as a railway. Cross-strait links are outside this trace.
+1915-rail:coast	rail:coast	Maradana–Matara via Colombo and Galle	1676	527,998 502,1003 488,1018 485,1049 496,1080 510,1118 526,1152 537,1178 550,1202 575,1217 597,1229 624,1258	
+1915-rail:chilaw	rail:puttalam	Ragama–Chilaw via Negombo	1676	511,978 494,959 479,933 474,906 474,879 468,856	The map depicts the line as far as Chilaw. The 1916 government report dates goods service to 1 March 1916 and all traffic to 1 May 1916.
+1915-rail:kv-west	rail:kelani-valley	Maradana–Avissawella	762	527,998 549,1006 570,1012 585,1019	Centerline follows the thin green branch.
+1915-rail:kv-east	rail:kelani-valley	Avissawella–Ratnapura	762	585,1019 601,1027 623,1043 646,1067 662,1086	Map shows route to Ratnapura before the Dela extension.
+1915-rail:yatiyantota	rail:kelani-valley	Avissawella–Yatiyantota	762	585,1019 599,1009 606,998 614,978	Small endpoint symbol at Yatiyantota.
+1915-rail:uda	rail:uda-pussellawa	Nanu Oya–Ragalla via Nuwara Eliya	762	728,1038 730,1021 739,1008 748,990 760,973	Schematic alignment of the former narrow-gauge line.

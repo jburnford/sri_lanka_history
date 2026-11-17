@@ -1,0 +1,78 @@
+feature_id	unit_kind	name	qid	anchor_qid	qid_source_id	qid_relation
+country:ceylon	country	Ceylon	Q918153		wikidata-sri-lanka	historical colony identity
+province:western	province	Western	Q856686		wikidata-sri-lanka	same named province, historical footprint unverified
+province:central	province	Central	Q190716		wikidata-sri-lanka	same named province, historical footprint unverified
+province:southern	province	Southern	Q876308		wikidata-sri-lanka	same named province, historical footprint unverified
+province:northern	province	Northern	Q598745		wikidata-sri-lanka	same named province, historical footprint unverified
+province:eastern	province	Eastern	Q1046126		wikidata-sri-lanka	same named province, historical footprint unverified
+province:north-western	province	North Western	Q876339		wikidata-sri-lanka	same named province, historical footprint unverified
+province:north-central	province	North Central	Q1057124		wikidata-sri-lanka	same named province, historical footprint unverified
+province:uva	province	Uva	Q876293		wikidata-sri-lanka	same named province, historical footprint unverified
+province:sabaragamuwa	province	Sabaragamuwa	Q853272		wikidata-sri-lanka	same named province, historical footprint unverified
+district:colombo	district	Colombo	Q606287		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:kalutara	district	Kalutara	Q728935		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:kandy	district	Kandy	Q723002		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:matale	district	Matale	Q787421		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:nuwara-eliya	district	Nuwara Eliya	Q1583950		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:galle	district	Galle	Q647649		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:matara	district	Matara	Q1281285		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:hambantota	district	Hambantota	Q723006		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:jaffna	district	Jaffna	Q1520182		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:mannar	district	Mannar	Q178003		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:vavuniya	district	Vavuniya	Q527980		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:batticaloa	district	Batticaloa	Q810960		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:trincomalee	district	Trincomalee	Q1493318		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:kurunegala	district	Kurunegala	Q745073		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:puttalam	district	Puttalam	Q1665318		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:chilaw	district	Chilaw				historical district without confirmed QID
+district:anuradhapura	district	Anuradhapura	Q612614		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:badulla	district	Badulla	Q799713		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:ratnapura	district	Ratnapura	Q1587175		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:kegalla	district	Kegalla	Q1737803		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+district:puttalam-and-chilaw	district	Puttalam and Chilaw				combined enumeration unit
+urban:colombo	urban	Colombo Town	Q35381		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kandy	urban	Kandy Town	Q203197		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:galle	urban	Galle Town	Q319366		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:avissawella	urban	Avissawella	Q3537406		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:dehiwala-mt-lavinia	urban	Dehiwala-Mt. Lavinia	Q24462		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:gampaha	urban	Gampaha	Q2616818		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:ja-ela	urban	Ja-ela	Q6109487		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kolonnawa	urban	Kolonnawa	Q1153291		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kotte	urban	Kotte	Q41963		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:moratuwa	urban	Moratuwa	Q867213		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:negombo	urban	Negombo	Q668616		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:wattala-mabole-peliyagoda	urban	Wattala-Mabole-Peliyagoda		Q7974929	wikidata-sri-lanka	representative place within combined enumeration unit
+urban:beruwala	urban	Beruwala	Q829211		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:horana	urban	Horana	Q5902567		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kalutara	urban	Kalutara	Q1295530		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:panadura	urban	Panadura	Q7129771		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:gampola	urban	Gampola	Q8264065		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:hatton-dickoya	urban	Hatton-Dickoya		Q390564	wikidata-sri-lanka	representative place within combined enumeration unit
+urban:kadugannawa	urban	Kadugannawa	Q6345741		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:nawalapitiya	urban	Nawalapitiya	Q3536138		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:wattegama	urban	Wattegama	Q7974935		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:matale	urban	Matale	Q1540498		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:nuwara-eliya	urban	Nuwara Eliya	Q1340579		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:ambalangoda	urban	Ambalangoda	Q4740977		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:matara	urban	Matara	Q13360574		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:weligama	urban	Weligama	Q3534843		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:hambantota	urban	Hambantota	Q1025283		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:tangalla-beliatta	urban	Tangalla-Beliatta		Q598658	wikidata-sri-lanka	representative place within combined enumeration unit
+urban:jaffna	urban	Jaffna	Q215277		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:batticaloa	urban	Batticaloa	Q810963		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:trincomalee	urban	Trincomalee	Q323873		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kuliyapitiya	urban	Kuliyapitiya	Q6443054		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kurunegala	urban	Kurunegala	Q776887		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:chilaw	urban	Chilaw	Q2495639		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:puttalam	urban	Puttalam	Q3088741		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:anuradhapura	urban	Anuradhapura	Q5724		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:badulla	urban	Badulla	Q390096		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:bandarawela	urban	Bandarawela	Q4854443		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:balangoda	urban	Balangoda	Q804637		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:ratnapura	urban	Ratnapura	Q508753		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:kegalla	urban	Kegalla	Q1968268		wikidata-sri-lanka	named settlement corresponding to census unit
+urban:minuwangoda	urban	Minuwangoda	Q15253507		wikidata-sri-lanka	named settlement corresponding to census unit
+district:colombo-excluding-municipality	district	Colombo District (1891, outside municipality)				separate historical enumeration area
+district:negombo	district	Negombo District				historical district with no confirmed QID
+district:mullaitivu	district	Mullaitivu District	Q1587508		wikidata-sri-lanka	corresponding named district, historical footprint unverified
+urban:negombo-1881-local-board-limits	urban scope	Negombo (1881 Local Board limits)		Q668616	wikidata-sri-lanka	representative city for historical Local Board limits

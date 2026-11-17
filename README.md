@@ -5,6 +5,7 @@ foundations: the Colonial Office List graph and the Empire Evolution graph, join
 
 | Folder | What it is |
 |---|---|
+| `geography/` | The historical GIS: the GeoPackage `historical-gis/ceylon-history.gpkg`, the QGIS project, the scripts and input tables that build them, and the control points for each georeferenced map. The georeferenced scans themselves are too large for GitHub and are not here, nor are the SRTM elevation tiles. |
 | `docs/`, `export_atlas.py` | The online historical atlas, served by GitHub Pages. See "Ceylon Historical Atlas" below. |
 | `spine/` | The entity layer: places, taxa, commodities, organisations and people named in the *Tropical Agriculturist* and the Ceylon Blue Books, each tied to a shared identifier by a recorded, reversible decision. Start with `spine/README.md` and `spine/STATUS.md`. |
 
@@ -34,7 +35,7 @@ The browser reads GeoJSON and JSON exports in `docs/data/`. To refresh them, run
 /usr/bin/python3 export_atlas.py /path/to/geography/historical-gis/ceylon-history.gpkg
 ```
 
-The web export is a snapshot. Its geometry is in WGS84 and its image overlays are downsampled. The working historical GIS includes additional material such as the local elevation raster. The transport review notes include known gaps, and early schematic lines and modern alignment candidates are labelled in the atlas.
+The web export is a snapshot. Its geometry is in WGS84. The two map sheets are served as tiles at the full resolution of the georeferenced scans (about 40 m a pixel), and the base is a tinted relief made from the SRTM 30 m survey of February 2000; boundary fills thin out while the relief is shown. Without the scans or the elevation tiles on the machine, the export keeps the tiles already in `docs/data/tiles/`. The transport review notes include known gaps, and early schematic lines and modern alignment candidates are labelled in the atlas.
 
 Map credit: David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries. The atlas displays georeferenced, resized adaptations of [Ferguson’s 1893 map](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338023~90105863) and the [1936 Survey Department map](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332276~90100738). See the [collection’s image permissions](https://www.davidrumsey.com/about/copyright-and-permissions).
 

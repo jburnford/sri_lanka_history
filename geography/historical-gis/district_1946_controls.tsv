@@ -1,0 +1,18 @@
+name	x	y	lon	lat	role	reference
+Colombo Town	319	1168	79.84868	6.93548	fit	https://www.geonames.org/1248991/
+Kandy Town	596	1037	80.6336	7.2906	fit	https://www.geonames.org/1241622/
+Galle Town	452	1467	80.2103	6.0461	fit	https://www.geonames.org/1246294/
+Kalutara	368	1284	79.9593	6.5831	fit	https://www.geonames.org/1241964/
+Matale	585	966	80.6217	7.4698	fit	https://www.geonames.org/1235855/
+Nuwara Eliya	642	1137	80.78286	6.97078	fit	https://www.geonames.org/1232783/
+Matara	525	1490	80.53528	5.94851	check	https://www.geonames.org/1235846/
+Hambantota	757	1427	81.1185	6.1241	fit	https://www.geonames.org/1244926/
+Jaffna	353	221	80.00742	9.66845	fit	https://www.geonames.org/1242833/
+Batticaloa	961	916	81.6924	7.7102	check	https://www.geonames.org/1250161/
+Trincomalee	772	585	81.2289	8.5778	fit	https://www.geonames.org/1226260/
+Kurunegala	489	965	80.3683	7.4839	fit	https://www.geonames.org/1237980/
+Puttalam	301	769	79.8283	8.0362	fit	https://www.geonames.org/1229293/
+Anuradhapura	487	682	80.41306	8.31223	fit	https://www.geonames.org/1251081/
+Badulla	732	1104	81.0577	6.9802	check	https://www.geonames.org/1250615/
+Ratnapura	513	1245	80.4036	6.6858	fit	https://www.geonames.org/1228730/
+Kegalla	501	1055	80.3436	7.2523	fit	https://www.geonames.org/1240723/

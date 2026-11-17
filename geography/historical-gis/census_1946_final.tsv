@@ -1,0 +1,52 @@
+kind	name	unit_name	parent	1931	1946	area_sq_mi	1931_density	1946_density	locator
+province	Western	Western	Ceylon	1445034	1876904	1432	1009	1310	Table 10, p. 72, PDF p. 104
+province	Central	Central	Ceylon	953388	1135290	2290	416	496	Table 10, p. 72, PDF p. 104
+province	Southern	Southern	Ceylon	771204	961418	2146	359	448	Table 10, p. 72, PDF p. 104
+province	Northern	Northern	Ceylon	398874	479572	3429	116	140	Table 10, p. 72, PDF p. 104
+province	Eastern	Eastern	Ceylon	212421	279112	3840	55	73	Table 10, p. 72, PDF p. 104
+province	North-Western	North Western	Ceylon	546966	667889	3016	181	221	Table 10, p. 72, PDF p. 104
+province	North-Central	North Central	Ceylon	97365	139534	4009	24	35	Table 10, p. 72, PDF p. 104
+province	Uva	Uva	Ceylon	303243	372238	3278	93	114	Table 10, p. 72, PDF p. 104
+province	Sabaragamuwa	Sabaragamuwa	Ceylon	578368	745382	1893	306	394	Table 10, p. 72, PDF p. 104
+municipality	Municipality of Colombo	Colombo Town	Colombo		362074	13		27852	Table 14, p. 75, PDF p. 109
+urban council	Avissawella	Avissawella	Colombo		2632	1 1/4		2106	Table 14, p. 75, PDF p. 109
+urban council	Dehiwela-Mount Lavinia	Dehiwala-Mt. Lavinia	Colombo		56881	5 7/8		9682	Table 14, p. 75, PDF p. 109
+urban council	Gampaha	Gampaha	Colombo		2913	1/4		11652	Table 14, p. 75, PDF p. 109
+urban council	Ja-ela	Ja-ela	Colombo		3129	1/2		6258	Table 14, p. 75, PDF p. 109
+urban council	Kolonnawa	Kolonnawa	Colombo		13815	1 9/10		7271	Table 14, p. 75, PDF p. 109
+urban council	Kotte	Kotte	Colombo		40218	6 5/8		6071	Table 14, p. 75, PDF p. 109
+urban council	Moratuwa	Moratuwa	Colombo		50698	5 1/7		9858	Table 14, p. 75, PDF p. 109
+urban council	Negombo	Negombo	Colombo		32479	4		8120	Table 14, p. 75, PDF p. 109
+urban council	Wattala-Mabole-Peliyagoda	Wattala-Mabole-Peliyagoda	Colombo		12418	1 3/4		7096	Table 14, p. 75, PDF p. 109
+local board	Minuwangoda	Minuwangoda	Colombo		1199	1/5		5995	Table 14, p. 75, PDF p. 109
+urban council	Beruwala	Beruwala	Kalutara		11495	1 11/16		6812	Table 14, p. 75, PDF p. 109
+urban council	Horana	Horana	Kalutara		3580	1 1/2		2387	Table 14, p. 75, PDF p. 109
+urban council	Kalutara	Kalutara	Kalutara		18965	2 1/2		7586	Table 14, p. 75, PDF p. 109
+urban council	Panadura	Panadura	Kalutara		16513	2 1/15		7990	Table 14, p. 75, PDF p. 109
+municipality	Municipality of Kandy	Kandy Town	Kandy		51266	8 1/4		6214	Table 14, p. 76, PDF p. 110
+urban council	Gampola	Gampola	Kandy		9163	1		9163	Table 14, p. 76, PDF p. 110
+urban council	Hatton-Dickoya	Hatton-Dickoya	Kandy		5379	1/2		10758	Table 14, p. 76, PDF p. 110
+urban council	Kadugannawa	Kadugannawa	Kandy		1335	1/12		16020	Table 14, p. 76, PDF p. 110
+urban council	Nawalapitiya	Nawalapitiya	Kandy		7623	1		7623	Table 14, p. 76, PDF p. 110
+urban council	Wattegama	Wattegama	Kandy		1067	1/12		12804	Table 14, p. 76, PDF p. 110
+urban council	Matale	Matale	Matale		14090	2		7045	Table 14, p. 76, PDF p. 110
+urban council	Nuwara Eliya	Nuwara Eliya	Nuwara Eliya		10828	5 3/4		1883	Table 14, p. 76, PDF p. 110
+municipality	Municipality of Galle	Galle Town	Galle		49009	6 1/2		7540	Table 14, p. 76, PDF p. 110
+urban council	Ambalangoda	Ambalangoda	Galle		9952	1 1/10		9047	Table 14, p. 76, PDF p. 110
+urban council	Matara	Matara	Matara		22908	2 3/4		8330	Table 14, p. 76, PDF p. 110
+urban council	Weligama	Weligama	Matara		11923	2 1/64		5915	Table 14, p. 76, PDF p. 110
+urban council	Hambantota	Hambantota	Hambantota		3970	2 1/10		1890	Table 14, p. 76, PDF p. 110
+urban council	Tangalla-Beliatta	Tangalla-Beliatta	Hambantota		6857	1 1/2		4571	Table 14, p. 76, PDF p. 110
+urban council	Jaffna	Jaffna	Jaffna		62543	7 3/4		8070	Table 14, p. 76, PDF p. 110
+urban council	Batticaloa	Batticaloa	Batticaloa		13037	3 1/7		4148	Table 14, p. 76, PDF p. 110
+urban council	Trincomalee	Trincomalee	Trincomalee		32507	3		10836	Table 14, p. 76, PDF p. 110
+urban council	Kuliyapitiya	Kuliyapitiya	Kurunegala		2173	7/8		2483	Table 14, p. 76, PDF p. 110
+urban council	Kurunegala	Kurunegala	Kurunegala		13372	4 3/8		3056	Table 14, p. 76, PDF p. 110
+urban council	Chilaw	Chilaw	Puttalam and Chilaw		9108	2 1/8		4286	Table 14, p. 76, PDF p. 110
+urban council	Puttalam	Puttalam	Puttalam and Chilaw		7792	9		866	Table 14, p. 76, PDF p. 110
+urban council	Anuradhapura	Anuradhapura	Anuradhapura		12314	9 1/4		1331	Table 14, p. 77, PDF p. 111
+urban council	Badulla	Badulla	Badulla		13387	3 7/16		3894	Table 14, p. 77, PDF p. 111
+urban council	Bandarawela	Bandarawela	Badulla		2946	7/8		3367	Table 14, p. 77, PDF p. 111
+urban council	Balangoda	Balangoda	Ratnapura		2140	2/5		5350	Table 14, p. 77, PDF p. 111
+urban council	Ratnapura	Ratnapura	Ratnapura		12441	4 1/8		3016	Table 14, p. 77, PDF p. 111
+urban council	Kegalla	Kegalla	Kegalla		4903	1 3/10		3772	Table 14, p. 77, PDF p. 111

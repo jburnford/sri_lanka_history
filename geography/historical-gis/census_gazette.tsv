@@ -1,0 +1,72 @@
+kind	name	parent	1931	1946	page	note
+country	Ceylon		5306871	6650825	489	The heavy 1931 digit reads 3; compare the printed 25.3% increase and final Table 3. The nine 1931 province rows sum eight lower.
+province	Western	Ceylon	1445034	1877395	489	
+province	Central	Ceylon	953388	1146963	489	
+province	Southern	Ceylon	771204	961912	489	
+province	Northern	Ceylon	398874	479591	489	
+province	Eastern	Ceylon	212421	270849	489	
+province	North Western	Ceylon	546966	670155	489	1946 component totals reconcile to this source total.
+province	North Central	Ceylon	97365	132377	489	
+province	Uva	Ceylon	303243	368622	489	
+province	Sabaragamuwa	Ceylon	578368	742961	489	
+district	Colombo	Western	1081249	1420498	489	
+district	Kalutara	Western	363785	456897	489	
+district	Kandy	Central	587916	720208	489	Footnote A excludes 36 estates.
+district	Matale	Central	129697	158384	489	
+district	Nuwara Eliya	Central	235775	268371	489	
+district	Galle	Southern	363553	460497	489	
+district	Matara	Southern	283292	351792	489	
+district	Hambantota	Southern	124359	149623	489	
+district	Jaffna	Northern	355425	424867	489	
+district	Mannar	Northern	25137	31449	489	
+district	Vavuniya	Northern	18312	23275	489	
+district	Batticaloa	Eastern	174929	202900	489	
+district	Trincomalee	Eastern	37492	67949	489	
+district	Kurunegala	North Western	397239	485366	489	
+district	Puttalam and Chilaw	North Western	149727	184789	489	Footnote B excludes 2 estates.
+district	Anuradhapura	North Central	97365	132377	489	
+district	Badulla	Uva	303243	368622	490	Footnote A excludes 4 estates.
+district	Ratnapura	Sabaragamuwa	263801	341591	490	
+district	Kegalla	Sabaragamuwa	314567	401370	490	Footnote B reads 3 excluded estates; separate from footnote B on p. 489.
+municipality	Colombo Town	Colombo	284155	364106	490	
+municipality	Kandy Town	Kandy	37147	50381	490	
+municipality	Galle Town	Galle	38424	49038	490	
+urban council	Avissawella	Colombo	1580	2633	490	
+urban council	Dehiwala-Mt. Lavinia	Colombo	34288	56388	490	Combined area.
+urban council	Gampaha	Colombo	1971	2883	490	
+urban council	Ja-ela	Colombo	2312	3082	490	
+urban council	Kolonnawa	Colombo	7826	13512	490	
+urban council	Kotte	Colombo	22647	39555	490	
+urban council	Moratuwa	Colombo	32409	50093	490	
+urban council	Negombo	Colombo	25291	32632	490	
+urban council	Wattala-Mabole-Peliyagoda	Colombo	7357	12419	490	Combined area.
+urban council	Beruwala	Kalutara	10488	11489	490	
+urban council	Horana	Kalutara	1410	3613	490	
+urban council	Kalutara	Kalutara	14280	18844	490	
+urban council	Panadura	Kalutara	12946	16545	490	
+urban council	Gampola	Kandy	6976	9194	490	
+urban council	Hatton-Dickoya	Kandy	3275	5360	490	Combined area.
+urban council	Kadugannawa	Kandy	1272	1322	490	
+urban council	Nawalapitiya	Kandy	5584	7700	490	
+urban council	Wattegama	Kandy	942	1078	490	
+urban council	Matale	Matale	10415	14046	490	
+urban council	Nuwara Eliya	Nuwara Eliya	7823	9840	490	
+urban council	Ambalangoda	Galle	7024	9952	490	
+urban council	Matara	Matara	18893	23493	490	
+urban council	Weligama	Matara	9751	11891	490	
+urban council	Hambantota	Hambantota	3133	3966	490	
+urban council	Tangalla-Beliatta	Hambantota	5204	6841	490	Combined area.
+urban council	Jaffna	Jaffna	45708	62922	490	
+urban council	Batticaloa	Batticaloa	11585	12948	490	
+urban council	Trincomalee	Trincomalee	10160	28334	490	
+urban council	Kuliyapitiya	Kurunegala	1420	2159	490	
+urban council	Kurunegala	Kurunegala	10467	13466	490	
+urban council	Chilaw	Puttalam and Chilaw	7203	9075	490	
+urban council	Puttalam	Puttalam and Chilaw	6709	7766	490	
+urban council	Anuradhapura	Anuradhapura	8975	12287	490	
+urban council	Badulla	Badulla	9849	13162	490	
+urban council	Bandarawela	Badulla	1792	3005	490	
+urban council	Balangoda	Ratnapura	1843	2142	490	
+urban council	Ratnapura	Ratnapura	8497	12467	490	
+urban council	Kegalla	Kegalla	3711	4922	490	
+local board	Minuwangoda	Colombo	1054	1199	490	Published percentage (12.0) disagrees with the displayed counts.

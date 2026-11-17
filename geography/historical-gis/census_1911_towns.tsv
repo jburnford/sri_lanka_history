@@ -1,0 +1,8 @@
+kind	name	parent	1901	1911	1901_houses	1911_houses	1901_male	1901_female	1911_male	1911_female	1901_literate_male	1901_literate_female	1911_literate_male	1911_literate_female	page	note
+local board	Negombo Local Board	Negombo	11040	12960		2434	5806	5234	6867	6093	2287	1372	3528	1999	p. 30, PDF p. 37	1901 occupied houses share a bracket with adjacent rows. The 1911 report lists Negombo separately from Colombo District.
+local board	Kalutara Local Board	Kalutara	11500	13006	1993	2361	5821	5679	6542	6464			3601	1523	p. 36, PDF p. 43	1901 literacy columns print 5,821 male and 5,679 female, repeating the population counts. Probable source error; literacy values left null.
+municipality	Kandy Municipality	Kandy	26386	29451	4755	5239	15049	11337	16688	12763	7192	2559	8349	3176	p. 44, PDF p. 51	
+local board	Matale Local Board	Matale	4951	5792	975	1097	2981	1970	3475	2317	1480	327	1723	526	p. 70, PDF p. 77	
+municipality	Galle Municipality	Galle	37165	39960	6565	7299	18773	18392	20093	19867	8091	2878	8980	3925	p. 122, PDF p. 130	
+local board	Matara Local Board	Matara	11880	13851	2009	2366	6021	5859	7010	6841	2762	1209	3476	1611	p. 142, PDF p. 150	
+local board	Batticaloa Local Board	Batticaloa	9969	10666	1827	1971	5159	4810	5584	5082	2659	1031	3203	1541	p. 166, PDF p. 175	

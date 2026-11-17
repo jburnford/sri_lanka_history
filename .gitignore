@@ -8,7 +8,16 @@
 !/spine/
 !/docs/
 !/export_atlas.py
+!/geography/
 
 .openai/
 __pycache__/
 *.pyc
+
+# geography/: the GIS database, its build scripts and input tables are published; the georeferenced scans
+# (too large for GitHub, and rebuilt from the sources named in each folder) and scratch arrays are not.
+/geography/**/*.tif
+/geography/**/*.aux.xml
+/geography/**/*.npy
+/geography/historical-gis/headmen_1934_work/full-*.png
+/geography/historical-gis/headmen_1934_work/p[0-9]*.png

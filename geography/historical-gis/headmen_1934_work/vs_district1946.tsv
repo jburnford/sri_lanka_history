@@ -1,0 +1,110 @@
+key	name	expected_1946_district	top_district_1946	share
+1	Colombo Mudaliyar's Division	Colombo	Colombo	1.00
+2	Alutkuru korale south	Colombo	Colombo	1.00
+3	Hewagam korale	Colombo	Colombo	0.94
+4	Salpiti korale	Colombo	Colombo	0.89
+5	Siyane korale east	Colombo	Colombo	0.93
+6	Siyane korale west	Colombo	Colombo	1.00
+7	Alutkuru korale north	Colombo	Colombo	0.97
+8	Hapitigam korale	Colombo	Colombo	0.84
+9	Kalutara and Panadure totamune	Kalutara	Kalutara	0.94
+10	Pasdun korale east	Kalutara	Kalutara	0.91
+11	Pasdun korale west	Kalutara	Kalutara	0.99
+12	Raigam korale	Kalutara	Kalutara	0.88
+13	Harispattu	Kandy	Kandy	0.98
+14	Pata Dumbara	Kandy	Kandy	0.98
+15	Pata Hewaheta	Kandy	Kandy	0.92
+16	Tumpane	Kandy	Kandy	1.00
+17	Uda Bulatgama	Kandy	Kandy	0.96
+18	Uda Dumbara	Kandy	Kandy	0.98
+19	Udunuwara	Kandy	Kandy	0.99
+20	Udapalata	Kandy	Kandy	1.00
+21	Yatinuwara	Kandy	Kandy	1.00
+22	Matale South	Matale	Matale	0.96
+23	Matale East	Matale	Matale	0.94
+24	Matale North	Matale	Matale	0.99
+25	Nuwara Eliya Gravets exclusive of Town	Nuwara Eliya	Nuwara Eliya	0.92
+26	Kotmale	Nuwara Eliya	Nuwara Eliya	0.79
+27	Uda Hewaheta	Nuwara Eliya	Nuwara Eliya	0.93
+28	Walapane	Nuwara Eliya	Nuwara Eliya	0.98
+29	Four Gravets beyond Municipal limits	Galle	Galle	1.00
+30	Gangaboda pattu	Galle	Galle	0.97
+31	Wellaboda pattu	Galle	Galle	1.00
+32	Talpe pattu	Galle	Galle	0.79
+33	Bentota-Walallawiti korale	Galle	Galle	0.96
+34	Hinidum pattu	Galle	Galle	0.73
+35	Four Gravets beyond U. D. C. limits	Matara	Matara	0.80
+36	Wellaboda pattu	Matara	Matara	0.72
+37	Weligam korale	Matara	Matara	0.96
+38	Morawak korale	Matara	Matara	0.95
+39	Kandaboda pattu	Matara	Matara	0.98
+40	Gangaboda pattu	Matara	Matara	0.99
+41	Magam pattu	Hambantota	Hambantota	0.93
+42	Giruwa pattu east	Hambantota	Hambantota	0.98
+43	Giruwa pattu west	Hambantota	Hambantota	0.93
+44	Jaffna Division	Jaffna	Jaffna	1.00
+45-6	Valikamam East; Valikamam North	Jaffna	Jaffna	0.94
+47	Valikamam West	Jaffna	Jaffna	0.98
+48	Vadamaradchi	Jaffna	Jaffna	0.93
+49	Pachchilaipallai	Jaffna	Jaffna	0.64
+50	Tenmaradchi	Jaffna	Jaffna	1.00
+51	Karachchi	Jaffna	Jaffna	0.98
+52	Punakari-Tunukkai	Jaffna	Jaffna	0.97
+53	Islands	Jaffna	Jaffna	0.79
+54	Delft	Jaffna	Jaffna	0.70
+55	Mannar Island Division	Mannar	Mannar	0.77
+56	Mantai Division	Mannar	Mannar	0.96
+57	Musali Division	Mannar	Mannar	0.90
+58	Maritime pattus	Vavuniya	Vavuniya	0.77
+59	Vavuniya North	Vavuniya	Vavuniya	0.97
+60	Vavuniya South	Vavuniya	Vavuniya	0.96
+61	Manmunai pattu north	Batticaloa	Batticaloa	0.91
+62+65	Manmunai pattu south; Eruvil and Porativu pattus	Batticaloa	Batticaloa	0.86
+63+64	Eravur pattu; Koralai pattu	Batticaloa	Batticaloa	0.98
+66	Karaivaku and Nintavur pattus	Batticaloa	Batticaloa	0.89
+67	Sammanturai pattu	Batticaloa	Batticaloa	1.00
+68	Akkarai pattu	Batticaloa	Batticaloa	0.96
+69	Panawa pattu	Batticaloa	Batticaloa	0.91
+70	Bintenna pattu	Batticaloa	Batticaloa	0.97
+71	Wewagam pattu	Batticaloa	Batticaloa	0.92
+72	Trincomalee Town and Gravets	Trincomalee	Trincomalee	0.36
+73	Kaddukulam pattu	Trincomalee	Trincomalee	0.96
+74	Koddiyar pattu	Trincomalee	Trincomalee	0.89
+75	Tampalakamam pattu	Trincomalee	Trincomalee	0.97
+76	Hiriyala hatpattu	Kurunegala	Kurunegala	0.94
+77	Weudawili hatpattu	Kurunegala	Kurunegala	0.91
+78	Dambadeni hatpattu	Kurunegala	Kurunegala	0.99
+79	Dewamedi hatpattu	Kurunegala	Kurunegala	1.00
+80	Katugampola hatpattu	Kurunegala	Kurunegala	0.97
+81	Wanni hatpattu	Kurunegala	Kurunegala	0.97
+82	Demala hatpattu	Puttalam	Puttalam	0.94
+83	Kalpitiya division	Puttalam	Puttalam	0.87
+84	Puttalam pattu division	Puttalam	Puttalam	0.94
+85	Pitigal korale north	Chilaw	Chilaw	0.95
+86	Pitigal korale south	Chilaw	Chilaw	0.91
+87	Nuwaragam palata	Anuradhapura	Anuradhapura	0.99
+88	Hurulu palata	Anuradhapura	Anuradhapura	0.97
+89	Kalagam palata	Anuradhapura	Anuradhapura	0.92
+90	Tamankaduwa palata	Anuradhapura	Anuradhapura	0.88
+91	Yatikinda division	Badulla	Badulla	1.00
+92	Bintenna division	Badulla	Badulla	0.97
+93	Buttala division	Badulla	Badulla	1.00
+94	Wellawaya division	Badulla	Badulla	0.95
+95	Udukinda division	Badulla	Badulla	0.99
+96	Wellassa division	Badulla	Badulla	0.98
+97	Wiyaluwa division	Badulla	Badulla	0.97
+98	Kuruwita korale	Ratnapura	Ratnapura	0.96
+99	Nawadun korale	Ratnapura	Ratnapura	1.00
+100	Atakalan korale	Ratnapura	Ratnapura	0.99
+101+104	Kadawata korale; Meda korale	Ratnapura	Ratnapura	0.94
+102	Kolonna korale	Ratnapura	Ratnapura	0.89
+103	Kukulu korale	Ratnapura	Ratnapura	0.96
+105	Paranakuru korale	Kegalla	Kegalla	0.78
+106	Beligal korale	Kegalla	Kegalla	0.97
+107-8	Galboda korale; Kinigoda korale	Kegalla	Kegalla	0.80
+109-112	Dehigampal korale; Atulugam korale; Panawal korale; Lower Bulatgama	Kegalla	Kegalla	0.92
+division-1934:colombo:colombo-town	Colombo town (unnumbered on Maps 17-19)	Colombo	Colombo	1.00
+division-1934:galle:galle-town	Galle town (unnumbered on Maps 17-19)	Galle	Galle	1.00
+division-1934:kandy:kandy-town	Kandy town (unnumbered on Maps 17-19)	Kandy	Kandy	1.00
+division-1934:puttalam:kalpitiya-peninsula	Kalpitiya peninsula (unnumbered)	Puttalam	Puttalam	0.72
+division-1934:chilaw:unnumbered-cell-at-chilaw	unnumbered cell at Chilaw	Chilaw	Chilaw	0.94

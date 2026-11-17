@@ -1,0 +1,26 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT DISTINCT ?subject WHERE {
+  {
+    # Sri Lanka (state and island), British Ceylon, Dominion of Ceylon,
+    # Dutch Ceylon, and Portuguese Ceylon.
+    VALUES ?subject { wd:Q854 wd:Q4526612 wd:Q918153 wd:Q2670092 wd:Q1841483 wd:Q1709007 }
+  }
+  UNION
+  {
+    VALUES ?territory { wd:Q854 wd:Q4526612 wd:Q918153 wd:Q2670092 wd:Q1841483 wd:Q1709007 }
+    ?subject (wdt:P17|wdt:P131+|wdt:P706) ?territory .
+    {
+      ?subject wdt:P625 ?coordinate .
+    }
+    UNION
+    {
+      VALUES ?placeClass {
+        wd:Q486972 wd:Q56061 wd:Q618123 wd:Q12362882 wd:Q811979
+        wd:Q1276556 wd:Q188913 wd:Q7201599
+      }
+      ?subject wdt:P31/wdt:P279* ?placeClass .
+    }
+  }
+}

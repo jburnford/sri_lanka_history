@@ -1,0 +1,44 @@
+role,feature,pixel_col,pixel_row,reference_longitude,reference_latitude,reference_crs,source,residual_m
+fit,top neatline tick,1628.5,309.5,79.5,,EPSG:4244 (assumed),Printed graticule,133
+fit,top neatline tick,2927.5,306.5,80.0,,EPSG:4244 (assumed),Printed graticule,75
+fit,top neatline tick,4228.5,308.5,80.5,,EPSG:4244 (assumed),Printed graticule,320
+fit,top neatline tick,5499.5,306.5,81.0,,EPSG:4244 (assumed),Printed graticule,309
+fit,top neatline tick,6790.5,303.5,81.5,,EPSG:4244 (assumed),Printed graticule,164
+fit,bottom neatline tick,1670.5,10781.5,79.5,,EPSG:4244 (assumed),Printed graticule,32
+fit,bottom neatline tick,2952.5,10778.5,80.0,,EPSG:4244 (assumed),Printed graticule,147
+fit,bottom neatline tick,4240.5,10775.5,80.5,,EPSG:4244 (assumed),Printed graticule,250
+fit,bottom neatline tick,5496.5,10774.5,81.0,,EPSG:4244 (assumed),Printed graticule,495
+fit,bottom neatline tick,6781.5,10774.5,81.5,,EPSG:4244 (assumed),Printed graticule,271
+fit,left neatline tick,1435.5,1330.5,,9.5,EPSG:4244 (assumed),Printed graticule,439
+fit,left neatline tick,1443.5,2623.5,,9.0,EPSG:4244 (assumed),Printed graticule,158
+fit,left neatline tick,1449.5,3905.5,,8.5,EPSG:4244 (assumed),Printed graticule,221
+fit,left neatline tick,1452.5,5184.5,,8.0,EPSG:4244 (assumed),Printed graticule,97
+fit,left neatline tick,1458.5,6461.5,,7.5,EPSG:4244 (assumed),Printed graticule,171
+fit,left neatline tick,1466.5,7746.5,,7.0,EPSG:4244 (assumed),Printed graticule,153
+fit,left neatline tick,1472.5,9031.5,,6.5,EPSG:4244 (assumed),Printed graticule,193
+fit,left neatline tick,1480.5,10327.5,,6.0,EPSG:4244 (assumed),Printed graticule,182
+fit,right neatline tick,7980.5,1331.5,,9.5,EPSG:4244 (assumed),Printed graticule,201
+fit,right neatline tick,7985.5,2624.5,,9.0,EPSG:4244 (assumed),Printed graticule,343
+fit,right neatline tick,7990.5,3901.5,,8.5,EPSG:4244 (assumed),Printed graticule,137
+fit,right neatline tick,7992.5,5177.5,,8.0,EPSG:4244 (assumed),Printed graticule,169
+fit,right neatline tick,7997.5,6460.5,,7.5,EPSG:4244 (assumed),Printed graticule,232
+fit,right neatline tick,8002.5,7758.5,,7.0,EPSG:4244 (assumed),Printed graticule,292
+fit,right neatline tick,7998.5,9032.5,,6.5,EPSG:4244 (assumed),Printed graticule,273
+fit,right neatline tick,7994.5,10329.5,,6.0,EPSG:4244 (assumed),Printed graticule,93
+fit,Adam's Peak,4249.5,8232.5,80.499722,6.809444,EPSG:4326,Wikidata Q60789,381
+fit,Pidurutalagala,4945.5,7739.5,80.7736523,7.0009508,EPSG:4326,OpenStreetMap node 2035834190,160
+check,Knuckles,5039.5,6738.5,80.8107259,7.4002482,EPSG:4326,OpenStreetMap node 1290267083,1025
+fit,Ritigala,4637.5,4880.5,80.6568395,8.1090191,EPSG:4326,OpenStreetMap node 3723116036,679
+check,Thotupola Kanda,5051.5,8181.5,80.8197979,6.8331199,EPSG:4326,OpenStreetMap node 4825524195,478
+fit,Namunukula,5802.5,7913.5,81.1139,6.9322823,EPSG:4326,OpenStreetMap node 5050166272,365
+fit,Kirigalpotta,4926.5,8269.5,80.7664235,6.7989937,EPSG:4326,OpenStreetMap node 6269087854,422
+check,Gongala,4639.5,9312.5,80.649706,6.3852835,EPSG:4326,OpenStreetMap node 5050233144,1015
+fit,Govinda Hela,6907.5,7661.5,81.5463087,7.0353252,EPSG:4326,OpenStreetMap node 4069023256,205
+fit,Talaimannar,2248.5,2360.5,79.7298828,9.1033259,EPSG:4326,OpenStreetMap node 1168788044,429
+check,Polgahawela Junction,3732.5,6900.5,80.3011647,7.3307027,EPSG:4326,OpenStreetMap node 1140291390,290
+fit,Galgamuwa,3653.5,5177.5,80.2715285,8.0021635,EPSG:4326,OpenStreetMap node 1728286792,349
+check,Maho Junction,3662.5,5648.5,80.2750922,7.8231561,EPSG:4326,OpenStreetMap node 1143314167,845
+check,Nanu Oya,4845.5,7903.5,80.7436484,6.9420663,EPSG:4326,OpenStreetMap node 3092584733,971
+check,Dondra Head,4486.5,10528.5,80.5911207,5.9186745,EPSG:4326,OpenStreetMap coastline (headland tip),992
+check,Foul Point,6346.5,3800.5,81.3187897,8.5255381,EPSG:4326,OpenStreetMap coastline (headland tip),1284
+check,Sangamankanda Point,7778.5,7702.5,81.8789817,7.0227914,EPSG:4326,OpenStreetMap coastline (headland tip),1288

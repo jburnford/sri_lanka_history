@@ -1,0 +1,135 @@
+# Key "Numbers Given in Maps 17, 18, and 19", read from the page image of PDF page 38 (400 dpi), lower half of the page.
+# @District|Province then number|name as printed. All 112 numbers were legible; no doubtful readings.
+@Colombo|Western
+1|Colombo Mudaliyar's Division
+2|Alutkuru korale south
+3|Hewagam korale
+4|Salpiti korale
+5|Siyane korale east
+6|Siyane korale west
+@Negombo|Western
+7|Alutkuru korale north
+8|Hapitigam korale
+@Kalutara|Western
+9|Kalutara and Panadure totamune
+10|Pasdun korale east
+11|Pasdun korale west
+12|Raigam korale
+@Kandy|Central
+13|Harispattu
+14|Pata Dumbara
+15|Pata Hewaheta
+16|Tumpane
+17|Uda Bulatgama
+18|Uda Dumbara
+19|Udunuwara
+20|Udapalata
+21|Yatinuwara
+@Matale|Central
+22|Matale South
+23|Matale East
+24|Matale North
+@Nuwara Eliya|Central
+25|Nuwara Eliya Gravets exclusive of Town
+26|Kotmale
+27|Uda Hewaheta
+28|Walapane
+@Galle|Southern
+29|Four Gravets beyond Municipal limits
+30|Gangaboda pattu
+31|Wellaboda pattu
+32|Talpe pattu
+33|Bentota-Walallawiti korale
+34|Hinidum pattu
+@Matara|Southern
+35|Four Gravets beyond U. D. C. limits
+36|Wellaboda pattu
+37|Weligam korale
+38|Morawak korale
+39|Kandaboda pattu
+40|Gangaboda pattu
+@Hambantota|Southern
+41|Magam pattu
+42|Giruwa pattu east
+43|Giruwa pattu west
+@Jaffna|Northern
+44|Jaffna Division
+45|Valikamam East
+46|Valikamam North
+47|Valikamam West
+48|Vadamaradchi
+49|Pachchilaipallai
+50|Tenmaradchi
+51|Karachchi
+52|Punakari-Tunukkai
+53|Islands
+54|Delft
+@Mannar|Northern
+55|Mannar Island Division
+56|Mantai Division
+57|Musali Division
+@Mullaittivu|Northern
+58|Maritime pattus
+59|Vavuniya North
+60|Vavuniya South
+@Batticaloa|Eastern
+61|Manmunai pattu north
+62|Manmunai pattu south
+63|Eravur pattu
+64|Koralai pattu
+65|Eruvil and Porativu pattus
+66|Karaivaku and Nintavur pattus
+67|Sammanturai pattu
+68|Akkarai pattu
+69|Panawa pattu
+70|Bintenna pattu
+71|Wewagam pattu
+@Trincomalee|Eastern
+72|Trincomalee Town and Gravets
+73|Kaddukulam pattu
+74|Koddiyar pattu
+75|Tampalakamam pattu
+@Kurunegala|North Western
+76|Hiriyala hatpattu
+77|Weudawili hatpattu
+78|Dambadeni hatpattu
+79|Dewamedi hatpattu
+80|Katugampola hatpattu
+81|Wanni hatpattu
+@Puttalam|North Western
+82|Demala hatpattu
+83|Kalpitiya division
+84|Puttalam pattu division
+@Chilaw|North Western
+85|Pitigal korale north
+86|Pitigal korale south
+@Anuradhapura|North Central
+87|Nuwaragam palata
+88|Hurulu palata
+89|Kalagam palata
+90|Tamankaduwa palata
+@Badulla|Uva
+91|Yatikinda division
+92|Bintenna division
+93|Buttala division
+94|Wellawaya division
+95|Udukinda division
+96|Wellassa division
+97|Wiyaluwa division
+@Ratnapura|Sabaragamuwa
+98|Kuruwita korale
+99|Nawadun korale
+100|Atakalan korale
+101|Kadawata korale
+102|Kolonna korale
+103|Kukulu korale
+104|Meda korale
+@Kegalla|Sabaragamuwa
+105|Paranakuru korale
+106|Beligal korale
+107|Galboda korale
+108|Kinigoda korale
+109|Dehigampal korale
+110|Atulugam korale
+111|Panawal korale
+112|Lower Bulatgama

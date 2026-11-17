@@ -1,0 +1,38 @@
+name	section_id	corridor_ids	note
+Grandpass to 34th milepost, Kandy road	road:grandpass-kandy-road	colombo-kandy	Western portion of the historic Kandy road.
+Kandy road, 34th milepost, to Kadugannawa	road:kandy-road-sabaragamuwa	colombo-kandy	Section through Sabaragamuwa at the historic pass.
+Grandpass to Avissawella up to 28th mile	road:grandpass-avissawella	colombo-avissawella	Corresponding historic corridor. Specific Colombo approaches differ by source.
+Galle road to Bentota	road:western-province-galle-road	colombo-galle	Part of Colombo–Galle corridor.
+Colombo to Kandy	road:colombo-kandy	colombo-kandy	Principal route summary.
+Colombo to Galle	road:colombo-galle	colombo-galle	Principal route summary.
+Galle to Akuressa	road:galle-akuressa	galle-akuressa	Matching named termini.
+Tangalla to Hambantota	road:tangalla-hambantota	tangalla-hambantota	Matching named termini.
+Hambantota to Tanamalwila	road:hambantota-tanamalwila	wellawaya-hambantota	Southern part of broader corridor.
+Wellawaya to Tanamalwila	road:wellawaya-tanamalwila	wellawaya-hambantota	Northern part of broader corridor.
+Wirawila to Kirinda via Tissamaharama (part)	road:wirawila-kirinda	tissamaharama-branch	Partial corridor includes the approach to Tissamaharama.
+Central road to Mullaittivu, new trace	road:central-road-mullaittivu-new	mankulam-mullaitivu	The 1928 source lists old and new traces separately. Corresponding 1936 routing remains a candidate.
+Mullaittivu to Central road, old trace	road:central-road-mullaittivu-old		Old trace appears separately in the 1928 return. Its geography remains unresolved.
+Jaffna to Kankesanturai	road:jaffna-kankesanturai	jaffna-kankesanturai	Matching named termini.
+Jaffna to Point Pedro road	road:jaffna-point-pedro	jaffna-point-pedro	Matching named termini.
+Point Pedro to Kodikamam	road:point-pedro-kodikamam	point-pedro-kodikamam	Matching named termini.
+Pannaiturai to Kayts	road:pannaiturai-kayts	jaffna-kayts	Relevant island section. Does not establish the ferry or causeway alignment.
+Yakkawewa-Pesalai-Talaimannar road	road:yakkawewa-talaimannar	medawachchiya-mannar|mannar-pesalai|pesalai-talaimannar	Several overlapping named sections. Overall length describes the 1928 inventory unit.
+Road from Manthur to Foul Point	road:manthur-foul-point	kaddaiparichchan-foul-point	Only the Foul Point approach is linked. Suitability describes the named 1928 road.
+Coast road, Verugal to Kandy road	road:verugal-kandy-junction-coast	mutur-kiliveddi|kiliveddi-verugal	Correspondence is at coastal corridor scale. Crossing types and landing sites unresolved here.
+Coast road north, Batticaloa District	road:batticaloa-north-coast-road	verugal-panichchankeni|panichchankeni-valaichchenai|valaichchenai-chenkaladi	Regional corridor whose separate motor ferry links are determined by the 1936 map.
+Pottuvil-Monaragala road	road:pottuvil-monaragala	wellawaya-pottuvil	1928 Eastern Province portion. The 1936 trace spans a longer corridor.
+Trincomalee-Kuchchaveli road (Coast road)	road:trincomalee-kuchchaveli	trinco-irrakkakandi|irrakkakandi-salappai|salappai-pidavakaddu	Approximate overlapping approaches on the north coast. Lorry exception applies to the first 4½ miles.
+Trincomalee to Horowapotana	road:trincomalee-horowapotana	anuradhapura-trincomalee	Eastern portion of the longer road.
+Manampitiya-Vakaneri-Valaichchenai	road:manampitiya-vakaneri-valaichchenai		The 1928 Blue Book lists 31 miles open to traffic and marks the road unsuitable for motor cars. 1936 geometry has not been linked.
+Kekirawa to Talawa	road:kekirawa-talawa	talawa-kekirawa	Matching named termini.
+Kekirawa to Galawela	road:kekirawa-galawela		Separate road record.
+Habarana-Topawewa road	road:habarana-topawewa	habarana-polonnaruwa	Topawewa area at Polonnaruwa. Footnote gives varying 1928 usability by milepost.
+Badulla to boundary of Eastern Province	road:badulla-eastern-province-boundary	badulla-chenkaladi	Western portion of the broader 1936 Badulla–Batticaloa corridor.
+Badulla to Batticaloa	road:badulla-batticaloa	badulla-chenkaladi|chenkaladi-batticaloa	Principal route summary.
+Bandarawela-Welimada road	road:bandarawela-welimada	welimada-bandarawela	Matching named termini.
+Haputale to Halpe	road:haputale-halpe	haputale-passara	Section of the 1936 corridor in the Haputale area.
+Kumbalwela-Passara road	road:kumbalwela-passara	haputale-passara	Section of the 1936 corridor between the Ella area and Passara.
+Haldummulla to Wellawaya	road:haldummulla-wellawaya	ratnapura-wellawaya	Eastern portion of the 1936 route through Beragala.
+Wellawaya to Monaragala and towards Pottuvil	road:wellawaya-towards-pottuvil	wellawaya-pottuvil	Provincial extent short of Pottuvil per heading.
+Kurunegala to Galagedara	road:kurunegala-galagedara		Section of old Kurunegala–Kandy road.
+Kurunegala to Beligamuwa (part)	road:kurunegala-beligamuwa	kurunegala-dambulla	Corresponding western portion of the longer Kurunegala–Dambulla connection.

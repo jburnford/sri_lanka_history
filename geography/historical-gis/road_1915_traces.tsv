@@ -1,0 +1,10 @@
+feature_id	section_id	corridor_ids	name	pixels	note
+1915-road:puttalam-anuradhapura	road:puttalam-anuradhapura	puttalam-anuradhapura	Puttalam–Anuradhapura	477,745 497,733 537,714 572,695 616,673	Line meets the Anuradhapura railway marker. Junctions are schematic.
+1915-road:puttalam-kurunegala	road:puttalam-kurunegala	puttalam-kurunegala	Puttalam–Kurunegala	477,745 492,768 523,795 548,821 576,846 595,855	The two named terminals are visible. The rail symbol obscures the final approach.
+1915-road:anuradhapura-trincomalee	road:anuradhapura-trincomalee	anuradhapura-trincomalee	Anuradhapura–Trincomalee	616,673 654,668 686,654 726,647 758,646 785,648 817,658	Anuradhapura town text partially obscures the junction.
+1915-road:anuradhapura-dambulla	road:anuradhapura-dambulla	anuradhapura-dambulla	Anuradhapura–Dambulla	616,673 637,686 649,710 659,735 679,772	Anuradhapura label partly obscures the start. The line enters the Dambulla symbol from the northwest.
+1915-road:kurunegala-dambulla	road:kurunegala-dambulla	kurunegala-dambulla	Kurunegala–Dambulla	595,855 613,853 632,828 655,805 679,772	The roads separate from the horizontal graticule near Dambulla.
+1915-road:dambulla-trincomalee	road:dambulla-trincomalee	dambulla-trinco	Dambulla–Trincomalee	679,772 701,748 725,728 749,708 774,684 801,669 817,658	The continuation crosses behind the Anuradhapura label.
+1915-road:dambulla-matale	road:matale-dambulla	dambulla-kandy	Dambulla–Matale	679,772 683,796 688,817 690,841 689,863	Evidence covers the northern part of the 1936 Dambulla–Kandy corridor.
+1915-road:kurunegala-kandy	road:kurunegala-kandy		Kurunegala–Kandy	595,855 614,855 635,862 658,880 674,900 678,911	The schematic marks the two towns. It does not identify the specific road through Galagedara Pass.
+1915-road:trincomalee-batticaloa	road:trincomalee-batticaloa		Trincomalee–Batticaloa along the east coast	817,658 829,702 843,723 850,750 862,784 866,812 878,828 893,842 909,855	Coastal roadway appears inside the coastline. The sheet does not resolve individual ferries or identify their landings.

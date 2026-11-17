@@ -1,0 +1,250 @@
+feature_id	place_qid	anchor_name	lon	lat	match_method	location_role	gazetteer_snapshot	geonames_id	coordinate_note
+motor-1936:petrol_depot:agrapatana	Q4693742	Agrapatana	80.7	6.86667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ahangama	Q4694946	Ahangama	80.36667	5.98333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:akuressa	Q16250377	Akuressa	80.48083	6.09639	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:alawatugoda	Q4708898	Alawatugoda	80.6103	7.4028	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:alutgama	Q4737582	Aluthgama	80	6.43333	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ambalangoda	Q4740977	Ambalangoda	80.055	6.235	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:anuradhapura	Q5724	Anuradhapura	80.41083	8.335	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:avissawella	Q3537406	Avissawella	80.21833	6.95306	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:badulla	Q390096	Badulla	81.05639	6.98472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:balangoda	Q804637	Baḷangoḍa	80.68333	6.65	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:balapitiya	Q4076412	Balapitiya	80.03333	6.26667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:bandarawela	Q4854443	Bandarawela	80.98528	6.83333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:batticaloa	Q810963	Batticaloa	81.7	7.71667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:beliatta	Q4882744	Beliatta	80.75	6.03333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:boralesgamuwa	Q4944289	Boralesgamuwa	79.9	6.85	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:chavakachcheri	Q1068504	Chavakacheri	80.15	9.65	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:chilaw	Q2495639	Chilaw	79.79222	7.57889	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:chunnakam	Q5116450	Chunnakam	80.01667	9.75	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:colombo	Q35381	Colombo	79.86056	6.92667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:dambulla	Q377343	Dambulla	80.65417	7.85139	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:dehiwala	Q28197113	Dehiwala	79.88333	6.86667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:demodara	Q5255921	Demodara	81.05	6.9	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:deniyaya	Q16955834	Deniyaya	80.56389	6.34361	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:diyatalawa	Q3032657	Diyatalawa	80.96694	6.8	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ella	Q14214903	Ella	81.0383	6.87528	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:elpitiya	Q5367323	Elpitiya	80.1626	6.2908	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:galle	Q319366	Galle	80.21556	6.03278	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:gampaha	Q2616818	Gampaha	79.99972	7.09167	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:gampola	Q8264065	Gampola	80.57667	7.16472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:gintota	Q96379496	Gintota	80.17928	6.0609	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ginigathena	Q5563130	Ginigathena	80.48333	6.98333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:hambantota	Q1025283	Hambantota	81.12528	6.12444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:hanwella	Q5651423	Hanwella	80.0875	6.88	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:haputale	Q3533257	Haputale	80.95861	6.76778	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:hatton	Q390564	Hatton	80.59806	6.88972	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:hikkaduwa	Q1618065	Hikkaduwa	80.10003	6.14108	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:homagama	Q17069010	Homagama	80.00318	6.84328	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:horana	Q5902567	Horana	80.05	6.71667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:imaduwa	Q16985700	Imaduwa	80.3833	6.0328	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ja-ela	Q6109487	Ja-Ela	79.89333	7.06667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:jaffna	Q215277	Jaffna	80.01667	9.66472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kadawata	Q2041605	Kadawatha	79.95	7	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kadugannawa	Q6345741	Kadugannawa	80.51889	7.25694	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kaduwela	Q6345803	Kaduwela	79.98389	6.93556	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kalmunai	Q1101382	Kalmunai	81.81667	7.41667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kalpitiya	Q14220105	Kalpitiya	79.75988	8.22873	unique settlement name	representative modern locality	2026-11-16	1242089	Wikidata coordinate (79.71667, 8.16667) lies 8.4 km from the settlement; the GeoNames populated place is used
+motor-1936:petrol_depot:kandana	Q6361287	Kandana	79.9	7.05	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kandy	Q203197	Kandy	80.635	7.29306	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:karainagar	Q6368006	Karainagar	79.86667	9.73333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:katugastota	Q42272	Katugastota	80.61667	7.33333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kegalla	Q1968268	Kegalle	80.34528	7.25306	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kelaniya	Q3522428	Kelaniya	79.92056	6.95667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kitulgala	Q12976928	Kitulgala	80.4068	6.9966	unique settlement name	representative modern locality	2026-11-16	1239978	Wikidata coordinate (80.25, 6.59) lies 48.4 km from the settlement; the GeoNames populated place is used
+motor-1936:petrol_depot:kotagala	Q6433837	Kotagala	80.60472	6.92972	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kuliyapitiya	Q6443054	Kuliyapitiya	80.04556	7.47056	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:kurunegala	Q776887	Kurunegala	80.36667	7.48333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:lunugala	Q6704475	Lunugala	81.2	7.03333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mankulam	Q12987409	Maankulam	80.44583	9.12917	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mannar	Q1280127	Mannar	79.91378	8.97724	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:marawila	Q14207190	Marawila	79.83222	7.40944	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:maskeliya	Q12986982	Maskeliya	80.56667	6.83333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:matale	Q1540498	Matale	80.61667	7.46667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:matara	Q13360574	Matara	80.53333	5.95	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:matugama	Q6791952	Matugama	80.11444	6.52222	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mawanella	Q6794352	Mawanella	80.4466	7.25345	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:minuwangoda	Q15253507	Minuwangoda	79.96194	7.17333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mirigama	Q6873519	Mirigama	80.1325	7.24139	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:moratuwa	Q867213	Moratuwa	79.87668	6.79907	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mount-lavinia	Q28446872	Mount-Lavinia	79.86667	6.86667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:mullaittivu	Q507144	Mullaitivu(මූලදීපය)	80.8	9.28333	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:nanu-oya	Q6964408	Nanu Oya	80.75	6.93333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:narammale	Q6965319	Narammala	80.22139	7.43444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:nattandiya	Q27963446	Nattandiya	79.86667	7.41667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:nawalapitiya	Q3536138	Nawalapitiya	80.53333	7.05	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:negombo	Q668616	Negombo	79.83861	7.21111	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:norwood	Q15262603	Norwood	80.6	6.83333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:nugegoda	Q7068738	Nugegoda	79.89889	6.86389	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:nuwara-eliya	Q1340579	Nuwara Eliya	80.76667	6.96667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:padukka	Q7124005	Padukka	80.09167	6.835	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:panadura	Q7129771	Panadura	79.90417	6.71333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:pannala	Q7131375	Pannala	80.02417	7.32806	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:passara	Q28653519	Passara	81.15794	6.93581	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:piliyandara	Q7194068	Piliyandala	79.9249	6.7999	unique settlement name	representative modern locality	2026-11-16	1230224	Wikidata coordinate (79.95, 6.85) lies 6.2 km from the settlement; the GeoNames populated place is used
+motor-1936:petrol_depot:point-pedro	Q2307889	Point Pedro	80.23333	9.81667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:polgahawela	Q7209361	Polgahawela	80.30306	7.33444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:pussellawa	Q7261927	Pussellawa	80.63667	7.10533	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:puttalam	Q3088741	Puttalam	79.83528	8.03417	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ratmalana	Q15116985	Ratmalana	79.88611	6.82194	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ratnapura	Q508753	Ratnapura	80.40028	6.66667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:ruwanwella	Q113358512	Ruwanwella	80.25422	7.04566	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:tangalla	Q598658	Tangalle	80.7911	6.024	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:trincomalee	Q323873	Trincomalee	81.23333	8.56667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:valaichchenai	Q7909205	Valaichchenai	81.5314	7.91944	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:vavuniya	Q1191330	Vavuniya	80.48333	8.75	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:wadduwa	Q7959010	Wadduwa	79.93333	6.66667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:warakapola	Q27459466	Warakapola	80.1975	7.2308	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:wattala	Q7974929	Wattala	79.88333	6.98333	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:wattegama	Q7974935	Wattegama	80.6825	7.35028	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:weligama	Q3534843	Weligama	80.42972	5.975	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:welimada	Q7981016	Welimada	80.9228	6.9011	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:wennappuwa	Q7982914	Wennappuwa	79.83667	7.34667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:yakkala	Q8047122	Yakkala	80.0333	7.08596	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:petrol_depot:yatiyantota	Q8050255	Yatiyanthota	80.30056	7.02417	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:alutgama	Q20717422	Aluthgama railway station	80.0005	6.43219	reviewed historical spelling or station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:ambalangoda	Q4740977	Ambalangoda	80.055	6.235	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:ambepussa	Q4064029	Ambepussa	80.2	7.25	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:anuradhapura	Q4777886	Anuradhapura Railway Station	80.41096	8.34441	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:avissawella	Q3537406	Avissawella	80.21833	6.95306	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:badulla	Q25038796	Badulla railway station	81.0598	6.9798	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:bandarawela	Q25038821	Bandarawela railway station	80.9875	6.82889	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:batticaloa	Q4869914	Batticaloa railway station	81.69883	7.72439	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:chavakachcheri	Q5088454	Chavakachcheri railway station	80.15847	9.65711	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:chilaw	Q2495639	Chilaw	79.79222	7.57889	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:colombo-fort	Q5471883	Fort Railway Station	79.85083	6.93361	reviewed historical spelling or station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:diyatalawa	Q3032657	Diyatalawa	80.96694	6.8	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:ella	Q14214903	Ella	81.0383	6.87528	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:galle	Q5518912	Galle Railway Station	80.21414	6.03456	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:gampola	Q8264065	Gampola	80.57667	7.16472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:haputale	Q56277165	Haputale railway station	80.9576	6.7683	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:hatton	Q20717441	Hatton railway station	80.5975	6.89306	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:jaffna	Q140666	Jaffna Railway Station	80.02067	9.66517	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:kadugannawa	Q6345741	Kadugannawa	80.51889	7.25694	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:kandy	Q6361715	Kandy railway station	80.63151	7.2888	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:kankesanturai	Q531494	Kankesanthurai	80.03333	9.81667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:kosgoda	Q15239801	Kosgoda	80.034	6.336	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:kotagala	Q6433837	Kotagala	80.60472	6.92972	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:kurunegala	Q55616295	Kurunegala railway station	80.374	7.4767	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:maho	Q38251592	Maho railway station	80.2751	7.8231	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:mankulam	Q15964654	Mankulam railway station	80.4445	9.13003	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:mannar	Q1280127	Mannar	79.91378	8.97724	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:maradana	Q6754588	Maradana Railway Station	79.86556	6.92917	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:matale	Q30621471	Matale railway station	80.6248	7.468	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:matara	Q17012222	Matara railway station	80.5433	5.95184	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:medawachchiya	Q6805158	Medawachchiya	80.45833	8.55333	reviewed historical spelling or station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:mirigama	Q6873519	Mirigama	80.1325	7.24139	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:moratuwa	Q867213	Moratuwa	79.87668	6.79907	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:nanu-oya	Q25038820	Nanu Oya railway station	80.7437	6.9424	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:nawalapitiya	Q3536138	Nawalapitiya	80.53333	7.05	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:negombo	Q668616	Negombo	79.83861	7.21111	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:padukka	Q7124005	Padukka	80.09167	6.835	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:pallai	Q7127723	Palai	80.31667	9.6	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:panadura	Q7129771	Panadura	79.90417	6.71333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:paranthan	Q15964649	Paranthan railway station	80.4073	9.43753	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:peradeniya-junction	Q17514310	Peradeniya Junction Railway Station	80.5902	7.25727	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:polgahawela	Q48733676	Polgahawela railway station	80.3006	7.3308	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:polonnaruwa	Q394443	Polonnaruwa	81	7.93333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:puttalam	Q38250533	Puttalam railway station	79.8379	8.0227	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:rambukkana	Q30626642	Rambukkana railway station	80.3902	7.3213	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:ratnapura	Q508753	Ratnapura	80.40028	6.66667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:talaimannar-pier	Q667664	Talaimannar	79.71667	9.1	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:trincomalee	Q7842325	Trincomalee railway station	81.22611	8.58444	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:valaichchenai	Q7909207	Valaichchenai railway station	81.53194	7.91028	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:vavuniya	Q7917526	Vavuniya railway station	80.49378	8.75428	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:veyangoda	Q56277028	Veyangoda railway station	80.05842	7.15267	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:wattegama	Q104854087	Wattegama railway station	80.68261	7.3505	unique station name	modern station named in the listing	2026-11-16		
+motor-1936:railway_car_booking:weligama	Q3534843	Weligama	80.42972	5.975	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:railway_car_booking:yatiyantota	Q8050255	Yatiyanthota	80.30056	7.02417	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:avissawella	Q3537406	Avissawella	80.21833	6.95306	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:gampaha	Q2616818	Gampaha	79.99972	7.09167	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:hanwella	Q5651423	Hanwella	80.0875	6.88	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:homagama	Q17069010	Homagama	80.00318	6.84328	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:horana	Q5902567	Horana	80.05	6.71667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ja-ela	Q6109487	Ja-Ela	79.89333	7.06667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kaduwela	Q6345803	Kaduwela	79.98389	6.93556	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kalutara	Q1295530	Kalutara	79.96028	6.58694	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:lunawa	Q6703894	Lunawa	79.87444	6.78972	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:mahara	Q3277582	Mahara	79.93833	6.99167	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:matugama	Q6791952	Matugama	80.11444	6.52222	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:minuwangoda	Q15253507	Minuwangoda	79.96194	7.17333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:mirigama	Q6873519	Mirigama	80.1325	7.24139	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:negombo	Q668616	Negombo	79.83861	7.21111	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:padukka	Q7124005	Padukka	80.09167	6.835	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:dambulla	Q377343	Dambulla	80.65417	7.85139	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:galagedara	Q5517872	Galagedara	80.5275	7.36833	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:gampola	Q8264065	Gampola	80.57667	7.16472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:hanguranketa	Q5648094	Hanguranketa	80.78333	7.16667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kadugannawa	Q6345741	Kadugannawa	80.51889	7.25694	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:matale	Q1540498	Matale	80.61667	7.46667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:panwila	Q7131987	Panwila	80.7119	7.3664	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:peradeniya	Q489744	Peradeniya	80.59667	7.26806	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:pussellawa	Q7261927	Pussellawa	80.63667	7.10533	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ramboda	Q7289257	Ramboda	80.7	7.05	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:sigiriya	Q7512155	Sigiriya	80.75	7.95	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:teldeniya	Q7695692	Teldeniya	80.7667	7.3	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:weragamtota	Q7983130	Weragamtota	80.9833	7.31667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:akuressa	Q16250377	Akuressa	80.48083	6.09639	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ambalangoda	Q4740977	Ambalangoda	80.055	6.235	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:bentota	Q4890663	Bentota	80	6.42	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:deniyaya	Q16955834	Deniyaya	80.56389	6.34361	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:hambantota	Q1025283	Hambantota	81.12528	6.12444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:hikkaduwa	Q1618065	Hikkaduwa	80.10003	6.14108	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:imaduwa	Q16985700	Imaduwa	80.3833	6.0328	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:matara	Q13360574	Matara	80.53333	5.95	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:tangalla	Q598658	Tangalle	80.7911	6.024	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:tissamaharama	Q1729871	Tissamaharama	81.28333	6.28333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:weligama	Q3534843	Weligama	80.42972	5.975	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:chavakachcheri	Q1068504	Chavakacheri	80.15	9.65	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:elephant-pass	Q1326283	Elephant Pass	80.40889	9.54722	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:jaffna	Q215277	Jaffna	80.01667	9.66472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kankesanturai	Q531494	Kankesanthurai	80.03333	9.81667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:kayts	Q6380719	Kayts	79.86667	9.66667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:mankulam	Q12987409	Maankulam	80.44583	9.12917	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:mannar	Q1280127	Mannar	79.91378	8.97724	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:mullaittivu	Q507144	Mullaitivu(මූලදීපය)	80.8	9.28333	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:point-pedro	Q2307889	Point Pedro	80.23333	9.81667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:vavuniya	Q1191330	Vavuniya	80.48333	8.75	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:batticaloa	Q810963	Batticaloa	81.7	7.71667	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:chenkaladi	Q12978766	Chenkaladi	81.6	7.78333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kalmunai	Q1101382	Kalmunai	81.81667	7.41667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kantalai	Q4212612	Kantalai	81.0281	8.3683	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kuchchaveli	Q6441444	Kuchchaveli	81.1	8.81667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:maha-oya	Q105200529	Mahaoya	81.3774	7.546	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:mutur	Q6944133	Muttur	81.26556	8.45389	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:trincomalee	Q323873	Trincomalee	81.23333	8.56667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:chilaw	Q2495639	Chilaw	79.79222	7.57889	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:galgamuwa	Q48733538	Galgamuwa	80.28306	8	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:hettipola	Q48733521	Hettipola	80.07472	7.60583	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kalpitiya	Q14220105	Kalpitiya	79.75988	8.22873	unique settlement name	representative modern locality	2026-11-16	1242089	Wikidata coordinate (79.71667, 8.16667) lies 8.4 km from the settlement; the GeoNames populated place is used
+motor-1936:rest-house:kuliyapitiya	Q6443054	Kuliyapitiya	80.04556	7.47056	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kurunegala	Q776887	Kurunegala	80.36667	7.48333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:marawila	Q14207190	Marawila	79.83222	7.40944	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:narammale	Q6965319	Narammala	80.22139	7.43444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:nikaweratiya	Q48733505	Nikaweratiya	80.11561	7.7475	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:polgahawela	Q7209361	Polgahawela	80.30306	7.33444	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:puttalam	Q3088741	Puttalam	79.83528	8.03417	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:wariyapola	Q7969458	Wariyapola	80.2333	7.6333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:habarane	Q5636630	Habarana	80.75	8.03333	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:medawachchiya	Q6805158	Medawachchiya	80.45833	8.55333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:polonnaruwa	Q394443	Polonnaruwa	81	7.93333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:badulla	Q390096	Badulla	81.05639	6.98472	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:bibile	Q4903052	Bibile	81.22	7.16	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:buttala	Q5002774	Buttala	81.24729	6.7601	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ella	Q14214903	Ella	81.0383	6.87528	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:haldummulla	Q5641318	Haldummulla	80.88917	6.76528	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:haputale	Q3533257	Haputale	80.95861	6.76778	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:koslanda	Q1784945	Koslanda	81.02966	6.72	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:lunugala	Q6704475	Lunugala	81.2	7.03333	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:passara	Q28653519	Passara	81.15794	6.93581	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:welimada	Q7981016	Welimada	80.9228	6.9011	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ambepussa	Q4064029	Ambepussa	80.2	7.25	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:balangoda	Q804637	Baḷangoḍa	80.68333	6.65	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:belihul-oya	Q16314060	Belihuloya	80.76722	6.71806	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:kegalla	Q1968268	Kegalle	80.34528	7.25306	reviewed named locality	representative modern locality	2026-11-16		
+motor-1936:rest-house:kitulgala	Q12976928	Kitulgala	80.4068	6.9966	unique settlement name	representative modern locality	2026-11-16	1239978	Wikidata coordinate (80.25, 6.59) lies 48.4 km from the settlement; the GeoNames populated place is used
+motor-1936:rest-house:mawanella	Q6794352	Mawanella	80.4466	7.25345	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:rakwana	Q7286836	Rakwana	80.61167	6.47167	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ratnapura	Q508753	Ratnapura	80.40028	6.66667	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:ruwanwella	Q113358512	Ruwanwella	80.25422	7.04566	unique settlement name	representative modern locality	2026-11-16		
+motor-1936:rest-house:yatiyantota	Q8050255	Yatiyanthota	80.30056	7.02417	reviewed named locality	representative modern locality	2026-11-16		

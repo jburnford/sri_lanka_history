@@ -1,0 +1,34 @@
+feature_id	kind	name	unit_name	parent	1891_area_sq_mi	1891_density	locator	area_scope	note
+country:ceylon	country	Ceylon	Ceylon		25333	119	Table II, p. 11, PDF p. 16		
+province:western	province	Western Province	Western	Ceylon	1432	532	Table II, p. 11, PDF p. 16		
+province:sabaragamuwa	province	Province of Sabaragamuwa	Sabaragamuwa	Ceylon	1901	136	Table II, p. 11, PDF p. 16		
+province:north-western	province	North-Western Province	North Western	Ceylon	2997	107	Table II, p. 11, PDF p. 16		
+province:central	province	Central Province	Central	Ceylon	2300	206	Table II, p. 11, PDF p. 16		
+province:uva	province	Province of Uva	Uva	Ceylon	3155	50	Table II, p. 11, PDF p. 16		
+province:north-central	province	North-Central Province	North Central	Ceylon	4002	19	Table II, p. 11, PDF p. 16		
+province:northern	province	Northern Province	Northern	Ceylon	3363	95	Table II, p. 11, PDF p. 16		
+province:eastern	province	Eastern Province	Eastern	Ceylon	4037	37	Table II, p. 11, PDF p. 16		
+province:southern	province	Southern Province	Southern	Ceylon	2146	228	Table II, p. 11, PDF p. 16		
+urban:colombo	municipality	Colombo Municipality	Colombo Town	Western Province	9 9/20	13421	Table II, p. 11, PDF p. 16	Excludes the Colombo Lake, per footnote.	
+district:colombo-excluding-municipality	district	Colombo District (exclusive of the Municipality)	Colombo (excluding Municipality)	Western Province	551	580	Table II, p. 11, PDF p. 16	Excludes the Municipality. Negombo is tabulated as a separate district.	
+district:negombo	district	Negombo District	Negombo	Western Province	247	537	Table II, p. 11, PDF p. 16	Separate census district in the source.	
+district:kalutara	district	Kalutara District	Kalutara	Western Province	624	294	Table II, p. 11, PDF p. 16		
+district:ratnapura	district	Ratnapura District	Ratnapura	Province of Sabaragamuwa	1259	86	Table II, p. 11, PDF p. 16		
+district:kegalla	district	Kégalla District	Kegalla	Province of Sabaragamuwa	642	235	Table II, p. 11, PDF p. 16		
+district:kurunegala	district	Kurunégala District	Kurunegala	North-Western Province	1845	125	Table II, p. 11, PDF p. 16		
+district:puttalam	district	Puttalam District	Puttalam	North-Western Province	890	30	Table II, p. 11, PDF p. 16	Excludes Chilaw District.	
+district:chilaw	district	Chilaw District	Chilaw	North-Western Province		241	Table II, p. 11, PDF p. 16		Area digit obscured in scan. Published density remains legible.
+district:kandy	district	Kandy District	Kandy	Central Province	978	295	Table II, p. 11, PDF p. 16		
+district:matale	district	Mátalé District	Matale	Central Province	926	83	Table II, p. 11, PDF p. 16		
+district:nuwara-eliya	district	Nuwara Eliya District	Nuwara Eliya	Central Province	396	277	Table II, p. 11, PDF p. 16		
+district:badulla	district	Badulla District	Badulla	Province of Uva	3155	50	Table II, p. 11, PDF p. 16		
+district:anuradhapura	district	Nuwarakaláwiya District	Anuradhapura	North-Central Province	4002	19	Table II, p. 11, PDF p. 16	Includes Tamankaduwa.	Nuwarakaláwiya was the historical district in North-Central Province. Named unit link follows its successor, Anuradhapura.
+district:jaffna	district	Jaffna District	Jaffna	Northern Province	819	341	Table II, p. 11, PDF p. 16		
+district:mannar	district	Mannár District	Mannar	Northern Province	546	45	Table II, p. 11, PDF p. 16		
+district:mullaitivu	district	Mullaitívu District	Mullaitivu	Northern Province	936	8	Table II, p. 11, PDF p. 16	Separate census district in the source.	Historical district boundaries unverified against the later district of the same name.
+district:vavuniya	district	Vavuniya District	Vavuniya	Northern Province	1062	8	Table II, p. 11, PDF p. 16	Excludes separately tabulated Mullaitivu District.	1946 and retrospective figures may use broader district coverage.
+district:batticaloa	district	Batticaloa District	Batticaloa	Eastern Province	2872	43	Table II, p. 11, PDF p. 16		
+district:trincomalee	district	Trincomalee District	Trincomalee	Eastern Province	1165	22	Table II, p. 11, PDF p. 16		
+district:galle	district	Galle District	Galle	Southern Province	652	342	Table II, p. 11, PDF p. 16		
+district:matara	district	Mátara District	Matara	Southern Province	481	369	Table II, p. 11, PDF p. 16		
+district:hambantota	district	Hambantota District	Hambantota	Southern Province	1013	88	Table II, p. 11, PDF p. 16		

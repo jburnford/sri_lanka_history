@@ -1,0 +1,133 @@
+feature_id	place_as_printed	province_as_printed	bedroom_count	bed_count	second_class	note
+motor-1936:rest-house:avissawella	Avissawella	Western Province	6	8	0	
+motor-1936:rest-house:badureliya	Badureliya	Western Province	3	3	0	
+motor-1936:rest-house:gampaha	Gampaha	Western Province	4	6	0	
+motor-1936:rest-house:hanwella	Hanwella	Western Province	4	6	0	
+motor-1936:rest-house:homagama	Homagama	Western Province	2	4	0	
+motor-1936:rest-house:horana	Horana	Western Province	3	6	0	
+motor-1936:rest-house:ja-ela	Ja-ela	Western Province	4	6	0	
+motor-1936:rest-house:kaduwela	Kaduwela	Western Province	2	3	0	
+motor-1936:rest-house:kalutara	Kalutara	Western Province	5	6	0	
+motor-1936:rest-house:kesbewa	Kesbewa	Western Province	3	4	0	
+motor-1936:rest-house:lunawa	Lunawa	Western Province	4	7	0	
+motor-1936:rest-house:mahagama	Mahagama	Western Province	2	2	0	
+motor-1936:rest-house:mahara	Mahara	Western Province	4	6	0	
+motor-1936:rest-house:matugama	Matugama	Western Province	4	7	0	
+motor-1936:rest-house:minuwangoda	Minuwangoda	Western Province	2	4	0	
+motor-1936:rest-house:mirigama	Mirigama	Western Province	2	4	0	
+motor-1936:rest-house:moragala	Moragala	Western Province	2	4	0	
+motor-1936:rest-house:nambapana	Nambapana	Western Province	3	3	0	
+motor-1936:rest-house:negombo	Negombo	Western Province			0	Printed “2 Rest Houses”; individual capacities unspecified.
+motor-1936:rest-house:padukka	Padukka	Western Province	3	5	0	
+motor-1936:rest-house:veyangoda	Veyangoda	Western Province	3	6	0	
+motor-1936:rest-house:weke	Weke	Western Province	2	2	0	
+motor-1936:rest-house:dambulla	Dambulla	Central Province	4	8	0	
+motor-1936:rest-house:galagedara	Galagedara	Central Province	2	2	1	
+motor-1936:rest-house:gampola	Gampola	Central Province	5	4	0	As printed. The reported bed count is below the bedroom count.
+motor-1936:rest-house:hanguranketa	Hanguranketa	Central Province	2	2	1	
+motor-1936:rest-house:horton-plains	Horton Plains	Central Province	6	6	0	
+motor-1936:rest-house:kadugannawa	Kadugannawa	Central Province	2	2	0	
+motor-1936:rest-house:kotiyagala	Kotiyagala	Central Province	2	2	1	
+motor-1936:rest-house:madugoda	Madugoda	Central Province	2	2	1	
+motor-1936:rest-house:matale	Matale	Central Province	5	8	0	
+motor-1936:rest-house:nalanda	Nalanda	Central Province	2	4	1	
+motor-1936:rest-house:panwila	Panwila	Central Province	2	2	1	
+motor-1936:rest-house:peradeniya	Peradeniya	Central Province	4	5	0	
+motor-1936:rest-house:pussellawa	Pussellawa	Central Province	3	4	0	
+motor-1936:rest-house:ragalla	Ragalla	Central Province	2	2	0	
+motor-1936:rest-house:ramboda	Ramboda	Central Province	2	2	0	
+motor-1936:rest-house:sigiriya	Sigiriya	Central Province	6	12	0	
+motor-1936:rest-house:talawakele	Talawakele	Central Province	3	4	0	
+motor-1936:rest-house:teldeniya	Teldeniya	Central Province	4	6	0	
+motor-1936:rest-house:weragamtota	Weragamtota	Central Province	1	1	1	
+motor-1936:rest-house:akuressa	Akuressa	Southern Province	3	5	1	
+motor-1936:rest-house:ambalangoda	Ambalangoda	Southern Province	7	13	0	
+motor-1936:rest-house:ambalantota	Ambalantota	Southern Province	2	2	1	
+motor-1936:rest-house:bentota	Bentota	Southern Province	7	12	0	
+motor-1936:rest-house:deniyaya	Deniyaya	Southern Province	4	8	0	
+motor-1936:rest-house:hakmana	Hakmana	Southern Province	2	3	1	
+motor-1936:rest-house:hambantota	Hambantota	Southern Province	7	14	0	
+motor-1936:rest-house:hikkaduwa	Hikkaduwa	Southern Province	4	8	0	
+motor-1936:rest-house:hiniduma	Hiniduma	Southern Province	2	2	1	
+motor-1936:rest-house:imaduwa	Imaduwa	Southern Province	2	3	1	
+motor-1936:rest-house:matara	Matara	Southern Province	8	11	0	
+motor-1936:rest-house:tangalla	Tangalla	Southern Province	4	7	1	
+motor-1936:rest-house:tissamaharama	Tissamaharama	Southern Province	4	7	1	
+motor-1936:rest-house:uragaha	Uragaha	Southern Province	2	4	1	
+motor-1936:rest-house:walasmulla	Walasmulla	Southern Province	2	3	1	
+motor-1936:rest-house:weligama	Weligama	Southern Province	5	10	0	
+motor-1936:rest-house:chavakachcheri	Chavakachcheri	Northern Province	2	3	0	
+motor-1936:rest-house:elephant-pass	Elephant Pass	Northern Province	5	7	0	
+motor-1936:rest-house:jaffna	Jaffna	Northern Province	5	8	0	
+motor-1936:rest-house:kankesanturai	Kankesanturai	Northern Province	4	9	0	
+motor-1936:rest-house:kayts	Kayts	Northern Province	2	4	0	
+motor-1936:rest-house:mankulam	Mankulam	Northern Province	2	3	0	
+motor-1936:rest-house:mannar	Mannar	Northern Province	2	3	0	
+motor-1936:rest-house:mullaittivu	Mullaittivu	Northern Province	2	3	0	
+motor-1936:rest-house:murunkan	Murunkan	Northern Province	2	2	0	
+motor-1936:rest-house:parayanalankulam	Parayanalankulam	Northern Province	2	2	0	
+motor-1936:rest-house:point-pedro	Point Pedro	Northern Province	4	5	0	
+motor-1936:rest-house:vavuniya	Vavuniya	Northern Province	3	3	0	
+motor-1936:rest-house:addalaichchenai	Addalaichchenai	Eastern Province	2	2	0	
+motor-1936:rest-house:arugam-bay	Arugam Bay	Eastern Province	3	5	0	
+motor-1936:rest-house:batticaloa	Batticaloa	Eastern Province	4	7	0	
+motor-1936:rest-house:chenkaladi	Chenkaladi	Eastern Province	2	3	0	
+motor-1936:rest-house:kalkuda	Kalkuda	Eastern Province	4	5	0	
+motor-1936:rest-house:kalmunai	Kalmunai	Eastern Province	4	7	0	
+motor-1936:rest-house:kantalai	Kantalai	Eastern Province	5	8	0	
+motor-1936:rest-house:katiraveli	Katiraveli	Eastern Province	1	2	0	
+motor-1936:rest-house:kuchchaveli	Kuchchaveli	Eastern Province	2	3	0	
+motor-1936:rest-house:maha-oya	Maha Oya	Eastern Province	3	6	0	
+motor-1936:rest-house:mutur	Mutur	Eastern Province	2	3	0	
+motor-1936:rest-house:tirukkovil	Tirukkovil	Eastern Province	2	2	0	
+motor-1936:rest-house:trincomalee	Trincomalee	Eastern Province			0	Printed “2 Rest Houses”; individual capacities unspecified.
+motor-1936:rest-house:chilaw	Chilaw	North-Western Province	6	12	0	
+motor-1936:rest-house:galgamuwa	Galgamuwa	North-Western Province	3	3	1	
+motor-1936:rest-house:giriulla	Giriulla	North-Western Province	2	2	1	
+motor-1936:rest-house:gokarella	Gokarella	North-Western Province	2	2	1	
+motor-1936:rest-house:hiripitiya	Hiripitiya	North-Western Province	2	2	1	
+motor-1936:rest-house:hettipola	Hettipola	North-Western Province	2	2	1	
+motor-1936:rest-house:kalpitiya	Kalpitiya	North-Western Province	2	2	1	
+motor-1936:rest-house:kuliyapitiya	Kuliyapitiya	North-Western Province	4	7	0	
+motor-1936:rest-house:kurunegala	Kurunegala	North-Western Province	6	6	0	
+motor-1936:rest-house:maho	Maho	North-Western Province	4	6	0	
+motor-1936:rest-house:marawila	Marawila	North-Western Province	4	4	0	
+motor-1936:rest-house:narammale	Narammale	North-Western Province	3	4	0	
+motor-1936:rest-house:nikaweratiya	Nikaweratiya	North-Western Province	4	4	1	
+motor-1936:rest-house:polgahawela	Polgahawela	North-Western Province	6	8	0	
+motor-1936:rest-house:polpitigama	Polpitigama	North-Western Province	2	2	1	
+motor-1936:rest-house:pomparippu	Pomparippu	North-Western Province	2	1	1	As printed. The reported bed count is below the bedroom count.
+motor-1936:rest-house:puttalam	Puttalam	North-Western Province	6	12	0	
+motor-1936:rest-house:wariyapola	Wariyapola	North-Western Province	4	4	0	
+motor-1936:rest-house:habarane	Habarane	North-Central Province	3	5	0	
+motor-1936:rest-house:horewupotana	Horewupotana	North-Central Province	2	4	0	
+motor-1936:rest-house:kekirawa	Kekirawa	North-Central Province	2	4	0	
+motor-1936:rest-house:medawachchiya	Medawachchiya	North-Central Province	2	3	0	
+motor-1936:rest-house:polonnaruwa	Polonnaruwa	North-Central Province	4	8	0	
+motor-1936:rest-house:alutnuwara	Alutnuwara	Province of Uva	2	2	1	
+motor-1936:rest-house:badulla	Badulla	Province of Uva	7	11	0	
+motor-1936:rest-house:bibile	Bibile	Province of Uva	3	5	0	
+motor-1936:rest-house:buttala	Buttala	Province of Uva	2	3	0	
+motor-1936:rest-house:ella	Ella	Province of Uva	2	3	0	
+motor-1936:rest-house:haldummulla	Haldummulla	Province of Uva	2	2	0	
+motor-1936:rest-house:haputale	Haputale	Province of Uva	4	5	0	
+motor-1936:rest-house:koslanda	Koslanda	Province of Uva	2	2	0	
+motor-1936:rest-house:lunugala	Lunugala	Province of Uva	3	4	0	
+motor-1936:rest-house:monaragala	Monaragala	Province of Uva	4	5	0	
+motor-1936:rest-house:passara	Passara	Province of Uva	3	4	0	
+motor-1936:rest-house:tanamalwila	Tanamalwila	Province of Uva	2	4	1	
+motor-1936:rest-house:welimada	Welimada	Province of Uva	3	3	0	
+motor-1936:rest-house:wellawaya	Wellawaya	Province of Uva	2	4	0	
+motor-1936:rest-house:ambepussa	Ambepussa	Province of Sabaragamuwa	3	4	0	
+motor-1936:rest-house:balangoda	Balangoda	Province of Sabaragamuwa	5	10	0	
+motor-1936:rest-house:belihul-oya	Belihul Oya	Province of Sabaragamuwa	4	6	0	
+motor-1936:rest-house:kegalla	Kegalla	Province of Sabaragamuwa	5	7	0	
+motor-1936:rest-house:kitulgala	Kitulgala	Province of Sabaragamuwa	4	8	0	
+motor-1936:rest-house:madampe	Madampe	Province of Sabaragamuwa	3	3	0	
+motor-1936:rest-house:mawanella	Mawanella	Province of Sabaragamuwa	2	4	0	
+motor-1936:rest-house:pelmadulla	Pelmadulla	Province of Sabaragamuwa	5	9	0	
+motor-1936:rest-house:rakwana	Rakwana	Province of Sabaragamuwa	4	6	0	
+motor-1936:rest-house:rambukkana	Rambukkana	Province of Sabaragamuwa	2	4	0	
+motor-1936:rest-house:ratnapura	Ratnapura	Province of Sabaragamuwa	7	14	0	
+motor-1936:rest-house:ruwanwella	Ruwanwella	Province of Sabaragamuwa	4	6	0	
+motor-1936:rest-house:yatiyantota	Yatiyantota	Province of Sabaragamuwa	4	5	0	
