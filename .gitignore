@@ -21,6 +21,7 @@ __pycache__/
 /geography/**/*.npy
 !/geography/motor-map-1936/ceylon-motor-map-1936.tif
 !/geography/ferguson-1893/ferguson-1893.jpeg.tif
+!/geography/colombo-plans/**/*.tif
 /geography/elevation/
 /geography/historical-gis/headmen_1934_work/full-*.png
 /geography/historical-gis/headmen_1934_work/p[0-9]*.png

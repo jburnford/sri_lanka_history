@@ -230,7 +230,7 @@ async function toggle(id, show) {
 function addLayerControls() {
   const root = byId("layer-list");
   root.replaceChildren();
-  for (const group of ["Relief", "Boundaries", "Places", "Map sheets", "Transport"]) {
+  for (const group of ["Relief", "Boundaries", "Places", "Map sheets", "Town plans", "Transport"]) {
     const entries = [...atlas.layers, ...atlas.rasters].filter((item) => item.group === group);
     if (!entries.length) continue;
     const section = add(root, "details", undefined, "layer-group");
@@ -247,7 +247,7 @@ function addLayerControls() {
       const swatch = add(row, "span", undefined, "swatch");
       swatch.style.setProperty("--swatch", entry.color ?? "#aa8751");
       if (entry.points) swatch.classList.add("points");
-      if (group === "Boundaries" || group === "Map sheets" || group === "Relief") swatch.classList.add("area");
+      if (group === "Boundaries" || group === "Map sheets" || group === "Town plans" || group === "Relief") swatch.classList.add("area");
       const title = add(row, "span", entry.title);
       if (entry.id === "rail_1936_osm") add(title, "small", "Working reconstruction");
       if (entry.id === "road_1936_osm_candidates") add(title, "small", "Modern comparison");

@@ -57,6 +57,25 @@ RASTERS = [
     ("motor1936", "Motor Map, 1936", "motor-map-1936/ceylon-motor-map-1936.tif", "Georeferenced image of the 1936 Survey Department Motor Map.", "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332276~90100738", 1900),
     ("ferguson1893", "Ferguson’s map, 1893", "ferguson-1893/ferguson-1893.tif", "Georeferenced image of Ferguson’s 1893 map of Ceylon.", "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338023~90105863", 1900),
 ]
+RUMSEY = '<a href="https://www.davidrumsey.com/about/copyright-and-permissions">David Rumsey Map Collection, Stanford University Libraries</a>'
+# Town plans: already georeferenced (EPSG:3857, with alpha) under geography/; each folder has its control points and notes.
+TOWN_ZOOM = (10, 16)
+TOWN_PLANS = [
+    ("colombo1914", "Colombo, 1914 (Baedeker)", "colombo-plans/baedeker-1914/baedeker-1914.tif",
+     "Baedeker’s plan at 1:50,000: built-up blocks, tramways, mosques. The Fort and Pettah inset is left out.",
+     "https://commons.wikimedia.org/wiki/File:Tramways_and_Mosques_in_Colombo,_Ceylon_-_1914.jpg",
+     "Baedeker, <i>Indien</i> (1914), via University of Texas Libraries and Wikimedia Commons"),
+    ("colombo1927", "Colombo, 1927 (Survey Department)", "colombo-plans/wickwar-1927/wickwar-1927.tif",
+     "City of Colombo at 50 chains to an inch, printed 4 February 1927 under A. J. Wickwar: streets, wards, railway halts.",
+     None, "Survey Department, Ceylon (1927)"),
+    ("colombo1930", "Colombo, 1930 (sketch plan)", "colombo-plans/french-1930/french-1930.tif",
+     "A simplified plan from a French colonial handbook: main roads, tramways and named institutions. Expect a loose fit.",
+     "https://commons.wikimedia.org/wiki/File:Colombo_Map_1930.jpg",
+     "Société d’Éditions Géographiques, Maritimes et Coloniales (1931), via Wikimedia Commons"),
+    ("colombo1936", "Colombo, 1936 (Motor Map inset)", "colombo-plans/motor-1936-colombo/motor-1936-colombo.tif",
+     "The Colombo inset of the 1936 Survey Department Motor Map, with the same road classes as the island sheet.",
+     "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~332276~90100738", RUMSEY),
+]
 ELEVATION = Path("/mnt/data/jic823/ceylon_hgis_elevation/srtm_30m")
 if not ELEVATION.exists():  # on another machine: made by geography/historical-gis/fetch_elevation.sh
     ELEVATION = ROOT / "geography" / "elevation" / "srtm_30m"
@@ -76,15 +95,16 @@ def write(filename, value):
     (DATA / filename).write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":"), default=str))
 
 
-def tile(identifier, tif, source):
+def tile(identifier, tif, source, zoom=None):
     """Cut a Web Mercator image into tiles, unless the tiles on disk already come from this source file."""
+    zoom = zoom or TILE_ZOOM
     tiles = DATA / "tiles" / identifier
     stamp = tiles / "source.txt"
-    signature = f"{source.name} {source.stat().st_size} {int(source.stat().st_mtime)} z{TILE_ZOOM[0]}-{TILE_ZOOM[1]}"
+    signature = f"{source.name} {source.stat().st_size} {int(source.stat().st_mtime)} z{zoom[0]}-{zoom[1]}"
     if stamp.exists() and stamp.read_text() == signature:
         return
     shutil.rmtree(tiles, ignore_errors=True)
-    subprocess.run(["gdal2tiles.py", "-q", "--xyz", "-z", f"{TILE_ZOOM[0]}-{TILE_ZOOM[1]}", "-r", "lanczos",
+    subprocess.run(["gdal2tiles.py", "-q", "--xyz", "-z", f"{zoom[0]}-{zoom[1]}", "-r", "lanczos",
                     "--tiledriver=WEBP", "--webp-quality=82", "-w", "none", "-x", "--processes=8",
                     tif, str(tiles)], check=True)
     for sidecar in tiles.rglob("*.aux.xml"):
@@ -110,6 +130,24 @@ def export_relief():
         gdal.Warp(warped, lit, dstSRS="EPSG:3857", resampleAlg="bilinear")
         tile("relief", warped, dem)
     return [[5.8, 79.4], [10.0, 82.0]]
+
+
+def export_plan(identifier, source):
+    """Tile a town plan that is already in Web Mercator and return its bounds in latitude and longitude."""
+    raster = gdal.Open(str(source))
+    geom = raster.GetGeoTransform()
+    crs = osr.SpatialReference()
+    crs.ImportFromEPSG(3857)
+    wgs = osr.SpatialReference()
+    wgs.ImportFromEPSG(4326)
+    wgs.SetAxisMappingStrategy(osr.OAMS_TRADITIONAL_GIS_ORDER)
+    transform = osr.CoordinateTransformation(crs, wgs)
+    left, top, _ = transform.TransformPoint(geom[0], geom[3])
+    right, bottom, _ = transform.TransformPoint(geom[0] + raster.RasterXSize * geom[1],
+                                                geom[3] + raster.RasterYSize * geom[5])
+    raster = None
+    tile(identifier, str(source), source, TOWN_ZOOM)
+    return [[bottom, left], [top, right]]
 
 
 def export_raster(identifier, source, maximum):
@@ -211,6 +249,15 @@ def main():
                                 url=url, bounds=bounds, visible=False,
                                 tiles=f"data/tiles/{identifier}/{{z}}/{{x}}/{{y}}.webp",
                                 min_zoom=TILE_ZOOM[0], max_zoom=TILE_ZOOM[1]))
+        elif identifier in previous:
+            rasters.append(previous[identifier])
+    for identifier, title, relative, description, url, attribution in TOWN_PLANS:
+        source = args.gpkg.parent.parent / relative
+        if source.exists():
+            rasters.append(dict(id=identifier, title=title, group="Town plans", description=description, url=url,
+                                attribution=attribution, bounds=export_plan(identifier, source), visible=False,
+                                tiles=f"data/tiles/{identifier}/{{z}}/{{x}}/{{y}}.webp",
+                                min_zoom=TOWN_ZOOM[0], max_zoom=TOWN_ZOOM[1]))
         elif identifier in previous:
             rasters.append(previous[identifier])
 
