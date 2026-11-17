@@ -1,0 +1,7 @@
+Repaired [read_trade_old.py](/home/jic823/Documents/ceylon/spine/bluebook/read_trade_old.py) and regenerated all three outputs.
+
+The 240-row recheck: **201 agree, 26 removed, 12 disagree, 1 cannot tell**. No figures were changed; all 78,964 emitted rows passed numeric provenance checks.
+
+[README.md](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/README.md) contains before/after counts, printed summaries, and remaining limitations. [recheck.tsv](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/recheck.tsv) contains every sampled result.
+
+Unresolved cases include nested Wines headings, Arms/Revolvers, corrupted Carriages/Durable labels, and the malformed Miscellaneous group. Unsafe collapsed blocks and unsupported Tea readings were skipped.

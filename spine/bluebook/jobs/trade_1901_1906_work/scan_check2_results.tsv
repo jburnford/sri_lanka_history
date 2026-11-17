@@ -1,0 +1,239 @@
+table_id	pdf_page	flow	article_as_printed	country_as_printed	measure	value_as_printed	verdict	class_and_group_ok	what_the_page_shows	comment
+bb1901:p572:t1	572	import	Butter— Frozen	United Kingdom	quantity_total	960	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Butter— Tinned	France	quantity_total	3150	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Butter— Tinned	Russia in Asia	quantity_home_consumption	616	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Butter— Tinned	Russia in Europe	quantity_total	1110	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Cacao		value_total_rs	7751	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Cheese	West Australia	quantity_home_consumption	24	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Cheese	Holland	quantity_total	420	ok	yes	as recorded	
+bb1901:p572:t1	572	import	Cider	Portugal	quantity_total	48	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Raisins	United Kingdom	quantity_home_consumption	177	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Raisins	Egypt	quantity_home_consumption	4	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Other	Tasmania	value_total_rs	5565	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Other	West Australia	quantity_home_consumption	53	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Other	Egypt	quantity_home_consumption	2	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Other	U. S. of America	quantity_home_consumption	151	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Fruit, preserved— Other		quantity_home_consumption	6853	ok	yes	as recorded	
+bb1901:p576:t1	576	import	Grain— Beans	British India	quantity_home_consumption	1829	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Pepper (long)	Straits Settlements	quantity_total	2	wrong_article	yes	Spices—contd. > Pepper (long); Straits Settlements 2 / 2 / 80	"figure, country, unit right; sub-entry heading ""Spices—"" dropped (should be ""Spices— Pepper (long)""); the ""heading uncertain"" note pointed at the right heading"
+bb1901:p580:t1	580	import	Other	Straits Settlements	quantity_total	3	wrong_article	yes	Spices—contd. > Other; Straits Settlements 3 / 3 / 100	"figure right; bare ""Other"" should be ""Spices— Other""; no note on the row"
+bb1901:p580:t1	580	import	Spirits— Brandy	United Kingdom	value_total_rs	20391	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Spirits— Brandy	British India	quantity_total	6	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Spirits— Gin	Germany	quantity_total	464	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Spirits— Liqueur	Holland	quantity_total	214	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Spirits— Rum	British West Indies	quantity_home_consumption	42	ok	yes	as recorded	
+bb1901:p580:t1	580	import	Spirits— Rum	France	value_total_rs	147	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Aluminium Ware	United Kingdom	quantity_home_consumption	8	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Brass— Nails and Wire	United Kingdom	quantity_total	124	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Brass— Brass Ware	Burma	quantity_home_consumption	3	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Brass— Brass Ware	Belgium	quantity_home_consumption	—	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Brass— Brass Ware	Germany	value_total_rs	72	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Hardware	British India	quantity_home_consumption	2545	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Hardware	New Zealand	value_total_rs	63	ok	yes	as recorded	
+bb1901:p599:t1	599	import	Hardware	West Australia	quantity_total	2	ok	yes	as recorded	
+bb1901:p618:t1	618	import	Other— Dutiable	France	value_total_rs	131	wrong_article	yes	Paper—contd. > Other— > Dutiable / Free (three levels)	"figures right; top heading ""Paper—"" lost, leaving the ambiguous ""Other— Dutiable"" / ""Other— Free"""
+bb1901:p618:t1	618	import	Other— Dutiable	Germany	quantity_home_consumption	986	wrong_article	yes	Paper—contd. > Other— > Dutiable / Free (three levels)	"figures right; top heading ""Paper—"" lost, leaving the ambiguous ""Other— Dutiable"" / ""Other— Free"""
+bb1901:p618:t1	618	import	Other— Free	New South Wales	quantity_total	108	wrong_article	yes	Paper—contd. > Other— > Dutiable / Free (three levels)	"figures right; top heading ""Paper—"" lost, leaving the ambiguous ""Other— Dutiable"" / ""Other— Free"""
+bb1901:p618:t1	618	import	Pasteboard	British India	value_total_rs	64	ok	yes	as recorded	heading-uncertain note: Pasteboard is at the top-level indent, so the file is right
+bb1901:p618:t1	618	import	Perfumery	China	quantity_home_consumption	4	ok	yes	as recorded	
+bb1901:p618:t1	618	import	Perfumery	Germany	quantity_total	387	ok	yes	as recorded	
+bb1901:p618:t1	618	import	Perfumery	Persia	quantity_total	11	ok	yes	as recorded	
+bb1901:p618:t1	618	import	Pictures	British India	value_total_rs	4711	ok	yes	as recorded	
+bb1902:p614:t1	614	import	Yarn and Twist— Bleached		quantity_home_consumption	1176	ok	no	as recorded	"class/group: group lacks the sub-group: page head prints only ""(1) Textile—contd."" and these precede ""(c) Linen—"", i.e. they fall in (b) Cotton, which the file dropped at the page break"
+bb1902:p614:t1	614	import	Yarn and Twist— Dyed	Germany	quantity_home_consumption	9200	ok	no	as recorded	"class/group: group lacks the sub-group: page head prints only ""(1) Textile—contd."" and these precede ""(c) Linen—"", i.e. they fall in (b) Cotton, which the file dropped at the page break"
+bb1902:p614:t1	614	import	Piece Goods	Burma	value_total_rs	7	ok	yes	as recorded	
+bb1902:p614:t1	614	import	Piece Goods	Straits Settlements	value_total_rs	48	ok	yes	as recorded	"row follows the two-line ""Other British Poss. in Asia""; no shift"
+bb1902:p614:t1	614	import	Piece Goods	Belgium	value_total_rs	62	ok	yes	as recorded	
+bb1902:p614:t1	614	import	Piece Goods	France	value_total_rs	354	ok	yes	as recorded	
+bb1902:p614:t1	614	import	Piece Goods	Germany	value_total_rs	175	ok	yes	as recorded	
+bb1902:p614:t1	614	import	Piece Goods	Japan	quantity_total	300	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Oil— Other	China	quantity_home_consumption	4	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Oil— Other	India (exc. British)	quantity_home_consumption	1737	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Oil— Other		value_total_rs	61406	wrong_value	yes	total value printed with a damaged 3rd digit, 61?06; the 14 country values printed above it sum to 61206	file has 61406; damaged digit is a slanted stroke consistent with 2, not 4; probable OCR digit error (verified by addition, digit itself not fully legible)
+bb1902:p635:t1	635	import	Painters' Colours	France	quantity_home_consumption	—	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Paper— Printing	France	quantity_total	5	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Paper— Printing	Italy	quantity_total	1	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Paper— Writing	China	quantity_total	2	ok	yes	as recorded	
+bb1902:p635:t1	635	import	Paper— Writing	India (exc. British)	quantity_home_consumption	1	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Dutiable	Germany	quantity_home_consumption	632	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Dutiable	Sweden	value_total_rs	296	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Free	Hongkong	quantity_home_consumption	1	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Free	Germany	quantity_total	108	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Free	Japan	quantity_total	5	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Unenumerated— Free	U. S. of America	value_total_rs	2260	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Silver— Coin	British India	value_total_rs	3368600	ok	yes	as recorded	
+bb1902:p641:t1	641	import	Silver— Coin	China	value_total_rs	40743	ok	yes	as recorded	
+bb1902:p649:t1	649	export	Wild	Belgium	quantity_total	21	wrong_article	no	Spices—contd. > Cinnamon, Plantation—contd. / Wild	"figures right; bare ""Wild"" should be ""Spices— Cinnamon, Wild""; continuation headings at top of page dropped | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Wild	Germany	value_total_rs	239	wrong_article	no	Spices—contd. > Cinnamon, Plantation—contd. / Wild	"figures right; bare ""Wild"" should be ""Spices— Cinnamon, Wild""; continuation headings at top of page dropped | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Cloves and Mace	British India	value_total_rs	159	wrong_article	no	Spices—contd. > Cloves and Mace	"figure right; ""Spices—"" dropped (name still identifies the article) | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Nutmegs	United Kingdom	quantity_ceylon_produce	48	wrong_article	no	Spices—contd. > Nutmegs	"figure right; ""Spices—"" dropped (name still identifies the article) | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Pepper	United Kingdom	value_other_produce_rs	—	wrong_article	no	Spices—contd. > Pepper	"figure right; ""Spices—"" dropped (name still identifies the article) | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Spirits— Arrack	British India	value_ceylon_produce_rs	103252	ok	no	as recorded	"value right; country_group_as_printed is blank though British India stands under ""Br. Col.—"" | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Spirits— Whisky	Victoria	value_ceylon_produce_rs	—	ok	no	as recorded	"row follows the two-line ""Other British Possessions in Asia""; no shift | class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p649:t1	649	export	Spirits— Whisky		value_ceylon_produce_rs	—	ok	no	as recorded	"class/group: class_as_printed is blank (page prints only ""(2) Food and Drink—contd.""; class I.— not carried); group right"
+bb1902:p652:t1	652	export	Cotton	Cape Colony	value_ceylon_produce_rs	710	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Cotton	West Australia	value_total_rs	700	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Cotton		value_other_produce_rs	—	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Unenumerated		value_ceylon_produce_rs	—	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Areca nuts	Maldiv Islands	quantity_total	3021	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Areca nuts	Queensland	value_other_produce_rs	—	ok	yes	as recorded	"row follows the two-line ""Other British Possessions in Asia""; no shift"
+bb1902:p652:t1	652	export	Areca nuts	India (exc. British)	value_ceylon_produce_rs	39610	ok	yes	as recorded	
+bb1902:p652:t1	652	export	Cinchona Bark	Italy	quantity_other_produce	—	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Butter— Tinned	United Kingdom	value_total_rs	11150	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Butter— Tinned	Austria	quantity_home_consumption	3000	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Butter— Tinned	China	value_total_rs	24	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Butter— Tinned	France	quantity_total	4563	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Cheese	Canada	quantity_total	1	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Cheese	Holland	quantity_home_consumption	486	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Cheese	Russia in Europe	value_total_rs	21	ok	yes	as recorded	
+bb1903:p624:t1	624	import	Cocoanuts	British India	quantity_home_consumption	4700	ok	yes	as recorded	
+bb1903:p628:t1	628	import	Fruit, preserved— Raisins	Victoria	quantity_total	14	ok	yes	as recorded	
+bb1903:p628:t1	628	import	Fruit, preserved— Other	Victoria	quantity_home_consumption	590	ok	yes	as recorded	"unit_as_printed ""wt."" is the scan: the c of ""cwt."" did not print on this line (36 rows in the file carry ""wt."")"
+bb1903:p628:t1	628	import	Fruit, preserved— Other	India (exc. British)	value_total_rs	16	ok	yes	as recorded	
+bb1903:p628:t1	628	import	Fruit, preserved— Other	U. S. of America	value_total_rs	7415	ok	yes	as recorded	
+bb1903:p628:t1	628	import	Ghee	Maldiv Islands	value_total_rs	3	ok	yes	as recorded	heading-uncertain note: Ghee is a top-level article, so the file is right
+bb1903:p628:t1	628	import	Ghee	China	quantity_home_consumption	6	ok	yes	as recorded	heading-uncertain note: Ghee is a top-level article, so the file is right
+bb1903:p628:t1	628	import	Ghee	France	value_total_rs	50	ok	yes	as recorded	heading-uncertain note: Ghee is a top-level article, so the file is right
+bb1903:p628:t1	628	import	Grain— Beans	China	quantity_home_consumption	1170	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Iron— Bar, flat, rod, nail rod	Germany	quantity_home_consumption	1167	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Iron— Pig		value_total_rs	26025	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Iron— Other	Sweden	quantity_total	428	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Iron— Other	Sweden	value_total_rs	3534	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Lead— Pig	New Zealand	quantity_total	2500	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Spelter	United Kingdom	value_total_rs	7	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Steel— Blister	Belgium	value_total_rs	393	ok	yes	as recorded	
+bb1903:p638:t1	638	import	Steel— Blister		quantity_home_consumption	144	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Blankets		value_total_rs	89964	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Carpets	United Kingdom	quantity_home_consumption	216	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Carpets	United Kingdom	value_total_rs	1209	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Carpets		quantity_total	577	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Flannel	Austria	value_total_rs	4144	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Flannel		quantity_total	205601	wrong_value	yes	Flannel total, total quantities: 205604 (last digit a broken 4; components 90204+73013+5401+20+35522+1444 = 205604)	file has 205601; OCR digit error on a damaged 4
+bb1903:p648:t1	648	import	Other	Belgium	value_total_rs	611	ok	yes	as recorded	
+bb1903:p648:t1	648	import	Other	Italy	quantity_total	8716	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Bricks and Tiles	British India	quantity_ceylon_produce	131450	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Carriages and Carts	Germany	value_ceylon_produce_rs	150	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Casks	British India	value_ceylon_produce_rs	714	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Cement		value_total_rs	2238	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Coir— Matting	Japan	value_other_produce_rs	—	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Coir— Rope	Aden	value_other_produce_rs	—	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Coir— Rope	British India	value_total_rs	590	ok	yes	as recorded	
+bb1903:p694:t1	694	export	Coir— Rope	Germany	value_ceylon_produce_rs	1670	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Carpets	United Kingdom	quantity_total	135	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Other	Straits Settlements	quantity_total	160	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Other	Straits Settlements	quantity_home_consumption	160	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Other	Austria	quantity_home_consumption	5764	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Other		quantity_home_consumption	317171	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Blankets	Straits Settlements	value_total_rs	2	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Blankets		quantity_total	4517	ok	yes	as recorded	
+bb1904:p656:t1	656	import	Blankets		quantity_home_consumption	4517	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Drawing Materials	British India	value_total_rs	361	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Earthenware	India (exc. British)	value_total_rs	15800	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Electric Materials	Germany	quantity_home_consumption	8	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Embroidery	Hong Kong	quantity_total	833	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Embroidery	Maldiv Islands	quantity_home_consumption	208	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Embroidery	Maldiv Islands	value_total_rs	160	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Explosives— Dynamite	United Kingdom	value_total_rs	53169	ok	yes	as recorded	
+bb1904:p666:t1	666	import	Explosives— Fireworks	Hong Kong	quantity_total	135	ok	yes	as recorded	
+bb1904:p676:t1	676	import	Paper— Dutiable	Italy	quantity_home_consumption	1	ok	yes	as recorded	"right only because both quantity columns hold the same figure: this page prints ""Quantities entered for home consumption"" BEFORE ""Total quantities imported"" and the reader assigns the two measures by position, so the two measures are swapped wherever they differ on this page"
+bb1904:p676:t1	676	import	Paper— Free	France	quantity_total	1	ok	yes	as recorded	"right only because both quantity columns hold the same figure: this page prints ""Quantities entered for home consumption"" BEFORE ""Total quantities imported"" and the reader assigns the two measures by position, so the two measures are swapped wherever they differ on this page"
+bb1904:p676:t1	676	import	Paper— Free	Germany	value_total_rs	4488	ok	yes	as recorded	
+bb1904:p676:t1	676	import	Photographic Materials	Belgium	value_total_rs	33	ok	yes	as recorded	
+bb1904:p676:t1	676	import	Photographic Materials	France	value_total_rs	147	ok	yes	as recorded	
+bb1904:p676:t1	676	import	Pictures	British India	quantity_total	16262	ok	yes	as recorded	"right only because both quantity columns hold the same figure: this page prints ""Quantities entered for home consumption"" BEFORE ""Total quantities imported"" and the reader assigns the two measures by position, so the two measures are swapped wherever they differ on this page"
+bb1904:p676:t1	676	import	Pictures	British India	value_total_rs	1030	ok	yes	as recorded	
+bb1904:p676:t1	676	import	Pictures	Straits Settlements	value_total_rs	29	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spices— Nutmegs	Cape Colony	quantity_total	3	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spices— Nutmegs	Belgium	value_total_rs	117	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spices— Pepper	British India	value_total_rs	41262	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spices— Pepper	France	quantity_total	139	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spices— Pepper	Germany	quantity_ceylon_produce	7	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Vanilla	Germany	value_total_rs	40	wrong_article	yes	"Spices—contd. > Vanilla (same indent as Nutmegs, Pepper; ""Sprits—"" starts further left below it)"	"figure right; ""Spices—"" dropped; the ""heading uncertain"" note pointed at the right heading"
+bb1904:p689:t1	689	export	Spirits— Whisky	Hong Kong	value_total_rs	36	ok	yes	as recorded	
+bb1904:p689:t1	689	export	Spirits— Whisky	Denmark	value_ceylon_produce_rs	—	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Plants and Roots	Straits Settlements	value_total_rs	25	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Unenumerated— Duitable	United Kingdom	quantity_total	1	wrong_article	yes	Seeds, excluding Food Stuffs— > Cotton Seed / Garden / Unenumerated— > Duitable [sic]; UK cwt. 1 / 1 / 18	"figure right; ""Unenumerated—"" is printed at the sub-entry indent under Seeds, so as printed it is ""Seeds, excluding Food Stuffs— Unenumerated— Duitable""; printer intent open to doubt"
+bb1904:p712:t1	712	import	Apparel, made up	Straits Settlements	quantity_home_consumption	1	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Apparel, made up	Straits Settlements	value_total_rs	25	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Flannel	United Kingdom	value_total_rs	2587	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Other	United Kingdom	quantity_total	1752	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Other	United Kingdom	quantity_home_consumption	1752	ok	yes	as recorded	
+bb1904:p712:t1	712	import	Unenumerated	United Kingdom	quantity_home_consumption	7652	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Other— In wood	Egypt	quantity_total	42	wrong_article	yes	Wines, still—contd. > Other—contd. > In wood	"figures right; top heading ""Wines, still—"" lost, leaving ""Other— In wood"""
+bb1905:p663:t1	663	import	Other— In wood	Spain	quantity_total	8	wrong_article	yes	Wines, still—contd. > Other—contd. > In wood	"figures right; top heading ""Wines, still—"" lost, leaving ""Other— In wood"""
+bb1905:p663:t1	663	import	Unenumerated— Dutiable	Hong Kong	quantity_home_consumption	586	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Unenumerated— Dutiable	Queensland	quantity_home_consumption	413	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Unenumerated— Dutiable	Germany	quantity_home_consumption	248	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Unenumerated— Dutiable	Japan	quantity_home_consumption	1	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Tobacco, manufactured— Cigars	British India	value_total_rs	13052	ok	yes	as recorded	
+bb1905:p663:t1	663	import	Tobacco, manufactured— Cigars	China	quantity_home_consumption	379	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Dyed	Austria	quantity_total	22260	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Dyed	Belgium	quantity_home_consumption	51777	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Dyed	India (exc. British)	quantity_total	152834	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Muslin	Straits Settlements	quantity_total	200	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Printed	India (exc. British)	quantity_home_consumption	180	ok	yes	as recorded	
+bb1905:p672:t1	672	import	Piece Goods— Other	British India	quantity_total	96994	ok	yes	as recorded	yds. line of a braced yds./doz. pair read correctly; country_group_as_printed blank (Br. Col.)
+bb1905:p672:t1	672	import	Piece Goods— Other	Straits Settlements	quantity_total		ok	yes	as recorded	yds. line of the brace is blank on the page (only doz. 2 printed); blank value is right; country_group_as_printed blank (Br. Col.)
+bb1905:p672:t1	672	import	Piece Goods— Other	Japan	value_total_rs	13182	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Unenumerated— Dutiable	Arabia	quantity_home_consumption	4	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Unenumerated— Dutiable	Egypt	quantity_home_consumption	9	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Unenumerated— Dutiable	Holland	quantity_total	24	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Unenumerated— Free	United Kingdom	quantity_total	3772	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Unenumerated— Free	Egypt	value_total_rs	280	ok	yes	as recorded	
+bb1905:p700:t1	700	import	Coin	Turkey in Europe	value_total_rs	322	ok	yes	as recorded	"printed simply ""Coin"" under IV (the gold coin entry)"
+bb1905:p700:t1	700	import	Coin		quantity_total	46	ok	yes	as recorded	"printed simply ""Coin"" under IV (the gold coin entry)"
+bb1905:p700:t1	700	import	Silver— Pearls and Precious Stones	Straits Settlements	value_total_rs	153	wrong_article	yes	IV.—Bullion and Coin: Coin; Silver— Bullion, Coin; Pearls and Precious Stones (at the top-level indent)	"figure right; ""Silver—"" wrongly kept as heading for the next top-level article"
+bb1905:p705:t1	705	export	Cocoanut— Desiccated	Austria	value_other_produce_rs	—	ok	yes	as recorded	
+bb1905:p705:t1	705	export	Cocoanut— Desiccated	Denmark	value_total_rs	11785	ok	yes	as recorded	
+bb1905:p705:t1	705	export	Cocoanut— Desiccated	Holland	quantity_total	4285	ok	yes	as recorded	
+bb1905:p705:t1	705	export	Desiccated— Fresh	United Kingdom	value_ceylon_produce_rs	655807	wrong_article	yes	Cocoanut— > Desiccated—contd. ; Fresh	"figures right; ""Desiccated—contd."" taken as a heading: should be ""Cocoanut— Fresh"""
+bb1905:p705:t1	705	export	Desiccated— Fresh	Cape Colony	value_total_rs	200	wrong_article	yes	Cocoanut— > Desiccated—contd. ; Fresh	"figures right; ""Desiccated—contd."" taken as a heading: should be ""Cocoanut— Fresh"""
+bb1905:p705:t1	705	export	Arabian— Plantation	United Kingdom	quantity_other_produce	—	wrong_article	yes	Coffee— > Arabian— > Native / Plantation	"figures right; top heading ""Coffee—"" lost, leaving ""Arabian— Plantation"""
+bb1905:p705:t1	705	export	Arabian— Plantation	Germany	quantity_other_produce	—	wrong_article	yes	Coffee— > Arabian— > Native / Plantation	"figures right; top heading ""Coffee—"" lost, leaving ""Arabian— Plantation"""
+bb1905:p705:t1	705	export	Liberian	Br. India	quantity_total	57	wrong_article	yes	Coffee— > Liberian	"figure right; bare ""Liberian"" should be ""Coffee— Liberian"""
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Other		quantity_home_consumption	10752	ok	yes	as recorded	
+bb1905:p737:t1	737	import	Soda	United Kingdom	quantity_home_consumption	49	ok	yes	as recorded	
+bb1905:p737:t1	737	import	Stationery, excluding Paper	United Kingdom	quantity_total	268	ok	yes	as recorded	
+bb1905:p737:t1	737	import	Stones, worked	United Kingdom	quantity_total	31	ok	yes	as recorded	
+bb1905:p737:t1	737	import	Telephone Materials	United Kingdom	quantity_home_consumption	39	ok	yes	as recorded	
+bb1905:p737:t1	737	import	Unenumerated— Durable	United Kingdom	quantity_total	809	wrong_article	yes	Unenumerated— > Dutiable (the t is faint)	"figures right; label misread ""Durable"" for ""Dutiable"" (OCR letter error in the article name)"
+bb1905:p737:t1	737	import	Unenumerated— Durable	Br. India	quantity_total	12	wrong_article	yes	Unenumerated— > Dutiable (the t is faint)	"figures right; label misread ""Durable"" for ""Dutiable"" (OCR letter error in the article name)"
+bb1905:p737:t1	737	import	Unenumerated— Durable	Germany	quantity_home_consumption	19	wrong_article	yes	Unenumerated— > Dutiable (the t is faint)	"figures right; label misread ""Durable"" for ""Dutiable"" (OCR letter error in the article name)"
+bb1906:p661:t1	661	import	Potatoes	Victoria	value_total_rs	578	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Potatoes	France	quantity_total	7037	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Potatoes	France	value_total_rs	27525	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Sago in bulk	British India	quantity_total	147	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Sago in bulk	U. S. of America	quantity_total	—	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Seeds— Mustard	British India	quantity_home_consumption	686	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Seeds— Poppy	British India	value_total_rs	1479	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p661:t1	661	import	Spices— Ginger, dry		value_total_rs	55222	ok	yes	as recorded	"class/group: class OCR ""1.—"" for ""I.—"""
+bb1906:p696:t1	696	import	Liquid Fuel	Borneo (exc. British)	quantity_total	689963	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p696:t1	696	import	Liquid Fuel	Borneo (exc. British)	quantity_home_consumption	689963	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p696:t1	696	import	Liquid Fuel	Borneo (exc. British)	value_total_rs	68996	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p696:t1	696	import	Liquid Fuel		quantity_total	689963	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p696:t1	696	import	Liquid Fuel		quantity_home_consumption	689963	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p696:t1	696	import	Liquid Fuel		value_total_rs	68996	wrong_article	yes	Oil— > ... Linseed / Liquid Fuel / Lubricating; Borneo (exc. British) gals. 689963 / 689963 / 68996 and the same as total	"figures right; ""Oil—"" dropped: the heading sits in an OCR-collapsed block that was skipped, so the only surviving sub-entry on the page lost its parent"
+bb1906:p714:t1	714	export	(Cotton, Kapok, and Spinning)	British India	value_ceylon_produce_rs	5556	ok	yes	as recorded	"article printed as ""(1) Textile— (Cotton, Kapok, and Spinning)""; note the two quantity columns of this article are re-headed ""Kapok or Tree Cotton"" / ""Cotton for Spinning"" on the page (value rows unaffected)"
+bb1906:p714:t1	714	export	(Cotton, Kapok, and Spinning)	Victoria	value_ceylon_produce_rs	1500	ok	yes	as recorded	"article printed as ""(1) Textile— (Cotton, Kapok, and Spinning)""; note the two quantity columns of this article are re-headed ""Kapok or Tree Cotton"" / ""Cotton for Spinning"" on the page (value rows unaffected)"
+bb1906:p714:t1	714	export	Unenumerated	Japan	value_ceylon_produce_rs	—	ok	yes	as recorded	
+bb1906:p714:t1	714	export	Unenumerated		value_other_produce_rs	1643	ok	yes	as recorded	
+bb1906:p714:t1	714	export	Arecanuts	India (exc. British)	quantity_total	6544	ok	yes	as recorded	"row follows the two-line ""Other British Possessions in Asia""; no shift"
+bb1906:p714:t1	714	export	Arippe Cinchona Bark	Germany	value_ceylon_produce_rs	2238	wrong_article	yes	Arippo (one-line article, British India) then Cinchona Bark; Germany 55929 / — / 55929 / 2238 / — / 2238	"figures right; name of the preceding article fused in: ""Arippe Cinchona Bark"" should be ""Cinchona Bark"""
+bb1906:p714:t1	714	export	Arippe Cinchona Bark	Germany	value_other_produce_rs	—	wrong_article	yes	Arippo (one-line article, British India) then Cinchona Bark; Germany 55929 / — / 55929 / 2238 / — / 2238	"figures right; name of the preceding article fused in: ""Arippe Cinchona Bark"" should be ""Cinchona Bark"""
+bb1906:p714:t1	714	export	Croton Seed	Germany	quantity_ceylon_produce	98	ok	yes	as recorded	
+bb1906:p721:t1	721	export	Yarn and Twist— Bleached	Br. India	quantity_other_produce	—	ok	no	as recorded	"class/group: group lacks ""(b) Cotton"" (present on p720, lost at the page break); class truncated to ""III.—Manufactured"""
+bb1906:p721:t1	721	export	Broad Stuffs	China	value_ceylon_produce_rs	—	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Broad Stuffs	China	value_total_rs	100	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Ribbons	United Kingdom	quantity_other_produce	375	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Carpets	United Kingdom	value_other_produce_rs	—	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Unenumerated	Turkey in Asia	value_other_produce_rs	75	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Brass— Nails and Wire	United Kingdom	quantity_total	27	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p721:t1	721	export	Brass— Nails and Wire		quantity_other_produce	34	ok	yes	as recorded	"class/group: class truncated to ""III.—Manufactured"" (heading split across two columns on the page)"
+bb1906:p733:t1	733	import	Cattle	Br. India	quantity_total	16	ok	no	as recorded	"printed ""I.—Live Animals—Cattle"" | class/group: class reads ""I.—Live Animals"": the page prints ""I.—Live Animals—Cattle"" on one line, so the group name was taken into the class; groups (2) Food and Drink, (3) Spirits, (4) Narcotics right; Cattle has no group"
+bb1906:p733:t1	733	import	Biscuits	United Kingdom	value_total_rs	250	ok	no	as recorded	"class/group: class reads ""I.—Live Animals"": the page prints ""I.—Live Animals—Cattle"" on one line, so the group name was taken into the class; groups (2) Food and Drink, (3) Spirits, (4) Narcotics right; Cattle has no group"
+bb1906:p733:t1	733	import	Grain— Paddy	Japan	quantity_total	22	ok	no	as recorded	"class/group: class reads ""I.—Live Animals"": the page prints ""I.—Live Animals—Cattle"" on one line, so the group name was taken into the class; groups (2) Food and Drink, (3) Spirits, (4) Narcotics right; Cattle has no group"
+bb1906:p733:t1	733	import	Spirits of Wine Rectified	Germany	quantity_total	1994	ok	no	as recorded	"class/group: class reads ""I.—Live Animals"": the page prints ""I.—Live Animals—Cattle"" on one line, so the group name was taken into the class; groups (2) Food and Drink, (3) Spirits, (4) Narcotics right; Cattle has no group"
+bb1906:p733:t1	733	import	Opium	United Kingdom	value_total_rs	1105	ok	no	as recorded	"class/group: class reads ""I.—Live Animals"": the page prints ""I.—Live Animals—Cattle"" on one line, so the group name was taken into the class; groups (2) Food and Drink, (3) Spirits, (4) Narcotics right; Cattle has no group"
+bb1906:p733:t1	733	import	Brass Sheathing	United Kingdom	quantity_total	27	ok	yes	as recorded	
+bb1906:p733:t1	733	import	Iron— Bar, flat, rod, nail rod	United Kingdom	value_total_rs	40693	ok	yes	as recorded	
+bb1906:p733:t1	733	import	Muntsz— Metal	United Kingdom	value_total_rs	1513	ok	yes	as recorded	"""Muntsz— Metal"" is as printed"

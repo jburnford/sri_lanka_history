@@ -1,0 +1,280 @@
+sample_number	table_id	year_volume	pdf_page	printed_page	flow	class_as_printed	group_as_printed	article_as_printed	country_group_as_printed	country_as_printed	unit_as_printed	measure	value_as_printed	value	row_kind	note
+1	bb1901:p571:t1	1901	571	U 7	import	I.—	(2) Food and Drink	Beer and Ale— Bottled	Foreign Countries	China	gals.	quantity_total	18	18	country	source row 38; unit from ditto
+2	bb1901:p571:t1	1901	571	U 7	import	I.—	(2) Food and Drink	Beef— Tinned	British Colonies	South Australia		value_total_rs	158	158	country	source row 23; unit from ditto
+3	bb1901:p573:t1	1901	573	U 9	import	I.—	(2) Food and Drink	Confectionery	British Colonies	Victoria	lb.	quantity_home_consumption	28840	28840	country	source row 22; unit from ditto
+4	bb1901:p573:t1	1901	573	U 9	import	I.—	(2) Food and Drink	Coffee— Unmixed	Foreign Countries	China	lb.	quantity_home_consumption	112	112	country	source row 8; unit from ditto
+5	bb1901:p575:t1	1901	575		import	I.—	(2) Food and Drink	Fruit, fresh— Other	Foreign Countries	France	cwt.	quantity_total	—		country	source row 52; unit from ditto
+6	bb1901:p575:t1	1901	575		import	I.—	(2) Food and Drink	Fruit, fresh— Apples	British Colonies	Tasmania	cwt.	quantity_home_consumption	65	65	country	source row 22; unit from ditto
+7	bb1901:p577:t1	1901	577	U 13	import	I.—	(2) Food and Drink	Grain— Peas	Foreign Countries	France		value_total_rs	3	3	country	source row 30; unit from ditto
+8	bb1901:p582:t1	1901	582	U 18	import	I.—	(2) Food and Drink	Wines, still— Claret— In bottle	Foreign Countries	Germany		value_total_rs	1259	1259	country	source row 39; unit from ditto
+9	bb1901:p584:t1	1901	584	U 20	import	I.—	(2) Food and Drink	Wines, still— Other— In wood	Foreign Countries	Portugal		value_total_rs	1478	1478	country	source row 12; unit from ditto
+10	bb1901:p584:t1	1901	584	U 20	import	I.—	(2) Food and Drink	Unenumerated— Dutiable	British Colonies	Queensland		quantity_total	274	274	country	source row 25; unit from ditto
+11	bb1901:p584:t1	1901	584	U 20	import	I.—	(2) Food and Drink	Unenumerated— Dutiable	Foreign Countries	Switzerland		quantity_total	—		country	source row 40; unit from ditto
+12	bb1901:p597:t1	1901	597	U 33	import	III.—Manufactured Articles	(1) Textile (e) Woollen	Other	Foreign Countries	Italy	yds.	quantity_total	713	713	country	source row 65; unit from ditto
+13	bb1901:p604:t1	1901	604	U 38	import	III.—Manufactured Articles	(3) Other	Guns, double	British Colonies	New South Wales	No.	quantity_total	3	3	country	source row 52; unit from ditto
+14	bb1901:p604:t1	1901	604	U 38	import	III.—Manufactured Articles	(3) Other	Guns, double	Foreign Countries	France		value_total_rs	631	631	country	source row 57; unit from ditto
+15	bb1901:p608:t1	1901	608	42	import	III.—Manufactured Articles	(3) Other	Chemists' Sundries	Foreign Countries	Switzerland	cwt.	quantity_total	3	3	country	source row 18; unit from ditto
+16	bb1901:p610:t1	1901	610	U 44	import	III.—Manufactured Articles	(3) Other	Fancy articles			cases	quantity_home_consumption	2106	2106	article_total	source row 35; unlabelled row of figures read as the article total
+17	bb1901:p611:t1	1901	611	U 45	import	III.—Manufactured Articles	(3) Other	Glass— Other	Foreign Countries	Belgium	cwt.	quantity_total	118	118	country	source row 20; unit from ditto
+18	bb1901:p614:t1	1901	614	U 48	import	III. Manufactured Articles	(3) Other	Machinery— Other— Dutiable	British Colonies	Maldiv Islands	cwt.	quantity_home_consumption	—		country	source row 62; unit from ditto
+19	bb1901:p618:t1	1901	618	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Free		United Kingdom	reams	quantity_home_consumption	1494	1494	country	source row 18
+20	bb1901:p618:t1	1901	618	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Dutiable	Foreign Countries	Italy		value_total_rs	505	505	country	source row 14; unit from ditto
+21	bb1901:p618:t1	1901	618	U 52	import	III.—Manufactured Articles	(3) Other	Perfumery	Foreign Countries	Austria	cases	quantity_total	2	2	country	source row 42; unit from ditto
+22	bb1901:p619:t1	1901	619	U 53	import	III.—Manufactured Articles	(3) Other	Materials	Foreign Countries	India (exc. British)		value_total_rs	20	20	country	source row 21; unit from ditto
+23	bb1901:p629:t1	1901	629	U 61	export	L.—	(1) Animals, Living	Cattle	British Colonies	British India	No.	quantity_other_produce	—		country	source row 3
+24	bb1901:p630:t1	1901	630	U 62	export	L.—	(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	Queensland		value_ceylon_produce_rs	902	902	country	source row 47; unit from ditto
+25	bb1901:p631:t1	1901	631	U 63	export	L.—	(2) Food and Drink	Fruit— Preserved			cwt.	quantity_total	377	377	article_total	source row 53; unlabelled row of figures read as the article total
+26	bb1901:p633:t1	1901	633	U 65	export	L.—	(2) Food and Drink	Spices— Pepper	British Colonies	British India		value_total_rs	5120	5120	country	source row 37; unit from ditto
+27	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea	Foreign Countries	Philippines	lb.	quantity_ceylon_produce	—		country	source row 24; unit from ditto; component green
+28	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea			lb.	quantity_ceylon_produce	143025118	143025118	article_total	source row 34; unlabelled row of figures read as the article total; component black
+29	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea	Foreign Countries	Russia in Europe	lb.	quantity_ceylon_produce	9517833	9517833	country	source row 26; unit from ditto; component black
+30	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea			lb.	quantity_ceylon_produce	1250490	1250490	article_total	source row 34; unlabelled row of figures read as the article total; component green
+31	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea	Foreign Countries	Switzerland	lb.	quantity_ceylon_produce	1154	1154	country	source row 30; unit from ditto; component black
+32	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea	Foreign Countries	France	lb.	quantity_ceylon_produce	349205	349205	country	source row 13; unit from ditto; component black
+33	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea		Tasmania	lb.	quantity_total	124414	124414	country	source row 3
+34	bb1901:p635:t1	1901	635	U 67	export	L.—	(2) Food and Drink	Tea	Foreign Countries	Germany	lb.	quantity_total	658535	658535	country	source row 14; unit from ditto
+35	bb1901:p639:t1	1901	639	U 71	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Plumbago	British Colonies	New Zealand		value_ceylon_produce_rs	709	709	country	source row 29; unit from ditto
+36	bb1901:p641:t1	1901	641	U 73	export	III.—Manufactured Articles	(1) Textile (a) Apparel, made up	Apparel, made up	Foreign Countries	Egypt	pkgs.	quantity_total	1	1	country	source row 63; unit from ditto
+37	bb1901:p645:t1	1901	645	U 77	export	III.—Manufactured Articles	(3) Other	Guns, double	British Colonies	Burma	No.	quantity_ceylon_produce	—		country	source row 39; unit from ditto
+38	bb1901:p645:t1	1901	645	U 77	export	III.—Manufactured Articles	(2) Of Metal other than Machinery	Plate— Silver or Silver-gilt	Foreign Countries	U. S. of America		value_ceylon_produce_rs	—		country	source row 8; unit from ditto
+39	bb1901:p646:t1	1901	646	78	export	III.—Manufactured Articles	(3) Other	Coir— Matting	British Colonies	New South Wales	pkgs.	quantity_total	24	24	country	source row 52; unit from ditto
+40	bb1901:p647:t1	1901	647	U 79	export	III.—Manufactured Articles	(3) Other	Coir— Rope	Foreign Countries	Egypt		value_ceylon_produce_rs	2030	2030	country	source row 10; unit from ditto
+41	bb1901:p651:t1	1901	651	U 83	export	III.—Manufactured Articles	(3) Other	Oil— Cocoanut	Foreign Countries	Belgium	cwt.	quantity_ceylon_produce	6417	6417	country	source row 63; unit from ditto
+42	bb1901:p651:t1	1901	651	U 83	export	III.—Manufactured Articles	(3) Other	Mats, Mat Bags, and Baskets		United Kingdom		value_other_produce_rs	60	60	country	source row 3
+43	bb1901:p652:t1	1901	652	U 84	export	III.—Manufactured Articles	(3) Other	Perfumery		United Kingdom	pkgs.	quantity_ceylon_produce	8	8	country	source row 26
+44	bb1902:p592:t1	1902	592	U 8	import	1.—	(2) Food and Drink	Butter— Tinned	British Colonies	British India	lb.	quantity_home_consumption	107085	107085	country	source row 10; unit from ditto
+45	bb1902:p595:t1	1902	595	U 11	import	1.—	(2) Food and Drink	Grapes	British Colonies	South Australia		value_total_rs	1448	1448	country	"source row 36; unit from ditto; heading uncertain: may belong under ""Fruit, fresh—"""
+46	bb1902:p598:t1	1902	598	U 14	import	1.—	(2) Food and Drink	Poultry and Game	British Colonies	West Australia		value_total_rs	520	520	country	source row 22; unit from ditto
+47	bb1902:p601:t1	1902	601	U 17	import	1.—	(2) Food and Drink	Sugar— Refined or candied	Foreign Countries	Germany		value_total_rs	63016	63016	country	source row 47; unit from ditto
+48	bb1902:p602:t1	1902	602	U 18	import	1.—	(2) Food and Drink	Wines, sparkling— Champagne				value_total_rs	84519	84519	article_total	source row 15; unlabelled row of figures read as the article total
+49	bb1902:p602:t1	1902	602	U 18	import	1.—	(2) Food and Drink	Wines, sparkling— Champagne	British Colonies	Victoria	gals.	quantity_total	51	51	country	source row 8; unit from ditto
+50	bb1902:p603:t1	1902	603	U 19	import	1.—	(2) Food and Drink	Wines, still— Sherry— In wood	British Colonies	Gibraltar	gals.	quantity_home_consumption	56	56	country	source row 50; unit from ditto
+51	bb1902:p607:t1	1902	607	U 23	import	II.—Raw Materials	(2) Metal	Tin— Yellow Metal	British Colonies	British India		value_total_rs	87	87	country	source row 18; unit from ditto
+52	bb1902:p609:t1	1902	609	U 25	import	II.—Raw Materials	(3) Other (b) Miscellaneous	Chalk	British Colonies	British India	cwt.	quantity_total	41	41	country	source row 6; unit from ditto
+53	bb1902:p609:t1	1902	609	U 25	import	II.—Raw Materials	(3) Other (b) Miscellaneous	Gum Arabic	British Colonies	West Australia	cwt.	quantity_total	11	11	country	source row 24; unit from ditto
+54	bb1902:p613:t1	1902	613	U 29	import	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Other		Straits Settlements	doz.	quantity_home_consumption	58688	58688	country	source row 55; braced unit line
+55	bb1902:p619:t1	1902	619	U 35	import	III.—Manufactured Articles	(2) Metal (other than Machinery)	Iron— Nails and Rivets	Foreign Countries	Norway	cwt.	quantity_total	260	260	country	source row 38; unit from ditto
+56	bb1902:p626:t1	1902	626	U 42	import	III. -Manufactured Articles	(3) Other	Explosives— Cartridges			No.	quantity_home_consumption	596845	596845	article_total	source row 56; unlabelled row of figures read as the article total
+57	bb1902:p629:t1	1902	629	U 45	import	III.—Manufactured Articles	(3) Other	Jewellery	British Colonies	Straits Settlements	No.	quantity_home_consumption	7	7	country	source row 63; unit from ditto
+58	bb1902:p629:t1	1902	629	U 45	import	III.—Manufactured Articles	(3) Other	Images and Statues	British Colonies	New South Wales	No.	quantity_total	2	2	country	source row 18; unit from ditto
+59	bb1902:p630:t1	1902	630	U 46	import	III.—Manufactured Articles	(3) Other	Leather Articles— Boots and Shoes	Foreign Countries	France	pairs	quantity_total	2029	2029	country	source row 47; unit from ditto
+60	bb1902:p634:t1	1902	634	U 50	import	III.—Manufactured Articles	(3) Other	Nets, Fishing				value_total_rs	10759	10759	article_total	source row 5; unlabelled row of figures read as the article total
+61	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Free	Foreign Countries	France	reams	quantity_total	1	1	country	source row 28; unit from ditto
+62	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Photographic Materials			cases	quantity_home_consumption	325	325	article_total	source row 64; unlabelled row of figures read as the article total
+63	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Perfumery	British Colonies	Victoria	cases	quantity_home_consumption	2	2	country	source row 41; unit from ditto
+64	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Free		United Kingdom	reams	quantity_total	1268	1268	country	source row 23
+65	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Dutiable	Foreign Countries	Germany	reams	quantity_total	2777	2777	country	source row 16; unit from ditto
+66	bb1902:p636:t1	1902	636	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Other— Dutiable	Foreign Countries	Germany		value_total_rs	3320	3320	country	source row 16; unit from ditto
+67	bb1902:p646:t1	1902	646	U 62	export		(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	Queensland		value_other_produce_rs	—		country	source row 54; unit from ditto
+68	bb1902:p646:t1	1902	646	U 62	export		(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	British India		value_total_rs	3828	3828	country	source row 45; unit from ditto
+69	bb1902:p646:t1	1902	646	U 62	export		(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	New Zealand		value_total_rs	13091	13091	country	source row 53; unit from ditto
+70	bb1902:p646:t1	1902	646	U 62	export		(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	Victoria		value_other_produce_rs	—		country	source row 58; unit from ditto
+71	bb1902:p646:t1	1902	646	U 62	export		(2) Food and Drink	Cocoanut— Fresh	Foreign Countries	Belgium		value_ceylon_produce_rs	20490	20490	country	source row 27; unit from ditto
+72	bb1902:p648:t1	1902	648	64	export		(2) Food and Drink	Spices— Cinnamon, Plantation	British Colonies	Canada	cwt.	quantity_other_produce	52	52	country	source row 48; unit from ditto
+73	bb1902:p648:t1	1902	648	64	export		(2) Food and Drink	Spices— Cardamoms	Foreign Countries	Italy		value_ceylon_produce_rs	1155	1155	country	source row 37; unit from ditto
+74	bb1902:p652:t1	1902	652	U 68	export	II.—Raw Materials	(3) Other (a) Chemical, Dyeing, and Tanning Materials	Areca nuts	Foreign Countries	India (exc. British)		value_ceylon_produce_rs	39610	39610	country	source row 45; unit from ditto
+75	bb1902:p653:t1	1902	653	U 69	export	II.—Raw Materials	(3) Other (a) Chemical, Dyeing and Tanning Materials	Sapan Wood	Foreign Countries	Austria		value_other_produce_rs	—		country	source row 31; unit from ditto
+76	bb1902:p656:t1	1902	656	U 72	export	II.—Raw Materials	(4) Miscellaneous	Shells— Chanks	British Colonies	British India		value_ceylon_produce_rs	96416	96416	country	source row 19
+77	bb1902:p658:t1	1902	658	U 74	export	III.—Manufactured Articles	(1) Textile (b) Cotton	Lace and Net				value_total_rs	2870	2870	article_total	source row 28; unlabelled row of figures read as the article total
+78	bb1902:p660:t1	1902	660	U 76	export	III.—Manufactured Articles	(2) Of Metal other than Machinery	Hardware	British Colonies	Aden		value_other_produce_rs	—		country	source row 16; unit from ditto
+79	bb1902:p662:t1	1902	662	U 78	export	III.—Manufactured Articles	(3) Other	Cable, Cordage, and Twine other than Coir	British Colonies	Other British Possessions in Asia		value_ceylon_produce_rs	15	15	country	source row 14; unit from ditto
+80	bb1902:p663:t1	1902	663	U 79	export	III.—Manufactured Articles	(8) Other	Coir— Yarn	Foreign Countries	Italy		value_ceylon_produce_rs	12218	12218	country	source row 35; unit from ditto
+81	bb1902:p665:t1	1902	665	U 81	export	III.—Manufactured Articles	(8) Other	Instruments— Scientific	British Colonies	Straits Settlements		value_ceylon_produce_rs	—		country	source row 61; unit from ditto
+82	bb1902:p667:t1	1902	667	U 89	export	III.—Manufactured Articles	(3) Other	Oil— Cocoanut	British Colonies	West Australia		value_ceylon_produce_rs	78	78	country	source row 59; unit from ditto
+83	bb1903:p624:t1	1903	624	U 8	import	I.—	(2) Food and Drink	Cocoanuts	British Colonies	British India	No.	quantity_total	4700	4700	country	source row 54
+84	bb1903:p627:t1	1903	627	U 11	import	I.—	(2) Food and Drink	Grapes	Foreign Countries	Spain	cwt.	quantity_home_consumption	111	111	country	"source row 33; heading uncertain: may belong under ""Fruit, fresh—"""
+85	bb1903:p629:t1	1903	629	U 13	import	I.—	(2) Food and Drink	Ham				value_total_rs	93051	93051	article_total	source row 61; unlabelled row of figures read as the article total
+86	bb1903:p630:t1	1903	630	U 14	import	I.—	(2) Food and Drink	Pork, salted	Foreign Countries	U. S. of America	cwt.	quantity_total	4	4	country	source row 59; unit from ditto
+87	bb1903:p630:t1	1903	630	U 14	import	I.—	(2) Food and Drink	Mutton, tinned	British Colonies	New Zealand	lb.	quantity_total	2240	2240	country	source row 36; unit from ditto
+88	bb1903:p634:t1	1903	634	U 18	import	I.—	(2) Food and Drink	Wines, still— Burgundy— In wood	British Colonies	Victoria	gals.	quantity_home_consumption	174	174	country	source row 26; unit from ditto
+89	bb1903:p634:t1	1903	634	U 18	import	I.—	(2) Food and Drink	Wines, still— Claret— In wood	British Colonies	Victoria	gals.	quantity_total	2541	2541	country	source row 48; unit from ditto
+90	bb1903:p635:t1	1903	635	U 19	import	I.—	(2) Food and Drink	Wines, still— Port— In bottle	Foreign Countries	China	gals.	quantity_total	1	1	country	source row 25
+91	bb1903:p635:t1	1903	635	U 19	import	I.—	(2) Food and Drink	Wines, still— Port— In wood	British Colonies	West Australia	gals.	quantity_home_consumption	272	272	country	source row 36
+92	bb1903:p636:t1	1903	636	U 20	import	I.—	(2) Food and Drink	Unenumerated— Dutiable	British Colonies	Canada	cwt.	quantity_home_consumption	10	10	country	source row 14; unit from ditto
+93	bb1903:p639:t1	1903	639	U 23	import	II.—Raw Materials	(2) Metal	Tin— Slabs		United Kingdom	cwt.	quantity_home_consumption	224	224	country	source row 20
+94	bb1903:p652:t1	1903	652	U 36	import	III.—Manufactured Articles	(2) Metal other than Machinery	Lead— Lead Ware		United Kingdom		value_total_rs	2324	2324	country	source row 11
+95	bb1903:p658:t1	1903	658	U 42	import	III. -Manufactured Articles	(3) Other	Earthenware	Foreign Countries	India (exc. British)	pieces	quantity_total	322857	322857	country	source row 19; unit from ditto
+96	bb1903:p659:t1	1903	659	T 43	import	III.—Manufactured Articles	(3) Other	Fancy Articles	Foreign Countries	Belgium	cases	quantity_total	4	4	country	source row 27; unit from ditto
+97	bb1903:p662:t1	1903	662	U 46	import	III.—Manufactured Articles	(3) Other	Leather Articles— Harness and Saddlery	British Colonies	New South Wales		value_total_rs	75	75	country	source row 62; unit from ditto
+98	bb1903:p664:t1	1903	664	U 48	import	III.--Manufactured Articles	(3) Other	Machinery— Other— Free	Foreign Countries	Germany	cwt.	quantity_home_consumption	658	658	country	source row 9; unit from ditto
+99	bb1903:p666:t1	1903	666	U 50	import	III.—Manufactured Articles	(3) Other	Oil— Fish			cwt.	quantity_total	50	50	article_total	source row 38; unlabelled row of figures read as the article total
+100	bb1903:p668:t1	1903	668	U 52	import	111.—Manufactured Articles	(3) Other	Paper— Other— Dutiable	Foreign Countries	France		quantity_home_consumption	36	36	country	source row 17
+101	bb1903:p668:t1	1903	668	U 52	import	111.—Manufactured Articles	(3) Other	Photographic Materials	Foreign Countries	Belgium		quantity_home_consumption	1	1	country	source row 58
+102	bb1903:p668:t1	1903	668	U 52	import	111.—Manufactured Articles	(3) Other	Photographic Materials				quantity_total	266	266	article_total	source row 64; unlabelled row of figures read as the article total
+103	bb1903:p668:t1	1903	668	U 52	import	111.—Manufactured Articles	(3) Other	Photographic Materials	British Colonies	Straits Settlements		quantity_total	—		country	source row 55
+104	bb1903:p668:t1	1903	668	U 52	import	111.—Manufactured Articles	(3) Other	Paper— Writing		U. S. of America		value_total_rs	2706	2706	country	source row 7
+105	bb1903:p670:t1	1903	670	U 54	import	III.—Manufactured Articles	(3) Other	Stores— Railway Plant and Rolling Stock— Other		United Kingdom		value_total_rs	31117	31117	country	source row 23
+106	bb1903:p670:t1	1903	670	U 54	import	III.—Manufactured Articles	(3) Other	Stores— Railway Plant and Rolling Stock— Rails and Fishplates of steel or iron			cwt.	quantity_total	43521	43521	article_total	source row 16; unlabelled row of figures read as the article total
+107	bb1903:p670:t1	1903	670	U 54	import	III.—Manufactured Articles	(3) Other	Soap— Toilet	British Colonies	Straits Settlements		value_total_rs	382	382	country	source row 36
+108	bb1903:p671:t1	1903	671	U 55	import	III.—Manufactured Articles	(3) Other	Tar		United Kingdom		value_total_rs	3864	3864	country	source row 43
+109	bb1903:p672:t1	1903	672	U 56	import	III.--Manufactured Articles	(3) Other	Unenumerated— Dutiable	British Colonies	Maldives Islands		value_total_rs	28	28	country	source row 59; unit from ditto; possible row shift after a wrapped country name
+110	bb1903:p672:t1	1903	672	U 56	import	III.--Manufactured Articles	(3) Other	Varnish	Foreign Countries	U. S. of America	cwt.	quantity_total	6	6	country	source row 35; unit from ditto; possible row shift after a wrapped country name
+111	bb1903:p673:t1	1903	673	U 57	import	III.—Manufactured Articles	(3) Other	Unenumerated— Dutiable	Foreign Countries	Japan	No.	quantity_home_consumption	157	157	country	source row 16; unit from ditto; possible row shift after a wrapped country name
+112	bb1903:p677:t1	1903	677	U 64	export	I.—	(2) Food and Drink	Cacao	Foreign Countries	Austria		value_other_produce_rs	—		country	source row 29; unit from ditto
+113	bb1903:p677:t1	1903	677	U 64	export	I.—	(1) Animals, Living	Elephants	British Colonies	Mauritius	No.	quantity_total	1	1	country	source row 4
+114	bb1903:p678:t1	1903	678	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	West Australia		value_ceylon_produce_rs	858	858	country	source row 58; unit from ditto
+115	bb1903:p679:t1	1903	679	U 63	export	I.—	(2) Food and Drink	Fruit— Preserved	British Colonies	Maldivé Islands	cwt.	quantity_other_produce	52	52	country	source row 43; unit from ditto
+116	bb1903:p681:t1	1903	681	U 65	export	I.—	(2) Food and Drink	Spirits— Whisky			gals.	quantity_ceylon_produce	—		article_total	source row 48; unlabelled row of figures read as the article total
+117	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Hongkong	lb.	quantity_total	504129	504129	country	"source row 38; unit from ditto; heading uncertain: may belong under ""Sugar—"""
+118	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Burma	lb.	quantity_ceylon_produce	6661	6661	country	"source row 34; unit from ditto; heading uncertain: may belong under ""Sugar—""; component black"
+119	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	West Australia	lb.	quantity_ceylon_produce	—		country	"source row 53; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+120	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Tasmania	lb.	quantity_total	88404	88404	country	"source row 51; unit from ditto; heading uncertain: may belong under ""Sugar—"""
+121	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Gibraltar	lb.	quantity_ceylon_produce	—		country	"source row 37; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+122	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Burma	lb.	quantity_other_produce	—		country	"source row 34; unit from ditto; heading uncertain: may belong under ""Sugar—"""
+123	bb1903:p682:t1	1903	682	U 66	export	I.—	(2) Food and Drink	Spirits— Other	Foreign Countries	Belgium		value_other_produce_rs	81	81	country	source row 10; unit from ditto
+124	bb1903:p687:t1	1903	687	U 71	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Tea	British Colonies	British India	cwt.	quantity_ceylon_produce	—		country	source row 60; unit from ditto; component green
+125	bb1903:p687:t1	1903	687	U 71	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Tea		United Kingdom	cwt.	quantity_ceylon_produce	9	9	country	source row 58; component black
+126	bb1903:p689:t1	1903	689	U 73	export	II.—Raw Materials	(3) Other (c) Timber, nn-worked	Palu				value_ceylon_produce_rs	11816	11816	article_total	source row 23; unlabelled row of figures read as the article total
+127	bb1903:p690:t1	1903	690	U 74	export	III.—Manufactured	(1) Textile (b) Cotton	Piece Goods— Printed	British Colonies	British India	yds.	quantity_total	80	80	country	source row 58
+128	bb1903:p694:t1	1903	694	U 78	export	III.—Manufactured Articles	(3) Other	Carriages and Carts	Foreign Countries	Belgium		value_total_rs	450	450	country	source row 18; unit from ditto
+129	bb1903:p696:t1	1903	696	U 80	export	III.—Manufactured	(3) Other	Curios and Fancy Articles	Foreign Countries	Russia in Europe		value_total_rs	550	550	country	source row 19; unit from ditto
+130	bb1903:p697:t1	1903	697	U 81	export	III.—Manufactured Articles	(3) Other	Instruments— Scientific	British Colonies	Mauritius		value_ceylon_produce_rs	—		country	source row 61; unit from ditto
+131	bb1903:p702:t1	1903	702	U 86	export	IV.—	(3) Other	Pearls and Precious Stones			pkgs.	quantity_ceylon_produce	29	29	article_total	source row 38; unlabelled row of figures read as the article total
+132	bb1903:p702:t1	1903	702	U 86	export	IV.—	(3) Other	Pearls and Precious Stones	Foreign Countries	France		value_other_produce_rs	1500	1500	country	source row 34; unit from ditto
+133	bb1904:p636:t1	1904	636	U 12	import	I.—	(2) Food and Drink	Fruit, preserved— Raisins	Foreign Countries	Greece	cwt.	quantity_home_consumption	—		country	source row 11; unit from ditto
+134	bb1904:p639:t1	1904	639	U 15	import	I.—	(2) Food and Drink	Salt— Refined	British Colonies	British India		value_total_rs	7	7	country	source row 31; unit from ditto
+135	bb1904:p653:t1	1904	653	U 29	import	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Muslin				value_total_rs	42618	42618	article_total	source row 31; unlabelled row of figures read as the article total
+136	bb1904:p653:t1	1904	653	U 29	import	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Dyed	Foreign Countries	Austria	yds.	quantity_total	3814	3814	country	source row 7
+137	bb1904:p654:t1	1904	654	II 30	import	III.—Manufactured Articles	(1) Textile (d) Silk and Satin	Broad Stuffs	Foreign Countries	China	yds.	quantity_total	24636	24636	country	source row 59; unit from ditto
+138	bb1904:p662:t1	1904	662	U 38	import	III.—Manufactured Articles	(3) Other	Arms— Rifles— Double			No.	quantity_total	7	7	article_total	source row 30; unlabelled row of figures read as the article total
+139	bb1904:p662:t1	1904	662	U 38	import	III.—Manufactured Articles	(3) Other	Arms— Pistols, single		United Kingdom	No.	quantity_home_consumption	4	4	country	source row 4
+140	bb1904:p666:t1	1904	666	U 42	import	III. — Manufactured Articles	(3) Other	Explosives— Fireworks	Foreign Countries	China	cwt.	quantity_total	635	635	country	source row 58; unit from ditto
+141	bb1904:p667:t1	1904	667	U 43	import	III.—Manufactured Articles	(3) Other	Furniture	Foreign Countries	U. S. of America		value_total_rs	520	520	country	source row 64; unit from ditto
+142	bb1904:p672:t1	1904	672	U 48	import	III.—Manufactured Articles	(3) Other	Machinery— Other— Free	Foreign Countries	Germany		value_total_rs	28427	28427	country	source row 9; unit from ditto
+143	bb1904:p676:t1	1904	676	U 52	import	III.—Manufactured Articles	(3) Other	Photographic Materials			cases	quantity_total	209	209	article_total	source row 62; unlabelled row of figures read as the article total
+144	bb1904:p676:t1	1904	676	U 52	import	III.—Manufactured Articles	(3) Other	Pasteboard			pieces	quantity_total	21036	21036	article_total	source row 34; unlabelled row of figures read as the article total
+145	bb1904:p676:t1	1904	676	U 52	import	III.—Manufactured Articles	(3) Other	Pictures	British Colonies	British India	No.	quantity_home_consumption	16262	16262	country	source row 65; unit from ditto
+146	bb1904:p676:t1	1904	676	U 52	import	III.—Manufactured Articles	(3) Other	Pictures		United Kingdom	No.	quantity_total	13911	13911	country	source row 63
+147	bb1904:p681:t1	1904	681	U 57	import	III.—Manufactured Articles	(3) Other	Unenumerated— Free	Foreign Countries	Holland	No.	quantity_home_consumption	23	23	country	source row 41; unit from ditto
+148	bb1904:p681:t1	1904	681	U 57	import	IV.—Bullion and Coin		Silver— Coin	British Colonies	Straits Settlements		quantity_total	130	130	country	source row 70; unit from ditto
+149	bb1904:p686:t1	1904	686	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Plantation	Foreign Countries	Japan	cwt.	quantity_other_produce	—		country	source row 63; unit from ditto
+150	bb1904:p686:t1	1904	686	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	Queensland		value_other_produce_rs	—		country	source row 52; unit from ditto
+151	bb1904:p686:t1	1904	686	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Native		Belgium		quantity_ceylon_produce	13	13	country	source row 43; unit from ditto
+152	bb1904:p686:t1	1904	686	U 62	export	I.—	(2) Food and Drink	Coffee— Liberian		United Kingdom		value_ceylon_produce_rs	756	756	country	source row 66
+153	bb1904:p687:t1	1904	687	U 63	export	I.—	(2) Food and Drink	Fruit— Preserved	British Colonies	Other British Possessions in Asia		value_ceylon_produce_rs	—		country	source row 46; unit from ditto
+154	bb1904:p688:t1	1904	688	U 64	export	I.—	(2) Food and Drink	Spices— Cardamoms	British Colonies	Zanzibar		value_ceylon_produce_rs	375	375	country	source row 30; unit from ditto
+155	bb1904:p688:t1	1904	688	U 64	export	I.—	(2) Food and Drink	Spices— Cinnamon, Plantation	Foreign Countries	India (exc. British)	cwt.	quantity_total	1	1	country	source row 64; unit from ditto
+156	bb1904:p690:t1	1904	690	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Tasmania	lb.	quantity_ceylon_produce	—		country	"source row 53; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+157	bb1904:p690:t1	1904	690	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Burma	lb.	quantity_ceylon_produce	—		country	"source row 36; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+158	bb1904:p690:t1	1904	690	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Maldiv Islands		value_total_rs	487	487	country	"source row 41; unit from ditto; heading uncertain: may belong under ""Sugar—"""
+159	bb1904:p690:t1	1904	690	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Germany		value_total_rs	415233	415233	country	"source row 65; unit from ditto; heading uncertain: may belong under ""Sugar—"""
+160	bb1904:p691:t1	1904	691	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Philippine Islands	lb.	quantity_ceylon_produce	—		country	"source row 15; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+161	bb1904:p691:t1	1904	691	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Turkey in Europe	lb.	quantity_ceylon_produce	—		country	"source row 24; unit from ditto; heading uncertain: may belong under ""Sugar—""; component green"
+162	bb1904:p691:t1	1904	691	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Mozambique	lb.	quantity_ceylon_produce	27095	27095	country	"source row 10; unit from ditto; heading uncertain: may belong under ""Sugar—""; component black"
+163	bb1904:p691:t1	1904	691	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Other For. Coun. in Australasia	lb.	quantity_ceylon_produce	2250	2250	country	"source row 13; unit from ditto; heading uncertain: may belong under ""Sugar—""; component black"
+164	bb1904:p694:t1	1904	694	U 70	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Horns— Sambur				value_other_produce_rs	—		article_total	source row 50; unlabelled row of figures read as the article total
+165	bb1904:p695:t1	1904	695		export	II.—Raw Materials	(8) Other (b) Miscellaneous	Plumbago	Foreign Countries	U. S. of America		value_total_rs	2570851	2570851	country	source row 45; unit from ditto
+166	bb1904:p695:t1	1904	695		export	II.—Raw Materials	(8) Other (b) Miscellaneous	Plumbago	Foreign Countries	India (exc. British)		value_ceylon_produce_rs	74	74	country	source row 40; unit from ditto
+167	bb1904:p697:t1	1904	697	U 73	export	II.—Raw Materials	(2) Other (c) Timber; un-worked	Teak	Foreign Countries	Egypt	tons	quantity_ceylon_produce	—		country	source row 43; unit from ditto
+168	bb1904:p697:t1	1904	697	U 73	export	II.—Raw Materials	(2) Other (c) Timber; un-worked	Teak			tons	quantity_total	31	31	article_total	source row 44; unlabelled row of figures read as the article total
+169	bb1904:p698:t1	1904	698	U 74	export	III.—Manufactured Articles	(1) Textile (a) Apparel, made up	Apparel, made up	British Colonies	Straits Settlements		value_total_rs	2525	2525	country	source row 10; unit from ditto
+170	bb1904:p700:t1	1904	700	U 76	export	III.—Manufactured Articles	(2) Of Metal (other than Machinery)	Iron— Drums and Tanks		British India	No.	quantity_total	77	77	country	source row 31
+171	bb1904:p700:t1	1904	700	U 76	export	III.—Manufactured Articles	(2) Of Metal (other than Machinery)	Hardware	Foreign Countries	Java		value_ceylon_produce_rs	—		country	source row 22; unit from ditto
+172	bb1904:p701:t1	1904	701	U 77	export	III.—Manufactured Articles	(3) Other	Books, printed			No.	quantity_ceylon_produce	6922	6922	article_total	source row 34; unlabelled row of figures read as the article total
+173	bb1904:p703:t1	1904	703	U 79	export	III.—Manufactured Articles	(3) Other	Coir— Yarn	Foreign Countries	Holland	cwt.	quantity_other_produce	—		country	source row 24; unit from ditto
+174	bb1904:p703:t1	1904	703	U 79	export	III.—Manufactured Articles	(3) Other	Coir— Yarn	Foreign Countries	Austria		value_total_rs	2743	2743	country	source row 18; unit from ditto
+175	bb1904:p705:t1	1904	705	U 81	export	III.—Manufactured Articles	(3) Other	Glass and Glassware	Foreign Countries	China	pkgs.	quantity_total	1	1	country	source row 22; unit from ditto
+176	bb1904:p707:t1	1904	707	U 83	export	III.—Manufactured Articles	(3) Other	Oil— Castor	British Colonies	British India	cwt.	quantity_ceylon_produce	—		country	source row 16
+177	bb1904:p709:t1	1904	709	U 85	export	III.—Manufactured Articles	(3) Other	Skins, dressed	Foreign Countries	Turkey in Asia	cwt.	quantity_total	132	132	country	source row 37; unit from ditto
+178	bb1904:p709:t1	1904	709	U 85	export	III.—Manufactured Articles	(3) Other	Stones, worked			No.	quantity_other_produce	3	3	article_total	source row 44; unlabelled row of figures read as the article total
+179	bb1904:p712:t1	1904	712	U 88	import	III.—Manufactured Articles	(1) Textile (a) Apparel, made up	Apparel, made up	British Colonies	British India	pkgs.	quantity_total	2	2	country	source row 24; unit from ditto; government stores imports
+180	bb1905:p650:t1	1905	650	U 7	import	I.—	(2) Food and Drink	Beef— Salted	Foreign Countries	U. S. of America		value_total_rs	644	644	country	source row 13; unit from ditto
+181	bb1905:p652:t1	1905	652	U 9	import	I.—	(2) Food and Drink	Curry Stuffs— Garlic				value_total_rs	106803	106803	article_total	source row 51; unlabelled row of figures read as the article total
+182	bb1905:p656:t1	1905	656	U 13	import	I.—	(2) Food and Drink	Grain— Oats	British Colonies	New Zealand		value_total_rs	2801	2801	country	source row 12; unit from ditto
+183	bb1905:p657:t1	1905	657	U 14	import	I.—	(2) Food and Drink	Milk, preserved		United Kingdom	4 doz.	quantity_total	520	520	country	source row 26
+184	bb1905:p657:t1	1905	657	U 14	import	I.—	(2) Food and Drink	Mutton		United Kingdom	cwt.	quantity_home_consumption	5	5	country	source row 13
+185	bb1905:p660:t1	1905	660	U 17	import	I.—	(2) Food and Drink	Sugar— Refined or candied	British Colonies	British India	cwt.	quantity_total	9174	9174	country	source row 34; unit from ditto
+186	bb1905:p661:t1	1905	661	U 18	import	I.—	(2) Food and Drink	Wines, still— Claret— In wood	British Colonies	Victoria		value_total_rs	5348	5348	country	source row 50; unit from ditto
+187	bb1905:p662:t1	1905	662	U 19	import	I.—	(2) Food and Drink	Wines, still— Other— In bottle	Foreign Countries	China	gals.	quantity_home_consumption	—		country	source row 61; unit from ditto
+188	bb1905:p663:t1	1905	663	U 20	import	I.—	(2) Food and Drink	Wines, still— Other— In wood	Foreign Countries	Egypt		value_total_rs	150	150	country	source row 13; unit from ditto
+189	bb1905:p663:t1	1905	663	U 20	import	I.—	(2) Food and Drink	Unenumerated— Dutiable	Foreign Countries	India (exc. British)	cwt.	quantity_total	63	63	country	source row 41; unit from ditto
+190	bb1905:p666:t1	1905	666	U 23	import	II.—Raw Materials	(2) Metal	Tin— Plates			cwt.	quantity_total	6494	6494	article_total	source row 17; unlabelled row of figures read as the article total
+191	bb1905:p671:t1	1905	671	U 28	import	II.—Raw Materials	(3) Other (c) Timber, unworked	Other	Foreign Countries	China	tons	quantity_total	—		country	source row 13; unit from ditto
+192	bb1905:p672:t1	1905	672	U 29	import	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Dyed	Foreign Countries	China	yds.	quantity_home_consumption	7463	7463	country	source row 8; unit from ditto
+193	bb1905:p679:t1	1905	679	U 36	import	III.—Manufactured Articles	(2) Metal other than Machinery	Plate— Electroplate	British Colonies	Victoria	No.	quantity_total	1	1	country	source row 33; unit from ditto
+194	bb1905:p679:t1	1905	679	U 36	import	III.—Manufactured Articles	(2) Metal other than Machinery	Plate— Silver or Silver gilt	Foreign Countries	India (exc. British)	No.	quantity_home_consumption	4	4	country	source row 26; unit from ditto
+195	bb1905:p681:t1	1905	681	U 38	import	III.—Manufactured Articles	(3) Other	Arms— Rifles— Double		United Kingdom	No.	quantity_home_consumption	7	7	country	source row 25
+196	bb1905:p681:t1	1905	681	U 38	import	III.—Manufactured Articles	(3) Other	Arms— Rifles— Magazine	Foreign Countries	Germany	No.	quantity_total	1	1	country	source row 31; unit from ditto
+197	bb1905:p682:t1	1905	682	U 39	import	III.—Manufactured Articles	(3) Other	Books	British Colonies	Burma	No.	quantity_total	55	55	country	source row 7; unit from ditto
+198	bb1905:p695:t1	1905	695	U 52	import	III.—Manufactured Articles	(3) Other	Pasteboard			pieces	quantity_home_consumption	28267	28267	article_total	source row 37; unlabelled row of figures read as the article total
+199	bb1905:p695:t1	1905	695	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Dutiable	Foreign Countries	Germany	reams	quantity_total	407	407	country	source row 15; unit from ditto
+200	bb1905:p695:t1	1905	695	U 52	import	III.—Manufactured Articles	(3) Other	Pictures	British Colonies	Victoria	No.	quantity_home_consumption	1	1	country	source row 67; unit from ditto
+201	bb1905:p695:t1	1905	695	U 52	import	III.—Manufactured Articles	(3) Other	Pasteboard			pieces	quantity_total	28267	28267	article_total	source row 37; unlabelled row of figures read as the article total
+202	bb1905:p695:t1	1905	695	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Free	Foreign Countries	Austria	reams	quantity_total	113	113	country	source row 26; unit from ditto
+203	bb1905:p698:t1	1905	698	U 55	import	III.—Manufactured Articles	(3) Other	Timber, worked	Foreign Countries	Siam	cwt.	quantity_home_consumption	200	200	country	source row 49; unit from ditto
+204	bb1905:p699:t1	1905	699	U 56	import	III.—Manufactured Articles	(3) Other	Watches	British Colonies	British India	No.	quantity_home_consumption	2170	2170	country	source row 43; unit from ditto
+205	bb1905:p699:t1	1905	699	U 56	import	III.—Manufactured Articles	(3) Other	Umbrellas	Foreign Countries	Japan	doz.	quantity_total	58	58	country	source row 31; unit from ditto
+206	bb1905:p700:t1	1905	700	U 57	import	III. — Manufactured Articles	(3) Other	Unenumerated— Free	Foreign Countries	France	No.	quantity_total	53	53	country	source row 40; unit from ditto
+207	bb1905:p705:t1	1905	705	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Plantation	British Colonies	Hong Kong		value_total_rs	3232	3232	country	source row 47; unit from ditto
+208	bb1905:p705:t1	1905	705	U 62	export	I.—	(2) Food and Drink	Cocoanut— Desiccated	Foreign Countries	France	cwt.	quantity_total	207	207	country	source row 7; unit from ditto
+209	bb1905:p705:t1	1905	705	U 62	export	I.—	(2) Food and Drink	Coffee— Arabian— Plantation			cwt.	quantity_ceylon_produce	5055	5055	article_total	source row 66; unlabelled row of figures read as the article total
+210	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Gibraltar	lb.	quantity_total	30821	30821	country	"source row 44; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name"
+211	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Canada	lb.	quantity_total	6446184	6446184	country	"source row 41; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name"
+212	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	New South Wales	lb.	quantity_ceylon_produce	9246516	9246516	country	"source row 51; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name; component black"
+213	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Egypt	lb.	quantity_ceylon_produce	—		country	"source row 72; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name; component green"
+214	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Aden	lb.	quantity_total	9508	9508	country	"source row 36; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name"
+215	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Denmark	lb.	quantity_ceylon_produce	—		country	"source row 71; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name; component green"
+216	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Belgium	lb.	quantity_total	77378	77378	country	"source row 66; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name"
+217	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Sugar— Refined or Candied	British Colonies	British India	cwt.	quantity_other_produce	15	15	country	source row 26; possible row shift after a wrapped country name
+218	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Zanzibar	lb.	quantity_ceylon_produce	29359	29359	country	"source row 62; reassociated figures after a wrapped country name; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name; component black"
+219	bb1905:p709:t1	1905	709	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Cochin China	lb.	quantity_total	200	200	country	"source row 70; unit from ditto; heading uncertain: may belong under ""Sugar—""; possible row shift after a wrapped country name"
+220	bb1905:p711:t1	1905	711	U 68	export	II.—Raw Materials	(3) Other (a) Chemical, Dyeing, and Tanning Materials	Arippo	British Colonies	British India	cwt.	quantity_ceylon_produce	757	757	country	source row 55
+221	bb1905:p713:t1	1905	713	U 70	export	11.—Raw Materials	(3) Other (b) Miscellaneous	Fibre— Coir	Foreign Countries	Mozambique		value_total_rs	1476	1476	country	source row 13; unit from ditto
+222	bb1905:p713:t1	1905	713	U 70	export	11.—Raw Materials	(3) Other (b) Miscellaneous	Fibre— Palmyra			cwt.	quantity_ceylon_produce	3555	3555	article_total	source row 32; unlabelled row of figures read as the article total
+223	bb1905:p714:t1	1905	714	U 71	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Plants and Roots	Foreign Countries	Other For. Coun. in Australasia	pkgs.	quantity_total	204	204	country	source row 27; unit from ditto
+224	bb1905:p714:t1	1905	714	U 71	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Plants and Roots	Foreign Countries	Germany	pkgs.	quantity_other_produce	1	1	country	source row 23; unit from ditto
+225	bb1905:p716:t1	1905	716	U 73	export	II.—Raw Materials	(3) Other (c) Timber, un-worked	Teak	British Colonies	British India	tons	quantity_ceylon_produce	—		country	source row 59
+226	bb1905:p716:t1	1905	716	U 73	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Unenumerated	British Colonies	South Australia	cwt.	quantity_other_produce	—		country	source row 15
+227	bb1905:p717:t1	1905	717	U 74	export	III.—Manufactured Articles	(1) Textile (a) Apparel, made up	Apparel, made up	British Colonies	Cape Colony		value_ceylon_produce_rs	—		country	source row 8; unit from ditto
+228	bb1905:p725:t1	1905	725	U 82	export	III.—Manufactured Articles	(3) Other	Machinery— Agricultural	Foreign Countries	Java	pkgs	quantity_ceylon_produce	—		country	source row 20; unit from ditto
+229	bb1905:p734:t1	1905	734	U 89	import	III.—Manufactured Articles	(2) Metal (other than Machinery)	Brass— Brass Ware			cwt.	quantity_home_consumption	174	174	article_total	source row 11; unlabelled row of figures read as the article total; government stores imports
+230	bb1906:p654:t1	1906	654	U 8	import	1.—	(2) Food and Drink	Cheese			cwt.	quantity_home_consumption	1237	1237	article_total	source row 43; unlabelled row of figures read as the article total
+231	bb1906:p655:t1	1906	655	U 9	import	1.—	(2) Food and Drink	Confectionery	British Colonies	British India		value_total_rs	1473	1473	country	source row 9
+232	bb1906:p657:t1	1906	657	U 11	import	1.—	(2) Food and Drink	Fruit, fresh— Apples	British Colonies	South Australia	cwt.	quantity_home_consumption	998	998	country	source row 19; unit from ditto
+233	bb1906:p659:t1	1906	659	U 13	import	1.—	(2) Food and Drink	Grain— Paddy	Foreign Countries	India (exc. British)	cwt.	quantity_total	141	141	country	source row 19
+234	bb1906:p663:t1	1906	663	U 17	import	1.—	(2) Food and Drink	Spirits— Whisky	British Colonies	Victoria	gals.	quantity_total	—		country	source row 13; unit from ditto
+235	bb1906:p665:t1	1906	665	U 19	import	1.—	(2) Food and Drink	Wines, still— Port— In bottle	British Colonies	British India	gals.	quantity_total	1	1	country	source row 22; unit from ditto
+236	bb1906:p665:t1	1906	665	U 19	import	1.—	(2) Food and Drink	Wines, still— Hock— In bottle	Foreign Countries	Holland	gals.	quantity_home_consumption	121	121	country	source row 12; unit from ditto
+237	bb1906:p665:t1	1906	665	U 19	import	1.—	(2) Food and Drink	Wines, still— Hock— In bottle	Foreign Countries	Holland	gals.	quantity_total	121	121	country	source row 12; unit from ditto
+238	bb1906:p675:t1	1906	675	U 29	import	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Other		Straits Settlements	doz.	quantity_total	3	3	country	source row 48; second unit line of the same country; braced unit line
+239	bb1906:p676:t1	1906	676	U 30	import	III.—Manufactured Articles	(1) Textile (c) Linen	Piece Goods	Foreign Countries	France	yds.	quantity_home_consumption	9	9	country	source row 45; unit from ditto
+240	bb1906:p677:t1	1906	677	U 31	import	III.—Manufactured Articles	(1) Textile (d) Silk and Satin	Handkerchiefs, Scarves, and Shawls	British Colonies	Hong Kong	doz.	quantity_home_consumption	6	6	country	source row 8; unit from ditto
+241	bb1906:p678:t1	1906	678	U 32	import	I.—Manufactured Articles	(1) Textile (e) Woollen	Flannel	Foreign Countries	Germany		value_total_rs	16844	16844	country	source row 33; unit from ditto
+242	bb1906:p684:t1	1906	684	U 38	import	III.—Manufactured Articles	(3) Other	Arms— Rifles— Double		United Kingdom	No.	quantity_home_consumption	6	6	country	source row 23
+243	bb1906:p685:t1	1906	685	U 39	import	III.—Manufactured Articles	(3) Other	Bran	British Colonies	Burma	cwt.	quantity_total	25	25	country	source row 28; unit from ditto
+244	bb1906:p686:t1	1906	686	U 40	import	III.—Manufactured Articles	(3) Other	Casks and Shooks	Foreign Countries	China	No.	quantity_home_consumption	32	32	country	source row 52; unit from ditto
+245	bb1906:p687:t1	1906	687	U 41	import	III.—Manufactured Articles	(3) Other	Chinaware	Foreign Countries	U. S. of America	cwt.	quantity_home_consumption	5	5	country	source row 36; unit from ditto
+246	bb1906:p688:t1	1906	688	U 42	import	III.—Manufactured Articles	(3) Other	Explosives— Fireworks	British Colonies	British India		value_total_rs	180	180	country	source row 59; unit from ditto
+247	bb1906:p689:t1	1906	689	U 43	import	III.—Manufactured Articles	(3) Other	Explosives— Gunpowder, coarse (Blasting)			cwt.	quantity_total	1243	1243	article_total	source row 11; unlabelled row of figures read as the article total
+248	bb1906:p691:t1	1906	691	U 45	import	III.—Manufactured Articles	(3) Other	Instruments— Musical	Foreign Countries	Germany		value_total_rs	7205	7205	country	source row 34; unit from ditto
+249	bb1906:p692:t1	1906	692	U 46	import	III.—Manufactured Articles	(3) Other	Leather Articles— Harness and Saddlery	British Colonies	New South Wales	cases	quantity_total	3	3	country	source row 51; unit from ditto
+250	bb1906:p693:t1	1906	693	U 47	import	III.—Manufactured Articles	(3) Other	Machinery— Sewing Machines	Foreign Countries	Germany	cwt.	quantity_home_consumption	121	121	country	source row 34; unit from ditto
+251	bb1906:p695:t1	1906	695	U 49	import	III.—Manufactured Articles	(3) Other	Natural History Specimens				value_total_rs	759	759	article_total	source row 45; unlabelled row of figures read as the article total
+252	bb1906:p697:t1	1906	697	U 51	import	III.—Manufactured Articles	(3) Other	Painters' Colours	Foreign Countries	Holland	cwt.	quantity_total	—		country	source row 32; unit from ditto
+253	bb1906:p698:t1	1906	698	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Free	Foreign Countries	France	reams	quantity_home_consumption	12	12	country	source row 21; unit from ditto
+254	bb1906:p698:t1	1906	698	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Dutiable	Foreign Countries	Japan	reams	quantity_total	611	611	country	source row 14; unit from ditto
+255	bb1906:p698:t1	1906	698	U 52	import	III.—Manufactured Articles	(3) Other	Paper— Free	Foreign Countries	Germany	reams	quantity_total	3591	3591	country	source row 22; unit from ditto
+256	bb1906:p698:t1	1906	698	U 52	import	III.—Manufactured Articles	(3) Other	Photographic Materials	Foreign Countries	Austria	cases	quantity_home_consumption	1	1	country	source row 46; unit from ditto
+257	bb1906:p699:t1	1906	699	U 53	import	III.—Manufactured Articles	(3) Other	Stores— Railway Plant and Rolling Stock— Sleepers and Keys	British Colonies	British India	No.	quantity_home_consumption	10	10	country	source row 38
+258	bb1906:p701:t1	1906	701	U 55	import	III.—Manufactured Articles	(3) Other	Tallow and Stearine		United Kingdom	cwt.	quantity_total	319	319	country	source row 12
+259	bb1906:p703:t1	1906	703	U 57	import	III. —Manufactured Articles	(3) Other	Unenumerated— Free	British Colonies	Burma		value_total_rs	230	230	country	source row 24; unit from ditto
+260	bb1906:p710:t1	1906	710	U 64	export	I.—	(2) Food and Drink	Spices— Cardamoms	British Colonies	Maldiv Islands	cwt.	quantity_ceylon_produce	3	3	country	source row 30; unit from ditto
+261	bb1906:p710:t1	1906	710	U 64	export	I.—	(2) Food and Drink	Spices— Cardamoms	British Colonies	Zanzibar	cwt.	quantity_total	8	8	country	source row 32; unit from ditto
+262	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Gibraltar	lb.	quantity_other_produce	—		country	source row 31; unit from ditto; possible row shift after a wrapped country name
+263	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Other British Possessions in Africa	lb.	quantity_ceylon_produce	103613	103613	country	source row 41; joined wrapped country name; unit from ditto; possible row shift after a wrapped country name; component black
+264	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	South Australia	lb.	quantity_ceylon_produce	—		country	source row 48; unit from ditto; possible row shift after a wrapped country name; component green
+265	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Belgium	lb.	quantity_ceylon_produce	—		country	source row 57; unit from ditto; possible row shift after a wrapped country name; component green
+266	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Queensland	lb.	quantity_ceylon_produce	—		country	source row 47; unit from ditto; possible row shift after a wrapped country name; component green
+267	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	British Colonies	Victoria		value_total_rs	2899951	2899951	country	source row 51; unit from ditto; possible row shift after a wrapped country name
+268	bb1906:p712:t1	1906	712	U 66	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Germany		value_total_rs	440504	440504	country	source row 65; unit from ditto; possible row shift after a wrapped country name
+269	bb1906:p713:t1	1906	713	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Norway	lb.	quantity_ceylon_produce	10446	10446	country	source row 11; unit from ditto; possible row shift after a wrapped country name; component black
+270	bb1906:p713:t1	1906	713	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	South America	lb.	quantity_ceylon_produce	—		country	source row 21; unit from ditto; possible row shift after a wrapped country name; component green
+271	bb1906:p713:t1	1906	713	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Madagascar	lb.	quantity_total	27114	27114	country	source row 9; unit from ditto; possible row shift after a wrapped country name
+272	bb1906:p713:t1	1906	713	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Holland	lb.	quantity_total	90117	90117	country	source row 5; unit from ditto; possible row shift after a wrapped country name
+273	bb1906:p713:t1	1906	713	U 67	export	I.—	(2) Food and Drink	Tea	Foreign Countries	Japan		value_ceylon_produce_rs	55017	55017	country	source row 8; unit from ditto; possible row shift after a wrapped country name
+274	bb1906:p716:t1	1906	716	U 70	export	II.—Raw Materials	(6) Miscellaneous	Fibre— Coir	Foreign Countries	Belgium		value_other_produce_rs	—		country	source row 4; unit from ditto
+275	bb1906:p718:t1	1906	718	U 72	export	II.—Raw Materials	(3) Other (b) Miscellaneous	Seeds— Rubber	Foreign Countries	Austria	cwt.	quantity_ceylon_produce	—		country	source row 6
+276	bb1906:p720:t1	1906	720	U 74	export	III.—Manufactured Articles	(1) Textile (b) Cotton	Piece Goods— Bleached	British Colonies	Maldiv Islands		value_total_rs	160	160	country	source row 49; unit from ditto
+277	bb1906:p730:t1	1906	730	U 84	export	III.—Manufactured Articles	(3) Other	Oil— Other	Foreign Countries	U.S. of America		value_ceylon_produce_rs	1200	1200	country	source row 25; unit from ditto
+278	bb1906:p731:t1	1906	731	U 85	export	III.—Manufactured Articles	(3) Other	Skins, dressed	Foreign Countries	China	cwt.	quantity_other_produce	—		country	source row 28; unit from ditto
+279	bb1906:p732:t1	1906	732	U 86	export	III.—Manufactured Articles	(3) Other	Unenumerated	British Colonies	Other British Possessions in Asia		value_other_produce_rs	1326	1326	country	source row 20; unit from ditto

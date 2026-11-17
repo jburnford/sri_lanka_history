@@ -1,0 +1,241 @@
+table_id	pdf_page	flow	article_as_printed	country_as_printed	measure	value_as_printed	verdict	what_the_page_shows	comment
+bb1901:p571:t1	571	import	Beef— Salted	United Kingdom	value_total_rs	9286	ok	as in file	
+bb1901:p571:t1	571	import	Beef— Salted	Queensland	quantity_total	3	ok	as in file	
+bb1901:p571:t1	571	import	Beef— Tinned	New South Wales	value_total_rs	1497	ok	as in file	
+bb1901:p571:t1	571	import	Beef— Tinned		quantity_total	105526	ok	as in file	
+bb1901:p571:t1	571	import	Beer and Ale— Bottled	United Kingdom	value_total_rs	127427	ok	as in file	
+bb1901:p571:t1	571	import	Beer and Ale— Bottled	British India	value_total_rs	20	ok	as in file	
+bb1901:p571:t1	571	import	Beer and Ale— Bottled	France	value_total_rs	1256	ok	as in file	
+bb1901:p571:t1	571	import	Beer and Ale— In wood		quantity_home_consumption	220765	ok	as in file	
+bb1901:p585:t1	585	import	Other	Straits Settlements	quantity_total	25	wrong_article	Tobacco manufactured—contd. / Other	"sub-entry heading lost at top of a continuation page; file has bare ""Other""; figure and country correct"
+bb1901:p585:t1	585	import	Other	Straits Settlements	value_total_rs	26	wrong_article	Tobacco manufactured—contd. / Other	"sub-entry heading lost at top of a continuation page; file has bare ""Other""; figure and country correct"
+bb1901:p585:t1	585	import	Other	Egypt	value_total_rs	471	wrong_article	Tobacco manufactured—contd. / Other	"sub-entry heading lost at top of a continuation page; file has bare ""Other""; figure and country correct"
+bb1901:p585:t1	585	import	Tobacco, unmanufactured	Germany	value_total_rs	40	ok	as in file	
+bb1901:p585:t1	585	import	Hemp	British India	quantity_total	10	ok	as in file	
+bb1901:p585:t1	585	import	Brass sheets	British India	quantity_total	159	ok	as in file	
+bb1901:p585:t1	585	import	Brass sheets		quantity_total	353	cannot_tell	"damaged type ""3?3"" (reads 353/393); countries add to 396 and home-consumption total is 396"	file 353; printed digit not legible, probably 396
+bb1901:p585:t1	585	import	Brass sheets		value_total_rs	20034	ok	as in file	
+bb1901:p635:t1	635	export	Tea — contd	Greece	value_ceylon_produce_rs	938	ok	as in file	Tea quantity of Ceylon produce is printed in two sub-columns Black/Green on this page; these four rows have no Green figure
+bb1901:p635:t1	635	export	Tea — contd	Japan	quantity_ceylon_produce	14243	ok	as in file	Tea quantity of Ceylon produce is printed in two sub-columns Black/Green on this page; these four rows have no Green figure
+bb1901:p635:t1	635	export	Tea — contd	Philippines	quantity_ceylon_produce	6434	ok	as in file	Tea quantity of Ceylon produce is printed in two sub-columns Black/Green on this page; these four rows have no Green figure
+bb1901:p635:t1	635	export	Tea — contd	Sumatra	value_total_rs	7	ok	as in file	Tea quantity of Ceylon produce is printed in two sub-columns Black/Green on this page; these four rows have no Green figure
+bb1901:p635:t1	635	export	Unenumerated	Germany	quantity_total	12	ok	as in file	
+bb1901:p635:t1	635	export	Unenumerated	India (exc. British)	value_other_produce_rs	—	ok	as in file	
+bb1901:p635:t1	635	export	Cigars	British India	quantity_other_produce	240	ok	Tobacco, manufactured— / Cigars	heading sits in group_as_printed, not in the article
+bb1901:p635:t1	635	export	Cigars		value_total_rs	911	ok	Tobacco, manufactured— / Cigars	heading sits in group_as_printed, not in the article
+bb1901:p638:t1	638	export	Fibre— Coir	Straits Settlements	quantity_ceylon_produce	1156	ok	as in file	
+bb1901:p638:t1	638	export	Fibre— Coir	Straits Settlements	value_ceylon_produce_rs	6589	ok	as in file	
+bb1901:p638:t1	638	export	Fibre— Coir	Tasmania	quantity_total	18	ok	as in file	
+bb1901:p638:t1	638	export	Fibre— Coir	Victoria	quantity_other_produce	—	ok	as in file	
+bb1901:p638:t1	638	export	Fibre— Coir	Austria	value_other_produce_rs	—	ok	as in file	
+bb1901:p638:t1	638	export	Fibre— Coir	New Caledonia	value_ceylon_produce_rs	456	ok	as in file	
+bb1901:p638:t1	638	export	Natural History— Specimens	Austria	value_other_produce_rs	—	ok	Natural History Specimens (name wrapped over two lines, no dash printed)	"file writes ""Natural History— Specimens"": dash is not on the page"
+bb1901:p638:t1	638	export	Natural History— Specimens		quantity_other_produce	4	ok	Natural History Specimens (name wrapped over two lines, no dash printed)	"file writes ""Natural History— Specimens"": dash is not on the page"
+bb1901:p639:t1	639	export	Miscellaneous Plants and Roots		value_ceylon_produce_rs	280	wrong_country	"figures 3/—/3/280/—/280 stand on the ""For. Coun.—"" line with no country name; the article total is 331/24/355/5257/4800/10057"	"not the article total: a country line whose name was not printed (values add to 5257 only with it). Article is ""Plants and Roots""; file says ""Miscellaneous Plants and Roots"""
+bb1901:p639:t1	639	export	Plumbago	Burma	quantity_total	117	ok	as in file	"group_as_printed wrongly carries ""Plants and Roots"""
+bb1901:p639:t1	639	export	Plumbago	Canada	quantity_total	297	ok	as in file	"group_as_printed wrongly carries ""Plants and Roots"""
+bb1901:p639:t1	639	export	Plumbago	Austria	quantity_other_produce	—	ok	as in file	"group_as_printed wrongly carries ""Plants and Roots"""
+bb1901:p639:t1	639	export	Plumbago	Belgium	quantity_ceylon_produce	26808	ok	as in file	"group_as_printed wrongly carries ""Plants and Roots"""
+bb1901:p639:t1	639	export	Gingelly	India (exc. British)	quantity_total	166	wrong_article	Seeds— / Gingelly	"heading ""Seeds—"" lost (OCR put it on the same row as ""Br. Col.—""); figure correct"
+bb1901:p639:t1	639	export	Gingelly	India (exc. British)	value_total_rs	1093	wrong_article	Seeds— / Gingelly	"heading ""Seeds—"" lost (OCR put it on the same row as ""Br. Col.—""); figure correct"
+bb1901:p639:t1	639	export	Tea	Java	quantity_total	56	wrong_article	Seeds— / Tea (tea seed, cwt.)	"file article is bare ""Tea""; heading ""Seeds—"" lost; figure correct"
+bb1902:p594:t1	594	import	Tamarind		quantity_total	31204	wrong_unit	cwt.; total 31204; Curry Stuffs—contd. / Tamarind	"block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file; heading ""Curry Stuffs—"" also dropped"
+bb1902:p594:t1	594	import	Tamarind		value_total_rs	124823	ok	as in file	"heading ""Curry Stuffs—"" dropped (name still identifies the article)"
+bb1902:p594:t1	594	import	Turmeric		value_total_rs	100287	ok	as in file	"heading ""Curry Stuffs—"" dropped (name still identifies the article)"
+bb1902:p594:t1	594	import	Eggs		quantity_total	487000	wrong_unit	No.; total 487000	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1902:p594:t1	594	import	Fish— Cured or salted		quantity_total	287879	wrong_value	237879	OCR digit 3->8 (countries add to 237879)
+bb1902:p594:t1	594	import	Fish— Cured or salted		quantity_home_consumption	287879	wrong_value	237879	OCR digit 3->8; unit cell is also garbage
+bb1902:p594:t1	594	import	Fish— Cured or salted		value_total_rs	1766524	ok	as in file	
+bb1902:p594:t1	594	import	Tinned		quantity_total	169348	wrong_article	Fish— / Tinned; lb.; total 169348	"heading ""Fish—"" lost; unit cell garbage; figure correct"
+bb1902:p602:t1	602	import	Wines, sparkling— Champagne	British India	quantity_total	1	ok	as in file	
+bb1902:p602:t1	602	import	Burgundy— In bottle	France	quantity_home_consumption	71	ok	Wines, still— / Burgundy— / In bottle	"top-level heading ""Wines, still—"" dropped; figure correct"
+bb1902:p602:t1	602	import	Claret— In bottle	British India	quantity_total	6	ok	as in file	
+bb1902:p602:t1	602	import	Claret— In bottle	Germany	quantity_total	22	ok	as in file	
+bb1902:p602:t1	602	import	Claret— In bottle		value_total_rs	9838	ok	as in file	
+bb1902:p602:t1	602	import	Claret— In wood	Spain	quantity_home_consumption	580	ok	as in file	
+bb1902:p602:t1	602	import	Ginger Wine— In bottle	United Kingdom	value_total_rs	2675	ok	as in file	
+bb1902:p602:t1	602	import	Ginger Wine— In bottle		quantity_home_consumption	548	ok	as in file	
+bb1902:p630:t1	630	import	Lamps	United Kingdom	quantity_total	24160	ok	as in file	
+bb1902:p630:t1	630	import	Leather— Dressed	France	quantity_total	—	ok	as in file	
+bb1902:p630:t1	630	import	Leather— Dressed	U. S. of America	quantity_total	2	ok	as in file	
+bb1902:p630:t1	630	import	Leather— Dressed		value_total_rs	21916	ok	as in file	
+bb1902:p630:t1	630	import	Goat and Sheep Skins		value_total_rs	18534	ok	Leather— / Goat and Sheep Skins	"heading ""Leather—"" dropped (name still identifies the article)"
+bb1902:p630:t1	630	import	Leather Articles— Boots and Shoes	China	value_total_rs	50	ok	as in file	
+bb1902:p630:t1	630	import	Leather Articles— Boots and Shoes	France	value_total_rs	2974	ok	as in file	
+bb1902:p630:t1	630	import	Leather Articles— Boots and Shoes	Japan	quantity_total	266	ok	as in file	
+bb1902:p657:t1	657	export	Ebony	France	quantity_other_produce	—	ok	as in file	
+bb1902:p657:t1	657	export	Ebony	Holland	quantity_total	180	ok	as in file	
+bb1902:p657:t1	657	export	Ebony	Holland	value_ceylon_produce_rs	20649	ok	as in file	
+bb1902:p657:t1	657	export	Ebony		quantity_total	679	ok	as in file	
+bb1902:p657:t1	657	export	III.— Manufactured Articles. (1) Textile. (a) Apparel, made up	Aden	quantity_other_produce	3	wrong_article	III.—Manufactured Articles. (1) Textile. (a) Apparel, made up	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). class and group headings swallowed into the article name; class/group columns still say II Raw Materials / Timber
+bb1902:p657:t1	657	export	III.— Manufactured Articles. (1) Textile. (a) Apparel, made up	Hongkong	value_ceylon_produce_rs	—	wrong_article	III.—Manufactured Articles. (1) Textile. (a) Apparel, made up	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). class and group headings swallowed into the article name; class/group columns still say II Raw Materials / Timber
+bb1902:p657:t1	657	export	III.— Manufactured Articles. (1) Textile. (a) Apparel, made up	Other British Possessions in Asia	value_total_rs	60	wrong_article	III.—Manufactured Articles. (1) Textile. (a) Apparel, made up	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). class and group headings swallowed into the article name; class/group columns still say II Raw Materials / Timber
+bb1902:p657:t1	657	export	III.— Manufactured Articles. (1) Textile. (a) Apparel, made up	South Australia	quantity_ceylon_produce	—	wrong_article	III.—Manufactured Articles. (1) Textile. (a) Apparel, made up	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). class and group headings swallowed into the article name; class/group columns still say II Raw Materials / Timber
+bb1902:p666:t1	666	export	III.— Manufactured (3) Other—contd. Jewellery	Java	quantity_other_produce	—	wrong_article	Jewellery	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). page-top headings ""III.—Manufactured (3) Other—contd."" merged into the article name"
+bb1902:p666:t1	666	export	III.— Manufactured (3) Other—contd. Jewellery	Mozambique	value_total_rs	1500	wrong_article	Jewellery	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). page-top headings ""III.—Manufactured (3) Other—contd."" merged into the article name"
+bb1902:p666:t1	666	export	Machinery— Agricultural	British India	quantity_other_produce	128	ok	as in file	
+bb1902:p666:t1	666	export	Machinery— Agricultural		value_total_rs	43799	wrong_value	43999	OCR digit 9->7 (the same OCR row also has 33618 for printed 33818)
+bb1902:p666:t1	666	export	Other	British India	quantity_total	115	wrong_article	Machinery— / Other	"heading lost; bare ""Other""; figure correct"
+bb1902:p666:t1	666	export	Marine Stores		quantity_ceylon_produce	199	ok	as in file	
+bb1902:p666:t1	666	export	Military and Naval Stores	United Kingdom	quantity_other_produce	111	ok	as in file	
+bb1902:p666:t1	666	export	Military and Naval Stores	Aden	quantity_total	9	wrong_value	2 (other produce 2, total 2)	OCR read 9 for 2
+bb1903:p644:t1	644	import	Other		quantity_total	637	ok	as in file	
+bb1903:p644:t1	644	import	Apparel, made up	Hongkong	quantity_total	7	ok	as in file	
+bb1903:p644:t1	644	import	Apparel, made up	New South Wales	value_total_rs	61	ok	as in file	
+bb1903:p644:t1	644	import	Apparel, made up	Switzerland	quantity_total	5	ok	as in file	
+bb1903:p644:t1	644	import	Piece Goods— Bleached	United Kingdom	quantity_home_consumption	6573434	ok	as in file	
+bb1903:p644:t1	644	import	Piece Goods— Bleached	India (exc. British)	value_total_rs	75	ok	as in file	
+bb1903:p644:t1	644	import	Piece Goods— Bleached	Switzerland	quantity_total	—	ok	as in file	
+bb1903:p644:t1	644	import	Piece Goods— Bleached		quantity_total	7214740	ok	as in file	
+bb1903:p656:t1	656	import	Candles	United Kingdom	quantity_home_consumption	1145	ok	as in file	
+bb1903:p656:t1	656	import	Candles	British India	quantity_home_consumption	50	ok	as in file	
+bb1903:p656:t1	656	import	Candles	Germany	quantity_total	—	ok	as in file	
+bb1903:p656:t1	656	import	Candles		quantity_total	1512	ok	as in file	
+bb1903:p656:t1	656	import	Cards, Playing	Belgium	value_total_rs	24083	ok	as in file	
+bb1903:p656:t1	656	import	Casks and Shooks	Straits Settlements	quantity_total	1171	ok	as in file	
+bb1903:p656:t1	656	import	Cement	Austria	value_total_rs	12523	ok	as in file	
+bb1903:p656:t1	656	import	Cement		quantity_total	102005	ok	as in file	
+bb1903:p688:t1	688	export	Shells— Skins, undressed	India (exc. British)	value_other_produce_rs	—	wrong_article	Skins, undressed (separate article)	"stale heading ""Shells—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Coral		value_ceylon_produce_rs	541	ok	as in file	
+bb1903:p688:t1	688	export	Stones— Tortoise shell	Straits Settlements	quantity_total	102	wrong_article	Tortoise shell (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Tortoise shell	Straits Settlements	value_total_rs	95	wrong_article	Tortoise shell (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Tortoise shell	France	quantity_other_produce	448	wrong_article	Tortoise shell (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Tortoise shell		value_other_produce_rs	5625	wrong_article	Tortoise shell (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Unenumerated	United Kingdom	value_ceylon_produce_rs	3925	wrong_article	Unenumerated (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p688:t1	688	export	Stones— Unenumerated	Victoria	value_ceylon_produce_rs	200	wrong_article	Unenumerated (separate article)	"stale heading ""Stones—"" wrongly kept; figure correct"
+bb1903:p690:t1	690	export	Apparel, made up	Other British Possessions in Asia pkgs	value_other_produce_rs	220	wrong_country	Other British Possessions in Asia	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). unit ""pkgs"" fused into the country name"
+bb1903:p690:t1	690	export	Apparel, made up	Belgium	quantity_ceylon_produce	2	ok	as in file	
+bb1903:p690:t1	690	export	Apparel, made up	China	value_total_rs	400	ok	as in file	
+bb1903:p690:t1	690	export	Apparel, made up	France	quantity_total	1	ok	as in file	
+bb1903:p690:t1	690	export	Apparel, made up		quantity_other_produce	834	ok	as in file	
+bb1903:p690:t1	690	export	Apparel, made up		value_total_rs	84798	ok	as in file	
+bb1903:p690:t1	690	export	Cotton	Hongkong	value_total_rs	300	wrong_article	(b) Cotton— / Lace and Net	"article named ""Cotton"" from the group heading; the printed article is Lace and Net; figure correct"
+bb1903:p690:t1	690	export	Cotton		value_total_rs	560	wrong_article	(b) Cotton— / Lace and Net	"article named ""Cotton"" from the group heading; the printed article is Lace and Net; figure correct"
+bb1903:p695:t1	695	export	Articles— Yarn	United Kingdom	value_total_rs	646117	wrong_article	Coir— (previous page) / Yarn	"""Articles—"" is the tail of the class heading ""III.—Manufactured Articles—contd."", taken as a sub-entry heading; real heading Coir— lost; figure correct"
+bb1903:p695:t1	695	export	Articles— Yarn	British India	quantity_ceylon_produce	1256	wrong_article	Coir— (previous page) / Yarn	"""Articles—"" is the tail of the class heading ""III.—Manufactured Articles—contd."", taken as a sub-entry heading; real heading Coir— lost; figure correct"
+bb1903:p695:t1	695	export	Articles— Yarn	New South Wales	value_other_produce_rs	—	wrong_article	Coir— (previous page) / Yarn	"""Articles—"" is the tail of the class heading ""III.—Manufactured Articles—contd."", taken as a sub-entry heading; real heading Coir— lost; figure correct"
+bb1903:p695:t1	695	export	Articles— Yarn	Belgium	quantity_other_produce	—	wrong_article	Coir— (previous page) / Yarn	"""Articles—"" is the tail of the class heading ""III.—Manufactured Articles—contd."", taken as a sub-entry heading; real heading Coir— lost; figure correct"
+bb1903:p695:t1	695	export	Articles— Yarn	Belgium	quantity_total	1794	wrong_article	Coir— (previous page) / Yarn	"""Articles—"" is the tail of the class heading ""III.—Manufactured Articles—contd."", taken as a sub-entry heading; real heading Coir— lost; figure correct"
+bb1903:p695:t1	695	export	Other	Egypt	value_other_produce_rs	—	wrong_article	Coir— / Other	"bare ""Other""; heading lost; figure correct"
+bb1903:p695:t1	695	export	Other		quantity_ceylon_produce	243	wrong_article	Coir— / Other	"bare ""Other""; heading lost; figure correct"
+bb1903:p695:t1	695	export	Copperah	Japan	value_total_rs	500	ok	as in file	
+bb1904:p631:t1	631	import	Beef— Tinned		quantity_total	33070	ok	as in file	
+bb1904:p631:t1	631	import	Beer and Ale— Bottled	Denmark	quantity_total	6110	ok	as in file	
+bb1904:p631:t1	631	import	Beer and Ale— Bottled	U. S. of America	value_total_rs	200	ok	as in file	
+bb1904:p631:t1	631	import	Beer and Ale— Bottled		quantity_total	83675	ok	as in file	
+bb1904:p631:t1	631	import	Beer and Ale— In wood	Germany	value_total_rs	3438	ok	as in file	
+bb1904:p631:t1	631	import	Beer and Ale— In wood	Italy	value_total_rs	163	ok	as in file	
+bb1904:p631:t1	631	import	Biscuits	British India	quantity_total	2416	ok	as in file	
+bb1904:p631:t1	631	import	Biscuits	New Zealand	quantity_total	120	ok	as in file	
+bb1904:p680:t1	680	import	Timber, worked		quantity_total	12691	wrong_unit	unit is cwt./cases/cwt./cwt./No. respectively; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1904:p680:t1	680	import	Timber, worked		value_total_rs	46141	ok	as in file	
+bb1904:p680:t1	680	import	Toys		quantity_home_consumption	954	wrong_unit	unit is cwt./cases/cwt./cwt./No. respectively; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1904:p680:t1	680	import	Varnish		quantity_total	519	wrong_unit	unit is cwt./cases/cwt./cwt./No. respectively; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1904:p680:t1	680	import	Varnish		quantity_home_consumption	519	wrong_unit	unit is cwt./cases/cwt./cwt./No. respectively; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1904:p680:t1	680	import	Varnish		value_total_rs	23253	ok	as in file	
+bb1904:p680:t1	680	import	Watches		quantity_home_consumption	8229	wrong_unit	unit is cwt./cases/cwt./cwt./No. respectively; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1904:p680:t1	680	import	Watches		value_total_rs	93070	ok	as in file	
+bb1904:p697:t1	697	export	Unenumerated	France	value_total_rs	50	ok	as in file	
+bb1904:p697:t1	697	export	Ebony	Hong Kong	quantity_other_produce	—	ok	as in file	
+bb1904:p697:t1	697	export	Ebony	Hong Kong	value_other_produce_rs	—	ok	as in file	
+bb1904:p697:t1	697	export	Ebony	Germany	value_other_produce_rs	—	ok	as in file	
+bb1904:p697:t1	697	export	Ebony		quantity_other_produce	—	ok	as in file	
+bb1904:p697:t1	697	export	Halmilla	India (exc. British)	value_other_produce_rs	—	ok	as in file	
+bb1904:p697:t1	697	export	Satin		quantity_total	856	ok	as in file	
+bb1904:p697:t1	697	export	Teak		value_total_rs	3175	ok	as in file	
+bb1904:p698:t1	698	export	Apparel, made up	Other British Possessions in Asia pkgs	value_total_rs	120	wrong_country	Other British Possessions in Asia	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). unit ""pkgs"" fused into the country name"
+bb1904:p698:t1	698	export	Apparel, made up	Fiji Islands	quantity_other_produce	31	ok	as in file	
+bb1904:p698:t1	698	export	Apparel, made up	France	quantity_ceylon_produce	12	ok	as in file	
+bb1904:p698:t1	698	export	Apparel, made up	Germany	value_total_rs	898	ok	as in file	
+bb1904:p698:t1	698	export	Apparel, made up	India (exc. British)	quantity_other_produce	1	ok	as in file	
+bb1904:p698:t1	698	export	Apparel, made up		quantity_total	886	ok	as in file	
+bb1904:p698:t1	698	export	Cotton	India (exc. British)	quantity_total	100	wrong_article	(b) Cotton— / Lace and Net	"article named ""Cotton"" from the group heading; figure correct"
+bb1904:p698:t1	698	export	Cotton		value_other_produce_rs	16	wrong_article	(b) Cotton— / Lace and Net	"article named ""Cotton"" from the group heading; figure correct"
+bb1904:p713:t1	713	import	Copperware	United Kingdom	quantity_home_consumption	31	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Gold Leaf	United Kingdom	quantity_total	4	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Lead— Leadware	United Kingdom	value_total_rs	54	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Zinc— Perforated	United Kingdom	quantity_total	2	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Zinc— Perforated	United Kingdom	quantity_home_consumption	2	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Rifles— Magazine	United Kingdom	quantity_total	2	ok	as in file	"page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Rifles— Books	United Kingdom	quantity_total	1082	wrong_article	Books (separate article)	"stale heading ""Rifles—"" wrongly kept; page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1904:p713:t1	713	import	Rifles— Books		quantity_total	1104	wrong_article	Books (separate article)	"stale heading ""Rifles—"" wrongly kept; page belongs to a separate table ""General Imports of Government Stores ... July to December 1904"", which the file does not distinguish from the general import ledger"
+bb1905:p681:t1	681	import	Arms— Pistols, single		quantity_total	8	ok	as in file	
+bb1905:p681:t1	681	import	Revolvers		value_total_rs	4267	ok	Arms—contd. / Revolvers	"heading ""Arms—"" dropped (name still identifies the article)"
+bb1905:p681:t1	681	import	Rifles— Single		quantity_total	76	wrong_unit	No.	unit blank in file
+bb1905:p681:t1	681	import	Rifles— Asphalt	United Kingdom	quantity_total	60	wrong_article	Asphalt (separate article)	"stale heading ""Rifles—"" wrongly kept; figure correct"
+bb1905:p681:t1	681	import	Rifles— Beads	France	value_total_rs	588	wrong_article	Beads (separate article)	"stale heading ""Rifles—"" wrongly kept; figure correct"
+bb1905:p681:t1	681	import	Rifles— Boats	Hong Kong	value_total_rs	573	wrong_article	Boats (separate article)	"stale heading ""Rifles—"" wrongly kept; figure correct"
+bb1905:p681:t1	681	import	Rifles— Boats	France	quantity_home_consumption	1	wrong_article	Boats (separate article)	"stale heading ""Rifles—"" wrongly kept; figure correct"
+bb1905:p681:t1	681	import	Rifles— Boats		quantity_total	23	wrong_article	Boats (separate article)	"stale heading ""Rifles—"" wrongly kept; figure correct"
+bb1905:p709:t1	709	export	Spirits— Whisky		value_total_rs	6732	ok	as in file	
+bb1905:p709:t1	709	export	Spirits— Other	Germany	quantity_other_produce	3	ok	as in file	
+bb1905:p709:t1	709	export	Refined or— Candied	British India	quantity_other_produce	15	wrong_article	Sugar— / Refined or Candied	"wrapped name ""Refined or / Candied"" split into heading ""Refined or—"" + ""Candied""; ""Sugar—"" lost; figure correct"
+bb1905:p709:t1	709	export	Refined or— Unrefined	British India	value_other_produce_rs	60	wrong_article	Sugar— / Unrefined	"file ""Refined or— Unrefined""; figure correct"
+bb1905:p709:t1	709	export	Tea	Aden	quantity_total	9508	ok	as in file	quantity_total is right, but on this page Black/Green sub-columns push Green into quantity_other_produce for the same countries (see report)
+bb1905:p709:t1	709	export	Tea	British East Africa	quantity_total	17617	ok	as in file	quantity_total is right, but on this page Black/Green sub-columns push Green into quantity_other_produce for the same countries (see report)
+bb1905:p709:t1	709	export	Tea	British India	quantity_total	2040292	ok	as in file	quantity_total is right, but on this page Black/Green sub-columns push Green into quantity_other_produce for the same countries (see report)
+bb1905:p709:t1	709	export	Tea	Straits Settlements	value_ceylon_produce_rs	26566	wrong_country	Straits Settlements value 126879; 26566 is Tasmania	"row shift: ""Other British Pos-/sessions in Africa|Asia"" each split into two country rows, so every later British colony carries the next country's figures"
+bb1905:p714:t1	714	export	Plants and Roots	Italy	value_ceylon_produce_rs	10	ok	as in file	
+bb1905:p714:t1	714	export	Plumbago		value_other_produce_rs	—	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Gingelly		value_total_rs	21650	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Rubber	United Kingdom	quantity_ceylon_produce	78	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Rubber	United Kingdom	value_ceylon_produce_rs	16250	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Rubber	Hong Kong	value_total_rs	155	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Rubber	Mauritius	quantity_total	3	ok	as in file	
+bb1905:p714:t1	714	export	Seeds— Rubber		quantity_total	759	ok	as in file	
+bb1905:p721:t1	721	export	III.— Bricks and Tiles	"Java """	value_other_produce_rs	37	wrong_article	Bricks and Tiles; country Java	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). ""III.—"" prefixed to the article; country has a stray ditto mark"
+bb1905:p721:t1	721	export	III.— Cable, Cordage, and Twine other than Coir		value_total_rs	7334	wrong_article	7334 is the total of Bricks and Tiles; the total of Cable, Cordage and Twine is 208	total row attached to the following article (its name shares the OCR row with the previous total)
+bb1905:p721:t1	721	export	III.— Carriages and Car- riages	United Kingdom	quantity_ceylon_produce	6	wrong_article	Carriages and Carts	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). file ""III.— Carriages and Car- riages"""
+bb1905:p721:t1	721	export	III.— Carriages and Car- riages	Other British Pos- sessions in Africa	quantity_ceylon_produce	36	wrong_article	Carriages and Carts	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). file ""III.— Carriages and Car- riages"""
+bb1905:p721:t1	721	export	III.— Carriages and Car- riages	Other British Pos- sessions in Asia	quantity_other_produce	4	wrong_article	Carriages and Carts	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). file ""III.— Carriages and Car- riages"""
+bb1905:p721:t1	721	export	III.— Carriages and Car- riages	China	quantity_ceylon_produce	—	wrong_article	Carriages and Carts	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). file ""III.— Carriages and Car- riages"""
+bb1905:p721:t1	721	export	III.— Coir— Matting	India (exc. British)	quantity_other_produce	—	wrong_article	Coir— / Matting	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). ""III.—"" prefixed"
+bb1905:p721:t1	721	export	III.— Rope	China	value_ceylon_produce_rs	1730	wrong_article	Coir— / Rope	"file ""III.— Rope"": heading Coir— lost, ""III.—"" prefixed; figure correct"
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Stationery, excluding Paper		quantity_total	269	wrong_article	separate article (Stationery / Stones, worked / Tallow and Stearine / Tar / Timber, worked)	"stale heading ""Railway Plant and Rolling Stock—"" wrongly kept; figure correct; page is in the second import table after the exports (Government Stores)"
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Stones, worked	United Kingdom	quantity_home_consumption	31	wrong_article	separate article (Stationery / Stones, worked / Tallow and Stearine / Tar / Timber, worked)	"stale heading ""Railway Plant and Rolling Stock—"" wrongly kept; figure correct; page is in the second import table after the exports (Government Stores)"
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Tallow and Stearine	United Kingdom	quantity_total	516	wrong_article	separate article (Stationery / Stones, worked / Tallow and Stearine / Tar / Timber, worked)	"stale heading ""Railway Plant and Rolling Stock—"" wrongly kept; figure correct; page is in the second import table after the exports (Government Stores)"
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Tar	United Kingdom	value_total_rs	4893	wrong_article	separate article (Stationery / Stones, worked / Tallow and Stearine / Tar / Timber, worked)	"stale heading ""Railway Plant and Rolling Stock—"" wrongly kept; figure correct; page is in the second import table after the exports (Government Stores)"
+bb1905:p737:t1	737	import	Railway Plant and Rolling Stock— Timber, worked	United Kingdom	quantity_total	15	wrong_article	separate article (Stationery / Stones, worked / Tallow and Stearine / Tar / Timber, worked)	"stale heading ""Railway Plant and Rolling Stock—"" wrongly kept; figure correct; page is in the second import table after the exports (Government Stores)"
+bb1905:p737:t1	737	import	Unenumerated— Durable	Austria	value_total_rs	250	ok	Unenumerated— / Dutiable	"file ""Durable"" is an OCR misreading of Dutiable"
+bb1905:p737:t1	737	import	Unenumerated— Durable		quantity_total	841	ok	Unenumerated— / Dutiable	"file ""Durable"" is an OCR misreading of Dutiable"
+bb1905:p737:t1	737	import	Free	Austria	value_total_rs	15	wrong_article	Unenumerated— / Free	"heading lost; bare ""Free""; figure correct"
+bb1906:p671:t1	671	import	Hair		quantity_home_consumption	—	ok	as in file	
+bb1906:p671:t1	671	import	Hay and Straw	United Kingdom	quantity_home_consumption	7	ok	as in file	
+bb1906:p671:t1	671	import	Hay and Straw	Russia in Europe	value_total_rs	50	ok	as in file	
+bb1906:p671:t1	671	import	Hay and Straw		quantity_home_consumption	11203	ok	as in file	
+bb1906:p671:t1	671	import	Lime and Clay	Straits Settlements	quantity_total	—	ok	as in file	
+bb1906:p671:t1	671	import	Lime and Clay		quantity_total	5303	ok	as in file	
+bb1906:p671:t1	671	import	Lime and Clay		value_total_rs	12710	ok	as in file	
+bb1906:p671:t1	671	import	Bone	India (exc. British)	value_total_rs	16165	wrong_article	Manure— / Bone	"heading lost; bare ""Bone""; figure correct"
+bb1906:p673:t1	673	import	Shells		quantity_total	1090	wrong_unit	cwt.; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1906:p673:t1	673	import	Shells		value_total_rs	5575	ok	as in file	
+bb1906:p673:t1	673	import	Stone— Coral	British India	quantity_total	1833	ok	as in file	
+bb1906:p673:t1	673	import	Stone— Coral	British India	value_total_rs	35495	ok	as in file	
+bb1906:p673:t1	673	import	Tortoise-shell		quantity_total	6032	wrong_unit	cwt.; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1906:p673:t1	673	import	Tortoise-shell		quantity_home_consumption	6032	wrong_unit	cwt.; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1906:p673:t1	673	import	Tortoise-shell		value_total_rs	46427	ok	as in file	
+bb1906:p673:t1	673	import	Unenumerated— Dutiable		quantity_total	5821	wrong_unit	cwt.; figure correct	block collapsed by OCR into one row: unit cell holds the whole country list; no country rows for this page in the file
+bb1906:p675:t1	675	import	Piece Goods— Dyed	Italy	value_total_rs	21516	ok	as in file	
+bb1906:p675:t1	675	import	Piece Goods— Dyed		quantity_total	12364921	ok	as in file	
+bb1906:p675:t1	675	import	Piece Goods— Gray	Straits Settlements	value_total_rs	1100	ok	as in file	
+bb1906:p675:t1	675	import	Piece Goods— Muslin		value_total_rs	42854	ok	as in file	
+bb1906:p675:t1	675	import	Piece Goods— Other	{ doz	quantity_home_consumption	730	wrong_country	Austria, doz., 730	"country written ""{ doz"" and unit ""{ yds."": the second (doz.) line of a braced yds./doz. pair is read as its own country"
+bb1906:p675:t1	675	import	Piece Goods— Other	Germany	quantity_home_consumption	23784	wrong_unit	yds.	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). unit written ""{ yds.""; for Germany the value sits on the following ""{ doz"" row"
+bb1906:p675:t1	675	import	Piece Goods— Other	Russia in Europe	value_total_rs	11573	ok	as in file	
+bb1906:p675:t1	675	import	Piece Goods— Other	Switzerland	quantity_home_consumption	—	wrong_unit	yds.	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). unit written ""{ yds.""; for Germany the value sits on the following ""{ doz"" row"
+bb1906:p716:t1	716	export	II.— Raw Materials (3) Other—contd. (6) Miscellaneous Fibre— Coir	—contd. —contd. —contd. —contd	quantity_total		not_on_page	"heading lines only (""—contd."")"	page-top headings read as a country row with an empty figure
+bb1906:p716:t1	716	export	II.— Raw Materials (3) Other—contd. (6) Miscellaneous Fibre— Coir	Italy	quantity_other_produce	—	wrong_article	II.—Raw Materials / (b) Miscellaneous / Fibre— / Coir—contd.	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). headings merged into the article name; class column says I.—(1) Animals, Living; unit blank
+bb1906:p716:t1	716	export	II.— Raw Materials (3) Other—contd. (6) Miscellaneous Fibre— Coir	Japan	value_other_produce_rs	—	wrong_article	II.—Raw Materials / (b) Miscellaneous / Fibre— / Coir—contd.	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). headings merged into the article name; class column says I.—(1) Animals, Living; unit blank
+bb1906:p716:t1	716	export	II.— Palmyra	New Zealand	value_other_produce_rs	280	wrong_article	Fibre— / Palmyra	"file ""II.— Palmyra"": heading Fibre— lost, class numeral prefixed; figure correct"
+bb1906:p716:t1	716	export	II.— Palmyra	Victoria	quantity_ceylon_produce	25	wrong_article	Fibre— / Palmyra	"file ""II.— Palmyra"": heading Fibre— lost, class numeral prefixed; figure correct"
+bb1906:p716:t1	716	export	Gum Horns— Deer		value_ceylon_produce_rs	65280	wrong_article	Horns— / Deer	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). previous article ""Gum"" fused into the heading"
+bb1906:p716:t1	716	export	Other	France	value_ceylon_produce_rs	300	wrong_article	Horns— / Other	"bare ""Other""; heading lost; figure correct"
+bb1906:p716:t1	716	export	Mica Natural History Specimens	Straits Settlements	quantity_ceylon_produce	5	wrong_article	Natural History Specimens	"LABEL ONLY (figure belongs to the right thing; the label string is corrupted). previous article ""Mica"" fused into the name"
+bb1906:p728:t1	728	export	III.— Manufactured (3) Other—contd. Instruments—contd. Scientific	Articles—contd	value_ceylon_produce_rs		not_on_page	"heading line ""Articles—contd."""	tail of the class heading read as a country row with an empty figure
+bb1906:p728:t1	728	export	III.— Manufactured (3) Other—contd. Instruments—contd. Scientific		value_other_produce_rs	4933	wrong_article	Instruments—contd. / Scientific	LABEL ONLY (figure belongs to the right thing; the label string is corrupted). class and group headings merged into the article name
+bb1906:p728:t1	728	export	Jewellery		value_total_rs	7246	ok	as in file	
+bb1906:p728:t1	728	export	Machinery— Agricultural	Straits Settlements	quantity_ceylon_produce	—	ok	as in file	
+bb1906:p728:t1	728	export	Manure		value_ceylon_produce_rs	10205	ok	as in file	
+bb1906:p728:t1	728	export	Mats, Mat Bags, and Baskets	Mauritius	quantity_other_produce	—	ok	as in file	
+bb1906:p728:t1	728	export	Mats, Mat Bags, and Baskets	Queensland	value_ceylon_produce_rs	—	ok	as in file	
+bb1906:p728:t1	728	export	Mats, Mat Bags, and Baskets	Egypt	quantity_total	2	ok	as in file	

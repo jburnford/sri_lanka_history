@@ -1,0 +1,995 @@
+table_id	row_index	cells	reason
+bb1891:p480:t1	23	"[""Poultry."", ""British India ..."", ""29 4/12 348"", ""29 4/12 348"", ""8760 0"", """", ""—"", """"]"	not an unambiguous number: '29 4/12 348'
+bb1891:p480:t1	25	"[""Poultry."", """", ""29 11/12 349"", ""29 11/12 349"", ""8816 0"", ""Do."", ""—"", ""Do.""]"	not an unambiguous number: '29 11/12 349'
+bb1891:p480:t1	34	"[""Wearing"", ""British India ..."", ""338 72"", ""338 71"", ""6886 57"", """", ""414 50"", """"]"	not an unambiguous number: '338 72'
+bb1891:p480:t1	42	"[""Wearing"", """", ""852 593"", ""852 559"", ""79067 48"", ""Do."", ""5092 59"", ""6½ p. ct. ad v.""]"	not an unambiguous number: '852 593'
+bb1891:p480:t1	49	"["""", ""No. 774"", ""No. 774"", ""11610 0"", ""Rs. 16 each"", ""2918 75"", ""Rs. 3.75 each"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p481:t1	5	"["""", ""Br. Col."", ""\"" 6"", ""\"" 6"", ""180"", ""0"", ""45"", ""0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	8	"["""", ""For. Coun."", ""\"" 17"", ""\"" 17"", ""510"", ""0"", ""127"", ""50"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	15	"["""", ""Br. Col."", ""\"" 3"", ""\"" 3"", ""45"", ""0"", """", ""13 50"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	17	"["""", ""For. Coun."", ""\"" 2"", ""\"" 2"", ""30"", ""0"", """", ""9 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	22	"["""", ""Br. Col."", ""\"" 1"", ""\"" 1"", ""150"", ""0"", """", ""3 75"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	26	"["""", ""Br. Col."", ""\"" 2"", ""\"" 2"", ""400"", ""0"", """", ""15 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	31	"["""", ""Br. Col."", ""\"" 3"", ""\"" 3"", ""131"", ""0"", """", ""8 51"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	37	"["""", ""For. Coun."", ""\"" 5"", ""\"" 5"", ""265"", ""0"", """", ""17 22"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	43	"["""", ""For. Coun."", ""\"" 1"", ""\"" 1"", ""45"", ""0"", """", ""2 93"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	47	"["""", ""Br. Col."", ""\"" 20"", ""\"" 20"", ""12"", ""40"", """", ""5 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	51	"["""", ""For. Coun."", ""\"" 72550"", ""\"" 72550"", ""36275"", ""0"", """", ""5804 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p481:t1	55	"["""", ""Br. Col."", ""\"" — 25 —"", ""\"" — 25 —"", ""6711"", ""0"", """", ""496 21"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	5	"["""", ""Br. Col."", """", """", """", """", """", ""0 66"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	7	"["""", ""For. Coun."", """", """", """", """", """", ""45 0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	14	"["""", ""Br. Col."", ""79 0 2 22"", ""79 0 2 22"", ""1594"", ""36"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	19	"["""", """", ""51 15 3 19"", ""51 15 3 19"", ""2330"", ""82"", ""Rs. 45 per ton"", ""129 83"", ""Rs. 2-50 per ton""]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p482:t1	21	"["""", ""Br. Col."", ""— 50"", ""— 49"", ""9441"", ""0"", """", ""597 50"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	22	"["""", ""British India"", ""93 92"", ""93 91"", ""10509"", ""73"", """", ""676 65"", """"]"	not an unambiguous number: '93 92'
+bb1891:p482:t1	23	"["""", ""For. Coun."", """", """", """", """", """", ""49 53"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	24	"["""", ""Austria"", ""— 3"", ""— 3"", ""762"", ""0"", """", ""2 28"", """"]"	not an unambiguous number: '— 3'
+bb1891:p482:t1	25	"["""", ""French India"", ""— 3"", ""— 3"", ""35"", ""0"", """", ""39 45"", """"]"	not an unambiguous number: '— 3'
+bb1891:p482:t1	26	"["""", ""Germany"", ""— 6"", ""— 6"", ""607"", ""0"", """", """", """"]"	not an unambiguous number: '— 6'
+bb1891:p482:t1	28	"["""", """", ""93 154"", ""93 162"", ""21354"", ""73"", ""Declared"", ""1365 41"", ""6½ p. at 40%""]"	not an unambiguous number: '93 154'
+bb1891:p482:t1	33	"["""", ""For. Coun."", """", """", """", """", """", ""1 28"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	42	"["""", ""Br. Col."", ""— 5"", ""— 5"", ""206"", ""80"", """", ""13 44"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	47	"["""", ""Br. Col."", ""— 701"", ""— 701"", ""50895"", ""49"", """", ""3308 81"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p482:t1	51	"["""", ""For. Coun."", """", """", """", """", """", ""0 27"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p483:t1	25	"[""Cinchona"", ""Br. Col."", ""pkgs. 104"", ""lb. 35146"", ""pkgs. 104"", ""lb. 35145"", ""8000"", ""0"", ""Do."", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p483:t1	35	"["""", """", """", """", """", """", """", """", ""2420 92"", ""6½ p. ct. ad v.""]"	figures after the article total without a new article label
+bb1891:p483:t1	36	"[""Coal and Coke"", ""United Kingdom"", ""tons 329024 2 0 0"", ""tons 329024 2 0 0"", ""6751902"", ""80"", ""—"", ""—"", ""Jan. 1, 1872"", """"]"	not an unambiguous number: '329024 2 0 0'
+bb1891:p483:t1	38	"[""Coal and Coke"", ""Australia"", ""2472 0 0 0"", ""2472 0 0 0"", ""49545"", ""0"", ""—"", ""—"", ""Jan. 1, 1872"", """"]"	not an unambiguous number: '2472 0 0 0'
+bb1891:p483:t1	39	"[""Coal and Coke"", ""British India"", ""1163 0 0 0"", ""1163 0 0 0"", ""18160"", ""0"", ""—"", ""—"", ""Jan. 1, 1872"", """"]"	not an unambiguous number: '1163 0 0 0'
+bb1891:p483:t1	41	"[""Coal and Coke"", ""Japan"", ""90 0 0 0"", ""90 0 0 0"", ""1400"", ""0"", ""—"", ""—"", ""Jan. 1, 1872"", """"]"	not an unambiguous number: '90 0 0 0'
+bb1891:p483:t1	42	"["""", """", ""332749 2 0 0"", ""332749 2 0 0"", ""6821007"", ""80"", ""Do."", ""—"", ""Free"", """"]"	not an unambiguous number: '332749 2 0 0'
+bb1891:p483:t1	46	"[""Cocoanuts"", ""Maldivé Islands"", ""758 \"""", ""758 \"""", ""3196"", ""-0"", ""—"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['3196', '-0']
+bb1891:p484:t1	24	"["""", ""British India"", ""790 tons"", ""—"", ""790 tons"", ""—"", ""7500 0"", ""Do."", ""—"", """", ""Do.""]"	not an unambiguous number: '790 —'
+bb1891:p484:t1	25	"[""Corks"", ""United Kingdom"", ""84 packages"", ""—"", ""84 packages"", ""—"", ""6593 0"", """", ""428 55"", """", ""Jan. 1, 1865""]"	not an unambiguous number: '84 —'
+bb1891:p484:t1	27	"[""Corks"", ""British India"", ""1 \"""", ""—"", ""1 \"""", ""—"", ""3 0"", """", ""0 20"", """", """"]"	not an unambiguous number: '1 —'
+bb1891:p484:t1	29	"[""Corks"", ""France"", ""7 \"""", ""—"", ""6 \"""", ""—"", ""133 50"", """", ""5 43"", """", """"]"	not an unambiguous number: '7 —'
+bb1891:p484:t1	30	"["""", """", ""92 packages"", ""—"", ""91 packages"", ""—"", ""6729 50"", ""Do."", ""434 16"", """", ""6½ p. ct. ad v.""]"	not an unambiguous number: '92 —'
+bb1891:p484:t1	31	"[""Cotton Goods"", ""United Kingdom"", ""lb. pos."", ""876874"", ""lb. pcs."", ""946454"", ""3323043 52"", """", ""168576 28"", """", ""Jan 1, 1872""]"	not an unambiguous number: 'pos. 876874'
+bb1891:p484:t1	32	"[""Cotton Goods"", """", ""& 1934 pkgs."", ""—"", ""& 2180 pkgs."", ""—"", ""—"", """", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p484:t1	34	"[""Cotton Goods"", ""British India"", ""114383 273326"", ""—"", ""114383 363204"", ""—"", ""1820102 73"", """", ""85718 56"", """", """"]"	not an unambiguous number: '114383 273326 —'
+bb1891:p484:t1	35	"[""Cotton Goods"", """", ""& 3975 pkgs."", ""—"", ""& 3904 pkgs."", ""—"", ""—"", """", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p484:t1	36	"[""Cotton Goods"", ""Straits Settlements"", ""—"", ""79 9"", ""—"", ""79 9"", ""2505 50"", """", ""125 49"", """", """"]"	not an unambiguous number: '— 79 9'
+bb1891:p484:t1	38	"[""Cotton Goods"", ""Austria"", ""—"", ""8332 76"", ""—"", ""8332 76"", ""34737 0"", """", ""1736 85"", """", """"]"	not an unambiguous number: '— 8332 76'
+bb1891:p484:t1	39	"[""Cotton Goods"", ""China"", ""—"", ""40 —"", ""—"", ""40 —"", ""94 0"", """", ""10 70"", """", """"]"	not an unambiguous number: '— 40 —'
+bb1891:p484:t1	40	"[""Cotton Goods"", ""France"", ""—"", ""528 8"", ""—"", ""528 8"", ""3498 0"", """", ""174 90"", """", """"]"	not an unambiguous number: '— 528 8'
+bb1891:p484:t1	41	"[""Cotton Goods"", ""French India"", ""14 614 4"", ""—"", ""14 614 4"", ""—"", ""3797 84"", """", ""190 88"", """", """"]"	not an unambiguous number: '14 614 4 —'
+bb1891:p484:t1	42	"[""Cotton Goods"", ""Germany"", ""—"", ""51822 52"", ""—"", ""51822 52"", ""90997 93"", """", ""4531 55"", """", """"]"	not an unambiguous number: '— 51822 52'
+bb1891:p484:t1	44	"[""Cotton Goods"", ""Maldivé Islands"", ""—"", ""11 —"", ""—"", ""11 —"", ""11 0"", """", ""0 55"", """", """"]"	not an unambiguous number: '— 11 —'
+bb1891:p484:t1	45	"["""", """", ""114397 1312186"", ""—"", ""114397 1371084"", ""—"", ""5280517 77"", ""Rated"", ""264152 27"", """", ""5 p. ct. ad v.""]"	not an unambiguous number: '114397 1312186 —'
+bb1891:p484:t1	46	"["""", """", ""& 6063 pkgs"", ""—"", ""& 6237 pkgs."", ""—"", ""—"", """", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p484:t1	56	"[""— Twist"", ""British India"", ""90798 25"", ""—"", ""90798 3"", ""—"", ""33082 10"", """", ""3348 63"", """", """"]"	not an unambiguous number: '90798 25'
+bb1891:p484:t1	60	"["""", """", ""90817 417"", ""—"", ""90817 315"", ""—"", ""191270 56"", ""Rated"", ""7640 78"", """", ""Do.""]"	not an unambiguous number: '90817 417'
+bb1891:p484:t1	61	"[""— Waste"", ""United Kingdom"", ""20 packages"", ""—"", ""19 packages"", ""—"", ""1458 40"", ""Declared"", ""71 67"", """", ""Do.""]"	not an unambiguous number: '20 —'
+bb1891:p485:t1	4	"[""Cotton Wool"", ""Br. Col."", ""424"", ""1767"", ""424"", ""1767"", ""174778"", ""11"", ""—"", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p485:t1	16	"[""Cutch"", ""British India ..."", ""99172"", ""2 0"", ""98126"", ""2 0"", ""846339"", ""8"", ""54979"", ""24"", """"]"	not an unambiguous number: '2 0'
+bb1891:p485:t1	17	"[""Cutch"", ""Hongkong ..."", ""121"", ""3 14"", ""121"", ""3 14"", ""914"", ""6"", ""59"", ""41"", """"]"	not an unambiguous number: '3 14'
+bb1891:p485:t1	18	"[""Dammar"", ""Straits Settlements ..."", ""482"", ""3 22"", ""482"", ""3 22"", ""3681"", ""46"", ""239"", ""95"", """"]"	not an unambiguous number: '3 22'
+bb1891:p485:t1	19	"[""Dammar"", ""For. Coun. Dutch India ..."", ""2 0 9"", """", ""2 0 9"", """", ""6"", ""0"", ""0"", ""39"", """"]"	not an unambiguous number: '2 0 9'
+bb1891:p485:t1	20	"[""Dammar"", ""French India ..."", ""141"", ""0 25"", ""141"", ""0 25"", ""2182"", ""18"", ""141"", ""90"", """"]"	not an unambiguous number: '0 25'
+bb1891:p485:t1	23	"[""Drawings"", ""British India ..."", ""408"", ""2 14"", ""408"", ""2 14"", ""2359"", ""62"", ""—"", ""—"", """"]"	not an unambiguous number: '408 2 14'
+bb1891:p485:t1	26	"[""Drawing Materials"", ""British India ..."", ""55"", ""2 16"", ""48"", ""0 21"", ""23930"", ""58"", ""1537"", ""96"", """"]"	not an unambiguous number: '55 2 16'
+bb1891:p485:t1	44	"[""Gummi"", ""Adon ..."", ""—"", ""1"", ""—"", ""1"", ""58"", ""0"", ""3"", ""77"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p485:t1	57	"[""Gummi"", ""Adon ..."", ""—"", ""1"", ""—"", ""1"", ""58"", ""0"", ""3"", ""77"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p485:t1	70	"[""Gummi"", ""Adon ..."", ""—"", ""1"", ""—"", ""1"", ""58"", ""0"", ""3"", ""77"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p485:t1	83	"[""Gummi"", ""Adon ..."", ""—"", ""1"", ""—"", ""1"", ""58"", ""0"", ""3"", ""77"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p485:t1	96	"[""Gummi"", ""Adon ..."", ""—"", ""1"", ""—"", ""1"", ""58"", ""0"", ""3"", ""77"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p486:t1	2	"[""Felt"", ""United Kingdom .."", ""247 packages"", ""247 packages"", ""Rs. 7664"", ""0"", ""Rs. —"", ""0."", ""Jan. 1, 1872""]"	incomplete or ambiguous rupees/cents: ['—', '0.']
+bb1891:p486:t1	3	"[""Felt"", ""Br. Col."", ""18 \"""", ""18 \"""", ""240"", ""0"", ""—"", ""—"", ""Jan. 1, 1872""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p486:t1	20	"[""China"", """", ""0 0 14"", ""0 0 14"", ""1"", ""87"", """", ""0 13"", """"]"	incomplete or ambiguous rupees/cents: ['0 0 14', '1']
+bb1891:p486:t1	28	"[""Fuller's Earth"", ""Br Col British India .."", ""cwt. 13792 2 24 and 5631 bush"", ""cwt 13792 2 24 and 5631 bush"", ""33301"", ""99"", ""Declared"", ""2164 60"", ""Jan 1, 1886 6½ p ct. ad v.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p486:t1	29	"[""Furniture"", ""United Kingdom"", ""pris 48"", ""pkgs 813"", ""pris 48"", ""pkgs 709"", ""59283"", ""94"", """"]"	not an unambiguous number: 'pris 48'
+bb1891:p486:t1	32	"[""Furniture"", ""British India .."", ""547"", ""243"", ""547"", ""243"", ""5187"", ""91"", """"]"	cents are not one or two digits
+bb1891:p486:t1	33	"[""Furniture"", ""Hongkong"", ""—"", ""2"", ""—"", ""2"", ""50"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['—', '2']
+bb1891:p486:t1	35	"[""Furniture"", ""Africa"", ""2"", ""—"", ""2"", ""—"", ""4"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['2', '—']
+bb1891:p486:t1	36	"[""Furniture"", ""Austria"", ""—"", ""23"", ""—"", ""20"", ""2868"", ""90"", """"]"	incomplete or ambiguous rupees/cents: ['—', '20']
+bb1891:p486:t1	39	"[""Furniture"", ""French India"", ""5"", ""—"", ""5"", ""—"", ""10"", ""50"", """"]"	incomplete or ambiguous rupees/cents: ['5', '—']
+bb1891:p486:t1	40	"[""Furniture"", ""Germany"", ""—"", ""13"", ""—"", ""13"", ""2216"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['—', '13']
+bb1891:p486:t1	41	"[""Furniture"", ""Italy"", ""—"", ""8"", ""—"", ""8"", ""615"", ""49"", """"]"	incomplete or ambiguous rupees/cents: ['—', '8']
+bb1891:p486:t1	43	"[""Manilla"", ""—"", ""5"", ""—"", ""5"", ""22"", ""0"", """", """"]"	incomplete or ambiguous rupees/cents: ['—', '5']
+bb1891:p486:t1	44	"["""", """", ""652"", ""1145"", ""652"", ""1038"", ""72194"", ""74"", ""Do.""]"	cents are not one or two digits
+bb1891:p487:t1	14	"[""Glass and Glassware"", """", """", ""21 11/12"", ""5964"", ""23"", ""5957"", ""153322"", ""77"", ""Declared"", ""9886"", ""Jan. 1, 1884"", ""25"", ""6½ p. ct. ad v.""]"	cents are not one or two digits
+bb1891:p487:t1	24	"["""", ""180100"", ""24/32"", ""179829"", ""24/32"", ""585327"", ""43"", ""Rs. 3.25 p. bhl."", ""52150"", ""61"", ""29c. per bus."", ""Jan. 1, 1878"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p487:t1	43	"[""— Rice"", ""Br. Col."", ""31½"", """", ""31½"", """", ""102"", ""37"", """", ""9"", ""17"", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p487:t1	44	"[""— Rice"", ""British India"", ""6993870½"", """", ""6883278½"", """", ""22730079"", ""94"", """", ""1996190"", ""7½"", """", """", """"]"	incomplete or ambiguous rupees/cents: ['1996190', '7½']
+bb1891:p488:t1	3	"[""Grain, Wheat"", ""Br. Col."", ""†"", ""†"", ""0 61"", """", ""0 7"", ""Jan. 1, 1878""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	8	"[""Groundnuts"", ""For. Coun."", ""1 0 16 —"", ""1 0 16 —"", ""1 50"", """", ""0 10"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	10	"[""Gunning"", ""United kingdom ..."", ""14 packages"", ""14 packages"", ""325 0"", """", ""—"", ""March 31, 1878""]"	incomplete or ambiguous rupees/cents: ['—', 'March 31, 1878']
+bb1891:p488:t1	11	"[""Gunning"", ""Br. Col."", ""1872 \"""", ""1872 \"""", ""181069 69"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	15	"[""Haberdashery and Millinery"", ""Br. Col."", ""— 3025"", ""— 2021"", ""743363 37"", """", ""48112 21"", ""Jan. 1, 1885""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	30	"[""Ham and Bacon"", ""Br. Col."", ""1070 3 23"", ""1073 1 17"", ""74966 88"", """", ""3220 66"", ""Jan. 1, 1872""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	31	"[""Ham and Bacon"", ""Australia ..."", ""6 3 0"", ""6 3 0"", ""472 50"", """", ""20 35"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	32	"[""Ham and Bacon"", ""British India ..."", ""2 3 6"", ""2 3 6"", ""196 25"", """", ""8 41"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	33	"[""Ham and Bacon"", ""Straits Settlements."", ""1 0 10"", ""1 0 10"", ""75 25"", """", ""3 27"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	35	"[""Ham and Bacon"", ""France .."", ""0 2 0"", ""0 2 0"", ""35 0"", """", ""1 50"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	36	"[""Ham and Bacon"", ""Germany ..."", ""2 1 8"", ""2 1 8"", ""162 50"", """", ""6 98"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	37	"[""Ham and Bacon"", ""Russia ..."", ""0 1 0"", ""0 1 0"", ""17 50"", """", ""0 75"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	38	"[""Ham and Bacon"", ""Spain ..."", ""0 0 10"", ""0 0 10"", ""6 25"", """", ""0 27"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	39	"["""", """", ""1084 3 1"", ""1087 0 23"", ""75933 13"", ""Rs. 70 per cwt."", ""3262 9"", ""Rs. 3 per cwt.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p488:t1	41	"[""Hats, Caps, Bonnets, &c. ..."", ""Br. Col."", ""30 207"", ""30 207"", ""40055 61"", """", ""2590 65"", ""Jan. 1, 1885""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p488:t1	50	"[""Hay"", ""Br. Col."", ""563 \"""", ""563 \"""", ""2545 0"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p489:t1	3	"[""Horns of Sorts"", ""Br. Col. British India"", ""4 1"", ""0 27"", ""14 1"", ""0 27"", ""2412"", ""0"", ""Declared"", ""—"", ""Free"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p489:t1	4	"[""Hosiery"", ""United Kingdom"", ""—"", ""66"", ""—"", ""72"", ""14090"", ""8"", """", ""978"", ""39"", ""Jan. 1, 1886""]"	incomplete or ambiguous rupees/cents: ['', '978']
+bb1891:p489:t1	6	"["""", ""British India"", ""1788½"", ""3"", ""1788½"", ""2"", ""3621"", ""24"", """", ""228"", ""76"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p489:t1	7	"["""", ""Straits Settlements"", ""—"", ""1"", ""—"", ""1"", ""50"", ""0"", """", ""3"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['', '3']
+bb1891:p489:t1	9	"["""", ""Austria"", ""—"", ""2"", ""—"", ""2"", ""240"", ""0"", """", ""16"", ""60"", """"]"	incomplete or ambiguous rupees/cents: ['', '16']
+bb1891:p489:t1	10	"["""", ""France"", ""—"", ""1"", ""—"", ""1"", ""27"", ""0"", """", ""1"", ""76"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p489:t1	11	"["""", ""Germany"", ""—"", ""7"", ""—"", ""7"", ""1393"", ""0"", """", ""90"", ""55"", """"]"	incomplete or ambiguous rupees/cents: ['', '90']
+bb1891:p489:t1	12	"["""", """", ""1788½"", ""60"", ""1788½"", ""85"", ""19421"", ""32"", ""Do."", ""1318"", ""81"", ""6½ p. ct. ad v.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p489:t1	14	"["""", ""Br. Col."", ""—"", ""5"", ""—"", ""5"", ""124"", ""0"", """", ""8"", ""6"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p489:t1	15	"["""", ""British India"", ""27"", ""8"", ""27"", ""8"", ""947"", ""0"", """", ""61"", ""57"", """"]"	incomplete or ambiguous rupees/cents: ['', '61']
+bb1891:p489:t1	17	"["""", ""France"", ""—"", ""11"", ""—"", ""11"", ""518"", ""50"", """", ""33"", ""70"", """"]"	incomplete or ambiguous rupees/cents: ['', '33']
+bb1891:p489:t1	18	"["""", ""French India"", ""169"", ""7"", ""169"", ""7"", ""340"", ""50"", """", ""22"", ""13"", """"]"	incomplete or ambiguous rupees/cents: ['', '22']
+bb1891:p489:t1	19	"["""", ""Germany"", ""1"", ""2"", ""1"", ""2"", ""165"", ""0"", """", ""10"", ""72"", """"]"	incomplete or ambiguous rupees/cents: ['', '10']
+bb1891:p489:t1	20	"["""", ""Italy"", ""1"", ""—"", ""1"", ""—"", ""50"", ""0"", """", ""3"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['', '3']
+bb1891:p489:t1	21	"["""", """", ""198"", ""33"", ""198"", ""33"", ""2145"", ""0"", ""Do."", ""139"", ""43"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '139']
+bb1891:p489:t1	23	"["""", ""Br. Col."", ""5"", ""101"", ""5"", ""103"", ""20177"", ""13"", """", ""1306"", ""83"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p489:t1	24	"["""", ""Australia"", ""5"", ""—"", ""5"", ""—"", ""100"", ""0"", """", ""6"", ""60"", """"]"	incomplete or ambiguous rupees/cents: ['', '6']
+bb1891:p489:t1	25	"["""", ""British India"", ""11"", ""13"", ""11"", ""13"", ""1691"", ""36"", """", ""109"", ""97"", """"]"	incomplete or ambiguous rupees/cents: ['', '109']
+bb1891:p489:t1	26	"["""", ""Straits Settlements"", ""—"", ""1"", ""—"", ""1"", ""10"", ""0"", """", ""0"", ""65"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p489:t1	28	"["""", ""Austria"", ""—"", ""2"", ""—"", ""2"", ""460"", ""0"", """", ""29"", ""90"", """"]"	incomplete or ambiguous rupees/cents: ['', '29']
+bb1891:p489:t1	29	"["""", ""China"", ""2"", ""—"", ""2"", ""—"", ""20"", ""0"", """", ""1"", ""30"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p489:t1	30	"["""", ""France"", ""—"", ""2"", ""—"", ""2"", ""250"", ""0"", """", ""16"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['', '16']
+bb1891:p489:t1	31	"["""", ""French India"", ""2"", ""—"", ""2"", ""—"", ""3"", ""50"", """", ""0"", ""23"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p489:t1	32	"["""", ""Germany"", ""1"", ""20"", ""1"", ""20"", ""6467"", ""15"", """", ""420"", ""39"", """"]"	incomplete or ambiguous rupees/cents: ['', '420']
+bb1891:p489:t1	33	"["""", ""U. S. of America"", ""1"", ""—"", ""1"", ""—"", ""5"", ""0"", """", ""0"", ""32"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p489:t1	34	"["""", """", ""27"", ""139"", ""27"", ""141"", ""29184"", ""14"", ""Do."", ""1892"", ""34"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '1892']
+bb1891:p489:t1	36	"["""", ""Br. Col."", ""5"", ""19"", ""5"", ""18"", ""3033"", ""99"", """", ""195"", ""34"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p489:t1	37	"["""", ""British India"", ""—"", ""1"", ""—"", ""1"", ""3"", ""0"", """", ""0"", ""20"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p489:t1	39	"["""", ""Austria"", ""2"", ""—"", ""2"", ""—"", ""62"", ""0"", """", ""4"", ""3"", """"]"	incomplete or ambiguous rupees/cents: ['', '4']
+bb1891:p489:t1	40	"["""", ""France"", ""1"", ""—"", ""1"", ""—"", ""30"", ""0"", """", ""1"", ""95"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p489:t1	41	"["""", ""Germany"", ""—"", ""1"", ""—"", ""1"", ""138"", ""0"", """", ""8"", ""97"", """"]"	incomplete or ambiguous rupees/cents: ['', '8']
+bb1891:p489:t1	42	"["""", """", ""8"", ""21"", ""8"", ""20"", ""3266"", ""99"", ""Do."", ""210"", ""49"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '210']
+bb1891:p489:t1	44	"["""", ""Br. Col."", ""3"", ""24"", ""3"", ""24"", ""3106"", ""24"", """", ""—"", ""—"", ""Mar. 31, 1878""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p489:t1	49	"["""", ""British India"", ""—"", ""1"", ""—"", ""1"", ""42"", ""0"", """", ""2"", ""73"", ""Jan. 1, 1886""]"	incomplete or ambiguous rupees/cents: ['', '2']
+bb1891:p489:t1	50	"["""", ""Straits Settlements"", ""—"", ""1"", ""—"", ""1"", ""18"", ""0"", """", ""1"", ""17"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p489:t1	53	"["""", """", ""10368"", ""2"", ""—"", ""2"", ""40050"", ""0"", ""Do."", ""3"", ""90"", ""6½ p. ct. ad v.""]"	incomplete or ambiguous rupees/cents: ['Do.', '3']
+bb1891:p489:t1	54	"[""Jute"", ""Br. Col."", ""7 packages"", ""7 packages"", ""7 packages"", ""7 packages"", ""50"", ""0"", ""Do."", ""—"", ""—"", ""Jan. 1, 1878 Free""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	4	"[""Machinery"", ""Br. Col."", ""—"", ""1"", ""—"", ""1"", ""90"", ""0"", ""5"", ""65"", ""Jan. 1, 1885"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	7	"[""Machinery"", ""Straits Settlements For Coun."", ""1"", ""—"", ""1"", ""—"", ""287"", ""0"", ""18"", ""66"", ""Jan. 1, 1885"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p490:t1	14	"[""Lime and Clay"", ""Br. Col."", ""—"", ""16"", ""—"", ""16"", ""184"", ""0"", ""—"", ""—"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	16	"[""Lime and Clay"", ""For Coun."", ""75"", ""155"", ""75"", ""155"", ""1474"", ""95"", ""—"", ""—"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	20	"[""Machinery"", ""Br. Col."", ""1943"", ""158"", ""1943"", ""158"", ""27466"", ""60"", ""—"", ""—"", ""Jan. 1, 1873"", ""Mar 31, 1878""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	22	"[""Machinery"", ""Straits Settlements For Coun."", ""—"", ""34"", ""—"", ""34"", ""162"", ""50"", ""—"", ""—"", ""Jan. 1, 1873"", ""Mar 31, 1878""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p490:t1	30	"[""Malt Liquor, in bottle"", ""Br Col"", ""598"", ""598"", ""598"", ""598"", ""1794"", ""0"", ""101"", ""67"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	31	"[""Malt Liquor, in bottle"", ""British India .."", ""12"", ""12"", ""12"", ""12"", ""36"", ""0"", ""2"", ""4"", """", """"]"	not an unambiguous number: '12 12'
+bb1891:p490:t1	32	"[""Malt Liquor, in bottle"", ""Straits Settlements For Coun."", ""897½"", ""897½"", ""866½"", ""866½"", ""2692"", ""0"", ""147"", ""37"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p490:t1	33	"[""Malt Liquor, in bottle"", ""Austria .."", ""4"", ""4"", ""4"", ""4"", ""19"", ""0"", ""0"", ""68"", """", """"]"	not an unambiguous number: '4 4'
+bb1891:p490:t1	34	"[""Malt Liquor, in bottle"", ""China .."", ""460"", ""460"", ""460"", ""460"", ""1380"", ""0"", ""78"", ""22"", """", """"]"	not an unambiguous number: '460 460'
+bb1891:p490:t1	35	"[""Malt Liquor, in bottle"", ""France .."", ""34063 7/12"", ""34063 7/12"", ""33527"", ""33527"", ""102190"", ""75"", ""5699"", ""68"", """", """"]"	not an unambiguous number: '34063 7/12 34063 7/12'
+bb1891:p490:t1	36	"[""Malt Liquor, in bottle"", ""Germany .."", ""260½"", ""260½"", ""260½"", ""260½"", ""789"", ""0"", ""44"", ""32"", """", """"]"	not an unambiguous number: '260½ 260½'
+bb1891:p490:t1	37	"[""Malt Liquor, in bottle"", ""Japan .."", ""81795 1/12"", ""81795 1/12"", ""81442"", ""81442"", ""245385"", ""25"", ""13845"", ""88"", """", """"]"	not an unambiguous number: '81795 1/12 81795 1/12'
+bb1891:p490:t1	38	"[""Malt Liquor, in bottle"", """", """", """", """", """", """", ""Rs. 3 per gallon"", """", ""17c. p gal."", """", """"]"	incomplete or ambiguous rupees/cents: ['', '17c. p gal.']
+bb1891:p490:t1	40	"[""— in wood"", ""Br. Col."", ""97"", ""97"", ""97"", ""97"", ""135"", ""80"", ""12"", ""61"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	41	"[""— in wood"", ""British India .."", ""11"", ""11"", ""11"", ""11"", ""15"", ""40"", ""1"", ""43"", """", """"]"	not an unambiguous number: '11 11'
+bb1891:p490:t1	42	"[""— in wood"", ""For Coun."", ""127281½"", ""127281½"", ""101443½"", ""101443½"", ""178194"", ""10"", ""13187"", ""66"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	45	"[""Measures, Bone"", ""British India .."", ""3297 1 1 0"", ""651"", ""3297 1 1 0"", ""651"", ""187091"", ""0"", ""—"", ""—"", """", """"]"	not an unambiguous number: '3297 1 1 0'
+bb1891:p490:t1	46	"[""Measures, Bone"", ""For Coun."", ""990 0 0 0"", ""—"", ""990 0 0 0"", ""—"", ""4010"", ""0"", ""—"", ""—"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p490:t1	49	"[""Measures, Bone"", ""Maldives Islands .."", ""4287 1 1 0"", ""840"", ""4287 1 1 0"", ""840"", ""191650"", ""0"", ""—"", ""—"", """", """"]"	not an unambiguous number: '4287 1 1 0'
+bb1891:p490:t1	52	"[""Castorseed Poonac"", ""British India .."", ""1731 2 1 9 & 16348 pkgs."", """", ""1731 2 1 9 & 16348 pkgs."", """", ""185270"", ""12"", ""—"", ""—"", """", """"]"	not an unambiguous number: '1731 2 1 9 & 16348'
+bb1891:p490:t1	53	"[""Castorseed Poonac"", ""Straits Settlements"", ""9 0 0 0"", """", ""9 0 0 0"", """", ""5680"", ""0"", ""—"", ""—"", """", """"]"	not an unambiguous number: '9 0 0 0'
+bb1891:p490:t1	54	"[""Castorseed Poonac"", ""For Coun."", ""& 1770 pkgs."", """", ""& 1770 pkgs."", """", ""1825"", ""0"", ""—"", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p490:t1	55	"[""Castorseed Poonac"", ""French India .."", ""11 0 0 0 & 11 packages"", """", ""11 0 0 0 & 11 packages"", """", """", """", ""—"", ""—"", """", """"]"	not an unambiguous number: '11 0 0 0 & 11'
+bb1891:p490:t1	56	"[""Castorseed Poonac"", """", ""1751 2 1 9 & 18129 pkgs."", """", ""1751 2 1 9 & 18129 pkgs."", """", ""192775"", ""12"", ""—"", ""—"", """", """"]"	not an unambiguous number: '1751 2 1 9 & 18129'
+bb1891:p490:t1	59	"[""Crush"", """", ""26"", ""145"", ""26"", ""145"", ""6229"", ""0"", ""—"", ""—"", """", """"]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p491:t1	3	"[""Manures, Refuse of Salt-petre"", ""Br. Col. British India"", ""15 3"", ""207"", ""15 3"", ""207"", ""5068"", ""0"", ""Declared"", ""—"", ""Jan. 1, 1886 Free"", """"]"	not an unambiguous number: '15 3'
+bb1891:p491:t1	4	"[""Marine Stores"", ""United Kingdom"", ""2"", ""570"", ""2"", ""572"", ""18205"", ""17"", """", ""1139"", ""27"", ""Jan. 1, 1886""]"	incomplete or ambiguous rupees/cents: ['', '1139']
+bb1891:p491:t1	5	"["""", ""Br. Col."", ""—"", ""—"", ""—"", ""—"", ""30"", ""0"", """", ""1"", ""95"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p491:t1	6	"["""", ""Australia"", ""—"", ""2"", ""—"", ""2"", ""1175"", ""14"", """", ""41"", ""92"", """"]"	incomplete or ambiguous rupees/cents: ['', '41']
+bb1891:p491:t1	7	"["""", ""British India"", ""12 1900"", ""31"", ""9 1900"", ""10"", ""2569"", ""95"", """", ""167"", ""5"", """"]"	not an unambiguous number: '12 1900'
+bb1891:p491:t1	8	"["""", ""Hongkong"", ""—"", ""34"", ""—"", ""34"", ""50"", ""0"", """", ""3"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['', '3']
+bb1891:p491:t1	9	"["""", ""Mauritius"", ""—"", ""1"", ""—"", ""1"", ""16044"", ""0"", """", ""981"", ""10"", """"]"	incomplete or ambiguous rupees/cents: ['', '981']
+bb1891:p491:t1	10	"["""", ""For. Coun."", ""—"", ""—"", ""—"", ""—"", ""545"", ""0"", """", ""35"", ""42"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p491:t1	13	"["""", """", ""12 1900"", ""700"", ""11 1900"", ""670"", ""38619"", ""26"", ""Do."", ""2369"", ""96"", ""6½ p. ct. ad v.""]"	not an unambiguous number: '12 1900'
+bb1891:p491:t1	14	"[""Matches"", ""United Kingdom"", """", ""1734 packages"", """", ""1734 packages"", ""83187"", ""45"", """", ""5407"", ""21"", """"]"	incomplete or ambiguous rupees/cents: ['', '5407']
+bb1891:p491:t1	16	"["""", ""British India"", ""105"", ""\"""", ""105"", ""\"""", ""8084"", ""54"", """", ""519"", ""65"", """"]"	incomplete or ambiguous rupees/cents: ['', '519']
+bb1891:p491:t1	17	"["""", ""Hongkong"", ""14"", ""\"""", ""14"", ""\"""", ""591"", ""20"", """", ""38"", ""44"", """"]"	incomplete or ambiguous rupees/cents: ['', '38']
+bb1891:p491:t1	19	"["""", ""Austria"", ""1"", ""\"""", ""1"", ""\"""", ""40"", ""0"", """", ""2"", ""60"", """"]"	incomplete or ambiguous rupees/cents: ['', '2']
+bb1891:p491:t1	20	"["""", ""French India"", ""1"", ""\"""", ""1"", ""\"""", ""42"", ""0"", """", ""2"", ""73"", """"]"	incomplete or ambiguous rupees/cents: ['', '2']
+bb1891:p491:t1	21	"["""", ""Germany"", ""74"", ""\"""", ""74"", ""\"""", ""4120"", ""0"", """", ""267"", ""79"", """"]"	incomplete or ambiguous rupees/cents: ['', '267']
+bb1891:p491:t1	22	"["""", """", ""1929 packages"", """", ""1929 packages"", """", ""96015"", ""19"", ""Do."", ""6238"", ""42"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '6238']
+bb1891:p491:t1	23	"[""Mats, Bags, and Baskets"", ""United Kingdom"", ""No. 2"", ""pkgs. 32"", ""No. 2"", ""pkgs. 32"", ""3602"", ""47"", """", ""254"", ""22"", """"]"	incomplete or ambiguous rupees/cents: ['', '254']
+bb1891:p491:t1	25	"["""", ""British India"", ""1163"", ""440"", ""1163"", ""420"", ""6599"", ""65"", """", ""399"", ""82"", """"]"	incomplete or ambiguous rupees/cents: ['', '399']
+bb1891:p491:t1	26	"["""", ""Hongkong"", ""—"", ""251"", ""—"", ""251"", ""3817"", ""83"", """", ""348"", ""16"", """"]"	incomplete or ambiguous rupees/cents: ['', '348']
+bb1891:p491:t1	27	"["""", ""Straits Settlements"", ""13"", ""6"", ""13"", ""6"", ""208"", ""50"", """", ""13"", ""55"", """"]"	incomplete or ambiguous rupees/cents: ['', '13']
+bb1891:p491:t1	29	"["""", ""French India"", ""20"", ""—"", ""20"", ""—"", ""7"", ""50"", """", ""0"", ""49"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p491:t1	30	"["""", ""Maldiv Islands"", ""78"", ""29"", ""78"", ""29"", ""470"", ""6"", """", ""30"", ""56"", """"]"	incomplete or ambiguous rupees/cents: ['', '30']
+bb1891:p491:t1	31	"["""", """", ""1276"", ""738"", ""1276"", ""738"", ""14706"", ""1"", ""Do."", ""926"", ""80"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '926']
+bb1891:p491:t1	32	"[""Medicines"", ""United Kingdom"", ""pkgs. 1753"", ""cwt. —"", ""pkgs. 1793"", ""cwt. —"", ""125408"", ""16"", """", ""8194"", ""95"", """"]"	incomplete or ambiguous rupees/cents: ['', '8194']
+bb1891:p491:t1	34	"["""", ""Australia"", ""87"", ""—"", ""87"", ""—"", ""3110"", ""50"", """", ""202"", ""19"", """"]"	incomplete or ambiguous rupees/cents: ['', '202']
+bb1891:p491:t1	35	"["""", ""British India"", ""700 2687 1 7"", """", ""692 2679 2 7"", """", ""75632"", ""22"", """", ""4898"", ""56"", """"]"	not an unambiguous number: '700 2687 1 7'
+bb1891:p491:t1	36	"["""", ""Hongkong"", ""4"", ""—"", ""4"", ""—"", ""136"", ""0"", """", ""8"", ""84"", """"]"	incomplete or ambiguous rupees/cents: ['', '8']
+bb1891:p491:t1	37	"["""", ""Straits Settlements"", ""20 317 0 8"", """", ""20 317 0 8"", """", ""7694"", ""25"", """", ""500"", ""12"", """"]"	not an unambiguous number: '20 317 0 8'
+bb1891:p491:t1	39	"["""", ""Austria"", ""17"", ""—"", ""17"", ""—"", ""928"", ""0"", """", ""60"", ""32"", """"]"	incomplete or ambiguous rupees/cents: ['', '60']
+bb1891:p491:t1	40	"["""", ""China"", ""10"", ""—"", ""10"", ""—"", ""90"", ""0"", """", ""5"", ""85"", """"]"	incomplete or ambiguous rupees/cents: ['', '5']
+bb1891:p491:t1	41	"["""", ""Dutch India"", ""1"", ""—"", ""1"", ""—"", ""160"", ""0"", """", ""10"", ""46"", """"]"	incomplete or ambiguous rupees/cents: ['', '10']
+bb1891:p491:t1	42	"["""", ""France"", ""21"", ""—"", ""21"", ""—"", ""2149"", ""20"", """", ""139"", ""71"", """"]"	incomplete or ambiguous rupees/cents: ['', '139']
+bb1891:p491:t1	43	"["""", ""French India"", ""3 4 0 8"", """", ""3 4 0 8"", """", ""342"", ""11"", """", ""22"", ""25"", """"]"	not an unambiguous number: '3 4 0 8'
+bb1891:p491:t1	44	"["""", ""Germany"", ""52"", ""—"", ""47"", ""—"", ""3609"", ""0"", """", ""325"", ""49"", """"]"	incomplete or ambiguous rupees/cents: ['', '325']
+bb1891:p491:t1	45	"["""", """", ""2668 3008 1 23"", """", ""2695 3000 2 23"", """", ""219259"", ""44"", ""Do."", ""14268"", ""4"", ""Do.""]"	not an unambiguous number: '2668 3008 1 23'
+bb1891:p491:t1	54	"[""Metals, wrought and unwrought: Brassware"", ""United Kingdom"", ""pkgs. 68"", ""cwt. —"", ""pkgs. 57"", ""cwt. —"", ""7990"", ""96"", """", ""547"", ""88"", ""Jan. 1, 1886""]"	incomplete or ambiguous rupees/cents: ['', '547']
+bb1891:p491:t1	56	"["""", ""Aden"", ""1"", ""—"", ""1"", ""—"", ""410"", ""0"", """", ""26"", ""65"", """"]"	incomplete or ambiguous rupees/cents: ['', '26']
+bb1891:p491:t1	57	"["""", ""British India"", ""17 408 0 4"", """", ""17 395 0 4"", """", ""28998"", ""12"", """", ""1864"", ""25"", """"]"	not an unambiguous number: '17 408 0 4'
+bb1891:p491:t1	59	"["""", ""Austria"", ""1"", ""—"", ""1"", ""—"", ""25"", ""0"", """", ""1"", ""68"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p491:t1	60	"["""", ""French India"", ""— 12 2 4"", """", ""— 12 2 4"", """", ""897"", ""11"", """", ""58"", ""30"", """"]"	not an unambiguous number: '— 12 2 4'
+bb1891:p491:t1	61	"["""", ""Maldiv Islands"", ""— 0 3 3"", """", ""— 0 3 3"", """", ""21"", ""75"", """", ""1"", ""42"", """"]"	not an unambiguous number: '— 0 3 3'
+bb1891:p491:t1	62	"["""", """", ""77 416 1 11"", """", ""76 408 1 11"", """", ""38842"", ""94"", ""Do."", ""2500"", ""14"", ""6½ p. ct. ad v.""]"	not an unambiguous number: '77 416 1 11'
+bb1891:p492:t1	3	"[""Metals, wrought and unwrought : Copperware .."", ""Br. Col."", ""942"", ""—"", ""944"", ""8821"", ""9"", ""596"", ""Jan. 1, 1866"", ""54"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	4	"[""Metals, wrought and unwrought : Copperware .."", ""British India ..."", ""4"", ""277 2 11"", ""4"", ""277 2 11"", ""10599"", ""77"", ""Jan. 1, 1866"", ""1186"", ""67"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p492:t1	6	"[""Metals, wrought and unwrought : Copperware .."", ""Dutch India ..."", ""—"", ""1 2 7"", ""—"", ""1 2 7"", ""65"", ""68"", ""Jan. 1, 1866"", ""4"", ""27"", """"]"	incomplete or ambiguous rupees/cents: ['1 2 7', '65']
+bb1891:p492:t1	7	"[""Metals, wrought and unwrought : Copperware .."", ""French India ..."", ""—"", ""0 1 7"", ""—"", ""0 1 7"", ""32"", ""3"", ""Jan. 1, 1866"", ""2"", ""9"", """"]"	incomplete or ambiguous rupees/cents: ['0 1 7', '32']
+bb1891:p492:t1	8	"[""Metals, wrought and unwrought : Copperware .."", ""Maldiv Islands ..."", ""—"", ""0 1 16"", ""—"", ""0 1 16"", ""22"", ""0"", ""Jan. 1, 1866"", ""1"", ""43"", """"]"	incomplete or ambiguous rupees/cents: ['0 1 16', '22']
+bb1891:p492:t1	9	"["""", """", ""246"", ""279 3 13"", ""248"", ""279 3 13"", ""27840"", ""58"", ""Declared"", ""1789"", ""0"", ""6½ p. ct. ad v.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p492:t1	10	"[""Hardware and Cutlery"", ""United Kingdom"", ""pkgs."", ""pcs"", ""pkgs"", ""pcs"", ""428044"", ""78"", """", ""27684"", ""2"", """"]"	incomplete or ambiguous rupees/cents: ['', '27684']
+bb1891:p492:t1	11	"[""Hardware and Cutlery"", ""Br. Col."", ""7207"", ""3577"", ""7057"", ""3573"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	12	"[""Hardware and Cutlery"", ""British India .."", ""760"", ""11179"", ""708"", ""11179"", ""13740"", ""43"", """", ""835"", ""74"", """"]"	incomplete or ambiguous rupees/cents: ['', '835']
+bb1891:p492:t1	13	"[""Hardware and Cutlery"", ""Straits Settlements"", ""2"", ""6"", ""2"", ""6"", ""117"", ""78"", """", ""7"", ""66"", """"]"	incomplete or ambiguous rupees/cents: ['', '7']
+bb1891:p492:t1	15	"[""Hardware and Cutlery"", ""Austria .."", ""7"", ""—"", ""7"", ""—"", ""354"", ""0"", """", ""23"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['', '23']
+bb1891:p492:t1	16	"[""Hardware and Cutlery"", ""China .."", ""1"", ""—"", ""1"", ""—"", ""22"", ""0"", """", ""1"", ""43"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p492:t1	17	"[""Hardware and Cutlery"", ""France .."", ""10"", ""—"", ""10"", ""—"", ""692"", ""75"", """", ""45"", ""3"", """"]"	incomplete or ambiguous rupees/cents: ['', '45']
+bb1891:p492:t1	18	"[""Hardware and Cutlery"", ""French India .."", ""1"", ""—"", ""1"", ""—"", ""18"", ""10"", """", ""1"", ""18"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p492:t1	19	"[""Hardware and Cutlery"", ""Germany .."", ""81"", ""—"", ""1470"", ""—"", ""7018"", ""0"", """", ""517"", ""77"", """"]"	incomplete or ambiguous rupees/cents: ['', '517']
+bb1891:p492:t1	20	"[""Hardware and Cutlery"", ""Italy .."", ""1"", ""—"", ""1"", ""—"", ""100"", ""0"", """", ""6"", ""50"", """"]"	incomplete or ambiguous rupees/cents: ['', '6']
+bb1891:p492:t1	21	"[""Hardware and Cutlery"", ""Maldiv Islands .."", ""15"", ""15"", ""15"", ""15"", ""34"", ""0"", """", ""2"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['', '2']
+bb1891:p492:t1	22	"["""", """", ""8075"", ""14777"", ""9267"", ""14773"", ""450141"", ""84"", ""Do."", ""29024"", ""58"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '29024']
+bb1891:p492:t1	23	"[""Leadware"", ""United Kingdom ..."", ""pkgs"", ""cwt"", ""pkgs"", ""cwt"", ""46"", ""50"", """", ""3"", ""2"", """"]"	incomplete or ambiguous rupees/cents: ['', '3']
+bb1891:p492:t1	24	"[""Leadware"", ""Br. Col."", ""1"", ""—"", ""1"", ""—"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	25	"[""Leadware"", ""British India ..."", ""4"", ""1 0 26"", ""4"", ""1 0 26"", ""213"", ""55"", """", ""13"", ""89"", """"]"	incomplete or ambiguous rupees/cents: ['', '13']
+bb1891:p492:t1	27	"[""Leadware"", ""French India .."", ""—"", ""0 0 3"", ""—"", ""0 0 3"", ""1"", ""50"", """", ""0"", ""10"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p492:t1	28	"["""", """", ""5"", ""1 1 1"", ""5"", ""1 1 1"", ""261"", ""55"", ""Do."", ""17"", ""1"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '17']
+bb1891:p492:t1	30	"[""Tea Lead"", ""For. Coun"", ""2129 1966 4 2 27"", """", ""2129 1966 4 2 27"", """", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	31	"[""Tea Lead"", ""Germany .."", ""—"", ""3 0 0 0"", ""—"", ""3 0 0 0"", ""697"", ""0"", """", ""—"", """", """"]"	not an unambiguous number: '3 0 0 0'
+bb1891:p492:t1	32	"["""", """", ""2129 1969 4 2 27"", """", ""2129 1969 4 2 27"", """", ""507609"", ""33"", ""Do."", ""—"", """", ""* Free.""]"	not an unambiguous number: '2129 1969 4 2 27'
+bb1891:p492:t1	34	"[""Tea Solder"", ""For Coun"", ""115 28 10 1 12"", """", ""115 28 10 1 12"", """", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	35	"[""Tea Solder"", ""Germany"", ""—"", ""0 10 0 0"", ""—"", ""0 10 0 0"", ""393"", ""0"", """", ""—"", """", """"]"	not an unambiguous number: '0 10 0 0'
+bb1891:p492:t1	36	"["""", """", ""115 29 0 1 12"", """", ""115 29 0 1 12"", """", ""25280"", ""53"", ""Do."", ""—"", """", ""Do""]"	not an unambiguous number: '115 29 0 1 12'
+bb1891:p492:t1	38	"[""Plate and Platedware"", ""United Kingdom ..."", ""pkgs."", ""pcs."", ""pkgs."", ""pcs."", ""36175"", ""13"", """", ""2464"", ""94"", """"]"	incomplete or ambiguous rupees/cents: ['', '2464']
+bb1891:p492:t1	39	"[""Plate and Platedware"", ""Br. Col."", ""173"", ""1"", ""174"", ""1"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	40	"[""Plate and Platedware"", ""British India ..."", ""1"", ""2269"", ""1"", ""2269"", ""1045"", ""12"", """", ""67"", ""91"", """"]"	incomplete or ambiguous rupees/cents: ['', '67']
+bb1891:p492:t1	41	"[""Plate and Platedware"", ""Hongkong ..."", ""2"", ""—"", ""3"", ""—"", ""299"", ""15"", """", ""21"", ""7"", """"]"	incomplete or ambiguous rupees/cents: ['', '21']
+bb1891:p492:t1	43	"[""Plate and Platedware"", ""Austria ..."", ""12"", ""—"", ""12"", ""—"", ""2359"", ""0"", """", ""153"", ""35"", """"]"	incomplete or ambiguous rupees/cents: ['', '153']
+bb1891:p492:t1	44	"[""Plate and Platedware"", ""France ..."", ""1"", ""—"", ""1"", ""—"", ""300"", ""0"", """", ""19"", ""50"", """"]"	incomplete or ambiguous rupees/cents: ['', '19']
+bb1891:p492:t1	45	"[""Plate and Platedware"", ""Germany ..."", ""8"", ""—"", ""8"", ""—"", ""1545"", ""0"", """", ""100"", ""43"", """"]"	incomplete or ambiguous rupees/cents: ['', '100']
+bb1891:p492:t1	46	"["""", """", ""197"", ""2260"", ""199"", ""2260"", ""43723"", ""40"", ""Do."", ""2827"", ""17"", ""6½ p. ct. ad v.""]"	incomplete or ambiguous rupees/cents: ['Do.', '2827']
+bb1891:p492:t1	47	"[""Tinware"", ""United Kingdom ..."", ""pkgs."", ""pcs."", ""pkgs."", ""pcs."", ""16720"", ""79"", """", ""1033"", ""55"", """"]"	incomplete or ambiguous rupees/cents: ['', '1033']
+bb1891:p492:t1	48	"[""Tinware"", ""Br. Col."", ""406"", ""—"", ""402"", ""—"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p492:t1	49	"[""Tinware"", ""British India .."", ""9"", ""44"", ""8"", ""44"", ""1167"", ""1"", """", ""70"", ""81"", """"]"	incomplete or ambiguous rupees/cents: ['', '70']
+bb1891:p492:t1	50	"[""Tinware"", ""Straits Settlements"", ""1"", ""—"", ""1"", ""—"", ""25"", ""0"", """", ""1"", ""63"", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p492:t1	52	"[""Tinware"", ""Germany ..."", ""6"", ""—"", ""6"", ""—"", ""370"", ""70"", """", ""24"", ""10"", """"]"	incomplete or ambiguous rupees/cents: ['', '24']
+bb1891:p492:t1	53	"["""", """", ""422"", ""44"", ""417"", ""44"", ""18275"", ""50"", ""Do."", ""1180"", ""39"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '1180']
+bb1891:p492:t1	54	"[""Hardware"", ""United Kingdom .."", ""2 packages"", """", ""2 packages"", """", ""50"", ""6"", ""Do."", ""2"", ""25"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['Do.', '2']
+bb1891:p493:t1	3	"[""Metals, wrought and unwrought : Zincware"", ""Br. Col."", ""1 \"""", ""1 \"""", ""13"", ""0"", ""0"", ""85"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	5	"[""Metals, wrought and unwrought : Zincware"", ""For Coun."", ""8 \"""", ""8 \"""", ""601"", ""80"", ""39"", ""12"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	8	"["""", """", ""159 packages"", ""159 packages"", ""13295"", ""20"", ""Declared"", ""864"", ""35"", ""6½ p. ct. ad v.""]"	incomplete or ambiguous rupees/cents: ['Declared', '864']
+bb1891:p493:t1	10	"[""Brass, Sheets and Nails"", ""Br. Col."", ""312 3 27"", ""312 3 27"", ""21909"", ""38"", ""938"", ""98"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	11	"[""Brass, Sheets and Nails"", ""British India"", ""514 2 7"", ""520 1 11"", ""36019"", ""38"", ""Rs. 70 per cwt."", ""1561"", ""10"", ""Rs. 8 per cwt""]"	incomplete or ambiguous rupees/cents: ['70 per cwt.', '1561']
+bb1891:p493:t1	14	"[""Copper Sheathing"", ""Br. Col."", ""159 0 3"", ""157 2 3"", ""12722"", ""15"", ""472"", ""59"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	17	"["""", """", ""453 0 13"", ""450 1 17"", ""36249"", ""29"", ""Rs. 80 per cwt."", ""1351"", ""54"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['80 per cwt.', '1351']
+bb1891:p493:t1	18	"[""Iron, Angle and Swedish Bar"", ""United Kingdom"", ""tons 174 8 1 3"", ""tons 174 8 1 3"", ""24417"", ""94"", ""870"", ""24"", """", """"]"	not an unambiguous number: '174 8 1 3'
+bb1891:p493:t1	19	"[""Iron, Angle and Swedish Bar"", ""Br. Col."", ""11 12 1 26"", ""11 12 1 26"", ""1627"", ""38"", ""58"", ""13"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	20	"[""Iron, Angle and Swedish Bar"", ""British India"", ""186 0 3 1"", ""186 0 3 1"", ""26045"", ""32"", ""Rs. 140 per ton"", ""928"", ""37"", ""Rs. 6 per ton""]"	not an unambiguous number: '186 0 3 1'
+bb1891:p493:t1	21	"[""Iron, Bar, Flat, Rod, Nail Rod, &c."", ""United Kingdom"", ""tons 762 18 1 16"", ""tons 763 5 3 19"", ""91550"", ""35"", ""3053"", ""2"", """", """"]"	not an unambiguous number: '762 18 1 16'
+bb1891:p493:t1	22	"[""Iron, Bar, Flat, Rod, Nail Rod, &c."", ""Br. Col."", ""82 2 0 5"", ""81 11 0 5"", ""9852"", ""26"", ""326"", ""23"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	23	"[""Iron, Bar, Flat, Rod, Nail Rod, &c."", ""British India"", ""3 5 3 14"", ""3 5 3 14"", ""395"", ""25"", ""13"", ""18"", """", """"]"	not an unambiguous number: '3 5 3 14'
+bb1891:p493:t1	25	"[""Iron, Bar, Flat, Rod, Nail Rod, &c."", ""Belgium"", ""848 6 1 7"", ""848 2 3 10"", ""101797"", ""86"", ""Rs. 120 per ton"", ""3392"", ""43"", ""Rs. 4 per ton""]"	not an unambiguous number: '848 6 1 7'
+bb1891:p493:t1	26	"[""Iron, Corrugated"", ""Br. Col."", ""tons 0 1 0 7"", ""tons 0 1 0 7"", ""13"", ""28"", ""Rs. 250 per ton"", ""0"", ""37"", ""Rs. 7 per ton""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	28	"[""Iron, Galvanised, &c."", ""United Kingdom"", ""tons 832 9 2 24"", ""tons 824 10 0 0"", ""299703"", ""85"", ""12367"", ""12"", """", """"]"	not an unambiguous number: '832 9 2 24'
+bb1891:p493:t1	29	"[""Iron, Galvanised, &c."", ""Br. Col."", ""1 16 3 18"", ""1 16 3 18"", ""438"", ""59"", ""27"", ""67"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	30	"[""Iron, Galvanised, &c."", ""British India"", ""834 6 2 14"", ""826 6 3 18"", ""300142"", ""44"", ""Rs. 360 per ton"", ""12394"", ""79"", ""Rs. 15 per ton""]"	not an unambiguous number: '834 6 2 14'
+bb1891:p493:t1	31	"[""Iron, Hoop"", ""United Kingdom"", ""tons 927 12 2 8 pkgs. 6968"", ""tons 927 12 2 8 pkgs. 6968"", ""152648"", ""54"", ""—"", ""—"", ""Mar. 31, 1871"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p493:t1	32	"[""Iron, Hoop"", ""Br. Col."", ""— 1348"", ""— 1348"", ""11440"", ""0"", ""—"", ""—"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	33	"[""Iron, Hoop"", ""British India"", ""917 2 2 8 8316"", ""927 12 2 8 8316"", ""144258"", ""54"", ""Declared"", ""—"", ""Free"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p493:t1	35	"[""Iron, Nails, &c."", ""Br. Col."", ""254 1 24"", ""276 1 24"", ""3555"", ""80"", ""174"", ""20"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	37	"[""Iron, Nails, &c."", ""For Coun."", ""50 0 0"", ""50 0 0"", ""625"", ""0"", ""31"", ""50"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	40	"["""", """", ""10758 1 3"", ""10720 1 3"", ""134415"", ""94"", ""Rs. 12.50 p. cwt."", ""6764"", ""13"", ""68c. per cwt.""]"	incomplete or ambiguous rupees/cents: ['12.50 p. cwt.', '6764']
+bb1891:p493:t1	41	"[""Iron, Pig"", ""United Kingdom"", ""tons 165 0 0 0"", ""tons 165 0 0 0"", ""7750"", ""0"", ""Rs. 50 per ton"", ""387"", ""50"", ""Rs. 2.50 per ton""]"	not an unambiguous number: '165 0 0 0'
+bb1891:p493:t1	43	"[""Iron, Plate and Sheet"", ""United Kingdom"", ""tons 129 11 2 8"", ""tons 135 2 3 16"", ""16845"", ""21"", ""678"", ""70"", """", """"]"	not an unambiguous number: '129 11 2 8'
+bb1891:p493:t1	44	"[""Iron, Plate and Sheet"", ""Br. Col."", ""2 11 2 13"", ""2 1 2 13"", ""335"", ""50"", ""10"", ""41"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p493:t1	45	"[""Iron, Plate and Sheet"", ""British India"", ""132 3 0 21"", ""138 4 2 1"", ""17180"", ""71"", ""Rs. 180 per ton"", ""689"", ""11"", ""Rs. 5 per ton""]"	not an unambiguous number: '132 3 0 21'
+bb1891:p494:t1	2	"[""Metals, wrought and unwrought: Lead, Sheet, Pipe, and Pig"", ""United Kingdom"", ""tons 12 1 3 5"", ""tons 12 1 3 5"", ""Rs. c. 3626 92"", ""Rs. 300 per ton"", ""Rs. c. 130 90"", ""Jan. 1, 1879 Rs. 10 per ton""]"	not an unambiguous number: '12 1 3 5'
+bb1891:p494:t1	3	"[""— Spelter, Tin, Zinc, in cake or slabs ..."", ""United Kingdom"", ""tons 4 10 2 7"", ""tons 4 10 2 10"", ""1132 2"", """", ""46 29"", """"]"	not an unambiguous number: '4 10 2 7'
+bb1891:p494:t1	5	"["""", ""British India"", ""2 5 3 1"", ""2 5 3 1"", ""571 99"", """", ""22 87"", """"]"	not an unambiguous number: '2 5 3 1'
+bb1891:p494:t1	6	"["""", ""Straits Settlements"", ""7 19 1 2"", ""7 19 1 2"", ""1990 66"", """", ""79 63"", """"]"	not an unambiguous number: '7 19 1 2'
+bb1891:p494:t1	8	"["""", ""Belgium"", ""3 0 0 0"", ""3 0 0 0"", ""750 0"", """", ""30 0"", """"]"	not an unambiguous number: '3 0 0 0'
+bb1891:p494:t1	9	"["""", """", ""17 15 2 10"", ""17 15 2 13"", ""4444 86"", ""Rs. 250 per ton"", ""177 78"", ""Do.""]"	not an unambiguous number: '17 15 2 10'
+bb1891:p494:t1	10	"[""— Steel, Blister"", ""United Kingdom"", ""tons 9 4 1 2"", ""tons 9 9 2 5"", ""2303 85"", """", ""94 78"", """"]"	not an unambiguous number: '9 4 1 2'
+bb1891:p494:t1	12	"["""", ""British India"", ""2 4 2 7"", ""2 4 2 7"", ""557 3"", """", ""22 28"", """"]"	not an unambiguous number: '2 4 2 7'
+bb1891:p494:t1	13	"["""", """", ""11 8 3 9"", ""11 14 0 12"", ""2860 38"", ""Do."", ""117 6"", ""Do.""]"	not an unambiguous number: '11 8 3 9'
+bb1891:p494:t1	14	"[""— Steel, Cast"", ""United Kingdom"", ""tons 108 8 1 1"", ""tons 107 10 3 13"", ""19514 33"", """", ""1344 94"", """"]"	not an unambiguous number: '108 8 1 1'
+bb1891:p494:t1	16	"["""", ""British India"", ""0 12 1 0"", ""0 8 1 0"", ""110 25"", """", ""5 16"", """"]"	not an unambiguous number: '0 12 1 0'
+bb1891:p494:t1	18	"["""", ""Germany"", ""2 0 0 0"", ""2 0 0 0"", ""360 0"", """", ""25 0"", """"]"	not an unambiguous number: '2 0 0 0'
+bb1891:p494:t1	19	"["""", """", ""111 0 2 1"", ""109 18 0 13"", ""19984 58"", ""Rs. 180 per ton"", ""1375 10"", ""Rs. 12.50 per ton""]"	not an unambiguous number: '111 0 2 1'
+bb1891:p494:t1	20	"[""— Tin, Plates"", ""United Kingdom"", ""cwt 28 1 19"", ""cwt. 28 1 19"", ""383 66"", """", ""* 21 32"", """"]"	incomplete or ambiguous rupees/cents: ['* 21 32', '']
+bb1891:p494:t1	23	"["""", """", ""31 1 22"", ""31 1 22"", ""424 52"", ""Rs 15.50 p cwt"", ""23 59"", ""75c. per cwt.""]"	incomplete or ambiguous rupees/cents: ['424 52', '15.50 p cwt']
+bb1891:p494:t1	24	"[""— Zinc, Perforated"", ""United Kingdom"", ""cwt. 53 2 2"", ""cwt. 53 2 2"", ""802 77"", ""Rs 15 p cwt"", ""160 56"", ""Rs. 8 per cwt.""]"	incomplete or ambiguous rupees/cents: ['802 77', '15 p cwt']
+bb1891:p494:t1	25	"[""Nets, Fishermen's"", ""Br. Col."", ""Nos 250"", ""Nos 250"", ""2382 0"", ""Declared"", ""—"", ""*Free""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p494:t1	27	"[""Oil, Fish"", ""United Kingdom"", ""cwt. —"", ""cwt. —"", ""pkgs. 2"", ""62 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['pkgs. 2', '62 0']
+bb1891:p494:t1	29	"["""", ""British India"", ""13 0 18 30"", ""13 0 18 30"", ""320 0"", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	31	"["""", ""Germany"", ""— 1"", ""— 1"", ""8 0"", """", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	32	"["""", """", ""13 0 18 33"", ""13 0 18 35"", ""390 0"", ""Do."", ""—"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	33	"[""— Kerosine"", ""Br. Col."", ""gals. 102"", ""gals. 102"", ""cases 8000"", ""28057 0"", ""1823 71"", ""Jan. 1, 1885""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p494:t1	35	"["""", ""For. Coun."", ""— 56719"", ""— 56719"", ""168459 0"", """", ""10949 83"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p494:t1	37	"["""", """", ""102 64719"", ""102 64719"", ""196516 0"", ""Do."", ""12773 54"", ""6½ p. ct. ad v.""]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p494:t1	41	"["""", ""For. Col."", """", """", """", """", """", """"]"	unrecognized nonnumeric label/context row
+bb1891:p494:t1	44	"[""— Vegetable"", ""United Kingdom"", ""cwt —"", ""cwt —"", ""pkgs. 245"", ""4878 84"", ""317 16"", """"]"	incomplete or ambiguous rupees/cents: ['pkgs. 245', '4878 84']
+bb1891:p494:t1	46	"["""", ""British India"", ""6142 2 8 1077"", ""6129 3 7 963"", ""132518 68"", """", ""6324 45"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	48	"["""", ""Austria"", ""— 1"", ""— 1"", ""10 0"", """", ""0 65"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	49	"["""", ""France"", ""— 25"", ""— 25"", ""341 0"", """", ""22 17"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	50	"["""", ""French India"", ""5 1 15 5"", ""5 1 15 6"", ""134 81"", """", ""8 75"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p494:t1	51	"["""", """", ""6147 3 28 1355"", ""6127 0 22 1239"", ""137983 33"", ""Do."", ""6573 17"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	4	"[""Oilmanatores"", ""... United Kingdom ..."", ""12235 packages"", ""12237 packages"", ""279376"", ""31"", """", ""18123"", ""7"", ""Jan. 1, 1886"", """"]"	incomplete or ambiguous rupees/cents: ['', '18123']
+bb1891:p495:t1	5	"["""", ""... Br. Col. ..."", """", """", ""3635"", ""52"", """", ""236"", ""35"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p495:t1	6	"["""", ""... Australia ..."", ""193"", ""193"", ""5557"", ""75"", """", ""361"", ""24"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '361']
+bb1891:p495:t1	7	"["""", ""... British India ..."", ""233"", ""233"", ""361"", ""0"", """", ""23"", ""46"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '23']
+bb1891:p495:t1	9	"["""", ""... For. Coun. ..."", """", """", ""3"", ""0"", """", ""0"", ""20"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p495:t1	10	"["""", ""... Africa ..."", ""1"", ""1"", ""1113"", ""0"", """", ""72"", ""33"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '72']
+bb1891:p495:t1	11	"["""", ""... Austria ..."", ""40"", ""40"", ""1121"", ""17"", """", ""72"", ""87"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '72']
+bb1891:p495:t1	12	"["""", ""... China ..."", ""18"", ""18"", ""1382"", ""50"", """", ""89"", ""85"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '89']
+bb1891:p495:t1	13	"["""", ""... France ..."", ""47"", ""47"", ""19"", ""0"", """", ""1"", ""23"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p495:t1	14	"["""", ""... French India ..."", ""1"", ""1"", ""1037"", ""12"", """", ""67"", ""44"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '67']
+bb1891:p495:t1	15	"["""", ""... Germany ..."", ""31"", ""31"", ""3"", ""0"", """", ""0"", ""19"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p495:t1	16	"["""", ""... Maldivo Islands ..."", ""1"", ""1"", ""17"", ""0"", """", ""1"", ""10"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '1']
+bb1891:p495:t1	18	"["""", """", ""12818 packages"", ""12820 packages"", ""293626"", ""37"", ""Do."", ""19049"", ""33"", ""6½ p. ct. ad v."", """"]"	incomplete or ambiguous rupees/cents: ['Do.', '19049']
+bb1891:p495:t1	19	"[""Unions"", ""... United Kingdom ..."", ""cwt. 0 2 0"", ""cwt. 0 2 0"", ""1"", ""50"", """", ""0"", ""8"", ""Jan. 1, 1872"", """"]"	incomplete or ambiguous rupees/cents: ['', '0']
+bb1891:p495:t1	21	"["""", ""... British India ..."", ""772 6 2 6"", ""77206 2 6"", ""231619"", ""57"", """", ""13126"", ""91"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	23	"["""", ""... French India ..."", ""95 3 23"", ""95 3 23"", ""287"", ""87"", """", ""16"", ""31"", """", """"]"	incomplete or ambiguous rupees/cents: ['', '16']
+bb1891:p495:t1	24	"["""", """", ""77303 0 1"", ""77308 0 1"", ""231808"", ""94"", ""Rs. 3 per cwt."", ""13143"", ""30"", ""17c. per cwt."", """"]"	incomplete or ambiguous rupees/cents: ['3 per cwt.', '13143']
+bb1891:p495:t1	25	"[""Opium"", ""... Br. Col. ... ... British India ..."", ""lb. 12314 11/16"", ""lb. 12314 11/16"", ""123147"", ""8"", ""Rs. 10 per lb."", ""12314"", ""68"", ""Ro. 1 per lb."", """"]"	incomplete or ambiguous rupees/cents: ['10 per lb.', '12314']
+bb1891:p495:t1	27	"[""Painters' Materials"", ""... United Kingdom ..."", ""cwt — 5927"", ""cwt. — 5934"", ""78420"", ""39"", """", ""5151"", ""23"", ""Jan. 1, 1886"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	29	"["""", ""... British India ..."", ""398 3 18 477"", ""398 3 18 477"", ""10465"", ""51"", """", ""680"", ""29"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	30	"["""", ""... Hongkong ..."", ""— 2"", ""— 2"", ""180"", ""0"", """", ""11"", ""70"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	31	"["""", ""... Straits Settlements ..."", ""1 0 0 —"", ""1 0 0 —"", ""14"", ""0"", """", ""0"", ""91"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	33	"["""", ""... Austria ..."", ""— 8"", ""— 8"", ""1898"", ""0"", """", ""123"", ""37"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	34	"["""", ""... Belgium ..."", ""— 3"", ""— 3"", ""850"", ""0"", """", ""55"", ""25"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	35	"["""", ""... France ..."", ""— 6"", ""— 6"", ""53"", ""0"", """", ""3"", ""45"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	36	"["""", ""... French India ..."", ""0 2 27 —"", ""0 2 27 —"", ""97"", ""50"", """", ""6"", ""39"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	37	"["""", ""... Germany ..."", ""— 34"", ""— 32"", ""758"", ""0"", """", ""39"", ""52"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p495:t1	38	"["""", """", ""400 2 17 6457"", ""400 2 17 6462"", ""92736"", ""40"", ""Do."", ""6072"", ""5"", ""6½ p. ct. ad v."", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p496:t1	2	"[""Pepper, Black"", ""Br. Col."", ""410 2 97"", ""3"", ""399 2 97"", ""3"", ""9863"", ""95"", """", ""695"", ""27"", ""Jan. 1, 1886"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	3	"[""Pepper, Black"", ""British India"", ""361 1 23"", ""—"", ""361 1 23"", ""—"", ""7733"", ""98"", """", ""502"", ""70"", ""Jan. 1, 1886"", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	4	"[""Pepper, Black"", ""Straits Settlements"", ""772 0 22"", ""3"", ""761 0 22"", ""3"", ""17596"", ""93"", ""Declared"", ""1127"", ""97"", ""6½ p. ct. ad v."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	5	"[""Perfumery"", ""United Kingdom"", ""—"", ""649"", ""—"", ""653"", ""56461"", ""3"", """", ""1916"", ""82"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	6	"[""Perfumery"", ""Br. Col."", ""—"", ""2"", ""—"", ""2"", ""66"", ""50"", """", ""4"", ""32"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	7	"[""Perfumery"", ""Australia"", ""46 1 20"", ""205"", ""46 1 20"", ""197"", ""5007"", ""26"", """", ""310"", ""67"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	8	"[""Perfumery"", ""British India"", ""159 2 27"", ""140"", ""159 2 27"", ""140"", ""7100"", ""50"", """", ""461"", ""56"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	9	"[""Perfumery"", ""Straits Settlements"", ""—"", ""1"", ""—"", ""1"", ""10"", ""0"", """", ""0"", ""65"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	10	"[""Perfumery"", ""For. Coun."", ""—"", ""59"", ""—"", ""59"", ""4438"", ""1"", """", ""288"", ""47"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	11	"[""Perfumery"", ""Africa"", ""—"", ""10"", ""—"", ""10"", ""394"", ""0"", """", ""25"", ""61"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	12	"[""Perfumery"", ""Austria"", ""—"", ""3"", ""—"", ""3"", ""672"", ""0"", """", ""43"", ""67"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	13	"[""Perfumery"", ""Belgium"", ""1 0 14"", ""—"", ""1 0 14"", ""—"", ""19"", ""22"", """", ""1"", ""25"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	14	"[""Perfumery"", ""France"", ""—"", ""21"", ""—"", ""21"", ""982"", ""40"", """", ""63"", ""86"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	15	"[""Perfumery"", ""French India"", ""207 1 5"", ""1090"", ""207 1 5"", ""1086"", ""76150"", ""92"", ""Do"", ""3118"", ""88"", ""6½ p. ct. ad v."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	16	"[""Perfumery"", ""Germany"", ""—"", ""15"", ""—"", ""15"", ""320"", ""0"", """", ""20"", ""80"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	17	"[""Pitch and Tar"", ""United Kingdom"", ""540"", ""930"", ""540"", ""929"", ""12383"", ""10"", ""Do"", ""804"", ""96"", ""Do."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	18	"[""Pitch and Tar"", ""Br. Col."", ""—"", ""906"", ""—"", ""904"", ""11423"", ""10"", """", ""749"", ""56"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	19	"[""Pitch and Tar"", ""British India"", ""—"", ""10"", ""—"", ""10"", ""640"", ""0"", """", ""41"", ""61"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	20	"[""Plumbago"", ""For. Coun."", ""—"", ""15"", ""—"", ""15"", ""320"", ""0"", """", ""20"", ""80"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	21	"[""Plumbago"", ""Germany"", ""37 packages"", """", ""37 packages"", """", ""2005"", ""0"", ""Do."", ""—"", """", ""Jan. 1, 1878 Free"", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	22	"[""Plumbago"", """", ""540"", ""930"", ""540"", ""929"", ""12383"", ""10"", ""Do"", ""804"", ""96"", ""Do."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	23	"[""Poonu"", ""United Kingdom"", ""199797"", ""0 20"", ""199797"", ""0 20"", ""799188"", ""71"", """", ""49968"", ""27"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	24	"[""Poonu"", ""Br. Col."", ""35"", ""1 19"", ""35"", ""1 19"", ""141"", ""68"", """", ""8"", ""88"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	25	"[""Poonu"", ""British India"", ""199832"", ""2 11"", ""199832"", ""2 11"", ""799330"", ""39"", ""Rs. 4 per cwt"", ""49967"", ""15"", ""25c. per cwt."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	27	"[""Potatoes"", ""French India"", ""168"", ""0 12"", ""168"", ""0 12"", ""1260"", ""80"", """", ""64"", ""31"", ""Jan. 1, 1878"", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	28	"[""Potatoes"", ""United Kingdom"", ""413"", ""1 14"", ""413"", ""0 14"", ""3100"", ""31"", """", ""158"", ""13"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	29	"[""Potatoes"", ""Br. Col."", ""26697"", ""3 14"", ""26697"", ""3 14"", ""209238"", ""6"", """", ""10146"", ""40"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	30	"[""Potatoes"", ""Australia"", ""1"", ""2 17"", ""1"", ""2 17"", ""12"", ""39"", """", ""0"", ""63"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	31	"[""Potatoes"", ""British India"", ""1828"", ""3 18"", ""1828"", ""3 18"", ""13716"", ""83"", """", ""695"", ""4"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	32	"[""Potatoes"", ""Straits Settlements"", ""0"", ""0 16"", ""0"", ""0 16"", ""1"", ""9"", """", ""0"", ""19"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	33	"[""Potatoes"", ""For. Coun."", ""29110"", ""0 7"", ""29110"", ""0 7"", ""218329"", ""48"", ""Rs. 7-60 per cwt."", ""11064"", ""70"", ""38c. per cwt."", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	35	"[""Printing Materials"", ""Germany"", ""189 packages"", """", ""200 packages"", """", ""18249"", ""90"", """", ""—"", """", ""March 31, 1878"", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	36	"[""Printing Materials"", ""United Kingdom"", ""9"", ""—"", ""9"", ""—"", ""436"", ""55"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	37	"[""Printing Materials"", ""Br. Col."", ""1"", ""—"", ""1"", ""—"", ""2"", ""0"", """", ""—"", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	38	"[""Printing Materials"", ""British India"", ""209 packages"", """", ""210 packages"", """", ""18688"", ""45"", ""Declared"", ""—"", """", ""Free"", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	40	"[""Prints and Pictures"", ""U. S. of America"", ""69"", ""129"", ""69"", ""131"", ""8325"", ""99"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	41	"[""Prints and Pictures"", ""United Kingdom"", ""—"", ""1"", ""—"", ""1"", ""20"", ""0"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	42	"[""Prints and Pictures"", ""Br. Col."", ""9"", ""25"", ""9"", ""25"", ""1278"", ""0"", """", ""—"", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	43	"[""Prints and Pictures"", ""Australia"", ""—"", ""1"", ""—"", ""1"", ""80"", ""0"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	44	"[""Prints and Pictures"", ""British India"", ""5"", ""—"", ""5"", ""—"", ""10"", ""0"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	45	"[""Prints and Pictures"", ""Straits Settlements"", ""—"", ""5"", ""—"", ""5"", ""160"", ""0"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	46	"[""Prints and Pictures"", ""For. Coun."", ""—"", ""1"", ""—"", ""1"", ""15"", ""0"", """", ""—"", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	47	"[""Prints and Pictures"", ""Africa"", ""—"", ""2"", ""—"", ""2"", ""56"", ""0"", """", ""—"", """", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	48	"[""Prints and Pictures"", ""France"", ""83"", ""164"", ""83"", ""166"", ""9914"", ""99"", ""Do."", ""—"", """", ""Do."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	52	"[""Provender"", ""Br. Col."", ""181 packages"", """", ""181 packages"", """", ""455"", ""0"", """", ""29"", ""57"", ""Jan. 1, 1886"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p496:t1	53	"[""Provender"", ""Australia"", ""3536"", ""—"", ""3506"", ""—"", ""22176"", ""55"", """", ""1425"", ""35"", """", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p496:t1	54	"[""Provender"", ""British India"", ""3717 packages"", """", ""3686 packages"", """", ""22631"", ""55"", ""Do."", ""1454"", ""93"", ""6½ p. ct. ad v."", """"]"	import header does not establish contiguous quantity/value/duty columns
+bb1891:p497:t1	3	"[""Provisions"", ""Br. Col."", ""—"", ""53"", ""—"", ""53"", ""798 93"", """", ""51 94"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	7	"[""Provisions"", ""For. Coun."", ""—"", ""34"", ""—"", ""34"", ""775 0"", """", ""60 38"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	16	"["""", ""British India"", ""1199 lb."", ""—"", ""1199 lb."", ""—"", ""1973 35"", ""Do."", ""128 27"", ""Do.""]"	not an unambiguous number: '1199 —'
+bb1891:p497:t1	18	"[""Railway Materials"", ""British India"", ""30"", ""—"", ""30"", ""—"", ""200 0"", """", ""—"", ""Jan. 1, 1872""]"	not an unambiguous number: '30 —'
+bb1891:p497:t1	19	"[""Railway Materials"", ""Straits Settlements"", ""25"", ""—"", ""25"", ""—"", ""75 0"", """", ""—"", """"]"	not an unambiguous number: '25 —'
+bb1891:p497:t1	20	"["""", """", ""55"", ""—"", ""55"", ""—"", ""275 0"", ""Do."", ""—"", ""Free""]"	not an unambiguous number: '55 —'
+bb1891:p497:t1	26	"[""Resin"", ""Br. Col."", ""—"", ""13"", ""—"", ""13"", ""—"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	30	"[""Saddlery and Harness"", ""Br. Col."", ""—"", ""180"", ""—"", ""180"", ""—"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	45	"[""Salt, refined"", ""Br. Col."", ""625 3 19"", ""—"", ""624 2 15"", ""—"", ""—"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	46	"[""Salt, refined"", ""Straits Settlements"", ""0 2 0"", ""—"", ""0 2 0"", ""—"", ""12 50"", """", ""1 7"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p497:t1	47	"["""", """", ""626 1 19"", ""—"", ""625 0 15"", ""—"", ""15660 49"", ""Rs. 25 per cwt."", ""1332 7"", ""Rs. 2-13 p. cwt.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p497:t1	49	"[""Salt, common"", ""Maldivo Islands"", ""4 0 0"", ""—"", ""4 0 0"", ""—"", ""12 0"", ""Rs. 3 per cwt."", ""6 52"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p497:t1	51	"[""Saltpetre"", ""Br. Col."", ""9 0 0"", ""—"", ""9 0 0"", ""—"", ""—"", """", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p497:t1	52	"[""Saltpetre"", ""British India"", ""550 1 19"", ""—"", ""550 1 19"", ""—"", ""12384 49"", """", ""275 20"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p497:t1	53	"[""Saltpetre"", """", ""559 1 19"", ""—"", ""559 1 19"", ""—"", ""12586 93"", ""Rs. 22-50 p. cwt."", ""279 70"", ""50c. per cwt.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p497:t1	54	"[""Spade, Bird"", ""United Kingdom"", ""2 packages"", ""—"", ""2 packages"", ""—"", ""36 0"", ""Declared"", ""—"", ""Mar. 31, 1879 Free.""]"	not an unambiguous number: '2 —'
+bb1891:p498:t1	2	"[""Seeds, Castor"", ""Br. Col. British India"", ""2 1/4"", ""26"", ""2 1/4"", ""26"", ""Rs. 158 75"", ""Declared"", ""Rs. — 0."", ""Mar. 31, 1878 Free""]"	incomplete or ambiguous rupees/cents: ['— 0.', 'Mar. 31, 1878 Free']
+bb1891:p498:t1	4	"[""Gingelly"", ""Br. Col. British India"", ""cwt. 383 2 3"", ""pkgs. 1656"", ""cwt. 383 2 3"", ""pkgs. 1656"", ""15610 5"", """", ""1016 38"", ""Jan 1, 1885""]"	incomplete or ambiguous rupees/cents: ['1016 38', 'Jan 1, 1885']
+bb1891:p498:t1	9	"[""Seeds and Plants"", ""United Kingdom"", ""57 packages"", ""57 packages"", ""57 packages"", ""57 packages"", ""3472 90"", """", ""—"", ""Jan 1, 1878""]"	incomplete or ambiguous rupees/cents: ['—', 'Jan 1, 1878']
+bb1891:p499:t1	25	"[""Spirits, Brandy"", ""Br. Col."", ""11956 93/980"", ""11008 75/96"", ""89671"", ""45"", ""44051"", ""11""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p499:t1	34	"["""", ""13101 45/240"", ""12190 337/480"", ""98258"", ""90"", ""48778"", ""84"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p499:t1	37	"[""Gin"", ""Br. Col."", ""24044 26/96"", ""23176 159/480"", ""180332"", ""3"", ""92737"", ""54""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p499:t1	47	"[""Liqueur"", ""Br. Col."", ""517½"", ""507 58/96"", ""3581"", ""25"", ""2030"", ""79""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p499:t1	58	"[""Rum"", ""Br. Col."", ""143 80/96"", ""148½"", ""1078"", ""75"", ""593"", ""34""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p499:t1	60	"["""", ""145 80/96"", ""150½"", ""1093"", ""75"", ""601"", ""34"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p500:t1	2	"[""Spirits, Whiskey"", ""United Kingdom ..."", ""gallons 43633 800/480"", ""gallons 43258 158/480"", ""Rs. c. 397252 18"", """", ""Rs. c. 174274 70"", ""Jan. 1, 1896"", """"]"	not an unambiguous number: '43633 800/480'
+bb1891:p500:t1	21	"[""Stones of sorts"", ""United Kingdom ..."", ""No. pkgs 152 134"", ""No. pkgs 162 134"", ""8179 68"", """", """", ""Mar. 31, 1878"", """"]"	incomplete or ambiguous rupees/cents: ['', 'Mar. 31, 1878']
+bb1891:p500:t1	28	"[""Stores, Government"", ""United Kingdom ..."", ""51 8/20 tons, 117521 pcs., and 33158 packages"", ""51 8/20 tons, 117521 pcs., and 33158 packages"", ""1472311 0"", """", """", ""Jan. 1, 1878"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p500:t1	30	"[""Stores, Government"", ""British India ..."", ""36 pcs., and 2072 packages"", ""36 pcs., and 2072 packages"", ""69216 50"", """", """", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p500:t1	32	"["""", """", ""51 8/20 tons, 117557 pcs., and 35230 packages"", ""51 8/20 tons, 117557 pcs., and 35230 packages"", ""1541527 50"", ""Do."", """", ""Free"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p500:t1	45	"[""Sugar, Candy and Refined"", """", """", ""19628 0 3"", ""19267 2 10"", ""555840 78"", ""Rs. 30 per cwt."", ""57806 29"", ""Rs. 3 per cwt.""]"	incomplete or ambiguous rupees/cents: ['19267 2 10', '555840 78']
+bb1891:p501:t1	11	"[""Tanks, Iron"", ""Br. Col."", ""380"", ""26"", ""477"", ""26"", ""15505"", ""0"", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p501:t1	13	"["""", """", ""408"", ""26"", ""524"", ""26"", ""16625"", ""0"", ""Do."", ""1/0.""]"	incomplete or ambiguous rupees/cents: ['Do.', '1/0.']
+bb1891:p501:t1	15	"[""Tea"", ""Br. Col."", ""12"", """", ""12"", """", ""30"", ""0"", ""3"", ""0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p501:t1	21	"[""Tobacco, Cigars"", ""Br. Col."", ""464"", ""11/16"", ""464"", ""11/16"", ""6970"", ""31"", ""464"", ""76""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p501:t1	39	"[""— Stout"", ""Br. Col."", ""6"", ""1/2"", ""6"", ""1/2"", ""97"", ""50"", ""6"", ""50""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p501:t1	45	"[""— Manufactured"", ""Br. Col."", ""81145"", """", ""82250"", """", ""65205"", ""80"", ""20562"", ""85""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p501:t1	58	"[""Maldivé Islands ..."", """", ""179"", """", ""179"", """", ""55"", ""94"", ""21"", ""48""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p502:t1	12	"[""Keys"", """", ""8"", ""160"", ""8"", ""157"", ""16541"", ""25"", ""1038"", ""6""]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p502:t1	13	"[""Keys"", ""Br. Col."", ""—"", ""1"", ""—"", ""1"", ""12"", ""50"", ""0"", ""81""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p502:t1	14	"[""Keys"", ""Australia"", ""—"", ""1"", ""—"", ""1"", ""12"", ""50"", ""0"", ""81""]"	figures after the article total without a new article label
+bb1891:p502:t1	15	"[""Keys"", ""British India"", ""518"", ""62"", ""518"", ""62"", ""7213"", ""12"", ""468"", ""89""]"	figures after the article total without a new article label
+bb1891:p502:t1	16	"[""Keys"", ""Straits Settlements"", ""—"", ""1"", ""—"", ""1"", ""30"", ""0"", ""1"", ""96""]"	figures after the article total without a new article label
+bb1891:p502:t1	18	"[""Keys"", ""Austria"", ""—"", ""6"", ""—"", ""6"", ""295"", ""78"", ""19"", ""28""]"	figures after the article total without a new article label
+bb1891:p502:t1	19	"[""Keys"", ""France"", ""—"", ""3"", ""—"", ""3"", ""144"", ""0"", ""9"", ""36""]"	figures after the article total without a new article label
+bb1891:p502:t1	20	"[""Keys"", ""French India"", ""—"", ""3"", ""—"", ""3"", ""29"", ""0"", ""1"", ""88""]"	figures after the article total without a new article label
+bb1891:p502:t1	21	"[""Keys"", ""Germany"", ""—"", ""15"", ""—"", ""15"", ""1611"", ""0"", ""104"", ""72""]"	figures after the article total without a new article label
+bb1891:p502:t1	22	"[""Keys"", ""Italy"", ""—"", ""1"", ""—"", ""1"", ""10"", ""0"", ""0"", ""66""]"	figures after the article total without a new article label
+bb1891:p502:t1	23	"[""Maldiv Islands"", ""5"", ""—"", ""5"", ""—"", ""5"", ""0"", ""0"", ""33"", """"]"	figures after the article total without a new article label
+bb1891:p502:t1	24	"["""", """", ""531"", ""252"", ""531"", ""249"", ""24891"", ""65"", ""1645"", ""88""]"	figures after the article total without a new article label
+bb1891:p502:t1	27	"[""Twine"", """", ""1"", ""3 16 16"", ""1"", ""3 16 16"", ""1380"", ""57"", ""89"", ""55""]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p502:t1	29	"[""Twine"", ""British India"", ""731"", ""0 1 41"", ""725"", ""3 18 41"", ""16944"", ""81"", ""1099"", ""81""]"	figures after the article total without a new article label
+bb1891:p502:t1	31	"[""French India"", ""—"", ""1"", ""—"", ""1"", ""8"", ""60"", ""0"", ""56"", """"]"	figures after the article total without a new article label
+bb1891:p502:t1	32	"["""", """", ""732"", ""3 19 58"", ""727"", ""3 8 58"", ""18333"", ""98"", ""1189"", ""92""]"	figures after the article total without a new article label
+bb1891:p502:t1	35	"[""Umbrellas"", """", ""391"", ""3/12 301"", ""343"", ""367"", ""107749"", ""0"", ""8376"", ""4""]"	unlabelled figures without preceding readable country figures; country versus total ambiguous
+bb1891:p502:t1	37	"[""Umbrellas"", ""British India"", ""756"", ""9/12 17"", ""756"", ""6/12 14"", ""3139"", ""80"", ""102"", ""70""]"	figures after the article total without a new article label
+bb1891:p502:t1	38	"[""Umbrellas"", ""Hongkong"", ""—"", ""31"", ""—"", ""31"", ""2490"", ""0"", ""151"", ""85""]"	figures after the article total without a new article label
+bb1891:p502:t1	39	"[""Umbrellas"", ""Straits Settlements"", ""—"", ""202"", ""—"", ""202"", ""19890"", ""0"", ""1292"", ""83""]"	figures after the article total without a new article label
+bb1891:p502:t1	41	"[""Umbrellas"", ""Austria"", ""—"", ""1"", ""—"", ""1"", ""200"", ""0"", ""13"", ""0""]"	figures after the article total without a new article label
+bb1891:p502:t1	42	"[""Umbrellas"", ""China"", ""—"", ""1"", ""—"", ""1"", ""12"", ""0"", ""0"", ""78""]"	figures after the article total without a new article label
+bb1891:p502:t1	43	"[""Umbrellas"", ""France"", ""—"", ""3"", ""—"", ""3"", ""1666"", ""0"", ""108"", ""29""]"	figures after the article total without a new article label
+bb1891:p502:t1	44	"[""French India"", ""4"", ""1/12 —"", ""4"", ""1/12 —"", ""10"", ""40"", ""0"", ""69"", """"]"	figures after the article total without a new article label
+bb1891:p502:t1	45	"[""Germany"", ""—"", ""5"", ""—"", ""5"", ""1820"", ""0"", ""118"", ""30"", """"]"	figures after the article total without a new article label
+bb1891:p502:t1	46	"["""", """", ""1152"", ""1/12 561"", ""1103"", ""7/12 624"", ""136977"", ""20"", ""10164"", ""48""]"	figures after the article total without a new article label
+bb1891:p502:t1	48	"[""Wines, Australian, in bottle"", ""Br. Col."", ""42 6/12 gallons"", ""42 6/12 gallons"", ""42 6/12 gallons"", ""42 6/12 gallons"", ""382"", ""50"", ""Rs. 9 per gal."", ""64 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p502:t1	50	"[""Australian, in wood"", ""Br. Col."", ""273 gallons"", ""273 gallons"", ""273 gallons"", ""273 gallons"", ""1638"", ""0"", ""Rs. 6 per gal."", ""273 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p502:t1	52	"[""Austrian, in bottle"", ""For. Coun."", ""170 gallons"", ""170 gallons"", ""170 gallons"", ""170 gallons"", ""2550"", ""0"", ""Rs. 15 per gal."", ""255 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p502:t1	58	"["""", ""Australia"", ""75 9/12"", ""75 9/12"", ""75 9/12"", ""75 9/12"", ""1136"", ""25"", """", ""95 0""]"	not an unambiguous number: '75 9/12 75 9/12'
+bb1891:p502:t1	59	"["""", ""British India"", ""95"", ""95"", ""95"", ""95"", ""1425"", ""0"", """", ""118 75""]"	not an unambiguous number: '95 95'
+bb1891:p502:t1	61	"["""", ""Austria"", ""93 5/6"", ""93 5/6"", ""93 5/6"", ""93 5/6"", ""1407"", ""50"", """", ""117 29""]"	not an unambiguous number: '93 5/6 93 5/6'
+bb1891:p502:t1	62	"["""", ""France"", ""363"", ""363"", ""337"", ""337"", ""5445"", ""0"", """", ""421 27""]"	not an unambiguous number: '363 363'
+bb1891:p502:t1	63	"["""", ""French India"", ""93 4/6"", ""93 4/6"", ""93 4/6"", ""93 4/6"", ""1405"", ""0"", """", ""116 78""]"	not an unambiguous number: '93 4/6 93 4/6'
+bb1891:p502:t1	64	"["""", ""Germany"", ""5 1/2"", ""5 1/2"", ""5 1/2"", ""5 1/2"", ""80"", ""0"", """", ""6 67""]"	not an unambiguous number: '5 1/2 5 1/2'
+bb1891:p502:t1	65	"["""", ""Russia"", ""6"", ""6"", ""6"", ""6"", ""90"", ""0"", """", ""7 50""]"	not an unambiguous number: '6 6'
+bb1891:p502:t1	66	"["""", ""Spain"", ""0 1/2"", ""0 1/2"", ""0 1/2"", ""0 1/2"", ""10"", ""0"", """", ""0 83""]"	not an unambiguous number: '0 1/2 0 1/2'
+bb1891:p502:t1	67	"["""", """", ""2406 82/96"", ""2406 82/96"", ""2237 17/96"", ""2237 17/96"", ""36102"", ""81"", ""Rs. 15 per gal."", ""2797 40""]"	not an unambiguous number: '2406 82/96 2406 82/96'
+bb1891:p503:t1	13	"[""French, in bottle ..."", ""United Kingdom ..."", ""gallons 994 52/26"", ""gallons 966 52/96"", ""14918"", ""12"", ""1449"", ""90"", """", """"]"	not an unambiguous number: '994 52/26'
+bb1891:p503:t1	23	"[""Spain ..."", ""½"", ""½"", ""5"", ""0"", ""0"", ""50"", """", """", """"]"	quantity unit not explicitly established
+bb1891:p503:t1	24	"["""", """", ""3379 88/96"", ""3351 88/96"", ""50698"", ""74"", ""5028"", ""7"", ""Re. 1.50 per gal."", """"]"	quantity unit not explicitly established
+bb1891:p504:t1	11	"[""— Port, in wood ..."", ""United Kingdom ..."", ""gallons 4703"", ""gallons 5091 11/10"", ""28918"", ""0"", ""5091"", ""55"", """", """"]"	not an unambiguous number: '5091 11/10'
+bb1891:p504:t1	15	"[""— Port, in wood ..."", """", ""5100"", ""5488 11/10"", ""30600"", ""0"", ""5488"", ""55"", ""Rs. 1 per gal."", """"]"	not an unambiguous number: '5488 11/10'
+bb1891:p504:t1	38	"[""— Sparkling, in bottle ..."", ""Woods: Dye, Sandal, and of sorts ..."", ""Br. Col. British India ..."", ""logs pcs. pkgs. 61 2867 360"", ""logs pcs. pkgs. 61 2867 360"", ""16191"", ""25"", ""—"", ""—"", ""March 31, 1878""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p504:t1	39	"[""— Sparkling, in bottle ..."", ""Woods: Dye, Sandal, and of sorts ..."", ""Straits Settlements."", ""— 171 —"", ""— 171 —"", ""300"", ""0"", ""—"", ""—"", ""March 31, 1878""]"	quantity unit not explicitly established
+bb1891:p504:t1	40	"[""For. Coun. French India ..."", ""Woods: Dye, Sandal, and of sorts ..."", ""— — 1"", ""— — 1"", ""16"", ""80"", ""—"", ""—"", """", """"]"	quantity unit not explicitly established
+bb1891:p504:t1	41	"[""Maldiv Islands ..."", ""Woods: Dye, Sandal, and of sorts ..."", ""— — 21"", ""— — 21"", ""45"", ""0"", ""—"", ""—"", """", """"]"	quantity unit not explicitly established
+bb1891:p504:t1	42	"["""", ""Woods: Dye, Sandal, and of sorts ..."", ""61 3038 392"", ""61 3038 392"", ""16433"", ""5"", ""—"", ""—"", ""Declared"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p504:t1	43	"["""", ""Woods: Dye, Sandal, and of sorts ..."", """", """", """", """", """", """", """", ""Free""]"	unrecognized nonnumeric label/context row
+bb1891:p505:t1	6	"[""Woollens"", ""For Cown"", """", """", """", """", """", """", """", """", ""Jan. 1, 1886"", """"]"	unrecognized nonnumeric label/context row
+bb1891:p505:t1	12	"["""", """", ""4536"", ""2075"", ""4533"", ""2079"", ""241337"", ""21"", ""Declared"", ""15394"", ""8"", ""6½ p. ct. ad v.""]"	incomplete or ambiguous rupees/cents: ['Declared', '15394']
+bb1891:p505:t1	13	"[""Wrecks"", ""... United Kingdom ..."", ""a quantity"", ""a quantity"", ""a quantity"", ""a quantity"", ""3287"", ""22"", """", ""213"", ""67"", """"]"	not an unambiguous number: 'a quantity'
+bb1891:p505:t1	15	"[""Wrecks"", ""British India ."", ""cwt 626 3 12"", ""cwt 626 3 12"", ""cwt 626 3 12"", ""cwt 626 3 12"", ""24813"", ""22"", """", ""1612"", ""89"", """"]"	incomplete or ambiguous rupees/cents: ['', '1612']
+bb1891:p505:t1	16	"[""Wrecks"", """", ""a quantity"", ""a quantity"", ""a quantity"", ""a quantity"", ""28100"", ""44"", ""Do."", ""1826"", ""56"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p509:t1	3	"[""Apparel, Wearing..."", ""United Kingdom ..."", ""6 packages"", ""347 packages"", ""353 packages"", ""240"", ""0"", ""45799"", ""0"", ""46039"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	5	"[""Apparel, Wearing..."", ""Australia ..."", ""1 \"""", ""7 \"""", ""8 \"""", ""100"", ""0"", ""770"", ""0"", ""870"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	6	"[""Apparel, Wearing..."", ""British India ..."", ""19 \"""", ""517 \"""", ""536 \"""", ""660"", ""0"", ""57750"", ""0"", ""58410"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	7	"[""Apparel, Wearing..."", ""Cyprus ..."", ""— \"""", ""35 \"""", ""35 \"""", ""—"", ""—"", ""9690"", ""0"", ""9690"", ""0""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p509:t1	8	"[""Apparel, Wearing..."", ""Malta ..."", ""— \"""", ""1 \"""", ""1 \"""", ""—"", ""—"", ""20"", ""0"", ""20"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	9	"[""Apparel, Wearing..."", ""Straits Settlements..."", ""— \"""", ""10 \"""", ""10 \"""", ""—"", ""—"", ""410"", ""0"", ""410"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	11	"[""Apparel, Wearing..."", ""Austria ..."", ""—"", ""2 \"""", ""2 \"""", ""—"", ""—"", ""100"", ""0"", ""100"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	12	"[""Apparel, Wearing..."", ""China ..."", ""—"", ""4 \"""", ""4 \"""", ""—"", ""—"", ""260"", ""0"", ""260"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	13	"[""Apparel, Wearing..."", ""France ..."", ""—"", ""6 \"""", ""6 \"""", ""—"", ""—"", ""350"", ""0"", ""350"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	14	"[""Apparel, Wearing..."", ""French India ..."", ""—"", ""2 \"""", ""2 \"""", ""—"", ""—"", ""100"", ""0"", ""100"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	15	"[""Apparel, Wearing..."", ""Germany ..."", ""—"", ""1 \"""", ""1 \"""", ""—"", ""—"", ""50"", ""0"", ""50"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	16	"[""Apparel, Wearing..."", ""Italy ..."", ""1 \"""", ""—"", ""1 \"""", ""25"", ""0"", ""—"", ""—"", ""25"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	17	"[""Apparel, Wearing..."", ""Japan ..."", ""—"", ""1 \"""", ""1 \"""", ""—"", ""—"", ""10"", ""0"", ""10"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	18	"[""Maldivé Islands ..."", ""—"", ""1 \"""", ""1 \"""", ""—"", ""—"", ""50"", ""0"", ""50"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	19	"[""United States of America ..."", ""1 \"""", ""3 \"""", ""4 \"""", ""20"", ""0"", ""150"", ""0"", ""170"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	20	"["""", """", ""28 packages"", ""937 packages"", ""965 packages"", ""1045"", ""0"", ""115509"", ""0"", ""116554"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	23	"[""Arrepa"", ""British India ..."", ""491 3 0"", ""180 2 0"", ""672 1 0"", ""1081"", ""75"", ""717"", ""0"", ""1798"", ""75""]"	incomplete or ambiguous rupees/cents: ['75']
+bb1891:p509:t1	25	"[""Areca-nuts"", ""United Kingdom ..."", ""pkgs. cwt."", ""—"", ""pkgs. cwt."", ""850"", ""0"", ""—"", ""—"", ""850"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	26	"[""Areca-nuts"", ""Br. Col."", ""62 0 2"", ""—"", ""62 0 2"", ""—"", ""—"", ""—"", ""—"", ""—"", ""—""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p509:t1	27	"[""Areca-nuts"", ""British India ..."", ""25 94667 3 2"", ""—"", ""25 94667 3 2"", ""860278"", ""75"", ""—"", ""—"", ""860278"", ""75""]"	incomplete or ambiguous rupees/cents: ['75']
+bb1891:p509:t1	28	"[""Areca-nuts"", ""Mauritius ..."", ""1318 1 4"", ""—"", ""1318 1 4"", ""12312"", ""36"", ""—"", ""—"", ""12312"", ""36""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p509:t1	30	"[""Areca-nuts"", ""French India ..."", ""1240 2 0"", ""—"", ""1240 2 0"", ""10460"", ""0"", ""—"", ""—"", ""10460"", ""0""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p509:t1	31	"[""Areca-nuts"", ""Laccadive Islands ..."", ""75 0 0"", ""—"", ""75 0 0"", ""975"", ""0"", ""—"", ""—"", ""975"", ""0""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p509:t1	32	"[""Maldivé Islands ..."", ""1842 3 14"", ""70 0 0"", ""1912 3 14"", ""21817"", ""0"", ""500"", ""0"", ""22317"", ""0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p509:t1	33	"["""", """", ""25 99206 1 22"", ""70 0 0"", ""25 99276 1 22"", ""906693"", ""11"", ""500"", ""0"", ""907193"", ""11""]"	quantity unit not explicitly established
+bb1891:p509:t1	34	"[""Arms and Ammunition—Guns, single-barrelled"", ""United Kingdom ..."", ""—"", ""4 packages"", ""4 packages"", ""—"", ""—"", ""2115"", ""0"", ""2115"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	36	"[""Arms and Ammunition—Guns, single-barrelled"", ""British India ..."", ""—"", ""3 \"""", ""3 \"""", ""—"", ""—"", ""625"", ""0"", ""625"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	37	"["""", """", ""—"", ""7 packages"", ""7 packages"", ""—"", ""—"", ""2740"", ""0"", ""2740"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	39	"[""Bêche-de-mer"", ""Br. Col."", ""cwt. pkgs."", ""—"", ""cwt. pkgs."", ""29562"", ""0"", ""—"", ""—"", ""29562"", ""0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p509:t1	42	"[""Bêche-de-mer"", ""China ..."", ""— 83"", ""—"", ""— 83"", ""5000"", ""0"", ""—"", ""—"", ""5000"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	43	"["""", """", ""673 2 0 147"", ""—"", ""673 2 0 147"", ""34562"", ""0"", ""—"", ""—"", ""34562"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	45	"[""Beeswax"", ""United Kingdom .."", ""—"", ""cwt. 2 2 0"", ""cwt. 2 2 0"", ""—"", ""—"", ""350"", ""0"", ""350"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	48	"[""Birds' Feathers"", ""Straits Settlements"", ""4 packages"", ""—"", ""4 packages"", ""1400"", ""0"", ""—"", ""—"", ""1400"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	51	"[""Birds' Nests"", ""Hongkong"", ""—"", ""—"", ""1 package"", ""1000"", ""0"", ""—"", ""—"", ""1000"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	53	"[""China ..."", """", """", ""2 \"""", ""50"", ""0"", ""—"", ""—"", ""50"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	54	"["""", """", ""3 p. es"", ""—"", ""3 packages"", ""1050"", ""0"", ""—"", ""—"", ""1050"", ""0""]"	not an unambiguous number: '3 p. es'
+bb1891:p509:t1	57	"[""Blacks"", ""British India ..."", ""1 package"", ""6 packages"", ""7 packages"", ""4"", ""0"", ""195"", ""0"", ""199"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	59	"[""Maldivé Islands ..."", """", ""10 \"""", ""10 \"""", ""—"", ""—"", ""563"", ""0"", ""563"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	60	"["""", """", ""1 package"", ""16 packages"", ""17 packages"", ""4"", ""0"", ""758"", ""0"", ""762"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p509:t1	63	"[""Blanking"", ""Maldivé Islands ..."", ""—"", ""1 package"", ""1 package"", ""—"", ""—"", ""40"", ""0"", ""40"", ""0""]"	incomplete or ambiguous rupees/cents: ['0']
+bb1891:p510:t1	3	"[""Boats and Canoes ..."", ""United Kingdom ..."", ""— 1"", ""1 —"", ""1 1"", ""200 0"", ""200 0"", ""400 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p510:t1	4	"[""Boats and Canoes ..."", ""Br. Col."", ""— 3"", ""—"", ""— 3"", ""110 0"", ""—"", ""110 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	5	"[""Boats and Canoes ..."", ""British India ..."", ""— 4"", ""1 —"", ""1 4"", ""310 0"", ""208 0"", ""510 0"", ""Declared"", """"]"	quantity unit not explicitly established
+bb1891:p510:t1	8	"[""Books and Maps, printed ..."", ""Br. Col."", ""1 \"""", ""3 \"""", ""4 \"""", ""50 0"", ""155 0"", ""205 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	12	"[""Books and Maps, printed ..."", ""For. Coun."", ""—"", ""1 \"""", ""1 \"""", ""—"", ""40 0"", ""40 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	16	"[""Boots and Shoes ..."", ""Br. Col."", ""—"", ""1 package"", ""1 package"", ""—"", ""250 0"", ""250 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	23	"[""Bricks and Tiles ..."", ""For. Coun."", ""16350"", ""—"", ""16350"", ""445 0"", ""—"", ""445 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	27	"[""Cacao ..."", ""Br. Col."", ""1 0 0"", ""—"", ""1 0 0"", ""60 0"", ""—"", ""60 0"", ""0 10"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	30	"[""Cacao ..."", ""For. Coun."", ""149 1 17"", ""—"", ""149 1 17"", ""8964 11"", ""—"", ""8964 11"", ""14 25"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p510:t1	46	"[""Cardamoms ..."", ""Bushire ..."", ""100"", ""—"", ""100"", ""112 0"", ""—"", ""112 0"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p510:t1	50	"[""Cardamoms ..."", """", """", ""408866½"", ""—"", ""408866½"", ""457591 86"", ""—"", ""457591 86"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['408866½']
+bb1891:p511:t1	7	"[""Carts and Carriages"", ""For. Coun."", ""—"", ""—"", ""1"", ""—"", ""1"", ""—"", ""—"", ""—"", ""150"", ""0"", ""150"", ""0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p511:t1	20	"[""Cement, Lime, and Clay"", ""For. Coun."", ""—"", ""—"", ""—"", ""4"", ""—"", ""4"", ""—"", ""—"", ""40"", ""0"", ""40"", ""0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p511:t1	27	"[""Cinnamon"", ""Br. Col."", ""1101967"", ""275804"", """", """", ""1377771"", """", ""688885"", ""50"", ""—"", ""—"", ""688885"", ""50"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p511:t1	28	"[""Cinnamon"", ""Australia ..."", ""20700"", ""11148"", """", """", ""31848"", """", ""15924"", ""0"", ""—"", ""—"", ""15924"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	29	"[""Cinnamon"", ""British India ..."", ""20154"", ""4434"", """", """", ""24588"", """", ""12294"", ""0"", ""—"", ""—"", ""12294"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	30	"[""Cinnamon"", ""Hongkong ..."", ""61000"", ""—"", """", """", ""61000"", """", ""30500"", ""0"", ""—"", ""—"", ""30500"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	32	"[""Cinnamon"", ""Austria ..."", ""200"", ""—"", """", """", ""200"", """", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	33	"[""Cinnamon"", ""Belgium ..."", ""63500"", ""5600"", """", """", ""69100"", """", ""34550"", ""0"", ""—"", ""—"", ""34550"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	34	"[""Cinnamon"", ""China ..."", ""20000"", ""—"", """", """", ""20000"", """", ""10000"", ""0"", ""—"", ""—"", ""10000"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	35	"[""Cinnamon"", ""France ..."", ""91300"", ""65452"", """", """", ""156752"", """", ""78376"", ""0"", ""—"", ""—"", ""78376"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	36	"[""Cinnamon"", ""Germany ..."", ""445965"", ""209290"", """", """", ""649245"", """", ""324622"", ""50"", ""—"", ""—"", ""324622"", ""50"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	37	"[""Cinnamon"", ""Holland ..."", ""15000"", ""—"", """", """", ""15000"", """", ""7500"", ""0"", ""—"", ""—"", ""7500"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	38	"[""Cinnamon"", ""Italy ..."", ""112600"", ""121860"", """", """", ""234460"", """", ""117230"", ""0"", ""—"", ""—"", ""117230"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	39	"[""Cinnamon"", ""Maldivo Islands .."", ""584"", ""—"", """", """", ""584"", """", ""292"", ""0"", ""—"", ""—"", ""292"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	40	"[""Cinnamon"", ""Manilla ..."", ""200"", ""—"", """", """", ""200"", """", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	41	"[""Cinnamon"", ""Russia ..."", ""50"", ""—"", """", """", ""50"", """", ""25"", ""0"", ""—"", ""—"", ""25"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	42	"[""Cinnamon"", ""Spain ..."", ""89200"", ""—"", """", """", ""89200"", """", ""44600"", ""0"", ""—"", ""—"", ""44600"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	43	"[""Cinnamon"", ""U. S. of America .."", ""80100"", ""—"", """", """", ""80100"", """", ""40050"", ""0"", ""—"", ""—"", ""40050"", ""0"", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	44	"[""Cinnamon"", """", ""2122520"", ""687578"", """", """", ""2810098"", """", ""1405049"", ""0"", ""—"", ""—"", ""1405049"", ""0"", ""50c. per lb."", """"]"	multiple figures with repeated unit within one measure
+bb1891:p511:t1	45	"[""Cinnamon"", ""Cinnamon Leaves"", ""For. Coun."", """", """", """", """", """", """", """", """", """", """", """", """", """"]"	unrecognized nonnumeric label/context row
+bb1891:p511:t1	48	"["""", ""28 packages"", """", """", """", """", ""28 packages"", ""12"", ""0"", ""—"", ""—"", ""12"", ""0"", ""Declared"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p511:t1	50	"[""Cinchona Bark"", ""For. Coun."", ""6144941"", ""7984"", ""6427"", ""11"", ""5159352"", ""11"", ""617392"", ""92"", ""2085"", ""0"", ""619637"", ""60"", ""7015 54"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p511:t1	51	"[""Cinchona Bark"", ""Belgium ..."", ""233214"", ""2908"", ""—"", ""—"", ""236122"", ""—"", ""27985"", ""68"", ""—"", ""—"", ""28043"", ""84"", ""302 70"", """"]"	not an unambiguous number: '233214 2908'
+bb1891:p511:t1	52	"[""Cinchona Bark"", ""France ..."", ""3362"", ""—"", ""—"", ""—"", ""3362"", ""—"", ""403"", ""44"", ""—"", ""—"", ""403"", ""44"", ""6 0"", """"]"	not an unambiguous number: '3362 —'
+bb1891:p511:t1	53	"[""Cinchona Bark"", ""Germany ..."", ""77296"", ""—"", ""—"", ""—"", ""77296"", ""—"", ""9275"", ""52"", ""—"", ""—"", ""9275"", ""52"", ""34 50"", """"]"	not an unambiguous number: '77296 —'
+bb1891:p511:t1	54	"[""Cinchona Bark"", ""Holland ..."", ""21438"", ""—"", ""—"", ""—"", ""21438"", ""—"", ""2572"", ""56"", ""—"", ""—"", ""2572"", ""56"", ""36 50"", """"]"	not an unambiguous number: '21438 —'
+bb1891:p511:t1	55	"[""Cinchona Bark"", ""U. S. of America ..."", ""98407"", ""—"", ""—"", ""—"", ""98407"", ""—"", ""11808"", ""58"", ""—"", ""—"", ""11808"", ""54"", ""175"", """"]"	not an unambiguous number: '98407 —'
+bb1891:p511:t1	56	"[""Cinchona Bark"", """", ""5578658"", ""10892"", ""6427"", ""11"", ""5596977"", ""11"", ""669438"", ""96"", ""2085"", ""0"", ""671741"", ""80"", ""7875"", """"]"	not an unambiguous number: '5578658 10892'
+bb1891:p512:t1	4	"[""Clocks and Watches"", ""For. Coun."", ""—"", ""3 \"""", ""3 \"""", ""—"", ""—"", ""200 57"", ""200 57"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p512:t1	8	"[""Coal and Coke"", ""British India"", ""—"", ""360 8 1 14"", ""360 8 1 14"", ""—"", ""—"", ""8750 0"", ""8750 0"", """"]"	not an unambiguous number: '360 8 1 14'
+bb1891:p512:t1	10	"[""Cocoanuts"", ""Br. Col."", ""—"", ""6049331"", ""—"", ""—"", ""6049331"", ""225602 80"", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p512:t1	11	"[""Cocoanuts"", ""British India"", ""360"", ""617678"", ""227"", ""54600"", ""607 672373"", ""23092 0"", ""3500 0"", """"]"	incomplete or ambiguous rupees/cents: ['54600']
+bb1891:p512:t1	12	"[""Cocoanuts"", ""Hongkong"", ""—"", ""2000"", ""—"", ""—"", ""2000"", ""65 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['2000']
+bb1891:p512:t1	14	"[""Cocoanuts"", ""Arabia"", ""—"", ""372700"", ""—"", ""—"", ""372700"", ""24715 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['372700']
+bb1891:p512:t1	15	"[""Cocoanuts"", ""Belgium"", ""—"", ""11000"", ""—"", ""—"", ""11000"", ""500 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['11000']
+bb1891:p512:t1	16	"[""Cocoanuts"", ""China"", ""—"", ""2000"", ""—"", ""—"", ""2000"", ""70 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['2000']
+bb1891:p512:t1	17	"[""Cocoanuts"", ""Egypt"", ""—"", ""172300"", ""—"", ""—"", ""172300"", ""5716 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['172300']
+bb1891:p512:t1	18	"[""Cocoanuts"", ""French India"", ""—"", ""1100"", ""—"", ""—"", ""1100"", ""33 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['1100']
+bb1891:p512:t1	19	"[""Cocoanuts"", ""Germany"", ""—"", ""57090"", ""—"", ""—"", ""57090"", ""2041 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['57090']
+bb1891:p512:t1	20	"[""Cocoanuts"", ""Maldives Islands"", ""4"", ""300"", ""—"", ""—"", ""4 300"", ""14 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['4 300']
+bb1891:p512:t1	21	"[""Cocoanuts"", ""Turkey"", ""—"", ""10500"", ""—"", ""—"", ""10500"", ""362 0"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['10500']
+bb1891:p512:t1	22	"[""Cocoanuts"", ""U.S. of America"", ""—"", ""71149"", ""—"", ""—"", ""71149"", ""2159 57"", ""—"", """"]"	incomplete or ambiguous rupees/cents: ['71149']
+bb1891:p512:t1	23	"["""", """", ""384"", ""7367043"", ""227"", ""54600"", ""611"", ""7421643"", ""284373 37"", """"]"	incomplete or ambiguous rupees/cents: ['54600']
+bb1891:p512:t1	33	"[""Coffee, Plantation"", ""Br. Col."", ""61892"", ""2 13"", ""61892"", ""2 13"", ""4022370"", ""4"", ""—"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p512:t1	34	"[""Coffee, Plantation"", ""Australia"", ""9032"", ""0 26"", ""9032"", ""0 26"", ""587095"", ""9"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	35	"[""Coffee, Plantation"", ""British India"", ""2865"", ""1 26"", ""2865"", ""1 26"", ""186256"", ""34"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	36	"[""Coffee, Plantation"", ""Hongkong"", ""53"", ""0 0"", ""53"", ""0 0"", ""3445"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	37	"[""Coffee, Plantation"", ""Mauritius"", ""261"", ""0 12"", ""261"", ""0 12"", ""16971"", ""96"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	38	"[""Coffee, Plantation"", ""Straits Settlements"", ""22"", ""1 22"", ""22"", ""1 22"", ""1459"", ""2"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	40	"[""Coffee, Plantation"", ""Arabia"", ""45"", ""0 0"", ""45"", ""0 0"", ""2925"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	41	"[""Coffee, Plantation"", ""Austria"", ""7200"", ""1 14"", ""7200"", ""1 14"", ""468024"", ""37"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	42	"[""Coffee, Plantation"", ""Belgium"", ""18"", ""0 13"", ""18"", ""0 13"", ""1177"", ""54"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	43	"[""Coffee, Plantation"", ""China"", ""56"", ""1 7"", ""56"", ""1 7"", ""3660"", ""32"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	44	"[""Coffee, Plantation"", ""Egypt"", ""30"", ""1 18"", ""30"", ""1 18"", ""1976"", ""70"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	45	"[""Coffee, Plantation"", ""France"", ""506"", ""2 0"", ""506"", ""2 0"", ""32922"", ""50"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	46	"[""Coffee, Plantation"", ""French India"", ""10"", ""0 0"", ""10"", ""0 0"", ""650"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	47	"[""Coffee, Plantation"", ""Germany"", ""127"", ""2 5"", ""127"", ""2 5"", ""8290"", ""40"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	48	"[""Coffee, Plantation"", ""Italy"", ""6"", ""0 0"", ""6"", ""0 0"", ""390"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	49	"[""Coffee, Plantation"", ""Japan"", ""32"", ""0 0"", ""32"", ""0 0"", ""2080"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	50	"[""Coffee, Plantation"", ""Russia"", ""12"", ""0 0"", ""12"", ""0 0"", ""780"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	51	"[""Coffee, Plantation"", ""Sweden"", ""1"", ""0 0"", ""1"", ""0 0"", ""65"", ""0"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	52	"[""Coffee, Plantation"", ""Turkey"", ""0"", ""0 6"", ""0"", ""0 6"", ""3 48"", ""—"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	53	"[""Coffee, Plantation"", ""U.S. of America"", ""99"", ""3 0"", ""99"", ""3 0"", ""6483"", ""75"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	54	"[""Coffee, Plantation"", ""Zanzibar"", ""62"", ""3 17"", ""62"", ""3 17"", ""4088"", ""62"", ""—"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p512:t1	56	"[""Coffee, Plantation"", """", """", ""62324"", ""3 11"", ""62324"", ""3 11"", ""5351115"", ""13"", ""—""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p513:t1	15	"[""Coffee, Native"", """", """", ""6456 1 5"", ""—"", ""6456 1 5"", ""335727 31"", ""—"", ""335727 31"", ""645 62*""]"	incomplete or ambiguous rupees/cents: ['6456 1 5']
+bb1891:p513:t1	25	"[""Liberian"", """", """", ""892 2 1"", ""—"", ""892 2 1"", ""44625 43"", ""—"", ""44625 43"", ""89 27†""]"	incomplete or ambiguous rupees/cents: ['892 2 1']
+bb1891:p513:t1	38	"[""Coir, Fibre"", """", """", ""38874 1 1"", ""13 3 20"", ""38888 0 21"", ""291566 94"", ""104 46"", ""291661 40"", ""Rs. 7½ p. cwt.""]"	incomplete or ambiguous rupees/cents: ['38888 0 21']
+bb1891:p513:t1	39	"[""Coir, Fibre"", ""Manufactured"", ""Br. Col."", ""pkgs. cwt."", """", ""pkgs. cwt."", """", """", """", """"]"	unrecognized nonnumeric label/context row
+bb1891:p513:t1	40	"[""Australia"", ""Manufactured"", ""46 —"", ""—"", ""46 —"", ""770 0"", ""—"", ""770 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	41	"[""British India"", ""Manufactured"", ""15 25 0 7"", ""—"", ""15 25 0 7"", ""387 0"", ""—"", ""387 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	42	"[""Hongkong"", ""Manufactured"", ""4 —"", ""—"", ""4 —"", ""300 0"", ""—"", ""300 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	43	"[""Straits Settlements"", ""Manufactured"", ""367 15 0 0"", ""—"", ""367 15 0 0"", ""2900 50"", ""—"", ""2900 50"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	45	"[""Bushire"", ""Manufactured"", ""— 25 1 8"", ""—"", ""— 25 1 8"", ""534 0"", ""—"", ""534 0"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p513:t1	46	"[""Dutch Poss. in India"", ""Manufactured"", ""120 —"", ""—"", ""120 —"", ""480 0"", ""—"", ""480 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	47	"[""Egypt"", ""Manufactured"", ""3 —"", ""—"", ""3 —"", ""30 0"", ""—"", ""30 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	48	"[""France"", ""Manufactured"", ""77 —"", ""—"", ""77 —"", ""1025 0"", ""—"", ""1025 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	49	"[""French Poss. in China"", ""Manufactured"", ""72 —"", ""—"", ""72 —"", ""395 0"", ""—"", ""395 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	50	"[""French India"", ""Manufactured"", ""— 1 2 0"", ""—"", ""— 1 2 0"", ""10 0"", ""—"", ""10 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	51	"[""Japan"", ""Manufactured"", ""2 —"", ""—"", ""2 —"", ""20 0"", ""—"", ""20 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	52	"[""Russian Poss. in China"", ""Manufactured"", ""1 —"", ""—"", ""1 —"", ""20 0"", ""—"", ""20 0"", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	53	"[""U. S. of America"", ""10 —"", ""—"", ""10 —"", ""322 50"", ""—"", ""322 50"", """", """", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	54	"["""", """", ""717 66 3 15"", ""—"", ""717 66 3 15"", ""7194 0"", ""—"", ""7194 0"", ""Declared"", """"]"	quantity unit not explicitly established
+bb1891:p513:t1	64	"[""Rope"", """", """", ""10904 3 1"", ""—"", ""10904 3 1"", ""136309 49"", ""—"", ""136309 49"", ""Rs. 12½ p. cwt.""]"	incomplete or ambiguous rupees/cents: ['10904 3 1']
+bb1891:p514:t1	40	"[""Copperal"", """", """", ""68907 2 21"", ""—"", ""68907 2 21"", ""921384 98"", ""—"", ""921384 98"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['68907 2 21']
+bb1891:p514:t1	42	"[""Coral Stones"", ""British India ..."", ""5750 116 453 320"", ""—"", ""5750 116 453 320"", ""1548 0"", ""—"", ""1548 0"", ""Do."", """"]"	quantity unit not explicitly established
+bb1891:p514:t1	46	"[""Cotton manufacture"", ""Br. Col."", ""—"", ""8 —"", ""8 —"", ""—"", ""1483 0"", ""1483 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p514:t1	51	"[""Cotton manufacture"", ""Bushire ..."", ""—"", ""1 —"", ""1 —"", ""—"", ""150 0"", ""150 0"", """", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p514:t1	59	"[""Cotton manufacture"", """", """", ""389 —"", ""115 20971"", ""504 20971"", ""69019 31"", ""96237 67"", ""165256 98"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['504 20971']
+bb1891:p515:t1	3	"[""Cotton Twist"", ""Br. Col."", ""208"", ""—"", ""80"", ""—"", ""288"", ""—"", ""46943"", ""90"", ""22419"", ""0"", ""69362"", ""90"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	4	"[""Cotton Twist"", ""British India"", ""95"", ""—"", ""—"", ""—"", ""95"", ""—"", ""12240"", ""0"", ""—"", ""—"", ""12240"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	5	"[""Cotton Twist"", ""Hongkong"", ""26"", ""—"", ""2"", ""—"", ""28"", ""—"", ""3640"", ""0"", ""360"", ""0"", ""4000"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	7	"[""Cotton Twist"", ""For. Coun."", ""77"", ""—"", ""—"", ""—"", ""77"", ""—"", ""10700"", ""0"", ""—"", ""—"", ""10700"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	8	"[""Cotton Twist"", ""China"", ""33"", ""—"", ""—"", ""—"", ""33"", ""—"", ""4452"", ""0"", ""—"", ""—"", ""4452"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	9	"[""Cotton Twist"", ""Japan"", ""—"", ""—"", ""23"", ""—"", ""23"", ""—"", ""—"", ""—"", ""5885"", ""0"", ""5885"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	11	"["""", """", ""439"", ""—"", ""105"", ""—"", ""544"", ""—"", ""77975"", ""90"", ""28664"", ""0"", ""106639"", ""90"", """"]"	incomplete or ambiguous rupees/cents: ['90', '']
+bb1891:p515:t1	13	"[""— Waste"", ""Br. Col."", ""—"", ""—"", ""10 packages"", ""—"", ""10 packages"", ""—"", ""—"", ""—"", ""40"", ""0"", ""40"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	16	"[""— Wool"", ""United Kingdom"", ""—"", ""636 1 12"", ""—"", ""80 3 12"", ""—"", ""717 0 24"", ""17265"", ""0"", ""2060"", ""0"", ""19325"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	18	"[""— Wool"", ""Australia"", ""—"", ""385 1 11"", ""—"", ""—"", ""—"", ""385 1 11"", ""11151"", ""55"", ""—"", ""—"", ""11151"", ""55"", """"]"	incomplete or ambiguous rupees/cents: ['55', '']
+bb1891:p515:t1	19	"[""— Wool"", ""British India"", ""15"", ""1187 1 0"", ""—"", ""39 2 0"", ""15"", ""1226 3 0"", ""9741"", ""0"", ""320"", ""0"", ""10061"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	21	"[""— Wool"", ""French India"", ""—"", ""13 0 0"", ""—"", ""—"", ""—"", ""13 0 0"", ""130"", ""0"", ""—"", ""—"", ""130"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	22	"[""— Wool"", ""Holland"", ""—"", ""10 3 26"", ""—"", ""—"", ""—"", ""10 3 26"", ""210"", ""0"", ""—"", ""—"", ""210"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	23	"[""Maldives Islands"", ""20"", ""3 0 0"", ""—"", ""30 0 0"", ""20"", ""33 0 0"", ""60"", ""0"", ""301"", ""91"", ""361"", ""91"", """", """"]"	incomplete or ambiguous rupees/cents: ['91', '']
+bb1891:p515:t1	24	"["""", """", ""35"", ""2235 3 21"", ""—"", ""150 1 12"", ""35"", ""2386 1 5"", ""38557"", ""55"", ""2681"", ""91"", ""41239"", ""46"", """"]"	incomplete or ambiguous rupees/cents: ['46', '']
+bb1891:p515:t1	26	"[""Cowries and Shells..."", ""United Kingdom"", ""22"", ""653 0 9"", ""—"", ""5 3 6"", ""22"", ""658 3 15"", ""6067"", ""75"", ""4623"", ""0"", ""10690"", ""75"", """"]"	incomplete or ambiguous rupees/cents: ['75', '']
+bb1891:p515:t1	28	"[""Cowries and Shells..."", ""Australia"", ""2"", ""—"", ""—"", ""—"", ""2"", ""—"", ""34"", ""0"", ""—"", ""—"", ""34"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	30	"[""Cowries and Shells..."", ""For. Coun."", ""—"", ""No. 444000"", ""—"", ""—"", ""—"", ""No. 444000"", ""1176"", ""44"", ""160"", ""0"", ""1336"", ""44"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	31	"[""Cowries and Shells..."", ""France"", ""—"", ""533 0 0"", ""—"", ""—"", ""—"", ""533 0 0"", ""1652"", ""0"", ""—"", ""—"", ""1652"", ""0"", """"]"	not an unambiguous number: '— 533 0 0'
+bb1891:p515:t1	32	"[""Cowries and Shells..."", ""Germany"", ""1"", ""62 3 0"", ""—"", ""—"", ""1"", ""62 3 0"", ""305"", ""0"", ""—"", ""—"", ""305"", ""0"", """"]"	not an unambiguous number: '1 62 3 0'
+bb1891:p515:t1	33	"["""", """", ""813"", ""1255 0 9"", ""—"", ""29 1 6"", ""813"", ""1284 1 15"", ""9235"", ""19"", ""4783"", ""0"", ""14018"", ""19"", """"]"	not an unambiguous number: '813 1255 0 9'
+bb1891:p515:t1	35	"[""Crackers"", ""Br. Col."", ""—"", ""—"", ""26 packages"", ""—"", ""26 packages"", ""—"", ""—"", ""—"", ""495"", ""0"", ""495"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	37	"[""Crackers"", ""For. Coun."", ""—"", ""—"", ""18"", ""—"", ""18"", ""—"", ""—"", ""—"", ""275"", ""0"", ""275"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p515:t1	38	"[""Crackers"", ""Maldives Islands"", ""—"", ""—"", ""1"", ""—"", ""1"", ""—"", ""—"", ""—"", ""14"", ""0"", ""14"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	40	"["""", """", ""—"", ""—"", ""45 packages"", ""—"", ""45 packages"", ""—"", ""—"", ""—"", ""784"", ""0"", ""784"", ""0"", """"]"	not an unambiguous number: '45 —'
+bb1891:p515:t1	42	"[""Curiosities"", ""United Kingdom"", ""49 packages"", ""—"", ""8 packages"", ""—"", ""57 packages"", ""—"", ""7920"", ""0"", ""615"", ""0"", ""8535"", ""0"", """"]"	not an unambiguous number: '49 —'
+bb1891:p515:t1	44	"[""Curiosities"", ""Aden"", ""2"", ""—"", ""—"", ""—"", ""2"", ""—"", ""500"", ""0"", ""—"", ""—"", ""500"", ""0"", """"]"	not an unambiguous number: '2 —'
+bb1891:p515:t1	45	"[""Curiosities"", ""Australia"", ""5"", ""—"", ""—"", ""—"", ""5"", ""—"", ""895"", ""0"", ""—"", ""—"", ""895"", ""0"", """"]"	not an unambiguous number: '5 —'
+bb1891:p515:t1	46	"[""Curiosities"", ""British India"", ""2"", ""—"", ""2"", ""—"", ""4"", ""—"", ""90"", ""0"", ""10"", ""0"", ""100"", ""0"", """"]"	not an unambiguous number: '2 —'
+bb1891:p515:t1	47	"[""Curiosities"", ""Hongkong"", ""3"", ""—"", ""—"", ""—"", ""3"", ""—"", ""130"", ""0"", ""—"", ""—"", ""130"", ""0"", """"]"	not an unambiguous number: '3 —'
+bb1891:p515:t1	48	"[""Curiosities"", ""Straits Settlements"", ""1"", ""—"", ""—"", ""—"", ""1"", ""—"", ""50"", ""0"", ""—"", ""—"", ""50"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	50	"[""Curiosities"", ""Austria"", ""1"", ""—"", ""—"", ""—"", ""1"", ""—"", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	51	"[""Curiosities"", ""France"", ""1"", ""—"", ""—"", ""—"", ""1"", ""—"", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	52	"[""Curiosities"", ""Germany"", ""16"", ""—"", ""—"", ""—"", ""16"", ""—"", ""600"", ""0"", ""—"", ""—"", ""600"", ""0"", """"]"	not an unambiguous number: '16 —'
+bb1891:p515:t1	53	"[""Curiosities"", ""Holland"", ""4"", ""—"", ""—"", ""—"", ""4"", ""—"", ""250"", ""0"", ""—"", ""—"", ""250"", ""0"", """"]"	not an unambiguous number: '4 —'
+bb1891:p515:t1	54	"[""Curiosities"", ""Italy"", ""2"", ""—"", ""—"", ""—"", ""2"", ""—"", ""50"", ""0"", ""—"", ""—"", ""50"", ""0"", """"]"	not an unambiguous number: '2 —'
+bb1891:p515:t1	55	"[""Curiosities"", ""Turkey"", ""1"", ""—"", ""—"", ""—"", ""1"", ""—"", ""10"", ""0"", ""—"", ""—"", ""10"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	56	"[""U. S. of America"", ""1"", ""—"", ""—"", ""—"", ""1"", ""—"", ""280"", ""0"", ""—"", ""—"", ""280"", ""0"", """", """"]"	not an unambiguous number: '1 —'
+bb1891:p515:t1	57	"["""", """", ""68 packages"", ""—"", ""10 packages"", ""—"", ""98 packages"", ""—"", ""10975"", ""0"", ""625"", ""0"", ""11600"", ""0"", """"]"	not an unambiguous number: '68 —'
+bb1891:p515:t1	59	"[""Curry Stuffs"", ""United Kingdom"", ""13"", ""—"", ""—"", ""—"", ""13"", ""—"", ""90"", ""64"", ""—"", ""—"", ""90"", ""64"", """"]"	incomplete or ambiguous rupees/cents: ['64', '']
+bb1891:p515:t1	61	"[""Curry Stuffs"", ""Australia"", ""3"", ""—"", ""—"", ""—"", ""3"", ""—"", ""72"", ""0"", ""—"", ""—"", ""72"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	62	"[""Curry Stuffs"", ""British India"", ""1"", ""202 0 0"", ""—"", ""228 1 0"", ""1"", ""430 1 0"", ""1804"", ""0"", ""1898"", ""0"", ""3702"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	64	"[""Curry Stuffs"", ""Arabia"", ""2"", ""—"", ""—"", ""—"", ""2"", ""—"", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	65	"[""Maldives Islands"", ""—"", ""3 0 0"", ""—"", ""574 0 25"", ""—"", ""577 0 25"", ""6"", ""0"", ""4831"", ""0"", ""4837"", ""0"", """", """"]"	incomplete or ambiguous rupees/cents: ['0', '']
+bb1891:p515:t1	66	"["""", """", ""19"", ""205 0, 0"", ""—"", ""803 1 25"", ""19"", ""1007 1 25"", ""2072"", ""64"", ""6729"", ""0"", ""8801"", ""64"", """"]"	incomplete or ambiguous rupees/cents: ['64', '']
+bb1891:p516:t1	2	"[""Gutch, or Terraponica"", ""Br. Col."", """", ""cwt. 17 0 0"", ""cwt. 17 0 0"", ""Rs. c."", ""Rs. c."", ""Rs. c."", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	4	"[""Gutch, or Terraponica"", ""For. Coun."", ""—"", ""2 2 0"", ""2 2 0"", ""—"", ""35 0"", ""35 0"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	6	"[""Dammar"", ""United Kingdom ..."", ""cwt. —"", ""pkgs. 48"", ""cwt. —"", ""pkgs. 48"", ""600 0"", ""—"", ""600 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['pkgs. 48']
+bb1891:p516:t1	7	"[""Dammar"", ""Br. Col."", ""56"", ""8"", ""40 3 0"", ""96 3 0"", ""400 0"", ""260 0"", ""660 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	9	"[""Dammar"", ""For. Coun."", ""5"", ""—"", ""—"", ""5 0 0"", ""40 0"", ""—"", ""40 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	11	"[""Dammar"", ""Maldives Islands ..."", ""61"", ""60"", ""40 3 0"", ""103 3 0"", ""1081 0"", ""260 0"", ""1341 0"", """", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p516:t1	13	"[""Drawing Materials"", ""For. Coun."", ""1 package"", ""—"", ""1 \"""", ""10 0"", ""—"", ""10 0"", """", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	15	"[""Earthenware"", ""United Kingdom ..."", ""pkgs. 2"", ""No. —"", ""pkgs. 3"", ""No. —"", ""50 0"", ""880 0"", ""880 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['No. —']
+bb1891:p516:t1	16	"[""Earthenware"", ""Br. Col."", ""1"", ""32"", ""177"", ""266"", ""178"", ""298"", ""104 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	19	"[""Earthenware"", ""For. Coun."", ""—"", ""—"", ""1"", ""—"", ""—"", ""80 0"", ""80 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	22	"[""Earthenware"", ""Germany ..."", ""—"", ""—"", ""73"", ""2852"", ""—"", ""2751 0"", ""2751 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['2852']
+bb1891:p516:t1	24	"[""Earthenware"", ""Nicobar Islands ..."", ""4"", ""32"", ""269"", ""3118"", ""273"", ""3150"", ""254 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['3118']
+bb1891:p516:t1	25	"[""Fancy Articles"", ""United Kingdom ..."", ""17 packages"", """", ""9 packages"", """", ""26 packages"", """", ""628 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['26 packages']
+bb1891:p516:t1	26	"[""Fancy Articles"", ""Br. Col."", ""2"", ""\"""", ""—"", ""\"""", ""2"", ""\"""", ""250 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	27	"[""Fancy Articles"", ""Australia ..."", ""6"", ""\"""", ""5"", ""\"""", ""11"", ""\"""", ""98 0"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	28	"[""Fancy Articles"", ""British India ..."", ""5"", ""\"""", ""—"", ""\"""", ""5"", ""\"""", ""220 0"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	29	"[""Fancy Articles"", ""Hongkong ..."", ""—"", ""\"""", ""6"", ""\"""", ""6"", ""\"""", ""1040 50"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	30	"[""Fancy Articles"", ""Straits Settlements"", ""—"", ""\"""", ""1"", ""\"""", ""—"", ""\"""", ""200 0"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	31	"[""Fancy Articles"", ""For. Coun."", ""6"", ""\"""", ""—"", ""\"""", ""6"", ""\"""", ""595 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	32	"[""Fancy Articles"", ""China ..."", ""—"", ""\"""", ""22"", ""\"""", ""22"", ""\"""", ""450 0"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	33	"[""Fancy Articles"", ""Germany ..."", ""12"", ""\"""", ""—"", ""\"""", ""12"", ""\"""", ""300 0"", """", """", """", """", """"]"	"incomplete or ambiguous rupees/cents: ['""']"
+bb1891:p516:t1	34	"[""Fancy Articles"", ""Maldives Islands ..."", ""48 packages"", """", ""43 packages"", """", ""91 packages"", """", ""2091 0"", """", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['91 packages']
+bb1891:p516:t1	37	"[""Fibre, Kitul"", ""United Kingdom ..."", ""cwt. 2052"", ""0 13"", ""—"", """", ""cwt. 2052"", ""0 13"", ""66422 63"", """", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p516:t1	38	"[""Fibre, Kitul"", ""Br. Col."", ""8"", ""0 0"", ""—"", """", ""8"", ""0 0"", ""320 0"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	39	"[""Fibre, Kitul"", ""British India ..."", ""40"", ""0 2"", ""—"", """", ""40"", ""0 2"", ""1350 0"", """", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p516:t1	40	"[""Fibre, Kitul"", ""For. Coun."", ""2100"", ""0 15"", ""—"", """", ""2100"", ""0 15"", ""67092 63"", """", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	42	"[""Kitul, Rope"", ""United Kingdom ..."", ""cwt. 1"", ""3 14"", ""—"", """", ""cwt. 1"", ""3 14"", ""15 0"", """", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p516:t1	44	"[""Fish, dried & salted"", ""Br. Col."", ""cwt. 6878"", ""2 0"", ""pkgs. —"", """", ""cwt. 1775"", ""2 8"", ""pkgs. —"", ""23375 25"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	45	"[""Fish, dried & salted"", ""British India ..."", ""—"", ""—"", ""—"", """", ""8654"", ""0 8"", ""—"", ""19899 0"", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['8654']
+bb1891:p516:t1	46	"[""Fish, dried & salted"", ""Hongkong ..."", ""—"", ""—"", ""219"", ""1 2"", ""219"", ""1 2"", ""—"", ""2492 50"", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['219']
+bb1891:p516:t1	47	"[""Fish, dried & salted"", ""Straits Settlements"", ""—"", ""—"", ""77"", ""0 0"", ""77"", ""0 0"", ""—"", ""770 0"", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['77']
+bb1891:p516:t1	48	"[""Fish, dried & salted"", ""For. Coun."", ""—"", ""2"", ""71"", ""0 0"", ""71"", ""0 0"", ""2"", ""50 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p516:t1	49	"[""Fish, dried & salted"", ""China ..."", ""—"", ""—"", ""1"", ""1 0"", ""1"", ""1 0"", ""—"", ""435 0"", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['1']
+bb1891:p516:t1	50	"[""Fish, dried & salted"", ""Maldives Islands ..."", ""—"", ""—"", ""6"", ""0 0"", ""6"", ""0 0"", ""—"", ""10 0"", """", """", """", """"]"	incomplete or ambiguous rupees/cents: ['6']
+bb1891:p516:t1	52	"["""", """", ""6878"", ""2 0"", ""2"", ""2160"", ""0 10"", ""9028"", ""2 10"", ""2"", ""23425 25"", ""23666 50"", ""47111 75"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p517:t1	12	"[""Furniture"", ""Br. Col."", ""28 5"", ""41 2"", ""69 7"", """", ""2148 0"", ""3474 0"", ""5622 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p517:t1	13	"[""Furniture"", ""Aden"", ""8 —"", ""— —"", ""8 —"", """", ""100 0"", ""—"", ""100 0"", """", """"]"	not an unambiguous number: '8 —'
+bb1891:p517:t1	14	"[""Furniture"", ""Australia"", ""14 —"", ""7 —"", ""21 —"", """", ""785 0"", ""200 0"", ""985 0"", """", """"]"	not an unambiguous number: '21 —'
+bb1891:p517:t1	15	"[""Furniture"", ""British India"", ""364 1857"", ""4 8"", ""368 1865"", """", ""14038 50"", ""350 0"", ""14388 50"", """", """"]"	not an unambiguous number: '368 1865'
+bb1891:p517:t1	16	"[""Furniture"", ""Straits Settlements"", ""28 —"", ""74 —"", ""102 —"", """", ""635 0"", ""1500 0"", ""2135 0"", """", """"]"	not an unambiguous number: '102 —'
+bb1891:p517:t1	18	"[""Furniture"", ""Belgium"", ""1 —"", ""— —"", ""1 —"", """", ""70 0"", ""—"", ""70 0"", """", """"]"	not an unambiguous number: '1 —'
+bb1891:p517:t1	19	"[""Furniture"", ""China"", ""18 —"", ""2 —"", ""20 —"", """", ""200 0"", ""150 0"", ""350 0"", """", """"]"	not an unambiguous number: '20 —'
+bb1891:p517:t1	20	"[""Furniture"", ""Egypt"", ""— —"", ""— 2"", ""— 2"", """", ""—"", ""20 0"", ""20 0"", """", """"]"	not an unambiguous number: '— 2'
+bb1891:p517:t1	21	"[""Furniture"", ""France"", ""39 —"", ""— —"", ""39 —"", """", ""5400 0"", ""—"", ""5400 0"", """", """"]"	not an unambiguous number: '39 —'
+bb1891:p517:t1	22	"[""Furniture"", ""French India"", ""2 26"", ""— —"", ""2 26"", """", ""129 0"", ""—"", ""129 0"", """", """"]"	not an unambiguous number: '2 26'
+bb1891:p517:t1	23	"[""Furniture"", ""Germany"", ""1 —"", ""— —"", ""1 —"", """", ""50 0"", ""—"", ""50 0"", """", """"]"	not an unambiguous number: '1 —'
+bb1891:p517:t1	24	"[""Furniture"", ""Maldivic Islands"", ""— 128"", ""3 —"", ""3 128"", """", ""500 0"", ""31 30"", ""531 30"", """", """"]"	not an unambiguous number: '3 128'
+bb1891:p517:t1	25	"["""", """", ""503 2016"", ""131 12"", ""634 2028"", """", ""24055 50"", ""5725 30"", ""29780 80"", """", ""Do.""]"	not an unambiguous number: '634 2028'
+bb1891:p517:t1	27	"[""Gallnuts"", ""Br. Col."", ""62 2 0"", ""— 132"", ""62 2 0 132"", """", ""250 0"", ""900 0"", ""1150 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p517:t1	28	"[""Gallnuts"", ""Australia"", ""—"", ""220 3 5"", ""220 3 5"", """", ""—"", ""1260 0"", ""1260 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	29	"[""Gallnuts"", ""British India"", ""11888 0 0"", ""160 0 0"", ""12048 0 0"", """", ""38485 0"", ""1200 0"", ""39685 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	31	"[""Gallnuts"", ""Austria"", ""20 0 0"", ""— —"", ""20 0 0"", """", ""140 0"", ""—"", ""140 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	32	"[""Gallnuts"", ""French India"", ""750 0 0"", ""— —"", ""750 0 0"", """", ""10125 0"", ""—"", ""10125 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	33	"["""", """", ""12720 2 0"", ""380 3 5 132"", ""13101 1 5 132"", """", ""49000 0"", ""3360 0"", ""52360 0"", """", ""Do.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	35	"[""Ghee"", ""British India"", ""4 1 10"", ""5 0 0"", ""9 1 10"", """", ""180 0"", ""240 0"", ""420 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	37	"[""Ghee"", ""Maldivic Islands"", ""— 3"", ""44 3 15"", ""44 3 15 3"", """", ""40 0"", ""2069 0"", ""2109 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p517:t1	38	"["""", """", ""4 1 10 3"", ""49 3 15"", ""54 0 25 3"", """", ""220 0"", ""2309 0"", ""2529 0"", """", ""Do.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p518:t1	3	"[""Peas"", ""Br. Col. British India For. Coun. Maldivé Islands Nicobar Islands"", ""bushels 35 — — 35"", ""bushels 12 61 3 76"", ""bushels 47 61 3 111"", ""Rs. c. 43 0 — — 43 0"", ""Rs. c. 50 0 202 0 8 0 260 0"", ""Rs. c. 93 0 202 0 8 0 303 0"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p518:t1	4	"[""Rice"", ""Br. Col. British India For. Coun. Maldivé Islands Nicobar Islands"", ""— — — —"", ""bushels 3440½ 113473½ 345 117259½"", ""bushels 3440½ 113473½ 345 117259½"", ""— — — —"", ""Rs. c. 11237 37 369788 87 1121 25 381147 49"", ""Rs. c. 11237 37 369788 87 1121 25 381147 49"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p518:t1	5	"[""Wheat"", ""Br. Col. British India For. Coun. Maldivé Islands"", ""— — —"", ""bushels 6 49 55"", ""bushels 6 49 55"", ""— — —"", ""Rs. c. 30 0 178 0 208 0"", ""Rs. c. 30 0 178 0 208 0"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p518:t1	9	"[""Gunnies and Twine"", ""United Kingdom Br. Col. British India Mauritius Straits Settlements. For. Coun. French India Maldivé Islands Nicobar Islands"", ""packages — — 70 — — — — 70"", ""packages 4 25804 846 12 49 240 1 26956"", ""packages 4 25804 916 12 49 240 1 27026"", ""Rs. c. — — 1400 0 — — — — 1400 0"", ""Rs. c. 337 0 294165 20 9460 0 1076 25 596 0 9500 0 20 0 315154 45"", ""Rs. c. 337 0 294165 20 10860 0 1076 25 596 0 9500 0 20 0 316554 45"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p518:t1	10	"[""Haberdashery and Millinery"", ""United Kingdom Br. Col. British India Straits Settlements. For. Coun. China Germany Maldivé Islands"", ""2 packages 3 \"" 2 \"" 1 \"" — — 8 packages"", ""25 packages 14 \"" 1 \"" 1 \"" 2 \"" 2 \"" 6 \"" 49 packages"", ""27 packages 17 \"" 3 \"" 2 \"" 2 \"" 6 \"" 57 packages"", ""Rs. c. 14 0 450 0 550 0 50 0 — — 1064 0"", ""Rs. c. 2450 0 1115 0 20 0 100 0 310 0 800 0 4795 0"", ""Rs. c. 2464 0 1565 0 570 0 150 0 310 0 800 0 5869 0"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p518:t1	11	"[""Hats and Caps"", ""United Kingdom Br. Col. Australia British India For. Coun. Arabia"", ""— — — — 4 packages 4 packages"", ""2 packages 4 \"" 3 \"" — 9 packages"", ""2 packages 4 \"" 3 \"" — 13 packages"", ""Rs. c. — — — 90 0"", ""Rs. c. 70 0 650 0 240 0 — 960 0"", ""Rs. c. 70 0 650 0 240 0 — 1050 0"", ""Do.""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p519:t1	3	"[""Hides and Skins"", ""United Kingdom"", ""5582 1"", ""7 14"", ""—"", ""1779"", ""5582 1"", ""7 179"", ""231056"", ""20"", ""590750"", ""0"", ""821806"", ""20"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	5	"[""Hides and Skins"", ""Aden"", ""47 3"", ""9"", ""—"", ""—"", ""47 3"", ""9"", ""1500"", ""0"", ""—"", ""—"", ""1500"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	7	"[""Hides and Skins"", ""British India"", ""4200 0"", ""0 429"", ""—"", ""—"", ""4200 0"", ""0 429"", ""74938"", ""75"", ""—"", ""—"", ""74938"", ""75"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	8	"[""Hides and Skins"", ""Straits Settlements"", ""3 1"", ""0"", ""—"", ""—"", ""3 1"", ""0"", ""540"", ""0"", ""—"", ""—"", ""540"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	10	"[""Hides and Skins"", ""Arabia"", ""412 1"", ""12"", ""—"", ""—"", ""412 1"", ""12"", ""13115"", ""0"", ""—"", ""—"", ""13115"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	11	"[""Hides and Skins"", ""Austria"", ""6 3"", ""18"", ""—"", ""—"", ""6 3"", ""18"", ""300"", ""0"", ""—"", ""—"", ""300"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	12	"[""Hides and Skins"", ""France"", ""13 2"", ""19"", ""—"", ""—"", ""13 2"", ""19"", ""1000"", ""0"", ""—"", ""—"", ""1000"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	13	"[""French India"", ""8 0"", ""0"", ""—"", ""—"", ""8 0"", ""0"", ""250"", ""0"", ""—"", ""—"", ""250"", ""0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	14	"[""French India"", ""Turkey"", ""463 0"", ""15"", ""—"", ""—"", ""463 0"", ""15"", ""8800"", ""0"", ""—"", ""—"", ""8800"", ""0"", """"]"	multiple country/group labels in the two label columns
+bb1891:p519:t1	15	"["""", """", ""10737 1"", ""24 444"", ""—"", ""1779"", ""10737 1"", ""24 223"", ""331519"", ""95"", ""590750"", ""0"", ""922269"", ""95"", ""Declare""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	17	"[""Honey"", ""British India"", ""61 2"", ""13"", ""—"", ""—"", ""61 2"", ""13"", ""1249"", ""50"", ""—"", ""—"", ""1249"", ""50"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	19	"[""Honey"", ""French India"", ""0 1"", ""0"", ""—"", ""—"", ""0 1"", ""0"", ""5"", ""0"", ""—"", ""—"", ""5"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	20	"[""Maldiv Islands"", ""0 2"", ""0 2"", ""1 package"", ""—"", ""0 2"", ""0 3"", ""13"", ""0"", ""30"", ""0"", ""43"", ""0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	21	"[""Maldiv Islands"", """", ""62 1"", ""13 2"", ""1 package"", ""—"", ""62 1"", ""13 3"", ""1267"", ""50"", ""30"", ""0"", ""1297"", ""50"", ""Do.""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p519:t1	23	"[""Hops"", ""British India"", ""—"", ""—"", ""2 packages"", ""—"", ""2 packages"", ""—"", ""—"", ""—"", ""200"", ""0"", ""200"", ""0"", ""Do.""]"	not an unambiguous number: '2 —'
+bb1891:p519:t1	24	"[""Horns of sorts"", ""United Kingdom"", ""1842 2"", ""22 17"", ""—"", ""—"", ""1842 2"", ""22 17"", ""109690"", ""27"", ""—"", ""—"", ""109690"", ""27"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	26	"[""Horns of sorts"", ""Aden"", ""60 2"", ""22"", ""—"", ""—"", ""60 2"", ""22"", ""2000"", ""0"", ""—"", ""—"", ""2000"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	27	"[""Horns of sorts"", ""British India"", ""288 0"", ""9 8"", ""10 packages"", ""—"", ""288 0"", ""9 18"", ""5697"", ""50"", ""710"", ""0"", ""6407"", ""50"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	28	"["""", """", ""2191 1"", ""25 25"", ""10 packages"", ""—"", ""2191 1"", ""25 35"", ""117387"", ""77"", ""710"", ""0"", ""118097"", ""77"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	29	"[""Ice"", ""United Kingdom"", ""4 0"", ""0"", ""—"", ""—"", ""4 0"", ""0"", ""10"", ""0"", ""—"", ""—"", ""10"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	31	"[""Ice"", ""British India"", ""218 0"", ""0"", ""—"", ""—"", ""218 0"", ""0"", ""545"", ""0"", ""—"", ""—"", ""545"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	33	"[""Maldiv Islands"", ""2 0"", ""0"", ""—"", ""—"", ""2 0"", ""0"", ""20"", ""0"", ""—"", ""—"", ""20"", ""0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p519:t1	34	"[""Maldiv Islands"", """", ""224 0"", ""0"", ""—"", ""—"", ""224 0"", ""0"", ""575"", ""0"", ""—"", ""—"", ""575"", ""0"", ""Do.""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p519:t1	42	"[""France"", """", ""—"", ""—"", ""13"", ""3"", ""13"", ""3"", ""—"", ""—"", ""6615"", ""0"", ""6615"", ""0"", ""Do.""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p519:t1	43	"[""Scientific"", ""United Kingdom"", ""—"", ""—"", ""4 packages"", ""—"", ""4 packages"", ""—"", ""—"", ""—"", ""700"", ""0"", ""700"", ""0"", """"]"	not an unambiguous number: '4 —'
+bb1891:p519:t1	45	"[""Scientific"", ""Dutch Poss. in India"", ""—"", ""—"", ""3"", ""—"", ""3"", ""—"", ""—"", ""—"", ""75"", ""0"", ""75"", ""0"", """"]"	not an unambiguous number: '3 —'
+bb1891:p519:t1	46	"["""", """", ""—"", ""—"", ""7 packages"", ""—"", ""7 packages"", ""—"", ""—"", ""—"", ""775"", ""0"", ""775"", ""0"", ""Do.""]"	not an unambiguous number: '7 —'
+bb1891:p519:t1	47	"[""Ivory"", ""United Kingdom"", ""—"", ""—"", ""tons. cwt. pkgs."", ""— 199"", ""tons. cwt. pkgs."", ""— 199"", ""—"", ""—"", ""54000"", ""0"", ""54000"", ""0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p519:t1	51	"[""Jewellery"", ""United Kingdom"", ""—"", ""—"", ""2 packages"", ""—"", ""2 packages"", ""—"", ""—"", ""—"", ""1500"", ""0"", ""1500"", ""0"", """"]"	not an unambiguous number: '2 —'
+bb1891:p519:t1	53	"[""Jewellery"", ""British India"", ""—"", ""—"", ""1"", ""—"", ""1"", ""—"", ""—"", ""—"", ""3000"", ""0"", ""3000"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p519:t1	54	"[""Jewellery"", ""Hongkong"", ""—"", ""—"", ""1"", ""—"", ""1"", ""—"", ""—"", ""—"", ""1000"", ""0"", ""1000"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p519:t1	56	"[""France"", ""1 package"", ""—"", ""—"", ""—"", ""—"", ""1"", ""—"", ""1000"", ""0"", ""—"", ""—"", ""1000"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p519:t1	57	"[""France"", ""1 package"", ""—"", ""—"", ""4 packages"", ""—"", ""5 packages"", ""—"", ""1000"", ""0"", ""5500"", ""0"", ""6500"", ""0"", ""Do.""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p520:t1	21	"[""Machinery and Tools"", ""United Kingdom"", ""pkgs. 1"", ""No. —"", ""pkgs. 22"", ""No. —"", ""pkgs. 23"", ""No. —"", """", """"]"	incomplete or ambiguous rupees/cents: ['No. —']
+bb1891:p520:t1	22	"["""", ""Br. Col. Australia"", ""—"", ""—"", ""33"", ""—"", ""33"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['33']
+bb1891:p520:t1	23	"["""", ""British India"", ""5"", ""—"", ""620"", ""1102"", ""625"", ""1102"", """", """"]"	incomplete or ambiguous rupees/cents: ['1102']
+bb1891:p520:t1	24	"["""", ""Hongkong"", ""—"", ""—"", ""30"", ""—"", ""30"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['30']
+bb1891:p520:t1	25	"["""", ""Straits Settlements"", ""—"", ""—"", ""58"", ""—"", ""58"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['58']
+bb1891:p520:t1	26	"["""", ""For. Coun. China"", ""—"", ""—"", ""2"", ""—"", ""2"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['2']
+bb1891:p520:t1	27	"["""", ""Dutch Poss. in India"", ""—"", ""—"", ""16"", ""—"", ""16"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['16']
+bb1891:p520:t1	28	"["""", """", ""6"", ""—"", ""781"", ""1102"", ""787"", ""1102"", """", """"]"	incomplete or ambiguous rupees/cents: ['1102']
+bb1891:p520:t1	29	"["""", """", """", """", """", """", ""510 0"", ""46398 64"", ""46908 64"", ""Do.""]"	figures after the article total without a new article label
+bb1891:p520:t1	30	"[""Malt Liquor, in bottle"", ""Br. Col. British India"", ""—"", ""—"", ""gallons 15½"", ""—"", ""gallons 15½"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['gallons 15½']
+bb1891:p520:t1	36	"["""", """", """", """", """", """", """", ""4182 0"", ""Do."", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	37	"[""Manures"", ""Br. Col. British India"", ""cwt. 222 1"", ""pkgs. 0 1"", ""—"", ""—"", ""cwt. 222 1"", ""pkgs. 0 1"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p520:t1	38	"["""", ""For. Coun. French India"", ""25 0 0"", ""—"", ""—"", ""—"", ""25 0 0"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['25 0 0']
+bb1891:p520:t1	40	"["""", """", ""247 1 0"", ""1"", ""—"", ""—"", ""247 1 0"", ""1"", """", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	41	"["""", """", """", """", """", """", ""1085 50"", ""—"", """", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	42	"["""", """", """", """", """", """", """", ""1085 50"", ""Do."", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	43	"[""Marine Stores"", ""Br. Col. British India"", ""pkgs. 5"", ""No. 30"", ""cwt. 16"", ""pkgs. 18"", ""cwt. 16"", ""pkgs. 23"", ""No. 30"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p520:t1	45	"["""", """", """", """", """", """", """", ""739 0"", """", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	47	"[""Marmel Water"", ""Br. Col. British India"", ""cwt. 348 3"", ""1"", ""—"", ""—"", ""cwt. 348 3"", ""1"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p520:t1	48	"["""", ""For. Coun. French India"", ""1 0 0"", ""—"", ""—"", ""—"", ""1 0 0"", ""—"", """", """"]"	incomplete or ambiguous rupees/cents: ['1 0 0']
+bb1891:p520:t1	50	"["""", """", ""349 3 1"", ""—"", ""—"", ""—"", ""349 3 1"", ""—"", """", """"]"	figures after the article total without a new article label
+bb1891:p520:t1	51	"["""", """", """", """", """", """", ""3352 0"", ""—"", """", """"]"	figures after the article total without a new article label
+bb1891:p521:t1	9	"[""Medicine"", ""United Kingdom"", ""cwt. pkgs. 361 0 18. —"", ""cwt. pkgs. — —"", ""cwt. pkgs. 361 0 18 —"", ""4007 0"", ""—"", ""4007 0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p521:t1	30	"["""", ""Br. Col. British India"", ""— 1 —"", ""78 1 21 3"", ""78 1 21 4"", ""50 0"", ""1294 0"", ""1344 0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p521:t1	31	"["""", ""For. Coun. Maldivé Islands"", ""— — 1"", ""9 3 0 1"", ""9 3 0 1"", ""5 0"", ""360 0"", ""365 0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p521:t1	32	"["""", """", ""— 2 1"", ""88 0 21 5"", ""88 0 21 7 1"", ""132 0"", ""1704 0"", ""1836 0"", ""Do.""]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p522:t1	3	"[""Metals, Tinware"", ""Br. Col."", ""—"", ""cwt."", ""27 2 14"", ""17"", ""27 2 14"", ""17"", ""—"", ""280 0"", ""280 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	5	"[""Metals, Tinware"", ""For. Coun."", ""—"", ""5 0 0"", ""—"", ""—"", ""5 0 0"", ""—"", ""—"", ""68 27"", ""68 27"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	6	"[""Metals, Tinware"", ""Maldiv Islands"", ""—"", ""32 2 14"", ""17"", ""32 2 14"", ""17"", ""—"", ""348 27"", ""348 27"", ""Declared"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	7	"[""Zincware"", ""Br. Col."", ""—"", ""cwt."", ""233 1 0"", ""12"", ""233 1 0"", ""12"", ""—"", ""2397 0"", ""2397 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	9	"[""Zincware"", ""For. Coun."", ""—"", ""1 0 0"", ""—"", ""—"", ""1 0 0"", ""—"", ""—"", ""15 0"", ""15 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	10	"[""Zincware"", ""French India"", ""—"", ""2 2 0"", ""—"", ""—"", ""2 2 0"", ""—"", ""—"", ""20 0"", ""20 0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	11	"[""Maldiv Islands"", ""—"", ""236 3 0"", ""12"", ""236 3 0"", ""12"", ""—"", ""2432 0"", ""2432 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	12	"[""Copper Sheathing & Nails"", ""Br. Col."", ""—"", ""cwt."", ""1 2 0"", ""—"", ""1 2 0"", ""—"", ""—"", ""25 0"", ""25 0"", ""Do."", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	13	"[""Iron"", ""Br. Col."", ""—"", ""cwt."", ""2950 1 0"", ""—"", ""2950 1 0"", ""—"", ""—"", ""3034 0"", ""3034 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	15	"[""Iron"", ""For. Coun."", ""—"", ""5 0 0"", ""—"", ""—"", ""5 0 0"", ""—"", ""—"", ""5 0"", ""5 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	16	"[""Iron"", ""French India"", ""—"", ""29 2 13"", ""2"", ""29 2 13"", ""2"", ""—"", ""66 0"", ""66 0"", ""Do"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	17	"[""Maldiv Islands"", ""—"", ""2984 3 13"", ""2"", ""2984 3 13"", ""2"", ""—"", ""3105 0"", ""3105 0"", ""Do"", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	18	"[""Iron, Hoop"", ""United Kingdom"", ""—"", ""cwt."", ""2 0 0"", ""—"", ""2 0 0"", ""—"", ""—"", ""32 0"", ""32 0"", """", """"]"	incomplete or ambiguous rupees/cents: ['2 0 0']
+bb1891:p522:t1	20	"[""Iron, Hoop"", ""British India"", ""—"", ""8 2 0"", ""6"", ""8 2 0"", ""6"", ""—"", ""153 0"", ""153 0"", ""Do."", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	21	"[""Iron, Hoop"", ""—"", ""—"", ""10 2 0"", ""6"", ""10 2 0"", ""6"", ""—"", ""185 0"", ""185 0"", ""Do."", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	22	"[""Iron, Bar, Flat, &c."", ""Br. Col."", ""—"", ""cwt."", ""5 1 0"", ""—"", ""5 1 0"", ""—"", ""—"", ""12 0"", ""12 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	24	"[""Iron, Bar, Flat, &c."", ""For. Coun."", ""—"", ""—"", ""20"", ""—"", ""20"", ""—"", ""295 0"", ""295 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	25	"[""Iron, Bar, Flat, &c."", ""Maldiv Islands"", ""—"", ""5 1 0"", ""20"", ""5 1 0"", ""20"", ""—"", ""307 0"", ""307 0"", ""Do."", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	26	"[""Iron, Galvanised"", ""Br. Col."", ""—"", ""cwt."", ""20 0 0"", ""—"", ""20 0 0"", ""—"", ""150 0"", ""150 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	27	"[""Iron, Cast"", ""Br. Col."", ""—"", ""cwt."", ""477 0 0"", ""—"", ""477 0 0"", ""—"", ""390 0"", ""390 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	28	"[""Iron, Nails"", ""United Kingdom"", ""—"", ""cwt."", ""1 0 0"", ""—"", ""1 0 0"", ""—"", ""12 0"", ""12 0"", ""Do."", """", """"]"	incomplete or ambiguous rupees/cents: ['1 0 0']
+bb1891:p522:t1	30	"[""Iron, Nails"", ""British India"", ""—"", ""14 3 0"", ""—"", ""14 3 0"", ""—"", ""236 0"", ""236 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	31	"[""Iron, Nails"", ""For. Coun."", ""—"", ""6 1 0"", ""—"", ""6 1 0"", ""—"", ""77 0"", ""77 0"", ""Do."", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	32	"[""Maldiv Islands"", ""—"", ""22 0 0"", ""—"", ""22 0 0"", ""—"", ""325 0"", ""325 0"", ""Do."", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	33	"[""Lead, Sheet, Pipe, & Pig"", ""Br. Col."", ""—"", ""cwt."", ""5 0 0"", ""—"", ""5 0 0"", ""—"", ""60 0"", ""60 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	35	"[""Steel, Cast"", ""Br. Col."", ""—"", ""cwt."", ""3 3 16"", ""—"", ""3 3 16"", ""—"", ""15 0"", ""15 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	37	"[""Tea Lead"", ""Br. Col."", ""—"", ""cwt."", ""188 0 0"", ""18"", ""188 0 0"", ""18"", ""3297 0"", ""3297 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	39	"[""Tea Solder"", ""Br. Col."", ""—"", ""1 package"", ""—"", ""—"", ""1 package"", ""—"", ""56 0"", ""56 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	41	"[""Tea Soldering Fluid"", ""Br. Col."", ""—"", ""1 package"", ""—"", ""—"", ""1 package"", ""—"", ""5 0"", ""5 0"", ""Do."", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	42	"[""Australia"", ""—"", ""6 „"", ""—"", ""—"", ""6 „"", ""—"", ""81 75"", ""81 75"", ""Do."", """", """", """"]"	not an unambiguous number: '6 —'
+bb1891:p522:t1	44	"[""—"", ""—"", ""7 packages"", ""—"", ""—"", ""7 packages"", ""—"", ""86 75"", ""86 75"", ""Do."", """", """", """"]"	ambiguous merged money: ['86 75', '86 75']
+bb1891:p522:t1	45	"[""Nets"", ""Br. Col."", ""2 packages"", ""—"", ""—"", ""—"", ""100 0"", ""375 0"", ""475 0"", ""Do."", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p522:t1	49	"[""British India"", ""—"", ""1440 „"", ""—"", ""—"", ""1440 „"", ""175 0"", ""—"", ""175 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	51	"[""France"", ""—"", ""1264½ „"", ""—"", ""—"", ""2664½ „"", ""1180 0"", ""—"", ""1180 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p522:t1	52	"[""Germany"", ""—"", ""5556½ „"", ""—"", ""—"", ""5556½ „"", ""2930 0"", ""—"", ""2930 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p523:t1	17	"[""Japan .."", ""U. S. of America .."", ""6735461"", ""—"", ""6735461"", ""256844 0"", ""—"", ""256844 0"", """"]"	multiple country/group labels in the two label columns
+bb1891:p523:t1	18	"["""", ""12139814"", ""—"", ""12139814"", ""445102 85"", ""—"", ""445102 85"", ""Do."", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p523:t1	37	"["""", ""426669 2 2"", ""—"", ""426669 2 2"", ""5309665 11"", ""—"", ""5309665 11"", ""Rs. 1 per gallon"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p523:t1	41	"["""", ""51880"", ""—"", ""51880"", ""1922 0"", ""—"", ""1922 0"", ""Declared"", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p523:t1	43	"[""Fish"", ""British India .."", ""29 packages"", ""4 2 0"", ""4 2 0 29"", ""145 0"", ""60 0"", ""205 0"", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p523:t1	45	"[""Nicobar Islands .."", ""—"", ""2 0 0"", ""2 0 0"", ""—"", ""25 0"", ""25 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p523:t1	46	"["""", ""29 packages"", ""6 2 0"", ""6 2 0 29"", ""145 0"", ""85 0"", ""230 0"", ""Do."", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p523:t1	56	"["""", ""3504"", ""—"", ""3504"", ""324 0"", ""—"", ""324 0"", ""Do."", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p523:t1	61	"["""", ""23 0 3"", ""376 3 12"", ""399 3 15"", ""264 0"", ""7229 0"", ""7493 0"", ""Do."", """"]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p524:t1	3	"[""Oilmanstores"", ""Br. Col."", """", """", """", ""—"", ""724 50"", ""724 50"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p524:t1	26	"[""Paper"", """", """", ""—"", ""10 packages"", ""10 packages"", ""—"", ""155 0"", ""155 0"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['10 packages']
+bb1891:p524:t1	38	"[""Pearls and Precious Stones"", """", """", ""59 packages"", ""—"", ""59 packages"", ""49190 0"", ""—"", ""49190 0"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['59 packages']
+bb1891:p524:t1	39	"[""Pepper"", ""United Kingdom ..."", ""cwt. 4 3 8 6"", ""cwt. —"", ""cwt. 4 3 8 6"", ""353 0"", ""—"", ""353 0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p524:t1	41	"[""Pepper"", ""British India ..."", ""11 2 2 —"", ""2 3 0"", ""14 1 2 —"", ""380 0"", ""35 0"", ""415 0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p524:t1	43	"[""Pepper"", ""Maldivé Islands ..."", ""—"", ""12 0 0"", ""12 0 0 —"", ""—"", ""350 0"", ""350 0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p524:t1	44	"[""Pepper"", """", """", ""cwt. 16 1 10 6"", ""cwt. 14 3 0"", ""cwt. 31 0 10 6"", ""733 0"", ""385 0"", ""1118 0"", ""Do.""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	4	"[""Plumbago"", ""United Kingdom"", ""170623"", ""3 13"", ""170623"", ""3 13"", ""1706238"", ""66"", ""42658 82""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	6	"[""Plumbago"", ""Australia"", ""692"", ""0 2"", ""692"", ""0 2"", ""6920"", ""18"", ""178 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	7	"[""Plumbago"", ""British India"", ""304"", ""0 5"", ""304"", ""0 5"", ""3040"", ""45"", ""75 37""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	9	"[""Plumbago"", ""Belgium"", ""9145"", ""3 10"", ""9145"", ""3 10"", ""91458"", ""39"", ""2286 46""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	10	"[""Plumbago"", ""Germany"", ""31421"", ""1 11"", ""31421"", ""1 11"", ""314213"", ""48"", ""7855 30""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	11	"[""Plumbago"", ""Holland"", ""944"", ""0 13"", ""944"", ""0 13"", ""9441"", ""16"", ""236 8""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	12	"[""U. S. of America"", ""187408"", ""3 17"", ""187408"", ""3 17"", ""1874089"", ""2"", ""46852 22"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	13	"["""", """", ""400540"", ""0 15"", ""400540"", ""0 15"", ""4005401"", ""34"", ""100135 20*""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	14	"[""Peppao"", ""United Kingdom"", ""2694"", ""2 1"", ""2694"", ""2 1"", ""8254"", ""0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	16	"[""Peppao"", ""British India"", ""351"", ""2 0"", ""372"", ""2 0"", ""1038"", ""0"", ""215 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	17	"[""Peppao"", ""Hongkong"", ""40"", ""1 17"", ""40"", ""1 17"", ""200"", ""0"", ""200 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	19	"[""Peppao"", ""Arabia"", ""3"", ""0 0"", ""3"", ""0 0"", ""15"", ""0"", ""15 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	20	"[""Peppao"", ""Belgium"", ""53563"", ""3 21"", ""53563"", ""3 21"", ""157926"", ""0"", ""157926 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	21	"[""Peppao"", ""France"", ""7"", ""2 0"", ""7"", ""2 0"", ""26"", ""0"", ""26 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	22	"[""Peppao"", ""Germany"", ""127927"", ""2 13"", ""127927"", ""2 13"", ""389997"", ""0"", ""389997 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	23	"[""Peppao"", ""Holland"", ""300"", ""0 0"", ""300"", ""0 0"", ""1000"", ""0"", ""1000 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	24	"[""Japan"", ""40"", ""0 0"", ""40"", ""0 0"", ""225"", ""0"", ""225 0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	25	"["""", """", ""184928"", ""1 24"", ""184949"", ""1 24"", ""558681"", ""0"", ""215 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	26	"[""Prints and Pictures"", ""United Kingdom"", """", """", ""9 packages"", """", ""535"", ""0"", ""535 0""]"	incomplete or ambiguous rupees/cents: ['535']
+bb1891:p525:t1	28	"[""Prints and Pictures"", ""British India"", """", """", ""5 \"""", """", ""160"", ""0"", ""160 0""]"	incomplete or ambiguous rupees/cents: ['160']
+bb1891:p525:t1	30	"[""Prints and Pictures"", ""Egypt"", """", """", ""1 \"""", """", ""25"", ""0"", ""25 0""]"	incomplete or ambiguous rupees/cents: ['25']
+bb1891:p525:t1	31	"[""Germany"", """", """", ""1 \"""", """", ""200"", ""0"", ""200 0"", """"]"	incomplete or ambiguous rupees/cents: ['200']
+bb1891:p525:t1	32	"["""", """", """", """", ""16 packages"", """", ""920"", ""0"", ""920 0""]"	incomplete or ambiguous rupees/cents: ['920']
+bb1891:p525:t1	33	"[""Punnai, or Domba Nuts"", ""Br. Col."", ""1063"", ""3 0"", ""1063"", ""3 0"", ""7032"", ""0"", ""7032 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p525:t1	35	"[""Provisions"", ""United Kingdom"", """", """", """", """", ""55"", ""0"", ""55 0""]"	incomplete or ambiguous rupees/cents: ['55']
+bb1891:p525:t1	37	"[""Provisions"", ""British India"", ""8"", ""2139"", ""8"", ""2158"", ""13171"", ""6"", ""700 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	38	"[""Provisions"", ""For. Coun."", """", """", """", """", ""310"", ""0"", ""310 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p525:t1	39	"[""Provisions"", ""French India"", """", ""68"", """", ""68"", ""20"", ""0"", ""8360 50""]"	quantity unit not explicitly established
+bb1891:p525:t1	40	"[""Provisions"", ""Maldiv Islands"", """", ""4"", ""1088"", ""1092"", ""10"", ""0"", ""10 0""]"	quantity unit not explicitly established
+bb1891:p525:t1	41	"[""U.S. of America"", """", ""1"", """", ""1"", """", """", """", """"]"	quantity unit not explicitly established
+bb1891:p525:t1	42	"["""", """", ""8"", ""2214"", ""1107"", ""3321"", ""13566"", ""6"", ""9060 50""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	44	"[""Railway Materials"", ""British India"", """", """", ""1"", ""1268"", """", """", ""12710 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	46	"[""Rattan, and Rattan Mats & Baskets"", ""British India"", ""4"", ""28201"", ""3 packages"", ""7"", ""28201"", ""331 0"", ""15 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	47	"[""Rubber"", ""United Kingdom"", """", """", ""78 packages"", """", ""2000"", ""0"", ""2000 0""]"	incomplete or ambiguous rupees/cents: ['2000']
+bb1891:p525:t1	49	"[""Saddlery & Harness"", ""British India"", """", """", ""3 packages"", ""3 packages"", """", """", ""170 40""]"	incomplete or ambiguous rupees/cents: ['3 packages']
+bb1891:p525:t1	50	"[""Saddlery & Harness"", ""Straits Settlements"", """", """", ""1 \"""", ""1 \"""", """", """", ""50 0""]"	"incomplete or ambiguous rupees/cents: ['1 ""']"
+bb1891:p525:t1	51	"["""", """", """", """", ""4 packages"", ""4 packages"", """", """", ""220 0""]"	incomplete or ambiguous rupees/cents: ['4 packages']
+bb1891:p525:t1	53	"[""Maldiv Islands"", """", """", """", ""26"", ""2 0"", """", """", ""268 0""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p525:t1	55	"[""Salt"", ""British India"", ""39984"", ""0 0"", ""39984"", ""0 0"", ""14994"", ""0"", ""14994 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	57	"[""Nicobar Islands"", """", """", ""3"", ""0 0"", ""3"", ""0 0"", """", ""50 0""]"	country in article column but trailing cell is occupied; column shift is not safe
+bb1891:p525:t1	58	"["""", """", ""39984"", ""0 0"", ""39987"", ""0 0"", ""14994"", ""0"", ""50 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p525:t1	59	"[""Saltpetre"", ""For. Coun."", """", """", ""1"", ""0 0"", """", """", ""10 0""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p525:t1	60	"[""Saltpetre"", ""Maldiv Islands"", """", """", ""1"", ""0 0"", """", """", ""10 0""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p526:t1	3	"[""Seeds, Gingelly"", ""Br. Col. British India"", ""1338 3 26 and 7868 bbls."", ""4172 0 0"", ""5510 3 26 and 7868 bbls."", ""34863 25"", ""41024 0"", ""75887 25"", ""Declared"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p526:t1	24	"[""Seeds and Plants"", """", """", ""968 517"", ""9"", ""977 517"", ""20633 50"", ""200 0"", ""Do."", ""20833 50""]"	not an unambiguous number: '968 517'
+bb1891:p526:t1	39	"[""Soap"", ""United Kingdom"", ""cwt. pkgs. 46 2 11"", ""cwt. pkgs."", ""cwt. pkgs. 46 2 11"", ""450 0"", ""—"", ""450 0"", ""Do."", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p526:t1	41	"[""Soap"", ""British India"", ""—"", ""2"", ""— 2"", ""—"", ""80 0"", ""80 0"", ""Do."", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p526:t1	42	"[""Soap"", ""Mauritius"", ""1161 0 27"", ""—"", ""1161 0 27"", ""12100 0"", ""—"", ""12100 0"", ""Do."", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p526:t1	43	"[""Soap"", ""Straits Settlements"", ""161 3 12"", ""—"", ""161 3 12"", ""1630 0"", ""—"", ""1630 0"", ""Do."", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p526:t1	46	"["""", """", ""1309 2 22"", ""2 0 0 7"", ""1371 2 22 7"", ""14180 0"", ""140 0"", ""14320 0"", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p527:t1	3	"[""Specimens illustrative of Natural History"", ""United Kingdom ..."", ""15 packages"", ""—"", ""15 packages"", ""2085 0"", ""—"", ""2085 0"", """", """", """", """"]"	not an unambiguous number: '— 15'
+bb1891:p527:t1	5	"[""Specimens illustrative of Natural History"", ""British India ..."", ""3 \"""", ""—"", ""3 \"""", ""80 0"", ""—"", ""80 0"", """", """", """", """"]"	not an unambiguous number: '— 3'
+bb1891:p527:t1	7	"[""Specimens illustrative of Natural History"", ""Belgium ..."", ""4 \"""", ""—"", ""4 \"""", ""100 0"", ""—"", ""100 0"", """", """", """", """"]"	not an unambiguous number: '— 4'
+bb1891:p527:t1	8	"[""Specimens illustrative of Natural History"", ""France ..."", ""1 \"""", ""—"", ""1 \"""", ""200 0"", ""—"", ""200 0"", """", """", """", """"]"	not an unambiguous number: '— 1'
+bb1891:p527:t1	9	"[""Specimens illustrative of Natural History"", ""Germany ..."", ""33 \"""", ""—"", ""33 \"""", ""1095 0"", ""—"", ""1095 0"", """", """", """", """"]"	not an unambiguous number: '— 33'
+bb1891:p527:t1	10	"[""Specimens illustrative of Natural History"", ""Russia ..."", ""6 \"""", ""—"", ""6 \"""", ""120 0"", ""—"", ""120 0"", """", """", """", """"]"	not an unambiguous number: '— 6'
+bb1891:p527:t1	11	"[""Specimens illustrative of Natural History"", ""U. S. of America ..."", ""19 \"""", ""—"", ""19 \"""", ""560 0"", ""—"", ""560 0"", """", """", """", """"]"	not an unambiguous number: '— 19'
+bb1891:p527:t1	12	"[""Specimens illustrative of Natural History"", """", ""81 packages"", ""—"", ""81 packages"", ""4240 0"", ""—"", ""4240 0"", ""Declared"", """", """", """"]"	not an unambiguous number: '— 81'
+bb1891:p527:t1	14	"[""Spices"", ""British India ..."", ""1 3962"", ""2 224"", ""3 4186"", ""2247 0"", ""1080 0"", ""3327 0"", """", """", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p527:t1	16	"[""Spices"", ""Maldivé Islands ..."", ""1 28"", ""— 56"", ""1 84"", ""11 0"", ""40 0"", ""51 0"", """", """", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p527:t1	17	"["""", """", ""2 3990"", ""2 280"", ""4 4270"", ""2258 0"", ""1120 0"", ""3378 0"", ""Do."", """", """", """"]"	multiple figures with repeated unit within one measure
+bb1891:p527:t1	19	"[""Spirits, Arrack"", ""British India ..."", ""90431½"", ""—"", ""90431½"", ""91555 0"", ""—"", ""91555 0"", """", """", """", """"]"	not an unambiguous number: '— 90431½'
+bb1891:p527:t1	21	"[""Spirits, Arrack"", ""French Poss. in China ..."", ""100"", ""—"", ""100"", ""100 0"", ""—"", ""100 0"", """", """", """", """"]"	not an unambiguous number: '— 100'
+bb1891:p527:t1	22	"["""", ""French India ..."", ""10847"", ""—"", ""10847"", ""11356 0"", ""—"", ""11356 0"", """", """", """", """"]"	not an unambiguous number: '— 10847'
+bb1891:p527:t1	23	"["""", """", ""101378½"", ""—"", ""101378½"", ""103011 0"", ""—"", ""103011 0"", ""Do."", """", """", """"]"	not an unambiguous number: '— 101378½'
+bb1891:p527:t1	25	"["""", ""British India ..."", ""—"", ""22½"", ""22½"", ""—"", ""168 75"", ""168 75"", ""Do."", """", """", """"]"	not an unambiguous number: '22½ 22½'
+bb1891:p527:t1	27	"["""", ""British India ..."", ""—"", ""43 19/32"", ""43 19/32"", ""—"", ""326 95"", ""326 95"", ""Do."", """", """", """"]"	not an unambiguous number: '43 19/32 43 19/32'
+bb1891:p527:t1	28	"[""Stationery"", ""United Kingdom ..."", ""—"", ""1 package"", ""1 package"", ""—"", ""30 0"", ""30 0"", """", """", """", """"]"	ambiguous merged money: ['30 0', '30 0']
+bb1891:p527:t1	30	"[""Stationery"", ""British India ..."", ""—"", ""3 \"""", ""3 \"""", ""—"", ""60 0"", ""60 0"", """", """", """", """"]"	not an unambiguous number: '3 3'
+bb1891:p527:t1	32	"["""", ""Maldivé Islands ..."", ""—"", ""1 \"""", ""1 \"""", ""—"", ""50 0"", ""50 0"", """", """", """", """"]"	not an unambiguous number: '1 1'
+bb1891:p527:t1	33	"["""", """", ""—"", ""5 packages"", ""5 packages"", ""—"", ""140 0"", ""140 0"", ""Do."", """", """", """"]"	ambiguous merged money: ['140 0', '140 0']
+bb1891:p527:t1	35	"[""Statues"", ""Mauritius ..."", ""2 packages"", ""—"", ""2 packages"", ""300 0"", ""—"", ""300 0"", ""Do."", """", """", """"]"	not an unambiguous number: '— 2'
+bb1891:p527:t1	37	"[""Stones of sorts"", ""Br. Col."", ""6 — —"", ""—"", ""6 — —"", ""200 0"", ""—"", ""200 0"", """", """", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p527:t1	38	"[""Stones of sorts"", ""British India ..."", ""2 218 —"", ""—"", ""2 218 —"", ""248 0"", ""—"", ""248 0"", """", """", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p527:t1	40	"[""Stones of sorts"", ""French India ..."", ""— 101 24250"", ""—"", ""— 101 24250"", ""3651 0"", ""—"", ""3651 0"", """", """", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p527:t1	41	"[""Stones of sorts"", ""Maldivé Islands ..."", ""— 125 —"", ""—"", ""— 125 —"", ""43 0"", ""—"", ""43 0"", """", """", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p527:t1	42	"["""", """", ""8 444 24250"", ""—"", ""8 444 24250"", ""4142 0"", ""—"", ""4142 0"", ""Do."", """", """", """"]"	merged multiple-unit quantity cannot be partitioned uniquely
+bb1891:p527:t1	43	"[""Stores, Government"", ""United Kingdom ..."", ""—"", ""6 packages"", ""6 packages"", ""—"", ""2100 0"", ""2100 0"", ""Do."", """", """", """"]"	ambiguous merged money: ['2100 0', '2100 0']
+bb1891:p527:t1	45	"[""Sugar, Candy, Refined"", ""British India ..."", ""—"", ""6 3 0"", ""6 3 0"", ""—"", ""150 0"", ""150 0"", """", """", """", """"]"	ambiguous merged money: ['150 0', '150 0']
+bb1891:p527:t1	47	"["""", ""Maldivé Islands ..."", ""—"", ""359 3 23"", ""359 3 23"", ""—"", ""10798 66"", ""10798 66"", """", """", """", """"]"	ambiguous merged money: ['10798 66', '10798 66']
+bb1891:p527:t1	48	"["""", """", ""—"", ""366 2 23"", ""366 2 23"", ""—"", ""10948 66"", ""10948 66"", ""Do."", """", """", """"]"	ambiguous merged money: ['10948 66', '10948 66']
+bb1891:p527:t1	50	"["""", ""Maldivé Islands ..."", ""—"", ""748 1 14"", ""748 1 14"", ""—"", ""11225 62"", ""11225 62"", ""Do."", """", """", """"]"	ambiguous merged money: ['11225 62', '11225 62']
+bb1891:p527:t1	52	"[""— Palm & Jaggery"", ""British India ..."", ""866 0 0"", ""—"", ""866 0 0"", ""3382 0"", ""—"", ""3382 0"", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p527:t1	54	"["""", ""French India ..."", ""2459 0 0"", ""—"", ""2459 0 0"", ""8464 0"", ""—"", ""8464 0"", """", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p527:t1	55	"["""", """", ""3325 0 0"", ""—"", ""3325 0 0"", ""11846 0"", ""—"", ""11846 0"", ""Do."", """", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p528:t1	2	"[""Talc"", ""United Kingdom ..."", ""cwt. 74 0 1 5"", ""—"", ""cwt. 74 0 1 5"", ""Rs. 1950 0"", ""—"", ""Rs. 1950 0"", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p528:t1	3	"[""Talc"", ""For. Coun."", ""—"", ""—"", ""—"", ""5 0"", ""—"", ""5 0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p528:t1	5	"["""", """", ""74 0 1 6"", ""—"", ""74 0 1 6"", ""1955 0"", ""—"", ""1955 0"", ""Declared""]"	cwt quantity does not have cwt, qr and lb
+bb1891:p528:t1	20	"["""", ""Cyprus ..."", ""2800"", ""—"", ""2800"", ""1260 0"", ""—"", ""1260 0"", ""2 51""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	30	"["""", ""Buenos Ayres ..."", ""3125"", ""—"", ""3125"", ""1406 25"", ""—"", ""1406 25"", ""2 79""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	31	"["""", ""Busbire ..."", ""3784"", ""—"", ""3784"", ""1702 80"", ""—"", ""1702 80"", ""3 38""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	40	"["""", ""Jamaica ..."", ""1480"", ""—"", ""1480"", ""666 0"", ""—"", ""666 0"", ""1 32""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	42	"["""", ""Jeddah ..."", ""168"", ""—"", ""168"", ""75 60"", ""—"", ""75 60"", ""0 15""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	45	"["""", ""Mombassa ..."", ""725"", ""—"", ""725"", ""326 25"", ""—"", ""326 25"", ""0 65""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	48	"["""", ""Namoa ..."", ""400"", ""—"", ""400"", ""180 0"", ""—"", ""180 0"", ""0 36""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p528:t1	49	"["""", ""Seychelles ..."", ""56"", ""—"", ""56"", ""25 20"", ""—"", ""25 20"", ""0 4""]"	country unreadable, multiple country rows merged, or shifted numeric label
+bb1891:p529:t1	11	"[""Sapan"", ""Br. Col."", ""838 1 0"", ""—"", ""838 1 0"", ""2910 0"", ""—"", ""2910 0"", """", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p529:t1	19	"[""Satin"", ""Br. Col."", ""—"", ""1169 1 3"", ""—"", ""1169 1 3"", ""979 30"", ""—"", ""979 30"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p529:t1	20	"[""Satin"", ""British India"", ""1149 240 0 0"", ""—"", ""1149 240 0 0"", ""12806 50"", ""—"", ""12806 50"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p529:t1	21	"[""Satin"", ""For. Coun. French India"", ""875 —"", ""—"", ""875 —"", ""11546 0"", ""—"", ""11546 0"", """", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p529:t1	22	"["""", """", ""2024 1409 1 3"", ""—"", ""2024 1409 1 3"", ""24331 0"", ""—"", ""24331 0"", ""Do."", """"]"	cwt quantity does not have cwt, qr and lb
+bb1891:p529:t1	23	"["""", """", ""& No. 83"", """", ""& No. 83"", """", """", """", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p529:t1	26	"[""Ironwood"", ""For. Coun. French India"", ""675"", ""181"", ""675"", ""181"", ""6822 0"", ""—"", ""6822 0"", """"]"	incomplete or ambiguous rupees/cents: ['181']
+bb1891:p529:t1	27	"["""", """", ""1219"", ""181"", ""1219"", ""181"", ""10184 0"", ""—"", ""10184 0"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['181']
+bb1891:p529:t1	29	"[""Halmilla"", ""British India"", ""749"", ""—"", ""749"", ""—"", ""16208 0"", ""—"", ""16208 0"", """"]"	quantity unit not explicitly established
+bb1891:p529:t1	30	"[""Halmilla"", ""For. Coun. French India"", ""357"", ""—"", ""357"", ""—"", ""2333 0"", ""—"", ""2333 0"", """"]"	quantity unit not explicitly established
+bb1891:p529:t1	31	"["""", """", ""1106"", ""—"", ""1106"", ""—"", ""18541 0"", ""—"", ""18541 0"", ""Do.""]"	quantity unit not explicitly established
+bb1891:p529:t1	35	"[""Woods of sorts"", ""Br. Col."", ""3"", ""1"", ""3"", ""1"", ""125 0"", ""—"", ""125 0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p529:t1	36	"[""Woods of sorts"", ""British India"", ""6382"", ""5389"", ""6382"", ""5389"", ""58138 37"", ""—"", ""58138 37"", """"]"	incomplete or ambiguous rupees/cents: ['5389']
+bb1891:p529:t1	37	"[""Woods of sorts"", ""For. Coun. Mauritius"", ""& No. 851080"", ""—"", ""& No. 851080"", ""—"", ""—"", ""—"", ""—"", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p529:t1	40	"[""Woods of sorts"", ""Maldives Islands"", ""2"", ""599"", ""2"", ""599"", ""14161 0"", ""—"", ""14161 0"", """"]"	incomplete or ambiguous rupees/cents: ['599']
+bb1891:p529:t1	41	"["""", """", ""& No. 17684"", ""—"", ""& No. 17684"", ""—"", ""—"", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p529:t1	42	"["""", """", ""24"", ""53"", ""24"", ""53"", ""384 0"", ""—"", ""384 0"", """"]"	incomplete or ambiguous rupees/cents: ['53']
+bb1891:p529:t1	43	"["""", """", ""& No. 290"", ""—"", ""& No. 290"", ""—"", ""—"", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p529:t1	45	"["""", """", ""6748"", ""6042"", ""6748"", ""6042"", ""73868 37"", ""—"", ""73868 37"", ""Do.""]"	figures after the article total without a new article label
+bb1891:p529:t1	46	"["""", """", ""& No. 869054"", ""—"", ""& No. 869054"", ""—"", ""—"", ""—"", """", """"]"	supplementary quantity beginning with &: association with preceding printed row is ambiguous
+bb1891:p530:t1	3	"[""Timber, Laths and Rafter..."", ""Br. Col."", ""4051"", ""543"", ""—"", ""—"", ""4051"", ""543"", ""997"", ""0"", ""—"", ""—"", ""997"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p530:t1	4	"[""Timber, Laths and Rafter..."", ""British India"", ""—"", ""145"", ""—"", ""—"", ""—"", ""145"", ""80"", ""0"", ""—"", ""—"", ""80"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['—', '145']
+bb1891:p530:t1	6	"["""", ""Maldiv Islands"", ""4051"", ""688"", ""—"", ""—"", ""4051"", ""688"", ""977"", ""0"", ""—"", ""—"", ""977"", ""0"", ""Declared""]"	cents are not one or two digits
+bb1891:p530:t1	7	"[""—Kitul, Laths and Rafter..."", ""Br. Col."", ""No. 550"", ""—"", ""—"", ""—"", ""No. 550"", ""—"", ""90"", ""0"", ""—"", ""—"", ""90"", ""0"", ""Do.""]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p530:t1	9	"[""—Palmyrah, Laths and Rafter..."", ""Br. Col."", ""No. 148658"", ""—"", ""—"", ""—"", ""No. 148658"", ""—"", ""34458"", ""11"", ""—"", ""—"", ""34458"", ""11"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p530:t1	11	"[""—Palmyrah, Laths and Rafter..."", ""For. Coun."", ""28944"", ""—"", ""—"", ""—"", ""28944"", ""—"", ""9848"", ""0"", ""—"", ""—"", ""9848"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p530:t1	12	"["""", ""French India"", ""177602"", ""—"", ""—"", ""—"", ""177602"", ""—"", ""44306"", ""11"", ""—"", ""—"", ""44306"", ""11"", ""Do.""]"	not an unambiguous number: '177602 —'
+bb1891:p530:t1	13	"[""Tobacco, Cigars ..."", ""United Kingdom"", ""pkgs. lb."", ""45 15/16"", ""pkgs. lb."", ""4 321 11/16"", ""pkgs. lb."", ""4 367 10/16"", ""689"", ""6"", ""6175"", ""31"", ""6864"", ""37"", """"]"	not an unambiguous number: '4 321 11/16'
+bb1891:p530:t1	15	"[""Tobacco, Cigars ..."", ""Australia"", ""—"", ""100"", ""—"", ""344½"", ""—"", ""444½"", ""1500"", ""0"", ""5171"", ""25"", ""6671"", ""25"", """"]"	incomplete or ambiguous rupees/cents: ['—', '444½']
+bb1891:p530:t1	16	"[""Tobacco, Cigars ..."", ""British India"", ""1"", ""1130"", ""—"", ""—"", ""1"", ""1130"", ""16960"", ""0"", ""—"", ""—"", ""16960"", ""0"", """"]"	cents are not one or two digits
+bb1891:p530:t1	17	"[""Tobacco, Cigars ..."", ""Hongkong"", ""—"", ""—"", ""—"", ""22½"", ""—"", ""22½"", ""—"", ""—"", ""337"", ""50"", ""337"", ""50"", """"]"	incomplete or ambiguous rupees/cents: ['—', '22½']
+bb1891:p530:t1	19	"[""Tobacco, Cigars ..."", ""Germany"", ""—"", ""—"", ""—"", ""42 3/16"", ""—"", ""42 3/16"", ""—"", ""—"", ""632"", ""80"", ""632"", ""80"", """"]"	incomplete or ambiguous rupees/cents: ['—', '42 3/16']
+bb1891:p530:t1	20	"[""Tobacco, Cigars ..."", ""Maldiv Islands"", ""—"", ""—"", ""—"", ""8"", ""—"", ""8"", ""—"", ""—"", ""120"", ""0"", ""120"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['—', '8']
+bb1891:p530:t1	21	"["""", """", ""1 1275 15/16"", ""—"", ""4 739½"", ""—"", ""5 2015 1/16"", ""—"", ""19149"", ""6"", ""12436"", ""86"", ""31585"", ""92"", """"]"	not an unambiguous number: '1 1275 15/16'
+bb1891:p530:t1	22	"[""— Manufactured"", ""United Kingdom"", ""—"", ""—"", ""cwt."", ""18 0 0"", ""cwt."", ""18 0 0"", ""—"", ""—"", ""1620"", ""0"", ""1620"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['wt.', '18 0 0']
+bb1891:p530:t1	24	"[""— Manufactured"", ""Maldiv Islands"", ""—"", ""—"", ""17"", ""2 0"", ""17"", ""2 0"", ""—"", ""—"", ""1575"", ""0"", ""1575"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['17', '2 0']
+bb1891:p530:t1	25	"[""— Manufactured"", ""Nicobar Islands"", ""—"", ""—"", ""8"", ""0 0"", ""8"", ""0 0"", ""—"", ""—"", ""720"", ""0"", ""720"", ""0"", """"]"	incomplete or ambiguous rupees/cents: ['8', '0 0']
+bb1891:p530:t1	26	"["""", """", ""—"", ""—"", ""43"", ""2 0"", ""43"", ""2 0"", ""—"", ""—"", ""3915"", ""0"", ""3915"", ""0"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['43', '2 0']
+bb1891:p530:t1	27	"[""— Unmanufactured"", ""United Kingdom"", ""cwt."", ""145 3 13"", ""cwt."", ""—"", ""cwt."", ""145 3 13"", ""5105"", ""31"", ""—"", ""—"", ""5105"", ""31"", """"]"	incomplete or ambiguous rupees/cents: ['wt.', '145 3 13']
+bb1891:p530:t1	29	"[""— Unmanufactured"", ""British India"", ""41182"", ""1 0"", ""17"", ""3 12"", ""41200"", ""0 12"", ""958763"", ""12"", ""625"", ""0"", ""959388"", ""12"", """"]"	incomplete or ambiguous rupees/cents: ['41200', '0 12']
+bb1891:p530:t1	31	"[""— Unmanufactured"", ""Maldiv Islands"", ""100"", ""0 22"", ""757"", ""0 19"", ""857"", ""1 13"", ""3506"", ""87"", ""26500"", ""94"", ""30007"", ""81"", """"]"	incomplete or ambiguous rupees/cents: ['857', '1 13']
+bb1891:p530:t1	32	"[""— Unmanufactured"", ""Nicobar Islands"", ""—"", ""—"", ""11"", ""1 10"", ""11"", ""1 10"", ""—"", ""—"", ""396"", ""87"", ""396"", ""87"", """"]"	incomplete or ambiguous rupees/cents: ['11', '1 10']
+bb1891:p530:t1	33	"["""", """", ""41428"", ""1 7"", ""786"", ""1 13"", ""42214"", ""2 20"", ""967375"", ""30"", ""27522"", ""81"", ""994898"", ""11"", ""Do.""]"	incomplete or ambiguous rupees/cents: ['42214', '2 20']
+bb1891:p530:t1	34	"[""Tortoise-shell and Manufacture"", ""Br. Col."", ""—"", ""—"", ""pkgs."", ""2 40"", ""pkgs."", ""2 40"", ""—"", ""—"", ""1000"", ""0"", ""1000"", ""0"", """"]"	figures on a country-group heading; specific country/total cannot be assigned
+bb1891:p530:t1	35	"[""Tortoise-shell and Manufacture"", ""British India"", ""—"", ""—"", ""1"", ""0"", ""1"", ""0"", ""—"", ""—"", ""100"", ""0"", ""100"", ""0"", """"]"	not an unambiguous number: '1 0'
+bb1891:p530:t1	37	"[""Tortoise-shell and Manufacture"", ""China"", ""1 package"", ""—"", ""—"", ""—"", ""1"", ""0"", ""150"", ""0"", ""—"", ""—"", ""150"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p530:t1	38	"["""", """", ""1 package"", ""—"", ""3"", ""40"", ""4"", ""40"", ""150"", ""0"", ""1100"", ""0"", ""1250"", ""0"", ""Do.""]"	not an unambiguous number: '1 —'
+bb1891:p530:t1	39	"[""Toys ..."", ""United Kingdom"", ""2 packages"", ""—"", ""—"", ""—"", ""2 packages"", ""—"", ""45"", ""0"", ""—"", ""—"", ""45"", ""0"", """"]"	not an unambiguous number: '2 —'
+bb1891:p530:t1	41	"[""Toys ..."", ""British India"", ""—"", ""—"", ""1 package"", ""—"", ""1 package"", ""—"", ""—"", ""—"", ""5"", ""0"", ""5"", ""0"", """"]"	not an unambiguous number: '1 —'
+bb1891:p530:t1	42	"["""", """", ""2 packages"", ""—"", ""1 package"", ""—"", ""3 packages"", ""—"", ""45"", ""0"", ""5"", ""0"", ""50"", ""0"", ""Do.""]"	not an unambiguous number: '2 —'
+bb1891:p530:t1	44	"[""Umbrellas ..."", ""British India"", ""—"", ""—"", ""4 packages"", ""—"", ""4 packages"", ""—"", ""—"", ""—"", ""1610"", ""0"", ""1610"", ""0"", ""Do.""]"	not an unambiguous number: '4 —'
+bb1891:p530:t1	45	"[""Vanilla ..."", ""United Kingdom"", ""lb."", ""882 9/16"", ""—"", ""—"", ""lb."", ""882 9/16"", ""2589"", ""57"", ""—"", ""—"", ""2589"", ""57"", """"]"	incomplete or ambiguous rupees/cents: ['lb.', '882 9/16']
+bb1891:p530:t1	47	"[""Vanilla ..."", ""British India"", ""20"", ""—"", ""—"", ""—"", ""20"", ""—"", ""50"", ""0"", ""—"", ""—"", ""50"", ""0"", """"]"	not an unambiguous number: '20 —'
+bb1891:p530:t1	49	"[""Vanilla ..."", ""Germany"", ""41"", ""—"", ""—"", ""—"", ""41"", ""—"", ""100"", ""0"", ""—"", ""—"", ""100"", ""0"", """"]"	not an unambiguous number: '41 —'
+bb1891:p530:t1	50	"["""", """", ""943 9/16"", ""—"", ""—"", ""—"", ""943 9/16"", ""—"", ""2739"", ""57"", ""—"", ""—"", ""2739"", ""57"", ""Do.""]"	not an unambiguous number: '943 9/16 —'
+bb1891:p530:t1	52	"[""Vinegar ..."", ""British India"", ""6 packages"", ""—"", ""2 packages"", ""—"", ""8 packages"", ""—"", ""47"", ""0"", ""10"", ""0"", ""57"", ""0"", ""Do.""]"	not an unambiguous number: '6 —'

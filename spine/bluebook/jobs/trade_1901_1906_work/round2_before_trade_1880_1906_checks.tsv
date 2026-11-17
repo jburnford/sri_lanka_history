@@ -1,0 +1,891 @@
+year_volume	flow	article_as_printed	article_start_table	total_table_id	total_row_index	measure	printed_total	country_sum	difference	skipped_rows_in_article	note
+1901	import	Beef— Salted	bb1901:p571:t1	bb1901:p571:t1	16	value_total_rs	13667	13672	5	0	
+1901	import	Biscuits	bb1901:p571:t1	bb1901:p571:t1	69	quantity_home_consumption	666047	675767	9720	1	unit lb.
+1901	import	Biscuits	bb1901:p571:t1	bb1901:p571:t1	69	value_total_rs	232511	232501	-10	1	
+1901	import	Milk, preserved	bb1901:p578:t1	bb1901:p578:t1	36	quantity_total	18125	17349	-776	1	unit cases
+1901	import	Milk, preserved	bb1901:p578:t1	bb1901:p578:t1	36	quantity_home_consumption	18101	17325	-776	1	unit cases
+1901	import	Onions	bb1901:p578:t1	bb1901:p578:t1	54	value_total_rs	582578	482578	-100000	0	
+1901	import	Salt— Refined	bb1901:p579:t1	bb1901:p579:t1	32	value_total_rs	6853	6903	50	0	
+1901	import	Spirits— Brandy	bb1901:p580:t1	bb1901:p580:t1	39	quantity_total	36154	34154	-2000	0	unit gals.
+1901	import	Spirits— Gin	bb1901:p580:t1	bb1901:p580:t1	51	value_total_rs	216272	216372	100	0	
+1901	import	Claret— In bottle	bb1901:p582:t1	bb1901:p582:t1	42	quantity_total	1598	1608	10	0	unit gals.
+1901	import	Claret— In wood	bb1901:p582:t1	bb1901:p582:t1	55	value_total_rs	48079	48179	100	0	
+1901	import	Other— In bottle	bb1901:p583:t1	bb1901:p583:t1	72	value_total_rs	47262	47282	20	0	
+1901	import	Other— In wood	bb1901:p584:t1	bb1901:p584:t1	14	quantity_total	7290	7285	-5	0	unit gals.
+1901	import	Other— In wood	bb1901:p584:t1	bb1901:p584:t1	14	value_total_rs	18443	336038	317595	0	
+1901	import	Unenumerated— Dutiable	bb1901:p584:t1	bb1901:p584:t1	42	quantity_total	15323	8661	-6662	0	
+1901	import	Unenumerated— Dutiable	bb1901:p584:t1	bb1901:p584:t1	42	quantity_home_consumption	15304	8660	-6644	0	
+1901	import	Unenumerated— Dutiable	bb1901:p584:t1	bb1901:p584:t1	42	value_total_rs	464348	146818	-317530	0	
+1901	import	Opium	bb1901:p584:t1	bb1901:p584:t1	51	quantity_total	21005	44184	23179	0	unit lb.
+1901	import	Opium	bb1901:p584:t1	bb1901:p584:t1	51	quantity_home_consumption	21005	44184	23179	0	unit lb.
+1901	import	Opium	bb1901:p584:t1	bb1901:p584:t1	51	value_total_rs	423894	490724	66830	0	
+1901	import	Tobacco, manufactured— Cigars	bb1901:p584:t1	bb1901:p584:t1	75	quantity_total	48576	25397	-23179	0	
+1901	import	Tobacco, manufactured— Cigars	bb1901:p584:t1	bb1901:p584:t1	75	quantity_home_consumption	48363	25184	-23179	0	
+1901	import	Tobacco, manufactured— Cigars	bb1901:p584:t1	bb1901:p584:t1	75	value_total_rs	155690	88860	-66830	0	
+1901	import	Brass sheets	bb1901:p585:t1	bb1901:p585:t1	62	quantity_total	353	396	43	0	unit cwt.
+1901	import	Steel— Cast	bb1901:p587:t1	bb1901:p587:t1	10	value_total_rs	55460	55520	60	0	
+1901	import	Unenumerated— Dutiable	bb1901:p589:t1	bb1901:p589:t1	13	value_total_rs	7065	7075	10	0	
+1901	import	Other	bb1901:p593:t1	bb1901:p593:t1	12	value_total_rs	177340	177260	-80	0	
+1901	import	Apparel, made up	bb1901:p593:t1	bb1901:p593:t1	40	quantity_home_consumption	1786	1793	7	0	unit pkgs.
+1901	import	Piece Goods— Dyed	bb1901:p593:t1	bb1901:p594:t1	2	quantity_total	9523987	8675163	-848824	0	unit yds.
+1901	import	Piece Goods— Dyed	bb1901:p593:t1	bb1901:p594:t1	2	quantity_home_consumption	9330276	8494624	-835652	0	unit yds.
+1901	import	Piece Goods— Dyed	bb1901:p593:t1	bb1901:p594:t1	2	value_total_rs	1816846	1553948	-262898	0	
+1901	import	Other	bb1901:p598:t1	bb1901:p598:t1	68	quantity_total	167640	167540	-100	0	unit yds.
+1901	import	Brass— Nails and Wire	bb1901:p599:t1	bb1901:p599:t1	23	value_total_rs	8545	8542	-3	0	
+1901	import	Hardware	bb1901:p599:t1	bb1901:p599:t1	72	value_total_rs	999465	969465	-30000	0	
+1901	import	Iron— Galvanized	bb1901:p600:t1	bb1901:p600:t1	23	quantity_home_consumption	31752	31762	10	0	unit cwt.
+1901	import	Lead	bb1901:p600:t1	bb1901:p600:t1	61	quantity_total	76834	75	-76759	1	
+1901	import	Lead	bb1901:p600:t1	bb1901:p600:t1	61	quantity_home_consumption	76834	75	-76759	1	
+1901	import	Lead	bb1901:p600:t1	bb1901:p600:t1	61	value_total_rs	1234682	1906	-1232776	1	
+1901	import	Steel Ware	bb1901:p601:t1	bb1901:p601:t1	51	value_total_rs	121378	121373	-5	0	
+1901	import	Tin Ware	bb1901:p601:t1	bb1901:p602:t1	10	value_total_rs	22369	22969	600	0	
+1901	import	Acids— Other	bb1901:p602:t1	bb1901:p602:t1	35	quantity_total	2269	2279	10	0	unit gals.
+1901	import	Beads	bb1901:p603:t1	bb1901:p603:t1	47	quantity_home_consumption	60010	60015	5	0	unit No.
+1901	import	Bleaching Materials	bb1901:p603:t1	bb1901:p603:t1	55	quantity_total	1034	1054	20	0	unit cwt.
+1901	import	Bleaching Materials	bb1901:p603:t1	bb1901:p603:t1	55	quantity_home_consumption	1044	1024	-20	0	unit cwt.
+1901	import	Tin Ware	bb1901:p604:t1	bb1901:p604:t1	10	quantity_total	492	62	-430	0	continued from an earlier page; unit cwt.
+1901	import	Tin Ware	bb1901:p604:t1	bb1901:p604:t1	10	quantity_home_consumption	492	62	-430	0	continued from an earlier page; unit cwt.
+1901	import	Tin Ware	bb1901:p604:t1	bb1901:p604:t1	10	value_total_rs	22369	3485	-18884	0	continued from an earlier page
+1901	import	Zinc Ware	bb1901:p604:t1	bb1901:p604:t1	19	value_total_rs	18986	13986	-5000	0	
+1901	import	Acids— Other	bb1901:p604:t1	bb1901:p604:t1	35	quantity_total	2269	2279	10	0	unit gals.
+1901	import	Beads	bb1901:p605:t1	bb1901:p605:t1	47	quantity_total	54194	54244	50	0	unit No.
+1901	import	Beads	bb1901:p605:t1	bb1901:p605:t1	47	quantity_home_consumption	60010	60015	5	0	unit No.
+1901	import	Bleaching Materials	bb1901:p605:t1	bb1901:p605:t1	55	quantity_total	1034	1054	20	0	unit cwt.
+1901	import	Bleaching Materials	bb1901:p605:t1	bb1901:p605:t1	55	quantity_home_consumption	1044	1024	-20	0	unit cwt.
+1901	import	Carriages and Carts	bb1901:p607:t1	bb1901:p607:t1	40	value_total_rs	74035	74045	10	0	
+1901	import	Cement	bb1901:p607:t1	bb1901:p607:t1	61	value_total_rs	209138	209128	-10	1	
+1901	import	Chemists' Sundries	bb1901:p608:t1	bb1901:p608:t1	20	value_total_rs	337626	338126	500	0	
+1901	import	Earthenware	bb1901:p609:t1	bb1901:p609:t1	9	quantity_total	1204764	1199764	-5000	0	unit pieces
+1901	import	Earthenware	bb1901:p609:t1	bb1901:p609:t1	9	quantity_home_consumption	1204764	1199764	-5000	0	unit pieces
+1901	import	Furniture	bb1901:p610:t1	bb1901:p610:t1	59	quantity_total	19224	19222	-2	1	unit pieces
+1901	import	Furniture	bb1901:p610:t1	bb1901:p610:t1	59	quantity_home_consumption	19103	19101	-2	1	unit pieces
+1901	import	Furniture	bb1901:p610:t1	bb1901:p610:t1	59	value_total_rs	82618	62598	-20020	1	
+1901	import	Instruments— Musical	bb1901:p612:t1	bb1901:p612:t1	44	quantity_home_consumption	11631	11635	4	0	unit No.
+1901	import	Instruments— Other	bb1901:p612:t1	bb1901:p612:t1	55	value_total_rs	6023	6018	-5	0	
+1901	import	Photographic Materials	bb1901:p618:t1	bb1901:p618:t1	60	value_total_rs	40066	40166	100	0	
+1901	import	Pictures	bb1901:p618:t1	bb1901:p619:t1	11	quantity_total	44335	44340	5	1	unit No.
+1901	import	Pictures	bb1901:p618:t1	bb1901:p619:t1	11	value_total_rs	24169	23169	-1000	1	
+1901	import	Materials	bb1901:p619:t1	bb1901:p619:t1	23	quantity_total	295	42	-253	0	
+1901	import	Materials	bb1901:p619:t1	bb1901:p619:t1	23	quantity_home_consumption	294	42	-252	0	
+1901	import	Materials	bb1901:p619:t1	bb1901:p619:t1	23	value_total_rs	27968	3100	-24868	0	
+1901	import	Stores— Rails and Fishplates of steel or iron	bb1901:p620:t1	bb1901:p620:t1	5	quantity_total	10879	10709	-170	1	unit cwt.
+1901	import	Stores— Rails and Fishplates of steel or iron	bb1901:p620:t1	bb1901:p620:t1	5	quantity_home_consumption	10879	10709	-170	1	unit cwt.
+1901	import	Stores— Rails and Fishplates of steel or iron	bb1901:p620:t1	bb1901:p620:t1	5	value_total_rs	131548	129852	-1696	1	
+1901	import	Stores— Sleepers and Keys	bb1901:p620:t1	bb1901:p620:t1	8	quantity_total	40601	39991	-610	1	unit No.
+1901	import	Stores— Sleepers and Keys	bb1901:p620:t1	bb1901:p620:t1	8	quantity_home_consumption	40601	39991	-610	1	unit No.
+1901	import	Stores— Sleepers and Keys	bb1901:p620:t1	bb1901:p620:t1	8	value_total_rs	94693	94353	-340	1	
+1901	import	Stores— Other	bb1901:p620:t1	bb1901:p620:t1	11	quantity_total	16889	16879	-10	1	unit cwt.
+1901	import	Stores— Other	bb1901:p620:t1	bb1901:p620:t1	11	quantity_home_consumption	16889	16879	-10	1	unit cwt.
+1901	import	Stores— Other	bb1901:p620:t1	bb1901:p620:t1	11	value_total_rs	83526	83433	-93	1	
+1901	import	Stores— Shot	bb1901:p620:t1	bb1901:p620:t1	14	quantity_total	1463	440	-1023	1	unit cwt.
+1901	import	Stores— Shot	bb1901:p620:t1	bb1901:p620:t1	14	quantity_home_consumption	1463	440	-1023	1	unit cwt.
+1901	import	Stores— Shot	bb1901:p620:t1	bb1901:p620:t1	14	value_total_rs	22233	6797	-15436	1	
+1901	import	Soap— Toilet	bb1901:p620:t1	bb1901:p620:t1	27	quantity_total	4068	4050	-18	2	unit cwt.
+1901	import	Soap— Toilet	bb1901:p620:t1	bb1901:p620:t1	27	quantity_home_consumption	4094	4061	-33	2	unit cwt.
+1901	import	Soap— Toilet	bb1901:p620:t1	bb1901:p620:t1	27	value_total_rs	188185	187141	-1044	2	
+1901	import	Soap— Bar	bb1901:p620:t1	bb1901:p620:t1	37	quantity_total	11723	7375	-4348	2	unit cwt.
+1901	import	Soap— Bar	bb1901:p620:t1	bb1901:p620:t1	37	quantity_home_consumption	11956	7603	-4353	2	unit cwt.
+1901	import	Soap— Bar	bb1901:p620:t1	bb1901:p620:t1	37	value_total_rs	138478	92228	-46250	2	
+1901	import	Soda	bb1901:p620:t1	bb1901:p620:t1	42	quantity_total	2126	1739	-387	2	unit cwt.
+1901	import	Soda	bb1901:p620:t1	bb1901:p620:t1	42	quantity_home_consumption	2126	1739	-387	2	unit cwt.
+1901	import	Soda	bb1901:p620:t1	bb1901:p620:t1	42	value_total_rs	13410	11436	-1974	2	
+1901	import	Stones, worked	bb1901:p621:t1	bb1901:p621:t1	32	value_total_rs	21392	21292	-100	0	
+1901	import	Unenumerated— Dutiable	bb1901:p625:t1	bb1901:p625:t1	18	quantity_total	313208	42160	-271048	0	continued from an earlier page; unit No.
+1901	import	Unenumerated— Dutiable	bb1901:p625:t1	bb1901:p625:t1	18	quantity_home_consumption	313458	41962	-271496	0	continued from an earlier page; unit No.
+1901	import	Unenumerated— Dutiable	bb1901:p625:t1	bb1901:p625:t1	18	value_total_rs	551013	65500	-485513	0	continued from an earlier page
+1901	import	Gold— Coin	bb1901:p625:t1	bb1901:p625:t1	52	quantity_total	26080	26085	5	0	unit No.
+1901	export	Grain— Rice	bb1901:p632:t1	bb1901:p632:t1	10	value_other_produce_rs	9126	6126	-3000	0	
+1901	export	"France """	bb1901:p633:t1	bb1901:p633:t1	20	quantity_ceylon_produce	366	21	-345	0	
+1901	export	"France """	bb1901:p633:t1	bb1901:p633:t1	20	quantity_total	366	21	-345	0	
+1901	export	"France """	bb1901:p633:t1	bb1901:p633:t1	20	value_ceylon_produce_rs	1229	70	-1159	0	
+1901	export	"France """	bb1901:p633:t1	bb1901:p633:t1	20	value_total_rs	1229	70	-1159	0	
+1901	export	Tea	bb1901:p635:t1	bb1901:p635:t1	34	quantity_ceylon_produce	144275608	22290680	-121984928	0	continued from an earlier page; unit lb.
+1901	export	Tea	bb1901:p635:t1	bb1901:p635:t1	34	quantity_total	144275608	22290680	-121984928	0	continued from an earlier page; unit lb.
+1901	export	Tea	bb1901:p635:t1	bb1901:p635:t1	34	value_ceylon_produce_rs	47610950	7355924	-40255026	0	continued from an earlier page
+1901	export	Tea	bb1901:p635:t1	bb1901:p635:t1	34	value_total_rs	47610950	7355924	-40255026	0	continued from an earlier page
+1901	export	Mica	bb1901:p638:t1	bb1901:p638:t1	56	value_ceylon_produce_rs	1120	1020	-100	0	
+1901	export	Natural History Specimens	bb1901:p638:t1	bb1901:p638:t1	68	value_ceylon_produce_rs	2225	2150	-75	1	
+1901	export	Natural History Specimens	bb1901:p638:t1	bb1901:p638:t1	68	value_total_rs	2247	2172	-75	1	
+1901	export	Plants and Roots	bb1901:p639:t1	bb1901:p639:t1	23	quantity_ceylon_produce	331	328	-3	1	unit pkgs.
+1901	export	Plants and Roots	bb1901:p639:t1	bb1901:p639:t1	23	quantity_total	355	352	-3	1	unit pkgs.
+1901	export	Plants and Roots	bb1901:p639:t1	bb1901:p639:t1	23	value_ceylon_produce_rs	5257	4977	-280	1	
+1901	export	Plants and Roots	bb1901:p639:t1	bb1901:p639:t1	23	value_total_rs	10057	9777	-280	1	
+1901	export	Unenumerated	bb1901:p640:t1	bb1901:p640:t1	61	quantity_ceylon_produce	844	349	-495	0	unit cwt.
+1901	export	Apparel, made up	bb1901:p641:t1	bb1901:p641:t1	70	quantity_total	1117	1118	1	0	unit pkgs.
+1901	export	Piece Goods— Bleached	bb1901:p642:t1	bb1901:p642:t1	19	quantity_ceylon_produce	1503	503	-1000	0	unit yds.
+1901	export	Piece Goods— Dyed	bb1901:p642:t1	bb1901:p642:t1	27	value_other_produce_rs	1700	1760	60	0	
+1901	export	Piece Goods— Other	bb1901:p642:t1	bb1901:p642:t1	46	quantity_other_produce	7	16991	16984	0	unit doz.
+1901	export	Piece Goods— Other	bb1901:p642:t1	bb1901:p642:t1	46	quantity_total	7	16991	16984	0	unit doz.
+1901	export	Yarn and Twist— Gray	bb1901:p642:t1	bb1901:p642:t1	59	value_total_rs	57320	37320	-20000	0	
+1901	export	Brass— Brassware	bb1901:p643:t1	bb1901:p643:t1	55	quantity_other_produce	112	72	-40	0	
+1901	export	Brass— Brassware	bb1901:p643:t1	bb1901:p643:t1	55	quantity_total	114	74	-40	0	
+1901	export	Brass— Brassware	bb1901:p643:t1	bb1901:p643:t1	55	value_ceylon_produce_rs	160	135	-25	0	
+1901	export	Brass— Brassware	bb1901:p643:t1	bb1901:p643:t1	55	value_other_produce_rs	6947	3207	-3740	0	
+1901	export	Brass— Brassware	bb1901:p643:t1	bb1901:p643:t1	55	value_total_rs	7107	3342	-3765	0	
+1901	export	(Copper Ware)	bb1901:p644:t1	bb1901:p644:t1	7	value_other_produce_rs	1635	1615	-20	0	
+1901	export	Hardware	bb1901:p644:t1	bb1901:p644:t1	22	quantity_other_produce	1900	2044	144	0	unit cwt.
+1901	export	Hardware	bb1901:p644:t1	bb1901:p644:t1	22	value_other_produce_rs	40640	40630	-10	0	
+1901	export	Curios and Fancy Articles	bb1901:p648:t1	bb1901:p648:t1	30	quantity_ceylon_produce	206	211	5	0	unit pkgs.
+1901	export	Curios and Fancy Articles	bb1901:p648:t1	bb1901:p648:t1	30	quantity_total	478	483	5	0	unit pkgs.
+1901	export	Earthenware	bb1901:p648:t1	bb1901:p648:t1	52	quantity_other_produce	442	380	-62	1	unit pkgs.
+1901	export	Earthenware	bb1901:p648:t1	bb1901:p648:t1	52	quantity_total	450	9222	8772	1	unit pkgs.
+1901	export	Earthenware	bb1901:p648:t1	bb1901:p648:t1	52	value_ceylon_produce_rs	55	56	1	1	
+1901	export	Earthenware	bb1901:p648:t1	bb1901:p648:t1	52	value_other_produce_rs	9484	5287	-4197	1	
+1901	export	Earthenware	bb1901:p648:t1	bb1901:p648:t1	52	value_total_rs	9539	5342	-4197	1	
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	quantity_ceylon_produce	2899	44	-2855	0	continued from an earlier page; unit pkgs.
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	quantity_other_produce	412	1	-411	0	continued from an earlier page; unit pkgs.
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	quantity_total	3311	55	-3256	0	continued from an earlier page; unit pkgs.
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	value_ceylon_produce_rs	38596	2323	-36273	0	continued from an earlier page
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	value_other_produce_rs	18297	17	-18280	0	continued from an earlier page
+1901	export	Furniture	bb1901:p649:t1	bb1901:p649:t1	12	value_total_rs	56893	2340	-54553	0	continued from an earlier page
+1901	export	Mats, Mat Bags, and Baskets	bb1901:p651:t1	bb1901:p651:t1	14	quantity_total	5856	5956	100	1	unit No.
+1901	export	Mats, Mat Bags, and Baskets	bb1901:p651:t1	bb1901:p651:t1	14	value_total_rs	3847	3947	100	1	
+1901	export	Oil— Castor	bb1901:p651:t1	bb1901:p651:t1	20	value_other_produce_rs	965	465	-500	0	
+1901	export	Oil— Castor	bb1901:p651:t1	bb1901:p651:t1	20	value_total_rs	1065	565	-500	0	
+1901	export	Oil— Cinnamon	bb1901:p651:t1	bb1901:p651:t1	26	value_ceylon_produce_rs	21702	22202	500	0	
+1901	export	Pictures	bb1901:p652:t1	bb1901:p652:t1	45	quantity_ceylon_produce	130	126	-4	0	unit No.
+1901	export	Poonac	bb1901:p652:t1	bb1901:p652:t1	57	value_ceylon_produce_rs	939444	939453	9	0	
+1901	export	Poonac	bb1901:p652:t1	bb1901:p652:t1	57	value_total_rs	939602	939612	10	0	
+1901	export	Skins, dressed	bb1901:p653:t1	bb1901:p653:t1	25	quantity_ceylon_produce	9607	9612	5	0	unit cwt.
+1901	export	Skins, dressed	bb1901:p653:t1	bb1901:p653:t1	25	quantity_total	9608	9613	5	0	unit cwt.
+1901	export	and Rafters	bb1901:p653:t1	bb1901:p653:t1	32	quantity_ceylon_produce	75297	6578	-68719	0	
+1901	export	and Rafters	bb1901:p653:t1	bb1901:p653:t1	32	quantity_total	75297	6578	-68719	0	
+1901	export	and Rafters	bb1901:p653:t1	bb1901:p653:t1	32	value_ceylon_produce_rs	26011	2669	-23342	0	
+1901	export	and Rafters	bb1901:p653:t1	bb1901:p653:t1	32	value_total_rs	26011	2669	-23342	0	
+1902	import	Cattle	bb1902:p590:t1	bb1902:p590:t1	7	value_total_rs	552187	552167	-20	0	
+1902	import	Bacon	bb1902:p590:t1	bb1902:p590:t1	58	value_total_rs	66181	66131	-50	0	
+1902	import	Beef— Salted	bb1902:p591:t1	bb1902:p591:t1	19	value_total_rs	17655	17656	1	0	
+1902	import	Beef— Tinned	bb1902:p591:t1	bb1902:p591:t1	31	quantity_home_consumption	44602	44502	-100	0	unit lb.
+1902	import	Beef— Tinned	bb1902:p591:t1	bb1902:p591:t1	31	value_total_rs	22183	22684	501	0	
+1902	import	Beer and Ale— Bottled	bb1902:p591:t1	bb1902:p591:t1	44	value_total_rs	201405	201403	-2	0	
+1902	import	Beer and Ale— In wood	bb1902:p591:t1	bb1902:p591:t1	52	quantity_total	249746	249745	-1	0	unit gals.
+1902	import	Butter— Frözen	bb1902:p592:t1	bb1902:p592:t1	7	value_total_rs	53398	53408	10	0	
+1902	import	Butter— Tinned	bb1902:p592:t1	bb1902:p592:t1	24	quantity_total	177160	170320	-6840	1	unit lb.
+1902	import	Butter— Tinned	bb1902:p592:t1	bb1902:p592:t1	24	quantity_home_consumption	177160	170320	-6840	1	unit lb.
+1902	import	Butter— Tinned	bb1902:p592:t1	bb1902:p592:t1	24	value_total_rs	134997	132547	-2450	1	
+1902	import	Cheese	bb1902:p592:t1	bb1902:p592:t1	45	value_total_rs	60570	60772	202	0	
+1902	import	Cider	bb1902:p592:t1	bb1902:p592:t1	49	value_total_rs	714	709	-5	0	
+1902	import	Confectionery	bb1902:p593:t1	bb1902:p593:t1	35	quantity_home_consumption	464712	465312	600	0	unit lb.
+1902	import	Confectionery	bb1902:p593:t1	bb1902:p593:t1	35	value_total_rs	151502	151592	90	0	
+1902	import	Flour, Wheat,	bb1902:p595:t1	bb1902:p595:t1	17	value_total_rs	1235968	1235953	-15	0	
+1902	import	Fruit, fresh— Apples	bb1902:p595:t1	bb1902:p595:t1	31	value_total_rs	15278	15318	40	0	
+1902	import	Other	bb1902:p595:t1	bb1902:p595:t1	57	value_total_rs	14634	14639	5	0	
+1902	import	Milk, preserved	bb1902:p598:t1	bb1902:p598:t1	36	value_total_rs	270671	270681	10	0	
+1902	import	Mutton, tinned	bb1902:p598:t1	bb1902:p598:t1	46	quantity_total	14006	14001	-5	0	unit lb.
+1902	import	Mutton, tinned	bb1902:p598:t1	bb1902:p598:t1	46	quantity_home_consumption	13734	13729	-5	0	unit lb.
+1902	import	Seeds— Mustard	bb1902:p599:t1	bb1902:p599:t1	42	value_total_rs	29726	29826	100	0	
+1902	import	Spices— Ginger, dry	bb1902:p599:t1	bb1902:p599:t1	60	value_total_rs	50241	50341	100	0	
+1902	import	Spirits— Whisky	bb1902:p601:t1	bb1902:p601:t1	17	value_total_rs	477188	477193	5	0	
+1902	import	Sugar— Refined or candied	bb1902:p601:t1	bb1902:p601:t1	51	value_total_rs	1911018	1911518	500	0	
+1902	import	Tea	bb1902:p601:t1	bb1902:p601:t1	65	quantity_total	428	423	-5	0	unit lb.
+1902	import	Tea	bb1902:p601:t1	bb1902:p601:t1	65	quantity_home_consumption	428	423	-5	0	unit lb.
+1902	import	Wines, sparkling— Champagne	bb1902:p602:t1	bb1902:p602:t1	15	quantity_home_consumption	3539	3559	20	0	unit gals.
+1902	import	Wines, sparkling— Champagne	bb1902:p602:t1	bb1902:p602:t1	15	value_total_rs	84519	84521	2	0	
+1902	import	Hock— In bottle	bb1902:p603:t1	bb1902:p603:t1	13	value_total_rs	11792	11862	70	0	
+1902	import	Port— In wood	bb1902:p603:t1	bb1902:p603:t1	40	value_total_rs	23395	27395	4000	0	
+1902	import	Other— In bottle	bb1902:p603:t1	bb1902:p604:t1	3	value_total_rs	2081	51587	49506	0	
+1902	import	Other— In wood	bb1902:p604:t1	bb1902:p604:t1	13	quantity_home_consumption	4560	4650	90	0	unit gals.
+1902	import	Other— In wood	bb1902:p604:t1	bb1902:p604:t1	13	value_total_rs	11956	9875	-2081	0	
+1902	import	Unenumerated— Dutiable	bb1902:p604:t1	bb1902:p604:t1	44	quantity_total	14973	14975	2	0	unit cwt.
+1902	import	Unenumerated— Dutiable	bb1902:p604:t1	bb1902:p604:t1	44	quantity_home_consumption	14977	14987	10	0	unit cwt.
+1902	import	Unenumerated— Dutiable	bb1902:p604:t1	bb1902:p604:t1	44	value_total_rs	439222	439322	100	0	
+1902	import	Tobacco, manufactured— Cigars	bb1902:p604:t1	bb1902:p604:t1	78	quantity_total	50296	49896	-400	0	unit lb.
+1902	import	Tobacco, manufactured— Snuff	bb1902:p605:t1	bb1902:p605:t1	6	value_total_rs	188	193	5	0	
+1902	import	Tobacco, manufactured— Other	bb1902:p605:t1	bb1902:p605:t1	23	quantity_home_consumption	196657	196677	20	0	unit lb.
+1902	import	Tobacco, unmanufactured	bb1902:p605:t1	bb1902:p605:t1	34	value_total_rs	68570	68567	-3	0	
+1902	import	Iron— Angle and Swedish bar	bb1902:p606:t1	bb1902:p606:t1	11	quantity_total	5988	6480	492	2	unit cwt.
+1902	import	Iron— Angle and Swedish bar	bb1902:p606:t1	bb1902:p606:t1	11	quantity_home_consumption	5988	5980	-8	2	unit cwt.
+1902	import	Iron— Angle and Swedish bar	bb1902:p606:t1	bb1902:p606:t1	11	value_total_rs	38632	36136	-2496	2	
+1902	import	Iron— Bar, flat, rod, nail rod	bb1902:p606:t1	bb1902:p606:t1	20	quantity_total	26786	6462	-20324	2	unit cwt.
+1902	import	Iron— Bar, flat, rod, nail rod	bb1902:p606:t1	bb1902:p606:t1	20	quantity_home_consumption	26786	6462	-20324	2	unit cwt.
+1902	import	Iron— Pig	bb1902:p606:t1	bb1902:p606:t1	24	quantity_total	3240	2000	-1240	1	unit cwt.
+1902	import	Iron— Pig	bb1902:p606:t1	bb1902:p606:t1	24	quantity_home_consumption	3240	2000	-1240	1	unit cwt.
+1902	import	Iron— Other	bb1902:p606:t1	bb1902:p606:t1	32	quantity_total	5103	3997	-1106	2	unit cwt.
+1902	import	Iron— Other	bb1902:p606:t1	bb1902:p606:t1	32	quantity_home_consumption	5103	3997	-1106	2	unit cwt.
+1902	import	Quicksilver	bb1902:p606:t1	bb1902:p606:t1	45	quantity_total	1849	206	-1643	1	unit lb.
+1902	import	Quicksilver	bb1902:p606:t1	bb1902:p606:t1	45	quantity_home_consumption	1849	206	-1643	1	unit lb.
+1902	import	Spelter	bb1902:p606:t1	bb1902:p606:t1	49	quantity_total	13	1	-12	1	unit cwt.
+1902	import	Spelter	bb1902:p606:t1	bb1902:p606:t1	49	quantity_home_consumption	13	1	-12	1	unit cwt.
+1902	import	Steel— Blister	bb1902:p606:t1	bb1902:p606:t1	53	quantity_total	200	180	-20	1	unit cwt.
+1902	import	Steel— Blister	bb1902:p606:t1	bb1902:p606:t1	53	quantity_home_consumption	200	180	-20	1	unit cwt.
+1902	import	Steel— Cast	bb1902:p607:t1	bb1902:p607:t1	6	quantity_total	9323	16837	7514	0	unit cwt.
+1902	import	Steel— Cast	bb1902:p607:t1	bb1902:p607:t1	6	quantity_home_consumption	9322	16836	7514	0	unit cwt.
+1902	import	Steel— Cast	bb1902:p607:t1	bb1902:p607:t1	6	value_total_rs	67257	152070	84813	0	
+1902	import	Benjamin	bb1902:p608:t1	bb1902:p608:t1	36	value_total_rs	16521	16526	5	0	
+1902	import	Camphor	bb1902:p608:t1	bb1902:p608:t1	44	value_total_rs	64251	64271	20	0	
+1902	import	Coal	bb1902:p609:t1	bb1902:p609:t1	14	value_total_rs	10257994	10257996	2	0	
+1902	import	Fibre— Coir	bb1902:p609:t1	bb1902:p609:t1	18	value_total_rs	63	61	-2	0	
+1902	import	Hay and Straw	bb1902:p609:t1	bb1902:p609:t1	37	value_total_rs	28736	28796	60	0	
+1902	import	Other	bb1902:p612:t1	bb1902:p612:t1	14	quantity_home_consumption	1288	1289	1	0	unit tons
+1902	import	Apparel, made up	bb1902:p612:t1	bb1902:p612:t1	42	quantity_total	2135	2140	5	0	unit pkgs.
+1902	import	Apparel, made up	bb1902:p612:t1	bb1902:p612:t1	42	quantity_home_consumption	2151	2157	6	0	unit pkgs.
+1902	import	Apparel, made up	bb1902:p612:t1	bb1902:p612:t1	42	value_total_rs	490878	430858	-60020	0	
+1902	import	Piece Goods— Bleached	bb1902:p612:t1	bb1902:p612:t1	71	quantity_total	9854235	9849245	-4990	0	unit yds.
+1902	import	Piece Goods— Bleached	bb1902:p612:t1	bb1902:p612:t1	71	value_total_rs	1648453	1611454	-36999	0	
+1902	import	Piece Goods— Dyed	bb1902:p613:t1	bb1902:p613:t1	18	quantity_total	10743762	974978	-9768784	0	continued from an earlier page; unit yds.
+1902	import	Piece Goods— Dyed	bb1902:p613:t1	bb1902:p613:t1	18	quantity_home_consumption	10864291	1045978	-9818313	0	continued from an earlier page; unit yds.
+1902	import	Piece Goods— Dyed	bb1902:p613:t1	bb1902:p613:t1	18	value_total_rs	2064108	298614	-1765494	0	continued from an earlier page
+1902	import	Piece Goods— Gray	bb1902:p613:t1	bb1902:p613:t1	27	quantity_home_consumption	6305776	6805776	500000	0	unit yds.
+1902	import	Piece Goods— Gray	bb1902:p613:t1	bb1902:p613:t1	27	value_total_rs	943517	940517	-3000	0	
+1902	import	Piece Goods— Printed	bb1902:p613:t1	bb1902:p613:t1	51	quantity_total	7770132	4570132	-3200000	0	unit yds.
+1902	import	Piece Goods— Other	bb1902:p613:t1	bb1902:p613:t1	71	quantity_total	2829	429331	426502	0	unit yds.
+1902	import	Piece Goods— Other	bb1902:p613:t1	bb1902:p613:t1	71	quantity_home_consumption	2829	458121	455292	0	unit yds.
+1902	import	Piece Goods— Other	bb1902:p613:t1	bb1902:p613:t1	71	value_total_rs	7328	354075	346747	0	
+1902	import	Yarn and Twist— Dyed	bb1902:p614:t1	bb1902:p614:t1	26	value_total_rs	147939	148434	495	0	
+1902	import	Piece Goods	bb1902:p614:t1	bb1902:p614:t1	49	value_total_rs	24625	24635	10	0	
+1902	import	Broad Stuffs	bb1902:p615:t1	bb1902:p615:t1	17	quantity_home_consumption	585604	585704	100	0	unit yds.
+1902	import	Broad Stuffs	bb1902:p615:t1	bb1902:p615:t1	17	value_total_rs	381380	381880	500	0	
+1902	import	Handkerchiefs, Scarves, and Shawls	bb1902:p615:t1	bb1902:p615:t1	28	value_total_rs	77595	77645	50	0	
+1902	import	Berlin	bb1902:p616:t1	bb1902:p616:t1	20	quantity_total	1702	1792	90	0	unit lb.
+1902	import	Blankets	bb1902:p616:t1	bb1902:p616:t1	67	value_total_rs	6988	5988	-1000	0	
+1902	import	Carpets	bb1902:p617:t1	bb1902:p617:t1	12	value_total_rs	9339	10389	1050	0	
+1902	import	Handkerchiefs, Scarves, and Shawls	bb1902:p617:t1	bb1902:p617:t1	27	value_total_rs	47096	46496	-600	0	
+1902	import	Piece Goods	bb1902:p617:t1	bb1902:p617:t1	46	quantity_total	1172168	1173168	1000	0	unit yds.
+1902	import	Iron— Hoop	bb1902:p619:t1	bb1902:p619:t1	27	quantity_home_consumption	26996	26986	-10	0	unit cwt.
+1902	import	Iron— Nails and Rivets	bb1902:p619:t1	bb1902:p619:t1	41	value_total_rs	111331	112331	1000	0	
+1902	import	Iron— Other	bb1902:p619:t1	bb1902:p619:t1	51	quantity_total	2653	2633	-20	0	unit cwt.
+1902	import	Plate— Silver or Silvr-gilt	bb1902:p620:t1	bb1902:p620:t1	25	value_total_rs	26983	27003	20	0	
+1902	import	Plate— Electroplate	bb1902:p620:t1	bb1902:p620:t1	39	quantity_home_consumption	42779	32779	-10000	0	unit No.
+1902	import	Zinc Ware	bb1902:p621:t1	bb1902:p621:t1	20	value_total_rs	13569	13369	-200	0	
+1902	import	Guns, double	bb1902:p621:t1	bb1902:p621:t1	60	value_total_rs	29851	29951	100	0	
+1902	import	Implement and accessories	bb1902:p621:t1	bb1902:p621:t1	68	value_total_rs	5409	5109	-300	0	
+1902	import	Books	bb1902:p623:t1	bb1902:p623:t1	23	quantity_total	407757	407817	60	0	unit No.
+1902	import	Books	bb1902:p623:t1	bb1902:p623:t1	23	quantity_home_consumption	406530	408580	2050	0	unit No.
+1902	import	Books	bb1902:p623:t1	bb1902:p623:t1	23	value_total_rs	144719	144739	20	0	
+1902	import	Bran	bb1902:p623:t1	bb1902:p623:t1	30	value_total_rs	45564	48564	3000	1	
+1902	import	Brooms and Brushes	bb1902:p623:t1	bb1902:p623:t1	50	value_total_rs	23528	23580	52	0	
+1902	import	Cables, Cordage, &c	bb1902:p623:t1	bb1902:p623:t1	60	quantity_total	1260	1310	50	0	unit cwt.
+1902	import	Cables, Cordage, &c	bb1902:p623:t1	bb1902:p623:t1	60	quantity_home_consumption	1260	1310	50	0	unit cwt.
+1902	import	Cables, Cordage, &c	bb1902:p623:t1	bb1902:p623:t1	60	value_total_rs	29638	29688	50	0	
+1902	import	Cement	bb1902:p624:t1	bb1902:p624:t1	68	value_total_rs	159085	169035	9950	0	
+1902	import	Chemists' Sundries	bb1902:p625:t1	bb1902:p625:t1	23	quantity_home_consumption	4961	4951	-10	0	unit cwt.
+1902	import	Chemists' Sundries	bb1902:p625:t1	bb1902:p625:t1	23	value_total_rs	279216	280516	1300	0	
+1902	import	Chinaware	bb1902:p625:t1	bb1902:p625:t1	44	value_total_rs	224820	224720	-100	0	
+1902	import	Clocks	bb1902:p625:t1	bb1902:p625:t1	61	value_total_rs	25186	30456	5270	0	
+1902	import	Copperah	bb1902:p625:t1	bb1902:p625:t1	66	value_total_rs	47432	47932	500	0	
+1902	import	Drawing Materials	bb1902:p626:t1	bb1902:p626:t1	9	value_total_rs	4101	4102	1	0	
+1902	import	Earthenware	bb1902:p626:t1	bb1902:p626:t1	19	value_total_rs	56294	56295	1	0	
+1902	import	Embroidery	bb1902:p626:t1	bb1902:p626:t1	37	value_total_rs	27928	28028	100	0	
+1902	import	Explosives— Cartridges	bb1902:p626:t1	bb1902:p626:t1	56	value_total_rs	24405	24354	-51	0	
+1902	import	Fancy articles	bb1902:p627:t1	bb1902:p627:t1	38	value_total_rs	352164	352156	-8	0	
+1902	import	Fullersearth	bb1902:p627:t1	bb1902:p627:t1	44	value_total_rs	35926	35928	2	0	
+1902	import	Furniture	bb1902:p627:t1	bb1902:p627:t1	65	quantity_home_consumption	24735	25135	400	0	unit pieces
+1902	import	Hats and Bonnets	bb1902:p629:t1	bb1902:p629:t1	13	quantity_home_consumption	999	1004	5	0	unit cases
+1902	import	Hats and Bonnets	bb1902:p629:t1	bb1902:p629:t1	13	value_total_rs	160963	166013	5050	0	
+1902	import	Images and Statues	bb1902:p629:t1	bb1902:p629:t1	25	value_total_rs	8006	8506	500	0	
+1902	import	Instruments— Scientific	bb1902:p629:t1	bb1902:p629:t1	48	value_total_rs	9056	9126	70	0	
+1902	import	Lamps	bb1902:p630:t1	bb1902:p630:t1	16	value_total_rs	134511	164521	30010	0	
+1902	import	Leather Articles— Boots and Shoes	bb1902:p630:t1	bb1902:p630:t1	51	value_total_rs	176768	177268	500	0	
+1902	import	Leather Articles— Harness and Saddlery	bb1902:p630:t1	bb1902:p630:t1	66	value_total_rs	14826	14816	-10	0	
+1902	import	Machinery— Oil-making	bb1902:p631:t1	bb1902:p631:t1	23	value_total_rs	7272	7322	50	0	
+1902	import	Machinery— Sewing Machines	bb1902:p631:t1	bb1902:p631:t1	31	value_total_rs	33655	34155	500	0	
+1902	import	Machinery— Free	bb1902:p632:t1	bb1902:p632:t1	13	value_total_rs	313017	322017	9000	0	
+1902	import	Manure— Castor Seed Poonac	bb1902:p632:t1	bb1902:p632:t1	34	value_total_rs	445891	450891	5000	0	
+1902	import	Sulphate of Ammonia	bb1902:p632:t1	bb1902:p632:t1	58	value_total_rs	65873	65874	1	0	
+1902	import	Oil and Floorcloth	bb1902:p634:t1	bb1902:p634:t1	13	value_total_rs	34620	34629	9	0	
+1902	import	Oil— Linseed	bb1902:p634:t1	bb1902:p634:t1	32	value_total_rs	11157	11159	2	0	
+1902	import	Kerosine— Case	bb1902:p634:t1	bb1902:p634:t1	37	value_total_rs	437184	437154	-30	0	
+1902	import	Oil— Lubricating	bb1902:p634:t1	bb1902:p634:t1	45	quantity_total	104685	104785	100	0	unit gals.
+1902	import	Oil— Other	bb1902:p635:t1	bb1902:p635:t1	23	quantity_total	33228	33288	60	0	unit gals.
+1902	import	Oil— Other	bb1902:p635:t1	bb1902:p635:t1	23	value_total_rs	61406	61206	-200	0	
+1902	import	Painters' Colours	bb1902:p635:t1	bb1902:p635:t1	37	value_total_rs	105534	105334	-200	0	
+1902	import	Other— Dutiable	bb1902:p636:t1	bb1902:p636:t1	22	quantity_home_consumption	11118	11218	100	0	unit reams
+1902	import	Perfumery	bb1902:p636:t1	bb1902:p636:t1	50	value_total_rs	116587	117087	500	0	
+1902	import	Pictures	bb1902:p636:t1	bb1902:p637:t1	14	quantity_home_consumption	165157	165167	10	1	unit No.
+1902	import	Pictures	bb1902:p636:t1	bb1902:p637:t1	14	value_total_rs	90512	19812	-70700	1	
+1902	import	Poonac— Gingelly	bb1902:p637:t1	bb1902:p637:t1	26	quantity_total	339949	339947	-2	0	unit cwt.
+1902	import	Materials	bb1902:p637:t1	bb1902:p637:t1	34	quantity_total	296	37	-259	0	
+1902	import	Materials	bb1902:p637:t1	bb1902:p637:t1	34	quantity_home_consumption	290	37	-253	0	
+1902	import	Materials	bb1902:p637:t1	bb1902:p637:t1	34	value_total_rs	29909	3748	-26161	0	
+1902	import	Stores— Military and Naval	bb1902:p637:t1	bb1902:p637:t1	62	quantity_total	53082	53444	362	0	unit No.
+1902	import	Stores— Military and Naval	bb1902:p637:t1	bb1902:p637:t1	62	quantity_home_consumption	53082	53444	362	0	unit No.
+1902	import	Railway Plant and Rolling Stock— Carriages and Trucks and parts thereof	bb1902:p637:t1	bb1902:p637:t1	68	quantity_total	984	622	-362	1	
+1902	import	Railway Plant and Rolling Stock— Carriages and Trucks and parts thereof	bb1902:p637:t1	bb1902:p637:t1	68	quantity_home_consumption	984	622	-362	1	
+1902	import	Railway Plant and Rolling Stock— Carriages and Trucks and parts thereof	bb1902:p637:t1	bb1902:p637:t1	68	value_total_rs	14870	9832	-5038	1	
+1902	import	Stores— Rails and Fishplates of steel or iron	bb1902:p638:t1	bb1902:p638:t1	7	value_total_rs	1170	1175	5	0	
+1902	import	Stores— Shot	bb1902:p638:t1	bb1902:p638:t1	15	value_total_rs	26183	26184	1	0	
+1902	import	Soap— Toilet	bb1902:p638:t1	bb1902:p638:t1	27	quantity_home_consumption	3935	3937	2	0	unit cwt.
+1902	import	Soap— Toilet	bb1902:p638:t1	bb1902:p638:t1	27	value_total_rs	219620	219618	-2	0	
+1902	import	Soap— Bar	bb1902:p638:t1	bb1902:p638:t1	38	quantity_total	10817	10867	50	0	unit cwt.
+1902	import	Soap— Bar	bb1902:p638:t1	bb1902:p638:t1	38	quantity_home_consumption	10842	10892	50	0	unit cwt.
+1902	import	Stationery, excluding Paper	bb1902:p639:t1	bb1902:p639:t1	21	quantity_total	1599	1660	61	0	unit cases
+1902	import	Stationery, excluding Paper	bb1902:p639:t1	bb1902:p639:t1	21	quantity_home_consumption	1600	1606	6	0	unit cases
+1902	import	Stationery, excluding Paper	bb1902:p639:t1	bb1902:p639:t1	21	value_total_rs	162513	213213	50700	0	
+1902	import	Tea Chests	bb1902:p639:t1	bb1902:p639:t1	54	value_total_rs	1248464	1243450	-5014	0	
+1902	import	Timber, worked	bb1902:p639:t1	bb1902:p639:t1	67	quantity_total	12635	12687	52	0	unit cwt.
+1902	import	Timber, worked	bb1902:p639:t1	bb1902:p639:t1	67	quantity_home_consumption	12635	12687	52	0	unit cwt.
+1902	import	Timber, worked	bb1902:p639:t1	bb1902:p639:t1	67	value_total_rs	58247	58252	5	0	
+1902	import	Toys	bb1902:p640:t1	bb1902:p640:t1	18	quantity_total	819	820	1	0	unit cases
+1902	import	Toys	bb1902:p640:t1	bb1902:p640:t1	18	value_total_rs	48266	48216	-50	0	
+1902	import	Watches	bb1902:p640:t1	bb1902:p640:t1	54	value_total_rs	96055	97055	1000	0	
+1902	import	Unenumerated— Dutiable	bb1902:p640:t1	bb1902:p641:t1	21	value_total_rs	519293	519474	181	0	
+1902	import	Unenumerated— Free	bb1902:p641:t1	bb1902:p641:t1	48	quantity_total	8529	8621	92	0	unit No.
+1902	import	Unenumerated— Free	bb1902:p641:t1	bb1902:p641:t1	48	quantity_home_consumption	8526	8618	92	0	unit No.
+1902	import	Unenumerated— Free	bb1902:p641:t1	bb1902:p641:t1	48	value_total_rs	398961	6271013	5872052	0	
+1902	import	Gold— Coin	bb1902:p641:t1	bb1902:p641:t1	56	quantity_total	121	29	-92	0	
+1902	import	Gold— Coin	bb1902:p641:t1	bb1902:p641:t1	56	quantity_home_consumption	121	29	-92	0	
+1902	import	Gold— Coin	bb1902:p641:t1	bb1902:p641:t1	56	value_total_rs	7975802	2103750	-5872052	0	
+1902	import	Silver— Pearls and Precious Stones	bb1902:p641:t1	bb1902:p641:t1	73	value_total_rs	2085	3085	1000	0	
+1902	export	Birds' Nests	bb1902:p645:t1	bb1902:p645:t1	23	quantity_ceylon_produce	26	31	5	0	unit cwt.
+1902	export	Birds' Nests	bb1902:p645:t1	bb1902:p645:t1	23	quantity_total	26	31	5	0	unit cwt.
+1902	export	Cacao	bb1902:p645:t1	bb1902:p645:t1	45	quantity_ceylon_produce	61476	61475	-1	0	unit cwt.
+1902	export	Cacao	bb1902:p645:t1	bb1902:p645:t1	45	quantity_total	61476	61475	-1	0	unit cwt.
+1902	export	Cacao	bb1902:p645:t1	bb1902:p645:t1	45	value_ceylon_produce_rs	2537764	2537778	14	0	
+1902	export	Cacao	bb1902:p645:t1	bb1902:p645:t1	45	value_total_rs	2537764	2537778	14	0	
+1902	export	cont	bb1902:p646:t1	bb1902:p646:t1	17	quantity_ceylon_produce	239460	144137	-95323	0	
+1902	export	cont	bb1902:p646:t1	bb1902:p646:t1	17	quantity_total	239460	144139	-95321	0	
+1902	export	cont	bb1902:p646:t1	bb1902:p646:t1	17	value_ceylon_produce_rs	2870549	977698	-1892851	0	
+1902	export	cont	bb1902:p646:t1	bb1902:p646:t1	17	value_total_rs	2870549	977698	-1892851	0	
+1902	export	Fresh	bb1902:p646:t1	bb1902:p646:t1	36	value_ceylon_produce_rs	711918	711929	11	0	
+1902	export	Fresh	bb1902:p646:t1	bb1902:p646:t1	36	value_total_rs	711918	711929	11	0	
+1902	export	Arabian— Native	bb1902:p646:t1	bb1902:p646:t1	42	value_ceylon_produce_rs	1914	1905	-9	0	
+1902	export	Arabian— Native	bb1902:p646:t1	bb1902:p646:t1	42	value_total_rs	1914	1905	-9	0	
+1902	export	Arabian— Plantation	bb1902:p646:t1	bb1902:p646:t1	71	quantity_ceylon_produce	10315	10322	7	0	unit cwt.
+1902	export	Arabian— Plantation	bb1902:p646:t1	bb1902:p646:t1	71	quantity_total	10315	10322	7	0	unit cwt.
+1902	export	Arabian— Plantation	bb1902:p646:t1	bb1902:p646:t1	71	value_ceylon_produce_rs	637020	636020	-1000	0	
+1902	export	Arabian— Plantation	bb1902:p646:t1	bb1902:p646:t1	71	value_total_rs	637020	636020	-1000	0	
+1902	export	Confectionery and Preserves	bb1902:p647:t1	bb1902:p647:t1	7	value_other_produce_rs	260	250	-10	1	
+1902	export	Confectionery and Preserves	bb1902:p647:t1	bb1902:p647:t1	7	value_total_rs	417	407	-10	1	
+1902	export	Fish, cured and salted	bb1902:p647:t1	bb1902:p647:t1	28	value_total_rs	47645	47648	3	0	
+1902	export	Fruit— Preserved	bb1902:p647:t1	bb1902:p647:t1	45	value_other_produce_rs	4694	4684	-10	0	
+1902	export	Fruit— Preserved	bb1902:p647:t1	bb1902:p647:t1	45	value_total_rs	4856	4846	-10	0	
+1902	export	Spices— Cinnamon, Plantation	bb1902:p648:t1	bb1902:p648:t1	70	quantity_ceylon_produce	22821	22822	1	0	unit cwt.
+1902	export	Spices— Cinnamon, Plantation	bb1902:p648:t1	bb1902:p648:t1	70	quantity_other_produce	15834	15824	-10	0	unit cwt.
+1902	export	Nutmegs	bb1902:p649:t1	bb1902:p649:t1	35	value_ceylon_produce_rs	3194	3294	100	0	
+1902	export	Nutmegs	bb1902:p649:t1	bb1902:p649:t1	35	value_total_rs	3231	3331	100	0	
+1902	export	Spirits— Other	bb1902:p650:t1	bb1902:p650:t1	8	value_other_produce_rs	876	271	-605	1	
+1902	export	Spirits— Other	bb1902:p650:t1	bb1902:p650:t1	8	value_total_rs	876	271	-605	1	
+1902	export	Cinchona Bark	bb1902:p652:t1	bb1902:p652:t1	59	value_ceylon_produce_rs	27635	27636	1	0	
+1902	export	Cinchona Bark	bb1902:p652:t1	bb1902:p652:t1	59	value_total_rs	27635	27636	1	0	
+1902	export	Unenumerated	bb1902:p653:t1	bb1902:p653:t1	42	quantity_ceylon_produce	354	464	110	0	unit cwt.
+1902	export	Shells	bb1902:p653:t1	bb1902:p653:t1	47	quantity_ceylon_produce	973	971	-2	0	
+1902	export	Shells	bb1902:p653:t1	bb1902:p653:t1	47	quantity_total	973	971	-2	0	
+1902	export	Shells	bb1902:p653:t1	bb1902:p653:t1	47	value_ceylon_produce_rs	32623	32613	-10	0	
+1902	export	Shells	bb1902:p653:t1	bb1902:p653:t1	47	value_total_rs	32623	32613	-10	0	
+1902	export	Miscellaneous	bb1902:p654:t1	bb1902:p654:t1	15	quantity_ceylon_produce	121971	54400	-67571	0	unit cwt.
+1902	export	Miscellaneous	bb1902:p654:t1	bb1902:p654:t1	15	quantity_total	121971	54400	-67571	0	unit cwt.
+1902	export	Miscellaneous	bb1902:p654:t1	bb1902:p654:t1	15	value_ceylon_produce_rs	778174	347072	-431102	0	
+1902	export	Miscellaneous	bb1902:p654:t1	bb1902:p654:t1	15	value_total_rs	778174	347072	-431102	0	
+1902	export	Kitul	bb1902:p654:t1	bb1902:p654:t1	20	value_ceylon_produce_rs	73164	73214	50	0	
+1902	export	Kitul	bb1902:p654:t1	bb1902:p654:t1	20	value_total_rs	73164	73214	50	0	
+1902	export	Palmirah	bb1902:p654:t1	bb1902:p654:t1	30	quantity_ceylon_produce	6652	6602	-50	0	unit cwt.
+1902	export	Palmirah	bb1902:p654:t1	bb1902:p654:t1	30	quantity_total	16085	16035	-50	0	unit cwt.
+1902	export	Palmirah	bb1902:p654:t1	bb1902:p654:t1	30	value_other_produce_rs	128295	128296	1	0	
+1902	export	Natural History Specimens	bb1902:p654:t1	bb1902:p654:t1	64	quantity_other_produce	20	26	6	0	unit No.
+1902	export	Natural History Specimens	bb1902:p654:t1	bb1902:p654:t1	64	value_ceylon_produce_rs	2236	2238	2	0	
+1902	export	Natural History Specimens	bb1902:p654:t1	bb1902:p654:t1	64	value_total_rs	2996	2998	2	0	
+1902	export	Ebony	bb1902:p657:t1	bb1902:p657:t1	14	value_ceylon_produce_rs	101188	101693	505	0	
+1902	export	Ebony	bb1902:p657:t1	bb1902:p657:t1	14	value_total_rs	101188	101693	505	0	
+1902	export	Apparel, made up	bb1902:p657:t1	bb1902:p658:t1	19	quantity_other_produce	1120	1127	7	1	unit pkgs.
+1902	export	Apparel, made up	bb1902:p657:t1	bb1902:p658:t1	19	quantity_total	1237	1244	7	1	unit pkgs.
+1902	export	Apparel, made up	bb1902:p657:t1	bb1902:p658:t1	19	value_other_produce_rs	104755	104655	-100	1	
+1902	export	Apparel, made up	bb1902:p657:t1	bb1902:p658:t1	19	value_total_rs	118335	118235	-100	1	
+1902	export	Lace and Net	bb1902:p658:t1	bb1902:p658:t1	28	quantity_ceylon_produce	5747	6247	500	0	unit yds.
+1902	export	Lace and Net	bb1902:p658:t1	bb1902:p658:t1	28	quantity_total	5747	6247	500	0	unit yds.
+1902	export	Piece Goods— Dyed	bb1902:p658:t1	bb1902:p658:t1	47	quantity_ceylon_produce	35370	35430	60	0	unit yds.
+1902	export	Piece Goods— Gray	bb1902:p658:t1	bb1902:p658:t1	55	quantity_total	326508	376508	50000	0	unit yds.
+1902	export	Piece Goods— Other	bb1902:p658:t1	bb1902:p658:t1	73	quantity_other_produce	35	275	240	0	unit yds.
+1902	export	Piece Goods— Other	bb1902:p658:t1	bb1902:p658:t1	73	quantity_total	240	675	435	0	unit yds.
+1902	export	Piece Goods— Other	bb1902:p658:t1	bb1902:p658:t1	73	value_ceylon_produce_rs	35	675	640	0	
+1902	export	Piece Goods— Other	bb1902:p658:t1	bb1902:p658:t1	73	value_other_produce_rs	640	340	-300	0	
+1902	export	Broad Stuffs	bb1902:p659:t1	bb1902:p659:t1	20	quantity_other_produce	735	835	100	0	
+1902	export	Broad Stuffs	bb1902:p659:t1	bb1902:p659:t1	20	quantity_total	735	835	100	0	
+1902	export	Piece Goods	bb1902:p659:t1	bb1902:p659:t1	46	quantity_other_produce	1690	1600	-90	0	
+1902	export	Piece Goods	bb1902:p659:t1	bb1902:p659:t1	46	quantity_total	1690	1600	-90	0	
+1902	export	Piece Goods	bb1902:p659:t1	bb1902:p659:t1	46	value_other_produce_rs	1097	495	-602	0	
+1902	export	Piece Goods	bb1902:p659:t1	bb1902:p659:t1	46	value_total_rs	1097	495	-602	0	
+1902	export	Hardware	bb1902:p660:t1	bb1902:p660:t1	35	quantity_other_produce	131	1979	1848	1	unit cwt.
+1902	export	Hardware	bb1902:p660:t1	bb1902:p660:t1	35	quantity_total	131	2000	1869	1	unit cwt.
+1902	export	Hardware	bb1902:p660:t1	bb1902:p660:t1	35	value_other_produce_rs	1585	28761	27176	1	
+1902	export	Hardware	bb1902:p660:t1	bb1902:p660:t1	35	value_total_rs	1585	30263	28678	1	
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	quantity_ceylon_produce	336	10	-326	2	unit pieces
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	quantity_other_produce	195	110	-85	2	unit pieces
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	quantity_total	531	120	-411	2	unit pieces
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	value_ceylon_produce_rs	3002	2	-3000	2	
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	value_other_produce_rs	3885	2476	-1409	2	
+1902	export	Electroplate	bb1902:p661:t1	bb1902:p661:t1	9	value_total_rs	6887	2478	-4409	2	
+1902	export	Rifles— Single	bb1902:p661:t1	bb1902:p661:t1	50	quantity_other_produce	7	2	-5	0	
+1902	export	Rifles— Single	bb1902:p661:t1	bb1902:p661:t1	50	quantity_total	7	2	-5	0	
+1902	export	Rifles— Single	bb1902:p661:t1	bb1902:p661:t1	50	value_other_produce_rs	615	300	-315	0	
+1902	export	Rifles— Single	bb1902:p661:t1	bb1902:p661:t1	50	value_total_rs	615	300	-315	0	
+1902	export	Carriages and Carts	bb1902:p662:t1	bb1902:p662:t1	27	value_other_produce_rs	45794	45864	70	0	
+1902	export	Coir— Yarn	bb1902:p663:t1	bb1902:p663:t1	37	quantity_ceylon_produce	78020	78070	50	0	unit cwt.
+1902	export	Coir— Yarn	bb1902:p663:t1	bb1902:p663:t1	37	quantity_total	78020	78070	50	0	unit cwt.
+1902	export	Furniture	bb1902:p664:t1	bb1902:p665:t1	10	quantity_ceylon_produce	3047	3052	5	0	unit pkgs.
+1902	export	Instruments— Musical	bb1902:p665:t1	bb1902:p665:t1	57	quantity_ceylon_produce	15	20	5	0	unit No.
+1902	export	Instruments— Musical	bb1902:p665:t1	bb1902:p665:t1	57	value_other_produce_rs	13866	13868	2	0	
+1902	export	Machinery— Agricultural	bb1902:p666:t1	bb1902:p666:t1	18	value_other_produce_rs	33618	33818	200	0	
+1902	export	Machinery— Agricultural	bb1902:p666:t1	bb1902:p666:t1	18	value_total_rs	43799	43999	200	0	
+1902	export	Manure	bb1902:p666:t1	bb1902:p666:t1	39	quantity_ceylon_produce	2069	2070	1	0	unit cwt.
+1902	export	Manure	bb1902:p666:t1	bb1902:p666:t1	39	value_ceylon_produce_rs	12698	12598	-100	0	
+1902	export	Marine Stores	bb1902:p666:t1	bb1902:p666:t1	43	value_ceylon_produce_rs	945	965	20	0	
+1902	export	Military and Naval Stores	bb1902:p666:t1	bb1902:p666:t1	49	quantity_other_produce	461	468	7	0	unit pkgs.
+1902	export	Military and Naval Stores	bb1902:p666:t1	bb1902:p666:t1	49	quantity_total	461	468	7	0	unit pkgs.
+1902	export	Mats, Mat Bags, and Baskets	bb1902:p667:t1	bb1902:p667:t1	13	value_ceylon_produce_rs	4655	4555	-100	0	
+1902	export	Oil— Citronella	bb1902:p667:t1	bb1902:p667:t1	48	quantity_ceylon_produce	20902070	20902770	700	0	unit oz.
+1902	export	Oil— Citronella	bb1902:p667:t1	bb1902:p667:t1	48	quantity_total	20902070	20902770	700	0	unit oz.
+1902	export	Oil— Citronella	bb1902:p667:t1	bb1902:p667:t1	48	value_ceylon_produce_rs	727872	728681	809	0	
+1902	export	Oil— Citronella	bb1902:p667:t1	bb1902:p667:t1	48	value_total_rs	727872	728681	809	0	
+1902	export	Oil— Cocoanut	bb1902:p667:t1	bb1902:p667:t1	74	quantity_ceylon_produce	551397	551417	20	0	unit cwt.
+1902	export	Oil— Cocoanut	bb1902:p667:t1	bb1902:p667:t1	74	value_ceylon_produce_rs	10007860	10007866	6	0	
+1902	export	Oil— Cocoanut	bb1902:p667:t1	bb1902:p667:t1	74	value_total_rs	10007860	10007861	1	0	
+1902	export	Oil— Kerosine	bb1902:p668:t1	bb1902:p668:t1	9	quantity_total	104074	77074	-27000	0	unit gals.
+1902	export	Oil— Other	bb1902:p668:t1	bb1902:p668:t1	27	value_other_produce_rs	28574	29174	600	0	
+1902	export	Skins, dressed	bb1902:p669:t1	bb1902:p669:t1	25	quantity_ceylon_produce	11029	11079	50	0	unit cwt.
+1902	export	Skins, dressed	bb1902:p669:t1	bb1902:p669:t1	25	quantity_total	11035	11085	50	0	unit cwt.
+1902	export	Unenumerated	bb1902:p669:t1	bb1902:p670:t1	16	quantity_other_produce	1479	1539	60	1	unit cwt.
+1902	export	Unenumerated	bb1902:p669:t1	bb1902:p670:t1	16	quantity_total	1888	1948	60	1	unit cwt.
+1902	export	Unenumerated	bb1902:p669:t1	bb1902:p670:t1	16	value_other_produce_rs	66413	66473	60	1	
+1902	export	Unenumerated	bb1902:p669:t1	bb1902:p670:t1	16	value_total_rs	72636	72696	60	1	
+1903	import	Coffee— Unmixed	bb1903:p625:t1	bb1903:p625:t1	9	quantity_home_consumption	2516784	2516785	1	0	unit lb.
+1903	import	Confectionery	bb1903:p625:t1	bb1903:p625:t1	35	value_total_rs	154034	159034	5000	0	
+1903	import	Other	bb1903:p627:t1	bb1903:p627:t1	46	value_total_rs	12591	12600	9	0	
+1903	import	Fruit, preserved— Raisins	bb1903:p628:t1	bb1903:p628:t1	13	quantity_total	540	545	5	0	unit cwt.
+1903	import	Grain— Rice	bb1903:p629:t1	bb1903:p629:t1	41	value_total_rs	3588682	35888682	32300000	0	
+1903	import	Other	bb1903:p629:t1	bb1903:p629:t1	50	value_total_rs	52065	52060	-5	0	
+1903	import	Meat, frozen— Beef	bb1903:p630:t1	bb1903:p630:t1	7	value_total_rs	19779	19879	100	0	
+1903	import	Pork	bb1903:p630:t1	bb1903:p630:t1	17	value_total_rs	306	308	2	0	
+1903	import	Port— In bottle	bb1903:p635:t1	bb1903:p635:t1	31	quantity_total	4617	4618	1	0	unit gals.
+1903	import	Port— In bottle	bb1903:p635:t1	bb1903:p635:t1	31	quantity_home_consumption	4426	4427	1	0	unit gals.
+1903	import	Tobacco, manufactured— Other	bb1903:p637:t1	bb1903:p637:t1	28	value_total_rs	153569	154069	500	0	
+1903	import	Brass sheets	bb1903:p637:t1	bb1903:p637:t1	63	value_total_rs	13568	13618	50	0	
+1903	import	Tin— Slabs	bb1903:p639:t1	bb1903:p639:t1	26	value_total_rs	81935	82035	100	0	
+1903	import	Apparel, made up	bb1903:p644:t1	bb1903:p644:t1	44	value_total_rs	421639	421689	50	0	
+1903	import	Piece Goods— Dyed	bb1903:p645:t1	bb1903:p645:t1	15	quantity_total	11269920	1155267	-10114653	0	continued from an earlier page; unit yds.
+1903	import	Piece Goods— Dyed	bb1903:p645:t1	bb1903:p645:t1	15	quantity_home_consumption	11393467	1249877	-10143590	0	continued from an earlier page; unit yds.
+1903	import	Piece Goods— Dyed	bb1903:p645:t1	bb1903:p645:t1	15	value_total_rs	2112236	334640	-1777596	0	continued from an earlier page
+1903	import	Piece Goods— Printed	bb1903:p645:t1	bb1903:p645:t1	47	quantity_total	4213148	720048	-3493100	0	unit yds.
+1903	import	Thread	bb1903:p646:t1	bb1903:p646:t1	12	quantity_home_consumption	619	624	5	0	unit cases
+1903	import	Handkerchiefs, Scarves, and Shawls	bb1903:p647:t1	bb1903:p647:t1	15	value_total_rs	135875	130476	-5399	0	
+1903	import	Other	bb1903:p647:t1	bb1903:p647:t1	44	quantity_total	57949	58049	100	0	unit yds.
+1903	import	Other	bb1903:p647:t1	bb1903:p647:t1	44	quantity_home_consumption	58350	58050	-300	0	unit yds.
+1903	import	Flannel	bb1903:p648:t1	bb1903:p648:t1	35	quantity_total	205601	205604	3	0	unit yds.
+1903	import	Other	bb1903:p648:t1	bb1903:p648:t1	50	quantity_home_consumption	318591	313591	-5000	0	unit yds.
+1903	import	Carpets	bb1903:p649:t1	bb1903:p649:t1	15	value_total_rs	7950	8450	500	0	
+1903	import	Piece Goods	bb1903:p649:t1	bb1903:p649:t1	45	value_total_rs	469017	469107	90	0	
+1903	import	Unenumerated	bb1903:p649:t1	bb1903:p649:t1	63	value_total_rs	22385	22395	10	1	
+1903	import	Brass— Nails and Wire	bb1903:p650:t1	bb1903:p650:t1	15	value_total_rs	6378	6373	-5	0	
+1903	import	Copper— Nails and Wire	bb1903:p650:t1	bb1903:p650:t1	32	quantity_home_consumption	113	121	8	0	unit cwt.
+1903	import	Iron and Steel— Galvanized	bb1903:p651:t1	bb1903:p651:t1	38	quantity_home_consumption	52321	61321	9000	0	unit cwt.
+1903	import	Lead	bb1903:p652:t1	bb1903:p652:t1	10	quantity_total	38330	231	-38099	0	
+1903	import	Lead	bb1903:p652:t1	bb1903:p652:t1	10	quantity_home_consumption	38330	231	-38099	0	
+1903	import	Lead	bb1903:p652:t1	bb1903:p652:t1	10	value_total_rs	560227	3809	-556418	0	
+1903	import	Implement and Accessories	bb1903:p653:t1	bb1903:p653:t1	67	value_total_rs	3996	3796	-200	0	
+1903	import	Corks	bb1903:p657:t1	bb1903:p657:t1	63	value_total_rs	12016	11976	-40	1	
+1903	import	Embroidery	bb1903:p658:t1	bb1903:p658:t1	39	quantity_total	327647	327697	50	0	unit yds.
+1903	import	Embroidery	bb1903:p658:t1	bb1903:p658:t1	39	quantity_home_consumption	329074	329124	50	0	unit yds.
+1903	import	Lamps	bb1903:p662:t1	bb1903:p662:t1	16	quantity_total	102637	103137	500	0	unit No.
+1903	import	Lamps	bb1903:p662:t1	bb1903:p662:t1	16	quantity_home_consumption	102637	103137	500	0	unit No.
+1903	import	Leather Articles— Boots and Shoes	bb1903:p662:t1	bb1903:p662:t1	57	quantity_total	62672	62673	1	0	unit pairs
+1903	import	Machinery— Oil-making	bb1903:p663:t1	bb1903:p663:t1	27	value_total_rs	37478	37488	10	0	
+1903	import	Other— ManureBasic Slag	bb1903:p664:t1	bb1903:p664:t1	19	quantity_total	48920	48926	6	0	unit cwt.
+1903	import	Natural History Specimens	bb1903:p666:t1	bb1903:p666:t1	5	quantity_total	13	1	-12	0	
+1903	import	Natural History Specimens	bb1903:p666:t1	bb1903:p666:t1	5	quantity_home_consumption	13	1	-12	0	
+1903	import	Natural History Specimens	bb1903:p666:t1	bb1903:p666:t1	5	value_total_rs	156	20	-136	0	
+1903	import	Paper— Writing	bb1903:p668:t1	bb1903:p668:t1	8	quantity_total	60300	19938	-40362	1	continued from an earlier page
+1903	import	Paper— Writing	bb1903:p668:t1	bb1903:p668:t1	8	quantity_home_consumption	60335	19938	-40397	1	continued from an earlier page
+1903	import	Paper— Writing	bb1903:p668:t1	bb1903:p668:t1	8	value_total_rs	94889	16613	-78276	1	continued from an earlier page
+1903	import	Other— Dutiable	bb1903:p668:t1	bb1903:p668:t1	22	quantity_total	5314	1979	-3335	1	
+1903	import	Other— Dutiable	bb1903:p668:t1	bb1903:p668:t1	22	quantity_home_consumption	5459	2129	-3330	1	
+1903	import	Other— Dutiable	bb1903:p668:t1	bb1903:p668:t1	22	value_total_rs	26206	6851	-19355	1	
+1903	import	Pasteboard	bb1903:p668:t1	bb1903:p668:t1	36	quantity_total	35553	200	-35353	1	
+1903	import	Pasteboard	bb1903:p668:t1	bb1903:p668:t1	36	quantity_home_consumption	35553	200	-35353	1	
+1903	import	Pasteboard	bb1903:p668:t1	bb1903:p668:t1	36	value_total_rs	2392	4	-2388	1	
+1903	import	Photographic Materials	bb1903:p668:t1	bb1903:p668:t1	64	quantity_total	27	52	25	1	
+1903	import	Photographic Materials	bb1903:p668:t1	bb1903:p668:t1	64	quantity_home_consumption	266	49	-217	1	
+1903	import	Photographic Materials	bb1903:p668:t1	bb1903:p668:t1	64	value_total_rs	35692	5134	-30558	1	
+1903	import	Varnish	bb1903:p672:t1	bb1903:p672:t1	36	value_total_rs	24880	24886	6	0	
+1903	import	Unenumerated— Dutiable	bb1903:p673:t1	bb1903:p673:t1	20	quantity_total	10736	2202	-8534	0	continued from an earlier page; unit No.
+1903	import	Unenumerated— Dutiable	bb1903:p673:t1	bb1903:p673:t1	20	quantity_home_consumption	10735	2201	-8534	0	continued from an earlier page; unit No.
+1903	import	Unenumerated— Dutiable	bb1903:p673:t1	bb1903:p673:t1	20	value_total_rs	548642	88610	-460032	0	continued from an earlier page
+1903	import	Silver— Coin	bb1903:p673:t1	bb1903:p673:t1	69	value_total_rs	6134765	6134768	3	0	
+1903	export	Fish, cured and salted	bb1903:p679:t1	bb1903:p679:t1	34	value_other_produce_rs	20353	17353	-3000	0	
+1903	export	Fish, cured and salted	bb1903:p679:t1	bb1903:p679:t1	34	value_total_rs	26684	23684	-3000	0	
+1903	export	Spices— Cardamoms	bb1903:p680:t1	bb1903:p680:t1	43	value_ceylon_produce_rs	907419	907416	-3	0	
+1903	export	Spices— Cinnamon, Plantation	bb1903:p680:t1	bb1903:p680:t1	70	value_ceylon_produce_rs	2444524	2344524	-100000	0	
+1903	export	Spices— Cinnamon, Plantation	bb1903:p680:t1	bb1903:p680:t1	70	value_total_rs	2444524	2344524	-100000	0	
+1903	export	Unenumerated	bb1903:p685:t1	bb1903:p685:t1	24	value_total_rs	4920	4691	-229	0	
+1903	export	Cuttle Fish	bb1903:p685:t1	bb1903:p685:t1	32	quantity_ceylon_produce	174	4	-170	0	
+1903	export	Cuttle Fish	bb1903:p685:t1	bb1903:p685:t1	32	quantity_total	174	4	-170	0	
+1903	export	Cuttle Fish	bb1903:p685:t1	bb1903:p685:t1	32	value_ceylon_produce_rs	609	27	-582	0	
+1903	export	Cuttle Fish	bb1903:p685:t1	bb1903:p685:t1	32	value_total_rs	609	27	-582	0	
+1903	export	fibre— Coir	bb1903:p686:t1	bb1903:p686:t1	11	quantity_ceylon_produce	132189	57455	-74734	0	continued from an earlier page; unit cwt.
+1903	export	fibre— Coir	bb1903:p686:t1	bb1903:p686:t1	11	quantity_total	132189	57455	-74734	0	continued from an earlier page; unit cwt.
+1903	export	fibre— Coir	bb1903:p686:t1	bb1903:p686:t1	11	value_ceylon_produce_rs	793134	344730	-448404	0	continued from an earlier page
+1903	export	fibre— Coir	bb1903:p686:t1	bb1903:p686:t1	11	value_total_rs	793134	344730	-448404	0	continued from an earlier page
+1903	export	fibre— Palmirah	bb1903:p686:t1	bb1903:p686:t1	31	value_other_produce_rs	87456	87459	3	0	
+1903	export	Plants and Roots	bb1903:p687:t1	bb1903:p687:t1	23	value_ceylon_produce_rs	6548	7048	500	0	
+1903	export	Palu	bb1903:p689:t1	bb1903:p689:t1	23	quantity_ceylon_produce	137	144	7	0	unit tons
+1903	export	Thread	bb1903:p691:t1	bb1903:p691:t1	8	value_other_produce_rs	1822	79	-1743	0	
+1903	export	Thread	bb1903:p691:t1	bb1903:p691:t1	8	value_total_rs	1822	79	-1743	0	
+1903	export	Woollen— Carpets	bb1903:p691:t1	bb1903:p691:t1	43	value_other_produce_rs	410	1080	670	0	
+1903	export	Woollen— Carpets	bb1903:p691:t1	bb1903:p691:t1	43	value_total_rs	410	1080	670	0	
+1903	export	Brassware	bb1903:p691:t1	bb1903:p691:t1	52	quantity_other_produce	317	306	-11	0	
+1903	export	Brassware	bb1903:p691:t1	bb1903:p691:t1	52	quantity_total	318	307	-11	0	
+1903	export	Brassware	bb1903:p691:t1	bb1903:p691:t1	52	value_other_produce_rs	8737	9067	330	0	
+1903	export	Brassware	bb1903:p691:t1	bb1903:p691:t1	52	value_total_rs	9978	9308	-670	0	
+1903	export	Hardware	bb1903:p692:t1	bb1903:p692:t1	21	quantity_other_produce	2967	3467	500	0	unit cwt.
+1903	export	Hardware	bb1903:p692:t1	bb1903:p692:t1	21	quantity_total	2976	3476	500	0	unit cwt.
+1903	export	Hardware	bb1903:p692:t1	bb1903:p692:t1	21	value_other_produce_rs	46620	46617	-3	0	
+1903	export	Bricks and Tiles	bb1903:p694:t1	bb1903:p694:t1	7	value_ceylon_produce_rs	2724	2725	1	0	
+1903	export	Bricks and Tiles	bb1903:p694:t1	bb1903:p694:t1	7	value_total_rs	2761	2762	1	0	
+1903	export	Curios and Fancy Articles	bb1903:p695:t1	bb1903:p696:t1	23	quantity_ceylon_produce	257	263	6	0	unit pkgs.
+1903	export	Furniture	bb1903:p696:t1	bb1903:p697:t1	11	value_total_rs	55098	55188	90	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	quantity_ceylon_produce	12	11	-1	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	quantity_other_produce	1	0	-1	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	quantity_total	13	11	-2	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	value_ceylon_produce_rs	1170	1020	-150	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	value_other_produce_rs	100	0	-100	0	
+1903	export	Stores	bb1903:p698:t1	bb1903:p698:t1	48	value_total_rs	1270	1020	-250	0	
+1903	export	Mats, Mat Bags, and Baskets	bb1903:p699:t1	bb1903:p699:t1	12	value_other_produce_rs	905	1005	100	1	
+1903	export	Oil— Other	bb1903:p700:t1	bb1903:p700:t1	29	quantity_other_produce	16162	16342	180	0	unit gals.
+1903	export	Unenumerated	bb1903:p701:t1	bb1903:p702:t1	19	value_total_rs	81361	81311	-50	0	
+1903	export	Gold— Coin	bb1903:p702:t1	bb1903:p702:t1	23	value_other_produce_rs	6534000	39000	-6495000	0	
+1903	export	Gold— Coin	bb1903:p702:t1	bb1903:p702:t1	23	value_total_rs	6534000	39000	-6495000	0	
+1904	import	Beer and Ale— In wood	bb1904:p631:t1	bb1904:p631:t1	49	quantity_total	156970	157070	100	0	unit gals.
+1904	import	Biscuits	bb1904:p631:t1	bb1904:p631:t1	63	quantity_total	831760	831551	-209	1	unit lb.
+1904	import	Biscuits	bb1904:p631:t1	bb1904:p631:t1	63	quantity_home_consumption	837312	837103	-209	1	unit lb.
+1904	import	Confectionery	bb1904:p633:t1	bb1904:p633:t1	28	quantity_total	529075	529125	50	0	unit lb.
+1904	import	Curry Stuffs— Coriander Seed	bb1904:p633:t1	bb1904:p633:t1	43	value_total_rs	181565	181585	20	0	
+1904	import	Curry Stuffs— Garlic	bb1904:p633:t1	bb1904:p633:t1	62	value_total_rs	100400	100410	10	0	
+1904	import	Ham	bb1904:p637:t1	bb1904:p637:t1	58	value_total_rs	79831	79891	60	0	
+1904	import	Milk, preserved	bb1904:p638:t1	bb1904:p638:t1	35	quantity_total	20276	19804	-472	0	unit cases
+1904	import	Milk, preserved	bb1904:p638:t1	bb1904:p638:t1	35	quantity_home_consumption	20266	19794	-472	0	unit cases
+1904	import	Spirits— Other	bb1904:p641:t1	bb1904:p641:t1	20	quantity_home_consumption	42	78	36	0	unit gals.
+1904	import	Sugar— Refined or candied	bb1904:p641:t1	bb1904:p641:t1	47	quantity_home_consumption	189237	191237	2000	0	unit cwt.
+1904	import	Claret— In wood	bb1904:p642:t1	bb1904:p642:t1	57	value_total_rs	29231	29236	5	0	
+1904	import	Other— In wood	bb1904:p644:t1	bb1904:p644:t1	13	quantity_home_consumption	3852	3802	-50	0	unit gals.
+1904	import	Unenumerated— Dutiable	bb1904:p644:t1	bb1904:p644:t1	43	value_total_rs	495554	495549	-5	0	
+1904	import	Tobacco, manufactured— Cigars	bb1904:p644:t1	bb1904:p644:t1	71	quantity_total	104972	104982	10	0	unit lb.
+1904	import	Lead— Pig	bb1904:p646:t1	bb1904:p646:t1	43	value_total_rs	291020	311020	20000	0	
+1904	import	Lead— Other	bb1904:p646:t1	bb1904:p646:t1	51	value_total_rs	294	136	-158	0	
+1904	import	Gum Arabic	bb1904:p649:t1	bb1904:p649:t1	31	value_total_rs	158	153	-5	0	
+1904	import	Manure— Other	bb1904:p650:t1	bb1904:p650:t1	13	value_total_rs	1868	1368	-500	0	
+1904	import	Apparel, made up	bb1904:p652:t1	bb1904:p652:t1	43	value_total_rs	414855	414655	-200	0	
+1904	import	Piece Goods— Printed	bb1904:p653:t1	bb1904:p653:t1	45	value_total_rs	806563	805563	-1000	0	
+1904	import	Broad Stuffs	bb1904:p654:t1	bb1904:p654:t1	66	quantity_total	562167	562147	-20	1	unit yds.
+1904	import	Handkerchiefs, Scarves, and Shawls	bb1904:p655:t1	bb1904:p655:t1	17	quantity_total	10593	10563	-30	0	unit doz.
+1904	import	Ribbons	bb1904:p655:t1	bb1904:p655:t1	30	quantity_home_consumption	169155	159155	-10000	0	unit yds.
+1904	import	Other	bb1904:p655:t1	bb1904:p655:t1	48	quantity_home_consumption	22884	22934	50	0	unit yds.
+1904	import	Hardware	bb1904:p658:t1	bb1904:p659:t1	17	value_total_rs	942959	942964	5	0	
+1904	import	Nails and Rivets	bb1904:p659:t1	bb1904:p659:t1	54	quantity_total	11508	11468	-40	0	unit cwt.
+1904	import	Nails and Rivets	bb1904:p659:t1	bb1904:p659:t1	54	quantity_home_consumption	11459	11209	-250	0	unit cwt.
+1904	import	Nails and Rivets	bb1904:p659:t1	bb1904:p659:t1	54	value_total_rs	107713	107653	-60	0	
+1904	import	Other	bb1904:p659:t1	bb1904:p659:t1	62	value_total_rs	41983	41991	8	0	
+1904	import	Lead	bb1904:p660:t1	bb1904:p660:t1	8	quantity_total	52483	2	-52481	0	
+1904	import	Lead	bb1904:p660:t1	bb1904:p660:t1	8	quantity_home_consumption	52483	2	-52481	0	
+1904	import	Lead	bb1904:p660:t1	bb1904:p660:t1	8	value_total_rs	766265	18	-766247	0	
+1904	import	Plate— Electroplate	bb1904:p660:t1	bb1904:p660:t1	42	value_total_rs	67177	67179	2	0	
+1904	import	Plate— Nickelplate	bb1904:p660:t1	bb1904:p660:t1	48	quantity_home_consumption	13179	13229	50	0	unit No.
+1904	import	Solder	bb1904:p660:t1	bb1904:p660:t1	52	value_total_rs	38415	38515	100	0	
+1904	import	Rifles— Magazine	bb1904:p662:t1	bb1904:p662:t1	36	value_total_rs	2183	2133	-50	0	
+1904	import	Chinaware	bb1904:p665:t1	bb1904:p665:t1	45	value_total_rs	321850	321672	-178	1	
+1904	import	Clocks	bb1904:p665:t1	bb1904:p665:t1	59	value_total_rs	34550	34560	10	0	
+1904	import	Drawing Materials	bb1904:p666:t1	bb1904:p666:t1	9	value_total_rs	7023	7033	10	0	
+1904	import	Embroidery	bb1904:p666:t1	bb1904:p666:t1	36	value_total_rs	37896	37895	-1	0	
+1904	import	Explosives— Cartridges	bb1904:p666:t1	bb1904:p666:t1	50	value_total_rs	16171	16181	10	0	
+1904	import	Hats and Bonnets	bb1904:p669:t1	bb1904:p669:t1	15	quantity_total	779	780	1	0	unit cases
+1904	import	Images and Statues	bb1904:p669:t1	bb1904:p669:t1	25	quantity_home_consumption	4185	4182	-3	0	unit No.
+1904	import	Manure— Ground nut cake	bb1904:p672:t1	bb1904:p672:t1	37	value_total_rs	95118	100118	5000	0	
+1904	import	Photographic Materials	bb1904:p676:t1	bb1904:p676:t1	62	quantity_total	1208	208	-1000	0	unit cases
+1904	import	Pictures	bb1904:p676:t1	bb1904:p677:t1	15	value_total_rs	25004	25054	50	0	
+1904	import	Materials	bb1904:p677:t1	bb1904:p677:t1	30	quantity_total	496	85	-411	0	
+1904	import	Materials	bb1904:p677:t1	bb1904:p677:t1	30	quantity_home_consumption	496	85	-411	0	
+1904	import	Materials	bb1904:p677:t1	bb1904:p677:t1	30	value_total_rs	46417	4686	-41731	0	
+1904	import	Unenumerated— Dutiable	bb1904:p681:t1	bb1904:p681:t1	22	quantity_total	10074	2366	-7708	0	continued from an earlier page; unit No.
+1904	import	Unenumerated— Dutiable	bb1904:p681:t1	bb1904:p681:t1	22	quantity_home_consumption	10021	2343	-7678	0	continued from an earlier page; unit No.
+1904	import	Unenumerated— Dutiable	bb1904:p681:t1	bb1904:p681:t1	22	value_total_rs	677693	147247	-530446	0	continued from an earlier page
+1904	import	Unenumerated— Free	bb1904:p681:t1	bb1904:p681:t1	49	value_total_rs	479280	479310	30	0	
+1904	import	Silver— Coin	bb1904:p681:t1	bb1904:p681:t1	75	quantity_total	1889	1389	-500	0	
+1904	import	Silver— Coin	bb1904:p681:t1	bb1904:p681:t1	75	value_total_rs	7370590	7370600	10	0	
+1904	import	Oil— Lubricating	bb1904:p715:t1	bb1904:p715:t1	15	quantity_home_consumption	17441	17381	-60	0	unit gals.
+1904	export	Elephants	bb1904:p685:t1	bb1904:p685:t1	8	value_ceylon_produce_rs	37250	37350	100	0	
+1904	export	Elephants	bb1904:p685:t1	bb1904:p685:t1	8	value_total_rs	37250	37350	100	0	
+1904	export	Desiccated— Fresh	bb1904:p686:t1	bb1904:p686:t1	40	quantity_ceylon_produce	17295467	17295427	-40	0	unit No.
+1904	export	Desiccated— Fresh	bb1904:p686:t1	bb1904:p686:t1	40	quantity_total	17295467	17295427	-40	0	unit No.
+1904	export	Desiccated— Fresh	bb1904:p686:t1	bb1904:p686:t1	40	value_ceylon_produce_rs	923356	925727	2371	0	
+1904	export	Desiccated— Fresh	bb1904:p686:t1	bb1904:p686:t1	40	value_total_rs	923356	925727	2371	0	
+1904	export	Arabian— Native	bb1904:p686:t1	bb1904:p686:t1	44	quantity_ceylon_produce	79	23	-56	0	
+1904	export	Arabian— Native	bb1904:p686:t1	bb1904:p686:t1	44	quantity_total	79	23	-56	0	
+1904	export	Arabian— Native	bb1904:p686:t1	bb1904:p686:t1	44	value_ceylon_produce_rs	3345	974	-2371	0	
+1904	export	Arabian— Native	bb1904:p686:t1	bb1904:p686:t1	44	value_total_rs	3345	974	-2371	0	
+1904	export	Arabian— Plantation	bb1904:p686:t1	bb1904:p686:t1	65	quantity_ceylon_produce	6494	6514	20	0	unit cwt.
+1904	export	Arabian— Plantation	bb1904:p686:t1	bb1904:p686:t1	65	quantity_total	6494	6514	20	0	unit cwt.
+1904	export	Fruit— Fresh	bb1904:p687:t1	bb1904:p687:t1	40	quantity_ceylon_produce	40	41	1	0	unit cwt.
+1904	export	Spices— Pepper	bb1904:p689:t1	bb1904:p689:t1	40	quantity_ceylon_produce	2503	2513	10	0	unit cwt.
+1904	export	Spirits— Other	bb1904:p690:t1	bb1904:p690:t1	16	quantity_other_produce	315	320	5	0	unit gals.
+1904	export	Spirits— Other	bb1904:p690:t1	bb1904:p690:t1	16	quantity_total	315	320	5	0	unit gals.
+1904	export	Unenumerated	bb1904:p691:t1	bb1904:p691:t1	49	quantity_ceylon_produce	1737	0	-1737	0	unit cwt.
+1904	export	Unenumerated	bb1904:p691:t1	bb1904:p691:t1	49	quantity_other_produce	2482	2649	167	0	unit cwt.
+1904	export	Unenumerated	bb1904:p691:t1	bb1904:p691:t1	49	quantity_total	4219	2649	-1570	0	unit cwt.
+1904	export	Tobacco, manufactured— Cigars	bb1904:p691:t1	bb1904:p691:t1	62	quantity_ceylon_produce	20	0	-20	0	unit lb.
+1904	export	Tobacco, manufactured— Cigars	bb1904:p691:t1	bb1904:p691:t1	62	quantity_other_produce	2997	2783	-214	0	unit lb.
+1904	export	Tobacco, manufactured— Cigars	bb1904:p691:t1	bb1904:p691:t1	62	quantity_total	3017	2783	-234	0	unit lb.
+1904	export	Seeds— Tea	bb1904:p696:t1	bb1904:p696:t1	11	quantity_ceylon_produce	266	67	-199	0	unit cwt.
+1904	export	Seeds— Tea	bb1904:p696:t1	bb1904:p696:t1	11	quantity_total	266	67	-199	0	unit cwt.
+1904	export	Seeds— Tea	bb1904:p696:t1	bb1904:p696:t1	11	value_ceylon_produce_rs	19544	5635	-13909	0	
+1904	export	Seeds— Tea	bb1904:p696:t1	bb1904:p696:t1	11	value_total_rs	19544	5635	-13909	0	
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	quantity_ceylon_produce	6423	2856	-3567	0	unit cwt.
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	quantity_other_produce	61	0	-61	0	unit cwt.
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	quantity_total	6484	2856	-3628	0	unit cwt.
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	value_ceylon_produce_rs	197277	15514	-181763	0	
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	value_other_produce_rs	629	0	-629	0	
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	9	value_total_rs	197106	15514	-181592	0	
+1904	export	Unenumerated	bb1904:p697:t1	bb1904:p697:t1	53	quantity_ceylon_produce	2910	2810	-100	0	unit tons
+1904	export	Copper Ware	bb1904:p700:t1	bb1904:p700:t1	10	value_other_produce_rs	2974	3074	100	0	
+1904	export	Copper Ware	bb1904:p700:t1	bb1904:p700:t1	10	value_total_rs	2974	3074	100	0	
+1904	export	Plate— Silver or Silver-gilt	bb1904:p700:t1	bb1904:p700:t1	65	value_ceylon_produce_rs	170	180	10	0	
+1904	export	Curios and Fancy Articles	bb1904:p703:t1	bb1904:p704:t1	17	value_ceylon_produce_rs	20816	20716	-100	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	quantity_ceylon_produce	857	830	-27	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	quantity_other_produce	22	1	-21	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	quantity_total	879	831	-48	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	value_ceylon_produce_rs	17113	6970	-10143	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	value_other_produce_rs	1865	20	-1845	0	
+1904	export	Earthenware	bb1904:p704:t1	bb1904:p704:t1	30	value_total_rs	18978	6990	-11988	0	
+1904	export	Machinery— Other	bb1904:p706:t1	bb1904:p706:t1	38	quantity_other_produce	223	222	-1	0	unit pkgs.
+1904	export	and Rafters	bb1904:p709:t1	bb1904:p709:t1	49	quantity_ceylon_produce	136655	11248	-125407	0	
+1904	export	and Rafters	bb1904:p709:t1	bb1904:p709:t1	49	quantity_total	136655	11248	-125407	0	
+1904	export	and Rafters	bb1904:p709:t1	bb1904:p709:t1	49	value_ceylon_produce_rs	48524	4842	-43682	0	
+1904	export	and Rafters	bb1904:p709:t1	bb1904:p709:t1	49	value_total_rs	48524	4842	-43682	0	
+1904	export	Other	bb1904:p709:t1	bb1904:p709:t1	60	value_ceylon_produce_rs	22539	22544	5	0	
+1904	export	Other	bb1904:p709:t1	bb1904:p709:t1	60	value_total_rs	23148	23153	5	0	
+1904	export	Unenumerated	bb1904:p710:t1	bb1904:p710:t1	41	quantity_ceylon_produce	910	901	-9	1	unit cwt.
+1904	export	Unenumerated	bb1904:p710:t1	bb1904:p710:t1	41	value_total_rs	166456	137611	-28845	1	
+1905	import	Beer and Ale— Bottled	bb1905:p650:t1	bb1905:p650:t1	40	value_total_rs	194705	198705	4000	0	
+1905	import	Fruit, fresh— Apples	bb1905:p654:t1	bb1905:p654:t1	27	value_total_rs	34317	34017	-300	0	
+1905	import	Grain— Barley	bb1905:p655:t1	bb1905:p655:t1	49	value_total_rs	29965	29968	3	0	
+1905	import	Ham	bb1905:p656:t1	bb1905:p656:t1	61	value_total_rs	85000	84995	-5	0	
+1905	import	Milk, preserved	bb1905:p657:t1	bb1905:p657:t1	40	quantity_total	20545	20025	-520	0	unit cases
+1905	import	Milk, preserved	bb1905:p657:t1	bb1905:p657:t1	40	quantity_home_consumption	20545	20025	-520	0	unit cases
+1905	import	Other— In bottle	bb1905:p662:t1	bb1905:p662:t1	68	value_total_rs	43181	45181	2000	0	
+1905	import	Opium	bb1905:p663:t1	bb1905:p663:t1	59	quantity_total	20082	20071	-11	0	
+1905	import	Opium	bb1905:p663:t1	bb1905:p663:t1	59	quantity_home_consumption	20082	20071	-11	0	
+1905	import	Opium	bb1905:p663:t1	bb1905:p663:t1	59	value_total_rs	359790	359667	-123	0	
+1905	import	Tobacco, manufactured— Cigars	bb1905:p663:t1	bb1905:p663:t1	81	quantity_total	141589	141583	-6	0	unit lb.
+1905	import	Tobacco, manufactured— Cigars	bb1905:p663:t1	bb1905:p663:t1	81	quantity_home_consumption	133709	134309	600	0	unit lb.
+1905	import	Tobacco, manufactured— Other	bb1905:p664:t1	bb1905:p664:t1	20	value_total_rs	124842	124841	-1	0	
+1905	import	Cotton, waste	bb1905:p664:t1	bb1905:p664:t1	38	quantity_total	1453	1459	6	0	unit cwt.
+1905	import	Tin— Slabs	bb1905:p666:t1	bb1905:p666:t1	24	value_total_rs	109574	109569	-5	0	
+1905	import	Piece Goods— Dyed	bb1905:p672:t1	bb1905:p672:t1	17	quantity_total	14500379	2296305	-12204074	0	continued from an earlier page; unit yds.
+1905	import	Piece Goods— Dyed	bb1905:p672:t1	bb1905:p672:t1	17	quantity_home_consumption	14155789	2198748	-11957041	0	continued from an earlier page; unit yds.
+1905	import	Piece Goods— Dyed	bb1905:p672:t1	bb1905:p672:t1	17	value_total_rs	2977935	724689	-2253246	0	continued from an earlier page
+1905	import	Piece Goods— Printed	bb1905:p672:t1	bb1905:p672:t1	43	value_total_rs	1006850	1006550	-300	0	
+1905	import	Piece Goods— Other	bb1905:p672:t1	bb1905:p672:t1	74	value_total_rs	679722	1335749	656027	0	
+1905	import	Handkerchiefs, Scarves, and Shawls	bb1905:p674:t1	bb1905:p674:t1	15	value_total_rs	82278	82283	5	0	
+1905	import	Hardware	bb1905:p677:t1	bb1905:p678:t1	18	quantity_total	321282	4065	-317217	1	unit cwt.
+1905	import	Hardware	bb1905:p677:t1	bb1905:p678:t1	18	quantity_home_consumption	32284	4055	-28229	1	unit cwt.
+1905	import	Hardware	bb1905:p677:t1	bb1905:p678:t1	18	value_total_rs	1051912	157176	-894736	1	
+1905	import	& Steel— Galvanized	bb1905:p678:t1	bb1905:p678:t1	34	value_total_rs	722889	722939	50	0	
+1905	import	& Steel— Nails and Rivets	bb1905:p678:t1	bb1905:p678:t1	52	quantity_home_consumption	19409	19459	50	0	unit cwt.
+1905	import	& Steel— Other	bb1905:p678:t1	bb1905:p678:t1	60	value_total_rs	78582	78602	20	1	
+1905	import	Lead	bb1905:p679:t1	bb1905:p679:t1	7	quantity_total	36539	10	-36529	0	
+1905	import	Lead	bb1905:p679:t1	bb1905:p679:t1	7	quantity_home_consumption	36539	10	-36529	0	
+1905	import	Lead	bb1905:p679:t1	bb1905:p679:t1	7	value_total_rs	498797	202	-498595	0	
+1905	import	Explosives— Caps, Percussion	bb1905:p685:t1	bb1905:p685:t1	49	value_total_rs	7693	7683	-10	0	
+1905	import	Glass— Other	bb1905:p687:t1	bb1905:p687:t1	31	value_total_rs	160252	159752	-500	0	
+1905	import	Images and Statues	bb1905:p688:t1	bb1905:p688:t1	24	value_total_rs	5177	5157	-20	0	
+1905	import	Jewellery	bb1905:p688:t1	bb1905:p688:t1	65	value_total_rs	273786	273791	5	0	
+1905	import	Machinery— Sewing Machines	bb1905:p690:t1	bb1905:p690:t1	38	quantity_home_consumption	601	591	-10	0	unit cwt.
+1905	import	Machinery— Free	bb1905:p691:t1	bb1905:p691:t1	11	quantity_total	5558	2035	-3523	0	
+1905	import	Machinery— Free	bb1905:p691:t1	bb1905:p691:t1	11	quantity_home_consumption	5558	2035	-3523	0	
+1905	import	Machinery— Free	bb1905:p691:t1	bb1905:p691:t1	11	value_total_rs	212506	65419	-147087	0	
+1905	import	Manure— Basic Slag	bb1905:p691:t1	bb1905:p691:t1	17	quantity_total	26410	26470	60	0	unit cwt.
+1905	import	Lubricating	bb1905:p693:t1	bb1905:p693:t1	67	quantity_total	136805	104075	-32730	2	unit gals.
+1905	import	Lubricating	bb1905:p693:t1	bb1905:p693:t1	67	quantity_home_consumption	74465	41735	-32730	2	unit gals.
+1905	import	Lubricating	bb1905:p693:t1	bb1905:p693:t1	67	value_total_rs	125498	90067	-35431	2	
+1905	import	Oil— Other	bb1905:p694:t1	bb1905:p694:t1	29	value_total_rs	86685	86683	-2	0	
+1905	import	Photographic Materials	bb1905:p695:t1	bb1905:p695:t1	60	value_total_rs	34273	34237	-36	0	
+1905	import	Materials	bb1905:p696:t1	bb1905:p696:t1	29	quantity_total	371	36	-335	0	
+1905	import	Materials	bb1905:p696:t1	bb1905:p696:t1	29	quantity_home_consumption	372	36	-336	0	
+1905	import	Materials	bb1905:p696:t1	bb1905:p696:t1	29	value_total_rs	36135	1826	-34309	0	
+1905	import	Stones, worked	bb1905:p698:t1	bb1905:p698:t1	10	value_total_rs	19502	19507	5	0	
+1905	import	Tallow and Stearine	bb1905:p698:t1	bb1905:p698:t1	18	value_total_rs	12575	12580	5	0	
+1905	import	Tea Chests	bb1905:p698:t1	bb1905:p698:t1	36	value_total_rs	1568767	1570767	2000	0	
+1905	import	Zincware	bb1905:p734:t1	bb1905:p734:t1	41	value_total_rs	1806	2306	500	0	
+1905	import	Leather Articles— Other	bb1905:p736:t1	bb1905:p736:t1	6	value_total_rs	1671	4571	2900	0	
+1905	export	Unenumerated	bb1905:p704:t1	bb1905:p704:t1	12	value_ceylon_produce_rs	1120	1220	100	0	
+1905	export	Desiccated— Fresh	bb1905:p705:t1	bb1905:p705:t1	33	quantity_ceylon_produce	18115165	18115161	-4	0	unit No.
+1905	export	Desiccated— Fresh	bb1905:p705:t1	bb1905:p705:t1	33	quantity_total	18115165	18115161	-4	0	unit No.
+1905	export	Fruit— Preserved	bb1905:p706:t1	bb1905:p706:t1	45	value_ceylon_produce_rs	124	134	10	0	
+1905	export	Honey	bb1905:p707:t1	bb1905:p707:t1	13	quantity_total	267	297	30	0	unit gals.
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	quantity_ceylon_produce	9	51	42	0	unit cwt.
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	quantity_other_produce	18	10	-8	0	unit cwt.
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	quantity_total	27	61	34	0	unit cwt.
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	value_ceylon_produce_rs	56	2560	2504	0	
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	value_other_produce_rs	144	317	173	0	
+1905	export	Spices— Ginger	bb1905:p708:t1	bb1905:p708:t1	15	value_total_rs	200	2877	2677	0	
+1905	export	Spirits— Arrack	bb1905:p708:t1	bb1905:p708:t1	44	quantity_ceylon_produce	1184	71909	70725	0	
+1905	export	Spirits— Arrack	bb1905:p708:t1	bb1905:p708:t1	44	quantity_total	1184	71909	70725	0	
+1905	export	Spirits— Arrack	bb1905:p708:t1	bb1905:p708:t1	44	value_ceylon_produce_rs	2900	150394	147494	0	
+1905	export	Spirits— Arrack	bb1905:p708:t1	bb1905:p708:t1	44	value_total_rs	2900	150394	147494	0	
+1905	export	Spirits— Whisky	bb1905:p709:t1	bb1905:p709:t1	8	quantity_other_produce	748	12	-736	0	continued from an earlier page; unit gals.
+1905	export	Spirits— Whisky	bb1905:p709:t1	bb1905:p709:t1	8	quantity_total	748	12	-736	0	continued from an earlier page; unit gals.
+1905	export	Spirits— Whisky	bb1905:p709:t1	bb1905:p709:t1	8	value_other_produce_rs	6732	207	-6525	0	continued from an earlier page
+1905	export	Spirits— Whisky	bb1905:p709:t1	bb1905:p709:t1	8	value_total_rs	6732	207	-6525	0	continued from an earlier page
+1905	export	For. Coun— Tea	bb1905:p710:t1	bb1905:p710:t1	29	quantity_ceylon_produce	167097381	15220808	-151876573	0	continued from an earlier page; unit lb.
+1905	export	For. Coun— Tea	bb1905:p710:t1	bb1905:p710:t1	29	quantity_other_produce	3086177	1477749	-1608428	0	continued from an earlier page; unit lb.
+1905	export	For. Coun— Tea	bb1905:p710:t1	bb1905:p710:t1	29	quantity_total	14170185572	16698557	-14153487015	0	continued from an earlier page; unit lb.
+1905	export	For. Coun— Tea	bb1905:p710:t1	bb1905:p710:t1	29	value_ceylon_produce_rs	59564245	5844495	-53719750	0	continued from an earlier page
+1905	export	For. Coun— Tea	bb1905:p710:t1	bb1905:p710:t1	29	value_total_rs	59564250	5844495	-53719755	0	continued from an earlier page
+1905	export	Unenumerated	bb1905:p710:t1	bb1905:p710:t1	53	quantity_ceylon_produce	1000	1004	4	0	unit cwt.
+1905	export	Unenumerated	bb1905:p710:t1	bb1905:p710:t1	53	value_other_produce_rs	27610	27615	5	0	
+1905	export	Unenumerated	bb1905:p710:t1	bb1905:p710:t1	53	value_total_rs	58860	58865	5	0	
+1905	export	Tobacco, manufactured— Cigars	bb1905:p710:t1	bb1905:p710:t1	63	quantity_other_produce	3551	3549	-2	0	
+1905	export	Tobacco, manufactured— Cigars	bb1905:p710:t1	bb1905:p710:t1	63	quantity_total	3551	3549	-2	0	
+1905	export	Tobacco, manufactured— Cigars	bb1905:p710:t1	bb1905:p710:t1	63	value_other_produce_rs	7351	7346	-5	0	
+1905	export	Tobacco, manufactured— Cigars	bb1905:p710:t1	bb1905:p710:t1	63	value_total_rs	7351	7346	-5	0	
+1905	export	(Cotton Kapok and Spinning)	bb1905:p711:t1	bb1905:p711:t1	23	quantity_ceylon_produce	152650	152482	-168	1	unit lb.
+1905	export	(Cotton Kapok and Spinning)	bb1905:p711:t1	bb1905:p711:t1	23	quantity_total	154890	154722	-168	1	unit lb.
+1905	export	(Cotton Kapok and Spinning)	bb1905:p711:t1	bb1905:p711:t1	23	value_ceylon_produce_rs	23695	23595	-100	1	
+1905	export	(Cotton Kapok and Spinning)	bb1905:p711:t1	bb1905:p711:t1	23	value_total_rs	23695	19995	-3700	1	
+1905	export	Arecanuts	bb1905:p711:t1	bb1905:p711:t1	53	value_ceylon_produce_rs	1525916	1526096	180	0	
+1905	export	Arecanuts	bb1905:p711:t1	bb1905:p711:t1	53	value_total_rs	1525916	1526096	180	0	
+1905	export	Miscellaneous	bb1905:p713:t1	bb1905:p713:t1	15	quantity_ceylon_produce	150841	75262	-75579	0	unit cwt.
+1905	export	Miscellaneous	bb1905:p713:t1	bb1905:p713:t1	15	quantity_total	150841	75262	-75579	0	unit cwt.
+1905	export	Miscellaneous	bb1905:p713:t1	bb1905:p713:t1	15	value_ceylon_produce_rs	927672	462862	-464810	0	
+1905	export	Miscellaneous	bb1905:p713:t1	bb1905:p713:t1	15	value_total_rs	927672	462862	-464810	0	
+1905	export	Stones— Coral	bb1905:p715:t1	bb1905:p715:t1	42	quantity_ceylon_produce	9299	600	-8699	0	
+1905	export	Stones— Coral	bb1905:p715:t1	bb1905:p715:t1	42	quantity_total	9299	600	-8699	0	
+1905	export	Stones— Coral	bb1905:p715:t1	bb1905:p715:t1	42	value_ceylon_produce_rs	1492	150	-1342	0	
+1905	export	Stones— Coral	bb1905:p715:t1	bb1905:p715:t1	42	value_total_rs	1492	150	-1342	0	
+1905	export	Iron— Drums and Tanks	bb1905:p719:t1	bb1905:p719:t1	29	quantity_other_produce	46	40	-6	0	unit No.
+1905	export	Plate— Electroplate	bb1905:p720:t1	bb1905:p720:t1	7	quantity_other_produce	132	152	20	0	unit pieces
+1905	export	Books, printed	bb1905:p720:t1	bb1905:p720:t1	61	value_other_produce_rs	7206	7216	10	0	
+1905	export	Coir— Matting	bb1905:p721:t1	bb1905:p721:t1	50	value_ceylon_produce_rs	4815	4715	-100	0	
+1905	export	Coir— Matting	bb1905:p721:t1	bb1905:p721:t1	50	value_total_rs	5615	5515	-100	0	
+1905	export	Copra	bb1905:p722:t1	bb1905:p722:t1	54	value_ceylon_produce_rs	4904209	4904204	-5	0	
+1905	export	Copra	bb1905:p722:t1	bb1905:p722:t1	54	value_total_rs	4904209	4904204	-5	0	
+1905	export	Curios and Fancy Articles	bb1905:p722:t1	bb1905:p722:t1	69	value_ceylon_produce_rs	174	17764	17590	0	
+1905	export	Curios and Fancy Articles	bb1905:p722:t1	bb1905:p722:t1	69	value_total_rs	174	33922	33748	0	
+1905	export	Drugs, manu- factured	bb1905:p723:t1	bb1905:p723:t1	33	quantity_ceylon_produce	3	17	14	0	unit pkgs.
+1905	export	Drugs, manu- factured	bb1905:p723:t1	bb1905:p723:t1	33	quantity_total	3	56	53	0	unit pkgs.
+1905	export	Drugs, manu- factured	bb1905:p723:t1	bb1905:p723:t1	33	value_ceylon_produce_rs	855	4734	3879	0	
+1905	export	Drugs, manu- factured	bb1905:p723:t1	bb1905:p723:t1	33	value_total_rs	855	13818	12963	0	
+1905	export	Earthenware	bb1905:p723:t1	bb1905:p723:t1	50	quantity_ceylon_produce	1	3	2	1	unit pkgs.
+1905	export	Earthenware	bb1905:p723:t1	bb1905:p723:t1	50	quantity_total	1	572	571	1	unit pkgs.
+1905	export	Earthenware	bb1905:p723:t1	bb1905:p723:t1	50	value_ceylon_produce_rs	10	73	63	1	
+1905	export	Earthenware	bb1905:p723:t1	bb1905:p723:t1	50	value_total_rs	10	7164	7154	1	
+1905	export	Furniture	bb1905:p723:t1	bb1905:p723:t1	67	quantity_other_produce	8	144	136	0	unit pkgs.
+1905	export	Furniture	bb1905:p723:t1	bb1905:p723:t1	67	quantity_total	8	3595	3587	0	unit pkgs.
+1905	export	Furniture	bb1905:p723:t1	bb1905:p723:t1	67	value_other_produce_rs	1150	8558	7408	0	
+1905	export	Furniture	bb1905:p723:t1	bb1905:p723:t1	67	value_total_rs	1150	54229	53079	0	
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	quantity_ceylon_produce	3543	92	-3451	0	continued from an earlier page; unit pkgs.
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	quantity_other_produce	192	40	-152	0	continued from an earlier page; unit pkgs.
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	quantity_total	3735	132	-3603	0	continued from an earlier page; unit pkgs.
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	value_ceylon_produce_rs	47811	2140	-45671	0	continued from an earlier page
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	value_other_produce_rs	10278	570	-9708	0	continued from an earlier page
+1905	export	Furniture	bb1905:p724:t1	bb1905:p724:t1	12	value_total_rs	58089	2710	-55379	0	continued from an earlier page
+1905	export	and Rafters	bb1905:p728:t1	bb1905:p728:t1	42	quantity_ceylon_produce	84738	7741	-76997	0	
+1905	export	and Rafters	bb1905:p728:t1	bb1905:p728:t1	42	quantity_total	84738	7741	-76997	0	
+1905	export	and Rafters	bb1905:p728:t1	bb1905:p728:t1	42	value_ceylon_produce_rs	31145	3525	-27620	0	
+1905	export	and Rafters	bb1905:p728:t1	bb1905:p728:t1	42	value_total_rs	31145	3525	-27620	0	
+1905	export	Unenumerated	bb1905:p729:t1	bb1905:p729:t1	47	quantity_ceylon_produce	558	564	6	0	unit cwt.
+1905	export	Unenumerated	bb1905:p729:t1	bb1905:p729:t1	47	quantity_other_produce	3988	3986	-2	0	unit cwt.
+1905	export	Unenumerated	bb1905:p729:t1	bb1905:p729:t1	47	quantity_total	4546	4544	-2	0	unit cwt.
+1906	import	Unenumerated	bb1906:p652:t1	bb1906:p652:t1	39	quantity_total	4	24307	24303	0	unit No.
+1906	import	Unenumerated	bb1906:p652:t1	bb1906:p652:t1	39	quantity_home_consumption	4	24307	24303	0	unit No.
+1906	import	Unenumerated	bb1906:p652:t1	bb1906:p652:t1	39	value_total_rs	20	1386	1366	0	
+1906	import	Confectionery	bb1906:p655:t1	bb1906:p655:t1	25	value_total_rs	193502	193520	18	0	
+1906	import	Curry Stuffs— Garlic	bb1906:p655:t1	bb1906:p655:t1	55	value_total_rs	101346	101046	-300	0	
+1906	import	Grain— Barley	bb1906:p658:t1	bb1906:p658:t1	54	value_total_rs	33660	33659	-1	0	
+1906	import	Other— In wood	bb1906:p666:t1	bb1906:p666:t1	12	quantity_total	2641	2591	-50	0	unit gals.
+1906	import	Cotton, waste	bb1906:p667:t1	bb1906:p667:t1	53	quantity_total	688	694	6	0	unit cwt.
+1906	import	Copper sheathing	bb1906:p668:t1	bb1906:p668:t1	7	quantity_total	296	120	-176	1	unit cwt.
+1906	import	Copper sheathing	bb1906:p668:t1	bb1906:p668:t1	7	quantity_home_consumption	296	120	-176	1	unit cwt.
+1906	import	Copper sheathing	bb1906:p668:t1	bb1906:p668:t1	7	value_total_rs	18330	6620	-11710	1	
+1906	import	Iron— Angle and Swedish bar	bb1906:p668:t1	bb1906:p668:t1	17	quantity_total	4365	4130	-235	1	unit cwt.
+1906	import	Iron— Angle and Swedish bar	bb1906:p668:t1	bb1906:p668:t1	17	quantity_home_consumption	4365	4130	-235	1	unit cwt.
+1906	import	Iron— Angle and Swedish bar	bb1906:p668:t1	bb1906:p668:t1	17	value_total_rs	29613	28438	-1175	1	
+1906	import	Iron— Bar, flat, rod, nail rod	bb1906:p668:t1	bb1906:p668:t1	25	value_total_rs	97580	96980	-600	0	
+1906	import	Dammar	bb1906:p670:t1	bb1906:p670:t1	17	value_total_rs	4792	3792	-1000	0	
+1906	import	Lime and Clay	bb1906:p671:t1	bb1906:p671:t1	52	value_total_rs	12710	13916	1206	0	
+1906	import	Manure— Bone	bb1906:p671:t1	bb1906:p671:t1	58	quantity_total	10286	10266	-20	0	
+1906	import	Manure— Bone	bb1906:p671:t1	bb1906:p671:t1	58	quantity_home_consumption	10286	10266	-20	0	
+1906	import	Manure— Bone	bb1906:p671:t1	bb1906:p671:t1	58	value_total_rs	365771	364565	-1206	0	
+1906	import	Other	bb1906:p674:t1	bb1906:p674:t1	17	value_total_rs	103988	85826	-18162	0	
+1906	import	Piece Goods— Dyed	bb1906:p675:t1	bb1906:p675:t1	17	quantity_total	12364921	1589527	-10775394	0	continued from an earlier page; unit yds.
+1906	import	Piece Goods— Dyed	bb1906:p675:t1	bb1906:p675:t1	17	quantity_home_consumption	12482986	1752076	-10730910	0	continued from an earlier page; unit yds.
+1906	import	Piece Goods— Dyed	bb1906:p675:t1	bb1906:p675:t1	17	value_total_rs	2478441	532173	-1946268	0	continued from an earlier page
+1906	import	Piece Goods— Gray	bb1906:p675:t1	bb1906:p675:t1	24	quantity_total	7639997	7640097	100	0	unit yds.
+1906	import	Piece Goods— Gray	bb1906:p675:t1	bb1906:p675:t1	24	value_total_rs	1285760	1286260	500	0	
+1906	import	Piece Goods— Other	bb1906:p675:t1	bb1906:p675:t1	73	quantity_home_consumption	477270	477300	30	0	unit yds.
+1906	import	Thread	bb1906:p676:t1	bb1906:p676:t1	13	quantity_total	686	636	-50	0	unit cases
+1906	import	Ribbons	bb1906:p677:t1	bb1906:p677:t1	31	quantity_home_consumption	177732	177232	-500	0	unit yds.
+1906	import	Velvet	bb1906:p677:t1	bb1906:p677:t1	38	quantity_home_consumption	11288	10288	-1000	0	unit yds.
+1906	import	Velvet	bb1906:p677:t1	bb1906:p677:t1	38	value_total_rs	8350	8400	50	0	
+1906	import	Blankets	bb1906:p678:t1	bb1906:p678:t1	16	quantity_total	123330	123380	50	0	unit No.
+1906	import	Blankets	bb1906:p678:t1	bb1906:p678:t1	16	value_total_rs	115243	115293	50	0	
+1906	import	Carpets	bb1906:p678:t1	bb1906:p678:t1	24	quantity_total	577	677	100	0	unit No.
+1906	import	Flannel	bb1906:p678:t1	bb1906:p678:t1	34	value_total_rs	91652	91653	1	0	
+1906	import	Carpets	bb1906:p679:t1	bb1906:p679:t1	10	quantity_home_consumption	1908	1909	1	0	unit No.
+1906	import	Carpets	bb1906:p679:t1	bb1906:p679:t1	10	value_total_rs	11913	11918	5	0	
+1906	import	Hardware	bb1906:p680:t1	bb1906:p681:t1	14	quantity_home_consumption	32930	32926	-4	0	unit cwt.
+1906	import	Lead	bb1906:p682:t1	bb1906:p682:t1	7	quantity_total	37316	71	-37245	0	
+1906	import	Lead	bb1906:p682:t1	bb1906:p682:t1	7	quantity_home_consumption	37316	71	-37245	0	
+1906	import	Lead	bb1906:p682:t1	bb1906:p682:t1	7	value_total_rs	557756	1747	-556009	0	
+1906	import	Steel Ware	bb1906:p682:t1	bb1906:p682:t1	52	value_total_rs	47276	47254	-22	0	
+1906	import	Tin Ware	bb1906:p682:t1	bb1906:p683:t1	9	quantity_total	1421	2679	1258	0	unit cwt.
+1906	import	Tin Ware	bb1906:p682:t1	bb1906:p683:t1	9	quantity_home_consumption	1421	2679	1258	0	unit cwt.
+1906	import	Tin Ware	bb1906:p682:t1	bb1906:p683:t1	9	value_total_rs	48717	90557	41840	0	
+1906	import	Zinc Ware	bb1906:p683:t1	bb1906:p683:t1	22	quantity_home_consumption	712	717	5	0	unit cwt.
+1906	import	Bricks and Tiles	bb1906:p685:t1	bb1906:p685:t1	40	quantity_home_consumption	2276771	3276771	1000000	0	unit No.
+1906	import	Drawing Materials	bb1906:p688:t1	bb1906:p688:t1	10	value_total_rs	8048	8003	-45	0	
+1906	import	Embroidery	bb1906:p688:t1	bb1906:p688:t1	36	quantity_total	223652	228652	5000	0	unit yds.
+1906	import	Embroidery	bb1906:p688:t1	bb1906:p688:t1	36	quantity_home_consumption	223288	228288	5000	0	unit yds.
+1906	import	Glass— Other	bb1906:p690:t1	bb1906:p690:t1	28	quantity_total	12411	12416	5	0	unit cwt.
+1906	import	Instruments— Other	bb1906:p691:t1	bb1906:p691:t1	49	quantity_total	308	313	5	0	unit No.
+1906	import	Leather— Dressed	bb1906:p692:t1	bb1906:p692:t1	24	quantity_total	252	242	-10	0	unit cwt.
+1906	import	Leather— Dressed	bb1906:p692:t1	bb1906:p692:t1	24	quantity_home_consumption	252	242	-10	0	unit cwt.
+1906	import	Leather Articles— Boots and Shoes	bb1906:p692:t1	bb1906:p692:t1	47	value_total_rs	174535	174530	-5	0	
+1906	import	Other— Dutiable	bb1906:p693:t1	bb1906:p693:t1	58	quantity_total	523	623	100	1	unit cwt.
+1906	import	Other— Dutiable	bb1906:p693:t1	bb1906:p693:t1	58	quantity_home_consumption	666	656	-10	1	unit cwt.
+1906	import	Pictures	bb1906:p698:t1	bb1906:p699:t1	13	value_total_rs	17305	17310	5	0	
+1906	import	Poonac— Gingelly	bb1906:p699:t1	bb1906:p699:t1	19	value_total_rs	1886014	1386014	-500000	0	
+1906	import	Materials	bb1906:p699:t1	bb1906:p699:t1	24	quantity_total	419	109	-310	0	
+1906	import	Materials	bb1906:p699:t1	bb1906:p699:t1	24	quantity_home_consumption	418	109	-309	0	
+1906	import	Materials	bb1906:p699:t1	bb1906:p699:t1	24	value_total_rs	42951	5481	-37470	0	
+1906	import	Soap— Bar	bb1906:p700:t1	bb1906:p700:t1	39	value_total_rs	164183	164181	-2	0	
+1906	import	Tea Chests	bb1906:p701:t1	bb1906:p701:t1	36	quantity_home_consumption	1867707	1867311	-396	0	unit No.
+1906	import	Timber, unworked— Teak	bb1906:p734:t1	bb1906:p734:t1	19	value_total_rs	161160	166160	5000	0	
+1906	import	Leather, Articles— Other	bb1906:p737:t1	bb1906:p737:t1	8	value_total_rs	2207	3344	1137	0	
+1906	import	Machinery, Foundry & Workshop Machinery— Free	bb1906:p737:t1	bb1906:p737:t1	13	quantity_total	860	16	-844	0	
+1906	import	Machinery, Foundry & Workshop Machinery— Free	bb1906:p737:t1	bb1906:p737:t1	13	quantity_home_consumption	860	16	-844	0	
+1906	import	Machinery, Foundry & Workshop Machinery— Free	bb1906:p737:t1	bb1906:p737:t1	13	value_total_rs	59835	1747	-58088	0	
+1906	export	Spirits— Whisky	bb1906:p711:t1	bb1906:p711:t1	50	quantity_total	467	403	-64	0	unit gals.
+1906	export	(Cotton, Kapok, and Spinning)	bb1906:p714:t1	bb1906:p714:t1	18	quantity_ceylon_produce	263793	254710	-9083	1	unit lb.
+1906	export	(Cotton, Kapok, and Spinning)	bb1906:p714:t1	bb1906:p714:t1	18	quantity_other_produce	3333	112	-3221	1	unit lb.
+1906	export	(Cotton, Kapok, and Spinning)	bb1906:p714:t1	bb1906:p714:t1	18	quantity_total	267126	254822	-12304	1	unit lb.
+1906	export	(Cotton, Kapok, and Spinning)	bb1906:p714:t1	bb1906:p714:t1	18	value_ceylon_produce_rs	54910	49328	-5582	1	
+1906	export	(Cotton, Kapok, and Spinning)	bb1906:p714:t1	bb1906:p714:t1	18	value_total_rs	54910	49328	-5582	1	
+1906	export	Arippe Cinchona Bark	bb1906:p714:t1	bb1906:p714:t1	55	value_ceylon_produce_rs	11872	12363	491	0	
+1906	export	Arippe Cinchona Bark	bb1906:p714:t1	bb1906:p714:t1	55	value_total_rs	11872	12439	567	0	
+1906	export	Cuttle Fish	bb1906:p715:t1	bb1906:p715:t1	37	value_total_rs	1155	795	-360	0	
+1906	export	Seeds— Other	bb1906:p718:t1	bb1906:p718:t1	35	quantity_ceylon_produce	2758	2763	5	0	unit cwt.
+1906	export	Teak	bb1906:p719:t1	bb1906:p720:t1	3	value_ceylon_produce_rs	20	0	-20	0	
+1906	export	Teak	bb1906:p719:t1	bb1906:p720:t1	3	value_total_rs	20	0	-20	0	
+1906	export	Unenumerated	bb1906:p720:t1	bb1906:p720:t1	12	value_ceylon_produce_rs	43996	43976	-20	0	
+1906	export	Unenumerated	bb1906:p720:t1	bb1906:p720:t1	12	value_total_rs	43996	43976	-20	0	
+1906	export	Apparel, made up	bb1906:p720:t1	bb1906:p720:t1	39	value_other_produce_rs	90873	90923	50	0	
+1906	export	Apparel, made up	bb1906:p720:t1	bb1906:p720:t1	39	value_total_rs	102395	102445	50	0	
+1906	export	Rivets	bb1906:p722:t1	bb1906:p722:t1	57	quantity_other_produce	56	5	-51	0	
+1906	export	Rivets	bb1906:p722:t1	bb1906:p722:t1	57	quantity_total	56	5	-51	0	
+1906	export	Rivets	bb1906:p722:t1	bb1906:p722:t1	57	value_other_produce_rs	449	74	-375	0	
+1906	export	Rivets	bb1906:p722:t1	bb1906:p722:t1	57	value_total_rs	449	74	-375	0	
+1906	export	Lead	bb1906:p722:t1	bb1906:p722:t1	65	quantity_other_produce	1420	180	-1240	0	
+1906	export	Lead	bb1906:p722:t1	bb1906:p722:t1	65	quantity_total	1420	180	-1240	0	
+1906	export	Lead	bb1906:p722:t1	bb1906:p722:t1	65	value_other_produce_rs	18523	3068	-15455	0	
+1906	export	Lead	bb1906:p722:t1	bb1906:p722:t1	65	value_total_rs	18523	3068	-15455	0	
+1906	export	Coir— Other	bb1906:p725:t1	bb1906:p725:t1	37	value_ceylon_produce_rs	3225	3226	1	0	
+1906	export	Coir— Other	bb1906:p725:t1	bb1906:p725:t1	37	value_total_rs	3225	3226	1	0	
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	quantity_ceylon_produce	3287	80	-3207	0	continued from an earlier page; unit pkgs.
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	quantity_other_produce	253	24	-229	0	continued from an earlier page; unit pkgs.
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	quantity_total	3490	104	-3386	0	continued from an earlier page; unit pkgs.
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	value_ceylon_produce_rs	35287	2020	-33267	0	continued from an earlier page
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	value_other_produce_rs	7333	1050	-6283	0	continued from an earlier page
+1906	export	Furniture	bb1906:p727:t1	bb1906:p727:t1	11	value_total_rs	42620	3070	-39550	0	continued from an earlier page
+1906	export	Machinery— Other	bb1906:p728:t1	bb1906:p728:t1	36	value_other_produce_rs	18708	18713	5	0	
+1906	export	Manure	bb1906:p728:t1	bb1906:p728:t1	44	quantity_other_produce	8368	8363	-5	0	unit cwt.
+1906	export	Mats, Mat Bags, and Baskets	bb1906:p728:t1	bb1906:p728:t1	61	value_total_rs	5568	5563	-5	0	
+1906	export	Oil— Other	bb1906:p730:t1	bb1906:p730:t1	26	value_other_produce_rs	34764	34769	5	0	
+1906	export	Rubber	bb1906:p731:t1	bb1906:p731:t1	20	quantity_ceylon_produce	3705	3710	5	0	unit cwt.
+1906	export	Rubber	bb1906:p731:t1	bb1906:p731:t1	20	quantity_total	3705	3710	5	0	unit cwt.

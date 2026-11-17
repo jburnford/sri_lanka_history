@@ -1,0 +1,13 @@
+volume flow   figures  articles  with_total  all_agree
+1901   import    6,645       330        279       224  80.3%   skipped rows 278
+1901   export    6,588       182        128       103  80.5%   skipped rows 278
+1902   import    6,396       319        268       147  54.9%   skipped rows 166
+1902   export    6,852       183        134        89  66.4%   skipped rows 166
+1903   import    5,865       289        242       200  82.6%   skipped rows 203
+1903   export    6,655       170        134       113  84.3%   skipped rows 203
+1904   import    6,270       427        282       236  83.7%   skipped rows 346
+1904   export    6,216       158        111        91  82.0%   skipped rows 346
+1905   import    6,753       463        301       265  88.0%   skipped rows 303
+1905   export    7,032       164        130       104  80.0%   skipped rows 303
+1906   import    7,272       484        334       290  86.8%   skipped rows 203
+1906   export    6,420       168        126       109  86.5%   skipped rows 203

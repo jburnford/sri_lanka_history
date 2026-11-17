@@ -1,0 +1,17 @@
+[
+  {
+    "path": "extracted/trade_1880_1900.tsv.gz",
+    "bytes": 1202449,
+    "sha256": "e4bf510508fca1fe6cc21c5536529c2a25e9817abe6f68d04a843e74fda59a3a"
+  },
+  {
+    "path": "extracted/trade_1880_1900_skipped.tsv",
+    "bytes": 3736133,
+    "sha256": "41fd0ecb53b4012fc3b38df05f2c23ec6a4d47f6b51ce02494ce8016c184175e"
+  },
+  {
+    "path": "extracted/trade_1880_1900_checks.tsv",
+    "bytes": 554771,
+    "sha256": "88a79d7c8de64786a0a47472312be4e9f85cb8e35a6aae582c335c8f4567c47d"
+  }
+]

@@ -1,0 +1,9 @@
+Completed all **2,265 names**, producing **1,222 bodies**.
+
+- [Body authority list](org_bodies.jsonl)
+- [Decisions for every name](org_names_decisions.tsv)
+- [Summary, largest bodies and uncertain groupings](org_summary.md)
+
+Outcomes: 1,743 body assignments, 446 generic, 41 non-organisations, 35 unclear.
+
+Validation passed: every member key exists, no duplicate memberships, and every body reference resolves. No network sources were used.

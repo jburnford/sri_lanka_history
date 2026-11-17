@@ -1,0 +1,9 @@
+Repaired [read_trade_old.py](/home/jic823/Documents/ceylon/spine/bluebook/read_trade_old.py) and regenerated all three outputs.
+
+- [Report with A–J counts and before/after tables](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/README_round2.md)
+- [238-row recheck](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/recheck2.tsv)
+- [Rerun of the earlier 240-row recheck](/home/jic823/Documents/ceylon/spine/bluebook/jobs/trade_1901_1906_work/recheck.tsv)
+
+The second sample has **235 agreeing article labels** and **224 full agreements**. No figures were changed; numeric provenance checks passed.
+
+Unresolved: 1,710 unattested 1902 export classes, a truncated class title, and the protected OCR errors. Perfumery’s ambiguous block is skipped. Six earlier checks no longer match their shortened expected labels after outer headings were restored; all six are explicitly documented.

@@ -1,0 +1,3059 @@
+[
+  {
+    "table_id": "bb1897:p521:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p522:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p523:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p524:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p525:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p526:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p527:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p528:t1",
+    "flow": "import",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p529:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p530:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p531:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p532:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p533:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p534:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 12,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p535:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p536:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p537:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p538:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p539:t1",
+    "flow": "import",
+    "n_cols": 14,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          10,
+          11
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p540:t1",
+    "flow": "import",
+    "n_cols": 13,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          8,
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p541:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p542:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p543:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 37,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 58,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p544:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p545:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p546:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p547:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p548:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p549:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p550:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 53,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p551:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p552:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p553:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          8,
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p554:t1",
+    "flow": "import",
+    "n_cols": 8,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p555:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [],
+    "error": "import header does not establish contiguous quantity/value/duty columns",
+    "in_page_changes": [
+      {
+        "source_row": 2,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 25,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 51,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p556:t1",
+    "flow": "import",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 12,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p557:t1",
+    "flow": "import",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          8,
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p558:t1",
+    "flow": "import",
+    "n_cols": 12,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 21,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 33,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 48,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8,
+              9
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 58,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p559:t1",
+    "flow": "import",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          6,
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": [
+      {
+        "source_row": 46,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              6,
+              7
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              8
+            ]
+          ]
+        ]
+      },
+      {
+        "source_row": 56,
+        "schema": [
+          [
+            "quantity_total",
+            [
+              2
+            ]
+          ],
+          [
+            "quantity_home_consumption",
+            [
+              3
+            ]
+          ],
+          [
+            "value_total_rs",
+            [
+              4,
+              5
+            ]
+          ],
+          [
+            "duty_rs",
+            [
+              6,
+              7
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "table_id": "bb1897:p560:t1",
+    "flow": "import",
+    "n_cols": 12,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          8,
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p561:t1",
+    "flow": "import",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_total",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_home_consumption",
+        [
+          3
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "duty_rs",
+        [
+          7,
+          8
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p565:t1",
+    "flow": "export",
+    "n_cols": 15,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          12,
+          13
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p566:t1",
+    "flow": "export",
+    "n_cols": 12,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          5
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          7,
+          8
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          10
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p567:t1",
+    "flow": "export",
+    "n_cols": 20,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          5
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          8
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p568:t1",
+    "flow": "export",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p569:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p570:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p571:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p572:t1",
+    "flow": "export",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          5
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          7
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          8
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p573:t1",
+    "flow": "export",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p574:t1",
+    "flow": "export",
+    "n_cols": 13,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3,
+          4
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          5
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          7,
+          8
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          10
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p575:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p576:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p577:t1",
+    "flow": "export",
+    "n_cols": 16,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          12,
+          13
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p578:t1",
+    "flow": "export",
+    "n_cols": 16,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          13,
+          14
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p579:t1",
+    "flow": "export",
+    "n_cols": 19,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          7,
+          8
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p580:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p581:t1",
+    "flow": "export",
+    "n_cols": 15,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          8,
+          9
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          10,
+          11
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          12,
+          13
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p582:t1",
+    "flow": "export",
+    "n_cols": 11,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p583:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p584:t1",
+    "flow": "export",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p585:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p586:t1",
+    "flow": "export",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p587:t1",
+    "flow": "export",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p588:t1",
+    "flow": "export",
+    "n_cols": 10,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p589:t1",
+    "flow": "export",
+    "n_cols": 9,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          3
+        ]
+      ],
+      [
+        "quantity_total",
+        [
+          4
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          5
+        ]
+      ],
+      [
+        "value_other_produce_rs",
+        [
+          6
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          7
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  },
+  {
+    "table_id": "bb1897:p590:t1",
+    "flow": "export",
+    "n_cols": 15,
+    "schema": [
+      [
+        "quantity_ceylon_produce",
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        "quantity_other_produce",
+        [
+          4,
+          5
+        ]
+      ],
+      [
+        "value_total_rs",
+        [
+          6,
+          7
+        ]
+      ],
+      [
+        "value_ceylon_produce_rs",
+        [
+          8,
+          9
+        ]
+      ]
+    ],
+    "error": null,
+    "in_page_changes": []
+  }
+]

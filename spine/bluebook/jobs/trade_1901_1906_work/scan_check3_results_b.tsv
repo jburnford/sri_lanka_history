@@ -1,0 +1,48 @@
+sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	value_as_printed	figure_ok	column_ok	article_ok	country_ok	unit_ok	class_group_ok	verdict	what_the_page_shows
+133	bb1904:p636:t1	636	Fruit, preserved— Raisins	Greece	quantity_home_consumption	—	yes	yes	yes	yes	yes	yes	ok	
+134	bb1904:p639:t1	639	Salt— Refined	British India	value_total_rs	7	yes	yes	yes	yes	yes	yes	ok	
+135	bb1904:p653:t1	653	Piece Goods— Muslin		value_total_rs	42618	yes	yes	yes	yes	yes	yes	ok	
+136	bb1904:p653:t1	653	Piece Goods— Dyed	Austria	quantity_total	3814	yes	yes	yes	yes	yes	yes	ok	
+137	bb1904:p654:t1	654	Broad Stuffs	China	quantity_total	24636	yes	yes	yes	yes	yes	yes	ok	
+138	bb1904:p662:t1	662	Arms— Rifles— Double		quantity_total	7	yes	yes	yes	yes	yes	yes	ok	
+139	bb1904:p662:t1	662	Arms— Pistols, single	United Kingdom	quantity_home_consumption	4	yes	yes	yes	yes	yes	yes	ok	
+140	bb1904:p666:t1	666	Explosives— Fireworks	China	quantity_total	635	yes	yes	yes	yes	yes	yes	ok	
+141	bb1904:p667:t1	667	Furniture	U. S. of America	value_total_rs	520	yes	yes	yes	yes	yes	yes	ok	
+142	bb1904:p672:t1	672	Machinery— Other— Free	Germany	value_total_rs	28427	yes	yes	yes	yes	yes	yes	ok	
+143	bb1904:p676:t1	676	Photographic Materials		quantity_total	209	yes	yes	yes	yes	yes	yes	ok	note: columns on this page are HC first (208), Total second (209); 209 is under Total quantities imported
+144	bb1904:p676:t1	676	Pasteboard		quantity_total	21036	yes	yes	yes	yes	yes	yes	ok	note: both quantity columns print 21036
+145	bb1904:p676:t1	676	Pictures	British India	quantity_home_consumption	16262	yes	yes	yes	yes	yes	yes	ok	note: both quantity columns print 16262
+146	bb1904:p676:t1	676	Pictures	United Kingdom	quantity_total	13911	yes	yes	yes	yes	yes	yes	ok	note: HC column (first) 15566, Total column (second) 13911
+147	bb1904:p681:t1	681	Unenumerated— Free	Holland	quantity_home_consumption	23	yes	yes	yes	yes	yes	yes	ok	"note: p681 heading prints a stray ""Watches—contd."" above ""Unenumerated— Dutiable—contd.""; p680 shows Unenumerated is its own top-level heading"
+148	bb1904:p681:t1	681	Silver— Coin	Straits Settlements	quantity_total	130	yes	yes	yes	yes	no	yes	wrong	"Figure 130 correct. Unit column prints a ditto mark for Coin rows (running down from ""Bars"" of Silver Bullion); row gives a blank unit"
+149	bb1904:p686:t1	686	Coffee— Arabian— Plantation	Japan	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+150	bb1904:p686:t1	686	Coffee— Arabian— Plantation	Queensland	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+151	bb1904:p686:t1	686	Coffee— Arabian— Native	Belgium	quantity_ceylon_produce	13	yes	yes	yes	yes	no	yes	wrong	Figure 13 correct. Unit is ditto of cwt. (Native ... Br. India cwt.); row gives blank unit. Belgium printed under Br. Col. with no For. Coun. heading
+152	bb1904:p686:t1	686	Coffee— Liberian	United Kingdom	value_ceylon_produce_rs	756	yes	yes	yes	yes	yes	yes	ok	
+153	bb1904:p687:t1	687	Fruit— Preserved	Other British Possessions in Asia	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+154	bb1904:p688:t1	688	Spices— Cardamoms	Zanzibar	value_ceylon_produce_rs	375	yes	yes	yes	yes	yes	yes	ok	
+155	bb1904:p688:t1	688	Spices— Cinnamon, Plantation	India (exc. British)	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	note: quantity col split Quills/Chips (— / 1), total 1
+156	bb1904:p690:t1	690	Tea	Tasmania	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: Tea is its own heading (not under Sugar). Colony-produce quantity column is split Black | Green; Tasmania Black 85385, Green —
+157	bb1904:p690:t1	690	Tea	Burma	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: Burma Black 5104, Green —
+158	bb1904:p690:t1	690	Tea	Maldiv Islands	value_total_rs	487	yes	yes	yes	yes	yes	yes	ok	
+159	bb1904:p690:t1	690	Tea	Germany	value_total_rs	415233	yes	yes	yes	yes	yes	yes	ok	
+160	bb1904:p691:t1	691	Tea	Philippine Islands	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: Philippine Islands Black 9914, Green —
+161	bb1904:p691:t1	691	Tea	Turkey in Europe	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: Turkey in Europe Black 33062, Green —
+162	bb1904:p691:t1	691	Tea	Mozambique	quantity_ceylon_produce	27095	yes	yes	yes	yes	yes	yes	ok	note: under Black; Green —
+163	bb1904:p691:t1	691	Tea	Other For. Coun. in Australasia	quantity_ceylon_produce	2250	yes	yes	yes	yes	yes	yes	ok	note: under Black; Green —
+164	bb1904:p694:t1	694	Horns— Sambur		value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+165	bb1904:p695:t1	695	Plumbago	U. S. of America	value_total_rs	2570851	yes	yes	yes	yes	yes	yes	ok	"note: group number glyph in this scan looks like ""(8) Other"" (a broken ""3""; the true heading is (3) Other, as on neighbouring pages)"
+166	bb1904:p695:t1	695	Plumbago	India (exc. British)	value_ceylon_produce_rs	74	yes	yes	yes	yes	yes	yes	ok	"note: group number glyph in this scan looks like ""(8) Other"" (a broken ""3""; the true heading is (3) Other, as on neighbouring pages)"
+167	bb1904:p697:t1	697	Teak	Egypt	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	no	wrong	"Figure correct. Group printed ""(3) Other—contd."" then ""(c) Timber, unworked—""; row says ""(2) Other"""
+168	bb1904:p697:t1	697	Teak		quantity_total	31	yes	yes	yes	yes	yes	no	wrong	"Figure correct. Group printed ""(3) Other—contd."" then ""(c) Timber, unworked—""; row says ""(2) Other"""
+169	bb1904:p698:t1	698	Apparel, made up	Straits Settlements	value_total_rs	2525	yes	yes	yes	yes	yes	yes	ok	
+170	bb1904:p700:t1	700	Iron— Drums and Tanks	British India	quantity_total	77	yes	yes	yes	yes	yes	yes	ok	"note: row has blank country group; page prints British India under ""Br. Col.—"""
+171	bb1904:p700:t1	700	Hardware	Java	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+172	bb1904:p701:t1	701	Books, printed		quantity_ceylon_produce	6922	yes	yes	yes	yes	yes	yes	ok	
+173	bb1904:p703:t1	703	Coir— Yarn	Holland	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+174	bb1904:p703:t1	703	Coir— Yarn	Austria	value_total_rs	2743	yes	yes	yes	yes	yes	yes	ok	
+175	bb1904:p705:t1	705	Glass and Glassware	China	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+176	bb1904:p707:t1	707	Oil— Castor	British India	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+177	bb1904:p709:t1	709	Skins, dressed	Turkey in Asia	quantity_total	132	yes	yes	yes	yes	yes	yes	ok	
+178	bb1904:p709:t1	709	Stones, worked		quantity_other_produce	3	yes	yes	yes	yes	yes	yes	ok	
+179	bb1904:p712:t1	712	Apparel, made up	British India	quantity_total	2	yes	yes	yes	yes	yes	yes	ok	

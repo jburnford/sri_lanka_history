@@ -1,0 +1,4313 @@
+[
+  {
+    "volume": "1880",
+    "flow": "import",
+    "table_id": "bb1880:p499:t1",
+    "source_row": 42,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially.)",
+        "Gross amount received in currency.",
+        "Rate and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "Arms and Ammunition : — Guns, single barreled...",
+      "United Kingdom",
+      "No. 413",
+      "No. 488",
+      "6195",
+      "0",
+      "1220",
+      "0"
+    ],
+    "nearby_labels": [
+      [
+        39,
+        [
+          "— Wearing",
+          ""
+        ]
+      ],
+      [
+        40,
+        [
+          "— Wearing",
+          ""
+        ]
+      ],
+      [
+        42,
+        [
+          "Arms and Ammunition : — Guns, single barreled...",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p499:t1",
+        "year_volume": "1880",
+        "pdf_page": "499",
+        "printed_page": "499",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "— Guns, single barreled...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "No.",
+        "measure": "quantity_total",
+        "value_as_printed": "413",
+        "value": "413",
+        "row_kind": "country",
+        "note": "source row 42; shared quantity unit explicitly printed in the row"
+      },
+      {
+        "table_id": "bb1880:p499:t1",
+        "year_volume": "1880",
+        "pdf_page": "499",
+        "printed_page": "499",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "— Guns, single barreled...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "No.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "488",
+        "value": "488",
+        "row_kind": "country",
+        "note": "source row 42; shared quantity unit explicitly printed in the row"
+      },
+      {
+        "table_id": "bb1880:p499:t1",
+        "year_volume": "1880",
+        "pdf_page": "499",
+        "printed_page": "499",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "— Guns, single barreled...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "6195 0",
+        "value": "6195.00",
+        "row_kind": "country",
+        "note": "source row 42; shared quantity unit explicitly printed in the row; money cells joined"
+      },
+      {
+        "table_id": "bb1880:p499:t1",
+        "year_volume": "1880",
+        "pdf_page": "499",
+        "printed_page": "499",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "— Guns, single barreled...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "1220 0",
+        "value": "1220.00",
+        "row_kind": "country",
+        "note": "source row 42; shared quantity unit explicitly printed in the row; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "import",
+    "table_id": "bb1880:p504:t1",
+    "source_row": 41,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "cwts.",
+        "pkgs.",
+        "cwts.",
+        "pkgs.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially.)",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "France",
+      "—",
+      "1",
+      "—",
+      "1",
+      "10 0",
+      "",
+      "0 50",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        26,
+        [
+          "Butch",
+          "Br. Col."
+        ]
+      ],
+      [
+        30,
+        [
+          "Hammer",
+          "Br. Col."
+        ]
+      ],
+      [
+        34,
+        [
+          "Hardware",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p504:t1",
+        "year_volume": "1880",
+        "pdf_page": "504",
+        "printed_page": "504",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Hardware",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_total",
+        "value_as_printed": "1",
+        "value": "1",
+        "row_kind": "country",
+        "note": "source row 41; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1880:p504:t1",
+        "year_volume": "1880",
+        "pdf_page": "504",
+        "printed_page": "504",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Hardware",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "1",
+        "value": "1",
+        "row_kind": "country",
+        "note": "source row 41; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1880:p504:t1",
+        "year_volume": "1880",
+        "pdf_page": "504",
+        "printed_page": "504",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Hardware",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "10 0",
+        "value": "10.00",
+        "row_kind": "country",
+        "note": "source row 41; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p504:t1",
+        "year_volume": "1880",
+        "pdf_page": "504",
+        "printed_page": "504",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Hardware",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "0 50",
+        "value": "0.50",
+        "row_kind": "country",
+        "note": "source row 41; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "import",
+    "table_id": "bb1880:p510:t1",
+    "source_row": 19,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (it calculated officially.)",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "— Iron Nails, &c.",
+      "United Kingdom",
+      "cwt. 3303 3 22",
+      "cwt. 3409 3 22",
+      "41299",
+      "33",
+      "2148",
+      "39"
+    ],
+    "nearby_labels": [
+      [
+        12,
+        [
+          "— Iron, galvanized,",
+          "United Kingdom"
+        ]
+      ],
+      [
+        17,
+        [
+          "— Iron, Hoop",
+          "United Kingdom"
+        ]
+      ],
+      [
+        19,
+        [
+          "— Iron Nails, &c.",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p510:t1",
+        "year_volume": "1880",
+        "pdf_page": "510",
+        "printed_page": "510",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "— Iron Nails, &c.",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "3303 3 22",
+        "value": "3303.9464",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p510:t1",
+        "year_volume": "1880",
+        "pdf_page": "510",
+        "printed_page": "510",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "— Iron Nails, &c.",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "3409 3 22",
+        "value": "3409.9464",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p510:t1",
+        "year_volume": "1880",
+        "pdf_page": "510",
+        "printed_page": "510",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "— Iron Nails, &c.",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "41299 33",
+        "value": "41299.33",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; money cells joined"
+      },
+      {
+        "table_id": "bb1880:p510:t1",
+        "year_volume": "1880",
+        "pdf_page": "510",
+        "printed_page": "510",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "— Iron Nails, &c.",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "2148 39",
+        "value": "2148.39",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "import",
+    "table_id": "bb1880:p515:t1",
+    "source_row": 54,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially.)",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "Tea",
+      "Japan",
+      "49077",
+      "—",
+      "120192 50",
+      "",
+      "—",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        52,
+        [
+          "Tea",
+          "For Coun."
+        ]
+      ],
+      [
+        53,
+        [
+          "Tea",
+          "France"
+        ]
+      ],
+      [
+        54,
+        [
+          "Tea",
+          "Japan"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p515:t1",
+        "year_volume": "1880",
+        "pdf_page": "515",
+        "printed_page": "515",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Tea",
+        "country_group_as_printed": "For Coun.",
+        "country_as_printed": "Japan",
+        "unit_as_printed": "lbs.",
+        "measure": "quantity_total",
+        "value_as_printed": "49077",
+        "value": "49077",
+        "row_kind": "country",
+        "note": "source row 54; unit carried from above"
+      },
+      {
+        "table_id": "bb1880:p515:t1",
+        "year_volume": "1880",
+        "pdf_page": "515",
+        "printed_page": "515",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Arms & Ammunition:",
+        "article_as_printed": "Tea",
+        "country_group_as_printed": "For Coun.",
+        "country_as_printed": "Japan",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "120192 50",
+        "value": "120192.50",
+        "row_kind": "country",
+        "note": "source row 54; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "import",
+    "table_id": "bb1880:p520:t1",
+    "source_row": 18,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially)",
+        "Gross amount received in currency.",
+        "Rate and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "Genoa",
+      "49½",
+      "49½",
+      "442",
+      "50",
+      "61",
+      "46"
+    ],
+    "nearby_labels": [
+      [
+        3,
+        [
+          "— Marsala in bottle",
+          "United Kingdom"
+        ]
+      ],
+      [
+        8,
+        [
+          "— in wood",
+          "United Kingdom"
+        ]
+      ],
+      [
+        14,
+        [
+          "— Port in bottle",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p520:t1",
+        "year_volume": "1880",
+        "pdf_page": "520",
+        "printed_page": "518",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Tobacco:",
+        "article_as_printed": "— Port in bottle",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Genoa",
+        "unit_as_printed": "gallons",
+        "measure": "quantity_total",
+        "value_as_printed": "49½",
+        "value": "49.5",
+        "row_kind": "country",
+        "note": "source row 18; unit carried from above"
+      },
+      {
+        "table_id": "bb1880:p520:t1",
+        "year_volume": "1880",
+        "pdf_page": "520",
+        "printed_page": "518",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Tobacco:",
+        "article_as_printed": "— Port in bottle",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Genoa",
+        "unit_as_printed": "gallons",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "49½",
+        "value": "49.5",
+        "row_kind": "country",
+        "note": "source row 18; unit carried from above"
+      },
+      {
+        "table_id": "bb1880:p520:t1",
+        "year_volume": "1880",
+        "pdf_page": "520",
+        "printed_page": "518",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Tobacco:",
+        "article_as_printed": "— Port in bottle",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Genoa",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "442 50",
+        "value": "442.50",
+        "row_kind": "country",
+        "note": "source row 18; money cells joined"
+      },
+      {
+        "table_id": "bb1880:p520:t1",
+        "year_volume": "1880",
+        "pdf_page": "520",
+        "printed_page": "518",
+        "flow": "import",
+        "class_as_printed": "Animals, living:",
+        "group_as_printed": "Tobacco:",
+        "article_as_printed": "— Port in bottle",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Genoa",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "61 46",
+        "value": "61.46",
+        "row_kind": "country",
+        "note": "source row 18; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "export",
+    "table_id": "bb1880:p527:t1",
+    "source_row": 13,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign, and other Colonial produce and manufacture",
+        "Total.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign, and other Colonial produce and manufacture.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially.",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Cocoanuts",
+      "United Kingdom",
+      "bags Nos. — 532845",
+      "bags Nos. —",
+      "bags Nos. — 532845",
+      "22868 0",
+      "—",
+      "22868 0",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        10,
+        [
+          "Trieste",
+          "48969"
+        ]
+      ],
+      [
+        12,
+        [
+          "Clocks and Watches",
+          "United Kingdom"
+        ]
+      ],
+      [
+        13,
+        [
+          "Cocoanuts",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p527:t1",
+        "year_volume": "1880",
+        "pdf_page": "527",
+        "printed_page": "525",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Cocoanuts",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "Nos.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "532845",
+        "value": "532845",
+        "row_kind": "country",
+        "note": "source row 13; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p527:t1",
+        "year_volume": "1880",
+        "pdf_page": "527",
+        "printed_page": "525",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Cocoanuts",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "Nos.",
+        "measure": "quantity_total",
+        "value_as_printed": "532845",
+        "value": "532845",
+        "row_kind": "country",
+        "note": "source row 13; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p527:t1",
+        "year_volume": "1880",
+        "pdf_page": "527",
+        "printed_page": "525",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Cocoanuts",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "22868 0",
+        "value": "22868.00",
+        "row_kind": "country",
+        "note": "source row 13; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p527:t1",
+        "year_volume": "1880",
+        "pdf_page": "527",
+        "printed_page": "525",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Cocoanuts",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "22868 0",
+        "value": "22868.00",
+        "row_kind": "country",
+        "note": "source row 13; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "export",
+    "table_id": "bb1880:p528:t1",
+    "source_row": 24,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value (if calculated officially.)"
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign, and other Colonial produce and manufacture.",
+        "Total.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign and other Colonial produce and manufacture.",
+        "Total.",
+        "Average price fixed for the value (if calculated officially.)"
+      ]
+    ],
+    "source_cells": [
+      "Confectionery and Preserves",
+      "United Kingdom",
+      "pkgs. No. 13 139 cwt. 154 1 22",
+      "1 package",
+      "pkgs. No. 14 139 cwt. 154 1 22",
+      "1300 50",
+      "600 0",
+      "1900 50",
+      "Declared"
+    ],
+    "nearby_labels": [
+      [
+        22,
+        [
+          "Coir Manufacture",
+          "French India"
+        ]
+      ],
+      [
+        23,
+        [
+          "Coir Manufacture",
+          "Dutch Possessions in India"
+        ]
+      ],
+      [
+        24,
+        [
+          "Confectionery and Preserves",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "13",
+        "value": "13",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "No.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "139",
+        "value": "139",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "154 1 22",
+        "value": "154.4464",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "package",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "1",
+        "value": "1",
+        "row_kind": "country",
+        "note": "source row 24"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_total",
+        "value_as_printed": "14",
+        "value": "14",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "No.",
+        "measure": "quantity_total",
+        "value_as_printed": "139",
+        "value": "139",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "154 1 22",
+        "value": "154.4464",
+        "row_kind": "country",
+        "note": "source row 24; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "1300 50",
+        "value": "1300.50",
+        "row_kind": "country",
+        "note": "source row 24; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "600 0",
+        "value": "600.00",
+        "row_kind": "country",
+        "note": "source row 24; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p528:t1",
+        "year_volume": "1880",
+        "pdf_page": "528",
+        "printed_page": "526",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Confectionery and Preserves",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1900 50",
+        "value": "1900.50",
+        "row_kind": "country",
+        "note": "source row 24; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "export",
+    "table_id": "bb1880:p531:t1",
+    "source_row": 14,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign, and other Colonial produce and manufacture.",
+        "Total.",
+        "Produce and manufacture of the Colony.",
+        "British, Foreign, and other Colonial produce and manufacture.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Haberdashery and Millinery",
+      "French India",
+      "—",
+      "47012 packages",
+      "47012 packages",
+      "—",
+      "196406 0",
+      "196406 0",
+      "Do."
+    ],
+    "nearby_labels": [
+      [
+        12,
+        [
+          "Gunnies and Twine",
+          "Br. Col."
+        ]
+      ],
+      [
+        13,
+        [
+          "Gunnies and Twine",
+          "British India"
+        ]
+      ],
+      [
+        14,
+        [
+          "Haberdashery and Millinery",
+          "French India"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p531:t1",
+        "year_volume": "1880",
+        "pdf_page": "531",
+        "printed_page": "529",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Haberdashery and Millinery",
+        "country_group_as_printed": "",
+        "country_as_printed": "French India",
+        "unit_as_printed": "packages",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "47012",
+        "value": "47012",
+        "row_kind": "country",
+        "note": "source row 14; shared quantity unit explicitly printed in the row"
+      },
+      {
+        "table_id": "bb1880:p531:t1",
+        "year_volume": "1880",
+        "pdf_page": "531",
+        "printed_page": "529",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Haberdashery and Millinery",
+        "country_group_as_printed": "",
+        "country_as_printed": "French India",
+        "unit_as_printed": "packages",
+        "measure": "quantity_total",
+        "value_as_printed": "47012",
+        "value": "47012",
+        "row_kind": "country",
+        "note": "source row 14; shared quantity unit explicitly printed in the row"
+      },
+      {
+        "table_id": "bb1880:p531:t1",
+        "year_volume": "1880",
+        "pdf_page": "531",
+        "printed_page": "529",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Haberdashery and Millinery",
+        "country_group_as_printed": "",
+        "country_as_printed": "French India",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "196406 0",
+        "value": "196406.00",
+        "row_kind": "country",
+        "note": "source row 14; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p531:t1",
+        "year_volume": "1880",
+        "pdf_page": "531",
+        "printed_page": "529",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "",
+        "article_as_printed": "Haberdashery and Millinery",
+        "country_group_as_printed": "",
+        "country_as_printed": "French India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "196406 0",
+        "value": "196406.00",
+        "row_kind": "country",
+        "note": "source row 14; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "export",
+    "table_id": "bb1880:p535:t1",
+    "source_row": 47,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value (if calculated officially.)",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufacture of the colony.",
+        "British, Foreign, and other colonial produce and manufacture.",
+        "Total.",
+        "Produce and manufacture of the colony.",
+        "British, Foreign, and other colonial produce and manufacture.",
+        "Total.",
+        "Average price fixed for the value (if calculated officially.)",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Provisions",
+      "Nicobar Islands",
+      "pkgs. cwt. 306 160 2 0",
+      "pkgs. cwt. 341 25 0 0",
+      "pkgs. cwt. 647 175 2 0",
+      "791 75",
+      "915 0",
+      "1716 75",
+      "Do.",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        45,
+        [
+          "Provisions",
+          "French India"
+        ]
+      ],
+      [
+        46,
+        [
+          "Provisions",
+          "Maldivé Islands"
+        ]
+      ],
+      [
+        47,
+        [
+          "Provisions",
+          "Nicobar Islands"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "306",
+        "value": "306",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "160 2 0",
+        "value": "160.5000",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "341",
+        "value": "341",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "25 0 0",
+        "value": "25.0000",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_total",
+        "value_as_printed": "647",
+        "value": "647",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "175 2 0",
+        "value": "175.5000",
+        "row_kind": "country",
+        "note": "source row 47; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "791 75",
+        "value": "791.75",
+        "row_kind": "country",
+        "note": "source row 47; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "915 0",
+        "value": "915.00",
+        "row_kind": "country",
+        "note": "source row 47; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p535:t1",
+        "year_volume": "1880",
+        "pdf_page": "535",
+        "printed_page": "533",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Provisions",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1716 75",
+        "value": "1716.75",
+        "row_kind": "country",
+        "note": "source row 47; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1880",
+    "flow": "export",
+    "table_id": "bb1880:p537:t1",
+    "source_row": 40,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufacture of the colony.",
+        "British, Foreign, and other colonial produce and manufacture.",
+        "Total.",
+        "Produce and manufacture of the colony.",
+        "British, Foreign, and other colonial produce and manufacture.",
+        "Total.",
+        "Average price fixed for the value if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Sulphur",
+      "United Kingdom",
+      "—",
+      "cwt. 639 0 0",
+      "cwt. 639 0 0",
+      "—",
+      "10300 0",
+      "10300 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        36,
+        [
+          "— Jaggery",
+          "British India"
+        ]
+      ],
+      [
+        37,
+        [
+          "— Jaggery",
+          "For. Coun."
+        ]
+      ],
+      [
+        40,
+        [
+          "Sulphur",
+          "United Kingdom"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1880:p537:t1",
+        "year_volume": "1880",
+        "pdf_page": "537",
+        "printed_page": "535",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Sulphur",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "639 0 0",
+        "value": "639.0000",
+        "row_kind": "country",
+        "note": "source row 40; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p537:t1",
+        "year_volume": "1880",
+        "pdf_page": "537",
+        "printed_page": "535",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Sulphur",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "639 0 0",
+        "value": "639.0000",
+        "row_kind": "country",
+        "note": "source row 40; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1880:p537:t1",
+        "year_volume": "1880",
+        "pdf_page": "537",
+        "printed_page": "535",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Sulphur",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "10300 0",
+        "value": "10300.00",
+        "row_kind": "country",
+        "note": "source row 40; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1880:p537:t1",
+        "year_volume": "1880",
+        "pdf_page": "537",
+        "printed_page": "535",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Rs. cts.",
+        "article_as_printed": "Sulphur",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "10300 0",
+        "value": "10300.00",
+        "row_kind": "country",
+        "note": "source row 40; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "import",
+    "table_id": "bb1896:p528:t1",
+    "source_row": 32,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        "",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed.",
+        "",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Butter",
+      "British India ...",
+      "1092",
+      "0 17",
+      "1092",
+      "0 17",
+      "203868",
+      "33",
+      "3277",
+      "4",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        30,
+        [
+          "Butter",
+          "Br. Col."
+        ]
+      ],
+      [
+        31,
+        [
+          "Butter",
+          "Australia ..."
+        ]
+      ],
+      [
+        32,
+        [
+          "Butter",
+          "British India ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p528:t1",
+        "year_volume": "1896",
+        "pdf_page": "528",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "",
+        "article_as_printed": "Butter",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "1092 0 17",
+        "value": "1092.1518",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; quantity cells joined; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p528:t1",
+        "year_volume": "1896",
+        "pdf_page": "528",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "",
+        "article_as_printed": "Butter",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "1092 0 17",
+        "value": "1092.1518",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; quantity cells joined; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p528:t1",
+        "year_volume": "1896",
+        "pdf_page": "528",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "",
+        "article_as_printed": "Butter",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "203868 33",
+        "value": "203868.33",
+        "row_kind": "country",
+        "note": "source row 32; money cells joined"
+      },
+      {
+        "table_id": "bb1896:p528:t1",
+        "year_volume": "1896",
+        "pdf_page": "528",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "",
+        "article_as_printed": "Butter",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "3277 4",
+        "value": "3277.04",
+        "row_kind": "country",
+        "note": "source row 32; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "import",
+    "table_id": "bb1896:p534:t1",
+    "source_row": 58,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed.",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "",
+      "China ...",
+      "1 2 14",
+      "1 2 14",
+      "210",
+      "0",
+      "13",
+      "65",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        41,
+        [
+          "Cloves",
+          "Br. Col."
+        ]
+      ],
+      [
+        47,
+        [
+          "Ginger",
+          "Br. Col."
+        ]
+      ],
+      [
+        54,
+        [
+          "Mace",
+          "Br. Col."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p534:t1",
+        "year_volume": "1896",
+        "pdf_page": "534",
+        "printed_page": "U 13",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "Spices :",
+        "article_as_printed": "Mace",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "China",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "1 2 14",
+        "value": "1.6250",
+        "row_kind": "country",
+        "note": "source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p534:t1",
+        "year_volume": "1896",
+        "pdf_page": "534",
+        "printed_page": "U 13",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "Spices :",
+        "article_as_printed": "Mace",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "China",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "1 2 14",
+        "value": "1.6250",
+        "row_kind": "country",
+        "note": "source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p534:t1",
+        "year_volume": "1896",
+        "pdf_page": "534",
+        "printed_page": "U 13",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "Spices :",
+        "article_as_printed": "Mace",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "China",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "210 0",
+        "value": "210.00",
+        "row_kind": "country",
+        "note": "source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; money cells joined"
+      },
+      {
+        "table_id": "bb1896:p534:t1",
+        "year_volume": "1896",
+        "pdf_page": "534",
+        "printed_page": "U 13",
+        "flow": "import",
+        "class_as_printed": "Articles of food and drink :",
+        "group_as_printed": "Spices :",
+        "article_as_printed": "Mace",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "China",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "13 65",
+        "value": "13.65",
+        "row_kind": "country",
+        "note": "source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "import",
+    "table_id": "bb1896:p550:t1",
+    "source_row": 37,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed.",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Watches, and parts thereof",
+      "Switzerland ...",
+      "—",
+      "—",
+      "—",
+      "—",
+      "1460",
+      "40",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        35,
+        [
+          "Watches, and parts thereof",
+          "Germany ..."
+        ]
+      ],
+      [
+        36,
+        [
+          "Watches, and parts thereof",
+          "Japan ..."
+        ]
+      ],
+      [
+        37,
+        [
+          "Watches, and parts thereof",
+          "Switzerland ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p550:t1",
+        "year_volume": "1896",
+        "pdf_page": "550",
+        "printed_page": "U 29",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "Paper and Pasteboard:",
+        "article_as_printed": "Watches, and parts thereof",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Switzerland",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1460 40",
+        "value": "1460.40",
+        "row_kind": "country",
+        "note": "source row 37; in-page column layout anchored by explicitly mirrored quantity units on source row 11; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "import",
+    "table_id": "bb1896:p561:t1",
+    "source_row": 60,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        "Rate, and when imposed",
+        "",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "",
+        "",
+        "",
+        "",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Gross amount received in currency.",
+        "Rate, and when imposed",
+        "",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "",
+      "Germany ...",
+      "1",
+      "—",
+      "1",
+      "—",
+      "25",
+      "0",
+      "1",
+      "63",
+      "",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        51,
+        [
+          "— double-barrelled and revolvers",
+          "For. Coun."
+        ]
+      ],
+      [
+        52,
+        [
+          "— double-barrelled and revolvers",
+          "China ..."
+        ]
+      ],
+      [
+        54,
+        [
+          "Cartridges ...",
+          "United Kingdom..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p561:t1",
+        "year_volume": "1896",
+        "pdf_page": "561",
+        "printed_page": "U 40",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "Cartridges ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Germany",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_total",
+        "value_as_printed": "1",
+        "value": "1",
+        "row_kind": "country",
+        "note": "source row 60; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1896:p561:t1",
+        "year_volume": "1896",
+        "pdf_page": "561",
+        "printed_page": "U 40",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "Cartridges ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Germany",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "1",
+        "value": "1",
+        "row_kind": "country",
+        "note": "source row 60; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1896:p561:t1",
+        "year_volume": "1896",
+        "pdf_page": "561",
+        "printed_page": "U 40",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "Cartridges ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Germany",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "25 0",
+        "value": "25.00",
+        "row_kind": "country",
+        "note": "source row 60; money cells joined"
+      },
+      {
+        "table_id": "bb1896:p561:t1",
+        "year_volume": "1896",
+        "pdf_page": "561",
+        "printed_page": "U 40",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "Arms and Ammunition:",
+        "article_as_printed": "Cartridges ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Germany",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "1 63",
+        "value": "1.63",
+        "row_kind": "country",
+        "note": "source row 60; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "import",
+    "table_id": "bb1896:p568:t1",
+    "source_row": 12,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "doz.",
+        "pkg.",
+        "doz.",
+        "pkg.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed.",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "French India ...",
+      "13\\frac{9}{12}",
+      "—",
+      "13\\frac{9}{12}",
+      "—",
+      "40",
+      "5",
+      "2",
+      "62",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        10,
+        [
+          "Umbrellas and Parasols ...",
+          "Germany ..."
+        ]
+      ],
+      [
+        11,
+        [
+          "Umbrellas and Parasols ...",
+          "Japan ..."
+        ]
+      ],
+      [
+        12,
+        [
+          "French India ...",
+          "13\\frac{9}{12}"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p568:t1",
+        "year_volume": "1896",
+        "pdf_page": "568",
+        "printed_page": "U 47",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "& 71 packages",
+        "article_as_printed": "Umbrellas and Parasols ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "French India",
+        "unit_as_printed": "doz.",
+        "measure": "quantity_total",
+        "value_as_printed": "13\\frac{9}{12}",
+        "value": "13.75",
+        "row_kind": "country",
+        "note": "source row 12; missing article cell restored; country anchored at source column 0; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1896:p568:t1",
+        "year_volume": "1896",
+        "pdf_page": "568",
+        "printed_page": "U 47",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "& 71 packages",
+        "article_as_printed": "Umbrellas and Parasols ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "French India",
+        "unit_as_printed": "doz.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "13\\frac{9}{12}",
+        "value": "13.75",
+        "row_kind": "country",
+        "note": "source row 12; missing article cell restored; country anchored at source column 0; unit carried from above; separate quantity unit column"
+      },
+      {
+        "table_id": "bb1896:p568:t1",
+        "year_volume": "1896",
+        "pdf_page": "568",
+        "printed_page": "U 47",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "& 71 packages",
+        "article_as_printed": "Umbrellas and Parasols ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "French India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "40 5",
+        "value": "40.05",
+        "row_kind": "country",
+        "note": "source row 12; missing article cell restored; country anchored at source column 0; money cells joined"
+      },
+      {
+        "table_id": "bb1896:p568:t1",
+        "year_volume": "1896",
+        "pdf_page": "568",
+        "printed_page": "U 47",
+        "flow": "import",
+        "class_as_printed": "Raw Materials for Textile Manufactures:",
+        "group_as_printed": "& 71 packages",
+        "article_as_printed": "Umbrellas and Parasols ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "French India",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "2 62",
+        "value": "2.62",
+        "row_kind": "country",
+        "note": "source row 12; missing article cell restored; country anchored at source column 0; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "export",
+    "table_id": "bb1896:p574:t1",
+    "source_row": 18,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "",
+      "3 0 0",
+      "14 3 14",
+      "17 3 14",
+      "114 0",
+      "403 0",
+      "517 0",
+      "Do."
+    ],
+    "nearby_labels": [
+      [
+        10,
+        [
+          "Birds' Nests",
+          "Br. Col. Hongkong"
+        ]
+      ],
+      [
+        13,
+        [
+          "Beer and Ale",
+          "Br. Col. British India"
+        ]
+      ],
+      [
+        16,
+        [
+          "Bread and Biscuits",
+          "Br. Col. British India"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "3 0 0",
+        "value": "3.0000",
+        "row_kind": "article_total",
+        "note": "source row 18; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "14 3 14",
+        "value": "14.8750",
+        "row_kind": "article_total",
+        "note": "source row 18; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "17 3 14",
+        "value": "17.8750",
+        "row_kind": "article_total",
+        "note": "source row 18; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "114 0",
+        "value": "114.00",
+        "row_kind": "article_total",
+        "note": "source row 18; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "403 0",
+        "value": "403.00",
+        "row_kind": "article_total",
+        "note": "source row 18; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p574:t1",
+        "year_volume": "1896",
+        "pdf_page": "574",
+        "printed_page": "U 53",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Bread and Biscuits",
+        "country_group_as_printed": "",
+        "country_as_printed": "",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "517 0",
+        "value": "517.00",
+        "row_kind": "article_total",
+        "note": "source row 18; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "export",
+    "table_id": "bb1896:p579:t1",
+    "source_row": 55,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Tea Fund.*",
+        "Duty.*"
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Tea Fund.*",
+        "Duty.*"
+      ]
+    ],
+    "source_cells": [
+      "",
+      "Nicobar Islands ...",
+      "—",
+      "— 1 0 0",
+      "— 1 0 0",
+      "—",
+      "5 0",
+      "5 0",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        48,
+        [
+          "Vinegar ...",
+          "Br. Col."
+        ]
+      ],
+      [
+        49,
+        [
+          "Wines, French, in bottle",
+          "British India ..."
+        ]
+      ],
+      [
+        51,
+        [
+          "Yams ...",
+          "Br. Col."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p579:t1",
+        "year_volume": "1896",
+        "pdf_page": "579",
+        "printed_page": "U 58",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Yams ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "1 0 0",
+        "value": "1.0000",
+        "row_kind": "country",
+        "note": "source row 55; article heading on row above: bb1896:p579:t1 row 51; unit carried from above; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p579:t1",
+        "year_volume": "1896",
+        "pdf_page": "579",
+        "printed_page": "U 58",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Yams ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "1 0 0",
+        "value": "1.0000",
+        "row_kind": "country",
+        "note": "source row 55; article heading on row above: bb1896:p579:t1 row 51; unit carried from above; multiple units explicitly printed in quantity cell; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p579:t1",
+        "year_volume": "1896",
+        "pdf_page": "579",
+        "printed_page": "U 58",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Yams ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "5 0",
+        "value": "5.00",
+        "row_kind": "country",
+        "note": "source row 55; article heading on row above: bb1896:p579:t1 row 51; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p579:t1",
+        "year_volume": "1896",
+        "pdf_page": "579",
+        "printed_page": "U 58",
+        "flow": "export",
+        "class_as_printed": "Articles of food and drink:",
+        "group_as_printed": "",
+        "article_as_printed": "Yams ...",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Nicobar Islands",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "5 0",
+        "value": "5.00",
+        "row_kind": "country",
+        "note": "source row 55; article heading on row above: bb1896:p579:t1 row 51; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "export",
+    "table_id": "bb1896:p585:t1",
+    "source_row": 36,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Medicine ...",
+      "Nux Vomica ...",
+      "United Kingdom ...",
+      "cwt. 33 2 11",
+      "cwt. —",
+      "cwt. 33 2 11",
+      "560 0",
+      "—",
+      "560 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        34,
+        [
+          "Medicine ...",
+          "Maldivie Islands ..."
+        ]
+      ],
+      [
+        35,
+        [
+          "Medicine ...",
+          ""
+        ]
+      ],
+      [
+        36,
+        [
+          "Medicine ...",
+          "Nux Vomica ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p585:t1",
+        "year_volume": "1896",
+        "pdf_page": "585",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(e) Chemical and Medicinal Preparations:",
+        "article_as_printed": "Nux Vomica ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "33 2 11",
+        "value": "33.5982",
+        "row_kind": "country",
+        "note": "source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p585:t1",
+        "year_volume": "1896",
+        "pdf_page": "585",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(e) Chemical and Medicinal Preparations:",
+        "article_as_printed": "Nux Vomica ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "33 2 11",
+        "value": "33.5982",
+        "row_kind": "country",
+        "note": "source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1896:p585:t1",
+        "year_volume": "1896",
+        "pdf_page": "585",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(e) Chemical and Medicinal Preparations:",
+        "article_as_printed": "Nux Vomica ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "560 0",
+        "value": "560.00",
+        "row_kind": "country",
+        "note": "source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p585:t1",
+        "year_volume": "1896",
+        "pdf_page": "585",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(e) Chemical and Medicinal Preparations:",
+        "article_as_printed": "Nux Vomica ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "560 0",
+        "value": "560.00",
+        "row_kind": "country",
+        "note": "source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "export",
+    "table_id": "bb1896:p592:t1",
+    "source_row": 54,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Merchandise",
+      "Maldiv Islands",
+      "—",
+      "26",
+      "— 26",
+      "—",
+      "655 0",
+      "655 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        52,
+        [
+          "Merchandise",
+          "For. Coun."
+        ]
+      ],
+      [
+        53,
+        [
+          "Merchandise",
+          "French India"
+        ]
+      ],
+      [
+        54,
+        [
+          "Merchandise",
+          "Maldiv Islands"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p592:t1",
+        "year_volume": "1896",
+        "pdf_page": "592",
+        "printed_page": "U 71",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Merchandise",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "packages",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "26",
+        "value": "26",
+        "row_kind": "country",
+        "note": "source row 54; unit carried from above"
+      },
+      {
+        "table_id": "bb1896:p592:t1",
+        "year_volume": "1896",
+        "pdf_page": "592",
+        "printed_page": "U 71",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Merchandise",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "pkgs.",
+        "measure": "quantity_total",
+        "value_as_printed": "26",
+        "value": "26",
+        "row_kind": "country",
+        "note": "source row 54; unit carried from above; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1896:p592:t1",
+        "year_volume": "1896",
+        "pdf_page": "592",
+        "printed_page": "U 71",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Merchandise",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "655 0",
+        "value": "655.00",
+        "row_kind": "country",
+        "note": "source row 54; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p592:t1",
+        "year_volume": "1896",
+        "pdf_page": "592",
+        "printed_page": "U 71",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Merchandise",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "655 0",
+        "value": "655.00",
+        "row_kind": "country",
+        "note": "source row 54; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1896",
+    "flow": "export",
+    "table_id": "bb1896:p598:t1",
+    "source_row": 51,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average prices fixed for the value, if calculated officially.",
+        "",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average prices fixed for the value, if calculated officially.",
+        "",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Tallow and Grease",
+      "British India ...",
+      "—",
+      "—",
+      "—",
+      "1040 0",
+      "—",
+      "1040 0",
+      "Do.",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        49,
+        [
+          "Military ...",
+          ""
+        ]
+      ],
+      [
+        50,
+        [
+          "Tallow and Grease",
+          "Br. Col."
+        ]
+      ],
+      [
+        51,
+        [
+          "Tallow and Grease",
+          "British India ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1896:p598:t1",
+        "year_volume": "1896",
+        "pdf_page": "598",
+        "printed_page": "U 77",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Tallow and Grease",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "1040 0",
+        "value": "1040.00",
+        "row_kind": "country",
+        "note": "source row 51; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1896:p598:t1",
+        "year_volume": "1896",
+        "pdf_page": "598",
+        "printed_page": "U 77",
+        "flow": "export",
+        "class_as_printed": "Raw Materials:",
+        "group_as_printed": "(f) All other Articles either manufactured or partly manufactured:",
+        "article_as_printed": "Tallow and Grease",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1040 0",
+        "value": "1040.00",
+        "row_kind": "country",
+        "note": "source row 51; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "import",
+    "table_id": "bb1900:p571:t1",
+    "source_row": 32,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty.",
+        ""
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed.",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Beer and Ale— Bottled",
+      "New South Wales ...",
+      "76 21½",
+      "76 21½",
+      "230 0",
+      "",
+      "13 6",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        30,
+        [
+          "Beer and Ale— Bottled",
+          "Br. Col."
+        ]
+      ],
+      [
+        31,
+        [
+          "Beer and Ale— Bottled",
+          "British India ..."
+        ]
+      ],
+      [
+        32,
+        [
+          "Beer and Ale— Bottled",
+          "New South Wales ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "gals.",
+        "measure": "quantity_total",
+        "value_as_printed": "76",
+        "value": "76",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "gills",
+        "measure": "quantity_total",
+        "value_as_printed": "21½",
+        "value": "21.5",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "gals.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "76",
+        "value": "76",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "gills",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "21½",
+        "value": "21.5",
+        "row_kind": "country",
+        "note": "source row 32; unit carried from above; multiple units explicitly printed in quantity cell"
+      },
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "230 0",
+        "value": "230.00",
+        "row_kind": "country",
+        "note": "source row 32; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p571:t1",
+        "year_volume": "1900",
+        "pdf_page": "571",
+        "printed_page": "U 7",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Beer and Ale— Bottled",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "New South Wales",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "13 6",
+        "value": "13.06",
+        "row_kind": "country",
+        "note": "source row 32; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "import",
+    "table_id": "bb1900:p579:t1",
+    "source_row": 19,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "D",
+        "D"
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially.)",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "Salt— Refined",
+      "... United Kingdom ...",
+      "cwt. 651 0 13½",
+      "cwt. 651 0 13½",
+      "16278 7",
+      "",
+      "1391 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        16,
+        [
+          "Sago in bulk",
+          "British India ..."
+        ]
+      ],
+      [
+        17,
+        [
+          "Sago in bulk",
+          "Straits Settlements"
+        ]
+      ],
+      [
+        19,
+        [
+          "Salt— Refined",
+          "... United Kingdom ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p579:t1",
+        "year_volume": "1900",
+        "pdf_page": "579",
+        "printed_page": "U 15",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Salt— Refined",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "651 0 13½",
+        "value": "651.1205",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p579:t1",
+        "year_volume": "1900",
+        "pdf_page": "579",
+        "printed_page": "U 15",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Salt— Refined",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "651 0 13½",
+        "value": "651.1205",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p579:t1",
+        "year_volume": "1900",
+        "pdf_page": "579",
+        "printed_page": "U 15",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Salt— Refined",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "16278 7",
+        "value": "16278.07",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p579:t1",
+        "year_volume": "1900",
+        "pdf_page": "579",
+        "printed_page": "U 15",
+        "flow": "import",
+        "class_as_printed": "I.",
+        "group_as_printed": "(2) Food and Drink:",
+        "article_as_printed": "Salt— Refined",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "1391 0",
+        "value": "1391.00",
+        "row_kind": "country",
+        "note": "source row 19; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "import",
+    "table_id": "bb1900:p593:t1",
+    "source_row": 47,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "British India",
+      "20 2 0",
+      "20 2 0",
+      "128",
+      "50",
+      "—",
+      "—"
+    ],
+    "nearby_labels": [
+      [
+        39,
+        [
+          "Unenumerated—",
+          "United Kingdom"
+        ]
+      ],
+      [
+        40,
+        [
+          "Dutiable",
+          "United Kingdom"
+        ]
+      ],
+      [
+        46,
+        [
+          "Free",
+          "Br. Col."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p593:t1",
+        "year_volume": "1900",
+        "pdf_page": "593",
+        "printed_page": "U 29",
+        "flow": "import",
+        "class_as_printed": "II.—Raw Materials.",
+        "group_as_printed": "(b) Miscellaneous.",
+        "article_as_printed": "Free",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "20 2 0",
+        "value": "20.5000",
+        "row_kind": "country",
+        "note": "source row 47; article heading on row above: bb1900:p593:t1 row 46; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p593:t1",
+        "year_volume": "1900",
+        "pdf_page": "593",
+        "printed_page": "U 29",
+        "flow": "import",
+        "class_as_printed": "II.—Raw Materials.",
+        "group_as_printed": "(b) Miscellaneous.",
+        "article_as_printed": "Free",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "20 2 0",
+        "value": "20.5000",
+        "row_kind": "country",
+        "note": "source row 47; article heading on row above: bb1900:p593:t1 row 46; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p593:t1",
+        "year_volume": "1900",
+        "pdf_page": "593",
+        "printed_page": "U 29",
+        "flow": "import",
+        "class_as_printed": "II.—Raw Materials.",
+        "group_as_printed": "(b) Miscellaneous.",
+        "article_as_printed": "Free",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "128 50",
+        "value": "128.50",
+        "row_kind": "country",
+        "note": "source row 47; article heading on row above: bb1900:p593:t1 row 46; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "import",
+    "table_id": "bb1900:p607:t1",
+    "source_row": 38,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency.",
+        "Value in currency.",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "United Kingdom ...",
+      "40",
+      "40",
+      "4130",
+      "75",
+      "—",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        22,
+        [
+          "Copperah",
+          "Br. Col."
+        ]
+      ],
+      [
+        27,
+        [
+          "Corks",
+          "United Kingdom ..."
+        ]
+      ],
+      [
+        37,
+        [
+          "Drawing Materials",
+          "United Kingdom ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p607:t1",
+        "year_volume": "1900",
+        "pdf_page": "607",
+        "printed_page": "U 43",
+        "flow": "import",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(3) Other.",
+        "article_as_printed": "Drawing Materials",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cases",
+        "measure": "quantity_total",
+        "value_as_printed": "40",
+        "value": "40",
+        "row_kind": "country",
+        "note": "source row 38; article heading on row above: bb1900:p607:t1 row 37; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p607:t1",
+        "year_volume": "1900",
+        "pdf_page": "607",
+        "printed_page": "U 43",
+        "flow": "import",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(3) Other.",
+        "article_as_printed": "Drawing Materials",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cases",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "40",
+        "value": "40",
+        "row_kind": "country",
+        "note": "source row 38; article heading on row above: bb1900:p607:t1 row 37; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p607:t1",
+        "year_volume": "1900",
+        "pdf_page": "607",
+        "printed_page": "U 43",
+        "flow": "import",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(3) Other.",
+        "article_as_printed": "Drawing Materials",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "4130 75",
+        "value": "4130.75",
+        "row_kind": "country",
+        "note": "source row 38; article heading on row above: bb1900:p607:t1 row 37; money cells joined"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "import",
+    "table_id": "bb1900:p619:t1",
+    "source_row": 16,
+    "headers": [
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Value in currency",
+        "Value in currency",
+        "Duty.",
+        "Duty."
+      ],
+      [
+        "Articles.",
+        "Countries whence imported.",
+        "Total quantities imported.",
+        "Quantities entered for home consumption.",
+        "Of total imports.",
+        "Average price fixed for the value (if calculated officially).",
+        "Gross amount received in currency.",
+        "Rate, and when imposed."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "France ...",
+      "0 2 0",
+      "0 2 0",
+      "29 0",
+      "",
+      "1 62",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        2,
+        [
+          "II.—Manufactured Articles.",
+          "II.—Manufactured Articles."
+        ]
+      ],
+      [
+        3,
+        [
+          "3) Other Shot",
+          "United Kingdom ..."
+        ]
+      ],
+      [
+        7,
+        [
+          "Soap—Toilet",
+          "United Kingdom ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p619:t1",
+        "year_volume": "1900",
+        "pdf_page": "619",
+        "printed_page": "U 55",
+        "flow": "import",
+        "class_as_printed": "II.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Soap—Toilet",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "0 2 0",
+        "value": "0.5000",
+        "row_kind": "country",
+        "note": "source row 16; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p619:t1",
+        "year_volume": "1900",
+        "pdf_page": "619",
+        "printed_page": "U 55",
+        "flow": "import",
+        "class_as_printed": "II.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Soap—Toilet",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_home_consumption",
+        "value_as_printed": "0 2 0",
+        "value": "0.5000",
+        "row_kind": "country",
+        "note": "source row 16; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p619:t1",
+        "year_volume": "1900",
+        "pdf_page": "619",
+        "printed_page": "U 55",
+        "flow": "import",
+        "class_as_printed": "II.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Soap—Toilet",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "29 0",
+        "value": "29.00",
+        "row_kind": "country",
+        "note": "source row 16; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p619:t1",
+        "year_volume": "1900",
+        "pdf_page": "619",
+        "printed_page": "U 55",
+        "flow": "import",
+        "class_as_printed": "II.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Soap—Toilet",
+        "country_group_as_printed": "For. Coun.",
+        "country_as_printed": "France",
+        "unit_as_printed": "",
+        "measure": "duty_rs",
+        "value_as_printed": "1 62",
+        "value": "1.62",
+        "row_kind": "country",
+        "note": "source row 16; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "export",
+    "table_id": "bb1900:p628:t1",
+    "source_row": 37,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "",
+        ""
+      ]
+    ],
+    "source_cells": [
+      "Confectionery & Preserves",
+      "British India ...",
+      "15 1 8",
+      "23 2 20",
+      "39 0 0",
+      "409 0",
+      "758 80",
+      "1167 80",
+      "",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        35,
+        [
+          "Confectionery & Preserves",
+          "United Kingdom ..."
+        ]
+      ],
+      [
+        36,
+        [
+          "Confectionery & Preserves",
+          "Br. Col."
+        ]
+      ],
+      [
+        37,
+        [
+          "Confectionery & Preserves",
+          "British India ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "15 1 8",
+        "value": "15.3214",
+        "row_kind": "country",
+        "note": "source row 37; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "23 2 20",
+        "value": "23.6786",
+        "row_kind": "country",
+        "note": "source row 37; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "39 0 0",
+        "value": "39.0000",
+        "row_kind": "country",
+        "note": "source row 37; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "409 0",
+        "value": "409.00",
+        "row_kind": "country",
+        "note": "source row 37; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "758 80",
+        "value": "758.80",
+        "row_kind": "country",
+        "note": "source row 37; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p628:t1",
+        "year_volume": "1900",
+        "pdf_page": "628",
+        "printed_page": "U 64",
+        "flow": "export",
+        "class_as_printed": "",
+        "group_as_printed": "Coffee—",
+        "article_as_printed": "Confectionery & Preserves",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "British India",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1167 80",
+        "value": "1167.80",
+        "row_kind": "country",
+        "note": "source row 37; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "export",
+    "table_id": "bb1900:p634:t1",
+    "source_row": 44,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "",
+      "Queensland ...",
+      "3477",
+      "—",
+      "3477",
+      "1063 34",
+      "—",
+      "1063 34",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        38,
+        [
+          "II.—Raw materials.",
+          "II.—Raw materials."
+        ]
+      ],
+      [
+        39,
+        [
+          "(1) Textile—",
+          "(1) Textile—"
+        ]
+      ],
+      [
+        40,
+        [
+          "Cotton ...",
+          "United Kingdom ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p634:t1",
+        "year_volume": "1900",
+        "pdf_page": "634",
+        "printed_page": "U 70",
+        "flow": "export",
+        "class_as_printed": "II.—Raw materials.",
+        "group_as_printed": "(1) Textile—",
+        "article_as_printed": "Cotton ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "lb.",
+        "measure": "quantity_ceylon_produce",
+        "value_as_printed": "3477",
+        "value": "3477",
+        "row_kind": "country",
+        "note": "source row 44; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p634:t1",
+        "year_volume": "1900",
+        "pdf_page": "634",
+        "printed_page": "U 70",
+        "flow": "export",
+        "class_as_printed": "II.—Raw materials.",
+        "group_as_printed": "(1) Textile—",
+        "article_as_printed": "Cotton ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "lb.",
+        "measure": "quantity_total",
+        "value_as_printed": "3477",
+        "value": "3477",
+        "row_kind": "country",
+        "note": "source row 44; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p634:t1",
+        "year_volume": "1900",
+        "pdf_page": "634",
+        "printed_page": "U 70",
+        "flow": "export",
+        "class_as_printed": "II.—Raw materials.",
+        "group_as_printed": "(1) Textile—",
+        "article_as_printed": "Cotton ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "",
+        "measure": "value_ceylon_produce_rs",
+        "value_as_printed": "1063 34",
+        "value": "1063.34",
+        "row_kind": "country",
+        "note": "source row 44; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p634:t1",
+        "year_volume": "1900",
+        "pdf_page": "634",
+        "printed_page": "U 70",
+        "flow": "export",
+        "class_as_printed": "II.—Raw materials.",
+        "group_as_printed": "(1) Textile—",
+        "article_as_printed": "Cotton ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "1063 34",
+        "value": "1063.34",
+        "row_kind": "country",
+        "note": "source row 44; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "export",
+    "table_id": "bb1900:p645:t1",
+    "source_row": 4,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Tin Ware ...",
+      "United Kingdom ...",
+      "cwt. —",
+      "cwt. 1 0 0",
+      "cwt. 1 0 0",
+      "Rs. —",
+      "Rs. 200 0",
+      "Rs. 200 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        2,
+        [
+          "III.—Manufactured Articles.",
+          "III.—Manufactured Articles."
+        ]
+      ],
+      [
+        3,
+        [
+          "(2) Of Metal (other than Machinery).",
+          "(2) Of Metal (other than Machinery)."
+        ]
+      ],
+      [
+        4,
+        [
+          "Tin Ware ...",
+          "United Kingdom ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p645:t1",
+        "year_volume": "1900",
+        "pdf_page": "645",
+        "printed_page": "U 81",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(2) Of Metal (other than Machinery).",
+        "article_as_printed": "Tin Ware ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "1 0 0",
+        "value": "1.0000",
+        "row_kind": "country",
+        "note": "source row 4; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p645:t1",
+        "year_volume": "1900",
+        "pdf_page": "645",
+        "printed_page": "U 81",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(2) Of Metal (other than Machinery).",
+        "article_as_printed": "Tin Ware ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "1 0 0",
+        "value": "1.0000",
+        "row_kind": "country",
+        "note": "source row 4; shared quantity unit explicitly printed in the row; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p645:t1",
+        "year_volume": "1900",
+        "pdf_page": "645",
+        "printed_page": "U 81",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(2) Of Metal (other than Machinery).",
+        "article_as_printed": "Tin Ware ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "200 0",
+        "value": "200.00",
+        "row_kind": "country",
+        "note": "source row 4; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p645:t1",
+        "year_volume": "1900",
+        "pdf_page": "645",
+        "printed_page": "U 81",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "(2) Of Metal (other than Machinery).",
+        "article_as_printed": "Tin Ware ...",
+        "country_group_as_printed": "",
+        "country_as_printed": "United Kingdom",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "200 0",
+        "value": "200.00",
+        "row_kind": "country",
+        "note": "source row 4; shared quantity unit explicitly printed in the row; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "export",
+    "table_id": "bb1900:p650:t1",
+    "source_row": 24,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Other",
+      "Maldiv Islands",
+      "—",
+      "6",
+      "6",
+      "—",
+      "500 0",
+      "500 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        22,
+        [
+          "Other",
+          "Br. Col."
+        ]
+      ],
+      [
+        23,
+        [
+          "Other",
+          "British India"
+        ]
+      ],
+      [
+        24,
+        [
+          "Other",
+          "Maldiv Islands"
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p650:t1",
+        "year_volume": "1900",
+        "pdf_page": "650",
+        "printed_page": "U 86",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "Furniture",
+        "article_as_printed": "Other",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "packages",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "6",
+        "value": "6",
+        "row_kind": "country",
+        "note": "source row 24; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p650:t1",
+        "year_volume": "1900",
+        "pdf_page": "650",
+        "printed_page": "U 86",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "Furniture",
+        "article_as_printed": "Other",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "packages",
+        "measure": "quantity_total",
+        "value_as_printed": "6",
+        "value": "6",
+        "row_kind": "country",
+        "note": "source row 24; unit carried from above"
+      },
+      {
+        "table_id": "bb1900:p650:t1",
+        "year_volume": "1900",
+        "pdf_page": "650",
+        "printed_page": "U 86",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "Furniture",
+        "article_as_printed": "Other",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "500 0",
+        "value": "500.00",
+        "row_kind": "country",
+        "note": "source row 24; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p650:t1",
+        "year_volume": "1900",
+        "pdf_page": "650",
+        "printed_page": "U 86",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "Furniture",
+        "article_as_printed": "Other",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Maldiv Islands",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "500 0",
+        "value": "500.00",
+        "row_kind": "country",
+        "note": "source row 24; merged rupees and cents"
+      }
+    ]
+  },
+  {
+    "volume": "1900",
+    "flow": "export",
+    "table_id": "bb1900:p653:t1",
+    "source_row": 31,
+    "headers": [
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Quantities.",
+        "Quantities.",
+        "Quantities.",
+        "Value in currency.",
+        "Value in currency.",
+        "Value in currency.",
+        "Average price fixed for the value, if calculated officially."
+      ],
+      [
+        "Articles.",
+        "Countries to which exported.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Produce and manufactures of the colony.",
+        "British, Foreign, and other colonial produce and manufactures.",
+        "Total.",
+        "Average price fixed for the value, if calculated officially."
+      ]
+    ],
+    "source_cells": [
+      "Unenumerated ...",
+      "Queensland ...",
+      "—",
+      "1 0 8",
+      "1 0 8",
+      "—",
+      "40 0",
+      "40 0",
+      ""
+    ],
+    "nearby_labels": [
+      [
+        29,
+        [
+          "Unenumerated ...",
+          "New Zealand ..."
+        ]
+      ],
+      [
+        30,
+        [
+          "Unenumerated ...",
+          "Other British Possessions in Asia ..."
+        ]
+      ],
+      [
+        31,
+        [
+          "Unenumerated ...",
+          "Queensland ..."
+        ]
+      ]
+    ],
+    "observations": [
+      {
+        "table_id": "bb1900:p653:t1",
+        "year_volume": "1900",
+        "pdf_page": "653",
+        "printed_page": "U 89",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Unenumerated ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_other_produce",
+        "value_as_printed": "1 0 8",
+        "value": "1.0714",
+        "row_kind": "country",
+        "note": "source row 31; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p653:t1",
+        "year_volume": "1900",
+        "pdf_page": "653",
+        "printed_page": "U 89",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Unenumerated ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "cwt.",
+        "measure": "quantity_total",
+        "value_as_printed": "1 0 8",
+        "value": "1.0714",
+        "row_kind": "country",
+        "note": "source row 31; unit carried from above; cwt qr lb"
+      },
+      {
+        "table_id": "bb1900:p653:t1",
+        "year_volume": "1900",
+        "pdf_page": "653",
+        "printed_page": "U 89",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Unenumerated ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "",
+        "measure": "value_other_produce_rs",
+        "value_as_printed": "40 0",
+        "value": "40.00",
+        "row_kind": "country",
+        "note": "source row 31; merged rupees and cents"
+      },
+      {
+        "table_id": "bb1900:p653:t1",
+        "year_volume": "1900",
+        "pdf_page": "653",
+        "printed_page": "U 89",
+        "flow": "export",
+        "class_as_printed": "III.—Manufactured Articles.",
+        "group_as_printed": "",
+        "article_as_printed": "Unenumerated ...",
+        "country_group_as_printed": "Br. Col.",
+        "country_as_printed": "Queensland",
+        "unit_as_printed": "",
+        "measure": "value_total_rs",
+        "value_as_printed": "40 0",
+        "value": "40.00",
+        "row_kind": "country",
+        "note": "source row 31; merged rupees and cents"
+      }
+    ]
+  }
+]

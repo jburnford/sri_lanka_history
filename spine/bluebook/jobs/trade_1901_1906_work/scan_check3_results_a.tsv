@@ -1,0 +1,44 @@
+sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	value_as_printed	figure_ok	column_ok	article_ok	country_ok	unit_ok	class_group_ok	verdict	what_the_page_shows
+1	bb1901:p571:t1	571	Beer and Ale— Bottled	China	quantity_total	18	yes	yes	yes	yes	yes	yes	ok	
+2	bb1901:p571:t1	571	Beef— Tinned	South Australia	value_total_rs	158	yes	yes	yes	yes	yes	yes	ok	
+3	bb1901:p573:t1	573	Confectionery	Victoria	quantity_home_consumption	28840	yes	yes	yes	yes	yes	yes	ok	
+4	bb1901:p573:t1	573	Coffee— Unmixed	China	quantity_home_consumption	112	yes	yes	yes	yes	yes	yes	ok	
+5	bb1901:p575:t1	575	Fruit, fresh— Other	France	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	
+6	bb1901:p575:t1	575	Fruit, fresh— Apples	Tasmania	quantity_home_consumption	65	yes	yes	yes	yes	yes	yes	ok	
+7	bb1901:p577:t1	577	Grain— Peas	France	value_total_rs	3	yes	yes	yes	yes	yes	yes	ok	
+8	bb1901:p582:t1	582	Wines, still— Claret— In bottle	Germany	value_total_rs	1259	yes	yes	yes	yes	yes	yes	ok	
+9	bb1901:p584:t1	584	Wines, still— Other— In wood	Portugal	value_total_rs	1478	yes	yes	yes	yes	yes	yes	ok	
+10	bb1901:p584:t1	584	Unenumerated— Dutiable	Queensland	quantity_total	274	yes	yes	yes	yes	no	yes	wrong	Figure 274 right, but the row carries no unit; page prints cwt. (ditto marks under 'cwt.' on the United Kingdom line). Heading 'Unenumerated—' is indented like a sub-heading of Wines, still, but is the Food and Drink unenumerated item.
+11	bb1901:p584:t1	584	Unenumerated— Dutiable	Switzerland	quantity_total	—	yes	yes	yes	yes	no	yes	wrong	Dash right, but the row carries no unit; page prints cwt. (ditto) for Unenumerated—Dutiable.
+12	bb1901:p597:t1	597	Other	Italy	quantity_total	713	yes	yes	yes	yes	yes	yes	ok	
+13	bb1901:p604:t1	604	Guns, double	New South Wales	quantity_total	3	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Arms—' with line 'Guns, double' beneath it (Arms— Guns, double); the Arms level is missing. Figure 3 correct.
+14	bb1901:p604:t1	604	Guns, double	France	value_total_rs	631	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Arms— Guns, double'; the Arms level is missing. Figure 631 correct.
+15	bb1901:p608:t1	608	Chemists' Sundries	Switzerland	quantity_total	3	yes	yes	yes	yes	yes	yes	ok	
+16	bb1901:p610:t1	610	Fancy articles		quantity_home_consumption	2106	yes	yes	yes	yes	yes	yes	ok	
+17	bb1901:p611:t1	611	Glass— Other	Belgium	quantity_total	118	yes	yes	yes	yes	yes	yes	ok	
+18	bb1901:p614:t1	614	Machinery— Other— Dutiable	Maldiv Islands	quantity_home_consumption	—	yes	yes	yes	yes	yes	yes	ok	
+19	bb1901:p618:t1	618	Paper— Other— Free	United Kingdom	quantity_home_consumption	1494	yes	yes	yes	yes	yes	yes	ok	
+20	bb1901:p618:t1	618	Paper— Other— Dutiable	Italy	value_total_rs	505	yes	yes	yes	yes	yes	yes	ok	
+21	bb1901:p618:t1	618	Perfumery	Austria	quantity_total	2	yes	yes	yes	yes	yes	yes	ok	
+22	bb1901:p619:t1	619	Materials	India (exc. British)	value_total_rs	20	yes	yes	no	yes	yes	yes	wrong	Article printed is 'Printing Materials' (not 'Materials'). India (exc. British) value 20 correct.
+23	bb1901:p629:t1	629	Cattle	British India	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+24	bb1901:p630:t1	630	Coffee— Arabian— Plantation	Queensland	value_ceylon_produce_rs	902	yes	yes	yes	yes	yes	yes	ok	
+25	bb1901:p631:t1	631	Fruit— Preserved		quantity_total	377	yes	yes	yes	yes	yes	yes	ok	
+26	bb1901:p633:t1	633	Spices— Pepper	British India	value_total_rs	5120	yes	yes	yes	yes	yes	yes	ok	
+27	bb1901:p635:t1	635	Tea	Philippines	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+28	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	143025118	yes	yes	yes	yes	yes	yes	ok	
+29	bb1901:p635:t1	635	Tea	Russia in Europe	quantity_ceylon_produce	9517833	yes	yes	yes	yes	yes	yes	ok	
+30	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	1250490	yes	yes	yes	yes	yes	yes	ok	
+31	bb1901:p635:t1	635	Tea	Switzerland	quantity_ceylon_produce	1154	yes	yes	yes	yes	yes	yes	ok	
+32	bb1901:p635:t1	635	Tea	France	quantity_ceylon_produce	349205	yes	yes	yes	yes	yes	yes	ok	
+33	bb1901:p635:t1	635	Tea	Tasmania	quantity_total	124414	yes	yes	yes	yes	yes	yes	ok	
+34	bb1901:p635:t1	635	Tea	Germany	quantity_total	658535	yes	yes	yes	yes	yes	yes	ok	
+35	bb1901:p639:t1	639	Plumbago	New Zealand	value_ceylon_produce_rs	709	yes	yes	yes	yes	yes	yes	ok	
+36	bb1901:p641:t1	641	Apparel, made up	Egypt	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+37	bb1901:p645:t1	645	Guns, double	Burma	quantity_ceylon_produce	—	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Arms— Guns, double' (Arms— heading directly under '(3) Other.'); the Arms level is missing. Dash in Produce-of-Colony quantity correct.
+38	bb1901:p645:t1	645	Plate— Silver or Silver-gilt	U. S. of America	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+39	bb1901:p646:t1	646	Coir— Matting	New South Wales	quantity_total	24	yes	yes	yes	yes	yes	yes	ok	
+40	bb1901:p647:t1	647	Coir— Rope	Egypt	value_ceylon_produce_rs	2030	yes	yes	yes	yes	yes	yes	ok	
+41	bb1901:p651:t1	651	Oil— Cocoanut	Belgium	quantity_ceylon_produce	6417	yes	yes	yes	yes	yes	yes	ok	
+42	bb1901:p651:t1	651	Mats, Mat Bags, and Baskets	United Kingdom	value_other_produce_rs	60	yes	yes	yes	yes	yes	yes	ok	
+43	bb1901:p652:t1	652	Perfumery	United Kingdom	quantity_ceylon_produce	8	yes	yes	yes	yes	yes	yes	ok	

@@ -1,0 +1,355 @@
+{
+  "header_checks": "passed",
+  "emitted_source_rows": 23195,
+  "skipped_source_rows": 18639,
+  "emitted_skipped_overlap": 0,
+  "missed_ledger_headers": [],
+  "exact_scalar_differences_verified": 3618,
+  "exact_vector_differences_verified": 934,
+  "inventory": [
+    {
+      "volume": "1896",
+      "ledger_tables": 71,
+      "import_tables": 43,
+      "export_tables": 28,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "tables_with_output": 60,
+      "tables_with_skips": 69
+    },
+    {
+      "volume": "1880",
+      "ledger_tables": 37,
+      "import_tables": 22,
+      "export_tables": 15,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "tables_with_output": 35,
+      "tables_with_skips": 37
+    },
+    {
+      "volume": "1881",
+      "ledger_tables": 38,
+      "import_tables": 21,
+      "export_tables": 17,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "tables_with_output": 36,
+      "tables_with_skips": 38
+    },
+    {
+      "volume": "1882",
+      "ledger_tables": 36,
+      "import_tables": 20,
+      "export_tables": 16,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "tables_with_output": 32,
+      "tables_with_skips": 36
+    },
+    {
+      "volume": "1883",
+      "ledger_tables": 42,
+      "import_tables": 23,
+      "export_tables": 19,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19
+      ],
+      "tables_with_output": 34,
+      "tables_with_skips": 40
+    },
+    {
+      "volume": "1885",
+      "ledger_tables": 43,
+      "import_tables": 23,
+      "export_tables": 20,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        17,
+        19
+      ],
+      "tables_with_output": 37,
+      "tables_with_skips": 43
+    },
+    {
+      "volume": "1886",
+      "ledger_tables": 47,
+      "import_tables": 26,
+      "export_tables": 21,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "tables_with_output": 40,
+      "tables_with_skips": 47
+    },
+    {
+      "volume": "1887",
+      "ledger_tables": 50,
+      "import_tables": 29,
+      "export_tables": 21,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "tables_with_output": 47,
+      "tables_with_skips": 49
+    },
+    {
+      "volume": "1889b",
+      "ledger_tables": 53,
+      "import_tables": 30,
+      "export_tables": 23,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "tables_with_output": 50,
+      "tables_with_skips": 51
+    },
+    {
+      "volume": "1890",
+      "ledger_tables": 52,
+      "import_tables": 29,
+      "export_tables": 23,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19
+      ],
+      "tables_with_output": 48,
+      "tables_with_skips": 50
+    },
+    {
+      "volume": "1891",
+      "ledger_tables": 48,
+      "import_tables": 26,
+      "export_tables": 22,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "tables_with_output": 44,
+      "tables_with_skips": 48
+    },
+    {
+      "volume": "1892",
+      "ledger_tables": 54,
+      "import_tables": 30,
+      "export_tables": 24,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        21
+      ],
+      "tables_with_output": 48,
+      "tables_with_skips": 54
+    },
+    {
+      "volume": "1893",
+      "ledger_tables": 69,
+      "import_tables": 42,
+      "export_tables": 27,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "tables_with_output": 67,
+      "tables_with_skips": 62
+    },
+    {
+      "volume": "1894",
+      "ledger_tables": 66,
+      "import_tables": 40,
+      "export_tables": 26,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "tables_with_output": 59,
+      "tables_with_skips": 63
+    },
+    {
+      "volume": "1897",
+      "ledger_tables": 67,
+      "import_tables": 41,
+      "export_tables": 26,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20
+      ],
+      "tables_with_output": 59,
+      "tables_with_skips": 67
+    },
+    {
+      "volume": "1898",
+      "ledger_tables": 69,
+      "import_tables": 42,
+      "export_tables": 27,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18
+      ],
+      "tables_with_output": 64,
+      "tables_with_skips": 67
+    },
+    {
+      "volume": "1899",
+      "ledger_tables": 73,
+      "import_tables": 44,
+      "export_tables": 29,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        21
+      ],
+      "tables_with_output": 65,
+      "tables_with_skips": 72
+    },
+    {
+      "volume": "1900",
+      "ledger_tables": 82,
+      "import_tables": 53,
+      "export_tables": 29,
+      "columns": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "tables_with_output": 65,
+      "tables_with_skips": 70
+    }
+  ]
+}

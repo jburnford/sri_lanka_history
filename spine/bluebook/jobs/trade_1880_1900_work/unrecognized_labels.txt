@@ -1,0 +1,2519 @@
+339	Tea
+322	Fancy Articles
+322	Furniture
+251	Earthenware
+239	Toys
+233	Perfumery
+233	Carts and Carriages
+228	Tobacco, Cigars
+209	Jewellery
+199	Manufactured
+198	Confectionery and Preserves
+193	Instruments, Musical
+192	Glass and Glassware
+187	Articles
+187	Haberdashery and Millinery
+183	Soap
+174	Apparel, Wearing
+173	Hardware
+172	Provisions
+169	Books and Maps, printed
+169	Specimens illustrative of Natural History
+169	Seeds and Plants
+167	Matches
+167	Curiosities
+166	Haberdashery
+165	Hardware and Cutlery
+164	Curry Stuffs
+162	Rice
+156	Cinnamon
+152	Cardamoms
+152	Mats, Bags, and Baskets
+151	Flour, Wheat
+149	Other
+147	Cheese
+146	Cocoanuts
+145	Merchandise
+144	Cement
+144	Coir, Fibre
+138	Poonac
+138	Coffee, Plantation
+137	Cocoanut
+137	Clocks and Watches
+136	Ghee
+136	French, in bottle
+134	Spirits, Brandy
+133	Crackers
+133	Painters' Materials
+132	Cotton Goods
+129	Copperah
+129	Copperware
+129	Yarn
+128	Pearls and Precious Stones
+128	Plumbago
+126	Peas
+125	Tinware
+125	Stationery other than Paper
+124	Silks
+123	Prints and Pictures
+122	Pepper
+122	Boots and Shoes
+121	Butter
+121	Wearing
+120	Cowries and Shells
+120	Medicines
+119	Umbrellas
+118	Woods of sorts
+117	Unenumerated
+117	Piece Goods of mixed materials
+115	Potatoes
+115	Rope
+114	Dutch India
+113	Saddlery and Harness
+113	Biscuits
+112	Scientific
+110	Sago
+110	Oilmanstores
+110	Marine Stores
+110	Woollens
+109	Casks and Shooks
+109	Fish, dried and salted
+104	Cacao
+103	Plants, Shrubs, Trees, and Flower-roots
+102	Gin
+100	Glassware
+98	Bricks and Tiles
+97	Hides and Skins
+96	Unrefined
+95	Leadware
+93	Malt Liquor, in bottle
+92	Countries to which exported
+92	Medicine
+91	Ginger
+91	Stationery
+90	Countries whence imported
+90	Tortoise-shell
+87	Claret, in bottle
+87	Gingelly
+87	Stones of sorts
+87	Kerosine
+86	Prints, Engravings, and Photographs
+86	Printing Materials
+85	Cartridges
+85	Horses
+84	Liqueurs
+84	Stores, Government
+84	Native
+84	Ham and Bacon
+84	Shark Fins
+84	Whisky
+83	Cards, Playing
+83	Plantation
+83	Cotton manufacture
+82	Arabia
+82	Machinery
+81	China or Porcelain Earthenware and Red Pottery
+81	Umbrellas and Parasols
+80	Paddy
+80	Vegetable
+78	Zincware
+77	Coffee
+77	Wool
+76	Articles of food and drink
+76	French, in wood
+76	Cinchona Bark
+76	Plate and Platedware
+75	Pearls and Precious Stones (unset)
+75	Gummi
+74	Books, printed
+74	Wheat
+74	Coffee, Native
+73	For. Conn
+72	Gram
+72	Honey
+72	Beef and Pork, salted
+72	Thread
+72	Hats, Caps, Bonnets, &c
+72	Casks, Shooks, and Staves
+72	Bremen
+71	Bran
+71	Brassware
+71	Arms and Ammunition: Guns, single-barrelled
+70	Gunnies
+69	Images and Statuettes
+69	Port Said
+68	Claret, in wood
+68	Lime and Clay
+68	Beads
+68	Boats and Canoes
+68	Twist
+68	Spices, Cinnamon
+67	Specie
+66	Cutlery and Hardware
+66	of sorts
+65	Port, in bottle
+65	Saltpetre
+65	Tea Lead
+65	Furniture, Cabinet, and Upholstering wares
+65	Twine
+65	Fruit, unpreserved
+64	Dammar
+64	Vanilla
+63	Skins, dressed
+62	Spirits, Arrack
+62	Manufactures
+62	in wood
+62	Arecanuts
+61	double-barrelled
+61	of other materials
+61	Oil, Cinnamon
+61	Timber, Ebony
+60	Hops
+60	Images and Statues
+60	Minerals, Plumbago
+60	Tallow and Grease
+59	Spices
+59	Unmanufactured
+59	Spanish, in bottle
+59	Dutch Indies
+58	Coral Stones
+58	Lamps
+58	Coal and Coke
+58	Hosiery
+58	Machinery and Tools
+58	III.—Manufactured Articles
+57	Port, in wood
+57	Paper
+57	Liberian
+56	Leather, Boots and Shoes
+56	Sewing Machines
+56	Wearing Apparel
+56	Citronella
+56	Corks
+54	Photographic Materials
+54	Brushes
+54	Grain, Gram
+53	Chemicals, Chemical and Medicinal Preparations: Medicines
+53	Iron, Hoop
+52	Rosin
+52	Plated and Giltware
+52	Br. Col
+52	Candles
+52	Platedware
+51	Rum
+51	Vinegar
+51	Sapan
+50	Clocks and parts thereof
+50	Tea Chests
+50	Br. Col. British India
+49	Coir Stuffs
+49	Blacking
+49	Skins and Furs
+49	Indian Corn
+49	Ironwood
+49	Saddlery & Harness
+49	Oil, Citronella
+48	Fish
+48	Printing and Writing Paper
+48	Dyed
+48	Rugs (Coir)
+48	Dammer
+47	Railway Materials
+47	Birds' Nests
+47	Guns, double-barrelled
+46	Snuff
+46	Tar
+46	Haberdashery and Millinery, including Embroidery and Needlework
+46	Manure
+46	German, in bottle
+45	Cows
+45	Orchilla Weed
+45	Linen Manufactures
+45	Onions
+44	Sheep and Lambs
+44	Flannel
+44	Painters' Colours, &c
+44	Ivory
+44	Cement, Lime, and Clay
+43	Rattan
+43	Tombstones and Tablets
+43	Tanners' Bark
+43	Maldivo Islands
+43	Sugar, Candy and Refined
+42	Oats
+42	Salt
+42	Palm and Jaggery
+42	Jute
+42	Poultry
+42	Fibre, Kitool
+41	Nutmegs
+41	Copper Sheathing
+41	Gunpowder
+41	Horns of Sorts
+41	Coffee, Liberian
+40	Drawing Materials
+40	Woollen Manufactures, unenumerated
+40	Opium
+40	Beads of sorts
+40	Other Descriptions
+40	Iron
+40	Coconut
+40	Tinned
+40	Unenumerated— Dutiable
+39	Watches, and parts thereof
+39	Pistols, single-barrelled
+39	Cinnamon Leaf
+39	Shot
+39	Oil, Cocoanut
+39	Wines, Claret, in wood
+38	Whiskey
+38	Cotton Thread
+38	Iron, Galvanized
+38	Metals, Copperware
+38	Teak
+37	Fish, cured and salted
+37	Wrecks
+37	Coins of Silver, British
+37	Hoop
+37	Mustard
+37	Essential
+37	Hay
+37	Birds' Feathers
+37	Coir, Yarn
+36	Brimstone
+36	Carpets (not being Rugs)
+36	Arms and Ammunition : Guns, single-barrelled
+36	double-barrelled, and revolvers
+36	Dogs
+36	Seeds of sorts
+36	Tobacco: Cigars
+36	Steel, Cast
+36	Fish, dried & salted
+35	Pictures and Drawings by hand
+35	Felt
+35	Glass Plate, silvered or not
+35	Confectionery & Preserves
+35	Glassware and Glass
+35	Optical
+35	Waste
+35	Books and Maps, Printed
+35	Iron, Angle and Swedish Bar
+35	Pistols, double-barrelled, and revolvers
+35	Paper and Envelopes
+35	Coir Yarn
+35	Furniture, Cabinet, and Upholstery wares
+35	Plants, Shrubs, Trees, and Flower-root
+34	Arrowroot
+34	Marsala, in bottle
+34	Spanish, in wood
+34	Printed
+34	Hosiery of Wool
+34	Mats, Bags, and Baskets (empty)
+34	Acids
+34	Cotton Twist
+34	Unmanufactured and Hookah
+33	Confectionery
+33	Rifles, single-barrelled
+33	Hats and Bonnets of Straw
+33	Maldivie Islands
+33	Sugar, Candy and refined
+33	Satin
+33	Metals, wrought and unwrought: Brassware
+33	Manures, Bone
+32	Castorseed Poonac
+32	Charcoal
+32	Wines, French, in bottle
+32	Beeswax
+32	Steel, Blister
+32	Gallnuts
+32	Candles, Spermaceti, &c
+31	Wines, Sparkling, in bottle
+31	Marsala, in wood
+31	Ginger, in bottle
+31	Silks, Broad Stuffs, viz. : Silk and Satin
+31	Elephants
+31	Halmilla
+31	Books and Maps printed
+31	Timber
+31	Jaggery
+31	Gum
+31	Coir, Manufactured
+31	India (excluding British Possess.)
+30	Madeira, in bottle
+30	Quicksilver
+30	Marine Stores and Merchandise
+30	(e) Chemical and Medicinal Preparations: Arecanuts
+30	Military
+30	unmanufactured & Hookah
+30	Gunnies and Twine
+30	Cotton, Wool
+30	Bleached and Dyed
+30	Silks, Broad Stuffs, viz.: Silk and Satin
+30	Do
+30	Free
+29	Brass Wire
+29	Horses, Ponies, Stallions, Geldings, and Mares
+29	Paper and Stationery, &c
+29	Cutch
+28	Cider
+28	Marine and Naval Stores
+28	Guano
+28	(d) Apparel and Articles of personal use: Apparel, Wearing
+27	Beans
+27	Hams
+27	Brooms and Brushes of all kinds
+27	Cotton Manufactures
+27	Senna Leaves
+27	Fuze
+27	Window Glass and German Sheet
+27	Calves
+27	Laccadive Islands
+27	Arrapo
+27	Chanks
+27	Horns of sorts
+27	Areca-nuts
+27	Wines, Australian, in bottle
+27	Dutch possessions in India
+27	Tanks, Iron
+27	For Conn
+27	Stones, of sorts
+27	Machinery and Millwork : Other descriptions
+26	Lead, Sheet, Pipe, and Pig
+26	Olive
+26	Gunny Cloths and Bags
+26	Varnish
+26	Buttons and Studs not of Metal
+26	Military Stores
+26	Galvanized
+26	Casks, Shooks and Staves
+26	Palmyrah and Rush Mats and Mat Bags, and Rattan and Rattan Mats
+26	Sandalwood
+26	Peanuts
+26	Instruments, Scientific
+26	Cigars
+26	Cocoanut, De-siccated
+25	Tallow and Stearine
+25	Wax
+25	Wool, Berlin
+25	Sugar, refined
+25	Iron, Plate and Sheet
+25	manufactured
+25	Cinnamon leaf
+25	Iron, Bar, Flat, Rod, Nail Rod, &c
+25	Salt, refined
+25	Dutch Poss. in India
+25	Iron, Nails, &c
+25	Spices— Cardamoms
+24	Italian, in bottle
+24	Handkerchiefs, Scarfs, and Shawls
+24	Coins of Gold, British
+24	Other descriptions
+24	Coir, Rope
+24	Cordage, Cable, and Twine
+24	Cotton
+24	Skins of sorts
+24	Metals, Brassware
+24	Pitch and Tar
+24	Grain, Barley
+24	Sugar, candy and refined
+24	Hats and Caps
+24	Cotton Manufactures: Piece Goods, Gray, unbleached
+24	Spices, Cardamoms
+24	II.—Raw Materials
+23	Oxen and Bulls
+23	Groundnuts
+23	Raisins
+23	Wood and Timber, hewn or split, planed or dressed
+23	Timber, planed or dressed
+23	Boats and Canoes and parts thereof
+23	Corks, manufactured
+23	Brandy
+23	Chinaware
+23	Grinding Stones
+23	Clove and Mace
+23	Manures
+23	Grain, Rice
+23	Brass, Sheets and Nails
+23	Lubricating
+23	Woollen Stuffs
+23	Instruments—Musical
+23	Cinnamon, Plantation
+22	Grapes
+22	Milk, condensed or preserved
+22	raw
+22	Shells of all kinds
+22	Flowers, Artificial
+22	Castor
+22	Ice
+22	Tobacco, Manufactured
+22	Cocoanut Shells
+22	Manures—Bone
+22	Dutch Possessions in India
+22	Iron, Nails
+22	Vegetable, &c
+22	Skins, of Sorts
+22	Seeds, Gingelly
+22	Sparkling in bottle
+22	Woods: Dye, Sandal, and of sorts
+22	Candles of all descriptions
+22	In wood
+21	Hay and Straw
+21	Tin Plates
+21	Percussion Caps
+21	Coin, Silver, British
+21	Rattan and Rattan Mats
+21	Satinwood
+21	Rifles, double-barrelled, and revolvers
+21	Paper and Envelope
+21	Cotton Threads
+21	Instruments, Optical
+21	Provisions, unenumerated
+21	Pictures
+20	British India For. Coun. French India
+20	Chalk
+20	Rugs
+20	Copper Nails
+20	Machinery and Millwork : Agricultural
+20	Sulphuric
+20	Poppy
+20	Articles of food and drink : Curry Stuffs
+20	Kitul Fibre
+20	Marmel Waters
+20	Alexandria
+20	Metals, wrought and unwrought Brassware
+20	Tortoiseshell
+20	Iron Nails
+20	Cotton Manufactures : Piece Goods, Gray, bleached
+20	Provisions, unenum- erated
+20	Articles of food and drink : Confectionery & Preserves
+20	Articles of food and drink : Tobacco, Cigars
+20	Books
+20	Other— Dutiable
+19	Apples, raw
+19	Iron, Corrugated
+19	Hemp
+19	Straits Settlements For. Coun
+19	Lace and Patent Net
+19	Copper
+19	Tortoise-shells
+19	Salt, Refined
+19	Nets
+19	Stones, Grinding
+19	Sugar, Refined
+19	Woods of Sorts
+19	Spelter, Tin, Zinc, in cake or slabs
+19	Malt Liquor in bottle
+19	Sney Articles
+19	Colr. Fibre
+19	Refined or candied
+18	Australian, in wood
+18	Oil, Kerosine
+18	Nails
+18	Zinc, Perforated
+18	Greece
+18	Bleaching Materials
+18	Guns, single-barrelled
+18	Cinnamon Leaves
+18	Oxen & Bulls
+18	Ground nuts
+18	Coir Rope
+18	Sulphur
+18	Manufacture
+18	Copperal
+18	Marmel Water
+18	Oil, Vegetable
+18	Tortoise-shell and Manufacture
+18	Arms and Ammunition:—Guns
+18	Watches and parts thereof
+18	China, or Porcelain and Earthenware and Pottery
+18	Beads of all sorts
+18	Ham
+18	Minerals Plumbago
+18	Chemists' Sundries
+17	Deer
+17	Biscuits and Bread
+17	Iron, Pig
+17	Oil, Castor
+17	Ivory, Teeth, Elephants'
+17	Refuse of Saltpetre
+17	Olas
+17	Bricks, Bath
+17	Soldering Fluid
+17	Tea Solder
+17	Cyprus
+17	Croton Seed
+17	Palmirah Fibre
+17	United Kingdom Br. Col. British India
+17	Orchella Weed
+17	Rhenish, in bottle
+17	Rubber
+17	Stones, of Sorts
+17	Iron, Galvanised, &c
+17	Salt, common
+17	Articles of food and drink : Wines, French, in wood
+17	Coin, of Silver, British
+17	Hats or Bonnets of Straw
+17	Hosiery (Cotton): Cotton Thread
+17	Fruits, Cocoanuts
+16	Bacon
+16	Metals (Raw Materials)
+16	Cast
+16	Turpentine
+16	Brass Nails
+16	Blasting Powder
+16	Detonators
+16	Dynamite
+16	Candles of all description
+16	Garden
+16	Casks & Shooks
+16	undressed
+16	Cordages, Cables, and Twine
+16	Aloe
+16	Maldivic Islands
+16	Horns, of Sorts
+16	Tobacco, Unmanufactured
+16	Drawings
+16	Apparel : Wearing
+16	Copperab
+16	Metals (Raw Materials): Brass Sheets
+16	Yarns and Textile Fabrics : Cotton, Yarn and Twist, Gray
+16	Articles of food and drink Coffee, Native
+16	Sugar, Refined and Candy
+16	Coffee, raw
+15	Beer and Ale, in bottle
+15	Articles of food and drink : Sugar, Refined and Candy
+15	Vegetables, dried
+15	Plate and Sheet
+15	Dyes, unenumerated
+15	Indigo
+15	Fullersearth
+15	Fireworks
+15	Cocoanut, De- siccated
+15	Mica
+15	Sapanwood
+15	Nets, Fishermen's
+15	Sparkling, in bottle
+15	Colored Yarn
+15	Surgical and Anatomical
+15	Plated and Gilt-ware
+15	Yarns and Textile Fabrics: Cotton, Yarn and Twist, Gray
+15	Chemicals, Chemical and Medicinal Preparations
+15	Articles of food and drink : Fruits, Cocoanuts
+15	unenumerated
+15	Provisions, un-enumerated
+15	For Textile Manufactures : Cotton Wool
+15	Carpets
+15	Jewellery and Personal Ornaments
+15	(f) All other Articles, &c.—contd. Books and Maps, printed
+15	Carniages and Carts
+15	Fancy articles
+14	Provisions unenumerated
+14	Articles of food and drink : Wines, French, in bottle
+14	Manure, Bones
+14	Dressed
+14	Carbolic
+14	of Felt
+14	Fruits, fresh, of all kinds
+14	French Poss. in China
+14	Narcotic, Tobacco, Cigars
+14	Jewellery and personal Ornaments
+14	Boats & Canoes
+14	Instruments, Musical, Scientific and Surgical
+14	Sugar, unrefined
+14	Stationery and Preserves
+14	Metals—contd
+14	Pee, Plantation
+14	Apparel: Regimental
+14	Oillmanstores
+14	Statues and Images
+14	Seeds, Garden
+14	Undressed
+14	Articles of food and drink : Tobacco, Manufactured
+14	Woollen Manufactures. Blankets
+14	Methylated Spirits
+14	Wood and Timber : Ebony
+14	Articles of food and drink : Cacao
+14	Articles of food and drink : Spirits, Brandy
+14	Beer and Ale— Bottled
+14	Spirits— Brandy
+14	Hats and Bonnets
+14	Timber, worked
+13	Mace
+13	Australian, in bottle
+13	Rangoon
+13	Muslin
+13	Hosiery (Cotton): Stockings and Socks
+13	Silks, Velvet, plain or figured, wholly of Silk
+13	Woollen Stuffs, Woollen
+13	Electric lighting apparatus and parts thereof
+13	Tanks
+13	Fibre, Palmirah
+13	Sponge
+13	Mixed Materials
+13	Hats or Bonnets of other materials
+13	Cadjans
+13	Grain, Wheat
+13	Sodawater and Lemonade
+13	Tin & Tinware
+13	Lumstores
+13	U S of America
+13	Cinchona
+13	Copper Sheathing & Nails
+13	Fish, Dried & Salted
+13	Teakwood
+13	Sulphate of Ammonia
+13	Chemicals, Chemical and Medicinal Preparations : Medicines
+13	Musical
+13	Camphor
+13	Piece Goods
+13	Natural History Specimens
+13	Stores—Government
+12	Flour, Corn
+12	Petroleum
+12	Shots, lead, large or small
+12	Articles of food and drink : Bêche-de-mer
+12	Bread and Biscuits
+12	Cocoa
+12	Grain, Fine
+12	Straw
+12	Dyewood and Root
+12	Horns, Deer
+12	Lemon Grass
+12	Hats, Caps, Bonnets, etc
+12	Poona
+12	Gingely
+12	Peas and Plants
+12	Surgical
+12	Foods and Plants
+12	Dyewood, &c
+12	Vinchona Bark
+12	Odessa
+12	Cor Fibre
+12	Grain Rice
+12	Tin, Plates
+12	Grindstones
+12	Sandal
+12	Hiscuits
+12	Crockers
+12	Sugar, Palm and Jaggery
+12	Keys
+12	Metals, wrought and unwrought: Plate and Platedware
+12	Spirits, Whiskey
+12	Miscellaneous
+12	Articles of food and drink: Spirits, Brandy
+12	Articles of food and drink : Wines, Claret, in bottle
+12	Bleached
+12	Blankets
+12	Oil and Floor Cloth (including Indianrubber cloth)
+12	Seeds, Clover and Grass
+12	Locomotive
+12	Oaks & Shooks
+12	Sambur
+12	Farthenware
+12	(c) Machinery and Millwork. Agricultural
+12	Unenumerated and other Oils
+12	Articles of food and drink : Biscuits and Bread
+12	Articles of food and drink : Fish, cured and salted
+12	Milk, preserved
+12	Brass Ware
+12	Mats, Mat Bags, & Baskets
+11	Sardines
+11	Lard
+11	Mutton, fresh
+11	Onions, raw
+11	Poultry and Game, alive or dead
+11	Bar, Flat, &c
+11	Tin and Zinc in cake or slab
+11	Apothecaries' ware
+11	Pitch
+11	Arms and Ammunition
+11	Fishermen's Nets
+11	Silks, broad stuffs
+11	Nux Vomica
+11	Cutch or Terra-japonica
+11	Fibre, unenumerated
+11	Fuse
+11	Zinc, perforated
+11	Spirits, Liqueurs
+11	Beche-de-mer
+11	Merchandize
+11	Kerosine, Linseed & Vegetable
+11	Oilmanastores
+11	Fuller's Earth
+11	Instruments—Musical, Scientific, and Surgical
+11	Peppermint
+11	Spirits, Whisky
+11	Madeira, in wood
+11	Hats
+11	Tar, Pitch, and Resin
+11	Pertumery
+11	Skins, of sorts
+11	Bêche-de-mer
+11	Poonao
+11	Rattan, and Rattan Mats & Baskets
+11	Talc
+11	of Gold, British
+11	Fibre, Coir
+11	Painters' Colours
+11	Articles of food and drink : Wines, Claret, in wood
+11	Brooms and Brushes
+11	Nails and Rivets
+11	(b) Miscellaneous
+11	Tin Ware
+10	Eggs
+10	Salmon
+10	Cloves
+10	Horns
+10	Staves of all dimensions
+10	Yarns and Textile Fabrics
+10	Articles of food and drink : Coffee, Liberian
+10	For Textile Manufactures: Cotton wool
+10	Iron, Flat, Bar &c
+10	Old
+10	Cotton, Waste
+10	Other Oils
+10	Punnai, or Domba Nuts
+10	Seeds, Tea
+10	Wood and Timber Ebony
+10	United Kingdom Br. Col. Australia
+10	Animals, living : Asses
+10	Blasting powder
+10	Goa
+10	Metals—wrought and unwrought, Brassware
+10	Painter's Materials
+10	Prints and Pictures, etc
+10	Specimens, illustrative of Natural History
+10	Arrecanut
+10	Arms and Ammunition, Guns
+10	Fine
+10	Hats, Caps, &c
+10	Dilmastores
+10	Seeds of Sorts
+10	Asphalte
+10	Australia British India
+10	Prints and Pictures, &c
+10	Jeddah
+10	Tin plates
+10	Station Goods
+10	Harets, in wood
+10	Jewel, Wearing
+10	Sethes
+10	Ground Nuts
+10	Leathers and Skins
+10	and Plants
+10	Wines
+10	■ Woollens
+10	Puncha Bark
+10	Metals—contd. Hardware
+10	Woods, of Sorts
+10	Sparkling
+10	Bee's wax
+10	Timber, Woods, of Sorts
+10	Oil Vegetable
+10	Fruits, Unpreserved
+10	Silk
+10	Declared
+10	Inchona Bark
+10	Liqueur
+10	Peppao
+10	Metals, wrought and unwrought : Brassware
+10	Metals, wrought and unwrought : Iron, Hoop
+10	Skins of Marts
+10	Derry Stuffs
+10	Mats, Bags, and Brackets
+10	Manures, Bones
+10	Paper Printing and Writing
+10	Apparel, wearing
+10	Cocoanut, Decorticated
+10	Articles of food and drink. Provisions unenumerated
+10	Other kinds
+10	Bricks and Articles of Fire clay, including Tiles
+10	(b) Metals and Articles Manufactured, except Machinery
+10	E Palmirah Fibre
+10	Wines, Claret, in bottle
+10	Manure, Chemical
+10	Cotton Manufactures : Piece Goods, Gray, unbleached
+10	bleached
+10	Boats and Canoës and parts thereof
+10	Pistols, double-barrelled, and Revolvers
+10	Fresh, of all kinds
+10	Articles of food and drink : Tea—contd
+10	Unmanufactured For Textile Manufactures: Cotton Wool
+10	(e) Chemical, &c.— Sapanwood
+10	(f) All other Articles, &c.—contd. Carts and Carriages
+10	Grain— Barley
+10	Handkerchiefs, Scarves, and Shawls
+10	Plate— Electroplate
+10	Explosives— Cartridges
+10	Paper— Printing
+10	Writing
+10	Mats, Mat Bags, and Baskets
+9	Chocolate
+9	Linseed
+9	Molasses
+9	Alizarine
+9	other kinds
+9	Paper and Pasteboard : Hangings
+9	Oil and Floor Cloth (including Indiarubber cloth)
+9	Preserved without sugar
+9	Plated and Gilt-wares
+9	Leather Boots and Shoes
+9	Coca Leaves
+9	Kitul, Laths and Rafters
+9	Metals, Iron
+9	Hungarian, in bottle
+9	Malt Liquor, in wood
+9	Pig
+9	Penware
+9	Lemon grass
+9	Firewood
+9	Rapo
+9	French in wood
+9	Smyrna
+9	Palm & Jaggery
+9	Cooks and Shooks
+9	Fibre, Kitul
+9	Iron, Bar, Flat, &c
+9	Coal and Patent Fuel
+9	Coin, Gold, British
+9	Articles of food and drink : Plums, French, and Prunelloes
+9	Nuts used as fruit
+9	Feathers
+9	Garlic
+9	In bottle
+9	Bar, flat, rod, nail rod
+9	Copper Ware
+9	Plate— Silver or Silver-gilt
+8	Other Fruits
+8	Fruits, preserved without sugar
+8	Pork, salted (not Hams)
+8	Cod Liver
+8	Fish Manure
+8	Guttapercha
+8	Ribbons, Silk and Satin
+8	Woollen Manufactures, Blankets
+8	Leaf of Gold
+8	Asphalt or Bitumen
+8	Specimens Illustrative of Natural History
+8	Patent Medicines
+8	Embroidery and Needle-work
+8	(c) Machinery and Millwork: Agricultural
+8	Gallnuts or Myrobalans
+8	Dyes, Anatto and Seed Paste
+8	Spices, Nutmegs
+8	Cocoanut, Laths and Rafters
+8	Dynamite and Detonators, &c
+8	Shots
+8	Iron Nails, &c
+8	Seeds, Cotton
+8	Rifles
+8	Casks, Shooks, &c
+8	Lead & Leadware
+8	Arms and Ammunition.—Guns
+8	unmanufactured
+8	Cannuts
+8	Stuffs
+8	Grinding
+8	Rattan and Rattan Mats, &c
+8	Metals, wrought and unwrought - Brassware
+8	Speice
+8	Woods: Dye, Sandal, and of Sorts
+8	Woods, Timber
+8	Ladardashery
+8	Oil, Lubricating
+8	Pepper Black
+8	Husks
+8	Metals, Zincware
+8	Provender
+8	Goods: Dye, Sandal, and of Sorts
+8	Seychelles
+8	Oilmanatores
+8	Pepper, Black
+8	Seeds, of sorts
+8	Iron, Bar, Flat Rod, Nail Rod, &c
+8	Cinnamon Bark
+8	(c) Machinery and Millwork : Agricultural
+8	Timber, Planed or Dressed
+8	Machinery and Millwork Agriculture
+8	Succades, including all fruits & vegetables preserved in sugar
+8	Sauces and Condiments
+8	Coco Leaves
+8	Succades, including all fruits and vegetables preserved in sugar
+8	Fi Marine and Naval Stores
+8	Dates
+8	Toilet Soap
+8	China (excluding Hongkong)
+8	Fish— Cured or salted
+8	Gray
+8	Goats and Sheep Skins
+7	Herrings
+7	Nuts used as fruits
+7	Articles of food and drink : Grain, Barley
+7	Indian Corn or Maize
+7	Articles of food and drink : Pepper
+7	German Silver
+7	Hides, Dry
+7	Chemical
+7	Varnished, Japanned, or Enamelled
+7	Feathers, Ornamental
+7	Deer & Sambur
+7	Provisions un-enumerated
+7	Sugarcandy, Palm & Jaggery
+7	Cotton Manufactures: Piece goods, including unbleached Gray
+7	Cotton Manufactures : Lace and patent net
+7	British India For. Coun. Maldiv Islands
+7	Fishing Nets
+7	Indiarubber
+7	Bullets
+7	Locks
+7	Bees' wax
+7	Claret in wood
+7	Coffee, Refuse
+7	Odessa (Russia)
+7	Spice
+7	Brass sheets and nails
+7	Iron, Angle and Swedish bar
+7	Unions
+7	Precanuis
+7	U S. of America
+7	British India Straits Settlements
+7	Bussora
+7	Lute
+7	Jodlery and Harness
+7	Tar, Pitch and Rosin
+7	Oils
+7	cwt
+7	Skins of Sorts
+7	Cot. Fibre
+7	Pecanuts
+7	Fruits, unpreserved
+7	Peonac
+7	Wines—contd. — Sparkling
+7	Gasks and Shooks
+7	Instruments, Surgical
+7	Sugar, Unrefined
+7	Tar, Pitch, and Rosin
+7	Bushire
+7	Palmyrah, Laths and Rafters
+7	Castorseed Poona
+7	Species
+7	Metals, wrought and unwrought : Copperware
+7	Oil, Cinnamon leaf
+7	Sugar, Candy, Refined
+7	Dessicated
+7	Refinery
+7	Tobacco, Snuff
+7	Raw Materials for Textile Manufactures
+7	Gunny Cloth and Bags
+7	Mixed materials
+7	Woollen Manufactures un enumerated
+7	(e) Machinery and Millwork: Agricultural
+7	Hats or Bonnets or other materials
+7	Wood and Timber: Ebony
+7	Other Fruit
+7	Fruit, preserved without sugar
+7	Yellow Metal
+7	For. Coun. Germany
+7	Caoutchouc Manufactures
+7	Fruits, unenumerated
+7	Cocoanut Laths and Rafters
+7	Oil, Rangoon
+7	Hosiery (Cotton) : Stockings and Socks
+7	Chemicals, Chemical and Medicinal Preparations: Fullersearth
+7	British East Africa
+7	Machinery, Agricultural
+7	Stones, Marble, and Slate, &c
+7	Prints, Engravings, Photographs, and Pictures
+7	Wines, sparkling— Champagne
+7	Tobacco, unmanufactured
+7	Palmirah
+7	Cordages, &c
+7	Machinery— Agricultural
+6	Fruits : Almonds
+6	Articles of food and drink : Grain, Wheat
+6	Brass Sheets
+6	Waste of (Raw and Yarn)
+6	Timber, Teak
+6	Artworks other than Pictures
+6	Piece Goods, Gray, bleached
+6	Woollen stuffs
+6	Carpets, not rugs
+6	(d) Apparel and Articles of personal use
+6	Apparel, Regimental
+6	Guns, double barreled
+6	double barreled and revolvers
+6	Curry stuffs
+6	Lead, Sheet, Pipe and Pig
+6	Pitch and Tar, &c
+6	Spirits,--contd. Whisky
+6	Coir Manufacture
+6	Spelter
+6	Punai, or Domba Nuts
+6	Terrajaponica, or Cutch
+6	Guns, single barreled
+6	Nipples
+6	Mats—Bags and Baskets
+6	Seeds, Cotton, Castor, Rape, Poppy, Niger, Mustard, & Bird
+6	Spirits—contd. — Whisky
+6	Flax
+6	Sheep & Goats
+6	Oil, Lemon Grass
+6	Pansi, or Domba Nuts
+6	Wines—contd
+6	Pistol and Ammunition:—Guns
+6	Mer
+6	Sacks, Bags, and Baskets
+6	Paper, Satin
+6	Palmyrah laths and rafters
+6	Grain, Peas
+6	Hats Caps, Bonnets, &c
+6	Jancy Articles
+6	Fibre Kitool
+6	Gallnut
+6	Timber, Halmilla
+6	Cocoa, unmanufactured
+6	For. Coun
+6	Maldivine Islands
+6	Iron, Rod, Bar, &c
+6	Oilmanufactores
+6	Laths & Rafters
+6	Palmyrah Laths and Rafters
+6	Gun Waddings
+6	Cards, Playin
+6	Seeds : Bird
+6	Iron, Galvanised
+6	Dutch
+6	Fertilisers, Guano
+6	Wine, Spanish, in wood
+6	Boche-de-mer
+6	Vinegar Wines, French, in bottle
+6	Metals, Spelter, Tin, Zinc, in cake or slabs
+6	Dummer
+6	Galnuts
+6	Sugar Candy, Refined
+6	Metals, Iron Hoop
+6	Gunning and Twine
+6	Marks of sorts
+6	Timber, Dyewood & Root
+6	Measures, Bone
+6	Metals, wrought and unwrought : Zincware
+6	Arms and Ammunition : Cartridges
+6	Wine
+6	Cupilla
+6	Fruits, Dried
+6	Spelter, in cake or slabs
+6	Wood and Timber, Sawn or Split, Planed or Dressed
+6	Piece Goods, Gray, unbleached
+6	Tanks Iron
+6	Mats, Bags, and Sacks (empty)
+6	Window Glass and German sheet
+6	Preserved, dried
+6	Cotton Manufactures Piece goods, includ- ing unbleached gray
+6	Net Wire
+6	Seeds, Coffee
+6	Wood and Timber, Hewn or Split, Planed or Dressed
+6	Iron Tanks
+6	Buttons and Studs not of metal
+6	Animals. Horses, Ponies, Stallions, Geldings, and Mares
+6	Mineral and Aerated Waters
+6	Charts and Carriages
+6	Spelter in Cake or Slab
+6	Artworks, other than pictures
+6	Rope, Coir
+6	Sulphurie
+6	Sugar, candy, Palm & Jaggery
+6	Iron, Flat Bar, &c
+6	Horns, Deer — Sambur
+6	Palmirah Laths and Rafters
+6	Articles of food and drink : Sugar, Palm, and Jaggery
+6	Cuttle Fish Bones
+6	Spices, Pepper
+6	Benjamin
+6	India (excluding British Possessions)
+6	Pork, salted
+6	Cinnamon, wild
+6	Wood and Timber: Satinwood
+6	Fruit, preserved— Currants
+6	Iron— Angle and Swedish bar
+6	Copper— Nails and Wire
+6	Drums and Tanks
+6	Nickelplate
+6	Steel Ware
+6	Window and German sheet
+6	Leather Dressed
+6	Cloves and Mace
+5	Animals, living, for food
+5	Aerated and Mineral Waters
+5	Currants
+5	Fruits, dried
+5	Pickles and Vegetables preserved in salt or vinegar
+5	Chemicals, Dye Stuffs, and Tanning Substances
+5	Cutch and Gambier
+5	Bark for Tanners and Dyers
+5	Raw Materials for Textile Manufactures : Cotton, raw
+5	Hair, Human
+5	Bricks and Articles of Fire-clay, including Tiles
+5	Soda Crystals
+5	Swords
+5	Sheep
+5	Beer and Ale
+5	unrefined
+5	Hair, horse, cow, bull, &c
+5	Felts
+5	Kandal Bark
+5	Wadding
+5	Candles,
+5	Live Stock
+5	Cotton Goods. - contd. — Twist
+5	Grain, Grain
+5	Malt
+5	Pitch, Rosin, and Tar, &c
+5	Becho-de-mer
+5	Gunnes and Twine
+5	Timber, Sutin
+5	Dyewood
+5	Valeen Bark
+5	Double-barrelled and revolvers
+5	Bar, flat, rod, and nail rod, &c
+5	Pitch, Rosin and Tar, &c
+5	Clo-do-mer
+5	Flour, wheat
+5	Odessa, Russia
+5	Terrajaponica or Cutch
+5	Pitch, Rosin and Tur, &c
+5	Lead & Lead-ware
+5	Saigon
+5	Seeds of Sorbs
+5	Gun Locks
+5	Thrawl
+5	Fuller's earth
+5	Oil, Lucca
+5	Pearls and Precious Stones (unmet)
+5	Rims and Ammunition:—Guns
+5	Che-de-mer
+5	Runnies and Twine
+5	Seeds, of Sorts
+5	Salt, Common
+5	Tortoise-shel
+5	British India Straits Settlements For. Coun. French India
+5	British India For. Coun. French India Maldiv Islands
+5	Camels
+5	Fruits Unpreserved
+5	Cacao Leaves
+5	Live Stock : Oxen and Bulls
+5	Lead, Sheet, Pipe, & Pig
+5	Portuguese Poss. in India
+5	Timber, Satin
+5	Laths and rafters
+5	Wines, Marsala, in wood
+5	Grass, Man
+5	Sapun
+5	Tortoise shell and Manufacture
+5	Colt Stuffs
+5	Adon
+5	Marquis, in bottle
+5	Dynamite, Detonators, &c
+5	Tobacco, Unmanufactured and Hookah
+5	Coca, in bottle
+5	Russian Possessions in China
+5	Rago
+5	Beef, fresh
+5	Isinglass
+5	Oil. Fish—Cod Liver
+5	Bricks and Articles of Fire-clay including Tiles
+5	Muriatic
+5	Cordage, cable and twine
+5	Raw Materials
+5	Lace and patent net
+5	Napauwood
+5	Articles of food and drink : Wines, Port, in bottle
+5	Brass, Bronze, and Metal, bronzed or lacquered
+5	Caoutchouc, Manufactures of
+5	Miscellaneous Animals, Asses
+5	(e) Chemical and Medicinal Preparations
+5	Palmira Fibre
+5	Fruit, dried
+5	Silks, Velvet, plain figured, wholly of Silk
+5	Cotton Manufactures: Piece Goods including unbleached Gray
+5	Gallnuts or Myrabolans
+5	Laths and Rafters, other kinds
+5	British India For Coun. French India Maldivé Islands
+5	Articles of food and drink : Apples, raw
+5	Spices : Cloves
+5	Bricks and Articles of Fire Clay, including Tiles
+5	Paper and Pasteboard hangings
+5	Shawls and Handkerchiefs
+5	Lace and Patent net
+5	Gallnuts or Myrobolans
+5	Cummin Seed
+5	Gum (other kinds)
+5	Hides
+5	Silks, Velvet, plain or figured
+5	Cordage and Cable
+5	Cacao, Pods
+5	Velvet
+5	Agricultural
+5	Stones of sorts including Granite
+5	Palai
+5	Game and Poultry
+5	Curry Stuffs— Chillies
+5	Poultry and Game
+5	Salt— Refined
+5	Algiers
+5	Copper, sheathing
+5	Manures— Sulphate of Potash
+5	Oil—Castor
+5	Case
+5	Poonac—Gingelly
+5	Sugar— Palm and Jaggery
+5	Fibre— Kitul
+4	Beef, salted
+4	Oatmeal and Groats
+4	Spirits of Wine
+4	Metals (Raw Materials): Steel, Blister
+4	Angle and Swedish Bar
+4	Coal and Patent Fuels
+4	United Kingdom Br. Col. British India For. Coun. French India
+4	Gum Arabic
+4	Instrument, Optical
+4	double-barrelled and revolvers
+4	Tigers
+4	Cuttle
+4	Succades, including all fruits & vegetables preserved sugar
+4	Buenos Ayres
+4	Yams
+4	Birds' Feathers for beds or otherwise
+4	Divi Divi
+4	Cadjans and Co-coanut Leaves
+4	Seeds, Cacao
+4	Pistols, single barreled
+4	Rifles, single barreled
+4	Gun Flints
+4	Malt Liquor (contd.) in Wood
+4	Mats—Bags, and Baskets
+4	Iron Angle and Swedish bar
+4	Paraffin
+4	Coral Stores
+4	Glue
+4	Tar, Pitch & Rosin
+4	Arrecanut laths
+4	Wines, French in bottle
+4	Cork Stuffs
+4	Castor Seed Ponce
+4	Tarrapo
+4	Beef and Pork
+4	Pulses
+4	Ses
+4	Worms and Shells
+4	Galvanized, &c
+4	Nails, &c
+4	Colza
+4	Peas, Cotton, Castor, Rape, Poppy, Niger, Mustard & Bird
+4	Spirits—contd. Rum
+4	Clove
+4	SWAX
+4	Peanut Shells
+4	on Twist
+4	Sues and Shells
+4	Cotton and Twine
+4	Herdashery and Millinery
+4	Live Stock : — Oxen & Bulls
+4	Spirits, Water
+4	Leaves
+4	Cocoanut laths and rafters
+4	Gutch
+4	Austrian, in bottle
+4	Hats Caps &c
+4	Live Stock — Oxen & Bulls
+4	For. Coun. French India
+4	Gun Nipples
+4	Portuguese India
+4	Seeds Cotton, Castor Rape, Poppy, Niger, Mustard, & Bird
+4	Reswax
+4	Terra japonica, or Gutch
+4	Kitool Rope
+4	Oil, Lemongrass
+4	Constantinople
+4	Dynamite Detonator, &c
+4	Perussion Caps
+4	Iron Galvanised, &c
+4	Metal, Lead, Sheet, Pipe, and Pig
+4	Wines, Ginger, in bottle
+4	Hungarian, in wood
+4	Valeem Bark
+4	Dynamite Detonators, &c
+4	Fullers Earth
+4	Cutch, or Terrajaponica
+4	Umbrella
+4	Wines, Spanish, in wood
+4	Waddings
+4	Malt Liquor in wood
+4	Teal and Coke
+4	Poonie
+4	French, in wood c
+4	Gunning
+4	Poonu
+4	Resin
+4	Stout
+4	Wines, Marmala, in wood
+4	Gutch, or Terraponica
+4	Metals, Tinware
+4	Kitul, Laths and Rafter
+4	Cowrie and Shells
+4	Brakers
+4	Gutch, or Tessa-japonica
+4	Fishing nets
+4	Sheet
+4	Tin Lead
+4	Laths and Rafter
+4	Almonds
+4	Myrobolans
+4	Oil, Olive
+4	Raw Materials for Sundry Industries
+4	Hair, Horse, Cow, Bull or Elk
+4	Ivory, Teeth-Elephants
+4	Pine
+4	Leather, dressed
+4	Bleached and dyed
+4	Other description
+4	Buttons and studs not of metal
+4	Succador, including all fruits & vegetables preserved in sugar
+4	Mineral and Aerated Water
+4	Woollen Manufactures Blankets
+4	Hemp, Rope
+4	Palmyrah Fibre
+4	Wood and Timber - Ebony
+4	Articles of food and drink : Sauces or Condiments
+4	Spices : Cardamoms
+4	Articles of food and drink Palm and Jaggery
+4	Oil, Turpentine
+4	Raw Materials for Textile Manufactures: Cotton, raw
+4	Hair, Horse, Cow, Bull, or Elk
+4	Leather, Dressed
+4	Piece Goods, dyed
+4	Luce and Patent Net
+4	Brasswire
+4	Cork, manufactured
+4	Stores, Military
+4	Halmill
+4	Fruit : Almonds
+4	Articles of food and drink : Grain, Gram
+4	Spices Cloves
+4	Articles of food and drink : Spirits, Rum
+4	Wines, Spanish, in bottle
+4	Varnished, Japanned, &c
+4	Embroidery and Needlework
+4	Animals, living : Dogs
+4	French Possessions in China
+4	Cinnamon leaves
+4	Stationery than Paper
+4	Kitul Laths and Rafters
+4	Articles of food and drink : Wines, Marsala, in bottle
+4	Ivory, Teeth, Elephants
+4	Sulphate of Potash
+4	Arms and Ammunition : Rifles, single-barrelled
+4	Rattan Matting
+4	Animals, living, for food : Oxen & Bulls
+4	Grain, Beans
+4	Cotton Manufactures. Piece Goods, including Unbleached Gray
+4	Wire
+4	(b) Metals, &c.—contd
+4	(b) Minerals, &c.—contd
+4	(d) Apparel, &c.—contd
+4	Cutch or Terra japonica
+4	Gu Matches
+4	Coriander Seed
+4	Mathe Seed
+4	Tamarind
+4	Turmeric
+4	Pepper (long)
+4	Tin in block
+4	of Potash
+4	Aerated Water bottles (empty)
+4	Cotton Manufactures : Piece Goods, Muslin
+4	Oil and Floor Cloth (including Indian rubber cloth)
+4	Articles of food and drink: Grain, Peas
+4	British West Indies
+4	Lead and Lead-ware
+4	Dye, unenumerated United Kingdom Br. Col. British India
+4	Grass and Leaves
+4	Lamps and lamp-ware
+4	Laths and Rafters, unenumerated
+4	Mutton, tinned
+4	Sago in bulk
+4	Peppèr (whole)
+4	Basic slag
+4	(c) Timber, unworked
+4	(b) Cotton—Lace and Net
+4	Piece Goods—Bleached
+4	(b) Cotton
+4	(e) Woollen
+4	(f) Of Mixed Materials
+4	Iron— Corrugated
+4	Lead— Tea Lead
+4	Zinc— Perforated
+4	Acids— Sulphuric
+4	Arms
+4	II.—Manufactured Articles
+4	Boats
+4	Spinning and Weaving
+4	Manure— Bone Meal
+4	Stones, worked
+4	Coin
+4	Sharks' Fins
+4	(a) Chemical, Dyeing, and Tanning Materials
+4	Cinchona-Bark
+4	Horns— Deer
+4	Broad Stuffs
+4	(e) Woollen— Other
+4	Harness and Saddlery
+3	Beer and Ale, in wood
+3	Figs and Fig Cake
+3	Ganja
+3	Bhang
+3	Acid, Citric
+3	Gun implements
+3	Kangaroos
+3	Monkeys
+3	Reptiles
+3	Uruguay
+3	Raw Materials: Coal, coke, and patent fuel
+3	Electric Light fittings
+3	Solder
+3	Palmirah, Laths and rafters
+3	Arms and Ammunition : — Guns, single barreled
+3	Arms & Ammunition : (contd.)
+3	Limé and Clay
+3	Castor Seed Poonac
+3	cwts
+3	Brass Sheets and Nails,
+3	Copper Sheathing,
+3	Metals, contd
+3	Spelter, Tin, Zinc in cake or slabs
+3	Rod
+3	Metals, Steel
+3	Metals, Zinc sheets
+3	Gun, Flint
+3	Arenacuts
+3	Oil, Colza
+3	Countries whence Imported
+3	Twin
+3	Cape, in bottle
+3	Italian, in wood
+3	Straits Settlement
+3	Steel
+3	Bodewater and Lemonade
+3	Halmulla
+3	Iroewood
+3	Palmyrah Laths and Rafter
+3	Coconut Laths and Rafter
+3	Bee wax
+3	Dr. Stuffs
+3	Fishermen's
+3	Dnions
+3	Dnium
+3	cwt. pkgs
+3	Liquors
+3	Woods—Dye, Sandal, and of sorts
+3	Oil, Gram
+3	Soy
+3	Wine Stores
+3	Mails, Copperware
+3	Zinc & Zincware
+3	Tortoise-shell and manufacture
+3	Portuguese possessions in India
+3	Cowries and Shell
+3	Zinware
+3	Copper sheathing
+3	Mement, Lime, and Clay
+3	Coral stones
+3	Milk
+3	Peppercine
+3	Statuettes and Images
+3	Br. Col. Australia
+3	Cocoanut Husks
+3	Marmol Water
+3	Refuse of Salt Petre
+3	Bees wax
+3	Live Stock : — Oxen and Bulls
+3	Sugo
+3	For. Coun. Maldiv Islands
+3	Instruments Surgical
+3	Nests
+3	of Sorts
+3	Copper ash
+3	Maladive Islands
+3	Metals, Copper Sheathing
+3	Iron Hoop
+3	Wines, Austrian, in bottle
+3	Wines Port, in wood
+3	Do. Husks
+3	Iron, Sheets
+3	Timber Dyewood & Root
+3	Arecanut, Laths and Rafters
+3	Acreamts
+3	Bessax
+3	Metals, Tea Solder
+3	Hattan
+3	Bears
+3	Sodawater and Le-monde
+3	Ebony
+3	Cotton Wool
+3	Straits Settlements For Coun
+3	Arms and Ammunition—Guns, single-barrelled
+3	Blacks
+3	Russian Pos. in China
+3	Tannery's Bark
+3	Timber, Laths and Rafter
+3	Palmyrah, Laths and Rafter
+3	Fibre, Palmyrah
+3	Dye Stuffs, Anette Seed
+3	Orchilla Wood
+3	Grain Paddy
+3	Mops of sorts
+3	Horns, Sambur, Elk, and Deer
+3	Maldivi Islands
+3	Medicewater and Le- monade
+3	Sesame
+3	Sugar, Palm & Jaggery
+3	West India Islands
+3	Timber, Palmyrah, Laths and Rafter
+3	Fruits preserved without sugar
+3	Mythelated
+3	Farinaceous substances : Arrowroot
+3	Chemical, Essential, or Perfumed
+3	Gum, Arabic
+3	Shilac
+3	(Stones)
+3	Artists' Materials
+3	Ribbons, Silk or Satin
+3	Woollen Manufactures
+3	Palmyrab
+3	Liquorice
+3	Cautchouc, Manufactures of
+3	Flowers, artificial
+3	Donkeys
+3	Animals, living. Elephants
+3	Animals, living, for food. Bulls
+3	Articles of food and drink: Bêche-de-mer
+3	Argentine Republic
+3	For Textile Manufactures
+3	Articles Manufactured and partly Manufactured
+3	Cotton, Thread
+3	Jewellery and personal ornaments
+3	Dyes, Anatto Seed
+3	Human
+3	Regimental
+3	Embroidery and Needle work
+3	Bulls
+3	Deer & Sambar
+3	Bread and Mis- cuits
+3	Iron, Old
+3	Silver, British
+3	cwt. United Kingdom
+3	Cadjans and Coconut Leaves
+3	Kital Fibre
+3	Coconut, Laths and Rafters
+3	almurah, Laths and Rafters
+3	Animals, living, for food : Cows
+3	Straits Settlements For. Coun. Austria
+3	Bird
+3	Gas Lamps
+3	Sheep & Lambs
+3	Specimens of Mineral Rocks
+3	Dye, Unenumerated
+3	Instruments, Dental
+3	Palmrab Fibre
+3	British India For Coun. French India
+3	British India For Coun. Maldivé Islands
+3	Liquid Fuel
+3	Cotton, raw
+3	Cotton, Waste of (Raw and Yarn)
+3	Patent Manure
+3	France Germany
+3	British India Hongkong
+3	Straits Settlements For. Coun. China
+3	Articles of food and drink : Yams
+3	Zinc and Zinc-ware
+3	F Lamps
+3	Glass
+3	Tea Shooks
+3	Cocoanut Laths and Rafter
+3	Palmirah Laths and Rafter
+3	Laths and Rafter, other kinds
+3	Pickles and Vegetables preserved in salt or sugar
+3	Plums
+3	Chemicals, Dye Stuffs, and Tanning Substances : Saltpetre
+3	British India For. Coun
+3	Coir Fibre
+3	Acid, Nitric
+3	Arms and Ammunition : Gun Nipples
+3	Feathers, ornamental
+3	Animals, living : Cats
+3	Other Foreign Countries in Australasia
+3	Galvanized and Corrugated
+3	Guns
+3	Printing Materials (Type and Type-writer)
+3	Coffee— Mixed
+3	Mutton
+3	Seeds— Gingelly
+3	Sugar
+3	Cotton waste
+3	Manures— Refuse of Saltpetre
+3	Muriate of Potash
+3	(a) Apparel, made up
+3	Yarn and Twist
+3	Brass
+3	Gunpowder, (Blasting) coarse
+3	Gunpowder, (Sporting) fine
+3	Glass—Plate
+3	Kerosine—Bulk
+3	IV.—Bullion and Coin
+3	Stones
+3	Anatto Seed
+3	Arippo
+3	Myrobalans
+3	Electroplate
+3	Shooks
+3	Timber, worked— Palmirah Laths and Rafters
+3	IV.—Bullion and Coin. Gold— Coin
+2	Rabbits
+2	Mangosteens
+2	Sauces or Condiments
+2	Cacao, in bottle
+2	Aniline
+2	Seeds, Canary
+2	Tyres
+2	Br. Coun
+2	Salpetre
+2	Mangrove Bark
+2	Acme Chests
+2	United Kingdom Br. Col. British India For. Coun. Maldiv Islands
+2	Exhibits
+2	Buffaloes
+2	Multa
+2	Asphalt
+2	Yokohama
+2	Fullers' Earth
+2	Malt Liquor, in Bottle
+2	pcs
+2	Marmel water
+2	Bar
+2	Arms & Ammunition (contd)
+2	Copper sheathing, &c
+2	Arms, &c.—Cannon
+2	Pans
+2	Calf
+2	Brass, Sheets
+2	Iron Bar
+2	Senia Leaves
+2	Tricste
+2	Tallow
+2	Teuk
+2	Arrecanut Laths
+2	Do in wood
+2	Animals, living
+2	Sisal Stones
+2	Sapah
+2	Oat
+2	Corrugated
+2	Gun Caps
+2	Gutta root, or Madder
+2	Pecks and Watches
+2	Peon
+2	Plate & Sheet
+2	Peani, or Domba Nuts
+2	Water and Lo- nade
+2	Valeu Bark
+2	Animals, living. Asses
+2	■ Wecks
+2	Carrowroot
+2	Gum root, or Madder
+2	Munks
+2	Locks and Watches
+2	Oil and Coke
+2	Fruits unpreserved
+2	Strait Settlement
+2	Strait Settlements
+2	Nicobai Islands
+2	Iron, Rod-Bar, &c
+2	Stones of Sorts
+2	Horse-shell and manufacture
+2	Yn
+2	Salem Bark
+2	Peppar
+2	Pollen
+2	Rotterdam
+2	Straits Settlements For. Conn
+2	Sum
+2	Punni, or Domb Nuts
+2	Gun Flint
+2	Rattan and Rattan Mats, &c.*
+2	Horns, of Sorte
+2	Nicobar Island
+2	British India Australia
+2	Terrajaponics, or Cutch
+2	Cocoanut Laths &c
+2	Areca nut Laths &c
+2	Kitool Laths
+2	Maldivé Island
+2	Seeds, Castor
+2	Austrian, in wood
+2	Russian possession in China
+2	Dutch possession in India
+2	Dutch Pos. in India
+2	Sheep & goats
+2	Iron, Cast
+2	Punni, or Domba Nuts
+2	Rifles, double-barrelled
+2	Bâche-de-mer
+2	Gutch, or Terrajaponica
+2	Manritius
+2	Punnai, or Dombu Nuts
+2	Animals, living : Ames
+2	tons
+2	Crush
+2	For. Col
+2	Arrepa
+2	Blanking
+2	Russian Poss. in China
+2	Kitul, Rope
+2	British India For. Coun. Maldivé Islands Nicobar Islands
+2	Tea Soldering Fluid
+2	Statues
+2	Jamaica
+2	Cocoanut, Laths and Batters
+2	Zebra
+2	Kitul
+2	Pewterware
+2	Chinks
+2	Huaks
+2	Sambur, Elk, and Deer
+2	Antwerp
+2	Iron, Bqr, Flat, &c. }
+2	Tin Solder
+2	Tin Soldering Fluid
+2	Punnai, or Dombi Nuts
+2	Margarine or Imitation Butter
+2	Plums, dried or preserved
+2	Salt, rock or white
+2	Yeast
+2	Saumur
+2	Tin, in blocks, ingots, bars, or slabs
+2	Deal
+2	Staves of all kinds
+2	Staves of all demensions
+2	Gloves
+2	Millboard and Pasteboard
+2	Velvet, plain or figured, wholly of Silk
+2	Salicylic
+2	Tartaric
+2	Alkali, Soda Crystals
+2	Chemicals, Chemical and Medicinal preparations: Acids, Acetic
+2	Citric
+2	Manures (Chemical)
+2	Narcotic
+2	Stocks
+2	Paper of all descriptions
+2	Miscellaneous Animals, Pythons
+2	U. S of America
+2	Coal, coke, and patent fuel
+2	Cotton wool
+2	(a) Yarns and Textile Fabrics
+2	Cotton Yarn and Twist, Gray
+2	Twist and Yarn, bleached and dyed
+2	Bleached, white
+2	Folts
+2	Paper Currency
+2	Birds' Feathers, Ornamental
+2	Divi-Divi
+2	Cocoanut Leaves and Chidjau
+2	Coral Stone
+2	Exhibits (for Chicago)
+2	French Poss in China
+2	Swine
+2	Muslins
+2	Metals
+2	Farinaceous Substances and Manufactures thereof
+2	Feathers for beds
+2	Acids, Acetic
+2	United Kingdom Br. Col. Australia British India
+2	United Kingdom For. Coun. Belgium
+2	United Kingdom For. Coun. France
+2	Coconut, De-siccated
+2	Average price fixed for the value, if calculated officially
+2	Port
+2	(b) Metals and Articles Manufactured therefrom, except Machinery
+2	Copper Sheets and Nails
+2	Tea, Leaf
+2	Tea, Solder
+2	Tea, Soldering Fluid
+2	Skilloc
+2	Coconut Huaks
+2	Tuskwood
+2	Laths and Rafters. Other kinds
+2	United Kingdom For. Coun. Germany
+2	Metals (Raw Materials) : Coal and Patent Fuel
+2	Chemicals, Dye Stuffs, and Tanning Substances: Arecanuts
+2	Paper and Pasteboard
+2	Copper Wire
+2	Gunga
+2	Antelopes
+2	Hosiery: Stockings and Socks
+2	Straits Settlements For. Coun. Belgium
+2	revolvers
+2	United Kingdom Br. Col. Straits Settlements For Coun. Austria
+2	salted
+2	United Kingdom For. Coun. China France
+2	Olse
+2	Penang
+2	Animals, Asses
+2	Goats
+2	Bermudas
+2	Land and Lead-ware
+2	(d) Apparel and Articles of personal use : Apparel, Wearing
+2	(e) Chemical, &c.—contd
+2	Fi
+2	Gl Manure
+2	Straw Boards
+2	Kitul Laths and Rafter
+2	Fennel Seed
+2	United Kingdom Br. Col. Australia British India For. Coun. China
+2	Manure, Bone
+2	of Iron
+2	Manure of Potash
+2	Linseed Manure
+2	Zinc Sheets
+2	Austria Hungary
+2	Wines, Claret
+2	Hair, Cow
+2	(c) Machinery and Millwork
+2	Typewriter
+2	(e) Chemical, &c
+2	Pistols
+2	Dental
+2	Spirits
+2	Wines, still
+2	Burgundy
+2	Claret
+2	Ginger Wine
+2	Tobacco, manufactured— Cigars
+2	Coal
+2	Seeds (excluding Food Stuffs)
+2	Shells
+2	Coral
+2	(d) Silk and Satin—Broad Stuffs
+2	Lace
+2	Ribbons
+2	III.—Manufactured articles
+2	II. Manufactured Articles
+2	Zinc Ware
+2	Guns, single
+2	Guns, double
+2	Single
+2	Double
+2	Gunny Bags
+2	Leather Articles
+2	Nets, Fishing
+2	Oil
+2	III.--Manufactured Articles
+2	Watches
+2	Unenumerated—Dutiable
+2	Gold
+2	Silver
+2	Bullion
+2	Pearls and Precious
+2	Fresh
+2	II.—Raw materials
+2	(b) Miscellaneous.—Plants and Roots
+2	British North
+2	Borneo
+2	Seeds—Gingelly
+2	II. Raw Materials
+2	(d) Silk and Satin
+2	(f) Of Mixed Materials. Blankets
+2	Brass— Nails and Wire
+2	Drugs, manufactured
+1	Bee, fresh
+1	& packages
+1	British Ind
+1	Plums, French, and Prunelloes
+1	America (U. S.)
+1	Cape Town
+1	Wines, German, in bottle
+1	Areca nuts
+1	United Kingdom For. Coun. Austria Italy
+1	Myrabolams
+1	Dumma
+1	United Kingdom Br. Coun. British India
+1	United Kingdom Br. Col. British India For. Coun. Belgium Germany
+1	Bones
+1	Straits Settlements For. Coun. French India
+1	Matting
+1	Cotton, Yarn and Twist, Gray
+1	Shanghai
+1	Sir. its Settlements
+1	waddings
+1	Caoutchouc, Manufactures
+1	Regimental Apparel
+1	Miscellaneous. Animals, Asses
+1	Canaries
+1	Kittens
+1	Silkworm, Eggs
+1	Clover and Grass
+1	Trout Eggs
+1	Animals, living : Bears
+1	Cats
+1	Leopards
+1	Animals, living, for food : Bulls
+1	Animals, living, for food : Goats
+1	Articles of food and drink : Tea
+1	Spices Cinnamon
+1	Laths and Rafters : Other kinds
+1	British India Straits Settlements For. Coun. Maldiv Islands
+1	Cotton Goods, - contd
+1	Jowries and Shells
+1	Trackers
+1	Butch
+1	Hammer
+1	Lancery Articles
+1	Fruit, Unpreserved
+1	Glass and Glass-ware
+1	Grain, — contd
+1	Grain
+1	Hardware and Millinery
+1	Iron bar, flat, rod and nail rod, &c
+1	Iron, corrugated
+1	Iron, galvanized,
+1	Oils - Kerosine, Linseed & Vegetable
+1	Genou
+1	Trieate
+1	Slates
+1	Wines contd
+1	Marsala in bottle
+1	Port in bottle
+1	Port in wood
+1	Spanish in bottle
+1	Woods
+1	Dye. Sandal and of sorts
+1	Woolens
+1	Bees'-wax
+1	Choya root, or Madder
+1	Cocos
+1	Kongkong
+1	Fibre, Aloe
+1	British India Mauritius
+1	Plectware
+1	Iron, Sheet
+1	Nicarobar Islands
+1	Angle
+1	Tallow and grease
+1	Timber, Sapan
+1	Timber Firewood
+1	Timber.—contd
+1	Palmyrah laths and Rafters
+1	Cocoanut laths and Rafters
+1	United Kingdom Br. Col
+1	Animals, living: Asses
+1	United Kingdom Br. Col. British India For. Coun. France
+1	Tuserte
+1	Iron, bar, flat, rod, and nail rod, &c
+1	Iron, galvanized, &c
+1	Iron, hoop
+1	Iron nails, &c
+1	Iron, pg
+1	Iron, plate and sheet
+1	Tin plate
+1	Olus
+1	Finace
+1	Wines, contd
+1	Woods—Dye, Sandal and of sorts
+1	United Kingdom Br. Col. British India For. Coun. Nicobar Islands
+1	Triste
+1	Metals, Iron, Rod
+1	Plate & sheet
+1	Lead sheet
+1	Lead & Lead-wire
+1	Zinc & zinoware
+1	United Kingdom For. Coun. U. S. of America Trieste
+1	United Kingdom For. Coun. Trieste
+1	Orobilla Weed
+1	Odesna (Russia)
+1	For' Coun. Trieste
+1	Ases
+1	Arms & Ammunition : (continued.)
+1	Rifles, double-barrelled and revolvers
+1	Passora
+1	Fels
+1	Gou
+1	Plate and sheet
+1	Gassoline
+1	Portuguese possessions in Africa
+1	Maderas in bottle
+1	Huez
+1	Cotton Manufacture
+1	Fruit
+1	British India For. Coun. French India Maldives Islands
+1	Iron, Rod
+1	Lead Sheet
+1	United Kingdom For. Coun. U. S. of America
+1	Malritius
+1	Halmills
+1	British Island
+1	Tricote
+1	* Countries whence imported
+1	Cork Sticks
+1	Custor Seed Poonac
+1	Linseed & Vegetable
+1	Rio-de-Janeiro
+1	No
+1	Trench India
+1	Spirits—contd
+1	Stores Government
+1	French possessions in Africa
+1	Maderas, in bottle
+1	Pistols and Revolvers
+1	Ham and Pork
+1	Cadjane
+1	Asses
+1	Tristeg
+1	Steel, Hoop
+1	Nuts
+1	Japa
+1	Manstores
+1	Archilla Weed
+1	Paper, waste
+1	Jewels and Precious Stones
+1	Junai, or Dombi Nuts
+1	Rumbago
+1	Tuente
+1	French Indip
+1	Cedar
+1	Nandoon
+1	Kitool laths
+1	Animals, living : Horses
+1	Arms and Ammunition. Guns, single-barrelled
+1	Arms and Ammunition: Pistols, double-barrelled, and revolvers
+1	Blasting Powder Dynamite and Detonators, &c
+1	Port Sand
+1	Coconuts
+1	Grain, Oats
+1	Iron, Galvanized, &c
+1	Daggers
+1	Cardamom Shell
+1	Straits Settlements For Conn
+1	Sheep and Goats
+1	Metals.—contd
+1	Cocosnut
+1	Lemongrass
+1	Cocoanut Laths, &c
+1	Spanish in wood
+1	French possessions in China
+1	Dutch Poss in India
+1	Syrin
+1	Elk
+1	Mongoose
+1	Portuguese Possessions in India
+1	Brass Sheets, and Nails
+1	Spelter Zinc and Zincware
+1	United Kingdom For. Coun. Hamburg
+1	Portuguese Possession in India
+1	Tjeste
+1	Gun Wadding*
+1	Amphalte
+1	Cola
+1	Rape
+1	Tallow and Gresse
+1	Cape in bottle
+1	Matta
+1	Crimean in bottle
+1	German, in wood
+1	Choya Root or Madder
+1	Hanover
+1	Salonica
+1	British India For. Coun. Hamburg Hanover
+1	Metals, Spelter Zinc and Zincware
+1	Odessa in Russia
+1	Salomca
+1	Corfu
+1	Madeira in bottle
+1	Flint
+1	Maldiv Island
+1	United Kingdom Br. Col. British India For. Coun. Germany
+1	British India For. Coun. Maldives Islands
+1	Orange in bottle
+1	Coffee, Husks
+1	Tries'e
+1	Dutch Possession in India
+1	Barbadoes
+1	Grenada
+1	Straits Settlements French India
+1	Cocoanut, Laths and rafters
+1	Kitool, Laths and Rafters
+1	Germany Austria
+1	Grain, Indian Corn
+1	Australia British India For. Coun. China French India
+1	Grassies
+1	Metals, Zinc, perforated
+1	Flow and Grease
+1	Rails, Iron
+1	Lee
+1	Porcupine
+1	Tiger
+1	Metals, Iron, Cast
+1	Steel Cast
+1	Oil, Essential
+1	British India For. Coun. Maldives Islands Nicobar Islands
+1	For. Conn. Maldivé Islands
+1	Cyper
+1	Cibraltar
+1	Portuguese Possessions
+1	India
+1	Pistols, double-barrelled and revolvers
+1	Dynamite Detonators &c
+1	Fibre, kitul
+1	Gas (oxygen)
+1	Manures, Refuse of Salt-petre
+1	Metals, wrought and unwrought: Lead, Sheet, Pipe, and Pig
+1	Oil, Fish
+1	Spade, Bird
+1	Henna Leaves
+1	½
+1	Orange, in bottle
+1	For Cown
+1	Grain, Paddy
+1	British India For. Coun. Maldivé Islands
+1	Grass, Maus
+1	Cheetah
+1	Busbire
+1	Mombassa
+1	Namoa
+1	Br. Col. Cape of Good Hope
+1	Gas (Oxygen)
+1	& bags
+1	For. Col. Maldives Islands
+1	Great Britain
+1	Seeds, Bird
+1	French Ind
+1	Cajans
+1	Laccadiye Islands
+1	Fibre, Kitul, Rope
+1	Straits Settlements For. Coun. Dutch Poss. in India
+1	Straits Settlements For. Coun. Arabia
+1	Lacodive Islands
+1	Areca-nut, Laths and Rafters
+1	Articles for food and drink
+1	Coffee, kiln-dried, roasted, or ground
+1	Laccudive Islands
+1	Cacao and Chocolate
+1	Fish, fresh
+1	Oranges and Lemons
+1	Pomegranates
+1	Pears
+1	Oatmeal and Goats
+1	Plums, French, and Prunelles
+1	Succades, including all fruits and vegetable-preserved in sugar
+1	Unmanufactured, and Hookah
+1	Peptone
+1	Cocs, in bottle
+1	Metals (Raw Materials): Lead, Sheet, Pipe, and Pig
+1	Zinc, in cake or slabs
+1	Brass, bronze and bronz- ed or lacquered
+1	Hoop Iron
+1	Bark
+1	Dyes obtained from Coal Tar : Aniline
+1	Benzine
+1	House Frames and Fittings
+1	Bricks
+1	Telephone Materials
+1	Cotton Embroidery
+1	Piece Goods, Muslins
+1	Piece Goods other than Muslins
+1	Cotton Hosiery: Stockings and Socks
+1	Linen Thread for sewing
+1	Threads for other Manufactures
+1	Ribbons, other kinds
+1	Foreign
+1	Electric lighting apparatus or parts thereof
+1	Plate, viz., of silver, gilt or ungilt
+1	Articles Manufactured : Feathers, Ornamental
+1	Acids, Nitric
+1	Quaja
+1	Soda, Bicarbonate
+1	Lock
+1	Carriages, Railway, and parts thereof
+1	Skins, unenumerated, in any way dressed, not Leather
+1	Nicobur Islands
+1	Turkey (Constantinople)
+1	Hosiery, cotton, or of cotton mixed with other materials
+1	Linen, other kinds
+1	(Old)
+1	Lead, Sheet, Pipe, and Pipe
+1	Tank, Iron
+1	Maldivc Islands
+1	Bixi Dye
+1	Orohilla Weed
+1	Opticial
+1	Sambur & Deer
+1	Spices, Cinnamon Leaves
+1	Nutmeg
+1	Laths and Rafters Other kinds
+1	Animals living, for food
+1	Omen and Bulbs
+1	French Poss., China
+1	Spirits, Gin
+1	Metals (Raw Materials): Iron, Plate and Sheet
+1	Gutch and Gambier
+1	Myrobalams
+1	Maldivg Islands
+1	Nitric
+1	Bicarbonate of Soda
+1	United Kingdom Br. Col. Aden British India For. Coun. Germany
+1	Rockets
+1	Ova
+1	Cats (Wild)
+1	Cheetahs
+1	Peacocks
+1	Pigs
+1	Turtle
+1	Articles of food and drink : Sago
+1	Do. in India
+1	Tobacco
+1	Piece goods, including unbleached gray
+1	Cotton Manufactures Piece goods, including bleached white
+1	British India For. Coun. Japan
+1	Hongkong For. Coun. Dutch Indies Germany
+1	United Kingdom Br. Col. Straits Settlements
+1	British India For. Coun. Germany
+1	Woollen Manufactures: Woollen stuffs
+1	United Kingdom Br. Col. Mauritius
+1	United Kingdom Br. Col. Aden
+1	Leather Roots and Shoes
+1	Br. and Trunk lb. lb
+1	Copperash
+1	Indianrubber
+1	Avermany
+1	Articles of food and drink : Aerated and Mineral Waters
+1	United Kingdom Br. Col. Australia For. Coun. China
+1	United Kingdom For. Coun. Austria Belgium France Germany Japan
+1	Articles of food and drink : Beer and Ale, in wood
+1	Articles of food and drink : Fruits
+1	Articles of food and drink : Plums, French, and Pruneloes
+1	Provisions unenum- rated
+1	Br. Col. Australia British India For. Coun. France
+1	Br. Col. British India Straits Settlements
+1	United Kingdom Br. Col. Australia For. Coun. Maldiv Islands
+1	Trout Ova
+1	Articles of food and drink : Vinegar
+1	Articles of food and drink : Wines, Kola
+1	United Kingdom Br. Col. Malta
+1	Steel, Biister
+1	Myrabolans
+1	Mineral
+1	For. Coun. China
+1	For. Coun. France
+1	Coffee refuse
+1	Straits Settlements For. Coun. Germany
+1	Hongkong For. Coun. Austria
+1	Thursday Island
+1	Panthers
+1	Steam Launches
+1	Articles of food and drink : Beer and Ale
+1	Articles of food and drink : Wines, Sparkling
+1	British India For. Coun. Dutch Indies Maldivé Islands
+1	British India For. Coun. Egypt Maldivé Islands
+1	Raw Materials : Coal, coke, and patent fuel
+1	France Maldivé Islands
+1	For Textile Manufactures : Cotton wool
+1	British India Mauritius For. Coun. Dutch Indies
+1	British India Hongkong For. Coun. Maldivé Islands
+1	New Caledonien
+1	Talipot Leaves
+1	Straits Settlements For. Coun. Australia
+1	other United Kingdom
+1	Articles of food and drink : Cocoanuts
+1	United Kingdom For. Coun. America China
+1	British India For. Coun. Italy
+1	Br. Col. Straits Settlements For. Coun. Austria Hongkong
+1	Articles of food and drink : Spirits of Wine
+1	France Germany Russia
+1	Copper Shething
+1	Salmonica
+1	Hides, dry
+1	Leather gloves
+1	German Russia
+1	Germany Russia
+1	Plate of Silver
+1	Jadoo Fibre, raw
+1	Gun wadding
+1	Hongkong. For. Coun
+1	Aten
+1	Birds
+1	Seeds Canary
+1	Br. Co
+1	Austral
+1	Gats
+1	British Possessions in Africa
+1	British Possessions in India
+1	Mauritius (including Seychelles)
+1	Buenos Ayres (Argentine Republic)
+1	Hair, cow
+1	including Bleached White
+1	Lead, Sheet
+1	Steel Bars
+1	Steel Tyres
+1	Straits Settlements For. Coun. Dutch Indies
+1	Be gium
+1	Dyes, Anatt Seed, and Paste
+1	Orchilla weed
+1	B-lgium
+1	Fiji Islands
+1	Playing Cards
+1	Printing Materials (Typewriter)
+1	Articles of food and drink : Currants
+1	British India For. Coun. Egypt French India
+1	British India Hongkong For. Coun. China Italy French India
+1	British India For. Coun. China French India
+1	Chillies
+1	Fig and Fig cake
+1	Fish, Maldivi
+1	British India United Kingdom
+1	United Kingdom For. Coun. Germany Italy
+1	Oranges
+1	Dried fruits
+1	United Kingdom Br. Col. British India For. Coun. China
+1	Articles of food and drink : Oatmeal and Groats
+1	Poultry and Game, dead or alive
+1	Sauces
+1	Pepper (whole)
+1	of Cod Liver Oil
+1	Australian, bottle
+1	Australian, wood
+1	Stillhock, in bottle
+1	Cape
+1	Cotton, waste
+1	Rape Cake Manure
+1	Artworks, other than Pictures
+1	Bricks and Articles of Clay
+1	Bath Bricks
+1	Leather, Leather gloves
+1	Paper hangings
+1	Perforated
+1	Jadoo Fibre
+1	Golden Casket
+1	Canary
+1	Wild Animals
+1	Essence of
+1	Cocoanut, De
+1	siccated
+1	Dried
+1	Articles of food and drink : Spirits, Gin
+1	candy, Palm, and Jaggery
+1	Other Foreign Countries in Africa
+1	Spain (excluding Gibraltar)
+1	Shawls
+1	Linen, condemned
+1	Coating
+1	India (excluding British possess.)
+1	Steel Rails
+1	Betel Leaves
+1	contd. Br. Col. Aden
+1	United Kingdom For. Coun. France Japan U. S. of America
+1	United Kingdom Br. Col. British India For. Coun. Belgium
+1	Dyes, Anatto Seed, and Paste
+1	Cutch or Terra- japonica
+1	Dyewood Root and
+1	Dye, Bixa
+1	contd. United Kingdom
+1	Cassia Bark United Kingdom
+1	Composition, conducting
+1	non-Br. Col. British India
+1	Reunion Islands
+1	Asbestos Yam
+1	Other Foreign Possessions in Africa
+1	Rifle
+1	Soil
+1	Spears
+1	Maldiv
+1	Spirits of wine, rectified
+1	Hock
+1	Sherry
+1	Lead
+1	Muntz Metal
+1	Blister
+1	Tin
+1	Plates
+1	Slabs
+1	Zinc, slabs
+1	Bark for tanning or dyeing
+1	Gambier
+1	Lac
+1	Fibre—Coir
+1	Hair
+1	Bone
+1	Other (not Chemicals)
+1	Plants and Roots
+1	Rattans
+1	Stone
+1	Other, unworked
+1	Dutiable
+1	(c) Linen
+1	Maldiva
+1	Gold Leaf
+1	United Kingdom Br. Col. British India Canada
+1	Lead Ware
+1	Pewter Ware
+1	United Kingdom For. Coun. Austria France
+1	Implementes and accessories
+1	Revolvers
+1	Magazine
+1	Rurmah
+1	Clocks
+1	Electric Materials
+1	Embroidery
+1	Explosives— Caps, Percussion
+1	Hatness and Saddlery
+1	Foundry and Work-shop
+1	Oil-making
+1	Maps
+1	Oil and Floorcloth
+1	Straits Settlements Borneo
+1	Paper— Hanging
+1	Pasteboard
+1	Soap—Toilet
+1	Soda
+1	Stationery, excluding Paper
+1	British
+1	Hurmah
+1	Desiccated
+1	Arabian
+1	Fruits— Fresh
+1	Preserved
+1	Grain— Gram
+1	British India Maldiv Islands Other British Possessions in Asia
+1	United Straits of America
+1	Newfoundland
+1	Nux vomica
+1	Sapan Wood
+1	Cuttle Fish
+1	Domba Nuts
+1	Fibre
+1	Coir
+1	Seeds
+1	British North Borneo
+1	New South Wales For. Coun
+1	Skins, undressed
+1	II.—Raw Materials. (b) Miscellaneous. Tallow and Grease
+1	Tortoise shell
+1	Timber, un-worked— Ebony
+1	Palu
+1	Implement and Accessories
+1	Rifles— Single
+1	Carriages and Carts
+1	Casks
+1	Coir— Matting
+1	Coppersh
+1	Curios and Fancy Articles
+1	III.—Manufactured Articles. Other Oil— Castor
+1	Silver—Coin
+1	Copper—Coin

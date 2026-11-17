@@ -48,9 +48,16 @@ page images by readers who had not seen the extraction.
     schools, revenue, expenditure, imports, exports, shipping, land sales): 45,118 figures from 49 volumes.
     `bluebook/statistical_view_consensus.py` takes the value most volumes print: 2,437 series-years, 1,967 with
     strong support (five or more volumes, 80% agreeing). Loaded as `series:` observations.
-  - *Trade 1880–1900* and a repair of my 1901–1906 reader are still running. My first 1901–1906 reader put the
-    right figures under the wrong article too often (150 of 240 sampled rows right), so nothing before 1907 is
-    loaded.
+  - *Trade before 1907 is extracted but not loaded* (state on 17 Nov 2026; files are in the repo, marked unvetted).
+    1901–1906: `bluebook/read_trade_old.py` → `extracted/trade_1880_1906.tsv.gz` (79,072 figures). Scan checks
+    of the labels scored 150 of 240, then 205 of 238 after a first Codex repair; a second repair is done and a
+    third scan check (`jobs/trade_1901_1906_work/scan_check3_*`) was running when this was written. Figures and
+    countries were right in the samples; the faults were article labels. Tea exports for 1902 are missing.
+    1880–1900 (Codex): `extracted/trade_1880_1900.tsv.gz`, 95,312 figures, but only 1,288 of 2,760 articles agree
+    with their printed totals. Neither file is in the linker's `ACCEPTED` list.
+- **Organisation names (proposal, not loaded).** `grounding/org_job/`: Codex Sol grouped the 2,265 most frequent
+  organisation names into 1,222 bodies (`org_bodies.jsonl`, a decision per name in `org_names_decisions.tsv`,
+  summary in `org_summary.md`). 45 sampled groupings read plausibly; a few fold a bare short name into a company.
 - **Other sources.** `sources/ocr_registry.tsv` lists every OCR'd piece downloaded so far with its collection,
   title and date. The Ferguson directories will not be re-extracted: historyofceylontea.com has already
   compiled estate and planter registers from them, and this project links to those pages
@@ -229,7 +236,7 @@ it did not already hold.
   Fawcett). `master` is unchanged.
 - `col_matching/data/kg/person_grounding_merge_dropped.jsonl` (git-ignored log) was overwritten when I ran the
   merge script once; I could not restore it.
-- `/mnt/data/jic823/wikidata/20261109/`: Wikidata dump downloading; checksum and slim extract queued.
+- `/mnt/data/jic823/wikidata/20261109/`: Wikidata dump downloaded, checksum passed, slim extract built (`slim/`, 122 parts). The grounding scripts do not use it yet.
 - `empire-evolution`: cloned, not edited.
 
 ## Queries worth running (`queries.cypher`)
@@ -244,5 +251,5 @@ it did not already hold.
 ## Open decisions for you
 
 - Whether to merge `ceylon-data` into `master` in `col_matching`.
-- `spine/` is now in a local clone of `jburnford/sri_lanka_history` rooted at the project folder; pushing waits for your word.
+- Whether to load the arithmetic-verified part of the 1880–1900 trade ledgers, and whether to read the main export articles for those years from the page images.
 - Which upstream fixes in `UPSTREAM_ERRORS.md` to apply first. I have applied none beyond the three person links.

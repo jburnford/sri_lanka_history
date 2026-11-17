@@ -1,0 +1,278 @@
+
+CASE 1 1880 import bb1880:p499:t1 row 42
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially.)', 'Gross amount received in currency.', 'Rate and when imposed.']]
+LABELS [(39, ['— Wearing', '']), (40, ['— Wearing', '']), (42, ['Arms and Ammunition : — Guns, single barreled...', 'United Kingdom'])]
+SOURCE ['Arms and Ammunition : — Guns, single barreled...', 'United Kingdom', 'No. 413', 'No. 488', '6195', '0', '1220', '0']
+OUT — Guns, single barreled... '' 'United Kingdom' country quantity_total No. '413' 413 source row 42; shared quantity unit explicitly printed in the row
+OUT — Guns, single barreled... '' 'United Kingdom' country quantity_home_consumption No. '488' 488 source row 42; shared quantity unit explicitly printed in the row
+OUT — Guns, single barreled... '' 'United Kingdom' country value_total_rs  '6195 0' 6195.00 source row 42; shared quantity unit explicitly printed in the row; money cells joined
+OUT — Guns, single barreled... '' 'United Kingdom' country duty_rs  '1220 0' 1220.00 source row 42; shared quantity unit explicitly printed in the row; money cells joined
+
+CASE 2 1880 import bb1880:p504:t1 row 41
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'cwts.', 'pkgs.', 'cwts.', 'pkgs.', 'Of total imports.', 'Average price fixed for the value (if calculated officially.)', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(26, ['Butch', 'Br. Col.']), (30, ['Hammer', 'Br. Col.']), (34, ['Hardware', 'United Kingdom'])]
+SOURCE ['', 'France', '—', '1', '—', '1', '10 0', '', '0 50', '']
+OUT Hardware 'For. Coun.' 'France' country quantity_total pkgs. '1' 1 source row 41; unit carried from above; separate quantity unit column
+OUT Hardware 'For. Coun.' 'France' country quantity_home_consumption pkgs. '1' 1 source row 41; unit carried from above; separate quantity unit column
+OUT Hardware 'For. Coun.' 'France' country value_total_rs  '10 0' 10.00 source row 41; merged rupees and cents
+OUT Hardware 'For. Coun.' 'France' country duty_rs  '0 50' 0.50 source row 41; merged rupees and cents
+
+CASE 3 1880 import bb1880:p510:t1 row 19
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (it calculated officially.)', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(12, ['— Iron, galvanized,', 'United Kingdom']), (17, ['— Iron, Hoop', 'United Kingdom']), (19, ['— Iron Nails, &c.', 'United Kingdom'])]
+SOURCE ['— Iron Nails, &c.', 'United Kingdom', 'cwt. 3303 3 22', 'cwt. 3409 3 22', '41299', '33', '2148', '39']
+OUT — Iron Nails, &c. '' 'United Kingdom' country quantity_total cwt. '3303 3 22' 3303.9464 source row 19; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT — Iron Nails, &c. '' 'United Kingdom' country quantity_home_consumption cwt. '3409 3 22' 3409.9464 source row 19; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT — Iron Nails, &c. '' 'United Kingdom' country value_total_rs  '41299 33' 41299.33 source row 19; shared quantity unit explicitly printed in the row; money cells joined
+OUT — Iron Nails, &c. '' 'United Kingdom' country duty_rs  '2148 39' 2148.39 source row 19; shared quantity unit explicitly printed in the row; money cells joined
+
+CASE 4 1880 import bb1880:p515:t1 row 54
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially.)', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(52, ['Tea', 'For Coun.']), (53, ['Tea', 'France']), (54, ['Tea', 'Japan'])]
+SOURCE ['Tea', 'Japan', '49077', '—', '120192 50', '', '—', '']
+OUT Tea 'For Coun.' 'Japan' country quantity_total lbs. '49077' 49077 source row 54; unit carried from above
+OUT Tea 'For Coun.' 'Japan' country value_total_rs  '120192 50' 120192.50 source row 54; merged rupees and cents
+
+CASE 5 1880 import bb1880:p520:t1 row 18
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially)', 'Gross amount received in currency.', 'Rate and when imposed.']]
+LABELS [(3, ['— Marsala in bottle', 'United Kingdom']), (8, ['— in wood', 'United Kingdom']), (14, ['— Port in bottle', 'United Kingdom'])]
+SOURCE ['', 'Genoa', '49½', '49½', '442', '50', '61', '46']
+OUT — Port in bottle 'For. Coun.' 'Genoa' country quantity_total gallons '49½' 49.5 source row 18; unit carried from above
+OUT — Port in bottle 'For. Coun.' 'Genoa' country quantity_home_consumption gallons '49½' 49.5 source row 18; unit carried from above
+OUT — Port in bottle 'For. Coun.' 'Genoa' country value_total_rs  '442 50' 442.50 source row 18; money cells joined
+OUT — Port in bottle 'For. Coun.' 'Genoa' country duty_rs  '61 46' 61.46 source row 18; money cells joined
+
+CASE 6 1880 export bb1880:p527:t1 row 13
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Value in currency.', ''], ['Articles.', 'Countries to which exported.', 'Produce and manufacture of the Colony.', 'British, Foreign, and other Colonial produce and manufacture', 'Total.', 'Produce and manufacture of the Colony.', 'British, Foreign, and other Colonial produce and manufacture.', 'Total.', 'Average price fixed for the value, if calculated officially.', '']]
+LABELS [(10, ['Trieste', '48969']), (12, ['Clocks and Watches', 'United Kingdom']), (13, ['Cocoanuts', 'United Kingdom'])]
+SOURCE ['Cocoanuts', 'United Kingdom', 'bags Nos. — 532845', 'bags Nos. —', 'bags Nos. — 532845', '22868 0', '—', '22868 0', '', '']
+OUT Cocoanuts '' 'United Kingdom' country quantity_ceylon_produce Nos. '532845' 532845 source row 13; multiple units explicitly printed in quantity cell
+OUT Cocoanuts '' 'United Kingdom' country quantity_total Nos. '532845' 532845 source row 13; multiple units explicitly printed in quantity cell
+OUT Cocoanuts '' 'United Kingdom' country value_ceylon_produce_rs  '22868 0' 22868.00 source row 13; merged rupees and cents
+OUT Cocoanuts '' 'United Kingdom' country value_total_rs  '22868 0' 22868.00 source row 13; merged rupees and cents
+
+CASE 7 1880 export bb1880:p528:t1 row 24
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value (if calculated officially.)'], ['Articles.', 'Countries to which exported.', 'Produce and manufacture of the Colony.', 'British, Foreign, and other Colonial produce and manufacture.', 'Total.', 'Produce and manufacture of the Colony.', 'British, Foreign and other Colonial produce and manufacture.', 'Total.', 'Average price fixed for the value (if calculated officially.)']]
+LABELS [(22, ['Coir Manufacture', 'French India']), (23, ['Coir Manufacture', 'Dutch Possessions in India']), (24, ['Confectionery and Preserves', 'United Kingdom'])]
+SOURCE ['Confectionery and Preserves', 'United Kingdom', 'pkgs. No. 13 139 cwt. 154 1 22', '1 package', 'pkgs. No. 14 139 cwt. 154 1 22', '1300 50', '600 0', '1900 50', 'Declared']
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_ceylon_produce pkgs. '13' 13 source row 24; multiple units explicitly printed in quantity cell
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_ceylon_produce No. '139' 139 source row 24; multiple units explicitly printed in quantity cell
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_ceylon_produce cwt. '154 1 22' 154.4464 source row 24; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_other_produce package '1' 1 source row 24
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_total pkgs. '14' 14 source row 24; multiple units explicitly printed in quantity cell
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_total No. '139' 139 source row 24; multiple units explicitly printed in quantity cell
+OUT Confectionery and Preserves '' 'United Kingdom' country quantity_total cwt. '154 1 22' 154.4464 source row 24; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Confectionery and Preserves '' 'United Kingdom' country value_ceylon_produce_rs  '1300 50' 1300.50 source row 24; merged rupees and cents
+OUT Confectionery and Preserves '' 'United Kingdom' country value_other_produce_rs  '600 0' 600.00 source row 24; merged rupees and cents
+OUT Confectionery and Preserves '' 'United Kingdom' country value_total_rs  '1900 50' 1900.50 source row 24; merged rupees and cents
+
+CASE 8 1880 export bb1880:p531:t1 row 14
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufacture of the Colony.', 'British, Foreign, and other Colonial produce and manufacture.', 'Total.', 'Produce and manufacture of the Colony.', 'British, Foreign, and other Colonial produce and manufacture.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(12, ['Gunnies and Twine', 'Br. Col.']), (13, ['Gunnies and Twine', 'British India']), (14, ['Haberdashery and Millinery', 'French India'])]
+SOURCE ['Haberdashery and Millinery', 'French India', '—', '47012 packages', '47012 packages', '—', '196406 0', '196406 0', 'Do.']
+OUT Haberdashery and Millinery '' 'French India' country quantity_other_produce packages '47012' 47012 source row 14; shared quantity unit explicitly printed in the row
+OUT Haberdashery and Millinery '' 'French India' country quantity_total packages '47012' 47012 source row 14; shared quantity unit explicitly printed in the row
+OUT Haberdashery and Millinery '' 'French India' country value_other_produce_rs  '196406 0' 196406.00 source row 14; shared quantity unit explicitly printed in the row; merged rupees and cents
+OUT Haberdashery and Millinery '' 'French India' country value_total_rs  '196406 0' 196406.00 source row 14; shared quantity unit explicitly printed in the row; merged rupees and cents
+
+CASE 9 1880 export bb1880:p535:t1 row 47
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value (if calculated officially.)', ''], ['Articles.', 'Countries to which exported.', 'Produce and manufacture of the colony.', 'British, Foreign, and other colonial produce and manufacture.', 'Total.', 'Produce and manufacture of the colony.', 'British, Foreign, and other colonial produce and manufacture.', 'Total.', 'Average price fixed for the value (if calculated officially.)', '']]
+LABELS [(45, ['Provisions', 'French India']), (46, ['Provisions', 'Maldivé Islands']), (47, ['Provisions', 'Nicobar Islands'])]
+SOURCE ['Provisions', 'Nicobar Islands', 'pkgs. cwt. 306 160 2 0', 'pkgs. cwt. 341 25 0 0', 'pkgs. cwt. 647 175 2 0', '791 75', '915 0', '1716 75', 'Do.', '']
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_ceylon_produce pkgs. '306' 306 source row 47; multiple units explicitly printed in quantity cell
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_ceylon_produce cwt. '160 2 0' 160.5000 source row 47; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_other_produce pkgs. '341' 341 source row 47; multiple units explicitly printed in quantity cell
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_other_produce cwt. '25 0 0' 25.0000 source row 47; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_total pkgs. '647' 647 source row 47; multiple units explicitly printed in quantity cell
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country quantity_total cwt. '175 2 0' 175.5000 source row 47; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country value_ceylon_produce_rs  '791 75' 791.75 source row 47; merged rupees and cents
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country value_other_produce_rs  '915 0' 915.00 source row 47; merged rupees and cents
+OUT Provisions 'For. Coun.' 'Nicobar Islands' country value_total_rs  '1716 75' 1716.75 source row 47; merged rupees and cents
+
+CASE 10 1880 export bb1880:p537:t1 row 40
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufacture of the colony.', 'British, Foreign, and other colonial produce and manufacture.', 'Total.', 'Produce and manufacture of the colony.', 'British, Foreign, and other colonial produce and manufacture.', 'Total.', 'Average price fixed for the value if calculated officially.']]
+LABELS [(36, ['— Jaggery', 'British India']), (37, ['— Jaggery', 'For. Coun.']), (40, ['Sulphur', 'United Kingdom'])]
+SOURCE ['Sulphur', 'United Kingdom', '—', 'cwt. 639 0 0', 'cwt. 639 0 0', '—', '10300 0', '10300 0', '']
+OUT Sulphur '' 'United Kingdom' country quantity_other_produce cwt. '639 0 0' 639.0000 source row 40; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Sulphur '' 'United Kingdom' country quantity_total cwt. '639 0 0' 639.0000 source row 40; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Sulphur '' 'United Kingdom' country value_other_produce_rs  '10300 0' 10300.00 source row 40; shared quantity unit explicitly printed in the row; merged rupees and cents
+OUT Sulphur '' 'United Kingdom' country value_total_rs  '10300 0' 10300.00 source row 40; shared quantity unit explicitly printed in the row; merged rupees and cents
+
+CASE 11 1896 import bb1896:p528:t1 row 32
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', '', ''], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.', '', '']]
+LABELS [(30, ['Butter', 'Br. Col.']), (31, ['Butter', 'Australia ...']), (32, ['Butter', 'British India ...'])]
+SOURCE ['Butter', 'British India ...', '1092', '0 17', '1092', '0 17', '203868', '33', '3277', '4', '', '']
+OUT Butter 'Br. Col.' 'British India' country quantity_total cwt. '1092 0 17' 1092.1518 source row 32; unit carried from above; quantity cells joined; cwt qr lb
+OUT Butter 'Br. Col.' 'British India' country quantity_home_consumption cwt. '1092 0 17' 1092.1518 source row 32; unit carried from above; quantity cells joined; cwt qr lb
+OUT Butter 'Br. Col.' 'British India' country value_total_rs  '203868 33' 203868.33 source row 32; money cells joined
+OUT Butter 'Br. Col.' 'British India' country duty_rs  '3277 4' 3277.04 source row 32; money cells joined
+
+CASE 12 1896 import bb1896:p534:t1 row 58
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', ''], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.', '']]
+LABELS [(41, ['Cloves', 'Br. Col.']), (47, ['Ginger', 'Br. Col.']), (54, ['Mace', 'Br. Col.'])]
+SOURCE ['', 'China ...', '1 2 14', '1 2 14', '210', '0', '13', '65', '']
+OUT Mace 'For. Coun.' 'China' country quantity_total cwt. '1 2 14' 1.6250 source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; unit carried from above; cwt qr lb
+OUT Mace 'For. Coun.' 'China' country quantity_home_consumption cwt. '1 2 14' 1.6250 source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; unit carried from above; cwt qr lb
+OUT Mace 'For. Coun.' 'China' country value_total_rs  '210 0' 210.00 source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; money cells joined
+OUT Mace 'For. Coun.' 'China' country duty_rs  '13 65' 13.65 source row 58; in-page column layout anchored by explicitly mirrored quantity units on source row 54; article heading on row above: bb1896:p534:t1 row 54; money cells joined
+
+CASE 13 1896 import bb1896:p550:t1 row 37
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', ''], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.', '']]
+LABELS [(35, ['Watches, and parts thereof', 'Germany ...']), (36, ['Watches, and parts thereof', 'Japan ...']), (37, ['Watches, and parts thereof', 'Switzerland ...'])]
+SOURCE ['Watches, and parts thereof', 'Switzerland ...', '—', '—', '—', '—', '1460', '40', '']
+OUT Watches, and parts thereof 'For. Coun.' 'Switzerland' country value_total_rs  '1460 40' 1460.40 source row 37; in-page column layout anchored by explicitly mirrored quantity units on source row 11; money cells joined
+
+CASE 14 1896 import bb1896:p561:t1 row 60
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', 'Rate, and when imposed', '', ''], ['Articles.', 'Countries whence imported.', '', '', '', '', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Gross amount received in currency.', 'Rate, and when imposed', '', '']]
+LABELS [(51, ['— double-barrelled and revolvers', 'For. Coun.']), (52, ['— double-barrelled and revolvers', 'China ...']), (54, ['Cartridges ...', 'United Kingdom...'])]
+SOURCE ['', 'Germany ...', '1', '—', '1', '—', '25', '0', '1', '63', '', '', '']
+OUT Cartridges ... 'For. Coun.' 'Germany' country quantity_total pkgs. '1' 1 source row 60; unit carried from above; separate quantity unit column
+OUT Cartridges ... 'For. Coun.' 'Germany' country quantity_home_consumption pkgs. '1' 1 source row 60; unit carried from above; separate quantity unit column
+OUT Cartridges ... 'For. Coun.' 'Germany' country value_total_rs  '25 0' 25.00 source row 60; money cells joined
+OUT Cartridges ... 'For. Coun.' 'Germany' country duty_rs  '1 63' 1.63 source row 60; money cells joined
+
+CASE 15 1896 import bb1896:p568:t1 row 12
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', ''], ['Articles.', 'Countries whence imported.', 'doz.', 'pkg.', 'doz.', 'pkg.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.', '']]
+LABELS [(10, ['Umbrellas and Parasols ...', 'Germany ...']), (11, ['Umbrellas and Parasols ...', 'Japan ...']), (12, ['French India ...', '13\\frac{9}{12}'])]
+SOURCE ['French India ...', '13\\frac{9}{12}', '—', '13\\frac{9}{12}', '—', '40', '5', '2', '62', '', '']
+OUT Umbrellas and Parasols ... 'For. Coun.' 'French India' country quantity_total doz. '13\\frac{9}{12}' 13.75 source row 12; missing article cell restored; country anchored at source column 0; unit carried from above; separate quantity unit column
+OUT Umbrellas and Parasols ... 'For. Coun.' 'French India' country quantity_home_consumption doz. '13\\frac{9}{12}' 13.75 source row 12; missing article cell restored; country anchored at source column 0; unit carried from above; separate quantity unit column
+OUT Umbrellas and Parasols ... 'For. Coun.' 'French India' country value_total_rs  '40 5' 40.05 source row 12; missing article cell restored; country anchored at source column 0; money cells joined
+OUT Umbrellas and Parasols ... 'For. Coun.' 'French India' country duty_rs  '2 62' 2.62 source row 12; missing article cell restored; country anchored at source column 0; money cells joined
+
+CASE 16 1896 export bb1896:p574:t1 row 18
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(10, ["Birds' Nests", 'Br. Col. Hongkong']), (13, ['Beer and Ale', 'Br. Col. British India']), (16, ['Bread and Biscuits', 'Br. Col. British India'])]
+SOURCE ['', '', '3 0 0', '14 3 14', '17 3 14', '114 0', '403 0', '517 0', 'Do.']
+OUT Bread and Biscuits '' '' article_total quantity_ceylon_produce cwt. '3 0 0' 3.0000 source row 18; unit carried from above; cwt qr lb
+OUT Bread and Biscuits '' '' article_total quantity_other_produce cwt. '14 3 14' 14.8750 source row 18; unit carried from above; cwt qr lb
+OUT Bread and Biscuits '' '' article_total quantity_total cwt. '17 3 14' 17.8750 source row 18; unit carried from above; cwt qr lb
+OUT Bread and Biscuits '' '' article_total value_ceylon_produce_rs  '114 0' 114.00 source row 18; merged rupees and cents
+OUT Bread and Biscuits '' '' article_total value_other_produce_rs  '403 0' 403.00 source row 18; merged rupees and cents
+OUT Bread and Biscuits '' '' article_total value_total_rs  '517 0' 517.00 source row 18; merged rupees and cents
+
+CASE 17 1896 export bb1896:p579:t1 row 55
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Tea Fund.*', 'Duty.*'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British Foreign, and other colonial produce and manufactures.', 'Total.', 'Tea Fund.*', 'Duty.*']]
+LABELS [(48, ['Vinegar ...', 'Br. Col.']), (49, ['Wines, French, in bottle', 'British India ...']), (51, ['Yams ...', 'Br. Col.'])]
+SOURCE ['', 'Nicobar Islands ...', '—', '— 1 0 0', '— 1 0 0', '—', '5 0', '5 0', '', '']
+OUT Yams ... 'For. Coun.' 'Nicobar Islands' country quantity_other_produce cwt. '1 0 0' 1.0000 source row 55; article heading on row above: bb1896:p579:t1 row 51; unit carried from above; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Yams ... 'For. Coun.' 'Nicobar Islands' country quantity_total cwt. '1 0 0' 1.0000 source row 55; article heading on row above: bb1896:p579:t1 row 51; unit carried from above; multiple units explicitly printed in quantity cell; cwt qr lb
+OUT Yams ... 'For. Coun.' 'Nicobar Islands' country value_other_produce_rs  '5 0' 5.00 source row 55; article heading on row above: bb1896:p579:t1 row 51; merged rupees and cents
+OUT Yams ... 'For. Coun.' 'Nicobar Islands' country value_total_rs  '5 0' 5.00 source row 55; article heading on row above: bb1896:p579:t1 row 51; merged rupees and cents
+
+CASE 18 1896 export bb1896:p585:t1 row 36
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', '', '']]
+LABELS [(34, ['Medicine ...', 'Maldivie Islands ...']), (35, ['Medicine ...', '']), (36, ['Medicine ...', 'Nux Vomica ...'])]
+SOURCE ['Medicine ...', 'Nux Vomica ...', 'United Kingdom ...', 'cwt. 33 2 11', 'cwt. —', 'cwt. 33 2 11', '560 0', '—', '560 0', '']
+OUT Nux Vomica ... '' 'United Kingdom' country quantity_ceylon_produce cwt. '33 2 11' 33.5982 source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Nux Vomica ... '' 'United Kingdom' country quantity_total cwt. '33 2 11' 33.5982 source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Nux Vomica ... '' 'United Kingdom' country value_ceylon_produce_rs  '560 0' 560.00 source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; merged rupees and cents
+OUT Nux Vomica ... '' 'United Kingdom' country value_total_rs  '560 0' 560.00 source row 36; extra leading label cell removed; country anchored at source column 2; shared quantity unit explicitly printed in the row; merged rupees and cents
+
+CASE 19 1896 export bb1896:p592:t1 row 54
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(52, ['Merchandise', 'For. Coun.']), (53, ['Merchandise', 'French India']), (54, ['Merchandise', 'Maldiv Islands'])]
+SOURCE ['Merchandise', 'Maldiv Islands', '—', '26', '— 26', '—', '655 0', '655 0', '']
+OUT Merchandise 'For. Coun.' 'Maldiv Islands' country quantity_other_produce packages '26' 26 source row 54; unit carried from above
+OUT Merchandise 'For. Coun.' 'Maldiv Islands' country quantity_total pkgs. '26' 26 source row 54; unit carried from above; multiple units explicitly printed in quantity cell
+OUT Merchandise 'For. Coun.' 'Maldiv Islands' country value_other_produce_rs  '655 0' 655.00 source row 54; merged rupees and cents
+OUT Merchandise 'For. Coun.' 'Maldiv Islands' country value_total_rs  '655 0' 655.00 source row 54; merged rupees and cents
+
+CASE 20 1896 export bb1896:p598:t1 row 51
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average prices fixed for the value, if calculated officially.', '', ''], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average prices fixed for the value, if calculated officially.', '', '']]
+LABELS [(49, ['Military ...', '']), (50, ['Tallow and Grease', 'Br. Col.']), (51, ['Tallow and Grease', 'British India ...'])]
+SOURCE ['Tallow and Grease', 'British India ...', '—', '—', '—', '1040 0', '—', '1040 0', 'Do.', '', '']
+OUT Tallow and Grease 'Br. Col.' 'British India' country value_ceylon_produce_rs  '1040 0' 1040.00 source row 51; merged rupees and cents
+OUT Tallow and Grease 'Br. Col.' 'British India' country value_total_rs  '1040 0' 1040.00 source row 51; merged rupees and cents
+
+CASE 21 1900 import bb1900:p571:t1 row 32
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.', ''], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.', '']]
+LABELS [(30, ['Beer and Ale— Bottled', 'Br. Col.']), (31, ['Beer and Ale— Bottled', 'British India ...']), (32, ['Beer and Ale— Bottled', 'New South Wales ...'])]
+SOURCE ['Beer and Ale— Bottled', 'New South Wales ...', '76 21½', '76 21½', '230 0', '', '13 6', '', '']
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country quantity_total gals. '76' 76 source row 32; unit carried from above; multiple units explicitly printed in quantity cell
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country quantity_total gills '21½' 21.5 source row 32; unit carried from above; multiple units explicitly printed in quantity cell
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country quantity_home_consumption gals. '76' 76 source row 32; unit carried from above; multiple units explicitly printed in quantity cell
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country quantity_home_consumption gills '21½' 21.5 source row 32; unit carried from above; multiple units explicitly printed in quantity cell
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country value_total_rs  '230 0' 230.00 source row 32; merged rupees and cents
+OUT Beer and Ale— Bottled 'Br. Col.' 'New South Wales' country duty_rs  '13 6' 13.06 source row 32; merged rupees and cents
+
+CASE 22 1900 import bb1900:p579:t1 row 19
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'D', 'D'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially.)', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(16, ['Sago in bulk', 'British India ...']), (17, ['Sago in bulk', 'Straits Settlements']), (19, ['Salt— Refined', '... United Kingdom ...'])]
+SOURCE ['Salt— Refined', '... United Kingdom ...', 'cwt. 651 0 13½', 'cwt. 651 0 13½', '16278 7', '', '1391 0', '']
+OUT Salt— Refined '' 'United Kingdom' country quantity_total cwt. '651 0 13½' 651.1205 source row 19; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Salt— Refined '' 'United Kingdom' country quantity_home_consumption cwt. '651 0 13½' 651.1205 source row 19; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Salt— Refined '' 'United Kingdom' country value_total_rs  '16278 7' 16278.07 source row 19; shared quantity unit explicitly printed in the row; merged rupees and cents
+OUT Salt— Refined '' 'United Kingdom' country duty_rs  '1391 0' 1391.00 source row 19; shared quantity unit explicitly printed in the row; merged rupees and cents
+
+CASE 23 1900 import bb1900:p593:t1 row 47
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(39, ['Unenumerated—', 'United Kingdom']), (40, ['Dutiable', 'United Kingdom']), (46, ['Free', 'Br. Col.'])]
+SOURCE ['', 'British India', '20 2 0', '20 2 0', '128', '50', '—', '—']
+OUT Free 'Br. Col.' 'British India' country quantity_total cwt. '20 2 0' 20.5000 source row 47; article heading on row above: bb1900:p593:t1 row 46; unit carried from above; cwt qr lb
+OUT Free 'Br. Col.' 'British India' country quantity_home_consumption cwt. '20 2 0' 20.5000 source row 47; article heading on row above: bb1900:p593:t1 row 46; unit carried from above; cwt qr lb
+OUT Free 'Br. Col.' 'British India' country value_total_rs  '128 50' 128.50 source row 47; article heading on row above: bb1900:p593:t1 row 46; money cells joined
+
+CASE 24 1900 import bb1900:p607:t1 row 38
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency.', 'Value in currency.', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(22, ['Copperah', 'Br. Col.']), (27, ['Corks', 'United Kingdom ...']), (37, ['Drawing Materials', 'United Kingdom ...'])]
+SOURCE ['', 'United Kingdom ...', '40', '40', '4130', '75', '—', '']
+OUT Drawing Materials '' 'United Kingdom' country quantity_total cases '40' 40 source row 38; article heading on row above: bb1900:p607:t1 row 37; unit carried from above
+OUT Drawing Materials '' 'United Kingdom' country quantity_home_consumption cases '40' 40 source row 38; article heading on row above: bb1900:p607:t1 row 37; unit carried from above
+OUT Drawing Materials '' 'United Kingdom' country value_total_rs  '4130 75' 4130.75 source row 38; article heading on row above: bb1900:p607:t1 row 37; money cells joined
+
+CASE 25 1900 import bb1900:p619:t1 row 16
+HEADERS [['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Value in currency', 'Value in currency', 'Duty.', 'Duty.'], ['Articles.', 'Countries whence imported.', 'Total quantities imported.', 'Quantities entered for home consumption.', 'Of total imports.', 'Average price fixed for the value (if calculated officially).', 'Gross amount received in currency.', 'Rate, and when imposed.']]
+LABELS [(2, ['II.—Manufactured Articles.', 'II.—Manufactured Articles.']), (3, ['3) Other Shot', 'United Kingdom ...']), (7, ['Soap—Toilet', 'United Kingdom ...'])]
+SOURCE ['', 'France ...', '0 2 0', '0 2 0', '29 0', '', '1 62', '']
+OUT Soap—Toilet 'For. Coun.' 'France' country quantity_total cwt. '0 2 0' 0.5000 source row 16; unit carried from above; cwt qr lb
+OUT Soap—Toilet 'For. Coun.' 'France' country quantity_home_consumption cwt. '0 2 0' 0.5000 source row 16; unit carried from above; cwt qr lb
+OUT Soap—Toilet 'For. Coun.' 'France' country value_total_rs  '29 0' 29.00 source row 16; merged rupees and cents
+OUT Soap—Toilet 'For. Coun.' 'France' country duty_rs  '1 62' 1.62 source row 16; merged rupees and cents
+
+CASE 26 1900 export bb1900:p628:t1 row 37
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', '', '']]
+LABELS [(35, ['Confectionery & Preserves', 'United Kingdom ...']), (36, ['Confectionery & Preserves', 'Br. Col.']), (37, ['Confectionery & Preserves', 'British India ...'])]
+SOURCE ['Confectionery & Preserves', 'British India ...', '15 1 8', '23 2 20', '39 0 0', '409 0', '758 80', '1167 80', '', '']
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country quantity_ceylon_produce cwt. '15 1 8' 15.3214 source row 37; unit carried from above; cwt qr lb
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country quantity_other_produce cwt. '23 2 20' 23.6786 source row 37; unit carried from above; cwt qr lb
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country quantity_total cwt. '39 0 0' 39.0000 source row 37; unit carried from above; cwt qr lb
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country value_ceylon_produce_rs  '409 0' 409.00 source row 37; merged rupees and cents
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country value_other_produce_rs  '758 80' 758.80 source row 37; merged rupees and cents
+OUT Confectionery & Preserves 'Br. Col.' 'British India' country value_total_rs  '1167 80' 1167.80 source row 37; merged rupees and cents
+
+CASE 27 1900 export bb1900:p634:t1 row 44
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(38, ['II.—Raw materials.', 'II.—Raw materials.']), (39, ['(1) Textile—', '(1) Textile—']), (40, ['Cotton ...', 'United Kingdom ...'])]
+SOURCE ['', 'Queensland ...', '3477', '—', '3477', '1063 34', '—', '1063 34', '']
+OUT Cotton ... 'Br. Col.' 'Queensland' country quantity_ceylon_produce lb. '3477' 3477 source row 44; unit carried from above
+OUT Cotton ... 'Br. Col.' 'Queensland' country quantity_total lb. '3477' 3477 source row 44; unit carried from above
+OUT Cotton ... 'Br. Col.' 'Queensland' country value_ceylon_produce_rs  '1063 34' 1063.34 source row 44; merged rupees and cents
+OUT Cotton ... 'Br. Col.' 'Queensland' country value_total_rs  '1063 34' 1063.34 source row 44; merged rupees and cents
+
+CASE 28 1900 export bb1900:p645:t1 row 4
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(2, ['III.—Manufactured Articles.', 'III.—Manufactured Articles.']), (3, ['(2) Of Metal (other than Machinery).', '(2) Of Metal (other than Machinery).']), (4, ['Tin Ware ...', 'United Kingdom ...'])]
+SOURCE ['Tin Ware ...', 'United Kingdom ...', 'cwt. —', 'cwt. 1 0 0', 'cwt. 1 0 0', 'Rs. —', 'Rs. 200 0', 'Rs. 200 0', '']
+OUT Tin Ware ... '' 'United Kingdom' country quantity_other_produce cwt. '1 0 0' 1.0000 source row 4; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Tin Ware ... '' 'United Kingdom' country quantity_total cwt. '1 0 0' 1.0000 source row 4; shared quantity unit explicitly printed in the row; cwt qr lb
+OUT Tin Ware ... '' 'United Kingdom' country value_other_produce_rs  '200 0' 200.00 source row 4; shared quantity unit explicitly printed in the row; merged rupees and cents
+OUT Tin Ware ... '' 'United Kingdom' country value_total_rs  '200 0' 200.00 source row 4; shared quantity unit explicitly printed in the row; merged rupees and cents
+
+CASE 29 1900 export bb1900:p650:t1 row 24
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(22, ['Other', 'Br. Col.']), (23, ['Other', 'British India']), (24, ['Other', 'Maldiv Islands'])]
+SOURCE ['Other', 'Maldiv Islands', '—', '6', '6', '—', '500 0', '500 0', '']
+OUT Other 'Br. Col.' 'Maldiv Islands' country quantity_other_produce packages '6' 6 source row 24; unit carried from above
+OUT Other 'Br. Col.' 'Maldiv Islands' country quantity_total packages '6' 6 source row 24; unit carried from above
+OUT Other 'Br. Col.' 'Maldiv Islands' country value_other_produce_rs  '500 0' 500.00 source row 24; merged rupees and cents
+OUT Other 'Br. Col.' 'Maldiv Islands' country value_total_rs  '500 0' 500.00 source row 24; merged rupees and cents
+
+CASE 30 1900 export bb1900:p653:t1 row 31
+HEADERS [['Articles.', 'Countries to which exported.', 'Quantities.', 'Quantities.', 'Quantities.', 'Value in currency.', 'Value in currency.', 'Value in currency.', 'Average price fixed for the value, if calculated officially.'], ['Articles.', 'Countries to which exported.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Produce and manufactures of the colony.', 'British, Foreign, and other colonial produce and manufactures.', 'Total.', 'Average price fixed for the value, if calculated officially.']]
+LABELS [(29, ['Unenumerated ...', 'New Zealand ...']), (30, ['Unenumerated ...', 'Other British Possessions in Asia ...']), (31, ['Unenumerated ...', 'Queensland ...'])]
+SOURCE ['Unenumerated ...', 'Queensland ...', '—', '1 0 8', '1 0 8', '—', '40 0', '40 0', '']
+OUT Unenumerated ... 'Br. Col.' 'Queensland' country quantity_other_produce cwt. '1 0 8' 1.0714 source row 31; unit carried from above; cwt qr lb
+OUT Unenumerated ... 'Br. Col.' 'Queensland' country quantity_total cwt. '1 0 8' 1.0714 source row 31; unit carried from above; cwt qr lb
+OUT Unenumerated ... 'Br. Col.' 'Queensland' country value_other_produce_rs  '40 0' 40.00 source row 31; merged rupees and cents
+OUT Unenumerated ... 'Br. Col.' 'Queensland' country value_total_rs  '40 0' 40.00 source row 31; merged rupees and cents

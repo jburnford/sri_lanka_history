@@ -1,0 +1,7 @@
+sample_number	before_article	after_article	judgement	reason
+51	Claret— In bottle	Wines, still— Claret— In bottle	no	article_as_printed: expected 'Claret— In bottle', got 'Wines, still— Claret— In bottle'
+52	Claret— In bottle	Wines, still— Claret— In bottle	no	article_as_printed: expected 'Claret— In bottle', got 'Wines, still— Claret— In bottle'
+53	Claret— In bottle	Wines, still— Claret— In bottle	no	article_as_printed: expected 'Claret— In bottle', got 'Wines, still— Claret— In bottle'
+54	Claret— In wood	Wines, still— Claret— In wood	no	article_as_printed: expected 'Claret— In wood', got 'Wines, still— Claret— In wood'
+158	Rifles— Magazine	Arms— Rifles— Magazine	no	article_as_printed: expected 'Rifles— Magazine', got 'Arms— Rifles— Magazine'
+163	Rifles— Single	Arms— Rifles— Single	no	article_as_printed: expected 'Rifles— Single', got 'Arms— Rifles— Single'
