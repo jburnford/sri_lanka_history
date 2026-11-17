@@ -146,6 +146,8 @@ def main():
         "sections": sections, "tables": index})
 
     # acreage by crop, for the series chart: one point per printed figure, with the level of the table it came from
+    # printed figures judged to be misprints (page_readings/acreage_suspect.tsv): kept as printed, drawn hollow
+    misprints = {(r["table_id"], int(r["source_row"]), int(r["source_column"])): r["reason"] for r in tsv(BB / "page_readings/acreage_suspect.tsv")}
     acreage = []
     for r in tsv(BB / "observations.tsv.gz"):
         if r["kind"] != "agriculture:acreage_by_crop" or not r["value"]: continue
@@ -162,9 +164,9 @@ def main():
                         float(r["value"]), r["value_as_printed"], r["table"],
                         # figures read by eye from the page image (page_readings/) get their own level in the chart
                         "page_image" if "read from the page image" in r["note"] else conf.get(r["table"], {}).get("level", "unconfirmed"),
-                        r["note"]])
+                        r["note"], misprints.get((r["table"], *map(int, re.search(r"source row (\d+), column (\d+)", r["note"]).groups())), "")])
     sizes["acreage"] = write("acreage.json", {"fields": ["crop", "area", "area_as_printed", "year_volume", "year_data", "value",
-                                                         "value_as_printed", "table", "level", "note"], "rows": acreage}, compress=False)
+                                                         "value_as_printed", "table", "level", "note", "probable_misprint"], "rows": acreage}, compress=False)
     sizes["volumes"] = write("volumes.json", {"levels": LEVELS, "volumes": meta}, compress=False)
 
     total = sum(sizes.values())

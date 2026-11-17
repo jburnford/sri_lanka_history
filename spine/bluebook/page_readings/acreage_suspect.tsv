@@ -1,0 +1,50 @@
+table_id	source_row	source_column	year_data	area_as_printed	measure_as_printed	value_as_printed	reason
+bb1885:p13:t2	2	5	1885	Western	Cinna-mon.	112021	printed 112021 in both volumes; Western cinnamon is 33955 in 1884 and 33420 in 1886, so probably a misprint (the island total carries it)
+bb1886:p13:t1	2	5	1885	Western	Cinnamon.	112021	printed 112021 in both volumes; Western cinnamon is 33955 in 1884 and 33420 in 1886, so probably a misprint (the island total carries it)
+bb1885:p13:t2	9	5	1885		Cinna-mon.	113980	includes the Western figure 112021, probably a misprint; the total is 36065 in 1884 and 39026 in 1886
+bb1886:p13:t1	9	5	1885	Total	Cinnamon.	113980	includes the Western figure 112021, probably a misprint; the total is 36065 in 1884 and 39026 in 1886
+bb1889b:p14:t2	7	5	1888	North-Western	Cinnamon.	9315	"printed 9315; North-Western cinnamon is ""—"" in 1887 and 94 in 1889, so probably a misprint (the island total carries it)"
+bb1889b:p14:t2	10	5	1888	Total	Cinnamon.	46127	includes the North-Western figure 9315, probably a misprint
+bb1905:p15:t2	5	5	1905	Southern	Cinnamon.	1757	printed 1757 in both volumes; Southern cinnamon is 12744 in 1904 and 13194 in 1906, so probably a misprint (the island total carries it)
+bb1906:p16:t1	5	5	1905	Southern	Cinnamon.	1757	printed 1757 in both volumes; Southern cinnamon is 12744 in 1904 and 13194 in 1906, so probably a misprint (the island total carries it)
+bb1905:p15:t2	3	5	1905	Central	Cinnamon.	1798	printed 1798 in both volumes; Central cinnamon is 189 in 1904 and 180 in 1906, so probably a misprint (the island total carries it)
+bb1906:p16:t1	3	5	1905	Central	Cinnamon.	1798	printed 1798 in both volumes; Central cinnamon is 189 in 1904 and 180 in 1906, so probably a misprint (the island total carries it)
+bb1905:p15:t2	11	5	1905	Total	Cinnamon.	32450	includes the Southern (1757) and Central (1798) figures, both probably misprints; the total is 41679 in 1904 and 43383 in 1906
+bb1906:p16:t1	11	5	1905	Total	Cinnamon.	32450	includes the Southern (1757) and Central (1798) figures, both probably misprints; the total is 41679 in 1904 and 43383 in 1906
+bb1908:p14:t3	11	5	1908	Total	Cinna-mon.	54423	printed 54423; the provinces add to 44423
+bb1863:p10:t2	14	4	1863	Southern	Cotton.	105806	printed 105806 (the row total carries it); Southern cotton is 412 in 1862 and 19½ in 1865, so a misprint
+bb1863:p10:t2	18	4	1863		Cotton.	106321\frac{6}{10}	includes the Southern figure 105806, a misprint; the total is 775½ in 1862
+bb1885:p13:t1	7	6	1884	Central	Cotton.	912	printed 912 (the island total carries it); Central cotton is 2 in 1883 and 56 in 1885, so probably a misprint
+bb1885:p13:t1	9	6	1884		Cotton.	1084	includes the Central figure 912, probably a misprint
+bb1889b:p14:t2	2	6	1888	Western	Cotton.	302	printed 302; the column total (361) implies 202
+bb1863:p10:t2	14	2	1863	Southern	Other Grain.	86821	printed 86821 (the row total carries it); Southern other grain is 25538 in 1862 and 11383¾ in 1865, so probably a misprint
+bb1890:p295:t2	10	10	1890	Sabaragamuwa	Cinchona.	27000	printed 27000 in both volumes; Sabaragamuwa cinchona is 60 in 1889, not reported in 1891 and 10 in 1892, so probably a misprint (the island total carries it)
+bb1891:p297:t1	10	10	1890	Sabaragamuwa	Cinchona.	27000	printed 27000 in both volumes; Sabaragamuwa cinchona is 60 in 1889, not reported in 1891 and 10 in 1892, so probably a misprint (the island total carries it)
+bb1890:p295:t2	11	10	1890	Total	Cinchona.	39587	includes the Sabaragamuwa figure 27000, probably a misprint
+bb1891:p297:t1	11	10	1890	Total	Cinchona.	39587	includes the Sabaragamuwa figure 27000, probably a misprint
+bb1891:p297:t2	11	10	1891	Total	Cinchona.	12127	printed 12127 in both volumes; Central and Uva add to 12172
+bb1892:p310:t1	11	10	1891	Total	Cinchona.	12127	printed 12127 in both volumes; Central and Uva add to 12172
+bb1880:p8:t5	5	8	1880	Eastern	Cocon-nuts.	57786	printed 57786 in both volumes; the row and column totals both imply 37786
+bb1881:p10:t5	5	8	1880	Eastern	Cocoa-nuts.	57786	printed 57786 in both volumes; the row and column totals both imply 37786
+bb1880:p8:t5	8	8	1880	North-Central	Cocon-nuts.	115	printed 115 in both volumes; the row and column totals both imply 1815
+bb1881:p10:t5	8	8	1880	North-Central	Cocoa-nuts.	115	printed 115 in both volumes; the row and column totals both imply 1815
+bb1880:p8:t5	9	7	1880		To-bacco.	99957	printed 99957 in the 1880 volume; the provinces add to 9957, which the 1881 volume prints
+bb1880:p8:t5	9	10	1880		Total.	2943459	printed 2943459 in the 1880 volume; the rows and columns add to 2493459, which the 1881 volume prints
+bb1883:p11:t1	9	3	1883		☼ Coffee.	292779	printed 292779; the provinces add to 292679
+bb1889b:p14:t2	9	3	1888	Uva	Coffee.	56073	printed once across the Coffee and Cacao columns: coffee and cacao together, not comparable with other years
+bb1871:p13:t3	2	1	1871	Western	Paddy.	379731	printed 379731 (the row and column totals carry it); Western paddy is 117546 in 1870 and 177674 in 1879, so probably a misprint
+bb1871:p13:t3	8	1	1871		Paddy.	777622	includes the Western figure 379731, probably a misprint; the total is 522124½ in 1870
+bb1915:p14:t4	3	1	1915	Western	Paddy.	200644	printed 200644 in both volumes (the island total carries it); Western paddy is 111077 in 1914 and 106536 in 1916, so probably a misprint
+bb1916:p16:t3	3	1	1915	Western	Paddy.	200644	printed 200644 in both volumes (the island total carries it); Western paddy is 111077 in 1914 and 106536 in 1916, so probably a misprint
+bb1915:p14:t4	12	1	1915	Total	Paddy.	785100	includes the Western figure 200644, probably a misprint
+bb1916:p16:t3	12	1	1915	Total	Paddy.	785100	includes the Western figure 200644, probably a misprint
+bb1922:p15:t3	8	1	1922	North-Central	Paddy.	162327	printed 162327 in the 1922 volume; the 1923 volume prints 62327 for 1922, and North-Central paddy is 61910 in 1921
+bb1922:p15:t3	11	1	1922	Total	Paddy.	850409	printed 850409 in the 1922 volume, including the North-Central misprint; the 1923 volume prints 750409
+bb1915:p14:t4	12	9	1915	Total	Coconuts.	97770	printed 97770 in the 1915 volume; the provinces add to 977701, which the 1916 volume prints
+bb1897:p17:t1	10	4	1896	Sabaragamuwa	Cacao.	200	printed 200 in the 1897 volume (the leading 1 missing); the 1896 volume prints 1200, which the column total requires
+bb1906:p16:t2	7	8	1906	North-Western	Tobacco.	25278	printed 25278 in both volumes (the island total carries it); North-Western tobacco is 1402¾ in 1905, so probably a misprint
+bb1907:p17:t1	7	8	1906	North-Western	Tobacco.	25278	printed 25278 in both volumes (the island total carries it); North-Western tobacco is 1402¾ in 1905, so probably a misprint
+bb1906:p16:t2	10	8	1906	Sabaragamuwa	Tobacco.	39412	"printed 39412 in both volumes (the island total carries it); Sabaragamuwa tobacco is ""—"" in 1905, so probably a misprint"
+bb1907:p17:t1	10	8	1906	Sabaragamuwa	Tobacco.	39412	"printed 39412 in both volumes (the island total carries it); Sabaragamuwa tobacco is ""—"" in 1905, so probably a misprint"
+bb1906:p16:t2	11	8	1906	Total	Tobacco.	78401	includes the North-Western (25278) and Sabaragamuwa (39412) figures, both probably misprints; the total is 12885¾ in 1905
+bb1907:p17:t1	11	8	1906	Total	Tobacco.	78401	includes the North-Western (25278) and Sabaragamuwa (39412) figures, both probably misprints; the total is 12885¾ in 1905

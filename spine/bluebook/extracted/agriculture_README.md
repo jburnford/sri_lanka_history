@@ -107,6 +107,8 @@ The OCR of the opening tables for 1879–1891 misreads many figures: it drops or
 - 1888: the Uva figure for coffee and cacao is printed once (56073) across both columns, and the coffee, cacao and tea totals exclude Uva (page footnote). The reading puts 56073 in the Coffee column, with a note, and leaves Cacao blank.
 - Cinchona: the summary table has no cinchona column in 1880 or 1882–1885; this is the printed table, not a reading gap. From 1886 to 1891 the provinces reporting cinchona change from year to year (1886 Central only; 1887 Uva only; 1888 Central only; 1890 Sabaragamuwa 27000).
 
+Misprints in the Blue Book itself stay as printed. 49 printed figures that the page images, the totals, the other printing or the neighbouring years show to be wrong (for example 1885 Western cinnamon 112021, 1863 Southern cotton 105806, 1890 Sabaragamuwa cinchona 27000) are listed in `page_readings/acreage_suspect.tsv` and marked in note with "probable misprint" and the reason. The viewer chart draws them as hollow points.
+
 An outlier check of every acreage series (see `page_readings/README.md`) found five more OCR misreadings outside these tables, read from the page images and applied the same way: `page_readings/acreage_cells.tsv` (1921 Eastern paddy 103380 in the 1922 volume, 1904 Sabaragamuwa paddy 89469 in the 1905 volume, 1895 Northern paddy 52887, 1894 Sabaragamuwa cacao 1111 and North-Western coffee 876). Its other findings (`page_readings/acreage_outliers.tsv`) are figures the page prints, including misprints in one volume that the other volume prints correctly; those are left as printed, and their second-printing notes give the other figure.
 
 ## Reading the fields

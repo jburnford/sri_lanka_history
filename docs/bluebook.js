@@ -627,7 +627,7 @@ async function bbSeries() {
     if (bb.acreage) return;
     // A figure with no data year (the 1928 estimates) is placed at its volume's year and drawn hollow.
     bb.acreage = data.rows.map((r) => ({ crop: r[0], area: r[1], areaPrinted: r[2], volume: r[3], dated: r[4] > 0, year: r[4] || r[3],
-      value: r[5], printed: r[6], table: r[7], level: r[8], note: r[9] }));
+      value: r[5], printed: r[6], table: r[7], level: r[8], note: r[9], misprint: r[10] || "" }));
   } catch (error) {
     byId("bb-chart").textContent = error.message;
     return;
@@ -672,6 +672,11 @@ function bbDrawSeries() {
     add(item, "i", undefined, "bb-dot lv-" + level);
     item.append(BB_POINT_LEVELS[level].title);
   }
+  if (rows.some((r) => r.misprint)) {
+    const item = add(key, "span", undefined, "bb-key-item");
+    add(item, "i", undefined, "bb-dot misprint");
+    item.append("Printed, but probably a misprint");
+  }
   if (rows.some((r) => !r.dated)) {
     const item = add(key, "span", undefined, "bb-key-item");
     add(item, "i", undefined, "bb-dot undated");
@@ -680,7 +685,10 @@ function bbDrawSeries() {
   const W = 520, H = 190, L = 58, R = 14, T = 12, B = 26;
   const years = rows.map((r) => r.year);
   const lowYear = Math.min(...years), highYear = Math.max(...years);
-  const values = rows.map((r) => r.value);
+  // The scale follows the figures not marked as misprints, so one misprint cannot flatten the series; a misprint
+  // above the scale is pinned to the top edge (its tooltip and detail give the printed figure).
+  const plain = rows.filter((r) => !r.misprint);
+  const values = (plain.length ? plain : rows).map((r) => r.value);
   const high = Math.max(...values) * 1.08 || 1;
   const x = (year) => highYear === lowYear ? (L + W - R) / 2 : L + (year - lowYear) / (highYear - lowYear) * (W - L - R);
   const y = (value) => T + (1 - value / high) * (H - T - B);
@@ -703,9 +711,9 @@ function bbDrawSeries() {
     const sameYear = rows.filter((o) => o.year === r.year);
     const offset = sameYear.length > 1 ? (sameYear.indexOf(r) - (sameYear.length - 1) / 2) * 7 : 0;
     const when = r.dated ? String(r.year) : "no single year (" + r.volume + " volume)";
-    const dot = svg(s, "circle", { cx: x(r.year) + offset, cy: y(r.value), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated"), tabindex: 0, role: "button",
-      "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + ", table " + r.table });
-    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + " · " + r.table;
+    const dot = svg(s, "circle", { cx: x(r.year) + offset, cy: y(Math.min(r.value, high)), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated") + (r.misprint ? " misprint" : ""), tabindex: 0, role: "button",
+      "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + (r.misprint ? ", probably a misprint" : "") + ", table " + r.table });
+    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + (r.misprint ? " · probably a misprint" : "") + (r.value > high ? " · above the scale" : "") + " · " + r.table;
     const select = () => {
       dots.forEach((d) => d.classList.toggle("selected", d === dot));
       const out = byId("bb-point");
@@ -714,6 +722,7 @@ function bbDrawSeries() {
       bbBadge(out, r.level);
       out.append(" printed in the " + r.volume + " volume, ");
       action(out, r.table, () => bbOpenTable(r.table));
+      if (r.misprint) add(out, "small", "Probably a misprint in the Blue Book: " + r.misprint).classList.add("bb-misprint");
       if (r.note) add(out, "small", "Extraction note: " + r.note);
     };
     dot.addEventListener("click", select);

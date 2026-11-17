@@ -155,6 +155,15 @@ def load_page_readings():
             PAGE_READING[key] = (r['reading'], ['read from the page image (page_readings/acreage_cells.tsv)', 'page reading: ' + r['note']])
 
 
+# Printed figures judged to be misprints in the Blue Book itself (page_readings/acreage_suspect.tsv): checked on the
+# page image, kept as printed, and marked in note with the reason (what the totals, the other printing or the
+# neighbouring years show).
+SUSPECT = {}
+with (ROOT / 'page_readings/acreage_suspect.tsv').open(encoding='utf-8', newline='') as f:
+    for r in csv.DictReader(f, delimiter='\t'):
+        SUSPECT[r['table_id'], int(r['source_row']), int(r['source_column'])] = r
+
+
 def emit(t, ri, ci, kind, level, area, parent, measure, unit='', yd='', notes=(), split=False):
     cell = t['rows'][ri][ci]
     v = cell.strip()  # Do not remove dots from missing values.
@@ -170,6 +179,10 @@ def emit(t, ri, ci, kind, level, area, parent, measure, unit='', yd='', notes=()
             ns.append('source cell: ' + cell)
     value, n = number(v)
     if n: ns.append(n)
+    if (t['id'], ri, ci) in SUSPECT:
+        sus = SUSPECT.pop((t['id'], ri, ci))
+        assert sus['value_as_printed'] == v and sus['year_data'] == str(yd), (t['id'], ri, ci, v)
+        ns.append('probable misprint (page_readings/acreage_suspect.tsv): ' + sus['reason'])
     if not yd: ns.append('year_data not established explicitly')
     ns.append(f'source row {ri}, column {ci}')
     DATA.append(dict(zip(FIELDS, [t['id'],t['year'],yd,t['pdf_page'],t.get('printed_page') or '',kind,level,trim(area),trim(parent),trim(measure),trim(unit),v,value,'; '.join(x for x in ns if x)])))
@@ -643,6 +656,7 @@ def write_tsv(path, header, rows):
         w=csv.writer(f,delimiter='\t',lineterminator='\n');w.writerow(header);w.writerows(rows)
 
 
+assert not SUSPECT, ('suspect cells not emitted', list(SUSPECT))
 OUT.mkdir(exist_ok=True)
 write_tsv(OUT/'agriculture.tsv',FIELDS,([r[k] for k in FIELDS] for r in DATA))
 write_tsv(OUT/'agriculture_skipped.tsv',['table_id','reason'],sorted(SKIPPED.items(),key=lambda x:(TABLES[x[0]]['year'],TABLES[x[0]]['pdf_page'],x[0])))
@@ -688,6 +702,7 @@ lines += ['', 'The complete reviewed candidate inventory, including per-table da
  '- A reading is what the page shows, not a corrected figure. Where the print is faint, broken or blotted, or a 3 prints like an 8, the reading takes the digit the totals and the other printing require, and a note says so. Where a figure is clearly printed but does not add up, it is kept and the note gives what the totals imply: for example 1880 Eastern coconuts (57786, the totals imply 37786), the 1880 tobacco total misprinted 99957, the 1883 coffee total (292779; the provinces add to 292679) and the 1891 cinchona total (12127; Central and Uva add to 12172).',
  '- 1888: the Uva figure for coffee and cacao is printed once (56073) across both columns, and the coffee, cacao and tea totals exclude Uva (page footnote). The reading puts 56073 in the Coffee column, with a note, and leaves Cacao blank.',
  '- Cinchona: the summary table has no cinchona column in 1880 or 1882–1885; this is the printed table, not a reading gap. From 1886 to 1891 the provinces reporting cinchona change from year to year (1886 Central only; 1887 Uva only; 1888 Central only; 1890 Sabaragamuwa 27000).','',
+ f'Misprints in the Blue Book itself stay as printed. {len(open(ROOT/"page_readings/acreage_suspect.tsv").readlines())-1} printed figures that the page images, the totals, the other printing or the neighbouring years show to be wrong (for example 1885 Western cinnamon 112021, 1863 Southern cotton 105806, 1890 Sabaragamuwa cinchona 27000) are listed in `page_readings/acreage_suspect.tsv` and marked in note with "probable misprint" and the reason. The viewer chart draws them as hollow points.','',
  'An outlier check of every acreage series (see `page_readings/README.md`) found five more OCR misreadings outside these tables, read from the page images and applied the same way: `page_readings/acreage_cells.tsv` (1921 Eastern paddy 103380 in the 1922 volume, 1904 Sabaragamuwa paddy 89469 in the 1905 volume, 1895 Northern paddy 52887, 1894 Sabaragamuwa cacao 1111 and North-Western coffee 876). Its other findings (`page_readings/acreage_outliers.tsv`) are figures the page prints, including misprints in one volume that the other volume prints correctly; those are left as printed, and their second-printing notes give the other figure.','',
  '## Reading the fields','',
  '- The source is OCR, except for the page-image readings above. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.',

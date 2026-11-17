@@ -62,6 +62,7 @@ with path.open(newline='') as f:
 coords=read_tsv(WORK/'source_cells.tsv')
 assert len(rows)==len(coords)
 assert set(readings)<={(c['table_id'],int(c['source_row']),int(c['source_column'])) for c in coords}
+suspect={(r['table_id'],int(r['source_row']),int(r['source_column'])):r for r in read_tsv(ROOT/'page_readings/acreage_suspect.tsv')}
 seen=set();numeric=0
 for row,prov in zip(rows,coords):
     tid=row['table_id'];t=sources[tid]
@@ -82,6 +83,11 @@ for row,prov in zip(rows,coords):
     assert row['value_as_printed']==prov['value_as_printed']
     assert row['unit_as_printed']==prov['unit_as_printed']
     assert f'source row {ri}, column {ci}' in row['note']
+    if key in suspect:
+        assert row['value_as_printed']==suspect[key]['value_as_printed'] and row['year_data']==suspect[key]['year_data'], key
+        assert 'probable misprint (page_readings/acreage_suspect.tsv): '+suspect[key]['reason'] in row['note'], key
+    else:
+        assert 'probable misprint' not in row['note'], key
     if key in readings:
         assert row['value_as_printed']==readings[key] and 'read from the page image' in row['note'], key
         assert row['value_as_printed']==source.strip() or f"the OCR reads '{source.strip()}'" in row['note'], key
@@ -152,6 +158,7 @@ checks=read_tsv(ROOT/'extracted/agriculture_checks.tsv')
 expected=[{k:a[k] for k in ['table_id','area_or_measure','printed_total','computed_sum','difference']} for a in audit if a['status']!='agree']
 assert checks==expected
 
-report={'rows':len(rows),'numeric_values_verified':numeric,'tables_used':len(used_ids),'tables_skipped':len(skipped_ids),'unique_source_cells_verified':len(seen),'page_reading_cells':len(readings),'acreage_blocks_recomputed':len(checked_blocks),'acreage_total_statuses':dict(Counter(a['status'] for a in audit)),'result':'PASS'}
+assert set(suspect)<=seen
+report={'rows':len(rows),'numeric_values_verified':numeric,'tables_used':len(used_ids),'tables_skipped':len(skipped_ids),'unique_source_cells_verified':len(seen),'page_reading_cells':len(readings),'probable_misprints_marked':len(suspect),'acreage_blocks_recomputed':len(checked_blocks),'acreage_total_statuses':dict(Counter(a['status'] for a in audit)),'result':'PASS'}
 (WORK/'validation_report.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
