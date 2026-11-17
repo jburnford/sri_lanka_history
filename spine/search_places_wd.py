@@ -7,7 +7,7 @@ Usage: search_places_wd.py [min_articles=15]
 """
 import json, re, sys, time, concurrent.futures as cf
 from common import *
-MCP_CLIENT = "/mnt/data/jic823/tropical-agriculturist/ner/persons/wd"   # imported only when searching, so queries() can be used without it
+MCP_CLIENT = str(DATA / "tropical-agriculturist/ner/persons/wd")   # imported only when searching, so queries() can be used without it
 
 CACHE = HERE / "cache/wd_search.jsonl"
 HINTS = ["country", "city", "town", "island", "district", "province", "state", "river", "region", "port",

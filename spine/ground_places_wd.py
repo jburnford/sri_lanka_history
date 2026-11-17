@@ -22,7 +22,7 @@ GENERIC = re.compile(r"^((north|south|east|west|central|upper|lower|interior|low
 # names GENERIC would skip that are proper names of polities (British India's provinces), not relative references
 PROPER_REGIONS = {"central provinces", "north western provinces", "north west provinces"}
 SETTLEMENT_CLASS = re.compile(r"\b(city|town|village|suburb|settlement|locality|municipality|commune|comune|hamlet|neighbou?rhood|capital)\b", re.I)
-PLACE_CLASSES = {q: (v.get("label") or "") for q, v in json.load(open("/home/jic823/Documents/ceylon/col_matching/data/whg/wikidata_places.json"))["classes"].items()}
+PLACE_CLASSES = {q: (v.get("label") or "") for q, v in json.load(open(PROJECT / "col_matching/data/whg/wikidata_places.json"))["classes"].items()}
 NOT_PLACE = re.compile(r"\b(template|disambiguation|category|family name|given name|film|album|song|painting|ship|novel|journal|newspaper|company|genus|species|human)\b", re.I)
 
 def main():

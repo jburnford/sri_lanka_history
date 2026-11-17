@@ -57,9 +57,33 @@ Event years after 1966 (the last Colonial Office List) are suspect on the CO Lis
 
 | Case | What the resolver returned | Doubt |
 |---|---|---|
-| Penang and Malacca, 1946 onward (45 events) | Singapore Crown Colony (1946–1963) | Should be Malayan Union / Federation of Malaya. The lineage reaches Singapore first; either a missing Penang -> Malayan Union link or a resolver tie-break. |
+| Penang and Malacca, 1946 onward (45 events) | Singapore Crown Colony (1946–1963); since the review fix, nothing | Should be Malayan Union / Federation of Malaya. The Straits Settlements split into the Malayan Union and Singapore, and the resolver no longer picks a branch by date. |
 | Sarawak, 1963 onward (10 events) | a territory row with an empty name (1963–) | Empire manifest: a row with no name. |
 | Australian colonies after 1901 (about 1,180 events) | Commonwealth of Australia | True as the containing polity, but the colony continued as a state. Holding both needs state rows, or a status period on the colony row. |
+
+### Resolver change, 16 November 2026 (review)
+
+`empire.polity_at` now follows succession only, in one direction of time, and stops at a merge or split past the
+first step unless one branch is the same Wikidata item. Containment (PART_OF) is no longer used for years outside
+the territory's own dates; ADMINISTERED_UNDER is a last resort. On the same career events: resolved 6,948 -> 6,814,
+unresolved 1,249 -> 1,383. About 220 wrong answers were withdrawn or corrected, among them:
+- Newfoundland and Labrador -> Dominion of Canada (62 events), now Colony / Dominion of Newfoundland;
+- Penang, Malacca and the Straits Settlements after 1946 -> Singapore Crown Colony;
+- Nyasaland -> Southern Rhodesia, Tanganyika -> Zanzibar, Singapore Crown Colony -> Labuan.
+
+About 70 answers that were probably right are now unresolved:
+- Lagos and Southern Nigeria after 1914 -> Colony and Protectorate of Nigeria (58 events). Blocked by the edge
+  below.
+- Alberta, Saskatchewan and Yukon before they existed -> Dominion of Canada (9). PART_OF is undated.
+
+One known wrong pick remains: the British Raj after 1947 -> Dominion of Pakistan (4 events). The Raj's own
+successors are India and Pakistan, and the resolver lets the dates choose at the first step, because New South
+Wales (Original) needs that to reach the Commonwealth.
+
+| Graph edge | Problem |
+|---|---|
+| `Northern Nigeria -[SUCCEEDED]-> Southern Nigeria Protectorate` | Northern Nigeria did not succeed Southern Nigeria; both were succeeded by the Colony and Protectorate of Nigeria (1914). The false branch blocks Lagos and Southern Nigeria from reaching Nigeria. |
+| Northern Rhodesia (1963–64), Nyasaland (Post-Federation) | No successor (Zambia, Malawi), so events after 1964 stay unresolved (41 events). |
 
 ### Standing design note
 

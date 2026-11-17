@@ -6,14 +6,15 @@ separates a printed table from an invented one. Sideways and faint pages still h
 
 Output: bluebook/ink.tsv.gz   table_id, dark_share (inside the table outline), page_dark_share
 """
-import csv, gzip, json
+import csv, gzip, json, os
 from pathlib import Path
 import fitz
 import numpy as np
 
 BB = Path(__file__).parent
-PDFS = Path("/mnt/data/jic823/ceylon_blue_books")
-OCR = Path("/mnt/data/jic823/ocr_chandra/out_chandra2")
+_DATA = Path(os.environ.get("CEYLON_DATA", "/mnt/data/jic823"))
+PDFS = _DATA / "ceylon_blue_books"
+OCR = _DATA / "ocr_chandra/out_chandra2"
 
 
 def pix(page):

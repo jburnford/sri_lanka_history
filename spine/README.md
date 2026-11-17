@@ -73,6 +73,12 @@ cd /home/jic823/Documents/ceylon/spine
 /home/jic823/miniforge3/bin/python run_queries.py 1 3
 ```
 
+Elsewhere, clone `col_matching` and `empire-evolution` (both public on GitHub) into one folder and point
+`CEYLON_PROJECT` at it (default: the repository root, as on the workstation). Steps that read the Tropical
+Agriculturist corpus or the Blue Book PDFs and OCR need `CEYLON_DATA` (default `/mnt/data/jic823`). Places, taxa,
+commodities, organisations, the polity check, the gazetteer match, Blue Book confidence and the officer index run
+without `CEYLON_DATA`.
+
 The Neo4j container is `neo4j-ceylon-spine` (Browser at http://localhost:7478, Bolt 7691). Its login is in
 `../neo4j-local/auth-spine.env`.
 

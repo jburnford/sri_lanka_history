@@ -4,10 +4,11 @@ Source of truth is the extraction output (ner/mentions/part_*.jsonl.gz), keyed b
 A "record" is one entity per ~2,500-word chunk, so counts are chunk-level presence, not printed occurrences.
 Output: names/<TYPE>.tsv  (key, records, articles, first_year, last_year, top surface forms, top roles)
 """
-import collections, glob, gzip, json, re, sys, unicodedata
+import collections, glob, gzip, json, os, re, sys, unicodedata
 from pathlib import Path
 
-SRC = Path("/mnt/data/jic823/tropical-agriculturist/ner/mentions")
+DATA = Path(os.environ.get("CEYLON_DATA", "/mnt/data/jic823"))   # as in common.py
+SRC = DATA / "tropical-agriculturist/ner/mentions"
 OUT = Path(__file__).parent / "names"
 
 def key(s):

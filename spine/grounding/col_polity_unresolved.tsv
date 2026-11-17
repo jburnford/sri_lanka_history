@@ -1,15 +1,17 @@
 qid	col_label	empire_rows	unresolved_events	event_years
-Q1150673	Penang	Penang (Prince of Wales Island) 1786-1826	13	1947-1948
+Q1150673	Penang	Penang (Prince of Wales Island) 1786-1826	44	1947-1957
+Q953903	Northern Rhodesia Colony	Northern Rhodesia Colony 1924-1953; Northern Rhodesia 1963-1964	24	1965-1965
 Q585408	Northern Nigeria	Northern Nigeria 1900-1914	106	1961-1965
-Q7621163	Malacca Settlement	Malacca Settlement 1824-1826	4	1947-1948
-Q2046345	Colony and Protectorate of Nigeria	Colony and Protectorate of Nigeria 1914-1960	332	1886-1966
+Q7621163	Malacca Settlement	Malacca Settlement 1824-1826	18	1947-1957
+Q2046345	Colony and Protectorate of Nigeria	Colony and Protectorate of Nigeria 1914-1960	338	1872-1966
 Q876185	East Africa Protectorate	East Africa Protectorate 1895-1920	4	1872-1965
+Q1147441	British North Borneo	British North Borneo 1882-1946	6	1880-1881
 Q2062030	Southern Nigeria Protectorate	Southern Nigeria Protectorate 1900-1914	9	1893-1899
 Q2538511	Kenya, Colony & Protectorate of	Kenya, Colony & Protectorate of 1920-1963	23	1875-1965
 Q408	Australia	Australia 1942-None; Commonwealth of Australia 1901-1942	160	1834-1898
-Q472146	Lagos Protectorate	Lagos Protectorate 1862-1906	2	1961-1964
-Q1973	British Columbia	British Columbia 1871-None	90	1857-1870
-Q2003	Newfoundland and Labrador	Newfoundland and Labrador 1949-None	29	1815-1918
+Q57676556	Western Australia	Western Australia 1832-1901	1	1828-1828
+Q472146	Lagos Protectorate	Lagos Protectorate 1862-1906	60	1916-1964
+Q1973	British Columbia	British Columbia 1871-None	76	1857-1865
 Q796	Iraq (geographic reference)	Iraq 1932-None	12	1917-1919
 Q193714	Palestine	Palestine 1920-1948	39	1903-1919
 Q376178	Straits Settlements	Straits Settlements 1826-1946	24	1947-1948
@@ -17,11 +19,14 @@ Q503623	British Gold Coast	British Gold Coast 1821-1874; Gold Coast Colony 1874-
 Q1097943	Uganda	Uganda 1894-1962	52	1893-1965
 Q541455	Anglo-Egyptian Sudan	Sudan, Anglo-Egyptian 1899-1956	43	1882-1965
 Q801	State of Israel	State of Israel 1948-None	2	1880-1919
-Q129286	Indian Empire (British Raj)	Indian Empire (British Raj) 1858-1947	39	1839-1957
+Q129286	Indian Empire (British Raj)	Indian Empire (British Raj) 1858-1947	35	1839-1957
 Q795427	Upper Canada	Upper Canada 1791-1841	11	1872-1915
 Q176	Quebec	Quebec 1867-None	1	1834-1834
+Q729768	Zululand	Zululand 1887-1897	12	1873-1886
 Q30059027	Sierra Leone Colony	Sierra Leone Colony 1808-1896; Sierra Leone Colony and Protectorate 1896-1961	23	1962-1965
 Q1028835	British Cameroons	British Cameroons 1916-1961	23	1896-1915
+Q1649306	Nyasaland	Nyasaland 1891-1964; Nyasaland (Post-Federation) 1963-1964	17	1965-1965
+Q158725	Tanganyika	German East Africa (British Occupied) 1916-1922; Tanganyika 1961-1964; Tanganyika Territory 1922-1961	14	1893-1915
 Q1050	Swaziland	Swaziland 1903-1968	15	1887-1902
 Q1050859	Gilbert and Ellice Islands	Gilbert and Ellice Islands 1916-1976	13	1893-1915
 Q1134180	Lower Canada	Lower Canada 1791-1841	3	1869-1885
@@ -30,15 +35,16 @@ Q17197946	Tonga Protectorate	Tonga Protectorate 1900-1970	10	1878-1893
 Q26988	Cook Islands	Cook Islands 1888-1901	10	1916-1934
 Q3593530	Ellice Islands	Ellice Islands (Separate) 1892-1916	10	1922-1934
 Q2526023	Jamaica	Jamaica 1655-1962	9	1963-1965
-Q2376315	British rule in Myanmar	Burma (British India) 1886-1937; Burma (Separate Colony) 1937-1948	7	1885-1963
-Q4412467	North-West Frontier Province	North-West Frontier Province 1901-1947	9	1863-1897
+Q2376315	British rule in Myanmar	Burma (British India) 1886-1937; Burma (Separate Colony) 1937-1948	6	1949-1963
 Q2629708	Punjab Province	Punjab Province 1849-1947	7	1845-1949
-Q817165	Bengal Presidency (Company)	Assam (Bengal Presidency) 1826-1874; Bengal Presidency (Company) 1757-1858; Bengal Presidency (Crown) 1858-1905	6	1907-1943
+Q334	Singapore Crown Colony	Singapore 1965-None	6	1905-1942
 Q271876	Gilbert Islands	Gilbert Islands 1976-1979	3	1915-1915
+Q1951	Alberta	Alberta 1905-None	5	1892-1904
 Q1121819	Transjordan	Transjordan 1922-1946	4	1916-1947
 Q116282722	Trinidad and Tobago Colony	Trinidad and Tobago 1889-1962; Trinidad and Tobago Colony 1797-1962	3	1963-1964
 Q2660774	British Windward Islands	British Windward Islands 1833-1959	3	1960-1964
 Q2006542	Dominion of Pakistan	Dominion of Pakistan 1947-1956	3	1961-1965
+Q1989	Saskatchewan	Saskatchewan 1905-None	3	1885-1891
 Q205022	Fernando Po (British)	Fernando Po (British) 1827-1843	3	1949-1954
 Q107987587	Bay Islands	Bay Islands 1852-1859	3	1860-1862
 Q15240466	Cyprus	Cyprus 1878-1960	2	1961-1963
@@ -55,5 +61,5 @@ Q2340665	Basutoland	Basutoland 1868-1966	1	1866-1866
 Q1063498	Ionian Islands	Ionian Islands 1815-1864	1	1884-1884
 Q2301972	Territory of Papua and New Guinea	Territory of Papua and New Guinea 1949-1975	1	1925-1925
 Q31057	Norfolk Island	Norfolk Island 1788-1914; Norfolk Island Whaling Station 1830-1870	1	1932-1932
-Q1780114	Van Diemen's Land	Van Diemen's Land 1803-1856	1	1891-1891
+Q2009	Yukon Territory	Yukon Territory 1898-None	1	1897-1897
 Q21816219	Nauru	Nauru 1920-1968	1	1914-1914

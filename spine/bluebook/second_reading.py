@@ -10,12 +10,13 @@ Output: bluebook/second_reading_pages.tsv.gz    per page: characters and number 
         bluebook/second_reading_tables.tsv.gz   per table: numbers of 3+ digits, how many the text layer also has
 Only numbers of three or more digits are compared: shorter ones match by chance.
 """
-import collections, csv, glob, gzip, json, re, subprocess, sys
+import collections, csv, glob, gzip, json, os, re, subprocess, sys
 from pathlib import Path
 
 BB = Path(__file__).parent
-PDFS = Path("/mnt/data/jic823/ceylon_blue_books")
-OCR = Path("/mnt/data/jic823/ocr_chandra/out_chandra2")
+_DATA = Path(os.environ.get("CEYLON_DATA", "/mnt/data/jic823"))
+PDFS = _DATA / "ceylon_blue_books"
+OCR = _DATA / "ocr_chandra/out_chandra2"
 IA = BB.parent / "sources/bluebook_ia_text"
 TOK = re.compile(r"\d[\d,.]*\d")
 BOILER = re.compile(r"This content downloaded from|All use subject to|\d+\.\d+\.\d+\.\d+ on \w+, \d+ \w+ \d{4}.*")
