@@ -1,0 +1,11 @@
+- [Ceylon spine state](ceylon-spine-state.md) — START HERE: docs to read, design, parts, known weak points (2026-11-17)
+- [Ceylon data layout](ceylon-data-layout.md) — where downloads, logs, TA repo, research outputs live
+- [Polite crawling](polite-crawling.md) — slow, serial, stop-on-block for small heritage sites
+- [Chandra OCR on plato](plato-chandra-ocr.md) — sbatch recipe; don't touch the user's running gazette jobs
+- [London Gazette is separate](london-gazette-separate.md) — /mnt/data/gazette = London, exclude; Ceylon Gazettes in ~/Documents/ceylon/gazettes
+- [Chandra OCR of Ceylon PDFs on narval](ceylon-chandra-narval.md) — PENDING: upload+OCR later Ceylon Gazette years when download finishes
+- [Shared Wikidata dump](wikidata-local-dump.md) — /mnt/data/jic823/wikidata/20261109, checksum ok, slim parquet extract ready
+- [Ceylon spine approach](ceylon-spine-approach.md) — review Codex's work, build on col_matching + Empire Evolution, keep nuance, fix upstream
+- [sri_lanka_history repo](sri-lanka-history-repo.md) — public repo rooted at ~/Documents/ceylon; allow-list ignore; no Tea History OCR online
+- [Chandra invents tables on blank pages](chandra-invents-on-blank-pages.md) — detect with Tesseract second reading + ink test; real pages ~2% number error
+- [Codex CLI: Sol 6.2 and Astra 6.2](codex-cli-sol.md) — launch recipe; Sol for bounded jobs, Astra for the full review
