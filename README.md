@@ -20,6 +20,8 @@ Under **Places**, **1834 Gazetteer places** uses modern reference points for 189
 
 **Ferguson road traces, 1893** covers 11 selected road sections. The traces follow the printed road symbols and inherit positional uncertainty from the map, especially along folds. Use **Show Ferguson’s map** to inspect the linework against the sheet. The trace register gives the source panels and pixel coordinates for the nine added sections on the 1500-pixel-high reference image. [Trace register](docs/notes/ferguson_road_traces_1893.tsv), [Ferguson’s 1893 map](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338023~90105863).
 
+**Blue Books** searches the 46,999 tables parsed from 62 Ceylon Blue Book volumes (1863–1938) by volume, section or heading text, row or column label, and confidence level. A table page shows the parsed cells beside the archive.org scan of the same PDF page, the table's confidence level and flags in plain words, the printed totals that do not agree (select one to find the cell), and the figures and officer names extracted from the table. Use it to check a table before quoting it: the automatic tests cannot see a figure in the wrong row or under the wrong heading. A small chart plots the extracted crop acreage series, coloured by the confidence of each figure's table. The data in `docs/data/bluebook/` (38 MB, loaded one volume at a time) is written by `python3 spine/bluebook/export_viewer.py`.
+
 GitHub Pages serves `docs/` from the main branch. To preview locally from this directory:
 
 ```sh
