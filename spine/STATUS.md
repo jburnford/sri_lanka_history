@@ -232,6 +232,23 @@ it did not already hold.
   postings get a neighbour's polity (Newfoundland → Dominion of Canada 1867–1931, Penang and Malacca →
   Singapore Crown Colony, Northern Rhodesia → Southern Rhodesia). Not fixed yet.
 
+## Known faults confirmed on 17 Nov 2026, not yet fixed
+
+An outside review (`FOUNDATIONS_REVIEW_2026-11-17.md`, Codex Astra 6.2) found seven faults. I reran each check
+against the graph and the files; all seven hold. Until they are fixed, do not quote:
+
+- **Trade by destination for India, Victoria, China or Borneo.** "India, exc. British" (8,938 figures, plus about 400
+  under misspellings) is linked to the British Raj, the opposite of what it says; "China, exc. Hong Kong" and
+  "Borneo, exc. British" are cut the same way; all 6,188 "Victoria" figures point to Victoria, British Columbia.
+- **The count of officials as people.** The 167,416 entries are (volume, surname, first initial) groups, so John,
+  Joseph and Jerome Perera of 1892 are one entry. It is a count of name keys, not of people or person-years.
+- **Acreage from query 12** for any year printed in two volumes: it adds both printings (coffee 1868 shows
+  414,132 acres; each volume prints 207,066). The data are right; the query is wrong.
+- **Trade values filtered by unit.** 52,611 rupee values carry `unit_as_printed` "cwt." (the article's quantity unit).
+- Also: 30 postings run past the dates of the polity they are given; 10 provisionally accepted species are loaded as
+  synonyms of their genus; "Indian Bank" (journal, 1898–99) is matched to a bank founded in 1907; 16 of 1,176
+  lineage edges are silently dropped at load.
+
 ## Changes made outside this folder
 
 - `col_matching`, branch `ceylon-data`, commit `0b7f01c`, pushed: three reviewed person links (Hart, Small,
