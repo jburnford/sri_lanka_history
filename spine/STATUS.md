@@ -3,6 +3,33 @@
 Written for a check-in after working alone. Detail is in `README.md` (how it works) and `UPSTREAM_ERRORS.md`
 (what is wrong upstream).
 
+## Review fixes (branch `review-fixes`, 16 November 2026, late)
+
+An independent review checked this work against the code and data. Changes made on this branch:
+
+- **Officer index, 1907–1917.** From 1907 the index is printed as "Name and Office | Page", in one or two
+  columns. The extractor read the page number as the office, dropped the second printed column, and skipped
+  single-column pages. `bluebook/extract_officers.py` now reads every layout; `officers_index.tsv` grows from
+  102,808 to 135,406 rows (pre-1907 rows unchanged, with a new `column` field).
+- **Officer matching.** "high" now needs the appointment year to equal the start of a *Ceylon* posting and at
+  least two initials (`bluebook/match_officers.py`). **Not rerun here**: needs `graph/`.
+- **Table confidence.** Unlabelled running subtotals were only kept when they agreed, so they could never fail;
+  they no longer count towards a level. "summed" needs a non-trivial total (not zeros, not one part), and
+  "two_readings" needs at least 10 distinct numbers. No table moved up a level. See the Blue Books section.
+- **Places.** `common.in_sri_lanka()` replaces "is in `sri_lanka_wikidata.jsonl`", which also held ~213 items
+  outside Sri Lanka (that is how `ireland` became the Republic of Ireland). A match is refused when the
+  journal places the name in Ceylon and the candidate is elsewhere. Three proper names of British Indian
+  provinces are no longer skipped as generic. **Not rerun here**: `resolve_place_reviews.py` and
+  `ground_places_wd.py` need the Empire Evolution data and `col_matching`.
+- **Rejections.** 27 wrong matches with evidence in the journal's own role text were added to
+  `grounding/name_rejections.jsonl` (madura → Madura Island, summerville → Georgia, united provinces → Dutch
+  Republic, board of revenue → a Chinese ministry, cacao → a drink, lime → Tilia, citronella → a tree genus,
+  ...). `ground_taxa_col.py` now honours rejections too. Taxa, commodities and organisations were rerun here.
+
+To finish on the workstation: `resolve_place_reviews.py`, `ground_places_wd.py 5`, `match_casie_chitty.py`,
+`build_graph_tables.py`, `bluebook/link_cells.py`, `bluebook/match_officers.py`,
+`bluebook/link_observations.py`, `load_graph.py`. The graph counts below are from the load before the review.
+
 ## What exists now
 
 A rebuilt graph in a separate Neo4j database (`neo4j-ceylon-spine`, Browser http://localhost:7478, Bolt 7691),
@@ -25,10 +52,10 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 
 | Type | Matched | In review | Unmatched or skipped | Not attempted |
 |---|---:|---:|---:|---:|
-| Places (374,553 records) | 73.4% | 13.3% | 0.5% | 12.7% |
-| Taxa (164,859 records) | 52.0% | 3.7% | 18.7% | 25.5% |
-| Commodities (134,358 records) | 66.8% | 1.5% | 16.7% | 15.0% |
-| Organisations (88,690 records) | 6.0% | 0.4% | 36.8% | 56.8% |
+| Places (374,553 records; before the review rerun) | 73.4% | 13.3% | 0.5% | 12.7% |
+| Taxa (164,859 records) | 51.9% | 3.8% | 18.7% | 25.5% |
+| Commodities (134,358 records) | 65.3% | 3.0% | 16.7% | 15.0% |
+| Organisations (88,690 records) | 5.8% | 0.4% | 37.0% | 56.8% |
 
 "Not attempted" is the long tail: place names in fewer than 5 articles, other names in fewer than 15 (taxa matched by the Catalogue of Life go
 down to 3). All Wikidata candidates have now been read back. A second search adds the journal's own description
@@ -45,29 +72,35 @@ a product is tied to the taxon it comes from (`PRODUCT_OF`, Wikidata's "natural 
 
 **Organisations are mostly not in Wikidata.** Names such as "Department of Agriculture" or "Planters'
 Association" mean a different body in each article and are skipped on purpose (9.7% of records). Bodies
-specific to Ceylon mostly have no Wikidata item. The 56 matched names are well-known bodies (Kew, Peradeniya,
-Colonial Office, Indian Tea Association). Local identifiers for the Ceylon bodies are a decision for you.
+specific to Ceylon mostly have no Wikidata item. 72 names are matched (77 before the review removed six wrong
+ones and corrected Cambridge University); most are well-known bodies (Kew, Peradeniya, Colonial Office, Indian
+Tea Association). Local identifiers for the Ceylon bodies are a decision for you.
 
 ## Ceylon Blue Books
 
 62 volumes are in, 1863 to 1938 (`bluebook/README.md` has the detail):
 
 - **46,999 printed tables** kept as printed, each with its page and headings (`bluebook/tables/`).
-- **Confidence level on every table** (`bluebook/table_confidence.tsv.gz`): 3,774 have every checkable printed
-  total agreeing with its parts; 15,216 have at least 90% of their numbers confirmed by a second OCR reading
-  (the scan's Tesseract text); 5,976 are partly confirmed; 21,904 have nothing to confirm them; 129 are
-  flagged as invented. The OCR model writes plausible tables on blank pages (a 1905 blank verso became
-  "quarterly statements, Q1-Q4"). On printed pages its misread rate for numbers is about 2% in the 1925-1938
-  volumes, by comparison with the second reading.
+- **Confidence level on every table** (`bluebook/table_confidence.tsv.gz`, revised in the review): 1,833 have
+  every checkable printed total agreeing with its parts, at least one of them non-trivial; 13,046 have at least
+  90% of 10+ distinct numbers also in a second OCR reading of the page (the Internet Archive's OCR and/or the
+  PDF text layer; for 1863 and 1880–1894 only the Internet Archive's); 8,248 are partly confirmed; 23,743 have
+  nothing to confirm them; 129 are flagged as invented. 64,203 of 168,652 total checks agree (38%). The second
+  reading only says the digits are printed on that page, not that they are in the right row or column. The OCR
+  model writes plausible tables on blank pages (a 1905 blank verso became "quarterly statements, Q1-Q4").
 - **300,107 links from table labels to names the spine had already resolved**: 21,492 tables name a known
   place, commodity or taxon. Trade partners get the polity for the volume's year.
-- **People**: 146,383 person-years of officials across all volumes. 5,121 match a Colonial Office List person
-  (1,083 with a matching appointment year) and 11,496 have a journal profile as a candidate. The extractor was
-  written on four volumes and has not been checked on the others.
+- **People**: 146,383 person-years of officials in the 39 volumes that print the lists (1863–1917), before the
+  review's officer-index fix added about 32,600 index names for 1907–1917. 5,121 match a Colonial Office List
+  person (1,083 "high") and 11,496 have a journal profile as a candidate; these numbers will change when
+  `match_officers.py` is rerun. In a sample of 20 matches about 5 were uncertain (common surnames such as de
+  Saram, Dias, Koch with one initial).
 - **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
   figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
-  (imports and exports by article and country; 1924, 1925, 1926, 1928). These two jobs covered the first
-  thirteen volumes only and have not been rerun on the rest. I checked samples against the parsed
+  (imports and exports by article and country; 1924, 1925, 1926, 1928). The briefs supplied a sample of
+  thirteen volumes; agriculture used seven of them and trade four. Acreage and trade-ledger tables are present
+  in about 45 volumes each and have not been extracted. A trade article whose total agrees can still have
+  figures under the wrong country (coir mats, 1928). I checked samples against the parsed
   tables and loaded them: 77,741 `Observation` nodes, 92% tied to a place name and 31% to a crop or article name.
   Printed totals agree with the sum of parts for 92% of acreage checks and 78–85% of trade articles; the rest
   are listed, not repaired. Example from the graph: coffee falls from 207,066 acres in 1868 to 1,389 in 1912
@@ -84,7 +117,9 @@ Sri Lanka items: 82 headwords occur in the journal as printed and 93 more under 
 Wikidata item exactly and 57 by a spelling-tolerant comparison (Bentotte / Bentota). Those are candidates, not
 decisions. Known gaps: the entries for Ceylon, Kandy, Trincomalee and a few other long articles open in a way
 the parser does not recognise, so their text is attached to the entry before them (flagged with a note).
-Worth redoing on the fresh OCR.
+The review found a larger case: about 16 entries from Pichampitty to Quiparawa sit inside "Resale"
+(`cc1834:0315`), plus Budumalwal, Wedamaha Nuwera and Wallametty torre inside their neighbours; none of them
+is indexed. Worth redoing on the fresh OCR.
 
 ## What to trust, and how far
 
@@ -92,8 +127,9 @@ Worth redoing on the fresh OCR.
   2,378 of its 3,207 rows are still marked unverified there.
 - **Place matches from Wikidata search** (about 14% of records): rule-checked, not human-checked. My first
   version matched Travancore to a Melbourne suburb and Acheen to a shipwreck; the checks were tightened and a
-  random sample of 45 then looked right in 43 cases, by my reading. Treat the medium-confidence ones as needing
-  a look.
+  random sample of 45 then looked right in 43 cases, by my reading. The independent review found about 7.5%
+  clearly wrong in a sample of 40 (15% counting wrong sense or period), including high-confidence ones
+  (madura, summerville); those found are now rejected. Treat all tier-2 matches as needing a look.
 - **Taxa**: scientific names matched against Catalogue of Life release COL26.11. A guard sends a match to
   review when the journal's usage points to another kingdom (anthrax the disease, not Anthrax the fly;
   castor the plant, not Castor the beaver). 105 names were caught that way.
@@ -103,10 +139,13 @@ Worth redoing on the fresh OCR.
   those are now refused. A match on an item's own name outranks a match on an alias; I read all 320 alias-only
   matches and rejected ten ("pepper" to bell pepper, "coke" to Coca-Cola, "lac" to the lac operon). Alias
   matches are marked medium confidence.
-- **Organisations**: I read the first 57 matches; one was wrong (an East Timor ministry) and is
-  recorded in `grounding/name_rejections.jsonl`, which the matcher obeys.
+- **Organisations**: I read the first 57 matches; one was wrong (an East Timor ministry). The review found six
+  more among all 77. All are recorded in `grounding/name_rejections.jsonl`, which the matcher obeys.
 - **People**: links are from the journal's own person pipeline. The research assistant's review covers 22 profiles: all 13
-  asserted QIDs she checked were right; she found 3 the pipeline missed and 3 mixed profiles.
+  asserted QIDs they checked were right; they found 3 the pipeline missed and 3 mixed profiles.
+- **Polities**: `empire.polity_at` follows lineage edges in both directions with no geographic check, so some
+  postings get a neighbour's polity (Newfoundland → Dominion of Canada 1867–1931, Penang and Malacca →
+  Singapore Crown Colony, Northern Rhodesia → Southern Rhodesia). Not fixed yet.
 
 ## Changes made outside this folder
 

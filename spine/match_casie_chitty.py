@@ -22,7 +22,7 @@ def main():
         for d in read_jsonl(HERE / f"grounding/{f}.jsonl"): dec[d["key"]] = d
     wd_exact, wd_skel = collections.defaultdict(list), collections.defaultdict(list)
     for w in read_jsonl(HERE / "gazetteer/sri_lanka_wikidata.jsonl"):
-        if w.get("missing"): continue
+        if w.get("missing") or not in_sri_lanka(w): continue   # the file also holds items outside Sri Lanka
         for n in wd_names(w):
             wd_exact[n].append(w); wd_skel[skeleton(n)].append((n, w))
     jskel = collections.defaultdict(list)

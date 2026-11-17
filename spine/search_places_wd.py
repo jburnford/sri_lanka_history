@@ -7,8 +7,7 @@ Usage: search_places_wd.py [min_articles=15]
 """
 import json, re, sys, time, concurrent.futures as cf
 from common import *
-sys.path.insert(0, "/mnt/data/jic823/tropical-agriculturist/ner/persons/wd")
-import mcp_client
+MCP_CLIENT = "/mnt/data/jic823/tropical-agriculturist/ner/persons/wd"   # imported only when searching, so queries() can be used without it
 
 CACHE = HERE / "cache/wd_search.jsonl"
 HINTS = ["country", "city", "town", "island", "district", "province", "state", "river", "region", "port",
@@ -40,6 +39,9 @@ def main():
         todo += [q for q in queries(r) if q not in cache]
     todo = list(dict.fromkeys(todo))
     print(f"queries to run: {len(todo)} (cached {len(cache)})", flush=True)
+    global mcp_client
+    sys.path.insert(0, MCP_CLIENT); import mcp_client as _m
+    mcp_client = _m
     mcp_client.init()
     with open(CACHE, "a") as fh, cf.ThreadPoolExecutor(2) as ex:
         for i, (q, res) in enumerate(zip(todo, ex.map(lambda q: _safe(q), todo)), 1):

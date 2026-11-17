@@ -1,7 +1,7 @@
 """Fold the research assistant's person check into the spine as a human-review overlay.
 
 Reads the latest export in gold/*/ (never edited) and the frozen gold profile table, and writes
-grounding/people_review.jsonl: one row per profile the RA answered, with her verdict, her note, and what the
+grounding/people_review.jsonl: one row per profile the RA answered, with their verdict, their note, and what the
 spine does with it. Then rewrites grounding/people.jsonl with the overlay applied:
   proposed   RA confirmed the pipeline's QID          -> review_status ra_confirmed
   other      RA found a QID the pipeline did not have -> QID added, qid_source ra_review, pending a second look

@@ -6,7 +6,7 @@ open library may be published, including OCR text; material harvested from the H
 
 | Material | Came from | In this repository |
 |---|---|---|
-| Ceylon Blue Books (13 volumes so far) | archive.org; identifiers in `spine/bluebook/volumes.tsv` | Parsed tables and page text (`spine/bluebook/tables`, `pages`) and everything extracted from them |
+| Ceylon Blue Books (62 volumes, 1863–1938) | archive.org; identifiers in `spine/bluebook/volumes.tsv`. Several are third-party re-uploads of JSTOR / South Asia Open Archives (CRL) scans (JSTOR cover pages in 1866–1877, 1896–1899, 1905, 1908, 1910, 1911); none of JSTOR's cover or footer text is in `tables/` | Parsed tables and page text (`spine/bluebook/tables`, `pages`) and everything extracted from them |
 | Casie Chitty, *The Ceylon Gazetteer* (1834) | archive.org item `in.ernet.dli.2015.94788` | OCR text, parsed entries, indexed pages, and reviewed place matches with modern coordinates |
 | *Tropical Agriculturist* | github.com/jburnford/tropical-agriculturist (public) | Derived tables only: name counts, grounding decisions. The corpus stays in its own repository |
 | Colonial Office List graph | github.com/jburnford/col_matching | Read at build time; not copied here |
@@ -15,7 +15,7 @@ open library may be published, including OCR text; material harvested from the H
 | GeoNames | geonames.org, Sri Lanka country extract (CC BY 4.0) | Selected reference coordinates and feature IDs for the 1834 Gazetteer layer |
 | Catalogue of Life | ChecklistBank release 317005 (COL26.11, doi:10.48580/dgzy8, CC BY) | Name-match results (`spine/cache/col_match*.jsonl`) |
 | History of Ceylon Tea website harvest | historyofceylontea.com | **Nothing.** Not used by `spine/` |
-| Research assistant's person review | project staff | **Held back** (`spine/gold/`, `spine/grounding/people_review.jsonl`) until she agrees to be named or the files are anonymised |
+| Research assistant's person review | project staff | **Held back** (`spine/gold/`, `spine/grounding/people_review.jsonl`) until they agree to be named or the files are anonymised |
 
 Before adding a new folder to `.gitignore`'s allow-list, add a row here saying where its contents came from.
 

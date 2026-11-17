@@ -14,3 +14,30 @@
 {"type": "TAXON", "key": "pink disease", "qid": "Q2170663", "reason": "acrodynia, a human disease; the journal means the Corticium disease of rubber and tea", "by": "Claude, spot check 2026-11-16"}
 {"type": "TAXON", "key": "jambu", "qid": "Q2097498", "reason": "Acmella oleracea; in Ceylon jambu is a Syzygium fruit tree", "by": "Claude, spot check 2026-11-16"}
 {"type": "PLACE", "key": "mango", "qid": "Q20432799", "reason": "the journal means the fruit, tagged as a place by the extraction", "by": "Claude, spot check 2026-11-16"}
+{"type": "PLACE", "key": "madura", "qid": "Q208134", "reason": "Madura Island, Indonesia; the journal uses it as a district and 'region in southern india' (Madurai)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "summerville", "qid": "Q2454815", "reason": "Summerville, Georgia; the journal says 'town in south carolina' (Pinehurst tea estate)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "victoria park", "qid": "Q566495", "reason": "Viktoriapark, Berlin; the journal says 'garden in colombo'", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "langdale", "qid": "Q65432210", "reason": "locality in New Zealand; the journal says 'location in dimbula'", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "tillicoultry", "qid": "Q7802828", "reason": "village in Sri Lanka; the journal says 'parish in clackmannanshire' (machinery maker)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "white house", "qid": "Q1066932", "reason": "presidential building in Bishkek", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "benin", "qid": "Q962", "reason": "modern Republic of Benin (Dahomey until 1975); the journal means the historical kingdom/region", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "united provinces", "qid": "Q170072", "reason": "Dutch Republic; the journal says 'province in india' (United Provinces of Agra and Oudh)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "yungas", "qid": "Q4534521", "reason": "river in Karelia, Russia; the journal says 'province in bolivia'", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "delta", "qid": "Q503910", "reason": "Delta State, Nigeria; the journal's uses are Egypt and a place in Pussellawa", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "hope", "qid": "Q80008", "reason": "Hope, Arkansas; the journal says 'location in jamaica' (Hope Gardens)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "st andrew s", "qid": "Q7586813", "reason": "settlement in Newfoundland; the journal uses it for a Maskeliya estate and a Jamaica district", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "san antonio", "qid": "Q975", "reason": "San Antonio, Texas; the journal says 'valley in trinidad'", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "salem", "qid": "Q43919", "reason": "Salem, Oregon; the journal uses it as a district (37) in India (Madras Presidency)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "PLACE", "key": "ireland", "qid": "Q27", "reason": "Republic of Ireland (state from 1922/37); matched only because the item sat in the Sri Lanka gazetteer file; the journal means the island / UK part", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "board of revenue", "qid": "Q709003", "reason": "ministry of imperial China; the journal means a British Indian or Ceylon board", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "cambridge university", "qid": "Q5025572", "reason": "parliamentary constituency; the journal means the University of Cambridge", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "harper brothers", "qid": "Q3127696", "reason": "American publisher; the journal's Harper Brothers are auditors and chartered accountants", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "jardin des plantes", "qid": "Q28495272", "reason": "garden in Lyon; the journal says 'garden in paris'", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "academy of sciences", "qid": "Q965731", "reason": "California Academy of Sciences; the journal's references are not specific to it", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "ORG", "key": "colonial institute", "qid": "Q1796182", "reason": "Dutch Royal Tropical Institute; the journal means the (Royal) Colonial Institute, London", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "TAXON", "key": "lime", "qid": "Q127849", "reason": "Tilia (linden); the journal's lime is the citrus", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "COMMODITY", "key": "cacao", "qid": "Q34115776", "reason": "'traditional drink'; the journal means the cacao crop and beans", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "TAXON", "key": "citronella", "qid": "8WDDM", "reason": "Catalogue of Life genus Citronella (Cardiopteridaceae, a tree); the journal means citronella grass (Cymbopogon)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "TAXON", "key": "borer", "qid": "94MCB", "reason": "Catalogue of Life Borer, a synonym of the moth genus Chilo; the journal uses 'borer' for any boring insect pest", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "TAXON", "key": "dichotoma", "qid": "CQ8WM", "reason": "Catalogue of Life Dichotoma (synonym of Sclerocarpus, Asteraceae); the journal means Manihot dichotoma (rubber)", "by": "Claude review 2026-11-16 (role text checked)"}
+{"type": "TAXON", "key": "citronella", "qid": "Q3283494", "reason": "Wikidata genus Citronella (Cardiopteridaceae, a tree); the journal means citronella grass (Cymbopogon)", "by": "Claude review 2026-11-16 (role text checked)"}

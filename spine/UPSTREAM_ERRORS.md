@@ -90,7 +90,7 @@ and resolve the polity per event year through `empire.py`. No dates in the manif
 ## Tropical Agriculturist person links — from the research assistant's review
 
 Source: the research assistant's latest review export in `gold/` (not published) (22 of 100 sampled profiles answered so
-far), scored with the pipeline's own `score_gold.py`; results in `gold/scorer/results/`. Her file is unedited.
+far), scored with the pipeline's own `score_gold.py`; results in `gold/scorer/results/`. Their file is unedited.
 
 | Profile | Finding | Side at fault | Status |
 |---|---|---|---|

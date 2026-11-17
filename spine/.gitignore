@@ -2,7 +2,7 @@ __pycache__/
 *.log
 # rebuilt by build_graph_tables.py from the decision files
 graph/
-# the research assistant's review exports and files that name the reviewer: not published without her consent
+# the research assistant's review exports and files that name the reviewer: not published without their consent
 gold/
 grounding/people_review.jsonl
 # Codex working output
