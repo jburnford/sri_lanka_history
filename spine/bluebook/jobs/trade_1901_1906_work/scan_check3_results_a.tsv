@@ -25,14 +25,14 @@ sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	va
 24	bb1901:p630:t1	630	Coffee— Arabian— Plantation	Queensland	value_ceylon_produce_rs	902	yes	yes	yes	yes	yes	yes	ok	
 25	bb1901:p631:t1	631	Fruit— Preserved		quantity_total	377	yes	yes	yes	yes	yes	yes	ok	
 26	bb1901:p633:t1	633	Spices— Pepper	British India	value_total_rs	5120	yes	yes	yes	yes	yes	yes	ok	
-27	bb1901:p635:t1	635	Tea	Philippines	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
-28	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	143025118	yes	yes	yes	yes	yes	yes	ok	
-29	bb1901:p635:t1	635	Tea	Russia in Europe	quantity_ceylon_produce	9517833	yes	yes	yes	yes	yes	yes	ok	
-30	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	1250490	yes	yes	yes	yes	yes	yes	ok	
-31	bb1901:p635:t1	635	Tea	Switzerland	quantity_ceylon_produce	1154	yes	yes	yes	yes	yes	yes	ok	
-32	bb1901:p635:t1	635	Tea	France	quantity_ceylon_produce	349205	yes	yes	yes	yes	yes	yes	ok	
-33	bb1901:p635:t1	635	Tea	Tasmania	quantity_total	124414	yes	yes	yes	yes	yes	yes	ok	
-34	bb1901:p635:t1	635	Tea	Germany	quantity_total	658535	yes	yes	yes	yes	yes	yes	ok	
+27	bb1901:p635:t1	635	Tea	Philippines	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	ok. Tea columns: 'Produce and manufactures of the Colony' split into Black and Green. Philippines: Black 6434, Green —.
+28	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	143025118	yes	yes	yes	yes	yes	yes	ok	ok. Total line: Black 143025118, Green 1250490, other —, Total 144275608.
+29	bb1901:p635:t1	635	Tea	Russia in Europe	quantity_ceylon_produce	9517833	yes	yes	yes	yes	yes	yes	ok	ok. Russia in Europe: Black 9517833, Green 1867, Total 9519700.
+30	bb1901:p635:t1	635	Tea		quantity_ceylon_produce	1250490	yes	yes	yes	yes	yes	yes	ok	ok. Total line Green 1250490.
+31	bb1901:p635:t1	635	Tea	Switzerland	quantity_ceylon_produce	1154	yes	yes	yes	yes	yes	yes	ok	ok. Switzerland Black 1154, Green —.
+32	bb1901:p635:t1	635	Tea	France	quantity_ceylon_produce	349205	yes	yes	yes	yes	yes	yes	ok	ok. France Black 349205, Green —.
+33	bb1901:p635:t1	635	Tea	Tasmania	quantity_total	124414	yes	yes	yes	yes	yes	yes	ok	ok. Note: Tasmania stands at the top of a continuation page, so no 'Br. Col.—' label is printed on this page (it is a British Colony continued from the previous page). Page headers: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 124414 appears under Black and under Total.
+34	bb1901:p635:t1	635	Tea	Germany	quantity_total	658535	yes	yes	yes	yes	yes	yes	ok	ok. Germany Black 658535, Green —, Total 658535.
 35	bb1901:p639:t1	639	Plumbago	New Zealand	value_ceylon_produce_rs	709	yes	yes	yes	yes	yes	yes	ok	
 36	bb1901:p641:t1	641	Apparel, made up	Egypt	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
 37	bb1901:p645:t1	645	Guns, double	Burma	quantity_ceylon_produce	—	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Arms— Guns, double' (Arms— heading directly under '(3) Other.'); the Arms level is missing. Dash in Produce-of-Colony quantity correct.
@@ -42,3 +42,92 @@ sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	va
 41	bb1901:p651:t1	651	Oil— Cocoanut	Belgium	quantity_ceylon_produce	6417	yes	yes	yes	yes	yes	yes	ok	
 42	bb1901:p651:t1	651	Mats, Mat Bags, and Baskets	United Kingdom	value_other_produce_rs	60	yes	yes	yes	yes	yes	yes	ok	
 43	bb1901:p652:t1	652	Perfumery	United Kingdom	quantity_ceylon_produce	8	yes	yes	yes	yes	yes	yes	ok	
+44	bb1902:p592:t1	592	Butter— Tinned	British India	quantity_home_consumption	107085	yes	yes	yes	yes	yes	yes	ok	
+45	bb1902:p595:t1	595	Grapes	South Australia	value_total_rs	1448	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Fruit, fresh—' with sub-lines Apples, Grapes, Other; article is 'Fruit, fresh— Grapes'. South Australia value 1448 correct.
+46	bb1902:p598:t1	598	Poultry and Game	West Australia	value_total_rs	520	yes	yes	no	yes	yes	yes	wrong	'Poultry and Game' is printed indented under the heading 'Meat, frozen—' (with Beef, Fish, Mutton, Pork); article is 'Meat, frozen— Poultry and Game'. West Australia value 520 correct.
+47	bb1902:p601:t1	601	Sugar— Refined or candied	Germany	value_total_rs	63016	yes	yes	yes	yes	yes	yes	ok	
+48	bb1902:p602:t1	602	Wines, sparkling— Champagne		value_total_rs	84519	yes	yes	yes	yes	yes	yes	ok	
+49	bb1902:p602:t1	602	Wines, sparkling— Champagne	Victoria	quantity_total	51	yes	yes	yes	yes	yes	yes	ok	
+50	bb1902:p603:t1	603	Wines, still— Sherry— In wood	Gibraltar	quantity_home_consumption	56	yes	yes	yes	yes	yes	yes	ok	
+51	bb1902:p607:t1	607	Tin— Yellow Metal	British India	value_total_rs	87	no	yes	no	no	yes	yes	wrong	Yellow Metal: United Kingdom 30/30/1330; British India 21/21/900; Mauritius 1/1/87. Value 87 belongs to Mauritius; British India is 900. Also 'Yellow Metal' is printed at the outer indent (like 'Zinc, slabs'), not as a sub-line of 'Tin—' (whose sub-lines are Plates, Slabs).
+52	bb1902:p609:t1	609	Chalk	British India	quantity_total	41	yes	yes	yes	yes	yes	yes	ok	
+53	bb1902:p609:t1	609	Gum Arabic	West Australia	quantity_total	11	yes	yes	yes	yes	yes	yes	ok	
+54	bb1902:p613:t1	613	Piece Goods— Other	Straits Settlements	quantity_home_consumption	58688	no	yes	yes	no	yes	cannot_tell	wrong	Piece Goods—Other: British India {yds. 72355 / 70279; doz. 68688 / 68688}, value 120787; Straits Settlements yds. 119 / 119, value 45. The doz. home-consumption figure is 68688 (not 58688) and belongs to British India; Straits Settlements has no doz. line. Page head shows only '(1) Textile—contd.' (sub-group letter not on this page).
+55	bb1902:p619:t1	619	Iron— Nails and Rivets	Norway	quantity_total	260	yes	yes	yes	yes	yes	yes	ok	
+56	bb1902:p626:t1	626	Explosives— Cartridges		quantity_home_consumption	596845	yes	yes	yes	yes	yes	yes	ok	
+57	bb1902:p629:t1	629	Jewellery	Straits Settlements	quantity_home_consumption	7	yes	yes	yes	yes	yes	yes	ok	
+58	bb1902:p629:t1	629	Images and Statues	New South Wales	quantity_total	2	yes	yes	yes	yes	yes	yes	ok	
+59	bb1902:p630:t1	630	Leather Articles— Boots and Shoes	France	quantity_total	2029	yes	yes	yes	yes	yes	yes	ok	
+60	bb1902:p634:t1	634	Nets, Fishing		value_total_rs	10759	yes	yes	yes	yes	yes	yes	ok	
+61	bb1902:p636:t1	636	Paper— Other— Free	France	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	ok. Page 636 column order is: 'Quantities entered for home consumption' | 'Total quantities imported' | 'Value of Total Imports'. France 1 / 1.
+62	bb1902:p636:t1	636	Photographic Materials		quantity_home_consumption	325	yes	yes	yes	yes	yes	yes	ok	ok. Reversed-column page: total line 325 (home consumption, first column) / 324 (total imported, second column). 325 is under home consumption as claimed.
+63	bb1902:p636:t1	636	Perfumery	Victoria	quantity_home_consumption	2	yes	yes	yes	yes	yes	yes	ok	ok. Victoria 2 / 2 (both columns).
+64	bb1902:p636:t1	636	Paper— Other— Free	United Kingdom	quantity_total	1268	yes	yes	yes	yes	yes	yes	ok	ok. Reversed-column page: United Kingdom 1289 (home consumption, first column) / 1268 (total imported, second column). 1268 is under Total quantities imported as claimed.
+65	bb1902:p636:t1	636	Paper— Other— Dutiable	Germany	quantity_total	2777	yes	yes	yes	yes	yes	yes	ok	ok. Reversed-column page: Germany 3077 (home consumption, first column) / 2777 (total imported, second column). 2777 is under Total quantities imported as claimed.
+66	bb1902:p636:t1	636	Paper— Other— Dutiable	Germany	value_total_rs	3320	yes	yes	yes	yes	yes	yes	ok	
+67	bb1902:p646:t1	646	Coffee— Arabian— Plantation	Queensland	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	ok. Class is blank in the row; this page prints only '(2) Food and Drink—contd.' (class I.— not repeated on the page).
+68	bb1902:p646:t1	646	Coffee— Arabian— Plantation	British India	value_total_rs	3828	yes	yes	yes	yes	yes	yes	ok	ok. Class blank in row; page prints only the group heading.
+69	bb1902:p646:t1	646	Coffee— Arabian— Plantation	New Zealand	value_total_rs	13091	yes	yes	yes	yes	yes	yes	ok	ok. Class blank in row; page prints only the group heading.
+70	bb1902:p646:t1	646	Coffee— Arabian— Plantation	Victoria	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	ok. Class blank in row; page prints only the group heading.
+71	bb1902:p646:t1	646	Cocoanut— Fresh	Belgium	value_ceylon_produce_rs	20490	yes	yes	yes	yes	yes	yes	ok	ok. Class blank in row; page prints only the group heading.
+72	bb1902:p648:t1	648	Spices— Cinnamon, Plantation	Canada	quantity_other_produce	52	yes	no	yes	yes	yes	yes	wrong	Cinnamon, Plantation: the 'Produce and manufactures of the Colony' quantity column is split into two sub-columns headed 'Plantation.' and 'Chips.'. Canada: Plantation 13, Chips 52, British/Foreign/other produce —, Total 65. 52 is Chips under Ceylon produce, not other produce. (Class blank in row.)
+73	bb1902:p648:t1	648	Spices— Cardamoms	Italy	value_ceylon_produce_rs	1155	yes	yes	yes	yes	yes	yes	ok	ok. Class blank in row; page prints only the group heading.
+74	bb1902:p652:t1	652	Areca nuts	India (exc. British)	value_ceylon_produce_rs	39610	yes	yes	yes	yes	yes	yes	ok	
+75	bb1902:p653:t1	653	Sapan Wood	Austria	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+76	bb1902:p656:t1	656	Shells— Chanks	British India	value_ceylon_produce_rs	96416	yes	yes	yes	yes	yes	no	wrong	Figure 96416 right. Group headings on the page: 'II.—Raw Materials—contd. / (3) Other—contd. / (b) Miscellaneous—contd.'; there is no group '(4) Miscellaneous' — should be '(3) Other (b) Miscellaneous'.
+77	bb1902:p658:t1	658	Lace and Net		value_total_rs	2870	yes	yes	yes	yes	yes	yes	ok	
+78	bb1902:p660:t1	660	Hardware	Aden	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+79	bb1902:p662:t1	662	Cable, Cordage, and Twine other than Coir	Other British Possessions in Asia	value_ceylon_produce_rs	15	yes	yes	yes	yes	yes	yes	ok	
+80	bb1902:p663:t1	663	Coir— Yarn	Italy	value_ceylon_produce_rs	12218	yes	yes	yes	yes	yes	yes	ok	ok. Group is printed '(3) Other—contd.'; row has '(8) Other' (digit misread).
+81	bb1902:p665:t1	665	Instruments— Scientific	Straits Settlements	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	ok. Group is printed '(3) Other—contd.'; row has '(8) Other' (digit misread).
+82	bb1902:p667:t1	667	Oil— Cocoanut	West Australia	value_ceylon_produce_rs	78	cannot_read	yes	yes	yes	yes	yes	cannot_tell	West Australia: quantity 4 / — / 4; value in Produce-of-Colony column is a damaged glyph readable as 78 or 73; other produce —; Total column clearly 73. So the printed figure is almost certainly 73, not 78.
+83	bb1903:p624:t1	624	Cocoanuts	British India	quantity_total	4700	yes	yes	yes	yes	yes	yes	ok	
+84	bb1903:p627:t1	627	Grapes	Spain	quantity_home_consumption	111	yes	yes	no	yes	yes	yes	wrong	Printed heading is 'Fruit, fresh—' with sub-lines Apples, Grapes, Other; article is 'Fruit, fresh— Grapes'. Spain 111 / 111 correct.
+85	bb1903:p629:t1	629	Ham		value_total_rs	93051	yes	yes	yes	yes	yes	yes	ok	
+86	bb1903:p630:t1	630	Pork, salted	U. S. of America	quantity_total	4	yes	yes	yes	yes	yes	yes	ok	
+87	bb1903:p630:t1	630	Mutton, tinned	New Zealand	quantity_total	2240	yes	yes	yes	yes	yes	yes	ok	
+88	bb1903:p634:t1	634	Wines, still— Burgundy— In wood	Victoria	quantity_home_consumption	174	yes	yes	yes	yes	yes	yes	ok	
+89	bb1903:p634:t1	634	Wines, still— Claret— In wood	Victoria	quantity_total	2541	yes	yes	yes	yes	yes	yes	ok	
+90	bb1903:p635:t1	635	Wines, still— Port— In bottle	China	quantity_total	1	no	no	yes	yes	yes	yes	wrong	Port—In bottle, China: total quantity —, home consumption —, value 1. The '1' is the value (Rs.), not a quantity.
+91	bb1903:p635:t1	635	Wines, still— Port— In wood	West Australia	quantity_home_consumption	272	yes	yes	yes	yes	yes	yes	ok	
+92	bb1903:p636:t1	636	Unenumerated— Dutiable	Canada	quantity_home_consumption	10	yes	yes	yes	yes	yes	yes	ok	
+93	bb1903:p639:t1	639	Tin— Slabs	United Kingdom	quantity_home_consumption	224	yes	yes	yes	yes	yes	yes	ok	
+94	bb1903:p652:t1	652	Lead— Lead Ware	United Kingdom	value_total_rs	2324	yes	yes	yes	yes	yes	yes	ok	
+95	bb1903:p658:t1	658	Earthenware	India (exc. British)	quantity_total	322857	yes	yes	yes	yes	yes	yes	ok	
+96	bb1903:p659:t1	659	Fancy Articles	Belgium	quantity_total	4	yes	yes	yes	yes	yes	yes	ok	
+97	bb1903:p662:t1	662	Leather Articles— Harness and Saddlery	New South Wales	value_total_rs	75	yes	yes	yes	yes	yes	yes	ok	
+98	bb1903:p664:t1	664	Machinery— Other— Free	Germany	quantity_home_consumption	658	yes	yes	yes	yes	yes	yes	ok	
+99	bb1903:p666:t1	666	Oil— Fish		quantity_total	50	yes	yes	yes	yes	yes	yes	ok	
+100	bb1903:p668:t1	668	Paper— Other— Dutiable	France	quantity_home_consumption	36	yes	yes	yes	yes	no	yes	wrong	Page 668 column order: 'Quantities entered for home consumption' | 'Total quantities imported' | 'Value of Total Imports'. France 36 / 36, figure and column right. Row carries no unit; page prints 'reams' (ditto marks).
+101	bb1903:p668:t1	668	Photographic Materials	Belgium	quantity_home_consumption	1	yes	yes	yes	yes	no	yes	wrong	Page 668 column order: 'Quantities entered for home consumption' | 'Total quantities imported' | 'Value of Total Imports'. Belgium 1 (home) / 1 (total), right. Row carries no unit; page prints 'cases' (ditto marks).
+102	bb1903:p668:t1	668	Photographic Materials		quantity_total	266	yes	yes	yes	yes	no	yes	wrong	Page 668 column order: 'Quantities entered for home consumption' | 'Total quantities imported' | 'Value of Total Imports'. Total line: first column (home consumption) 27x (last digit not legible), second column (total imported) 266. 266 is under Total quantities imported as claimed. Row carries no unit; page prints 'cases'.
+103	bb1903:p668:t1	668	Photographic Materials	Straits Settlements	quantity_total	—	yes	yes	yes	yes	no	yes	wrong	Page 668 column order: 'Quantities entered for home consumption' | 'Total quantities imported' | 'Value of Total Imports'. Straits Settlements — / — / 1, right. Row carries no unit; page prints 'cases' (ditto marks).
+104	bb1903:p668:t1	668	Paper— Writing	U. S. of America	value_total_rs	2706	yes	yes	yes	yes	yes	yes	ok	ok. U. S. of America 1160 / 1160 / 2706 at top of a continuation page ('Paper—contd. / Writing—contd.'); no country-group label printed on this page.
+105	bb1903:p670:t1	670	Stores— Railway Plant and Rolling Stock— Other	United Kingdom	value_total_rs	31117	yes	yes	yes	yes	yes	yes	ok	
+106	bb1903:p670:t1	670	Stores— Railway Plant and Rolling Stock— Rails and Fishplates of steel or iron		quantity_total	43521	yes	yes	yes	yes	yes	yes	ok	
+107	bb1903:p670:t1	670	Soap— Toilet	Straits Settlements	value_total_rs	382	yes	yes	yes	yes	yes	yes	ok	
+108	bb1903:p671:t1	671	Tar	United Kingdom	value_total_rs	3864	yes	yes	yes	yes	yes	yes	ok	
+109	bb1903:p672:t1	672	Unenumerated— Dutiable	Maldives Islands	value_total_rs	28	yes	yes	yes	yes	yes	yes	ok	
+110	bb1903:p672:t1	672	Varnish	U. S. of America	quantity_total	6	yes	yes	yes	yes	yes	yes	ok	
+111	bb1903:p673:t1	673	Unenumerated— Dutiable	Japan	quantity_home_consumption	157	yes	yes	yes	yes	yes	yes	ok	
+112	bb1903:p677:t1	677	Cacao	Austria	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+113	bb1903:p677:t1	677	Elephants	Mauritius	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+114	bb1903:p678:t1	678	Coffee— Arabian— Plantation	West Australia	value_ceylon_produce_rs	858	yes	yes	yes	yes	yes	yes	ok	
+115	bb1903:p679:t1	679	Fruit— Preserved	Maldivé Islands	quantity_other_produce	52	yes	yes	yes	yes	yes	yes	ok	
+116	bb1903:p681:t1	681	Spirits— Whisky		quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+117	bb1903:p682:t1	682	Tea	Hongkong	quantity_total	504129	yes	yes	yes	yes	yes	yes	ok	ok. Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). Hongkong: Black 474034, Green 30095, other —, Total 504129.
+118	bb1903:p682:t1	682	Tea	Burma	quantity_ceylon_produce	6661	yes	yes	yes	yes	yes	yes	ok	ok. Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). Burma: Black 6661, Green —.
+119	bb1903:p682:t1	682	Tea	West Australia	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	ok. Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). West Australia: Black 645086, Green —.
+120	bb1903:p682:t1	682	Tea	Tasmania	quantity_total	88404	yes	yes	yes	yes	yes	yes	ok	ok. Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). Tasmania: Black 88404, Green —, Total 88404.
+121	bb1903:p682:t1	682	Tea	Gibraltar	quantity_ceylon_produce	—	no	yes	yes	yes	yes	yes	wrong	Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). Gibraltar: Black 14900; the Green cell is blank (no dash printed, unlike neighbouring rows); other —; Total 14900. Meaning is nil either way, but '—' is not what is printed.
+122	bb1903:p682:t1	682	Tea	Burma	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	ok. Tea headers on p682: Quantity = 'Produce and manufactures of the Colony' (sub-columns Black, Green) | 'British, Foreign, and other Colonial produce and manufactures' | 'Total'. 'Tea' is printed at the outer indent as its own article (not under 'Sugar—'). Burma: British/Foreign/other produce —.
+123	bb1903:p682:t1	682	Spirits— Other	Belgium	value_other_produce_rs	81	yes	yes	yes	yes	yes	yes	ok	
+124	bb1903:p687:t1	687	Tea	British India	quantity_ceylon_produce	—	no	no	yes	yes	yes	yes	wrong	This 'Tea' (II.—Raw Materials, (3) Other, (b) Miscellaneous; unit cwt.) has NO Black/Green sub-columns: plain columns Produce of the Colony | British, Foreign and other | Total. British India: 42 | — | 42 (value 2770 | 60 | 2830). Ceylon-produce quantity is 42; the '—' sits under British/Foreign/other produce, not under a Green column.
+125	bb1903:p687:t1	687	Tea	United Kingdom	quantity_ceylon_produce	9	yes	yes	yes	yes	yes	yes	ok	ok for the figure: United Kingdom 9 | — | 9 under 'Produce and manufactures of the Colony'. But the note's 'component black' is spurious: this raw-materials Tea table has no Black/Green sub-columns.
+126	bb1903:p689:t1	689	Palu		value_ceylon_produce_rs	11816	yes	yes	yes	yes	yes	yes	ok	
+127	bb1903:p690:t1	690	Piece Goods— Printed	British India	quantity_total	80	yes	yes	yes	yes	yes	yes	ok	
+128	bb1903:p694:t1	694	Carriages and Carts	Belgium	value_total_rs	450	yes	yes	yes	yes	yes	yes	ok	
+129	bb1903:p696:t1	696	Curios and Fancy Articles	Russia in Europe	value_total_rs	550	yes	yes	yes	yes	yes	yes	ok	
+130	bb1903:p697:t1	697	Instruments— Scientific	Mauritius	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+131	bb1903:p702:t1	702	Pearls and Precious Stones		quantity_ceylon_produce	29	yes	yes	yes	yes	yes	no	wrong	Total line 29 | 3 | 32 correct. But Pearls and Precious Stones is printed under class 'IV.—Bullion and Coin.' (after Gold—Coin, Silver—Coin, Copper—Coin), which has no numbered group; the row's group '(3) Other' is carried over from class III, and the class label is cut to 'IV.—'.
+132	bb1903:p702:t1	702	Pearls and Precious Stones	France	value_other_produce_rs	1500	yes	yes	yes	yes	yes	no	wrong	France value 11200 | 1500 | 12700 correct. But the article is under class 'IV.—Bullion and Coin.', which has no group '(3) Other' (carried over from class III); class label cut to 'IV.—'.
