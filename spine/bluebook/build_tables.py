@@ -8,11 +8,11 @@ Output: bluebook/tables/<year>.jsonl.gz   one table per line
         bluebook/inventory.tsv            tables and pages per volume and section
 Table id: bb<year>:p<pdf page>:t<n on page>. Row/col spans are expanded so every row has the same width.
 """
-import csv, glob, gzip, html, json, re, sys, collections
+import csv, glob, gzip, html, json, os, re, sys, collections
 from html.parser import HTMLParser
 from pathlib import Path
 HERE = Path(__file__).parent
-ROOT = Path("/mnt/data/jic823/ocr_chandra/out_chandra2")
+ROOT = Path(os.environ.get("CEYLON_DATA", "/mnt/data/jic823")) / "ocr_chandra/out_chandra2"
 
 def text(s):
     s = re.sub(r"<br\s*/?>", " ", s); s = re.sub(r"<math[^>]*>(.*?)</math>", r"\1", s, flags=re.S)

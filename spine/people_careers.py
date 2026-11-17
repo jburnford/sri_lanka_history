@@ -9,7 +9,7 @@ import collections, csv, json, sys
 from common import *
 from empire import Empire
 csv.field_size_limit(sys.maxsize)
-PERSONS = Path("/mnt/data/jic823/tropical-agriculturist/ner/persons/out/persons.tsv")
+PERSONS = DATA / "tropical-agriculturist/ner/persons/out/persons.tsv"
 CEYLON = {"Q918153", "Q854"}
 
 def main():

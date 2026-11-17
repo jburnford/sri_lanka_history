@@ -31,7 +31,7 @@ def main():
     for e in ents:
         keys = [e["key"]] + [key(a) for a in e["alt_spellings"] if re.match(r"[A-Z]", a)]
         jx = [k for k in keys if k in journal]
-        jf = sorted({k for kk in keys for k in jskel.get(skeleton(kk), []) if k not in jx}, key=lambda k: -journal[k]["articles"])[:3]
+        jf = sorted({k for kk in keys for k in jskel.get(skeleton(kk), []) if k not in jx}, key=lambda k: (-journal[k]["articles"], k))[:3]   # ties by name: a set has no stable order
         wx = {w["qid"]: w for k in keys for w in wd_exact.get(k, [])}
         wf = {}
         if not wx:

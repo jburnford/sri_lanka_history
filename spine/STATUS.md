@@ -19,16 +19,28 @@ An independent review checked this work against the code and data. Changes made 
 - **Places.** `common.in_sri_lanka()` replaces "is in `sri_lanka_wikidata.jsonl`", which also held ~213 items
   outside Sri Lanka (that is how `ireland` became the Republic of Ireland). A match is refused when the
   journal places the name in Ceylon and the candidate is elsewhere. Three proper names of British Indian
-  provinces are no longer skipped as generic. **Not rerun here**: `resolve_place_reviews.py` and
-  `ground_places_wd.py` need the Empire Evolution data and `col_matching`.
+  provinces are no longer skipped as generic. Rerun on 16 November (late) with `col_matching` and
+  `empire-evolution` cloned beside the repository; the pre-review code reproduced the committed files exactly
+  first. Changed decisions: the 15 rejected places go to review, Ireland is the island (Q22890), and "north west
+  provinces" is the North-Western Provinces (Q138521).
 - **Rejections.** 27 wrong matches with evidence in the journal's own role text were added to
   `grounding/name_rejections.jsonl` (madura → Madura Island, summerville → Georgia, united provinces → Dutch
   Republic, board of revenue → a Chinese ministry, cacao → a drink, lime → Tilia, citronella → a tree genus,
   ...). `ground_taxa_col.py` now honours rejections too. Taxa, commodities and organisations were rerun here.
 
-To finish on the workstation: `resolve_place_reviews.py`, `ground_places_wd.py 5`, `match_casie_chitty.py`,
-`build_graph_tables.py`, `bluebook/link_cells.py`, `bluebook/match_officers.py`,
-`bluebook/link_observations.py`, `load_graph.py`. The graph counts below are from the load before the review.
+- **Polities.** `empire.polity_at` follows succession in one direction of time and no longer jumps sideways
+  or borrows a container from the wrong period (details in `UPSTREAM_ERRORS.md`). On the Colonial Office List
+  career events, about 220 wrong answers were withdrawn or corrected (Newfoundland -> Canada, Penang after 1946
+  -> Singapore, Nyasaland -> Southern Rhodesia, Tanganyika -> Zanzibar), and about 70 probably-right ones are now
+  unresolved (mostly Lagos, blocked by a false upstream edge). `grounding/col_polity_check.tsv` is rerun.
+- **Paths.** Scripts read `CEYLON_PROJECT` (where `col_matching` and `empire-evolution` are; default: the
+  repository root) and `CEYLON_DATA` (default `/mnt/data/jic823`) instead of hard-coded workstation paths.
+
+To finish on the workstation, where the Tropical Agriculturist corpus and `graph/` are: `build_graph_tables.py`,
+`bluebook/link_cells.py`, `bluebook/match_officers.py`, `bluebook/link_observations.py`, `load_graph.py`.
+`people_careers.py` would refresh the career polities, but it rewrites `grounding/people.jsonl` from scratch and
+drops the research assistant's review overlay, so run `apply_people_review.py` straight after it. The graph counts
+below are from the load before the review.
 
 ## What exists now
 
@@ -52,7 +64,7 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 
 | Type | Matched | In review | Unmatched or skipped | Not attempted |
 |---|---:|---:|---:|---:|
-| Places (374,553 records; before the review rerun) | 73.4% | 13.3% | 0.5% | 12.7% |
+| Places (374,553 records) | 73.3% | 13.5% | 0.4% | 12.7% |
 | Taxa (164,859 records) | 51.9% | 3.8% | 18.7% | 25.5% |
 | Commodities (134,358 records) | 65.3% | 3.0% | 16.7% | 15.0% |
 | Organisations (88,690 records) | 5.8% | 0.4% | 37.0% | 56.8% |
@@ -114,7 +126,7 @@ Parsed from the Internet Archive text you sent into 386 entries (`gazetteer/casi
 bracketed alternative spellings, kind of place, "N miles <direction> of <place>" statements (122 entries), and
 the entry text. `analysis/casie_chitty_matches.tsv` lines the headwords up with the journal and with Wikidata's
 Sri Lanka items: 82 headwords occur in the journal as printed and 93 more under a nearby spelling; 28 match a
-Wikidata item exactly and 57 by a spelling-tolerant comparison (Bentotte / Bentota). Those are candidates, not
+Wikidata item exactly and 56 by a spelling-tolerant comparison (Bentotte / Bentota). Those are candidates, not
 decisions. Known gaps: the entries for Ceylon, Kandy, Trincomalee and a few other long articles open in a way
 the parser does not recognise, so their text is attached to the entry before them (flagged with a note).
 The review found a larger case: about 16 entries from Pichampitty to Quiparawa sit inside "Resale"
@@ -143,9 +155,10 @@ is indexed. Worth redoing on the fresh OCR.
   more among all 77. All are recorded in `grounding/name_rejections.jsonl`, which the matcher obeys.
 - **People**: links are from the journal's own person pipeline. The research assistant's review covers 22 profiles: all 13
   asserted QIDs they checked were right; they found 3 the pipeline missed and 3 mixed profiles.
-- **Polities**: `empire.polity_at` follows lineage edges in both directions with no geographic check, so some
-  postings get a neighbour's polity (Newfoundland → Dominion of Canada 1867–1931, Penang and Malacca →
-  Singapore Crown Colony, Northern Rhodesia → Southern Rhodesia). Not fixed yet.
+- **Polities**: found by following Empire Evolution succession for the year (`empire.py`). Since the review, a
+  place that the graph cannot place unambiguously gets no polity rather than a neighbour's. Known gaps: Lagos and
+  Southern Nigeria after 1914 (a false upstream edge), Zambia and Malawi missing as successors, and the Raj after
+  1947 resolving to Pakistan (4 events).
 
 ## Changes made outside this folder
 

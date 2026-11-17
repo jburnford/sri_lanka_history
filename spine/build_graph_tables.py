@@ -15,7 +15,7 @@ import collections, csv, glob, gzip, json, re, sys
 from common import *
 from empire import Empire
 csv.field_size_limit(sys.maxsize)
-TA = Path("/mnt/data/jic823/tropical-agriculturist")
+TA = DATA / "tropical-agriculturist"
 OUT = HERE / "graph"
 TYPES_WITH_NAMES = ["PLACE", "TAXON", "COMMODITY", "ORG", "PUBLICATION", "ESTATE", "PRODUCT", "GROUP", "EVENT"]
 

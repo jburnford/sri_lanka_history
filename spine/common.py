@@ -1,7 +1,12 @@
-import json, re, unicodedata
+import json, os, re, unicodedata
 from pathlib import Path
 HERE = Path(__file__).parent
-COL = Path("/home/jic823/Documents/ceylon/col_matching/data/kg/graph_stage3")
+# Where the sibling projects (col_matching, empire-evolution) are checked out. Default: the repository root, which on
+# the workstation is the project folder /home/jic823/Documents/ceylon. Override with CEYLON_PROJECT.
+PROJECT = Path(os.environ.get("CEYLON_PROJECT", HERE.parent))
+# Large local stores (Tropical Agriculturist corpus, Blue Book PDFs and OCR). Override with CEYLON_DATA.
+DATA = Path(os.environ.get("CEYLON_DATA", "/mnt/data/jic823"))
+COL = PROJECT / "col_matching/data/kg/graph_stage3"
 
 def key(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
