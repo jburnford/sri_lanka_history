@@ -61,7 +61,7 @@
     <section id="view-bluebook" class="view" aria-labelledby="bluebook-title" hidden>
       <div id="bb-search">
         <div class="eyebrow">CEYLON BLUE BOOKS · 1863–1938</div><h1 id="bluebook-title">Blue Book tables</h1>
-        <p class="lede">Find a parsed table and check it against the printed page. Every figure is OCR output; the confidence level says how far a table has been checked, not that it is right.</p>
+        <p class="lede">Find a parsed table and check it against the printed page. Every table is OCR output (the 1879–1891 acreage figures were also read from the page images); the confidence level says how far a table has been checked, not that it is right.</p>
         <div class="table-controls bb-controls">
           <label>Volume<select id="bb-volume"><option value="">All volumes</option></select></label>
           <label>Section or heading<input type="search" id="bb-query" placeholder="e.g. paddy, revenue, Kandy"></label>
@@ -74,7 +74,7 @@
         <div class="page-controls"><span id="bb-count" aria-live="polite"></span><button id="bb-prev" type="button">Previous</button><button id="bb-next" type="button">Next</button></div>
         <div class="bb-lower">
           <details class="bb-levels"><summary>What the confidence levels mean</summary><div id="bb-level-help"></div></details>
-          <article class="bb-series" aria-labelledby="bb-series-title"><h2 id="bb-series-title">Crop acreage, as extracted</h2><p class="help">Acreage by crop and province from the Agricultural Statistics that open each volume, 1862–1923, and the 1928 table. Each point is one printed figure, coloured by the confidence level of its table; most years are printed twice, in their own volume and the next. Select a point to open its table.</p><div class="bb-series-controls"><label>Crop<select id="bb-crop"></select></label><label>Area<select id="bb-area"></select></label></div><div id="bb-chart"></div><div id="bb-point" class="help"></div></article>
+          <article class="bb-series" aria-labelledby="bb-series-title"><h2 id="bb-series-title">Crop acreage, as extracted</h2><p class="help">Acreage by crop and province from the Agricultural Statistics that open each volume, 1862–1923, and the 1928 table. Each point is one printed figure, coloured by the confidence level of its table; most years are printed twice, in their own volume and the next. The figures for 1879–1891 were read from the page images, not the OCR. Select a point to open its table.</p><div class="bb-series-controls"><label>Crop<select id="bb-crop"></select></label><label>Area<select id="bb-area"></select></label></div><div id="bb-chart"></div><div id="bb-point" class="help"></div></article>
         </div>
       </div>
       <div id="bb-detail" hidden></div>

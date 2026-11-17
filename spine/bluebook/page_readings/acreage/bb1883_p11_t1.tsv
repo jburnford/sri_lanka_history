@@ -1,0 +1,12 @@
+#	Paddy	Other Grain	Coffee	Cacao	Cinnamon	Cotton	Tea	Tobacco	Coconuts	Pasturage
+Western	162193	20496	24927	705	32992	2	7175½	339	324178	115897
+North-Western	81694	30986	13043	1060	53	...	..	3356	111494	67115
+Southern	111655	16108	3915	100	1373	...	1275	139	79804	56662
+Eastern	64947	1508½	53	35	...	...	..	717	14147	166991½
+Northern	66202	11478		...	.	142	..	5661	17742	172591
+Central	105109	23238	250740	6060	234	2	11346	43	6659	131313
+North-Central	13957	5274	1	.	...	30	..	5	2142	24200
+TOTAL	605757	109088½	292779	7960	34652	176	19796½	10260	556166	734769½
+! Western	Cacao	first digit covered by an ink blot; the column total gives 7
+! Southern	Cacao	middle digit covered by an ink blot; the column total gives 0
+! TOTAL	Coffee	every figure in the column is clearly printed; the provinces add to 292679, 100 less than the printed total

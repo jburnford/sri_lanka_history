@@ -48,302 +48,302 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1868	western	pasture	bb1869:p11:t2	9181	9181	adds up	bb1868:p11:t3	9181	9181	adds up	agree
 1868	western	tobacco	bb1869:p11:t2	304¼	304.25	adds up	bb1868:p11:t3	304\frac{1}{4}	304.25	adds up	agree
 1868	western	total	bb1869:p11:t2	193176	193176	does not add up	bb1868:p11:t3	193176	193176	does not add up	agree
-1880	central	cinnamon	bb1880:p8:t5	205	205	adds up	bb1881:p10:t5	205	205	does not add up	agree
-1880	central	coconuts	bb1880:p8:t5	4809	4809	does not add up	bb1881:p10:t5	48,099	48099	does not add up	differ
-1880	central	coffee	bb1880:p8:t5	290026	290026	does not add up	bb1881:p10:t5	29,026	29026	does not add up	differ
-1880	central	cotton	bb1880:p8:t5	10	10	adds up	bb1881:p10:t5	10	10	does not add up	agree
-1880	central	other grain	bb1880:p8:t5	90169	90169	does not add up	bb1881:p10:t5	9,016	9016	does not add up	differ
-1880	central	paddy	bb1880:p8:t5	110566	110566	does not add up	bb1881:p10:t5	110,566	110566	does not add up	agree
-1880	central	pasture	bb1880:p8:t5	272883	272883	does not add up	bb1881:p10:t5	27,288	27288	does not add up	differ
-1880	central	tea	bb1880:p8:t5	6063	6063	adds up	bb1881:p10:t5	606	606	does not add up	differ
-1880	central	tobacco	bb1880:p8:t5	97	97	does not add up	bb1881:p10:t5	97	97	does not add up	agree
-1880	central	total	bb1880:p8:t5	774828	774828	does not add up	bb1881:p10:t5	774,828	774828	does not add up	agree
+1880	central	cinnamon	bb1880:p8:t5	205	205	adds up	bb1881:p10:t5	205	205	adds up	agree
+1880	central	coconuts	bb1880:p8:t5	4809	4809	does not add up	bb1881:p10:t5	4809	4809	does not add up	agree
+1880	central	coffee	bb1880:p8:t5	290026	290026	adds up	bb1881:p10:t5	290026	290026	adds up	agree
+1880	central	cotton	bb1880:p8:t5	10	10	adds up	bb1881:p10:t5	10	10	adds up	agree
+1880	central	other grain	bb1880:p8:t5	90169	90169	adds up	bb1881:p10:t5	90169	90169	adds up	agree
+1880	central	paddy	bb1880:p8:t5	110566	110566	adds up	bb1881:p10:t5	110566	110566	adds up	agree
+1880	central	pasture	bb1880:p8:t5	272883	272883	adds up	bb1881:p10:t5	272883	272883	adds up	agree
+1880	central	tea	bb1880:p8:t5	6063	6063	adds up	bb1881:p10:t5	6063	6063	adds up	agree
+1880	central	tobacco	bb1880:p8:t5	97	97	does not add up	bb1881:p10:t5	97	97	adds up	agree
+1880	central	total	bb1880:p8:t5	774828	774828	does not add up	bb1881:p10:t5	774828	774828	adds up	agree
 1880	eastern	cinnamon	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	eastern	coconuts	bb1880:p8:t5	57786	57786	does not add up	bb1881:p10:t5	57,786	57786	does not add up	agree
+1880	eastern	coconuts	bb1880:p8:t5	57786	57786	does not add up	bb1881:p10:t5	57786	57786	does not add up	agree
 1880	eastern	coffee	bb1880:p8:t5	45	45	does not add up	bb1881:p10:t5	45	45	does not add up	agree
 1880	eastern	cotton	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	eastern	other grain	bb1880:p8:t5	3075	3075	does not add up	bb1881:p10:t5	307	307	does not add up	differ
-1880	eastern	paddy	bb1880:p8:t5	44187	44187	does not add up	bb1881:p10:t5	11,187	11187	does not add up	differ
-1880	eastern	pasture	bb1880:p8:t5	42758	42758	does not add up	bb1881:p10:t5	42,758	42758	does not add up	agree
+1880	eastern	other grain	bb1880:p8:t5	3075	3075	does not add up	bb1881:p10:t5	3075	3075	does not add up	agree
+1880	eastern	paddy	bb1880:p8:t5	44187	44187	does not add up	bb1881:p10:t5	44187	44187	does not add up	agree
+1880	eastern	pasture	bb1880:p8:t5	42758	42758	does not add up	bb1881:p10:t5	42758	42758	does not add up	agree
 1880	eastern	tea	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
 1880	eastern	tobacco	bb1880:p8:t5	836	836	does not add up	bb1881:p10:t5	836	836	does not add up	agree
-1880	eastern	total	bb1880:p8:t5	128687	128687	does not add up	bb1881:p10:t5	128,687	128687	does not add up	agree
+1880	eastern	total	bb1880:p8:t5	128687	128687	does not add up	bb1881:p10:t5	128687	128687	does not add up	agree
 1880	northcentral	cinnamon	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
 1880	northcentral	coconuts	bb1880:p8:t5	115	115	does not add up	bb1881:p10:t5	115	115	does not add up	agree
-1880	northcentral	coffee	bb1880:p8:t5	14	14	does not add up	bb1881:p10:t5	1½	1.5	does not add up	differ
-1880	northcentral	cotton	bb1880:p8:t5	7½	7.5	does not add up	bb1881:p10:t5	7¾	7.75	does not add up	differ
-1880	northcentral	other grain	bb1880:p8:t5	11263	11263	does not add up	bb1881:p10:t5	11,263	11263	does not add up	agree
-1880	northcentral	paddy	bb1880:p8:t5	8169	8169	does not add up	bb1881:p10:t5	8,169	8169	does not add up	agree
-1880	northcentral	pasture	bb1880:p8:t5	12637	12637	does not add up	bb1881:p10:t5	12,687	12687	does not add up	differ
+1880	northcentral	coffee	bb1880:p8:t5	1½	1.5	does not add up	bb1881:p10:t5	1½	1.5	does not add up	agree
+1880	northcentral	cotton	bb1880:p8:t5	7½	7.5	does not add up	bb1881:p10:t5	7½	7.5	does not add up	agree
+1880	northcentral	other grain	bb1880:p8:t5	11263	11263	does not add up	bb1881:p10:t5	11263	11263	does not add up	agree
+1880	northcentral	paddy	bb1880:p8:t5	8169	8169	does not add up	bb1881:p10:t5	8169	8169	does not add up	agree
+1880	northcentral	pasture	bb1880:p8:t5	12687	12687	does not add up	bb1881:p10:t5	12687	12687	does not add up	agree
 1880	northcentral	tea	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
 1880	northcentral	tobacco	bb1880:p8:t5	3	3	does not add up	bb1881:p10:t5	3	3	does not add up	agree
-1880	northcentral	total	bb1880:p8:t5	33946	33946	does not add up	bb1881:p10:t5	33,946	33946	does not add up	agree
-1880	northern	cinnamon	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		does not add up	agree
-1880	northern	coconuts	bb1880:p8:t5	15496	15496	does not add up	bb1881:p10:t5	15,496	15496	does not add up	agree
-1880	northern	coffee	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	northern	cotton	bb1880:p8:t5	154	154	adds up	bb1881:p10:t5	15¾	15.75	does not add up	differ
-1880	northern	other grain	bb1880:p8:t5	15537	15537	does not add up	bb1881:p10:t5	15,337	15337	does not add up	differ
-1880	northern	paddy	bb1880:p8:t5	56211	56211	does not add up	bb1881:p10:t5	56,211	56211	does not add up	agree
-1880	northern	pasture	bb1880:p8:t5	181058	181058	does not add up	bb1881:p10:t5	181,058	181058	does not add up	agree
-1880	northern	tea	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		does not add up	agree
-1880	northern	tobacco	bb1880:p8:t5	5490	5490	does not add up	bb1881:p10:t5	5,490	5490	does not add up	agree
-1880	northern	total	bb1880:p8:t5	273946	273946	does not add up	bb1881:p10:t5	273,946	273946	does not add up	agree
-1880	northwestern	cinnamon	bb1880:p8:t5	41	41	does not add up	bb1881:p10:t5	41	41	does not add up	agree
-1880	northwestern	coconuts	bb1880:p8:t5	88289	88289	does not add up	bb1881:p10:t5	88,289	88289	does not add up	agree
-1880	northwestern	coffee	bb1880:p8:t5	11911	11911	does not add up	bb1881:p10:t5	11,911	11911	does not add up	agree
-1880	northwestern	cotton	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	northwestern	other grain	bb1880:p8:t5	53902	53902	does not add up	bb1881:p10:t5	3,390	3390	does not add up	differ
-1880	northwestern	paddy	bb1880:p8:t5	79131	79131	does not add up	bb1881:p10:t5	79,131	79131	does not add up	agree
-1880	northwestern	pasture	bb1880:p8:t5	63800	63800	does not add up	bb1881:p10:t5	63,800	63800	does not add up	agree
-1880	northwestern	tea	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	northwestern	tobacco	bb1880:p8:t5	2788	2788	does not add up	bb1881:p10:t5	2,788	2788	does not add up	agree
-1880	northwestern	total	bb1880:p8:t5	299865	299865	does not add up	bb1881:p10:t5	299,865	299865	does not add up	agree
-1880	southern	cinnamon	bb1880:p8:t5	366	366	does not add up	bb1881:p10:t5	366	366	does not add up	agree
-1880	southern	coconuts	bb1880:p8:t5	85782	85782	does not add up	bb1881:p10:t5	85,782	85782	does not add up	agree
-1880	southern	coffee	bb1880:p8:t5	3921	3921	does not add up	bb1881:p10:t5	3,921	3921	does not add up	agree
-1880	southern	cotton	bb1880:p8:t5	—		does not add up	bb1881:p10:t5	—		does not add up	agree
-1880	southern	other grain	bb1880:p8:t5	50956	50956	does not add up	bb1881:p10:t5	3,095	3095	does not add up	differ
-1880	southern	paddy	bb1880:p8:t5	103375	103375	does not add up	bb1881:p10:t5	103,375	103375	does not add up	agree
-1880	southern	pasture	bb1880:p8:t5	55701	55701	does not add up	bb1881:p10:t5	53,701	53701	does not add up	differ
-1880	southern	tea	bb1880:p8:t5	773	773	does not add up	bb1881:p10:t5	773	773	does not add up	agree
-1880	southern	tobacco	bb1880:p8:t5	275	275	does not add up	bb1881:p10:t5	275	275	does not add up	agree
-1880	southern	total	bb1880:p8:t5	281149	281149	does not add up	bb1881:p10:t5	281,149	281149	does not add up	agree
-1880	total	cinnamon	bb1880:p8:t5	31144	31144	does not add up	bb1881:p10:t5	311,41			one missing or unreadable
-1880	total	coconuts	bb1880:p8:t5	524334	524334	does not add up	bb1881:p10:t5	524,334	524334	does not add up	agree
-1880	total	coffee	bb1880:p8:t5	341460½	341460.5	does not add up	bb1881:p10:t5	34,460	34460	does not add up	differ
-1880	total	cotton	bb1880:p8:t5	173½	173.5	does not add up	bb1881:p10:t5	173½	173.5	does not add up	agree
-1880	total	other grain	bb1880:p8:t5	232205	232205	does not add up	bb1881:p10:t5	32,205	32205	does not add up	differ
-1880	total	paddy	bb1880:p8:t5	583118	583118	does not add up	bb1881:p10:t5	583,118	583118	does not add up	agree
-1880	total	pasture	bb1880:p8:t5	756801	756801	does not add up	bb1881:p10:t5	756,801	756801	does not add up	agree
-1880	total	tea	bb1880:p8:t5	14266	14266	does not add up	bb1881:p10:t5	14,266	14266	does not add up	agree
-1880	total	tobacco	bb1880:p8:t5	99957	99957	does not add up	bb1881:p10:t5	9,957	9957	adds up	differ
-1880	total	total	bb1880:p8:t5	2943459	2943459	does not add up	bb1881:p10:t5	2,193,459	2193459	does not add up	differ
-1880	western	cinnamon	bb1880:p8:t5	30532	30532	does not add up	bb1881:p10:t5	305,332	305332	does not add up	differ
-1880	western	coconuts	bb1880:p8:t5	290357	290357	does not add up	bb1881:p10:t5	290,357	290357	does not add up	agree
-1880	western	coffee	bb1880:p8:t5	35553	35553	does not add up	bb1881:p10:t5	35,553	35553	does not add up	agree
-1880	western	cotton	bb1880:p8:t5	2	2	does not add up	bb1881:p10:t5	2	2	does not add up	agree
-1880	western	other grain	bb1880:p8:t5	27303	27303	does not add up	bb1881:p10:t5	27,303	27303	does not add up	agree
-1880	western	paddy	bb1880:p8:t5	181475	181475	does not add up	bb1881:p10:t5	181,179	181179	does not add up	differ
-1880	western	pasture	bb1880:p8:t5	127914	127914	does not add up	bb1881:p10:t5	127,914	127914	does not add up	agree
-1880	western	tea	bb1880:p8:t5	7430	7430	does not add up	bb1881:p10:t5	7,430	7430	does not add up	agree
-1880	western	tobacco	bb1880:p8:t5	468	468	does not add up	bb1881:p10:t5	468	468	does not add up	agree
-1880	western	total	bb1880:p8:t5	701088	701088	does not add up	bb1881:p10:t5	701,038	701038	does not add up	differ
-1881	central	cinchona	bb1881:p10:t6	32,473	32473	adds up	bb1882:p10:t6	32473	32473	adds up	agree
-1881	central	cinnamon	bb1881:p10:t6	109	109		bb1882:p10:t6	109	109	does not add up	agree
-1881	central	coconuts	bb1881:p10:t6	5,802	5802	adds up	bb1882:p10:t6	5802	5802	adds up	agree
-1881	central	coffee	bb1881:p10:t6	32,337	32337	does not add up	bb1882:p10:t6	32233	32233	does not add up	differ
+1880	northcentral	total	bb1880:p8:t5	33946	33946	does not add up	bb1881:p10:t5	33946	33946	does not add up	agree
+1880	northern	cinnamon	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		adds up	agree
+1880	northern	coconuts	bb1880:p8:t5	15496	15496	does not add up	bb1881:p10:t5	15496	15496	does not add up	agree
+1880	northern	coffee	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		adds up	agree
+1880	northern	cotton	bb1880:p8:t5	154	154	adds up	bb1881:p10:t5	154	154	adds up	agree
+1880	northern	other grain	bb1880:p8:t5	15537	15537	adds up	bb1881:p10:t5	15537	15537	adds up	agree
+1880	northern	paddy	bb1880:p8:t5	56211	56211	adds up	bb1881:p10:t5	56211	56211	adds up	agree
+1880	northern	pasture	bb1880:p8:t5	181058	181058	adds up	bb1881:p10:t5	181058	181058	adds up	agree
+1880	northern	tea	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		adds up	agree
+1880	northern	tobacco	bb1880:p8:t5	5490	5490	does not add up	bb1881:p10:t5	5490	5490	adds up	agree
+1880	northern	total	bb1880:p8:t5	273946	273946	does not add up	bb1881:p10:t5	273946	273946	adds up	agree
+1880	northwestern	cinnamon	bb1880:p8:t5	41	41	adds up	bb1881:p10:t5	41	41	adds up	agree
+1880	northwestern	coconuts	bb1880:p8:t5	88289	88289	does not add up	bb1881:p10:t5	88289	88289	does not add up	agree
+1880	northwestern	coffee	bb1880:p8:t5	11914	11914	adds up	bb1881:p10:t5	11914	11914	adds up	agree
+1880	northwestern	cotton	bb1880:p8:t5	-		adds up	bb1881:p10:t5	-		adds up	agree
+1880	northwestern	other grain	bb1880:p8:t5	53902	53902	adds up	bb1881:p10:t5	53902	53902	adds up	agree
+1880	northwestern	paddy	bb1880:p8:t5	79131	79131	adds up	bb1881:p10:t5	79131	79131	adds up	agree
+1880	northwestern	pasture	bb1880:p8:t5	63800	63800	adds up	bb1881:p10:t5	63800	63800	adds up	agree
+1880	northwestern	tea	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		adds up	agree
+1880	northwestern	tobacco	bb1880:p8:t5	2788	2788	does not add up	bb1881:p10:t5	2788	2788	adds up	agree
+1880	northwestern	total	bb1880:p8:t5	299865	299865	does not add up	bb1881:p10:t5	299865	299865	adds up	agree
+1880	southern	cinnamon	bb1880:p8:t5	366	366	adds up	bb1881:p10:t5	366	366	adds up	agree
+1880	southern	coconuts	bb1880:p8:t5	85782	85782	does not add up	bb1881:p10:t5	85782	85782	does not add up	agree
+1880	southern	coffee	bb1880:p8:t5	3921	3921	adds up	bb1881:p10:t5	3921	3921	adds up	agree
+1880	southern	cotton	bb1880:p8:t5	—		adds up	bb1881:p10:t5	—		adds up	agree
+1880	southern	other grain	bb1880:p8:t5	30956	30956	adds up	bb1881:p10:t5	30956	30956	adds up	agree
+1880	southern	paddy	bb1880:p8:t5	103375	103375	adds up	bb1881:p10:t5	103375	103375	adds up	agree
+1880	southern	pasture	bb1880:p8:t5	55701	55701	adds up	bb1881:p10:t5	55701	55701	adds up	agree
+1880	southern	tea	bb1880:p8:t5	773	773	adds up	bb1881:p10:t5	773	773	adds up	agree
+1880	southern	tobacco	bb1880:p8:t5	275	275	does not add up	bb1881:p10:t5	275	275	adds up	agree
+1880	southern	total	bb1880:p8:t5	281149	281149	does not add up	bb1881:p10:t5	281149	281149	adds up	agree
+1880	total	cinnamon	bb1880:p8:t5	31144	31144	does not add up	bb1881:p10:t5	31144	31144	adds up	agree
+1880	total	coconuts	bb1880:p8:t5	524334	524334	does not add up	bb1881:p10:t5	524334	524334	does not add up	agree
+1880	total	coffee	bb1880:p8:t5	341460½	341460.5	does not add up	bb1881:p10:t5	341460½	341460.5	adds up	agree
+1880	total	cotton	bb1880:p8:t5	173½	173.5	does not add up	bb1881:p10:t5	173½	173.5	adds up	agree
+1880	total	other grain	bb1880:p8:t5	232205	232205	does not add up	bb1881:p10:t5	232205	232205	adds up	agree
+1880	total	paddy	bb1880:p8:t5	583118	583118	does not add up	bb1881:p10:t5	583118	583118	adds up	agree
+1880	total	pasture	bb1880:p8:t5	756801	756801	does not add up	bb1881:p10:t5	756801	756801	adds up	agree
+1880	total	tea	bb1880:p8:t5	14266	14266	does not add up	bb1881:p10:t5	14266	14266	adds up	agree
+1880	total	tobacco	bb1880:p8:t5	99957	99957	does not add up	bb1881:p10:t5	9957	9957	adds up	differ
+1880	total	total	bb1880:p8:t5	2943459	2943459	does not add up	bb1881:p10:t5	2493459	2493459	adds up	differ
+1880	western	cinnamon	bb1880:p8:t5	30532	30532	adds up	bb1881:p10:t5	30532	30532	adds up	agree
+1880	western	coconuts	bb1880:p8:t5	290357	290357	does not add up	bb1881:p10:t5	290357	290357	does not add up	agree
+1880	western	coffee	bb1880:p8:t5	35553	35553	adds up	bb1881:p10:t5	35553	35553	adds up	agree
+1880	western	cotton	bb1880:p8:t5	2	2	adds up	bb1881:p10:t5	2	2	adds up	agree
+1880	western	other grain	bb1880:p8:t5	27303	27303	adds up	bb1881:p10:t5	27303	27303	adds up	agree
+1880	western	paddy	bb1880:p8:t5	181479	181479	adds up	bb1881:p10:t5	181479	181479	adds up	agree
+1880	western	pasture	bb1880:p8:t5	127914	127914	adds up	bb1881:p10:t5	127914	127914	adds up	agree
+1880	western	tea	bb1880:p8:t5	7430	7430	adds up	bb1881:p10:t5	7430	7430	adds up	agree
+1880	western	tobacco	bb1880:p8:t5	468	468	does not add up	bb1881:p10:t5	468	468	adds up	agree
+1880	western	total	bb1880:p8:t5	701038	701038	does not add up	bb1881:p10:t5	701038	701038	adds up	agree
+1881	central	cinchona	bb1881:p10:t6	32473	32473	adds up	bb1882:p10:t6	32473	32473	adds up	agree
+1881	central	cinnamon	bb1881:p10:t6	109	109	adds up	bb1882:p10:t6	109	109	adds up	agree
+1881	central	coconuts	bb1881:p10:t6	5802	5802	adds up	bb1882:p10:t6	5802	5802	adds up	agree
+1881	central	coffee	bb1881:p10:t6	322337	322337	adds up	bb1882:p10:t6	322337	322337	adds up	agree
 1881	central	cotton	bb1881:p10:t6	22	22	adds up	bb1882:p10:t6	22	22	adds up	agree
-1881	central	other grain	bb1881:p10:t6	20,854	20854	does not add up	bb1882:p10:t6	20854	20854	adds up	agree
-1881	central	paddy	bb1881:p10:t6	102,720	102720	does not add up	bb1882:p10:t6	102720	102720	adds up	agree
-1881	central	pasture	bb1881:p10:t6	138,944	138944	does not add up	bb1882:p10:t6	138944	138944	does not add up	agree
-1881	central	tea	bb1881:p10:t6	7,241	7241	adds up	bb1882:p10:t6	7241	7241	adds up	agree
-1881	central	tobacco	bb1881:p10:t6	78	78	does not add up	bb1882:p10:t6	78	78	adds up	agree
-1881	eastern	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	eastern	cinnamon	bb1881:p10:t6	..			bb1882:p10:t6	...		does not add up	agree
-1881	eastern	coconuts	bb1881:p10:t6	16,870	16870	adds up	bb1882:p10:t6	16870	16870	adds up	agree
-1881	eastern	coffee	bb1881:p10:t6	45	45	does not add up	bb1882:p10:t6	45	45	does not add up	agree
-1881	eastern	cotton	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	eastern	other grain	bb1881:p10:t6	281	281	does not add up	bb1882:p10:t6	2817	2817	adds up	differ
-1881	eastern	paddy	bb1881:p10:t6	51,333	51333	does not add up	bb1882:p10:t6	51333	51333	adds up	agree
-1881	eastern	pasture	bb1881:p10:t6	172,809	172809	does not add up	bb1882:p10:t6	172809	172809	does not add up	agree
-1881	eastern	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	eastern	tobacco	bb1881:p10:t6	713	713	does not add up	bb1882:p10:t6	713	713	adds up	agree
-1881	northcentral	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northcentral	cinnamon	bb1881:p10:t6	..			bb1882:p10:t6	...		does not add up	agree
-1881	northcentral	coconuts	bb1881:p10:t6	1,590	1590	adds up	bb1882:p10:t6	1590	1590	adds up	agree
-1881	northcentral	coffee	bb1881:p10:t6	0½	0.5	does not add up	bb1882:p10:t6	0½	0.5	does not add up	agree
+1881	central	other grain	bb1881:p10:t6	20854	20854	adds up	bb1882:p10:t6	20854	20854	adds up	agree
+1881	central	paddy	bb1881:p10:t6	102720	102720	adds up	bb1882:p10:t6	102720	102720	adds up	agree
+1881	central	pasture	bb1881:p10:t6	133944	133944	adds up	bb1882:p10:t6	133944	133944	adds up	agree
+1881	central	tea	bb1881:p10:t6	7241	7241	adds up	bb1882:p10:t6	7241	7241	adds up	agree
+1881	central	tobacco	bb1881:p10:t6	78	78	adds up	bb1882:p10:t6	78	78	adds up	agree
+1881	eastern	cinchona	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	eastern	cinnamon	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
+1881	eastern	coconuts	bb1881:p10:t6	16870	16870	adds up	bb1882:p10:t6	16870	16870	adds up	agree
+1881	eastern	coffee	bb1881:p10:t6	45	45	adds up	bb1882:p10:t6	45	45	adds up	agree
+1881	eastern	cotton	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
+1881	eastern	other grain	bb1881:p10:t6	2817	2817	adds up	bb1882:p10:t6	2817	2817	adds up	agree
+1881	eastern	paddy	bb1881:p10:t6	51333	51333	adds up	bb1882:p10:t6	51333	51333	adds up	agree
+1881	eastern	pasture	bb1881:p10:t6	172809	172809	adds up	bb1882:p10:t6	172809	172809	adds up	agree
+1881	eastern	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
+1881	eastern	tobacco	bb1881:p10:t6	713	713	adds up	bb1882:p10:t6	713	713	adds up	agree
+1881	northcentral	cinchona	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northcentral	cinnamon	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northcentral	coconuts	bb1881:p10:t6	1590	1590	adds up	bb1882:p10:t6	1590	1590	adds up	agree
+1881	northcentral	coffee	bb1881:p10:t6	0½	0.5	adds up	bb1882:p10:t6	0½	0.5	adds up	agree
 1881	northcentral	cotton	bb1881:p10:t6	1½	1.5	adds up	bb1882:p10:t6	1½	1.5	adds up	agree
-1881	northcentral	other grain	bb1881:p10:t6	5,994	5994	does not add up	bb1882:p10:t6	5994	5994	adds up	agree
-1881	northcentral	paddy	bb1881:p10:t6	16,450	16450	does not add up	bb1882:p10:t6	16850	16850	adds up	differ
-1881	northcentral	pasture	bb1881:p10:t6	46,000	46000	does not add up	bb1882:p10:t6	46000	46000	does not add up	agree
-1881	northcentral	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northcentral	tobacco	bb1881:p10:t6	7	7	does not add up	bb1882:p10:t6	7	7	adds up	agree
-1881	northern	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northern	cinnamon	bb1881:p10:t6	..			bb1882:p10:t6	...		does not add up	agree
-1881	northern	coconuts	bb1881:p10:t6	17,901	17901	adds up	bb1882:p10:t6	17901	17901	adds up	agree
-1881	northern	coffee	bb1881:p10:t6	..		does not add up	bb1882:p10:t6	...		does not add up	agree
+1881	northcentral	other grain	bb1881:p10:t6	5994	5994	adds up	bb1882:p10:t6	5994	5994	adds up	agree
+1881	northcentral	paddy	bb1881:p10:t6	16850	16850	adds up	bb1882:p10:t6	16850	16850	adds up	agree
+1881	northcentral	pasture	bb1881:p10:t6	46000	46000	adds up	bb1882:p10:t6	46000	46000	adds up	agree
+1881	northcentral	tea	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northcentral	tobacco	bb1881:p10:t6	7	7	adds up	bb1882:p10:t6	7	7	adds up	agree
+1881	northern	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
+1881	northern	cinnamon	bb1881:p10:t6	.		adds up	bb1882:p10:t6	.		adds up	agree
+1881	northern	coconuts	bb1881:p10:t6	17901	17901	adds up	bb1882:p10:t6	17901	17901	adds up	agree
+1881	northern	coffee	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
 1881	northern	cotton	bb1881:p10:t6	151	151	adds up	bb1882:p10:t6	151	151	adds up	agree
-1881	northern	other grain	bb1881:p10:t6	14,935	14935	does not add up	bb1882:p10:t6	14935	14935	adds up	agree
-1881	northern	paddy	bb1881:p10:t6	54,664	54664	does not add up	bb1882:p10:t6	54664	54664	adds up	agree
-1881	northern	pasture	bb1881:p10:t6	171,991	171991	does not add up	bb1882:p10:t6	171991	171991	does not add up	agree
-1881	northern	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northern	tobacco	bb1881:p10:t6	5,902	5902	does not add up	bb1882:p10:t6	5902	5902	adds up	agree
-1881	northwestern	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northwestern	cinnamon	bb1881:p10:t6	41	41		bb1882:p10:t6	41	41	does not add up	agree
-1881	northwestern	coconuts	bb1881:p10:t6	93,890	93890	adds up	bb1882:p10:t6	93890	93890	adds up	agree
-1881	northwestern	coffee	bb1881:p10:t6	12,955	12955	does not add up	bb1882:p10:t6	12955	12955	does not add up	agree
-1881	northwestern	cotton	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northwestern	other grain	bb1881:p10:t6	4,908	4908	does not add up	bb1882:p10:t6	49083	49083	adds up	differ
-1881	northwestern	paddy	bb1881:p10:t6	69,662	69662	does not add up	bb1882:p10:t6	69662	69662	adds up	agree
-1881	northwestern	pasture	bb1881:p10:t6	65,400	65400	does not add up	bb1882:p10:t6	65400	65400	does not add up	agree
-1881	northwestern	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	northwestern	tobacco	bb1881:p10:t6	3,619	3619	does not add up	bb1882:p10:t6	3619	3619	adds up	agree
-1881	southern	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	southern	cinnamon	bb1881:p10:t6	10,30			bb1882:p10:t6	1080	1080	does not add up	one missing or unreadable
-1881	southern	coconuts	bb1881:p10:t6	79,988	79988	adds up	bb1882:p10:t6	79988	79988	adds up	agree
-1881	southern	coffee	bb1881:p10:t6	4,007	4007	does not add up	bb1882:p10:t6	4007	4007	does not add up	agree
-1881	southern	cotton	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	southern	other grain	bb1881:p10:t6	3,350	3350	does not add up	bb1882:p10:t6	33507	33507	adds up	differ
-1881	southern	paddy	bb1881:p10:t6	93,454	93454	does not add up	bb1882:p10:t6	93454	93454	adds up	agree
-1881	southern	pasture	bb1881:p10:t6	59,807	59807	does not add up	bb1882:p10:t6	59807	59807	does not add up	agree
+1881	northern	other grain	bb1881:p10:t6	14935	14935	adds up	bb1882:p10:t6	14935	14935	adds up	agree
+1881	northern	paddy	bb1881:p10:t6	54664	54664	adds up	bb1882:p10:t6	54664	54664	adds up	agree
+1881	northern	pasture	bb1881:p10:t6	171991	171991	adds up	bb1882:p10:t6	171991	171991	adds up	agree
+1881	northern	tea	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northern	tobacco	bb1881:p10:t6	5902	5902	adds up	bb1882:p10:t6	5902	5902	adds up	agree
+1881	northwestern	cinchona	bb1881:p10:t6	.		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northwestern	cinnamon	bb1881:p10:t6	41	41	adds up	bb1882:p10:t6	41	41	adds up	agree
+1881	northwestern	coconuts	bb1881:p10:t6	93890	93890	adds up	bb1882:p10:t6	93890	93890	adds up	agree
+1881	northwestern	coffee	bb1881:p10:t6	12955	12955	adds up	bb1882:p10:t6	12955	12955	adds up	agree
+1881	northwestern	cotton	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	northwestern	other grain	bb1881:p10:t6	49083	49083	adds up	bb1882:p10:t6	49083	49083	adds up	agree
+1881	northwestern	paddy	bb1881:p10:t6	69662	69662	adds up	bb1882:p10:t6	69662	69662	adds up	agree
+1881	northwestern	pasture	bb1881:p10:t6	65400	65400	adds up	bb1882:p10:t6	65400	65400	adds up	agree
+1881	northwestern	tea	bb1881:p10:t6	..		adds up	bb1882:p10:t6	..		adds up	agree
+1881	northwestern	tobacco	bb1881:p10:t6	3619	3619	adds up	bb1882:p10:t6	3619	3619	adds up	agree
+1881	southern	cinchona	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	southern	cinnamon	bb1881:p10:t6	1030	1030	adds up	bb1882:p10:t6	1030	1030	adds up	agree
+1881	southern	coconuts	bb1881:p10:t6	79988	79988	adds up	bb1882:p10:t6	79988	79988	adds up	agree
+1881	southern	coffee	bb1881:p10:t6	4007	4007	adds up	bb1882:p10:t6	4007	4007	adds up	agree
+1881	southern	cotton	bb1881:p10:t6	...		adds up	bb1882:p10:t6	...		adds up	agree
+1881	southern	other grain	bb1881:p10:t6	33507	33507	adds up	bb1882:p10:t6	33507	33507	adds up	agree
+1881	southern	paddy	bb1881:p10:t6	93454	93454	adds up	bb1882:p10:t6	93454	93454	adds up	agree
+1881	southern	pasture	bb1881:p10:t6	59807	59807	adds up	bb1882:p10:t6	59807	59807	adds up	agree
 1881	southern	tea	bb1881:p10:t6	432	432	adds up	bb1882:p10:t6	432	432	adds up	agree
-1881	southern	tobacco	bb1881:p10:t6	158	158	does not add up	bb1882:p10:t6	158	158	adds up	agree
-1881	total	cinchona	bb1881:p10:t6	32,473	32473	adds up	bb1882:p10:t6	32473	32473	adds up	agree
-1881	total	cinnamon	bb1881:p10:t6	320,57			bb1882:p10:t6	32057	32057	does not add up	one missing or unreadable
-1881	total	coconuts	bb1881:p10:t6	525,066	525066	adds up	bb1882:p10:t6	525066	525066	adds up	agree
-1881	total	coffee	bb1881:p10:t6	36,183	36183	does not add up	bb1882:p10:t6	361838½	361838.5	does not add up	differ
+1881	southern	tobacco	bb1881:p10:t6	158	158	adds up	bb1882:p10:t6	158	158	adds up	agree
+1881	total	cinchona	bb1881:p10:t6	32473	32473	adds up	bb1882:p10:t6	32473	32473	adds up	agree
+1881	total	cinnamon	bb1881:p10:t6	32057	32057	adds up	bb1882:p10:t6	32057	32057	adds up	agree
+1881	total	coconuts	bb1881:p10:t6	525066	525066	adds up	bb1882:p10:t6	525066	525066	adds up	agree
+1881	total	coffee	bb1881:p10:t6	361838½	361838.5	adds up	bb1882:p10:t6	361838½	361838.5	adds up	agree
 1881	total	cotton	bb1881:p10:t6	179½	179.5	adds up	bb1882:p10:t6	179½	179.5	adds up	agree
-1881	total	other grain	bb1881:p10:t6	15,055	15055	does not add up	bb1882:p10:t6	150551	150551	adds up	differ
-1881	total	paddy	bb1881:p10:t6	549,292	549292	does not add up	bb1882:p10:t6	549292	549292	adds up	agree
-1881	total	pasture	bb1881:p10:t6	779,701	779701	does not add up	bb1882:p10:t6	779701	779701	does not add up	agree
-1881	total	tea	bb1881:p10:t6	14,350	14350	adds up	bb1882:p10:t6	14350	14350	adds up	agree
-1881	total	tobacco	bb1881:p10:t6	10,996	10996	does not add up	bb1882:p10:t6	10896	10896	adds up	differ
-1881	western	cinchona	bb1881:p10:t6	..		adds up	bb1882:p10:t6	...		adds up	agree
-1881	western	cinnamon	bb1881:p10:t6	308,777	308777		bb1882:p10:t6	30877	30877	does not add up	differ
-1881	western	coconuts	bb1881:p10:t6	309,025	309025	adds up	bb1882:p10:t6	309025	309025	adds up	agree
-1881	western	coffee	bb1881:p10:t6	22,494	22494	does not add up	bb1882:p10:t6	22494	22494	does not add up	agree
+1881	total	other grain	bb1881:p10:t6	150551	150551	adds up	bb1882:p10:t6	150551	150551	adds up	agree
+1881	total	paddy	bb1881:p10:t6	549292	549292	adds up	bb1882:p10:t6	549292	549292	adds up	agree
+1881	total	pasture	bb1881:p10:t6	779701	779701	adds up	bb1882:p10:t6	779701	779701	adds up	agree
+1881	total	tea	bb1881:p10:t6	14350	14350	adds up	bb1882:p10:t6	14350	14350	adds up	agree
+1881	total	tobacco	bb1881:p10:t6	10896	10896	adds up	bb1882:p10:t6	10896	10896	adds up	agree
+1881	western	cinchona	bb1881:p10:t6			adds up	bb1882:p10:t6	...		adds up	agree
+1881	western	cinnamon	bb1881:p10:t6	30877	30877	adds up	bb1882:p10:t6	30877	30877	adds up	agree
+1881	western	coconuts	bb1881:p10:t6	309025	309025	adds up	bb1882:p10:t6	309025	309025	adds up	agree
+1881	western	coffee	bb1881:p10:t6	22494	22494	adds up	bb1882:p10:t6	22494	22494	adds up	agree
 1881	western	cotton	bb1881:p10:t6	5	5	adds up	bb1882:p10:t6	5	5	adds up	agree
-1881	western	other grain	bb1881:p10:t6	23,361	23361	does not add up	bb1882:p10:t6	23361	23361	adds up	agree
-1881	western	paddy	bb1881:p10:t6	160,609	160609	does not add up	bb1882:p10:t6	160609	160609	adds up	agree
-1881	western	pasture	bb1881:p10:t6	129,760	129760	does not add up	bb1882:p10:t6	129750	129750	does not add up	differ
-1881	western	tea	bb1881:p10:t6	6,677	6677	adds up	bb1882:p10:t6	6677	6677	adds up	agree
-1881	western	tobacco	bb1881:p10:t6	419	419	does not add up	bb1882:p10:t6	419	419	adds up	agree
+1881	western	other grain	bb1881:p10:t6	23361	23361	adds up	bb1882:p10:t6	23361	23361	adds up	agree
+1881	western	paddy	bb1881:p10:t6	160609	160609	adds up	bb1882:p10:t6	160609	160609	adds up	agree
+1881	western	pasture	bb1881:p10:t6	129750	129750	adds up	bb1882:p10:t6	129750	129750	adds up	agree
+1881	western	tea	bb1881:p10:t6	6677	6677	adds up	bb1882:p10:t6	6677	6677	adds up	agree
+1881	western	tobacco	bb1881:p10:t6	419	419	adds up	bb1882:p10:t6	419	419	adds up	agree
 1882	central	cacao	bb1882:p11:t1	5809	5809	adds up	bb1883:p10:t4	5809	5809	adds up	agree
 1882	central	cinnamon	bb1882:p11:t1	111	111	adds up	bb1883:p10:t4	111	111	adds up	agree
-1882	central	coconuts	bb1882:p11:t1	6489	6489	adds up	bb1883:p10:t4	6489	6489		agree
-1882	central	coffee	bb1882:p11:t1	28799	28799	does not add up	bb1883:p10:t4	287999	287999	does not add up	differ
-1882	central	cotton	bb1882:p11:t1	4	4		bb1883:p10:t4	4	4	adds up	agree
-1882	central	other grain	bb1882:p11:t1	25367	25367	does not add up	bb1883:p10:t4	25367	25367		agree
-1882	central	paddy	bb1882:p11:t1	100040	100040	does not add up	bb1883:p10:t4	100010	100010		differ
-1882	central	pasture	bb1882:p11:t1	129466	129466	adds up	bb1883:p10:t4	129 466			one missing or unreadable
+1882	central	coconuts	bb1882:p11:t1	6489	6489	adds up	bb1883:p10:t4	6489	6489	adds up	agree
+1882	central	coffee	bb1882:p11:t1	287999	287999	adds up	bb1883:p10:t4	287999	287999	does not add up	agree
+1882	central	cotton	bb1882:p11:t1	4	4	adds up	bb1883:p10:t4	4	4	adds up	agree
+1882	central	other grain	bb1882:p11:t1	25367	25367	adds up	bb1883:p10:t4	25367	25367	adds up	agree
+1882	central	paddy	bb1882:p11:t1	100040	100040	adds up	bb1883:p10:t4	100040	100040	adds up	agree
+1882	central	pasture	bb1882:p11:t1	129466	129466	adds up	bb1883:p10:t4	129466	129466	adds up	agree
 1882	central	tea	bb1882:p11:t1	7016	7016	adds up	bb1883:p10:t4	7016	7016	adds up	agree
 1882	central	tobacco	bb1882:p11:t1	56	56	adds up	bb1883:p10:t4	56	56	adds up	agree
 1882	eastern	cacao	bb1882:p11:t1	30	30	adds up	bb1883:p10:t4	30	30	adds up	agree
 1882	eastern	cinnamon	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
-1882	eastern	coconuts	bb1882:p11:t1	17001	17001	adds up	bb1883:p10:t4	17 001			one missing or unreadable
-1882	eastern	coffee	bb1882:p11:t1	61	61	does not add up	bb1883:p10:t4	61	61	does not add up	agree
-1882	eastern	cotton	bb1882:p11:t1	—			bb1883:p10:t4	—		adds up	agree
-1882	eastern	other grain	bb1882:p11:t1	1828	1828	does not add up	bb1883:p10:t4	1828	1828		agree
-1882	eastern	paddy	bb1882:p11:t1	53514	53514	does not add up	bb1883:p10:t4	53514	53514		agree
-1882	eastern	pasture	bb1882:p11:t1	182324	182324	adds up	bb1883:p10:t4	182 324			one missing or unreadable
+1882	eastern	coconuts	bb1882:p11:t1	17001	17001	adds up	bb1883:p10:t4	17001	17001	adds up	agree
+1882	eastern	coffee	bb1882:p11:t1	61	61	adds up	bb1883:p10:t4	61	61	does not add up	agree
+1882	eastern	cotton	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
+1882	eastern	other grain	bb1882:p11:t1	1828	1828	adds up	bb1883:p10:t4	1828	1828	adds up	agree
+1882	eastern	paddy	bb1882:p11:t1	53514	53514	adds up	bb1883:p10:t4	53514	53514	adds up	agree
+1882	eastern	pasture	bb1882:p11:t1	182324	182324	adds up	bb1883:p10:t4	182324	182324	adds up	agree
 1882	eastern	tea	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	eastern	tobacco	bb1882:p11:t1	712	712	adds up	bb1883:p10:t4	712	712	adds up	agree
 1882	northcentral	cacao	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	northcentral	cinnamon	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
-1882	northcentral	coconuts	bb1882:p11:t1	1707	1707	adds up	bb1883:p10:t4	1707	1707		agree
-1882	northcentral	coffee	bb1882:p11:t1	—		does not add up	bb1883:p10:t4	0\frac{1}{2}	0.5	does not add up	one missing or unreadable
-1882	northcentral	cotton	bb1882:p11:t1	60\frac{1}{2}	60.5		bb1883:p10:t4	60\frac{1}{2}	60.5	adds up	agree
-1882	northcentral	other grain	bb1882:p11:t1	11355	11355	does not add up	bb1883:p10:t4	11555	11555		differ
-1882	northcentral	paddy	bb1882:p11:t1	12326	12326	does not add up	bb1883:p10:t4	12326	12326		agree
-1882	northcentral	pasture	bb1882:p11:t1	51200	51200	adds up	bb1883:p10:t4	51 200			one missing or unreadable
+1882	northcentral	coconuts	bb1882:p11:t1	1707	1707	adds up	bb1883:p10:t4	1707	1707	adds up	agree
+1882	northcentral	coffee	bb1882:p11:t1	½	0.5	adds up	bb1883:p10:t4	½	0.5	does not add up	agree
+1882	northcentral	cotton	bb1882:p11:t1	60½	60.5	adds up	bb1883:p10:t4	60½	60.5	adds up	agree
+1882	northcentral	other grain	bb1882:p11:t1	11355	11355	adds up	bb1883:p10:t4	11355	11355	adds up	agree
+1882	northcentral	paddy	bb1882:p11:t1	12326	12326	adds up	bb1883:p10:t4	12326	12326	adds up	agree
+1882	northcentral	pasture	bb1882:p11:t1	51200	51200	adds up	bb1883:p10:t4	51200	51200	adds up	agree
 1882	northcentral	tea	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	northcentral	tobacco	bb1882:p11:t1	5	5	adds up	bb1883:p10:t4	5	5	adds up	agree
 1882	northern	cacao	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	northern	cinnamon	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
-1882	northern	coconuts	bb1882:p11:t1	17490	17490	adds up	bb1883:p10:t4	17 490			one missing or unreadable
-1882	northern	coffee	bb1882:p11:t1	—		does not add up	bb1883:p10:t4	—		does not add up	agree
-1882	northern	cotton	bb1882:p11:t1	146.			bb1883:p10:t4	146	146	adds up	one missing or unreadable
-1882	northern	other grain	bb1882:p11:t1	11583	11583	does not add up	bb1883:p10:t4	11583	11583		agree
-1882	northern	paddy	bb1882:p11:t1	64113	64113	does not add up	bb1883:p10:t4	64113	64113		agree
-1882	northern	pasture	bb1882:p11:t1	172572	172572	adds up	bb1883:p10:t4	172 572			one missing or unreadable
+1882	northern	coconuts	bb1882:p11:t1	17490	17490	adds up	bb1883:p10:t4	17490	17490	adds up	agree
+1882	northern	coffee	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		does not add up	agree
+1882	northern	cotton	bb1882:p11:t1	146	146	adds up	bb1883:p10:t4	146	146	adds up	agree
+1882	northern	other grain	bb1882:p11:t1	11583	11583	adds up	bb1883:p10:t4	11583	11583	adds up	agree
+1882	northern	paddy	bb1882:p11:t1	64113	64113	adds up	bb1883:p10:t4	64113	64113	adds up	agree
+1882	northern	pasture	bb1882:p11:t1	172572	172572	adds up	bb1883:p10:t4	172572	172572	adds up	agree
 1882	northern	tea	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	northern	tobacco	bb1882:p11:t1	5540	5540	adds up	bb1883:p10:t4	5540	5540	adds up	agree
 1882	northwestern	cacao	bb1882:p11:t1	1184	1184	adds up	bb1883:p10:t4	1184	1184	adds up	agree
 1882	northwestern	cinnamon	bb1882:p11:t1	41	41	adds up	bb1883:p10:t4	41	41	adds up	agree
-1882	northwestern	coconuts	bb1882:p11:t1	109573	109573	adds up	bb1883:p10:t4	109 573			one missing or unreadable
-1882	northwestern	coffee	bb1882:p11:t1	15538	15538	does not add up	bb1883:p10:t4	15538	15538	does not add up	agree
-1882	northwestern	cotton	bb1882:p11:t1	—			bb1883:p10:t4	—		adds up	agree
-1882	northwestern	other grain	bb1882:p11:t1	51741	51741	does not add up	bb1883:p10:t4	51741	51741		agree
-1882	northwestern	paddy	bb1882:p11:t1	70069	70069	does not add up	bb1883:p10:t4	79069	79069		differ
-1882	northwestern	pasture	bb1882:p11:t1	67050	67050	adds up	bb1883:p10:t4	67050	67050		agree
+1882	northwestern	coconuts	bb1882:p11:t1	109573	109573	adds up	bb1883:p10:t4	109573	109573	adds up	agree
+1882	northwestern	coffee	bb1882:p11:t1	15538	15538	adds up	bb1883:p10:t4	15538	15538	does not add up	agree
+1882	northwestern	cotton	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
+1882	northwestern	other grain	bb1882:p11:t1	51741	51741	adds up	bb1883:p10:t4	51741	51741	adds up	agree
+1882	northwestern	paddy	bb1882:p11:t1	79069	79069	adds up	bb1883:p10:t4	79069	79069	adds up	agree
+1882	northwestern	pasture	bb1882:p11:t1	67050	67050	adds up	bb1883:p10:t4	67050	67050	adds up	agree
 1882	northwestern	tea	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
 1882	northwestern	tobacco	bb1882:p11:t1	4201	4201	adds up	bb1883:p10:t4	4201	4201	adds up	agree
 1882	southern	cacao	bb1882:p11:t1	100	100	adds up	bb1883:p10:t4	100	100	adds up	agree
 1882	southern	cinnamon	bb1882:p11:t1	1103	1103	adds up	bb1883:p10:t4	1103	1103	adds up	agree
-1882	southern	coconuts	bb1882:p11:t1	81583	81583	adds up	bb1883:p10:t4	81 583			one missing or unreadable
-1882	southern	coffee	bb1882:p11:t1	3408	3408	does not add up	bb1883:p10:t4	3408	3408	does not add up	agree
-1882	southern	cotton	bb1882:p11:t1	—			bb1883:p10:t4	—		adds up	agree
-1882	southern	other grain	bb1882:p11:t1	12735	12735	does not add up	bb1883:p10:t4	15735	15735		differ
-1882	southern	paddy	bb1882:p11:t1	113638	113638	does not add up	bb1883:p10:t4	113638	113638		agree
-1882	southern	pasture	bb1882:p11:t1	57482	57482	adds up	bb1883:p10:t4	57 482			one missing or unreadable
+1882	southern	coconuts	bb1882:p11:t1	81583	81583	adds up	bb1883:p10:t4	81583	81583	adds up	agree
+1882	southern	coffee	bb1882:p11:t1	3408	3408	adds up	bb1883:p10:t4	3408	3408	does not add up	agree
+1882	southern	cotton	bb1882:p11:t1	—		adds up	bb1883:p10:t4	—		adds up	agree
+1882	southern	other grain	bb1882:p11:t1	13735	13735	adds up	bb1883:p10:t4	13735	13735	adds up	agree
+1882	southern	paddy	bb1882:p11:t1	113638	113638	adds up	bb1883:p10:t4	113638	113638	adds up	agree
+1882	southern	pasture	bb1882:p11:t1	57482	57482	adds up	bb1883:p10:t4	57482	57482	adds up	agree
 1882	southern	tea	bb1882:p11:t1	1065	1065	adds up	bb1883:p10:t4	1065	1065	adds up	agree
 1882	southern	tobacco	bb1882:p11:t1	150	150	adds up	bb1883:p10:t4	150	150	adds up	agree
 1882	total	cacao	bb1882:p11:t1	7691	7691	adds up	bb1883:p10:t4	7691	7691	adds up	agree
 1882	total	cinnamon	bb1882:p11:t1	33460	33460	adds up	bb1883:p10:t4	33460	33460	adds up	agree
-1882	total	coconuts	bb1882:p11:t1	555718	555718	adds up	bb1883:p10:t4	555718	555718		agree
-1882	total	coffee	bb1882:p11:t1	324618\frac{1}{2}	324618.5	does not add up	bb1883:p10:t4	321618\frac{1}{2}	321618.5	does not add up	differ
-1882	total	cotton	bb1882:p11:t1	215\frac{1}{2}	215.5		bb1883:p10:t4	215\frac{1}{2}	215.5	adds up	agree
-1882	total	other grain	bb1882:p11:t1	138741	138741	does not add up	bb1883:p10:t4	138741	138741		agree
-1882	total	paddy	bb1882:p11:t1	579245	579245	does not add up	bb1883:p10:t4	579245	579245		agree
-1882	total	pasture	bb1882:p11:t1	793082	793082	adds up	bb1883:p10:t4	793082	793082		agree
-1882	total	tea	bb1882:p11:t1	12481\frac{1}{2}	12481.5	adds up	bb1883:p10:t4	12481\frac{1}{2}	12481.5	adds up	agree
+1882	total	coconuts	bb1882:p11:t1	555718	555718	adds up	bb1883:p10:t4	555718	555718	adds up	agree
+1882	total	coffee	bb1882:p11:t1	324618½	324618.5	adds up	bb1883:p10:t4	321618½	321618.5	does not add up	differ
+1882	total	cotton	bb1882:p11:t1	215½	215.5	adds up	bb1883:p10:t4	215½	215.5	adds up	agree
+1882	total	other grain	bb1882:p11:t1	138741	138741	adds up	bb1883:p10:t4	138741	138741	adds up	agree
+1882	total	paddy	bb1882:p11:t1	579245	579245	adds up	bb1883:p10:t4	579245	579245	adds up	agree
+1882	total	pasture	bb1882:p11:t1	793082	793082	adds up	bb1883:p10:t4	793082	793082	adds up	agree
+1882	total	tea	bb1882:p11:t1	12481½	12481.5	adds up	bb1883:p10:t4	12481½	12481.5	adds up	agree
 1882	total	tobacco	bb1882:p11:t1	11135	11135	adds up	bb1883:p10:t4	11135	11135	adds up	agree
 1882	western	cacao	bb1882:p11:t1	568	568	adds up	bb1883:p10:t4	568	568	adds up	agree
 1882	western	cinnamon	bb1882:p11:t1	32205	32205	adds up	bb1883:p10:t4	32205	32205	adds up	agree
-1882	western	coconuts	bb1882:p11:t1	321875	321875	adds up	bb1883:p10:t4	321 875			one missing or unreadable
-1882	western	coffee	bb1882:p11:t1	17612	17612	does not add up	bb1883:p10:t4	17612	17612	does not add up	agree
-1882	western	cotton	bb1882:p11:t1	5	5		bb1883:p10:t4	5	5	adds up	agree
-1882	western	other grain	bb1882:p11:t1	23132	23132	does not add up	bb1883:p10:t4	231 32			one missing or unreadable
-1882	western	paddy	bb1882:p11:t1	156545	156545	does not add up	bb1883:p10:t4	156 445			one missing or unreadable
-1882	western	pasture	bb1882:p11:t1	132988	132988	adds up	bb1883:p10:t4	132 988			one missing or unreadable
-1882	western	tea	bb1882:p11:t1	4400\frac{1}{2}	4400.5	adds up	bb1883:p10:t4	4400\frac{1}{2}	4400.5	adds up	agree
+1882	western	coconuts	bb1882:p11:t1	321875	321875	adds up	bb1883:p10:t4	321875	321875	adds up	agree
+1882	western	coffee	bb1882:p11:t1	17612	17612	adds up	bb1883:p10:t4	17612	17612	does not add up	agree
+1882	western	cotton	bb1882:p11:t1	5	5	adds up	bb1883:p10:t4	5	5	adds up	agree
+1882	western	other grain	bb1882:p11:t1	23132	23132	adds up	bb1883:p10:t4	23132	23132	adds up	agree
+1882	western	paddy	bb1882:p11:t1	156545	156545	adds up	bb1883:p10:t4	156545	156545	adds up	agree
+1882	western	pasture	bb1882:p11:t1	132988	132988	adds up	bb1883:p10:t4	132988	132988	adds up	agree
+1882	western	tea	bb1882:p11:t1	4400½	4400.5	adds up	bb1883:p10:t4	4400½	4400.5	adds up	agree
 1882	western	tobacco	bb1882:p11:t1	471	471	adds up	bb1883:p10:t4	471	471	adds up	agree
 1885	central	cacao	bb1885:p13:t2	8929	8929	adds up	bb1886:p13:t1	892	892	does not add up	differ
 1885	central	cinnamon	bb1885:p13:t2	252	252	adds up	bb1886:p13:t1	252	252	adds up	agree
 1885	central	coconuts	bb1885:p13:t2	7844	7844	adds up	bb1886:p13:t1	7844	7844	adds up	agree
 1885	central	coffee	bb1885:p13:t2	167677	167677	adds up	bb1886:p13:t1	167677	167677	adds up	agree
 1885	central	cotton	bb1885:p13:t2	56	56	adds up	bb1886:p13:t1	56	56	adds up	agree
-1885	central	other grain	bb1885:p13:t2	23816	23816	does not add up	bb1886:p13:t1	23816	23816	does not add up	agree
+1885	central	other grain	bb1885:p13:t2	23816	23816	adds up	bb1886:p13:t1	23816	23816	adds up	agree
 1885	central	paddy	bb1885:p13:t2	94769	94769	adds up	bb1886:p13:t1	94769	94769	adds up	agree
 1885	central	pasture	bb1885:p13:t2	128175	128175	adds up	bb1886:p13:t1	128175	128175	adds up	agree
 1885	central	tea	bb1885:p13:t2	99168	99168	adds up	bb1886:p13:t1	99168	99168	adds up	agree
 1885	central	tobacco	bb1885:p13:t2	93	93	adds up	bb1886:p13:t1	93	93	adds up	agree
-1885	eastern	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		does not add up	agree
-1885	eastern	cinnamon	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	eastern	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		does not add up	agree
+1885	eastern	cinnamon	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
 1885	eastern	coconuts	bb1885:p13:t2	15699	15699	adds up	bb1886:p13:t1	15699	15699	adds up	agree
 1885	eastern	coffee	bb1885:p13:t2	4	4	adds up	bb1886:p13:t1	4	4	adds up	agree
-1885	eastern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
-1885	eastern	other grain	bb1885:p13:t2	2303	2303	does not add up	bb1886:p13:t1	2303	2303	does not add up	agree
+1885	eastern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
+1885	eastern	other grain	bb1885:p13:t2	2303	2303	adds up	bb1886:p13:t1	2303	2303	adds up	agree
 1885	eastern	paddy	bb1885:p13:t2	75312	75312	adds up	bb1886:p13:t1	75312	75312	adds up	agree
 1885	eastern	pasture	bb1885:p13:t2	190412	190412	adds up	bb1886:p13:t1	190412	190412	adds up	agree
-1885	eastern	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	eastern	tea	bb1885:p13:t2	..		adds up	bb1886:p13:t1	..		adds up	agree
 1885	eastern	tobacco	bb1885:p13:t2	716	716	adds up	bb1886:p13:t1	716	716	adds up	agree
-1885	northcentral	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		does not add up	agree
+1885	northcentral	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	.		does not add up	agree
 1885	northcentral	cinnamon	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
 1885	northcentral	coconuts	bb1885:p13:t2	2008½	2008.5	adds up	bb1886:p13:t1	2008½	2008.5	adds up	agree
 1885	northcentral	coffee	bb1885:p13:t2	0½	0.5	adds up	bb1886:p13:t1	0½	0.5	adds up	agree
-1885	northcentral	cotton	bb1885:p13:t2	30½	30.5	adds up	bb1886:p13:t1	30¼	30.25	adds up	differ
-1885	northcentral	other grain	bb1885:p13:t2	4630	4630	does not add up	bb1886:p13:t1	4630	4630	does not add up	agree
+1885	northcentral	cotton	bb1885:p13:t2	30¼	30.25	adds up	bb1886:p13:t1	30¼	30.25	adds up	agree
+1885	northcentral	other grain	bb1885:p13:t2	4630	4630	adds up	bb1886:p13:t1	4630	4630	adds up	agree
 1885	northcentral	paddy	bb1885:p13:t2	23613	23613	adds up	bb1886:p13:t1	23613	23613	adds up	agree
 1885	northcentral	pasture	bb1885:p13:t2	24200	24200	adds up	bb1886:p13:t1	24200	24200	adds up	agree
-1885	northcentral	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	northcentral	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
 1885	northcentral	tobacco	bb1885:p13:t2	7	7	adds up	bb1886:p13:t1	7	7	adds up	agree
-1885	northern	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		does not add up	agree
-1885	northern	cinnamon	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	northern	cacao	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		does not add up	agree
+1885	northern	cinnamon	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
 1885	northern	coconuts	bb1885:p13:t2	16409	16409	adds up	bb1886:p13:t1	16409	16409	adds up	agree
-1885	northern	coffee	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	northern	coffee	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
 1885	northern	cotton	bb1885:p13:t2	128	128	adds up	bb1886:p13:t1	128	128	adds up	agree
-1885	northern	other grain	bb1885:p13:t2	10606	10606	does not add up	bb1886:p13:t1	10606	10606	does not add up	agree
+1885	northern	other grain	bb1885:p13:t2	10606	10606	adds up	bb1886:p13:t1	10606	10606	adds up	agree
 1885	northern	paddy	bb1885:p13:t2	61591	61591	adds up	bb1886:p13:t1	61591	61591	adds up	agree
 1885	northern	pasture	bb1885:p13:t2	136929	136929	adds up	bb1886:p13:t1	136929	136929	adds up	agree
-1885	northern	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	northern	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
 1885	northern	tobacco	bb1885:p13:t2	5897	5897	adds up	bb1886:p13:t1	5897	5897	adds up	agree
 1885	northwestern	cacao	bb1885:p13:t2	1865	1865	adds up	bb1886:p13:t1	1865	1865	does not add up	agree
 1885	northwestern	cinnamon	bb1885:p13:t2	17	17	adds up	bb1886:p13:t1	17	17	adds up	agree
 1885	northwestern	coconuts	bb1885:p13:t2	96163	96163	adds up	bb1886:p13:t1	96163	96163	adds up	agree
 1885	northwestern	coffee	bb1885:p13:t2	13172	13172	adds up	bb1886:p13:t1	13172	13172	adds up	agree
-1885	northwestern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
-1885	northwestern	other grain	bb1885:p13:t2	33490	33490	does not add up	bb1886:p13:t1	33450	33450	does not add up	differ
+1885	northwestern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
+1885	northwestern	other grain	bb1885:p13:t2	33480	33480	adds up	bb1886:p13:t1	33480	33480	adds up	agree
 1885	northwestern	paddy	bb1885:p13:t2	67822	67822	adds up	bb1886:p13:t1	67822	67822	adds up	agree
 1885	northwestern	pasture	bb1885:p13:t2	65842	65842	adds up	bb1886:p13:t1	65842	65842	adds up	agree
-1885	northwestern	tea	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
+1885	northwestern	tea	bb1885:p13:t2	..		adds up	bb1886:p13:t1	..		adds up	agree
 1885	northwestern	tobacco	bb1885:p13:t2	8682	8682	adds up	bb1886:p13:t1	8682	8682	adds up	agree
 1885	southern	cacao	bb1885:p13:t2	102	102	adds up	bb1886:p13:t1	102	102	does not add up	agree
 1885	southern	cinnamon	bb1885:p13:t2	1690	1690	adds up	bb1886:p13:t1	1690	1690	adds up	agree
 1885	southern	coconuts	bb1885:p13:t2	84314	84314	adds up	bb1886:p13:t1	84314	84314	adds up	agree
 1885	southern	coffee	bb1885:p13:t2	3494	3494	adds up	bb1886:p13:t1	3494	3494	adds up	agree
-1885	southern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	..		adds up	agree
-1885	southern	other grain	bb1885:p13:t2	16655	16655	does not add up	bb1886:p13:t1	16655	16655	does not add up	agree
+1885	southern	cotton	bb1885:p13:t2	...		adds up	bb1886:p13:t1	...		adds up	agree
+1885	southern	other grain	bb1885:p13:t2	16655	16655	adds up	bb1886:p13:t1	16655	16655	adds up	agree
 1885	southern	paddy	bb1885:p13:t2	97791	97791	adds up	bb1886:p13:t1	97791	97791	adds up	agree
 1885	southern	pasture	bb1885:p13:t2	54466	54466	adds up	bb1886:p13:t1	54466	54466	adds up	agree
 1885	southern	tea	bb1885:p13:t2	3796	3796	adds up	bb1886:p13:t1	3796	3796	adds up	agree
@@ -352,8 +352,8 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1885	total	cinnamon	bb1885:p13:t2	113980	113980	adds up	bb1886:p13:t1	113980	113980	adds up	agree
 1885	total	coconuts	bb1885:p13:t2	550366½	550366.5	adds up	bb1886:p13:t1	550366½	550366.5	adds up	agree
 1885	total	coffee	bb1885:p13:t2	192434½	192434.5	adds up	bb1886:p13:t1	192434½	192434.5	adds up	agree
-1885	total	cotton	bb1885:p13:t2	221½	221.5	adds up	bb1886:p13:t1	221¼	221.25	adds up	differ
-1885	total	other grain	bb1885:p13:t2	108298	108298	does not add up	bb1886:p13:t1	108298	108298	does not add up	agree
+1885	total	cotton	bb1885:p13:t2	221¼	221.25	adds up	bb1886:p13:t1	221¼	221.25	adds up	agree
+1885	total	other grain	bb1885:p13:t2	108298	108298	adds up	bb1886:p13:t1	108298	108298	adds up	agree
 1885	total	paddy	bb1885:p13:t2	597977	597977	adds up	bb1886:p13:t1	597977	597977	adds up	agree
 1885	total	pasture	bb1885:p13:t2	715622	715622	adds up	bb1886:p13:t1	715622	715622	adds up	agree
 1885	total	tea	bb1885:p13:t2	120808	120808	adds up	bb1886:p13:t1	120808	120808	adds up	agree
@@ -363,7 +363,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1885	western	coconuts	bb1885:p13:t2	327929	327929	adds up	bb1886:p13:t1	327929	327929	adds up	agree
 1885	western	coffee	bb1885:p13:t2	8087	8087	adds up	bb1886:p13:t1	8087	8087	adds up	agree
 1885	western	cotton	bb1885:p13:t2	7	7	adds up	bb1886:p13:t1	7	7	adds up	agree
-1885	western	other grain	bb1885:p13:t2	16808	16808	does not add up	bb1886:p13:t1	16808	16808	does not add up	agree
+1885	western	other grain	bb1885:p13:t2	16808	16808	adds up	bb1886:p13:t1	16808	16808	adds up	agree
 1885	western	paddy	bb1885:p13:t2	177079	177079	adds up	bb1886:p13:t1	177079	177079	adds up	agree
 1885	western	pasture	bb1885:p13:t2	115598	115598	adds up	bb1886:p13:t1	115598	115598	adds up	agree
 1885	western	tea	bb1885:p13:t2	17844	17844	adds up	bb1886:p13:t1	17844	17844	adds up	agree
@@ -375,7 +375,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1886	central	coffee	bb1886:p13:t2	89813	89813	adds up	bb1887:p14:t2	89813	89813	adds up	agree
 1886	central	cotton	bb1886:p13:t2	26	26	adds up	bb1887:p14:t2	26	26	adds up	agree
 1886	central	other grain	bb1886:p13:t2	12911	12911	adds up	bb1887:p14:t2	12911	12911	adds up	agree
-1886	central	paddy	bb1886:p13:t2	62886	62886	adds up	bb1887:p14:t2	62856	62856	adds up	differ
+1886	central	paddy	bb1886:p13:t2	62886	62886	adds up	bb1887:p14:t2	62886	62886	adds up	agree
 1886	central	tea	bb1886:p13:t2	128562	128562	adds up	bb1887:p14:t2	128562	128562	adds up	agree
 1886	central	tobacco	bb1886:p13:t2	118	118	adds up	bb1887:p14:t2	118	118	adds up	agree
 1886	eastern	cacao	bb1886:p13:t2	—		adds up	bb1887:p14:t2	—		adds up	agree
@@ -435,7 +435,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1886	total	coffee	bb1886:p13:t2	136388	136388	adds up	bb1887:p14:t2	136388	136388	adds up	agree
 1886	total	cotton	bb1886:p13:t2	139	139	adds up	bb1887:p14:t2	139	139	adds up	agree
 1886	total	other grain	bb1886:p13:t2	131230	131230	adds up	bb1887:p14:t2	131230	131230	adds up	agree
-1886	total	paddy	bb1886:p13:t2	605184	605184	adds up	bb1887:p14:t2	605154	605154	adds up	differ
+1886	total	paddy	bb1886:p13:t2	605184	605184	adds up	bb1887:p14:t2	605184	605184	adds up	agree
 1886	total	tea	bb1886:p13:t2	164758	164758	adds up	bb1887:p14:t2	164758	164758	adds up	agree
 1886	total	tobacco	bb1886:p13:t2	12472	12472	adds up	bb1887:p14:t2	12472	12472	adds up	agree
 1886	uva	cacao	bb1886:p13:t2	992	992	adds up	bb1887:p14:t2	992	992	adds up	agree
@@ -459,303 +459,303 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1886	western	tea	bb1886:p13:t2	27485	27485	adds up	bb1887:p14:t2	27485	27485	adds up	agree
 1886	western	tobacco	bb1886:p13:t2	549	549	adds up	bb1887:p14:t2	549	549	adds up	agree
 1889	central	cacao	bb1889b:p14:t3	13226	13226	adds up	bb1890:p295:t1	13226	13226	adds up	agree
-1889	central	cinchona	bb1889b:p14:t3	22465	22465	adds up	bb1890:p295:t1	22465	22465	does not add up	agree
+1889	central	cinchona	bb1889b:p14:t3	22465	22465	adds up	bb1890:p295:t1	22465	22465	adds up	agree
 1889	central	cinnamon	bb1889b:p14:t3	227	227	adds up	bb1890:p295:t1	227	227	adds up	agree
-1889	central	coconuts	bb1889b:p14:t3	6099	6099	does not add up	bb1890:p295:t1	6099	6099	adds up	agree
+1889	central	coconuts	bb1889b:p14:t3	6099	6099	adds up	bb1890:p295:t1	6099	6099	adds up	agree
 1889	central	coffee	bb1889b:p14:t3	49284	49284	adds up	bb1890:p295:t1	49284	49284	adds up	agree
 1889	central	cotton	bb1889b:p14:t3	609	609	adds up	bb1890:p295:t1	609	609	adds up	agree
-1889	central	other grain	bb1889b:p14:t3	14536	14536	adds up	bb1890:p295:t1	14536	14536	does not add up	agree
+1889	central	other grain	bb1889b:p14:t3	14536	14536	adds up	bb1890:p295:t1	14536	14536	adds up	agree
 1889	central	paddy	bb1889b:p14:t3	55710	55710	adds up	bb1890:p295:t1	55710	55710	adds up	agree
 1889	central	tea	bb1889b:p14:t3	150190	150190	adds up	bb1890:p295:t1	150190	150190	adds up	agree
-1889	central	tobacco	bb1889b:p14:t3	403	403	does not add up	bb1890:p295:t1	403	403	adds up	agree
+1889	central	tobacco	bb1889b:p14:t3	403	403	adds up	bb1890:p295:t1	403	403	adds up	agree
 1889	eastern	cacao	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	eastern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		does not add up	agree
+1889	eastern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	eastern	cinnamon	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	eastern	coconuts	bb1889b:p14:t3	15500	15500	does not add up	bb1890:p295:t1	15500	15500	adds up	agree
+1889	eastern	coconuts	bb1889b:p14:t3	15500	15500	adds up	bb1890:p295:t1	15500	15500	adds up	agree
 1889	eastern	coffee	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	eastern	cotton	bb1889b:p14:t3	14	14	adds up	bb1890:p295:t1	14	14	adds up	agree
-1889	eastern	other grain	bb1889b:p14:t3	3925	3925	adds up	bb1890:p295:t1	3925	3925	does not add up	agree
+1889	eastern	other grain	bb1889b:p14:t3	3925	3925	adds up	bb1890:p295:t1	3925	3925	adds up	agree
 1889	eastern	paddy	bb1889b:p14:t3	60500	60500	adds up	bb1890:p295:t1	60500	60500	adds up	agree
 1889	eastern	tea	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	eastern	tobacco	bb1889b:p14:t3	672	672	does not add up	bb1890:p295:t1	672	672	adds up	agree
+1889	eastern	tobacco	bb1889b:p14:t3	672	672	adds up	bb1890:p295:t1	672	672	adds up	agree
 1889	northcentral	cacao	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northcentral	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		does not add up	agree
+1889	northcentral	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	northcentral	cinnamon	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northcentral	coconuts	bb1889b:p14:t3	2112	2112	does not add up	bb1890:p295:t1	2112	2112	adds up	agree
+1889	northcentral	coconuts	bb1889b:p14:t3	2112	2112	adds up	bb1890:p295:t1	2112	2112	adds up	agree
 1889	northcentral	coffee	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	northcentral	cotton	bb1889b:p14:t3	6	6	adds up	bb1890:p295:t1	6	6	adds up	agree
-1889	northcentral	other grain	bb1889b:p14:t3	16250	16250	adds up	bb1890:p295:t1	16250	16250	does not add up	agree
+1889	northcentral	other grain	bb1889b:p14:t3	16250	16250	adds up	bb1890:p295:t1	16250	16250	adds up	agree
 1889	northcentral	paddy	bb1889b:p14:t3	11600	11600	adds up	bb1890:p295:t1	11600	11600	adds up	agree
 1889	northcentral	tea	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northcentral	tobacco	bb1889b:p14:t3	18	18	does not add up	bb1890:p295:t1	13	13	adds up	differ
+1889	northcentral	tobacco	bb1889b:p14:t3	13	13	adds up	bb1890:p295:t1	13	13	adds up	agree
 1889	northern	cacao	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		does not add up	agree
+1889	northern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	northern	cinnamon	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northern	coconuts	bb1889b:p14:t3	17388	17388	does not add up	bb1890:p295:t1	17338	17338	adds up	differ
+1889	northern	coconuts	bb1889b:p14:t3	17338	17338	adds up	bb1890:p295:t1	17338	17338	adds up	agree
 1889	northern	coffee	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	northern	cotton	bb1889b:p14:t3	105	105	adds up	bb1890:p295:t1	105	105	adds up	agree
-1889	northern	other grain	bb1889b:p14:t3	8519	8519	adds up	bb1890:p295:t1	8519	8519	does not add up	agree
+1889	northern	other grain	bb1889b:p14:t3	8519	8519	adds up	bb1890:p295:t1	8519	8519	adds up	agree
 1889	northern	paddy	bb1889b:p14:t3	56372	56372	adds up	bb1890:p295:t1	56372	56372	adds up	agree
 1889	northern	tea	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	northern	tobacco	bb1889b:p14:t3	5582	5582	does not add up	bb1890:p295:t1	5582	5582	adds up	agree
+1889	northern	tobacco	bb1889b:p14:t3	5582	5582	adds up	bb1890:p295:t1	5582	5582	adds up	agree
 1889	northwestern	cacao	bb1889b:p14:t3	1590	1590	adds up	bb1890:p295:t1	1590	1590	adds up	agree
-1889	northwestern	cinchona	bb1889b:p14:t3	31	31	adds up	bb1890:p295:t1	31	31	does not add up	agree
+1889	northwestern	cinchona	bb1889b:p14:t3	31	31	adds up	bb1890:p295:t1	31	31	adds up	agree
 1889	northwestern	cinnamon	bb1889b:p14:t3	94	94	adds up	bb1890:p295:t1	94	94	adds up	agree
-1889	northwestern	coconuts	bb1889b:p14:t3	160420	160420	does not add up	bb1890:p295:t1	160420	160420	adds up	agree
+1889	northwestern	coconuts	bb1889b:p14:t3	160420	160420	adds up	bb1890:p295:t1	160420	160420	adds up	agree
 1889	northwestern	coffee	bb1889b:p14:t3	287	287	adds up	bb1890:p295:t1	287	287	adds up	agree
 1889	northwestern	cotton	bb1889b:p14:t3	87	87	adds up	bb1890:p295:t1	87	87	adds up	agree
-1889	northwestern	other grain	bb1889b:p14:t3	35500	35500	adds up	bb1890:p295:t1	35500	35500	does not add up	agree
+1889	northwestern	other grain	bb1889b:p14:t3	35500	35500	adds up	bb1890:p295:t1	35500	35500	adds up	agree
 1889	northwestern	paddy	bb1889b:p14:t3	73726	73726	adds up	bb1890:p295:t1	73726	73726	adds up	agree
 1889	northwestern	tea	bb1889b:p14:t3	650	650	adds up	bb1890:p295:t1	650	650	adds up	agree
-1889	northwestern	tobacco	bb1889b:p14:t3	10135	10135	does not add up	bb1890:p295:t1	10135	10135	adds up	agree
+1889	northwestern	tobacco	bb1889b:p14:t3	10135	10135	adds up	bb1890:p295:t1	10135	10135	adds up	agree
 1889	sabaragamuwa	cacao	bb1889b:p14:t3	651	651	adds up	bb1890:p295:t1	651	651	adds up	agree
-1889	sabaragamuwa	cinchona	bb1889b:p14:t3	60	60	adds up	bb1890:p295:t1	60	60	does not add up	agree
+1889	sabaragamuwa	cinchona	bb1889b:p14:t3	60	60	adds up	bb1890:p295:t1	60	60	adds up	agree
 1889	sabaragamuwa	cinnamon	bb1889b:p14:t3	343	343	adds up	bb1890:p295:t1	343	343	adds up	agree
-1889	sabaragamuwa	coconuts	bb1889b:p14:t3	22507	22507	does not add up	bb1890:p295:t1	22507	22507	adds up	agree
+1889	sabaragamuwa	coconuts	bb1889b:p14:t3	22507	22507	adds up	bb1890:p295:t1	22507	22507	adds up	agree
 1889	sabaragamuwa	coffee	bb1889b:p14:t3	917	917	adds up	bb1890:p295:t1	917	917	adds up	agree
 1889	sabaragamuwa	cotton	bb1889b:p14:t3	182	182	adds up	bb1890:p295:t1	182	182	adds up	agree
-1889	sabaragamuwa	other grain	bb1889b:p14:t3	20435	20435	adds up	bb1890:p295:t1	20435	20435	does not add up	agree
+1889	sabaragamuwa	other grain	bb1889b:p14:t3	20435	20435	adds up	bb1890:p295:t1	20435	20435	adds up	agree
 1889	sabaragamuwa	paddy	bb1889b:p14:t3	60097	60097	adds up	bb1890:p295:t1	60097	60097	adds up	agree
 1889	sabaragamuwa	tea	bb1889b:p14:t3	24250	24250	adds up	bb1890:p295:t1	24250	24250	adds up	agree
-1889	sabaragamuwa	tobacco	bb1889b:p14:t3	52	52	does not add up	bb1890:p295:t1	52	52	adds up	agree
+1889	sabaragamuwa	tobacco	bb1889b:p14:t3	52	52	adds up	bb1890:p295:t1	52	52	adds up	agree
 1889	southern	cacao	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	southern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		does not add up	agree
+1889	southern	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	southern	cinnamon	bb1889b:p14:t3	2504	2504	adds up	bb1890:p295:t1	2504	2504	adds up	agree
-1889	southern	coconuts	bb1889b:p14:t3	82118	82118	does not add up	bb1890:p295:t1	82118	82118	adds up	agree
+1889	southern	coconuts	bb1889b:p14:t3	82118	82118	adds up	bb1890:p295:t1	82118	82118	adds up	agree
 1889	southern	coffee	bb1889b:p14:t3	258	258	adds up	bb1890:p295:t1	258	258	adds up	agree
 1889	southern	cotton	bb1889b:p14:t3	48	48	adds up	bb1890:p295:t1	48	48	adds up	agree
-1889	southern	other grain	bb1889b:p14:t3	17878	17878	adds up	bb1890:p295:t1	17578	17578	does not add up	differ
+1889	southern	other grain	bb1889b:p14:t3	17878	17878	adds up	bb1890:p295:t1	17878	17878	adds up	agree
 1889	southern	paddy	bb1889b:p14:t3	109564	109564	adds up	bb1890:p295:t1	109564	109564	adds up	agree
 1889	southern	tea	bb1889b:p14:t3	7060	7060	adds up	bb1890:p295:t1	7060	7060	adds up	agree
-1889	southern	tobacco	bb1889b:p14:t3	55	55	does not add up	bb1890:p295:t1	55	55	adds up	agree
+1889	southern	tobacco	bb1889b:p14:t3	55	55	adds up	bb1890:p295:t1	55	55	adds up	agree
 1889	total	cacao	bb1889b:p14:t3	15785	15785	adds up	bb1890:p295:t1	15785	15785	adds up	agree
-1889	total	cinchona	bb1889b:p14:t3	30084	30084	adds up	bb1890:p295:t1	80084	80084	does not add up	differ
+1889	total	cinchona	bb1889b:p14:t3	30084	30084	adds up	bb1890:p295:t1	30084	30084	adds up	agree
 1889	total	cinnamon	bb1889b:p14:t3	37331	37331	adds up	bb1890:p295:t1	37331	37331	adds up	agree
-1889	total	coconuts	bb1889b:p14:t3	656766	656766	does not add up	bb1890:p295:t1	656766	656766	adds up	agree
+1889	total	coconuts	bb1889b:p14:t3	656766	656766	adds up	bb1890:p295:t1	656766	656766	adds up	agree
 1889	total	coffee	bb1889b:p14:t3	71554	71554	adds up	bb1890:p295:t1	71554	71554	adds up	agree
 1889	total	cotton	bb1889b:p14:t3	1227	1227	adds up	bb1890:p295:t1	1227	1227	adds up	agree
-1889	total	other grain	bb1889b:p14:t3	130227	130227	adds up	bb1890:p295:t1	130227	130227	does not add up	agree
+1889	total	other grain	bb1889b:p14:t3	130227	130227	adds up	bb1890:p295:t1	130227	130227	adds up	agree
 1889	total	paddy	bb1889b:p14:t3	585422	585422	adds up	bb1890:p295:t1	585422	585422	adds up	agree
 1889	total	tea	bb1889b:p14:t3	207413	207413	adds up	bb1890:p295:t1	207413	207413	adds up	agree
-1889	total	tobacco	bb1889b:p14:t3	17484	17484	does not add up	bb1890:p295:t1	17434	17434	adds up	differ
+1889	total	tobacco	bb1889b:p14:t3	17434	17434	adds up	bb1890:p295:t1	17434	17434	adds up	agree
 1889	uva	cacao	bb1889b:p14:t3	297	297	adds up	bb1890:p295:t1	297	297	adds up	agree
-1889	uva	cinchona	bb1889b:p14:t3	7528	7528	adds up	bb1890:p295:t1	7528	7528	does not add up	agree
+1889	uva	cinchona	bb1889b:p14:t3	7528	7528	adds up	bb1890:p295:t1	7528	7528	adds up	agree
 1889	uva	cinnamon	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	uva	coconuts	bb1889b:p14:t3	1368	1368	does not add up	bb1890:p295:t1	1368	1368	adds up	agree
+1889	uva	coconuts	bb1889b:p14:t3	1368	1368	adds up	bb1890:p295:t1	1368	1368	adds up	agree
 1889	uva	coffee	bb1889b:p14:t3	20695	20695	adds up	bb1890:p295:t1	20695	20695	adds up	agree
 1889	uva	cotton	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
-1889	uva	other grain	bb1889b:p14:t3	6373	6373	adds up	bb1890:p295:t1	6373	6373	does not add up	agree
+1889	uva	other grain	bb1889b:p14:t3	6373	6373	adds up	bb1890:p295:t1	6373	6373	adds up	agree
 1889	uva	paddy	bb1889b:p14:t3	39654	39654	adds up	bb1890:p295:t1	39654	39654	adds up	agree
 1889	uva	tea	bb1889b:p14:t3	14268	14268	adds up	bb1890:p295:t1	14268	14268	adds up	agree
-1889	uva	tobacco	bb1889b:p14:t3	28	28	does not add up	bb1890:p295:t1	28	28	adds up	agree
+1889	uva	tobacco	bb1889b:p14:t3	28	28	adds up	bb1890:p295:t1	28	28	adds up	agree
 1889	western	cacao	bb1889b:p14:t3	21	21	adds up	bb1890:p295:t1	21	21	adds up	agree
-1889	western	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		does not add up	agree
+1889	western	cinchona	bb1889b:p14:t3	—		adds up	bb1890:p295:t1	—		adds up	agree
 1889	western	cinnamon	bb1889b:p14:t3	34163	34163	adds up	bb1890:p295:t1	34163	34163	adds up	agree
-1889	western	coconuts	bb1889b:p14:t3	349304	349304	does not add up	bb1890:p295:t1	349304	349304	adds up	agree
+1889	western	coconuts	bb1889b:p14:t3	349304	349304	adds up	bb1890:p295:t1	349304	349304	adds up	agree
 1889	western	coffee	bb1889b:p14:t3	113	113	adds up	bb1890:p295:t1	113	113	adds up	agree
 1889	western	cotton	bb1889b:p14:t3	176	176	adds up	bb1890:p295:t1	176	176	adds up	agree
-1889	western	other grain	bb1889b:p14:t3	6811	6811	adds up	bb1890:p295:t1	6811	6811	does not add up	agree
+1889	western	other grain	bb1889b:p14:t3	6811	6811	adds up	bb1890:p295:t1	6811	6811	adds up	agree
 1889	western	paddy	bb1889b:p14:t3	118199	118199	adds up	bb1890:p295:t1	118199	118199	adds up	agree
 1889	western	tea	bb1889b:p14:t3	10995	10995	adds up	bb1890:p295:t1	10995	10995	adds up	agree
-1889	western	tobacco	bb1889b:p14:t3	494	494	does not add up	bb1890:p295:t1	494	494	adds up	agree
+1889	western	tobacco	bb1889b:p14:t3	494	494	adds up	bb1890:p295:t1	494	494	adds up	agree
 1890	central	cacao	bb1890:p295:t2	12292	12292	adds up	bb1891:p297:t1	12292	12292	adds up	agree
 1890	central	cinchona	bb1890:p295:t2	6142	6142	adds up	bb1891:p297:t1	6142	6142	adds up	agree
 1890	central	cinnamon	bb1890:p295:t2	568	568	adds up	bb1891:p297:t1	568	568	adds up	agree
 1890	central	coconuts	bb1890:p295:t2	6718	6718	adds up	bb1891:p297:t1	6718	6718	adds up	agree
-1890	central	coffee	bb1890:p295:t2	44217	44217	adds up	bb1891:p297:t1	44217	44217	does not add up	agree
+1890	central	coffee	bb1890:p295:t2	44217	44217	adds up	bb1891:p297:t1	44217	44217	adds up	agree
 1890	central	cotton	bb1890:p295:t2	660	660	adds up	bb1891:p297:t1	660	660	adds up	agree
-1890	central	other grain	bb1890:p295:t2	17482	17482	adds up	bb1891:p297:t1	17452	17452	does not add up	differ
-1890	central	paddy	bb1890:p295:t2	55125	55125	does not add up	bb1891:p297:t1	55125	55125	does not add up	agree
+1890	central	other grain	bb1890:p295:t2	17482	17482	adds up	bb1891:p297:t1	17482	17482	adds up	agree
+1890	central	paddy	bb1890:p295:t2	55128	55128	adds up	bb1891:p297:t1	55128	55128	adds up	agree
 1890	central	tea	bb1890:p295:t2	167689	167689	adds up	bb1891:p297:t1	167689	167689	adds up	agree
-1890	central	tobacco	bb1890:p295:t2	262	262	adds up	bb1891:p297:t1	262	262	does not add up	agree
+1890	central	tobacco	bb1890:p295:t2	262	262	adds up	bb1891:p297:t1	262	262	adds up	agree
 1890	eastern	cacao	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	eastern	cinchona	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	eastern	cinnamon	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	eastern	coconuts	bb1890:p295:t2	16654	16654	adds up	bb1891:p297:t1	16654	16654	adds up	agree
-1890	eastern	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		does not add up	agree
+1890	eastern	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	eastern	cotton	bb1890:p295:t2	81	81	adds up	bb1891:p297:t1	81	81	adds up	agree
-1890	eastern	other grain	bb1890:p295:t2	2549	2549	adds up	bb1891:p297:t1	2549	2549	does not add up	agree
-1890	eastern	paddy	bb1890:p295:t2	42016	42016	does not add up	bb1891:p297:t1	42016	42016	does not add up	agree
+1890	eastern	other grain	bb1890:p295:t2	2549	2549	adds up	bb1891:p297:t1	2549	2549	adds up	agree
+1890	eastern	paddy	bb1890:p295:t2	42016	42016	adds up	bb1891:p297:t1	42016	42016	adds up	agree
 1890	eastern	tea	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
-1890	eastern	tobacco	bb1890:p295:t2	670	670	adds up	bb1891:p297:t1	670	670	does not add up	agree
+1890	eastern	tobacco	bb1890:p295:t2	670	670	adds up	bb1891:p297:t1	670	670	adds up	agree
 1890	northcentral	cacao	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northcentral	cinchona	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northcentral	cinnamon	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northcentral	coconuts	bb1890:p295:t2	1800	1800	adds up	bb1891:p297:t1	1800	1800	adds up	agree
-1890	northcentral	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		does not add up	agree
+1890	northcentral	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northcentral	cotton	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
-1890	northcentral	other grain	bb1890:p295:t2	9705	9705	adds up	bb1891:p297:t1	9705	9705	does not add up	agree
-1890	northcentral	paddy	bb1890:p295:t2	15115	15115	does not add up	bb1891:p297:t1	15115	15115	does not add up	agree
+1890	northcentral	other grain	bb1890:p295:t2	9705	9705	adds up	bb1891:p297:t1	9705	9705	adds up	agree
+1890	northcentral	paddy	bb1890:p295:t2	15115	15115	adds up	bb1891:p297:t1	15115	15115	adds up	agree
 1890	northcentral	tea	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
-1890	northcentral	tobacco	bb1890:p295:t2	13	13	adds up	bb1891:p297:t1	18	18	does not add up	differ
+1890	northcentral	tobacco	bb1890:p295:t2	13	13	adds up	bb1891:p297:t1	13	13	adds up	agree
 1890	northern	cacao	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northern	cinchona	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northern	cinnamon	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northern	coconuts	bb1890:p295:t2	17327	17327	adds up	bb1891:p297:t1	17327	17327	adds up	agree
-1890	northern	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		does not add up	agree
+1890	northern	coffee	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northern	cotton	bb1890:p295:t2	135	135	adds up	bb1891:p297:t1	135	135	adds up	agree
-1890	northern	other grain	bb1890:p295:t2	10105	10105	adds up	bb1891:p297:t1	10105	10105	does not add up	agree
-1890	northern	paddy	bb1890:p295:t2	51408	51408	does not add up	bb1891:p297:t1	51408	51408	does not add up	agree
+1890	northern	other grain	bb1890:p295:t2	10105	10105	adds up	bb1891:p297:t1	10105	10105	adds up	agree
+1890	northern	paddy	bb1890:p295:t2	51408	51408	adds up	bb1891:p297:t1	51408	51408	adds up	agree
 1890	northern	tea	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
-1890	northern	tobacco	bb1890:p295:t2	5092	5092	adds up	bb1891:p297:t1	5092	5092	does not add up	agree
+1890	northern	tobacco	bb1890:p295:t2	5092	5092	adds up	bb1891:p297:t1	5092	5092	adds up	agree
 1890	northwestern	cacao	bb1890:p295:t2	2305	2305	adds up	bb1891:p297:t1	2305	2305	adds up	agree
 1890	northwestern	cinchona	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	northwestern	cinnamon	bb1890:p295:t2	180	180	adds up	bb1891:p297:t1	180	180	adds up	agree
 1890	northwestern	coconuts	bb1890:p295:t2	193550	193550	adds up	bb1891:p297:t1	193550	193550	adds up	agree
-1890	northwestern	coffee	bb1890:p295:t2	498	498	adds up	bb1891:p297:t1	495	495	does not add up	differ
+1890	northwestern	coffee	bb1890:p295:t2	498	498	adds up	bb1891:p297:t1	498	498	adds up	agree
 1890	northwestern	cotton	bb1890:p295:t2	70	70	adds up	bb1891:p297:t1	70	70	adds up	agree
-1890	northwestern	other grain	bb1890:p295:t2	26292	26292	adds up	bb1891:p297:t1	26292	26292	does not add up	agree
-1890	northwestern	paddy	bb1890:p295:t2	69833	69833	does not add up	bb1891:p297:t1	69533	69533	does not add up	differ
+1890	northwestern	other grain	bb1890:p295:t2	26292	26292	adds up	bb1891:p297:t1	26292	26292	adds up	agree
+1890	northwestern	paddy	bb1890:p295:t2	69833	69833	adds up	bb1891:p297:t1	69833	69833	adds up	agree
 1890	northwestern	tea	bb1890:p295:t2	800	800	adds up	bb1891:p297:t1	800	800	adds up	agree
-1890	northwestern	tobacco	bb1890:p295:t2	2864	2864	adds up	bb1891:p297:t1	2864	2864	does not add up	agree
+1890	northwestern	tobacco	bb1890:p295:t2	2864	2864	adds up	bb1891:p297:t1	2864	2864	adds up	agree
 1890	sabaragamuwa	cacao	bb1890:p295:t2	570	570	adds up	bb1891:p297:t1	570	570	adds up	agree
 1890	sabaragamuwa	cinchona	bb1890:p295:t2	27000	27000	adds up	bb1891:p297:t1	27000	27000	adds up	agree
 1890	sabaragamuwa	cinnamon	bb1890:p295:t2	313	313	adds up	bb1891:p297:t1	313	313	adds up	agree
 1890	sabaragamuwa	coconuts	bb1890:p295:t2	22562	22562	adds up	bb1891:p297:t1	22562	22562	adds up	agree
-1890	sabaragamuwa	coffee	bb1890:p295:t2	167	167	adds up	bb1891:p297:t1	167	167	does not add up	agree
+1890	sabaragamuwa	coffee	bb1890:p295:t2	167	167	adds up	bb1891:p297:t1	167	167	adds up	agree
 1890	sabaragamuwa	cotton	bb1890:p295:t2	184	184	adds up	bb1891:p297:t1	184	184	adds up	agree
-1890	sabaragamuwa	other grain	bb1890:p295:t2	32029	32029	adds up	bb1891:p297:t1	32029	32029	does not add up	agree
-1890	sabaragamuwa	paddy	bb1890:p295:t2	60635	60635	does not add up	bb1891:p297:t1	60635	60635	does not add up	agree
+1890	sabaragamuwa	other grain	bb1890:p295:t2	32029	32029	adds up	bb1891:p297:t1	32029	32029	adds up	agree
+1890	sabaragamuwa	paddy	bb1890:p295:t2	60635	60635	adds up	bb1891:p297:t1	60635	60635	adds up	agree
 1890	sabaragamuwa	tea	bb1890:p295:t2	25735	25735	adds up	bb1891:p297:t1	25735	25735	adds up	agree
-1890	sabaragamuwa	tobacco	bb1890:p295:t2	36	36	adds up	bb1891:p297:t1	36	36	does not add up	agree
+1890	sabaragamuwa	tobacco	bb1890:p295:t2	36	36	adds up	bb1891:p297:t1	36	36	adds up	agree
 1890	southern	cacao	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	southern	cinchona	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	southern	cinnamon	bb1890:p295:t2	3362	3362	adds up	bb1891:p297:t1	3362	3362	adds up	agree
 1890	southern	coconuts	bb1890:p295:t2	83371	83371	adds up	bb1891:p297:t1	83371	83371	adds up	agree
-1890	southern	coffee	bb1890:p295:t2	103	103	adds up	bb1891:p297:t1	103	103	does not add up	agree
+1890	southern	coffee	bb1890:p295:t2	103	103	adds up	bb1891:p297:t1	103	103	adds up	agree
 1890	southern	cotton	bb1890:p295:t2	30	30	adds up	bb1891:p297:t1	30	30	adds up	agree
-1890	southern	other grain	bb1890:p295:t2	16573	16573	adds up	bb1891:p297:t1	16573	16573	does not add up	agree
-1890	southern	paddy	bb1890:p295:t2	105113	105113	does not add up	bb1891:p297:t1	105113	105113	does not add up	agree
+1890	southern	other grain	bb1890:p295:t2	16573	16573	adds up	bb1891:p297:t1	16573	16573	adds up	agree
+1890	southern	paddy	bb1890:p295:t2	105113	105113	adds up	bb1891:p297:t1	105113	105113	adds up	agree
 1890	southern	tea	bb1890:p295:t2	8271	8271	adds up	bb1891:p297:t1	8271	8271	adds up	agree
-1890	southern	tobacco	bb1890:p295:t2	35	35	adds up	bb1891:p297:t1	35	35	does not add up	agree
+1890	southern	tobacco	bb1890:p295:t2	35	35	adds up	bb1891:p297:t1	35	35	adds up	agree
 1890	total	cacao	bb1890:p295:t2	15896	15896	adds up	bb1891:p297:t1	15896	15896	adds up	agree
 1890	total	cinchona	bb1890:p295:t2	39587	39587	adds up	bb1891:p297:t1	39587	39587	adds up	agree
 1890	total	cinnamon	bb1890:p295:t2	40336	40336	adds up	bb1891:p297:t1	40336	40336	adds up	agree
 1890	total	coconuts	bb1890:p295:t2	649869	649869	adds up	bb1891:p297:t1	649869	649869	adds up	agree
-1890	total	coffee	bb1890:p295:t2	66530	66530	adds up	bb1891:p297:t1	66530	66530	does not add up	agree
+1890	total	coffee	bb1890:p295:t2	66530	66530	adds up	bb1891:p297:t1	66530	66530	adds up	agree
 1890	total	cotton	bb1890:p295:t2	1174	1174	adds up	bb1891:p297:t1	1174	1174	adds up	agree
-1890	total	other grain	bb1890:p295:t2	124302	124302	adds up	bb1891:p297:t1	124302	124302	does not add up	agree
-1890	total	paddy	bb1890:p295:t2	536367	536367	does not add up	bb1891:p297:t1	536367	536367	does not add up	agree
+1890	total	other grain	bb1890:p295:t2	124302	124302	adds up	bb1891:p297:t1	124302	124302	adds up	agree
+1890	total	paddy	bb1890:p295:t2	536367	536367	adds up	bb1891:p297:t1	536367	536367	adds up	agree
 1890	total	tea	bb1890:p295:t2	235794	235794	adds up	bb1891:p297:t1	235794	235794	adds up	agree
-1890	total	tobacco	bb1890:p295:t2	9515	9515	adds up	bb1891:p297:t1	9515	9515	does not add up	agree
+1890	total	tobacco	bb1890:p295:t2	9515	9515	adds up	bb1891:p297:t1	9515	9515	adds up	agree
 1890	uva	cacao	bb1890:p295:t2	725	725	adds up	bb1891:p297:t1	725	725	adds up	agree
 1890	uva	cinchona	bb1890:p295:t2	6439	6439	adds up	bb1891:p297:t1	6439	6439	adds up	agree
 1890	uva	cinnamon	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
 1890	uva	coconuts	bb1890:p295:t2	1368	1368	adds up	bb1891:p297:t1	1368	1368	adds up	agree
-1890	uva	coffee	bb1890:p295:t2	21490	21490	adds up	bb1891:p297:t1	21490	21490	does not add up	agree
+1890	uva	coffee	bb1890:p295:t2	21490	21490	adds up	bb1891:p297:t1	21490	21490	adds up	agree
 1890	uva	cotton	bb1890:p295:t2	—		adds up	bb1891:p297:t1	—		adds up	agree
-1890	uva	other grain	bb1890:p295:t2	5675	5675	adds up	bb1891:p297:t1	5675	5675	does not add up	agree
-1890	uva	paddy	bb1890:p295:t2	25294	25294	does not add up	bb1891:p297:t1	25294	25294	does not add up	agree
+1890	uva	other grain	bb1890:p295:t2	5675	5675	adds up	bb1891:p297:t1	5675	5675	adds up	agree
+1890	uva	paddy	bb1890:p295:t2	25294	25294	adds up	bb1891:p297:t1	25294	25294	adds up	agree
 1890	uva	tea	bb1890:p295:t2	18377	18377	adds up	bb1891:p297:t1	18377	18377	adds up	agree
-1890	uva	tobacco	bb1890:p295:t2	50	50	adds up	bb1891:p297:t1	50	50	does not add up	agree
+1890	uva	tobacco	bb1890:p295:t2	50	50	adds up	bb1891:p297:t1	50	50	adds up	agree
 1890	western	cacao	bb1890:p295:t2	4	4	adds up	bb1891:p297:t1	4	4	adds up	agree
 1890	western	cinchona	bb1890:p295:t2	6	6	adds up	bb1891:p297:t1	6	6	adds up	agree
 1890	western	cinnamon	bb1890:p295:t2	35913	35913	adds up	bb1891:p297:t1	35913	35913	adds up	agree
 1890	western	coconuts	bb1890:p295:t2	306519	306519	adds up	bb1891:p297:t1	306519	306519	adds up	agree
-1890	western	coffee	bb1890:p295:t2	55	55	adds up	bb1891:p297:t1	55	55	does not add up	agree
+1890	western	coffee	bb1890:p295:t2	55	55	adds up	bb1891:p297:t1	55	55	adds up	agree
 1890	western	cotton	bb1890:p295:t2	14	14	adds up	bb1891:p297:t1	14	14	adds up	agree
-1890	western	other grain	bb1890:p295:t2	3892	3892	adds up	bb1891:p297:t1	3892	3892	does not add up	agree
-1890	western	paddy	bb1890:p295:t2	111825	111825	does not add up	bb1891:p297:t1	111825	111825	does not add up	agree
+1890	western	other grain	bb1890:p295:t2	3892	3892	adds up	bb1891:p297:t1	3892	3892	adds up	agree
+1890	western	paddy	bb1890:p295:t2	111825	111825	adds up	bb1891:p297:t1	111825	111825	adds up	agree
 1890	western	tea	bb1890:p295:t2	14922	14922	adds up	bb1891:p297:t1	14922	14922	adds up	agree
-1890	western	tobacco	bb1890:p295:t2	493	493	adds up	bb1891:p297:t1	493	493	does not add up	agree
-1891	central	cacao	bb1891:p297:t2	15724	15724	does not add up	bb1892:p310:t1	15724	15724	adds up	agree
+1890	western	tobacco	bb1890:p295:t2	493	493	adds up	bb1891:p297:t1	493	493	adds up	agree
+1891	central	cacao	bb1891:p297:t2	15724	15724	adds up	bb1892:p310:t1	15724	15724	adds up	agree
 1891	central	cinchona	bb1891:p297:t2	5733	5733	does not add up	bb1892:p310:t1	5733	5733	does not add up	agree
 1891	central	cinnamon	bb1891:p297:t2	527	527	adds up	bb1892:p310:t1	527	527	adds up	agree
-1891	central	coconuts	bb1891:p297:t2	7004	7004	adds up	bb1892:p310:t1	7004	7004	does not add up	agree
+1891	central	coconuts	bb1891:p297:t2	7004	7004	adds up	bb1892:p310:t1	7004	7004	adds up	agree
 1891	central	coffee	bb1891:p297:t2	34927	34927	adds up	bb1892:p310:t1	34927	34927	adds up	agree
 1891	central	cotton	bb1891:p297:t2	10	10	adds up	bb1892:p310:t1	10	10	adds up	agree
-1891	central	other grain	bb1891:p297:t2	15937	15937	does not add up	bb1892:p310:t1	15937	15937	does not add up	agree
-1891	central	paddy	bb1891:p297:t2	57854	57854	adds up	bb1892:p310:t1	57854	57854	does not add up	agree
+1891	central	other grain	bb1891:p297:t2	15937	15937	adds up	bb1892:p310:t1	15937	15937	adds up	agree
+1891	central	paddy	bb1891:p297:t2	57854	57854	adds up	bb1892:p310:t1	57854	57854	adds up	agree
 1891	central	tea	bb1891:p297:t2	179835	179835	adds up	bb1892:p310:t1	179835	179835	adds up	agree
 1891	central	tobacco	bb1891:p297:t2	60	60	adds up	bb1892:p310:t1	60	60	adds up	agree
-1891	eastern	cacao	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		adds up	agree
+1891	eastern	cacao	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	eastern	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	eastern	cinnamon	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	eastern	coconuts	bb1891:p297:t2	17055	17055	adds up	bb1892:p310:t1	17055	17055	does not add up	agree
+1891	eastern	coconuts	bb1891:p297:t2	17055	17055	adds up	bb1892:p310:t1	17055	17055	adds up	agree
 1891	eastern	coffee	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	eastern	cotton	bb1891:p297:t2	31	31	adds up	bb1892:p310:t1	31	31	adds up	agree
-1891	eastern	other grain	bb1891:p297:t2	5924	5924	does not add up	bb1892:p310:t1	5924	5924	does not add up	agree
-1891	eastern	paddy	bb1891:p297:t2	57443	57443	adds up	bb1892:p310:t1	57448	57448	does not add up	differ
+1891	eastern	other grain	bb1891:p297:t2	5924	5924	adds up	bb1892:p310:t1	5924	5924	adds up	agree
+1891	eastern	paddy	bb1891:p297:t2	57443	57443	adds up	bb1892:p310:t1	57443	57443	adds up	agree
 1891	eastern	tea	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	eastern	tobacco	bb1891:p297:t2	724	724	adds up	bb1892:p310:t1	724	724	adds up	agree
-1891	northcentral	cacao	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		adds up	agree
+1891	northcentral	cacao	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northcentral	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	northcentral	cinnamon	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	northcentral	coconuts	bb1891:p297:t2	1368	1368	adds up	bb1892:p310:t1	1368	1368	does not add up	agree
+1891	northcentral	coconuts	bb1891:p297:t2	1368	1368	adds up	bb1892:p310:t1	1368	1368	adds up	agree
 1891	northcentral	coffee	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northcentral	cotton	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	northcentral	other grain	bb1891:p297:t2	10000	10000	does not add up	bb1892:p310:t1	10000	10000	does not add up	agree
-1891	northcentral	paddy	bb1891:p297:t2	39150	39150	adds up	bb1892:p310:t1	39150	39150	does not add up	agree
+1891	northcentral	other grain	bb1891:p297:t2	10000	10000	adds up	bb1892:p310:t1	10000	10000	adds up	agree
+1891	northcentral	paddy	bb1891:p297:t2	39150	39150	adds up	bb1892:p310:t1	39150	39150	adds up	agree
 1891	northcentral	tea	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northcentral	tobacco	bb1891:p297:t2	14	14	adds up	bb1892:p310:t1	14	14	adds up	agree
-1891	northern	cacao	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		adds up	agree
+1891	northern	cacao	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northern	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	northern	cinnamon	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	northern	coconuts	bb1891:p297:t2	17431	17431	adds up	bb1892:p310:t1	17481	17481	does not add up	differ
+1891	northern	coconuts	bb1891:p297:t2	17431	17431	adds up	bb1892:p310:t1	17431	17431	adds up	agree
 1891	northern	coffee	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northern	cotton	bb1891:p297:t2	129	129	adds up	bb1892:p310:t1	129	129	adds up	agree
-1891	northern	other grain	bb1891:p297:t2	11583	11583	does not add up	bb1892:p310:t1	11983	11983	does not add up	differ
-1891	northern	paddy	bb1891:p297:t2	55244	55244	adds up	bb1892:p310:t1	55244	55244	does not add up	agree
+1891	northern	other grain	bb1891:p297:t2	11883	11883	adds up	bb1892:p310:t1	11883	11883	adds up	agree
+1891	northern	paddy	bb1891:p297:t2	55244	55244	adds up	bb1892:p310:t1	55244	55244	adds up	agree
 1891	northern	tea	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	northern	tobacco	bb1891:p297:t2	5264	5264	adds up	bb1892:p310:t1	5264	5264	adds up	agree
-1891	northwestern	cacao	bb1891:p297:t2	2305	2305	does not add up	bb1892:p310:t1	2305	2305	adds up	agree
+1891	northwestern	cacao	bb1891:p297:t2	2305	2305	adds up	bb1892:p310:t1	2305	2305	adds up	agree
 1891	northwestern	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	northwestern	cinnamon	bb1891:p297:t2	171	171	adds up	bb1892:p310:t1	171	171	adds up	agree
-1891	northwestern	coconuts	bb1891:p297:t2	200166	200166	adds up	bb1892:p310:t1	200166	200166	does not add up	agree
+1891	northwestern	coconuts	bb1891:p297:t2	200166	200166	adds up	bb1892:p310:t1	200166	200166	adds up	agree
 1891	northwestern	coffee	bb1891:p297:t2	498	498	adds up	bb1892:p310:t1	498	498	adds up	agree
 1891	northwestern	cotton	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	northwestern	other grain	bb1891:p297:t2	21146	21146	does not add up	bb1892:p310:t1	21146	21146	does not add up	agree
-1891	northwestern	paddy	bb1891:p297:t2	52548	52548	adds up	bb1892:p310:t1	52548	52548	does not add up	agree
+1891	northwestern	other grain	bb1891:p297:t2	21146	21146	adds up	bb1892:p310:t1	21146	21146	adds up	agree
+1891	northwestern	paddy	bb1891:p297:t2	52548	52548	adds up	bb1892:p310:t1	52548	52548	adds up	agree
 1891	northwestern	tea	bb1891:p297:t2	800	800	adds up	bb1892:p310:t1	800	800	adds up	agree
 1891	northwestern	tobacco	bb1891:p297:t2	2332	2332	adds up	bb1892:p310:t1	2332	2332	adds up	agree
-1891	sabaragamuwa	cacao	bb1891:p297:t2	713	713	does not add up	bb1892:p310:t1	713	713	adds up	agree
+1891	sabaragamuwa	cacao	bb1891:p297:t2	713	713	adds up	bb1892:p310:t1	713	713	adds up	agree
 1891	sabaragamuwa	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	sabaragamuwa	cinnamon	bb1891:p297:t2	294	294	adds up	bb1892:p310:t1	294	294	adds up	agree
-1891	sabaragamuwa	coconuts	bb1891:p297:t2	31205	31205	adds up	bb1892:p310:t1	31205	31205	does not add up	agree
+1891	sabaragamuwa	coconuts	bb1891:p297:t2	31205	31205	adds up	bb1892:p310:t1	31205	31205	adds up	agree
 1891	sabaragamuwa	coffee	bb1891:p297:t2	735	735	adds up	bb1892:p310:t1	735	735	adds up	agree
 1891	sabaragamuwa	cotton	bb1891:p297:t2	185	185	adds up	bb1892:p310:t1	185	185	adds up	agree
-1891	sabaragamuwa	other grain	bb1891:p297:t2	33659	33659	does not add up	bb1892:p310:t1	33659	33659	does not add up	agree
-1891	sabaragamuwa	paddy	bb1891:p297:t2	65325	65325	adds up	bb1892:p310:t1	65325	65325	does not add up	agree
+1891	sabaragamuwa	other grain	bb1891:p297:t2	33659	33659	adds up	bb1892:p310:t1	33659	33659	adds up	agree
+1891	sabaragamuwa	paddy	bb1891:p297:t2	65325	65325	adds up	bb1892:p310:t1	65325	65325	adds up	agree
 1891	sabaragamuwa	tea	bb1891:p297:t2	32279	32279	adds up	bb1892:p310:t1	32279	32279	adds up	agree
 1891	sabaragamuwa	tobacco	bb1891:p297:t2	40	40	adds up	bb1892:p310:t1	40	40	adds up	agree
-1891	southern	cacao	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		adds up	agree
+1891	southern	cacao	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
 1891	southern	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	southern	cinnamon	bb1891:p297:t2	3429	3429	adds up	bb1892:p310:t1	3429	3429	adds up	agree
-1891	southern	coconuts	bb1891:p297:t2	131386	131386	adds up	bb1892:p310:t1	181386	181386	does not add up	differ
+1891	southern	coconuts	bb1891:p297:t2	131386	131386	adds up	bb1892:p310:t1	131386	131386	adds up	agree
 1891	southern	coffee	bb1891:p297:t2	59	59	adds up	bb1892:p310:t1	59	59	adds up	agree
 1891	southern	cotton	bb1891:p297:t2	20	20	adds up	bb1892:p310:t1	20	20	adds up	agree
-1891	southern	other grain	bb1891:p297:t2	11513	11513	does not add up	bb1892:p310:t1	11513	11513	does not add up	agree
-1891	southern	paddy	bb1891:p297:t2	96260	96260	adds up	bb1892:p310:t1	96260	96260	does not add up	agree
+1891	southern	other grain	bb1891:p297:t2	11513	11513	adds up	bb1892:p310:t1	11513	11513	adds up	agree
+1891	southern	paddy	bb1891:p297:t2	96260	96260	adds up	bb1892:p310:t1	96260	96260	adds up	agree
 1891	southern	tea	bb1891:p297:t2	8682	8682	adds up	bb1892:p310:t1	8682	8682	adds up	agree
 1891	southern	tobacco	bb1891:p297:t2	25	25	adds up	bb1892:p310:t1	25	25	adds up	agree
-1891	total	cacao	bb1891:p297:t2	15471	15471	does not add up	bb1892:p310:t1	19471	19471	adds up	differ
+1891	total	cacao	bb1891:p297:t2	19471	19471	adds up	bb1892:p310:t1	19471	19471	adds up	agree
 1891	total	cinchona	bb1891:p297:t2	12127	12127	does not add up	bb1892:p310:t1	12127	12127	does not add up	agree
 1891	total	cinnamon	bb1891:p297:t2	40447	40447	adds up	bb1892:p310:t1	40447	40447	adds up	agree
-1891	total	coconuts	bb1891:p297:t2	759605	759605	adds up	bb1892:p310:t1	759605	759605	does not add up	agree
+1891	total	coconuts	bb1891:p297:t2	759605	759605	adds up	bb1892:p310:t1	759605	759605	adds up	agree
 1891	total	coffee	bb1891:p297:t2	55924	55924	adds up	bb1892:p310:t1	55924	55924	adds up	agree
 1891	total	cotton	bb1891:p297:t2	375	375	adds up	bb1892:p310:t1	375	375	adds up	agree
-1891	total	other grain	bb1891:p297:t2	122418	122418	does not add up	bb1892:p310:t1	122418	122418	does not add up	agree
-1891	total	paddy	bb1891:p297:t2	563421	563421	adds up	bb1892:p310:t1	563421	563421	does not add up	agree
+1891	total	other grain	bb1891:p297:t2	122418	122418	adds up	bb1892:p310:t1	122418	122418	adds up	agree
+1891	total	paddy	bb1891:p297:t2	563421	563421	adds up	bb1892:p310:t1	563421	563421	adds up	agree
 1891	total	tea	bb1891:p297:t2	261179	261179	adds up	bb1892:p310:t1	261179	261179	adds up	agree
 1891	total	tobacco	bb1891:p297:t2	9082	9082	adds up	bb1892:p310:t1	9082	9082	adds up	agree
-1891	uva	cacao	bb1891:p297:t2	725	725	does not add up	bb1892:p310:t1	725	725	adds up	agree
-1891	uva	cinchona	bb1891:p297:t2	6439	6439	does not add up	bb1892:p310:t1	6489	6489	does not add up	differ
+1891	uva	cacao	bb1891:p297:t2	725	725	adds up	bb1892:p310:t1	725	725	adds up	agree
+1891	uva	cinchona	bb1891:p297:t2	6439	6439	does not add up	bb1892:p310:t1	6439	6439	does not add up	agree
 1891	uva	cinnamon	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	uva	coconuts	bb1891:p297:t2	650	650	adds up	bb1892:p310:t1	650	650	does not add up	agree
+1891	uva	coconuts	bb1891:p297:t2	650	650	adds up	bb1892:p310:t1	650	650	adds up	agree
 1891	uva	coffee	bb1891:p297:t2	19650	19650	adds up	bb1892:p310:t1	19650	19650	adds up	agree
 1891	uva	cotton	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	uva	other grain	bb1891:p297:t2	7513	7513	does not add up	bb1892:p310:t1	7513	7513	does not add up	agree
-1891	uva	paddy	bb1891:p297:t2	23210	23210	adds up	bb1892:p310:t1	23210	23210	does not add up	agree
+1891	uva	other grain	bb1891:p297:t2	7513	7513	adds up	bb1892:p310:t1	7513	7513	adds up	agree
+1891	uva	paddy	bb1891:p297:t2	23210	23210	adds up	bb1892:p310:t1	23210	23210	adds up	agree
 1891	uva	tea	bb1891:p297:t2	23609	23609	adds up	bb1892:p310:t1	23609	23609	adds up	agree
 1891	uva	tobacco	bb1891:p297:t2	50	50	adds up	bb1892:p310:t1	50	50	adds up	agree
-1891	western	cacao	bb1891:p297:t2	4	4	does not add up	bb1892:p310:t1	4	4	adds up	agree
+1891	western	cacao	bb1891:p297:t2	4	4	adds up	bb1892:p310:t1	4	4	adds up	agree
 1891	western	cinchona	bb1891:p297:t2	—		does not add up	bb1892:p310:t1	—		does not add up	agree
 1891	western	cinnamon	bb1891:p297:t2	36026	36026	adds up	bb1892:p310:t1	36026	36026	adds up	agree
-1891	western	coconuts	bb1891:p297:t2	353340	353340	adds up	bb1892:p310:t1	353340	353340	does not add up	agree
+1891	western	coconuts	bb1891:p297:t2	353340	353340	adds up	bb1892:p310:t1	353340	353340	adds up	agree
 1891	western	coffee	bb1891:p297:t2	55	55	adds up	bb1892:p310:t1	55	55	adds up	agree
 1891	western	cotton	bb1891:p297:t2	—		adds up	bb1892:p310:t1	—		adds up	agree
-1891	western	other grain	bb1891:p297:t2	4843	4843	does not add up	bb1892:p310:t1	4843	4843	does not add up	agree
-1891	western	paddy	bb1891:p297:t2	116387	116387	adds up	bb1892:p310:t1	116387	116387	does not add up	agree
+1891	western	other grain	bb1891:p297:t2	4843	4843	adds up	bb1892:p310:t1	4843	4843	adds up	agree
+1891	western	paddy	bb1891:p297:t2	116387	116387	adds up	bb1892:p310:t1	116387	116387	adds up	agree
 1891	western	tea	bb1891:p297:t2	15974	15974	adds up	bb1892:p310:t1	15974	15974	adds up	agree
 1891	western	tobacco	bb1891:p297:t2	573	573	adds up	bb1892:p310:t1	573	573	adds up	agree
 1892	central	cacao	bb1892:p310:t2	16002	16002	adds up	bb1893:p18:t1	16002	16002	adds up	agree
@@ -1785,7 +1785,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	central	coffee	bb1904:p18:t2	778	778	adds up	bb1905:p15:t1	778	778	adds up	agree
 1904	central	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	central	other grain	bb1904:p18:t2	16311	16311	adds up	bb1905:p15:t1	16311	16311	adds up	agree
-1904	central	paddy	bb1904:p18:t2	62900	62900	adds up	bb1905:p15:t1	62900	62900	does not add up	agree
+1904	central	paddy	bb1904:p18:t2	62900	62900	adds up	bb1905:p15:t1	62900	62900	adds up	agree
 1904	central	rubber	bb1904:p18:t2	219	219	adds up	bb1905:p15:t1	219	219	adds up	agree
 1904	central	tea	bb1904:p18:t2	261761	261761	adds up	bb1905:p15:t1	261761	261761	adds up	agree
 1904	central	tobacco	bb1904:p18:t2	2928	2928	adds up	bb1905:p15:t1	2928	2928	adds up	agree
@@ -1796,7 +1796,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	eastern	coffee	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	eastern	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	eastern	other grain	bb1904:p18:t2	1609	1609	adds up	bb1905:p15:t1	1609	1609	adds up	agree
-1904	eastern	paddy	bb1904:p18:t2	88180	88180	adds up	bb1905:p15:t1	88180	88180	does not add up	agree
+1904	eastern	paddy	bb1904:p18:t2	88180	88180	adds up	bb1905:p15:t1	88180	88180	adds up	agree
 1904	eastern	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	eastern	tea	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	eastern	tobacco	bb1904:p18:t2	3267	3267	adds up	bb1905:p15:t1	3267	3267	adds up	agree
@@ -1807,7 +1807,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	northcentral	coffee	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northcentral	cotton	bb1904:p18:t2	5	5	adds up	bb1905:p15:t1	5	5	adds up	agree
 1904	northcentral	other grain	bb1904:p18:t2	5348	5348	adds up	bb1905:p15:t1	5348	5348	adds up	agree
-1904	northcentral	paddy	bb1904:p18:t2	43590	43590	adds up	bb1905:p15:t1	43590	43590	does not add up	agree
+1904	northcentral	paddy	bb1904:p18:t2	43590	43590	adds up	bb1905:p15:t1	43590	43590	adds up	agree
 1904	northcentral	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northcentral	tea	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northcentral	tobacco	bb1904:p18:t2	29	29	adds up	bb1905:p15:t1	29	29	adds up	agree
@@ -1818,7 +1818,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	northern	coffee	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northern	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northern	other grain	bb1904:p18:t2	9614	9614	adds up	bb1905:p15:t1	9614	9614	adds up	agree
-1904	northern	paddy	bb1904:p18:t2	64799	64799	adds up	bb1905:p15:t1	64799	64799	does not add up	agree
+1904	northern	paddy	bb1904:p18:t2	64799	64799	adds up	bb1905:p15:t1	64799	64799	adds up	agree
 1904	northern	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northern	tea	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northern	tobacco	bb1904:p18:t2	7129	7129	adds up	bb1905:p15:t1	7129	7129	adds up	agree
@@ -1829,7 +1829,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	northwestern	coffee	bb1904:p18:t2	300	300	adds up	bb1905:p15:t1	300	300	adds up	agree
 1904	northwestern	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northwestern	other grain	bb1904:p18:t2	16658	16658	adds up	bb1905:p15:t1	16658	16658	adds up	agree
-1904	northwestern	paddy	bb1904:p18:t2	94728	94728	adds up	bb1905:p15:t1	94728	94728	does not add up	agree
+1904	northwestern	paddy	bb1904:p18:t2	94728	94728	adds up	bb1905:p15:t1	94728	94728	adds up	agree
 1904	northwestern	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	northwestern	tea	bb1904:p18:t2	1287	1287	adds up	bb1905:p15:t1	1287	1287	adds up	agree
 1904	northwestern	tobacco	bb1904:p18:t2	1385	1385	adds up	bb1905:p15:t1	1385	1385	adds up	agree
@@ -1840,7 +1840,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	sabaragamuwa	coffee	bb1904:p18:t2	258	258	adds up	bb1905:p15:t1	258	258	adds up	agree
 1904	sabaragamuwa	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	sabaragamuwa	other grain	bb1904:p18:t2	26328	26328	adds up	bb1905:p15:t1	26328	26328	adds up	agree
-1904	sabaragamuwa	paddy	bb1904:p18:t2	89469	89469	adds up	bb1905:p15:t1	9469	9469	does not add up	differ
+1904	sabaragamuwa	paddy	bb1904:p18:t2	89469	89469	adds up	bb1905:p15:t1	89469	89469	adds up	agree
 1904	sabaragamuwa	rubber	bb1904:p18:t2	10595	10595	adds up	bb1905:p15:t1	10595	10595	adds up	agree
 1904	sabaragamuwa	tea	bb1904:p18:t2	54150	54150	adds up	bb1905:p15:t1	54150	54150	adds up	agree
 1904	sabaragamuwa	tobacco	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
@@ -1851,7 +1851,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	southern	coffee	bb1904:p18:t2	18	18	adds up	bb1905:p15:t1	18	18	adds up	agree
 1904	southern	cotton	bb1904:p18:t2	35	35	adds up	bb1905:p15:t1	35	35	adds up	agree
 1904	southern	other grain	bb1904:p18:t2	13514	13514	adds up	bb1905:p15:t1	13514	13514	adds up	agree
-1904	southern	paddy	bb1904:p18:t2	121696	121696	adds up	bb1905:p15:t1	121696	121696	does not add up	agree
+1904	southern	paddy	bb1904:p18:t2	121696	121696	adds up	bb1905:p15:t1	121696	121696	adds up	agree
 1904	southern	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	southern	tea	bb1904:p18:t2	16904	16904	adds up	bb1905:p15:t1	16904	16904	adds up	agree
 1904	southern	tobacco	bb1904:p18:t2	4	4	adds up	bb1905:p15:t1	4	4	adds up	agree
@@ -1862,7 +1862,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	total	coffee	bb1904:p18:t2	3954	3954	adds up	bb1905:p15:t1	3954	3954	adds up	agree
 1904	total	cotton	bb1904:p18:t2	40	40	adds up	bb1905:p15:t1	40	40	adds up	agree
 1904	total	other grain	bb1904:p18:t2	103891	103891	adds up	bb1905:p15:t1	103891	103891	adds up	agree
-1904	total	paddy	bb1904:p18:t2	711406	711406	adds up	bb1905:p15:t1	711406	711406	does not add up	agree
+1904	total	paddy	bb1904:p18:t2	711406	711406	adds up	bb1905:p15:t1	711406	711406	adds up	agree
 1904	total	rubber	bb1904:p18:t2	13167	13167	adds up	bb1905:p15:t1	13167	13167	adds up	agree
 1904	total	tea	bb1904:p18:t2	419210	419210	adds up	bb1905:p15:t1	419210	419210	adds up	agree
 1904	total	tobacco	bb1904:p18:t2	14872	14872	adds up	bb1905:p15:t1	14872	14872	adds up	agree
@@ -1873,7 +1873,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	uva	coffee	bb1904:p18:t2	2600	2600	adds up	bb1905:p15:t1	2600	2600	adds up	agree
 1904	uva	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	uva	other grain	bb1904:p18:t2	10700	10700	adds up	bb1905:p15:t1	10700	10700	adds up	agree
-1904	uva	paddy	bb1904:p18:t2	32700	32700	adds up	bb1905:p15:t1	32700	32700	does not add up	agree
+1904	uva	paddy	bb1904:p18:t2	32700	32700	adds up	bb1905:p15:t1	32700	32700	adds up	agree
 1904	uva	rubber	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	uva	tea	bb1904:p18:t2	55600	55600	adds up	bb1905:p15:t1	55600	55600	adds up	agree
 1904	uva	tobacco	bb1904:p18:t2	50	50	adds up	bb1905:p15:t1	50	50	adds up	agree
@@ -1884,7 +1884,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1904	western	coffee	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	western	cotton	bb1904:p18:t2	—		adds up	bb1905:p15:t1	—		adds up	agree
 1904	western	other grain	bb1904:p18:t2	3809	3809	adds up	bb1905:p15:t1	3809	3809	adds up	agree
-1904	western	paddy	bb1904:p18:t2	113344	113344	adds up	bb1905:p15:t1	113344	113344	does not add up	agree
+1904	western	paddy	bb1904:p18:t2	113344	113344	adds up	bb1905:p15:t1	113344	113344	adds up	agree
 1904	western	rubber	bb1904:p18:t2	2353	2353	adds up	bb1905:p15:t1	2353	2353	adds up	agree
 1904	western	tea	bb1904:p18:t2	29508	29508	adds up	bb1905:p15:t1	29508	29508	adds up	agree
 1904	western	tobacco	bb1904:p18:t2	80	80	adds up	bb1905:p15:t1	80	80	adds up	agree
@@ -3444,7 +3444,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	central	coconuts	bb1922:p15:t3	15999	15999	adds up	bb1923:p15:t3	15999	15999	adds up	agree
 1921	central	cotton	bb1921:p15:t3	17	17	adds up	bb1922:p15:t2	17	17	adds up	agree
 1921	central	other grain	bb1921:p15:t3	18689	18689	adds up	bb1922:p15:t2	18689	18689	does not add up	agree
-1921	central	paddy	bb1921:p15:t3	70774	70774	adds up	bb1922:p15:t2	70774	70774	does not add up	agree
+1921	central	paddy	bb1921:p15:t3	70774	70774	adds up	bb1922:p15:t2	70774	70774	adds up	agree
 1921	central	rubber	bb1921:p15:t3	62750	62750	adds up	bb1922:p15:t2	62750	62750	adds up	agree
 1921	central	rubber	bb1921:p15:t3	62750	62750	adds up	bb1922:p15:t3	62750	62750	adds up	agree
 1921	central	rubber	bb1921:p15:t3	62750	62750	adds up	bb1923:p15:t2	62750	62750	adds up	agree
@@ -3495,7 +3495,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	eastern	coconuts	bb1922:p15:t3	16247	16247	adds up	bb1923:p15:t3	16247	16247	adds up	agree
 1921	eastern	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	eastern	other grain	bb1921:p15:t3	11588	11588	adds up	bb1922:p15:t2	11588	11588	does not add up	agree
-1921	eastern	paddy	bb1921:p15:t3	103380	103380	adds up	bb1922:p15:t2	10380	10380	does not add up	differ
+1921	eastern	paddy	bb1921:p15:t3	103380	103380	adds up	bb1922:p15:t2	103380	103380	adds up	agree
 1921	eastern	rubber	bb1921:p15:t3	80	80	adds up	bb1922:p15:t2	80	80	adds up	agree
 1921	eastern	rubber	bb1921:p15:t3	80	80	adds up	bb1922:p15:t3	80	80	adds up	agree
 1921	eastern	rubber	bb1921:p15:t3	80	80	adds up	bb1923:p15:t2	80	80	adds up	agree
@@ -3546,7 +3546,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	northcentral	coconuts	bb1922:p15:t3	4178	4178	adds up	bb1923:p15:t3	4178	4178	adds up	agree
 1921	northcentral	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	northcentral	other grain	bb1921:p15:t3	9381	9381	adds up	bb1922:p15:t2	9381	9381	does not add up	agree
-1921	northcentral	paddy	bb1921:p15:t3	61910	61910	adds up	bb1922:p15:t2	61910	61910	does not add up	agree
+1921	northcentral	paddy	bb1921:p15:t3	61910	61910	adds up	bb1922:p15:t2	61910	61910	adds up	agree
 1921	northcentral	rubber	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	northcentral	rubber	bb1921:p15:t3	—		adds up	bb1922:p15:t3	—		adds up	agree
 1921	northcentral	rubber	bb1921:p15:t3	—		adds up	bb1923:p15:t2	—		adds up	agree
@@ -3597,7 +3597,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	northern	coconuts	bb1922:p15:t3	29964	29964	adds up	bb1923:p15:t3	29964	29964	adds up	agree
 1921	northern	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	northern	other grain	bb1921:p15:t3	9017	9017	adds up	bb1922:p15:t2	9017	9017	does not add up	agree
-1921	northern	paddy	bb1921:p15:t3	89346	89346	adds up	bb1922:p15:t2	89346	89346	does not add up	agree
+1921	northern	paddy	bb1921:p15:t3	89346	89346	adds up	bb1922:p15:t2	89346	89346	adds up	agree
 1921	northern	rubber	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	northern	rubber	bb1921:p15:t3	—		adds up	bb1922:p15:t3	—		adds up	agree
 1921	northern	rubber	bb1921:p15:t3	—		adds up	bb1923:p15:t2	—		adds up	agree
@@ -3648,7 +3648,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	northwestern	coconuts	bb1922:p15:t3	335138	335138	adds up	bb1923:p15:t3	335138	335138	adds up	agree
 1921	northwestern	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	northwestern	other grain	bb1921:p15:t3	25270	25270	adds up	bb1922:p15:t2	25270	25270	does not add up	agree
-1921	northwestern	paddy	bb1921:p15:t3	145076	145076	adds up	bb1922:p15:t2	145076	145076	does not add up	agree
+1921	northwestern	paddy	bb1921:p15:t3	145076	145076	adds up	bb1922:p15:t2	145076	145076	adds up	agree
 1921	northwestern	rubber	bb1921:p15:t3	13826	13826	adds up	bb1922:p15:t2	13826	13826	adds up	agree
 1921	northwestern	rubber	bb1921:p15:t3	13826	13826	adds up	bb1922:p15:t3	13826	13826	adds up	agree
 1921	northwestern	rubber	bb1921:p15:t3	13826	13826	adds up	bb1923:p15:t2	13826	13826	adds up	agree
@@ -3699,7 +3699,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	sabaragamuwa	coconuts	bb1922:p15:t3	41602	41602	adds up	bb1923:p15:t3	41602	41602	adds up	agree
 1921	sabaragamuwa	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	sabaragamuwa	other grain	bb1921:p15:t3	22490	22490	adds up	bb1922:p15:t2	22490	22490	does not add up	agree
-1921	sabaragamuwa	paddy	bb1921:p15:t3	73234	73234	adds up	bb1922:p15:t2	73234	73234	does not add up	agree
+1921	sabaragamuwa	paddy	bb1921:p15:t3	73234	73234	adds up	bb1922:p15:t2	73234	73234	adds up	agree
 1921	sabaragamuwa	rubber	bb1921:p15:t3	140548	140548	adds up	bb1922:p15:t2	140548	140548	adds up	agree
 1921	sabaragamuwa	rubber	bb1921:p15:t3	140548	140548	adds up	bb1922:p15:t3	140548	140548	adds up	agree
 1921	sabaragamuwa	rubber	bb1921:p15:t3	140548	140548	adds up	bb1923:p15:t2	140548	140548	adds up	agree
@@ -3750,7 +3750,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	southern	coconuts	bb1922:p15:t3	90011	90011	adds up	bb1923:p15:t3	90011	90011	adds up	agree
 1921	southern	cotton	bb1921:p15:t3	75	75	adds up	bb1922:p15:t2	75	75	adds up	agree
 1921	southern	other grain	bb1921:p15:t3	32713	32713	adds up	bb1922:p15:t2	32748	32748	does not add up	differ
-1921	southern	paddy	bb1921:p15:t3	118396	118396	adds up	bb1922:p15:t2	118396	118396	does not add up	agree
+1921	southern	paddy	bb1921:p15:t3	118396	118396	adds up	bb1922:p15:t2	118396	118396	adds up	agree
 1921	southern	rubber	bb1921:p15:t3	46096	46096	adds up	bb1922:p15:t2	46096	46096	adds up	agree
 1921	southern	rubber	bb1921:p15:t3	46096	46096	adds up	bb1922:p15:t3	46096	46096	adds up	agree
 1921	southern	rubber	bb1921:p15:t3	46096	46096	adds up	bb1923:p15:t2	46096	46096	adds up	agree
@@ -3801,7 +3801,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	total	coconuts	bb1922:p15:t3	820001	820001	adds up	bb1923:p15:t3	820001	820001	adds up	agree
 1921	total	cotton	bb1921:p15:t3	92	92	adds up	bb1922:p15:t2	92	92	adds up	agree
 1921	total	other grain	bb1921:p15:t3	160665	160665	adds up	bb1922:p15:t2	160665	160665	does not add up	agree
-1921	total	paddy	bb1921:p15:t3	798514	798514	adds up	bb1922:p15:t2	798514	798514	does not add up	agree
+1921	total	paddy	bb1921:p15:t3	798514	798514	adds up	bb1922:p15:t2	798514	798514	adds up	agree
 1921	total	rubber	bb1921:p15:t3	390115	390115	adds up	bb1922:p15:t2	390115	390115	adds up	agree
 1921	total	rubber	bb1921:p15:t3	390115	390115	adds up	bb1922:p15:t3	390115	390115	adds up	agree
 1921	total	rubber	bb1921:p15:t3	390115	390115	adds up	bb1923:p15:t2	390115	390115	adds up	agree
@@ -3852,7 +3852,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	uva	coconuts	bb1922:p15:t3	933	933	adds up	bb1923:p15:t3	933	933	adds up	agree
 1921	uva	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	uva	other grain	bb1921:p15:t3	20071	20071	adds up	bb1922:p15:t2	20071	20071	does not add up	agree
-1921	uva	paddy	bb1921:p15:t3	28249	28249	adds up	bb1922:p15:t2	28249	28249	does not add up	agree
+1921	uva	paddy	bb1921:p15:t3	28249	28249	adds up	bb1922:p15:t2	28249	28249	adds up	agree
 1921	uva	rubber	bb1921:p15:t3	16647	16647	adds up	bb1922:p15:t2	16647	16647	adds up	agree
 1921	uva	rubber	bb1921:p15:t3	16647	16647	adds up	bb1922:p15:t3	16647	16647	adds up	agree
 1921	uva	rubber	bb1921:p15:t3	16647	16647	adds up	bb1923:p15:t2	16647	16647	adds up	agree
@@ -3903,7 +3903,7 @@ year_data	area	crop	table_id	value_as_printed	value	totals	other_table_id	other_
 1921	western	coconuts	bb1922:p15:t3	285929	285929	adds up	bb1923:p15:t3	285929	285929	adds up	agree
 1921	western	cotton	bb1921:p15:t3	—		adds up	bb1922:p15:t2	—		adds up	agree
 1921	western	other grain	bb1921:p15:t3	11446	11446	adds up	bb1922:p15:t2	11446	11446	does not add up	agree
-1921	western	paddy	bb1921:p15:t3	108149	108149	adds up	bb1922:p15:t2	108149	108149	does not add up	agree
+1921	western	paddy	bb1921:p15:t3	108149	108149	adds up	bb1922:p15:t2	108149	108149	adds up	agree
 1921	western	rubber	bb1921:p15:t3	110168	110168	adds up	bb1922:p15:t2	110168	110168	adds up	agree
 1921	western	rubber	bb1921:p15:t3	110168	110168	adds up	bb1922:p15:t3	110168	110168	adds up	agree
 1921	western	rubber	bb1921:p15:t3	110168	110168	adds up	bb1923:p15:t2	110168	110168	adds up	agree

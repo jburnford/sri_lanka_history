@@ -1,0 +1,6 @@
+table_id	source_row	source_column	reading	note
+bb1922:p15:t2	6	1	103380	the cell is speckled; the page prints 103380, as the 1921 volume does (bb1921:p15:t3)
+bb1905:p15:t1	10	1	89469	the first digit is faint; the page prints 89469, as the 1904 volume does (bb1904:p18:t2)
+bb1896:p15:t1	4	1	52887	the last digit is broken (5288?); the column total (589077) requires 52887. The only printing of 1895 (no 1895 volume)
+bb1894:p14:t2	10	4	1111	the first digit is faint; the page prints 1111, which the column total (26708) requires
+bb1894:p14:t2	7	3	876	the page prints 876; with it the coffee column adds up (20931)

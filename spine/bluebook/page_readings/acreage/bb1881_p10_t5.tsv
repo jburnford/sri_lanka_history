@@ -1,0 +1,15 @@
+#	Paddy	Other Grain	Coffee	Cinnamon	Cotton	Tea	Tobacco	Coconuts	Pasture	Total
+Western	181479	27303	35553	30532	2	7430	468	290357	127914	701038
+North-Western	79131	53902	11914	41	-	—	2788	88289	63800	299865
+Southern	103375	30956	3921	366	—	773	275	85782	55701	281149
+Eastern	44187	3075	45	—	—	—	836	57786	42758	128687
+Northern	56211	15537	—	—	154	—	5490	15496	181058	273946
+Central	110566	90169	290026	205	10	6063	97	4809	272883	774828
+North-Central	8169	11263	1½	—	7½	—	3	115	12687	33946
+TOTAL	583118	232205	341460½	31144	173½	14266	9957	524334	756801	2493459
+! North-Western	Coffee	last digit broken in the print, as in the 1880 volume; the row and column totals both give 4
+! Southern	Other Grain	first digit broken in the print, as in the 1880 volume; the row and column totals both give 3
+! Eastern	Coconuts	printed 57786, as in the 1880 volume; the row total (128687) and column total both imply 37786
+! North-Central	Coconuts	printed 115, as in the 1880 volume; the row total (33946) and column total both imply 1815
+! TOTAL	Tobacco	printed 9957 here; the 1880 volume printed 99957
+! TOTAL	Total	printed 2493459 here; the 1880 volume printed 2943459

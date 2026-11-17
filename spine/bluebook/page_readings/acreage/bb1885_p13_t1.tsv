@@ -1,0 +1,11 @@
+#	Paddy	Other Grain	Coffee	Cacao	Cinnamon	Cotton	Tea	Tobacco	Coconuts	Pasturage
+Western	177288	19015	12423	1500	33955	—	11656	491	330889	111324
+North-Western	72133	31469	13238	1764	53	—	—	8991	122877	72490
+Southern	111066	16241	3392	977	1899	—	3075	103	84522	57000
+Eastern	72649	1870	53	35	—	—	—	732½	14466	181186
+Northern	64671	10548	—	—	—	127	—	6192	16347	135011
+Central	98118	24175	202869	7666	158	912	42895	34	6744	129163
+North-Central	8539	5415	1	—	—	45	—	9	1935	24200
+TOTAL	604464	108733	231976	11942	36065	1084	57626	16552½	577780	710374
+! Southern	Coffee	the first digit prints like an 8 (?392); read as 3392, which the column total requires (8392 would leave it 5000 over) and which fits the 1885 figure (3494)
+! Southern	Tea	the first digit prints like an 8 (?075); read as 3075, which the column total requires (8075 would leave it 5000 over) and which fits the 1885 figure (3796)

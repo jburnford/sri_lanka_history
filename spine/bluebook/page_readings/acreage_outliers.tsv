@@ -1,0 +1,23 @@
+crop	area	year_data	flagged_value	table	verdict	finding
+paddy	Eastern	1921	10380	bb1922:p15:t2	ocr_error	OCR error: the page prints 103380 (the cell is speckled); the 1921 volume prints 103380 clearly
+paddy	Eastern	1921	103380	bb1921:p15:t3	as_printed	as printed (census of production 1921); 1920 was 89630
+cacao/coconuts/tobacco/other grain	Uva, Eastern, Western	1921	131, 933, 16247, 374, 11446	bb1921:p15:t3	as_printed	as printed: Census of Production 1921 figures, a new basis; reprinted unchanged in 1922 and 1923
+paddy	North-Central	1922	162327	bb1922:p15:t3	misprint_in_one_printing	misprint in the 1922 volume (its total 850409 includes it); the 1923 volume reprints 1922 as 62327, total 750409
+other grain	Southern, Western, Sabaragamuwa	1923	5300, 3874, 11481	bb1923:p15:t3	as_printed	as printed; single printing (no 1924 opening table in this pass)
+coconuts	island total	1915	97770	bb1915:p14:t4	misprint_in_one_printing	misprint in the 1915 volume (the last digit dropped): the provinces add to 977701, which the 1916 volume prints
+paddy	Western	1915	200644	bb1915:p14:t4	as_printed	as printed in both the 1915 and 1916 volumes and included in the printed total (785100); 1914 was 111077, so possibly a misprint the totals carry
+paddy	Sabaragamuwa	1904	9469	bb1905:p15:t1	ocr_error	OCR error: the first digit is faint; the page prints 89469, as the 1904 volume does
+cinnamon	Central, Southern	1905	1798, 1757	bb1905:p15:t2	as_printed	as printed in both the 1905 and 1906 volumes, and the column adds up (32450); in 1904 Central was 189 and Southern 12744, so the 1905 figures look misprinted at source
+cacao	Sabaragamuwa	1896	200	bb1897:p17:t1	misprint_in_one_printing	type damage in the 1897 volume: the leading 1 is missing; the 1896 volume prints 1200, which the column total (30882) requires
+paddy	Northern	1895	5285	bb1896:p15:t1	ocr_error	"OCR error: the last digit is faint (""5288.""); the column total (589077) requires 52887"
+other grain	North-Central	1895	13322	bb1896:p15:t1	as_printed	as printed, and the column adds up; single printing (no 1895 volume); 1896 was 1003
+tobacco	island total, North-Western, Sabaragamuwa	1906	78401, 25278, 39412	bb1906:p16:t2	as_printed	as printed in both the 1906 and 1907 volumes, and the column adds up; 1905 total was 12885¾, so the 1906 provincial figures look wrong at source
+rubber	Sabaragamuwa	1906	12600	bb1906:p16:t2	as_printed	as printed in both volumes; the column adds up
+rubber	Central, Uva	1904, 1905	219, 1310	bb1905:p15	as_printed	as printed in both volumes
+paddy	Western	1871	379731	bb1871:p13:t3	as_printed	as printed, and the row and column totals add up (455429; 777622); 1870 was 117546, so the figure looks wrong at source and the totals carry it
+pasture, total	Eastern	1870	128522, 195445	bb1871:p13:t2	as_printed	as printed; row adds up
+cotton, other grain	Southern	1863	105806, 86821	bb1863:p10:t2	as_printed	as printed, and the Southern row adds up (290638); the cotton total 106321 6/10 carries it. 105806 acres of cotton is implausible (1862: 412), so this is a source error the totals carry
+cacao	Sabaragamuwa	1894	111	bb1894:p14:t2	ocr_error	OCR error: the first digit is faint; the page prints 1111, which the column total (26708) requires
+coffee	North-Western, Uva	1894	576 (OCR), 10000	bb1894:p14:t2	ocr_error	North-Western is printed 876 (OCR 576); with it the coffee column adds up (20931), so Uva's 10000 is as printed
+paddy	North-Western, Sabaragamuwa	1894	39427, 8099?	bb1894:p14:t2	as_printed	39427 as printed; Sabaragamuwa is printed 8099? with the last digit broken and the fourth a clear 9, so the 80977 the column total (564844) requires is not what the page shows; left as the OCR reads it (80997)
+coconuts	Uva	1894	500	bb1894:p14:t2	as_printed	as printed (1893: 2071)

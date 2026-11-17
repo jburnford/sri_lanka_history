@@ -1,0 +1,12 @@
+#	Paddy	Other Grain	Coffee	Cacao	Cinnamon	Cotton	Tea	Tobacco	Coconuts	Cinchona
+Western	118199	6811	113	21	34163	176	10995	494	349304	—
+Central	55710	14536	49284	13226	227	609	150190	403	6099	22465
+Northern	56372	8519	—	—	—	105	—	5582	17338	—
+Southern	109564	17878	258	—	2504	48	7060	55	82118	—
+Eastern	60500	3925	—	—	—	14	—	672	15500	—
+North-Western	73726	35500	287	1590	94	87	650	10135	160420	31
+North-Central	11600	16250	—	—	—	6	—	13	2112	—
+Uva	39654	6373	20695	297	—	—	14268	28	1368	7528
+Sabaragamuwa	60097	20435	917	651	343	182	24250	52	22507	60
+TOTAL	585422	130227	71554	15785	37331	1227	207413	17434	656766	30084
+! TOTAL	Cinchona	the first digit looks like an 8 (80084) but the 3 in this typeface often does; the provinces add to 30084, which the 1889 volume prints

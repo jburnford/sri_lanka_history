@@ -45,83 +45,23 @@ bb1880:p8:t4	area: Eastern	82302 13/18
 bb1880:p8:t4	area: (unlabelled colony total)	1722298 13/18		
 bb1880:p8:t4	measure: Paddy.	581565 13/18		
 bb1880:p8:t4	measure: Total.	1722298 13/18		
-bb1880:p8:t5	area: Western	701088	701034	54
-bb1880:p8:t5	area: North-Western.	299865	299862	3
-bb1880:p8:t5	area: Southern	281149	301149	-20000
 bb1880:p8:t5	area: Eastern	128687	148687	-20000
-bb1880:p8:t5	area: North-Central	33946	32208.5	1737.5
+bb1880:p8:t5	area: North-Central	33946	32246	1700
 bb1880:p8:t5	area: (unlabelled colony total)	2943459	2583459	360000
-bb1880:p8:t5	measure: Paddy	583118	583114	4
-bb1880:p8:t5	measure: Other Grain.	232205	252205	-20000
-bb1880:p8:t5	measure: Coffee.	341460½	341470	-9.5
 bb1880:p8:t5	measure: To-bacco.	99957	9957	90000
 bb1880:p8:t5	measure: Cocon-nuts.	524334	542634	-18300
-bb1880:p8:t5	measure: Pasture.	756801	756751	50
-bb1880:p8:t5	measure: Total.	2943459	2493509	449950
-bb1881:p10:t5	area: Western	701,038	975538	-274500
-bb1881:p10:t5	area: North-Western.	299,865	249350	50515
-bb1881:p10:t5	area: Southern	281,149	251288	29861
-bb1881:p10:t5	area: Eastern	128,687	112919	15768
-bb1881:p10:t5	area: Northern	273,946	273607.75	338.25
-bb1881:p10:t5	area: Central	774,828	224913	549915
-bb1881:p10:t5	area: North-Central	33,946	32246.25	1699.75
-bb1881:p10:t5	area: (unlabelled colony total)	2,193,459		
-bb1881:p10:t5	measure: Paddy	583,118	549818	33300
-bb1881:p10:t5	measure: Other Grain	32,205	69711	-37506
-bb1881:p10:t5	measure: Coffee	34,460	80457.5	-45997.5
-bb1881:p10:t5	measure: Cinna-mon	311,41		
-bb1881:p10:t5	measure: Cotton	173½	35.5	138
-bb1881:p10:t5	measure: Tea	14,266	8809	5457
-bb1881:p10:t5	measure: Cocoa-nuts.	524,334	585924	-61590
-bb1881:p10:t5	measure: Pasture.	756,801	509206	247595
-bb1881:p10:t5	measure: Total.	2,193,459	2493459	-300000
-bb1881:p10:t6	measure: Paddy	549,292	548892	400
-bb1881:p10:t6	measure: Other Grain	15,055	73683	-58628
-bb1881:p10:t6	measure: Coffee	36,183	71838.5	-35655.5
-bb1881:p10:t6	measure: Cinna-mon	320,57		
-bb1881:p10:t6	measure: To-bacco.	10,996	10896	100
-bb1881:p10:t6	measure: Pasture.	779,701	784711	-5010
-bb1882:p10:t6	measure: Coffee.	361838½	71734.5	290104
-bb1882:p10:t6	measure: Cinna- mon.	32057	32107	-50
-bb1882:p10:t6	measure: Pasture.	779701	784701	-5000
-bb1882:p11:t1	measure: Paddy.	579245	570245	9000
-bb1882:p11:t1	measure: Other Grain.	138741	137741	1000
-bb1882:p11:t1	measure: Coffee.	324618\frac{1}{2}	65418	259200.5
-bb1882:p11:t1	measure: Cotton.	215\frac{1}{2}		
-bb1883:p10:t4	measure: Paddy	579245		
-bb1883:p10:t4	measure: Other Grain	138741		
-bb1883:p10:t4	measure: Coffee.	321618\frac{1}{2}	324618.5	-3000
-bb1883:p10:t4	measure: Coconutts	555718		
-bb1883:p10:t4	measure: Pasturage.	793082		
+bb1880:p8:t5	measure: Total.	2943459	2493459	450000
+bb1881:p10:t5	area: Eastern	128687	148687	-20000
+bb1881:p10:t5	area: North-Central	33946	32246	1700
+bb1881:p10:t5	measure: Cocoa-nuts.	524334	542634	-18300
+bb1883:p10:t4	measure: Coffee.	321618½	324618.5	-3000
 bb1883:p11:t1	measure: ☼ Coffee.	292779	292679	100
-bb1883:p11:t1	measure: Cacao	7960	8020	-60
-bb1883:p11:t1	measure: Cinna- mon.	84652	34652	50000
-bb1883:p11:t1	measure: Pastur- age	734769½	581477.5	153292
-bb1885:p13:t1	measure: Paddy.	604464	604461	3
-bb1885:p13:t1	measure: Coffee.	231976	236981	-5005
-bb1885:p13:t2	measure: Other Grain.	108298	108308	-10
-bb1886:p13:t1	measure: Other Grain	108298	108268	30
 bb1886:p13:t1	measure: Cacao.	13776	5739	8037
-bb1889b:p14:t2	measure: Coffee.	72776*	184622	-111846
-bb1889b:p14:t2	measure: Cacao.	15617*	127763	-112146
+bb1889b:p14:t2	measure: Coffee.	72776*	128849	-56073
 bb1889b:p14:t2	measure: Cotton.	361	461	-100
-bb1889b:p14:t2	measure: Cinchona.	10589.		
-bb1889b:p14:t3	measure: Tobacco.	17484	17439	45
-bb1889b:p14:t3	measure: Cocoanuts.	656766	656816	-50
-bb1890:p295:t1	measure: Other Grain.	130227	129927	300
-bb1890:p295:t1	measure: Cinchona.	80084	30084	50000
-bb1890:p295:t2	measure: Paddy.	536367	536364	3
-bb1891:p297:t1	measure: Paddy.	536367	536064	303
-bb1891:p297:t1	measure: Other Grain.	124302	124272	30
-bb1891:p297:t1	measure: Coffee.	66530	66527	3
-bb1891:p297:t1	measure: Tobacco.	9515	9520	-5
-bb1891:p297:t2	measure: Other Grain.	122418	122118	300
-bb1891:p297:t2	measure: Cacao.	15471	19471	-4000
+bb1889b:p14:t2	measure: Cocoanuts.	643641	643646	-5
 bb1891:p297:t2	measure: Cinchona.	12127	12172	-45
-bb1892:p310:t1	measure: Paddy.	563421	563426	-5
-bb1892:p310:t1	measure: Other Grain.	122418	122518	-100
-bb1892:p310:t1	measure: Cocoanuts.	759605	809655	-50050
-bb1892:p310:t1	measure: Cinchona.	12127	12222	-95
+bb1892:p310:t1	measure: Cinchona.	12127	12172	-45
 bb1892:p310:t2	measure: Other Grain.	105066	105071	-5
 bb1892:p310:t2	measure: Cocoanuts.	766512	766522	-10
 bb1892:p310:t2	measure: Cinchona.	11430	11480	-50
@@ -133,9 +73,6 @@ bb1894:p14:t1	measure: Cocoanuts.	776977	777027	-50
 bb1894:p14:t1	measure: Cinchona.	4136	4186	-50
 bb1894:p14:t2	measure: Paddy.	564844	564864	-20
 bb1894:p14:t2	measure: Other Grain.	122329	119329	3000
-bb1894:p14:t2	measure: Coffee.	20931	20631	300
-bb1894:p14:t2	measure: Cacao.	26708	25708	1000
-bb1896:p15:t1	measure: Paddy.	589077	541475	47602
 bb1896:p15:t2	measure: Coffee.	23003	22973	30
 bb1896:p15:t2	measure: Tea.	365824	368824	-3000
 bb1897:p17:t1	measure: Paddy.	619388	619358	30
@@ -160,7 +97,6 @@ bb1903:p18:t2	measure: Cotton.	—
 bb1903:p18:t2	measure: Tea.	460715*	460710	5
 bb1903:p18:t2	measure: Tobacco.	14327	14387	-60
 bb1903:p18:t2	measure: Cocoanuts.	890409	880414	9995
-bb1905:p15:t1	measure: Paddy.	711406	631406	80000
 bb1905:p15:t2	measure: Paddy.	697711	697411	300
 bb1905:p15:t2	measure: Tobacco.	12885	12880	5
 bb1906:p16:t1	measure: Tobacco.	12885\frac{3}{4}	12880.75	5
@@ -179,7 +115,6 @@ bb1919:p14:t3	measure: Cin-chona.	—
 bb1920:p15:t2	measure: Cin-chona.	—		
 bb1920:p15:t3	measure: Coconuts.	945057	946057	-1000
 bb1921:p15:t2	measure: Coconuts.	945057	946057	-1000
-bb1922:p15:t2	measure: Paddy.	798514	705514	93000
 bb1922:p15:t2	measure: Other Grains.	160665	160700	-35
 bb1928:p327:t1	measure: Cacao.; SOUTHERN PROVINCE vs districts	—		
 bb1928:p327:t1	measure: Cacao.; NORTHERN PROVINCE vs districts	—		

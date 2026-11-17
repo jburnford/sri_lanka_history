@@ -220,95 +220,95 @@ bb1880:p8:t4	measure: Cotton.	205	205	0	agree	7	3	0
 bb1880:p8:t4	measure: Tobacco.	9612	9612	0	agree	7	0	0
 bb1880:p8:t4	measure: Pasture.	657331	657331	0	agree	7	1	0
 bb1880:p8:t4	measure: Total.	1722298 13/18			uncheckable: unreadable numeric string	7	0	1
-bb1880:p8:t5	area: Western	701088	701034	54	mismatch	9	0	0
-bb1880:p8:t5	area: North-Western.	299865	299862	3	mismatch	9	2	0
-bb1880:p8:t5	area: Southern	281149	301149	-20000	mismatch	9	1	0
+bb1880:p8:t5	area: Western	701038	701038	0	agree	9	0	0
+bb1880:p8:t5	area: North-Western.	299865	299865	0	agree	9	2	0
+bb1880:p8:t5	area: Southern	281149	281149	0	agree	9	1	0
 bb1880:p8:t5	area: Eastern	128687	148687	-20000	mismatch	9	3	0
 bb1880:p8:t5	area: Northern	273946	273946	0	agree	9	3	0
 bb1880:p8:t5	area: Central	774828	774828	0	agree	9	0	0
-bb1880:p8:t5	area: North-Central	33946	32208.5	1737.5	mismatch	9	2	0
+bb1880:p8:t5	area: North-Central	33946	32246	1700	mismatch	9	2	0
 bb1880:p8:t5	area: (unlabelled colony total)	2943459	2583459	360000	mismatch	9	0	0
-bb1880:p8:t5	measure: Paddy	583118	583114	4	mismatch	7	0	0
-bb1880:p8:t5	measure: Other Grain.	232205	252205	-20000	mismatch	7	0	0
-bb1880:p8:t5	measure: Coffee.	341460½	341470	-9.5	mismatch	7	1	0
+bb1880:p8:t5	measure: Paddy	583118	583118	0	agree	7	0	0
+bb1880:p8:t5	measure: Other Grain.	232205	232205	0	agree	7	0	0
+bb1880:p8:t5	measure: Coffee.	341460½	341460.5	0	agree	7	1	0
 bb1880:p8:t5	measure: Cinna mon.	31144	31144	0	agree	7	3	0
 bb1880:p8:t5	measure: Cotton.	173½	173.5	0	agree	7	3	0
 bb1880:p8:t5	measure: Tea.	14266	14266	0	agree	7	4	0
 bb1880:p8:t5	measure: To-bacco.	99957	9957	90000	mismatch	7	0	0
 bb1880:p8:t5	measure: Cocon-nuts.	524334	542634	-18300	mismatch	7	0	0
-bb1880:p8:t5	measure: Pasture.	756801	756751	50	mismatch	7	0	0
-bb1880:p8:t5	measure: Total.	2943459	2493509	449950	mismatch	7	0	0
-bb1881:p10:t5	area: Western	701,038	975538	-274500	mismatch	9	0	0
-bb1881:p10:t5	area: North-Western.	299,865	249350	50515	mismatch	9	2	0
-bb1881:p10:t5	area: Southern	281,149	251288	29861	mismatch	9	1	0
-bb1881:p10:t5	area: Eastern	128,687	112919	15768	mismatch	9	3	0
-bb1881:p10:t5	area: Northern	273,946	273607.75	338.25	mismatch	9	3	0
-bb1881:p10:t5	area: Central	774,828	224913	549915	mismatch	9	0	0
-bb1881:p10:t5	area: North-Central	33,946	32246.25	1699.75	mismatch	9	2	0
-bb1881:p10:t5	area: (unlabelled colony total)	2,193,459			uncheckable: unreadable numeric string	9	0	1
-bb1881:p10:t5	measure: Paddy	583,118	549818	33300	mismatch	7	0	0
-bb1881:p10:t5	measure: Other Grain	32,205	69711	-37506	mismatch	7	0	0
-bb1881:p10:t5	measure: Coffee	34,460	80457.5	-45997.5	mismatch	7	1	0
-bb1881:p10:t5	measure: Cinna-mon	311,41			uncheckable: unreadable numeric string	7	3	0
-bb1881:p10:t5	measure: Cotton	173½	35.5	138	mismatch	7	3	0
-bb1881:p10:t5	measure: Tea	14,266	8809	5457	mismatch	7	4	0
-bb1881:p10:t5	measure: To-bacco	9,957	9957	0	agree	7	0	0
-bb1881:p10:t5	measure: Cocoa-nuts.	524,334	585924	-61590	mismatch	7	0	0
-bb1881:p10:t5	measure: Pasture.	756,801	509206	247595	mismatch	7	0	0
-bb1881:p10:t5	measure: Total.	2,193,459	2493459	-300000	mismatch	7	0	0
-bb1881:p10:t6	measure: Paddy	549,292	548892	400	mismatch	7	0	0
-bb1881:p10:t6	measure: Other Grain	15,055	73683	-58628	mismatch	7	0	0
-bb1881:p10:t6	measure: Coffee	36,183	71838.5	-35655.5	mismatch	7	1	0
-bb1881:p10:t6	measure: Cinna-mon	320,57			uncheckable: unreadable numeric string	7	3	1
+bb1880:p8:t5	measure: Pasture.	756801	756801	0	agree	7	0	0
+bb1880:p8:t5	measure: Total.	2943459	2493459	450000	mismatch	7	0	0
+bb1881:p10:t5	area: Western	701038	701038	0	agree	9	0	0
+bb1881:p10:t5	area: North-Western.	299865	299865	0	agree	9	2	0
+bb1881:p10:t5	area: Southern	281149	281149	0	agree	9	1	0
+bb1881:p10:t5	area: Eastern	128687	148687	-20000	mismatch	9	3	0
+bb1881:p10:t5	area: Northern	273946	273946	0	agree	9	3	0
+bb1881:p10:t5	area: Central	774828	774828	0	agree	9	0	0
+bb1881:p10:t5	area: North-Central	33946	32246	1700	mismatch	9	2	0
+bb1881:p10:t5	area: (unlabelled colony total)	2493459	2493459	0	agree	9	0	0
+bb1881:p10:t5	measure: Paddy	583118	583118	0	agree	7	0	0
+bb1881:p10:t5	measure: Other Grain	232205	232205	0	agree	7	0	0
+bb1881:p10:t5	measure: Coffee	341460½	341460.5	0	agree	7	1	0
+bb1881:p10:t5	measure: Cinna-mon	31144	31144	0	agree	7	3	0
+bb1881:p10:t5	measure: Cotton	173½	173.5	0	agree	7	3	0
+bb1881:p10:t5	measure: Tea	14266	14266	0	agree	7	4	0
+bb1881:p10:t5	measure: To-bacco	9957	9957	0	agree	7	0	0
+bb1881:p10:t5	measure: Cocoa-nuts.	524334	542634	-18300	mismatch	7	0	0
+bb1881:p10:t5	measure: Pasture.	756801	756801	0	agree	7	0	0
+bb1881:p10:t5	measure: Total.	2493459	2493459	0	agree	7	0	0
+bb1881:p10:t6	measure: Paddy	549292	549292	0	agree	7	0	0
+bb1881:p10:t6	measure: Other Grain	150551	150551	0	agree	7	0	0
+bb1881:p10:t6	measure: Coffee	361838½	361838.5	0	agree	7	1	0
+bb1881:p10:t6	measure: Cinna-mon	32057	32057	0	agree	7	3	0
 bb1881:p10:t6	measure: Cotton	179½	179.5	0	agree	7	3	0
-bb1881:p10:t6	measure: Tea	14,350	14350	0	agree	7	4	0
-bb1881:p10:t6	measure: Cin-chona	32,473	32473	0	agree	7	6	0
-bb1881:p10:t6	measure: To-bacco.	10,996	10896	100	mismatch	7	0	0
-bb1881:p10:t6	measure: Cocoa-nuts.	525,066	525066	0	agree	7	0	0
-bb1881:p10:t6	measure: Pasture.	779,701	784711	-5010	mismatch	7	0	0
+bb1881:p10:t6	measure: Tea	14350	14350	0	agree	7	4	0
+bb1881:p10:t6	measure: Cin-chona	32473	32473	0	agree	7	6	0
+bb1881:p10:t6	measure: To-bacco.	10896	10896	0	agree	7	0	0
+bb1881:p10:t6	measure: Cocoa-nuts.	525066	525066	0	agree	7	0	0
+bb1881:p10:t6	measure: Pasture.	779701	779701	0	agree	7	0	0
 bb1882:p10:t6	measure: Paddy.	549292	549292	0	agree	7	0	0
 bb1882:p10:t6	measure: Other Grain.	150551	150551	0	agree	7	0	0
-bb1882:p10:t6	measure: Coffee.	361838½	71734.5	290104	mismatch	7	1	0
-bb1882:p10:t6	measure: Cinna- mon.	32057	32107	-50	mismatch	7	3	0
+bb1882:p10:t6	measure: Coffee.	361838½	361838.5	0	agree	7	1	0
+bb1882:p10:t6	measure: Cinna- mon.	32057	32057	0	agree	7	3	0
 bb1882:p10:t6	measure: Cotton.	179½	179.5	0	agree	7	3	0
 bb1882:p10:t6	measure: Tea.	14350	14350	0	agree	7	4	0
 bb1882:p10:t6	measure: Cin- chona.	32473	32473	0	agree	7	6	0
 bb1882:p10:t6	measure: To- bacco.	10896	10896	0	agree	7	0	0
 bb1882:p10:t6	measure: Cocoa- nuts.	525066	525066	0	agree	7	0	0
-bb1882:p10:t6	measure: Pasture.	779701	784701	-5000	mismatch	7	0	0
-bb1882:p11:t1	measure: Paddy.	579245	570245	9000	mismatch	7	0	0
-bb1882:p11:t1	measure: Other Grain.	138741	137741	1000	mismatch	7	0	0
-bb1882:p11:t1	measure: Coffee.	324618\frac{1}{2}	65418	259200.5	mismatch	7	2	0
+bb1882:p10:t6	measure: Pasture.	779701	779701	0	agree	7	0	0
+bb1882:p11:t1	measure: Paddy.	579245	579245	0	agree	7	0	0
+bb1882:p11:t1	measure: Other Grain.	138741	138741	0	agree	7	0	0
+bb1882:p11:t1	measure: Coffee.	324618½	324618.5	0	agree	7	1	0
 bb1882:p11:t1	measure: Cocoa.	7691	7691	0	agree	7	2	0
 bb1882:p11:t1	measure: Cinna- mon.	33460	33460	0	agree	7	3	0
-bb1882:p11:t1	measure: Cotton.	215\frac{1}{2}			uncheckable: unreadable numeric string	7	3	1
-bb1882:p11:t1	measure: Tea.	12481\frac{1}{2}	12481.5	0	agree	7	4	0
+bb1882:p11:t1	measure: Cotton.	215½	215.5	0	agree	7	3	0
+bb1882:p11:t1	measure: Tea.	12481½	12481.5	0	agree	7	4	0
 bb1882:p11:t1	measure: To- bacco.	11135	11135	0	agree	7	0	0
 bb1882:p11:t1	measure: Cocoa- nuts.	555718	555718	0	agree	7	0	0
 bb1882:p11:t1	measure: Pasturage.	793082	793082	0	agree	7	0	0
-bb1883:p10:t4	measure: Paddy	579245			uncheckable: unreadable numeric string	7	0	1
-bb1883:p10:t4	measure: Other Grain	138741			uncheckable: unreadable numeric string	7	0	1
-bb1883:p10:t4	measure: Coffee.	321618\frac{1}{2}	324618.5	-3000	mismatch	7	1	0
+bb1883:p10:t4	measure: Paddy	579245	579245	0	agree	7	0	0
+bb1883:p10:t4	measure: Other Grain	138741	138741	0	agree	7	0	0
+bb1883:p10:t4	measure: Coffee.	321618½	324618.5	-3000	mismatch	7	1	0
 bb1883:p10:t4	measure: Cacao.	7691	7691	0	agree	7	2	0
 bb1883:p10:t4	measure: Cinna- mon	33460	33460	0	agree	7	3	0
-bb1883:p10:t4	measure: Cotton	215\frac{1}{2}	215.5	0	agree	7	3	0
-bb1883:p10:t4	measure: Tea.	12481\frac{1}{2}	12481.5	0	agree	7	4	0
+bb1883:p10:t4	measure: Cotton	215½	215.5	0	agree	7	3	0
+bb1883:p10:t4	measure: Tea.	12481½	12481.5	0	agree	7	4	0
 bb1883:p10:t4	measure: To- bacco	11135	11135	0	agree	7	0	0
-bb1883:p10:t4	measure: Coconutts	555718			uncheckable: unreadable numeric string	7	0	5
-bb1883:p10:t4	measure: Pasturage.	793082			uncheckable: unreadable numeric string	7	0	6
+bb1883:p10:t4	measure: Coconutts	555718	555718	0	agree	7	0	0
+bb1883:p10:t4	measure: Pasturage.	793082	793082	0	agree	7	0	0
 bb1883:p11:t1	measure: Paddy	605757	605757	0	agree	7	0	0
 bb1883:p11:t1	measure: Other Grain	109088½	109088.5	0	agree	7	0	0
 bb1883:p11:t1	measure: ☼ Coffee.	292779	292679	100	mismatch	7	1	0
-bb1883:p11:t1	measure: Cacao	7960	8020	-60	mismatch	7	2	0
-bb1883:p11:t1	measure: Cinna- mon.	84652	34652	50000	mismatch	7	3	0
+bb1883:p11:t1	measure: Cacao	7960	7960	0	agree	7	2	0
+bb1883:p11:t1	measure: Cinna- mon.	34652	34652	0	agree	7	3	0
 bb1883:p11:t1	measure: Cotton.	176	176	0	agree	7	3	0
 bb1883:p11:t1	measure: Tea.	19796½	19796.5	0	agree	7	4	0
 bb1883:p11:t1	measure: To- bacco.	10260	10260	0	agree	7	0	0
 bb1883:p11:t1	measure: Coco- nuts.	556166	556166	0	agree	7	0	0
-bb1883:p11:t1	measure: Pastur- age	734769½	581477.5	153292	mismatch	7	0	0
-bb1885:p13:t1	measure: Paddy.	604464	604461	3	mismatch	7	0	0
+bb1883:p11:t1	measure: Pastur- age	734769½	734769.5	0	agree	7	0	0
+bb1885:p13:t1	measure: Paddy.	604464	604464	0	agree	7	0	0
 bb1885:p13:t1	measure: Other Grain.	108733	108733	0	agree	7	0	0
-bb1885:p13:t1	measure: Coffee.	231976	236981	-5005	mismatch	7	1	0
+bb1885:p13:t1	measure: Coffee.	231976	231976	0	agree	7	1	0
 bb1885:p13:t1	measure: Cacao.	11942	11942	0	agree	7	2	0
 bb1885:p13:t1	measure: Cinna-mon.	36065	36065	0	agree	7	3	0
 bb1885:p13:t1	measure: Cotton.	1084	1084	0	agree	7	4	0
@@ -317,17 +317,17 @@ bb1885:p13:t1	measure: To-bacco.	16552½	16552.5	0	agree	7	0	0
 bb1885:p13:t1	measure: Cocoanuts.	577780	577780	0	agree	7	0	0
 bb1885:p13:t1	measure: Pasturage.	710374	710374	0	agree	7	0	0
 bb1885:p13:t2	measure: Paddy.	597977	597977	0	agree	7	0	0
-bb1885:p13:t2	measure: Other Grain.	108298	108308	-10	mismatch	7	0	0
+bb1885:p13:t2	measure: Other Grain.	108298	108298	0	agree	7	0	0
 bb1885:p13:t2	measure: Coffee.	192434½	192434.5	0	agree	7	1	0
 bb1885:p13:t2	measure: Cacao.	13776	13776	0	agree	7	3	0
 bb1885:p13:t2	measure: Cinna-mon.	113980	113980	0	agree	7	3	0
-bb1885:p13:t2	measure: Cotton.	221½	221.5	0	agree	7	3	0
+bb1885:p13:t2	measure: Cotton.	221¼	221.25	0	agree	7	3	0
 bb1885:p13:t2	measure: Tea.	120808	120808	0	agree	7	4	0
 bb1885:p13:t2	measure: To-bacco.	15936	15936	0	agree	7	0	0
 bb1885:p13:t2	measure: Cocoanuts.	550366½	550366.5	0	agree	7	0	0
 bb1885:p13:t2	measure: Pasturage.	715622	715622	0	agree	7	0	0
 bb1886:p13:t1	measure: Paddy.	597977	597977	0	agree	7	0	0
-bb1886:p13:t1	measure: Other Grain	108298	108268	30	mismatch	7	0	0
+bb1886:p13:t1	measure: Other Grain	108298	108298	0	agree	7	0	0
 bb1886:p13:t1	measure: Coffee.	192434½	192434.5	0	agree	7	1	0
 bb1886:p13:t1	measure: Cacao.	13776	5739	8037	mismatch	7	3	0
 bb1886:p13:t1	measure: Cinnamon.	113980	113980	0	agree	7	3	0
@@ -346,7 +346,7 @@ bb1886:p13:t2	measure: Tea	164758	164758	0	agree	8	4	0
 bb1886:p13:t2	measure: Tobacco.	12472	12472	0	agree	8	0	0
 bb1886:p13:t2	measure: Cocoanuts.	606134	606134	0	agree	8	0	0
 bb1886:p13:t2	measure: Cinchona.	29000	29000	0	agree	8	7	0
-bb1887:p14:t2	measure: Paddy.	605154	605154	0	agree	8	0	0
+bb1887:p14:t2	measure: Paddy.	605184	605184	0	agree	8	0	0
 bb1887:p14:t2	measure: Other Grain.	131230	131230	0	agree	8	0	0
 bb1887:p14:t2	measure: Coffee.	136388	136388	0	agree	8	3	0
 bb1887:p14:t2	measure: Cacao.	15597	15597	0	agree	8	3	0
@@ -368,14 +368,14 @@ bb1887:p14:t3	measure: Cocoanuts.	628304	628304	0	agree	8	0	0
 bb1887:p14:t3	measure: Cinchona.	8462	8462	0	agree	8	7	0
 bb1889b:p14:t2	measure: Paddy.	574220	574220	0	agree	8	0	0
 bb1889b:p14:t2	measure: Other Grain.	130564	130564	0	agree	8	0	0
-bb1889b:p14:t2	measure: Coffee.	72776*	184622	-111846	mismatch	8	2	0
-bb1889b:p14:t2	measure: Cacao.	15617*	127763	-112146	mismatch	8	2	0
+bb1889b:p14:t2	measure: Coffee.	72776*	128849	-56073	mismatch	8	3	0
+bb1889b:p14:t2	measure: Cacao.	15617*	15617	0	agree	8	4	0
 bb1889b:p14:t2	measure: Cinnamon.	46127	46127	0	agree	8	4	0
 bb1889b:p14:t2	measure: Cotton.	361	461	-100	mismatch	8	4	0
 bb1889b:p14:t2	measure: Tea.	231601*	231601	0	agree	8	4	0
 bb1889b:p14:t2	measure: Tobacco.	16401	16401	0	agree	8	0	0
-bb1889b:p14:t2	measure: Cocoanuts.	643641	643641	0	agree	8	0	0
-bb1889b:p14:t2	measure: Cinchona.	10589.			uncheckable: unreadable numeric string	8	7	0
+bb1889b:p14:t2	measure: Cocoanuts.	643641	643646	-5	mismatch	8	0	0
+bb1889b:p14:t2	measure: Cinchona.	10589	10589	0	agree	8	7	0
 bb1889b:p14:t3	measure: Paddy.	585422	585422	0	agree	9	0	0
 bb1889b:p14:t3	measure: Other Grain.	130227	130227	0	agree	9	0	0
 bb1889b:p14:t3	measure: Coffee.	71554	71554	0	agree	9	3	0
@@ -383,11 +383,11 @@ bb1889b:p14:t3	measure: Cacao.	15785	15785	0	agree	9	4	0
 bb1889b:p14:t3	measure: Cinnamon.	37331	37331	0	agree	9	4	0
 bb1889b:p14:t3	measure: Cotton.	1227	1227	0	agree	9	1	0
 bb1889b:p14:t3	measure: Tea.	207413	207413	0	agree	9	3	0
-bb1889b:p14:t3	measure: Tobacco.	17484	17439	45	mismatch	9	0	0
-bb1889b:p14:t3	measure: Cocoanuts.	656766	656816	-50	mismatch	9	0	0
+bb1889b:p14:t3	measure: Tobacco.	17434	17434	0	agree	9	0	0
+bb1889b:p14:t3	measure: Cocoanuts.	656766	656766	0	agree	9	0	0
 bb1889b:p14:t3	measure: Cinchona.	30084	30084	0	agree	9	5	0
 bb1890:p295:t1	measure: Paddy.	585422	585422	0	agree	9	0	0
-bb1890:p295:t1	measure: Other Grain.	130227	129927	300	mismatch	9	0	0
+bb1890:p295:t1	measure: Other Grain.	130227	130227	0	agree	9	0	0
 bb1890:p295:t1	measure: Coffee.	71554	71554	0	agree	9	3	0
 bb1890:p295:t1	measure: Cacao.	15785	15785	0	agree	9	4	0
 bb1890:p295:t1	measure: Cinnamon.	37331	37331	0	agree	9	4	0
@@ -395,8 +395,8 @@ bb1890:p295:t1	measure: Cotton.	1227	1227	0	agree	9	1	0
 bb1890:p295:t1	measure: Tea.	207413	207413	0	agree	9	3	0
 bb1890:p295:t1	measure: Tobacco.	17434	17434	0	agree	9	0	0
 bb1890:p295:t1	measure: Cocoanuts.	656766	656766	0	agree	9	0	0
-bb1890:p295:t1	measure: Cinchona.	80084	30084	50000	mismatch	9	5	0
-bb1890:p295:t2	measure: Paddy.	536367	536364	3	mismatch	9	0	0
+bb1890:p295:t1	measure: Cinchona.	30084	30084	0	agree	9	5	0
+bb1890:p295:t2	measure: Paddy.	536367	536367	0	agree	9	0	0
 bb1890:p295:t2	measure: Other Grain.	124302	124302	0	agree	9	0	0
 bb1890:p295:t2	measure: Coffee.	66530	66530	0	agree	9	3	0
 bb1890:p295:t2	measure: Cacao.	15896	15896	0	agree	9	4	0
@@ -406,36 +406,36 @@ bb1890:p295:t2	measure: Tea.	235794	235794	0	agree	9	3	0
 bb1890:p295:t2	measure: Tobacco.	9515	9515	0	agree	9	0	0
 bb1890:p295:t2	measure: Cocoanuts.	649869	649869	0	agree	9	0	0
 bb1890:p295:t2	measure: Cinchona.	39587	39587	0	agree	9	5	0
-bb1891:p297:t1	measure: Paddy.	536367	536064	303	mismatch	9	0	0
-bb1891:p297:t1	measure: Other Grain.	124302	124272	30	mismatch	9	0	0
-bb1891:p297:t1	measure: Coffee.	66530	66527	3	mismatch	9	3	0
+bb1891:p297:t1	measure: Paddy.	536367	536367	0	agree	9	0	0
+bb1891:p297:t1	measure: Other Grain.	124302	124302	0	agree	9	0	0
+bb1891:p297:t1	measure: Coffee.	66530	66530	0	agree	9	3	0
 bb1891:p297:t1	measure: Cacao.	15896	15896	0	agree	9	4	0
 bb1891:p297:t1	measure: Cinnamon.	40336	40336	0	agree	9	4	0
 bb1891:p297:t1	measure: Cotton.	1174	1174	0	agree	9	2	0
 bb1891:p297:t1	measure: Tea	235794	235794	0	agree	9	3	0
-bb1891:p297:t1	measure: Tobacco.	9515	9520	-5	mismatch	9	0	0
+bb1891:p297:t1	measure: Tobacco.	9515	9515	0	agree	9	0	0
 bb1891:p297:t1	measure: Cocoanuts.	649869	649869	0	agree	9	0	0
 bb1891:p297:t1	measure: Cinchona.	39587	39587	0	agree	9	5	0
 bb1891:p297:t2	measure: Paddy.	563421	563421	0	agree	9	0	0
-bb1891:p297:t2	measure: Other Grain.	122418	122118	300	mismatch	9	0	0
+bb1891:p297:t2	measure: Other Grain.	122418	122418	0	agree	9	0	0
 bb1891:p297:t2	measure: Coffee.	55924	55924	0	agree	9	3	0
-bb1891:p297:t2	measure: Cacao.	15471	19471	-4000	mismatch	9	4	0
+bb1891:p297:t2	measure: Cacao.	19471	19471	0	agree	9	4	0
 bb1891:p297:t2	measure: Cinnamon.	40447	40447	0	agree	9	4	0
 bb1891:p297:t2	measure: Cotton.	375	375	0	agree	9	4	0
 bb1891:p297:t2	measure: Tea.	261179	261179	0	agree	9	3	0
 bb1891:p297:t2	measure: Tobacco.	9082	9082	0	agree	9	0	0
 bb1891:p297:t2	measure: Cocoanuts.	759605	759605	0	agree	9	0	0
 bb1891:p297:t2	measure: Cinchona.	12127	12172	-45	mismatch	9	7	0
-bb1892:p310:t1	measure: Paddy.	563421	563426	-5	mismatch	9	0	0
-bb1892:p310:t1	measure: Other Grain.	122418	122518	-100	mismatch	9	0	0
+bb1892:p310:t1	measure: Paddy.	563421	563421	0	agree	9	0	0
+bb1892:p310:t1	measure: Other Grain.	122418	122418	0	agree	9	0	0
 bb1892:p310:t1	measure: Coffee.	55924	55924	0	agree	9	3	0
 bb1892:p310:t1	measure: Cacao.	19471	19471	0	agree	9	4	0
 bb1892:p310:t1	measure: Cinnamon.	40447	40447	0	agree	9	4	0
 bb1892:p310:t1	measure: Cotton.	375	375	0	agree	9	4	0
 bb1892:p310:t1	measure: Tea.	261179	261179	0	agree	9	3	0
 bb1892:p310:t1	measure: Tobacco.	9082	9082	0	agree	9	0	0
-bb1892:p310:t1	measure: Cocoanuts.	759605	809655	-50050	mismatch	9	0	0
-bb1892:p310:t1	measure: Cinchona.	12127	12222	-95	mismatch	9	7	0
+bb1892:p310:t1	measure: Cocoanuts.	759605	759605	0	agree	9	0	0
+bb1892:p310:t1	measure: Cinchona.	12127	12172	-45	mismatch	9	7	0
 bb1892:p310:t2	measure: Paddy.	613176	613176	0	agree	9	0	0
 bb1892:p310:t2	measure: Other Grain.	105066	105071	-5	mismatch	9	0	0
 bb1892:p310:t2	measure: Coffee.	42933	42933	0	agree	9	3	0
@@ -478,15 +478,15 @@ bb1894:p14:t1	measure: Cocoanuts.	776977	777027	-50	mismatch	9	0	0
 bb1894:p14:t1	measure: Cinchona.	4136	4186	-50	mismatch	9	6	0
 bb1894:p14:t2	measure: Paddy.	564844	564864	-20	mismatch	9	0	0
 bb1894:p14:t2	measure: Other Grain.	122329	119329	3000	mismatch	9	0	0
-bb1894:p14:t2	measure: Coffee.	20931	20631	300	mismatch	9	3	0
-bb1894:p14:t2	measure: Cacao.	26708	25708	1000	mismatch	9	4	0
+bb1894:p14:t2	measure: Coffee.	20931	20931	0	agree	9	3	0
+bb1894:p14:t2	measure: Cacao.	26708	26708	0	agree	9	4	0
 bb1894:p14:t2	measure: Cinnamon.	39816	39816	0	agree	9	4	0
 bb1894:p14:t2	measure: Cotton.	95	95	0	agree	9	7	0
 bb1894:p14:t2	measure: Tea.	331466	331466	0	agree	9	3	0
 bb1894:p14:t2	measure: Tobacco	10114	10114	0	agree	9	2	0
 bb1894:p14:t2	measure: Cocoanuts.	854221	854221	0	agree	9	0	0
 bb1894:p14:t2	measure: Cinchona.	2062	2062	0	agree	9	6	0
-bb1896:p15:t1	measure: Paddy.	589077	541475	47602	mismatch	9	0	0
+bb1896:p15:t1	measure: Paddy.	589077	589077	0	agree	9	0	0
 bb1896:p15:t1	measure: Other Grain.	138663	138663	0	agree	9	0	0
 bb1896:p15:t1	measure: Coffee.	22475	22475	0	agree	9	3	0
 bb1896:p15:t1	measure: Cacao.	28319	28319	0	agree	9	4	0
@@ -628,7 +628,7 @@ bb1903:p18:t2	measure: Tobacco.	14327	14387	-60	mismatch	9	0	0
 bb1903:p18:t2	measure: Cocoanuts.	890409	880414	9995	mismatch	9	0	0
 bb1903:p18:t2	measure: Cinchona.	1259	1259	0	agree	9	7	0
 bb1903:p18:t2	measure: Rubber.	11595	11595	0	agree	9	7	0
-bb1905:p15:t1	measure: Paddy.	711406	631406	80000	mismatch	9	0	0
+bb1905:p15:t1	measure: Paddy.	711406	711406	0	agree	9	0	0
 bb1905:p15:t1	measure: Other Grain.	103891	103891	0	agree	9	0	0
 bb1905:p15:t1	measure: Coffee.	3954	3954	0	agree	9	4	0
 bb1905:p15:t1	measure: Cacao.	35614	35614	0	agree	9	5	0
@@ -956,7 +956,7 @@ bb1921:p15:t3	measure: Tea.	418135	418135	0	agree	9	2	0
 bb1921:p15:t3	measure: Tobacco.	12646	12646	0	agree	9	1	0
 bb1921:p15:t3	measure: Coconuts.	820001	820001	0	agree	9	0	0
 bb1921:p15:t3	measure: Rubber.	390115	390115	0	agree	9	2	0
-bb1922:p15:t2	measure: Paddy.	798514	705514	93000	mismatch	9	0	0
+bb1922:p15:t2	measure: Paddy.	798514	798514	0	agree	9	0	0
 bb1922:p15:t2	measure: Other Grains.	160665	160700	-35	mismatch	9	0	0
 bb1922:p15:t2	measure: Cacao.	33229	33229	0	agree	9	4	0
 bb1922:p15:t2	measure: Cinamon.	24702	24702	0	agree	9	3	0

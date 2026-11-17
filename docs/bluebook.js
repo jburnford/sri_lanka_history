@@ -27,6 +27,13 @@ const BB_LEVELS = {
     text: "The page is probably blank or carries only a section title, and the OCR model has invented this table. Do not use it. Check the page image.",
   },
 };
+// Chart points can also be figures read by eye from the page image (spine/bluebook/page_readings/), not the OCR.
+const BB_POINT_LEVELS = Object.assign({}, BB_LEVELS, {
+  page_image: {
+    title: "Read from the page image",
+    text: "This figure was read by eye from the page image, because the OCR of these tables (1879–1891) misreads many digits. Where the print was faint or ambiguous the note says which reading the totals and the other printing support.",
+  },
+});
 const BB_FLAGS = {
   no_page_number: "No printed page number or running section was found on this page.",
   modern_words: "The table contains modern words (such as “quarterly statements”, “GDP” or “Q1”) that a Blue Book would not print, a sign of invented content.",
@@ -111,8 +118,8 @@ const bbPageImage = (ia, page, width) => "https://archive.org/download/" + encod
 const bbPageLink = (ia, page) => "https://archive.org/details/" + encodeURIComponent(ia) + "/page/n" + (page - 1) + "/mode/1up";
 
 function bbBadge(parent, level) {
-  const tag = add(parent, "span", (BB_LEVELS[level] || { title: level }).title, "bb-level lv-" + level);
-  tag.title = (BB_LEVELS[level] || {}).text || "";
+  const tag = add(parent, "span", (BB_POINT_LEVELS[level] || { title: level }).title, "bb-level lv-" + level);
+  tag.title = (BB_POINT_LEVELS[level] || {}).text || "";
   return tag;
 }
 
@@ -659,11 +666,11 @@ function bbDrawSeries() {
   byId("bb-point").replaceChildren();
   if (!rows.length) return;
   const key = add(root, "div", undefined, "bb-chart-key");
-  for (const level of Object.keys(BB_LEVELS)) {
+  for (const level of Object.keys(BB_POINT_LEVELS)) {
     if (!rows.some((r) => r.level === level)) continue;
     const item = add(key, "span", undefined, "bb-key-item");
     add(item, "i", undefined, "bb-dot lv-" + level);
-    item.append(BB_LEVELS[level].title);
+    item.append(BB_POINT_LEVELS[level].title);
   }
   if (rows.some((r) => !r.dated)) {
     const item = add(key, "span", undefined, "bb-key-item");
@@ -697,8 +704,8 @@ function bbDrawSeries() {
     const offset = sameYear.length > 1 ? (sameYear.indexOf(r) - (sameYear.length - 1) / 2) * 7 : 0;
     const when = r.dated ? String(r.year) : "no single year (" + r.volume + " volume)";
     const dot = svg(s, "circle", { cx: x(r.year) + offset, cy: y(r.value), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated"), tabindex: 0, role: "button",
-      "aria-label": when + ": " + r.printed + " acres, " + BB_LEVELS[r.level].title + ", table " + r.table });
-    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_LEVELS[r.level].title + " · " + r.table;
+      "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + ", table " + r.table });
+    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + " · " + r.table;
     const select = () => {
       dots.forEach((d) => d.classList.toggle("selected", d === dot));
       const out = byId("bb-point");

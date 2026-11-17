@@ -159,7 +159,9 @@ def main():
         # the island total is printed "CEYLON" (1928), "Total" (1902-1912) or as an unlabelled total row (1869)
         if area in ("ceylon", "total") or (not area and "printed total" in r["note"]): area = "ceylon (island total)"
         acreage.append([crop, area, r["area_as_printed"], intval(r["year_volume"]), intval(r["year_data"]),
-                        float(r["value"]), r["value_as_printed"], r["table"], conf.get(r["table"], {}).get("level", "unconfirmed"),
+                        float(r["value"]), r["value_as_printed"], r["table"],
+                        # figures read by eye from the page image (page_readings/) get their own level in the chart
+                        "page_image" if "read from the page image" in r["note"] else conf.get(r["table"], {}).get("level", "unconfirmed"),
                         r["note"]])
     sizes["acreage"] = write("acreage.json", {"fields": ["crop", "area", "area_as_printed", "year_volume", "year_data", "value",
                                                          "value_as_printed", "table", "level", "note"], "rows": acreage}, compress=False)
