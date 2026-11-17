@@ -16,6 +16,8 @@ are listed but not loaded). `volumes.tsv` maps folder to year and archive.org it
 | Trade (Codex Sol job) | `jobs/trade.md`, `jobs/trade_work/` | `extracted/trade*.tsv` | 88,045 figures: imports and exports by article and country for 1924, 1925, 1926, 1928. 78–85% of articles have printed totals that equal the sum of their country rows; the rest are OCR digit errors or skipped rows, listed in `trade_checks.tsv`. 1930–34 do not print the country ledgers. |
 | Figures linked to the spine | `link_observations.py` | `observations.tsv.gz`, `observation_labels_unlinked.tsv` | Each figure's area or country and its crop or article, where the printed label is a name already resolved. `label_aliases.tsv` holds Blue Book spellings ("U. S., America"). |
 
+The atlas's **Blue Books** view (`docs/bluebook.js`) shows every table beside its archive.org page image (image `n<pdf page - 1>`; each archive.org item has as many page images as the PDF has pages). `export_viewer.py` writes its data to `docs/data/bluebook/`; rerun it after any change to the tables, confidence levels or extracts.
+
 Table id: `bb<year>:p<pdf page>:t<n on page>`. Every extracted row carries it, so any number can be traced to
 its page.
 

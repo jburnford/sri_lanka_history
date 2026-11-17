@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
   <script src="vendor/leaflet.js" defer></script>
+  <script src="bluebook.js" defer></script>
   <script src="atlas.js" defer></script>
 </head>
 <body>
@@ -17,6 +18,7 @@
     <nav aria-label="Atlas sections">
       <button type="button" data-view="map" aria-current="page">Explore map</button>
       <button type="button" data-view="records">Browse records</button>
+      <button type="button" data-view="bluebook">Blue Books</button>
       <button type="button" data-view="sources">Sources</button>
     </nav>
   </header>
@@ -54,6 +56,28 @@
       <div class="table-frame"><table><thead id="record-head"></thead><tbody id="record-body"></tbody></table></div>
       <div class="page-controls"><span id="record-count" aria-live="polite"></span><button id="prev-page" type="button">Previous</button><button id="next-page" type="button">Next</button></div>
       <dialog id="record-dialog"><div class="dialog-header"><h2 id="record-title">Record</h2><form method="dialog"><button type="submit" aria-label="Close record">×</button></form></div><div id="record-details"></div></dialog>
+    </section>
+
+    <section id="view-bluebook" class="view" aria-labelledby="bluebook-title" hidden>
+      <div id="bb-search">
+        <div class="eyebrow">CEYLON BLUE BOOKS · 1863–1938</div><h1 id="bluebook-title">Blue Book tables</h1>
+        <p class="lede">Find a parsed table and check it against the printed page. Every figure is OCR output; the confidence level says how far a table has been checked, not that it is right.</p>
+        <div class="table-controls bb-controls">
+          <label>Volume<select id="bb-volume"><option value="">All volumes</option></select></label>
+          <label>Section or heading<input type="search" id="bb-query" placeholder="e.g. paddy, revenue, Kandy"></label>
+          <label>Row or column label<input type="search" id="bb-label" placeholder="e.g. Kegalla, Exports"></label>
+          <label>Confidence<select id="bb-level"><option value="">Any level</option></select></label>
+          <label>Show<select id="bb-show"><option value="">All tables</option><option value="extracted">With extracted figures or officers</option><option value="differ">With totals that do not agree</option></select></label>
+        </div>
+        <p id="bb-volume-note" class="help" aria-live="polite"></p>
+        <div class="table-frame"><table><thead><tr><th scope="col">Table</th><th scope="col">Year</th><th scope="col">Page</th><th scope="col">Section</th><th scope="col">Headings</th><th scope="col">Size</th><th scope="col">Confidence</th><th scope="col">Extracted</th></tr></thead><tbody id="bb-results"></tbody></table></div>
+        <div class="page-controls"><span id="bb-count" aria-live="polite"></span><button id="bb-prev" type="button">Previous</button><button id="bb-next" type="button">Next</button></div>
+        <div class="bb-lower">
+          <details class="bb-levels"><summary>What the confidence levels mean</summary><div id="bb-level-help"></div></details>
+          <article class="bb-series" aria-labelledby="bb-series-title"><h2 id="bb-series-title">Crop acreage, as extracted</h2><p class="help">Acreage by crop from the agriculture tables of five volumes. Each point is one printed figure, coloured by the confidence level of its table. Select a point to open its table.</p><div class="bb-series-controls"><label>Crop<select id="bb-crop"></select></label><label>Area<select id="bb-area"></select></label></div><div id="bb-chart"></div><div id="bb-point" class="help"></div></article>
+        </div>
+      </div>
+      <div id="bb-detail" hidden></div>
     </section>
 
     <section id="view-sources" class="view wide" aria-labelledby="sources-title" hidden>

@@ -249,8 +249,10 @@ function resetLayers() {
   }
 }
 
-function updateHash(value) {
-  history.replaceState(null, "", value ? "#" + value : location.pathname + location.search);
+function updateHash(value, push = false) {
+  const target = value ? "#" + value : location.pathname + location.search;
+  if (push) history.pushState(null, "", target);
+  else history.replaceState(null, "", target);
 }
 
 function selectFeature(meta, feature, zoom) {
@@ -562,7 +564,7 @@ function bindSearch() {
   });
 }
 
-function showView(id, setHash = true) {
+function showView(id, setHash = true, push = false) {
   view = id;
   document.querySelectorAll(".view").forEach((section) => { section.hidden = section.id !== "view-" + id; });
   document.querySelectorAll("[data-view]").forEach((button) => {
@@ -571,12 +573,14 @@ function showView(id, setHash = true) {
   });
   if (setHash) {
     if (id === "map" && selection) {
-      updateHash("map=" + encodeURIComponent(selection.meta.id) + "/" + encodeURIComponent(featureId(selection.feature)));
-    } else updateHash(id);
+      updateHash("map=" + encodeURIComponent(selection.meta.id) + "/" + encodeURIComponent(featureId(selection.feature)), push);
+    } else if (id === "bluebook") updateHash(bluebookHash(), push);
+    else updateHash(id, push);
   }
   if (id === "map") requestAnimationFrame(() => map.invalidateSize());
   if (id === "records") paintRecords();
   if (id === "sources") paintSources();
+  if (id === "bluebook" && setHash) bluebookShowSearch();
 }
 
 function openRecords(id, query = "") {
@@ -697,7 +701,11 @@ async function paintSources() {
 }
 
 function bindViews() {
-  document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => showView(button.dataset.view)));
+  // Moving between views adds a history entry so that the browser's Back button returns to the previous view.
+  document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => {
+    const id = button.dataset.view;
+    showView(id, true, id !== view || id === "bluebook");
+  }));
   document.querySelector(".brand").addEventListener("click", (event) => {
     event.preventDefault();
     showView("map");
@@ -744,21 +752,35 @@ async function start() {
       if (!byId("search-results").hidden) paintSearch();
     }).catch(() => {});
   }
+  window.addEventListener("popstate", route);
+  await route();
+}
+
+// Show the view named in the URL hash. Runs at start and whenever the browser moves through history.
+async function route() {
   const hash = location.hash.slice(1);
-  if (hash === "records" || hash === "sources") showView(hash, false);
+  if (hash === "records" || hash === "sources") return showView(hash, false);
+  if (hash.startsWith("bluebook")) {
+    showView("bluebook", false);
+    return bluebookRoute(hash);
+  }
   if (hash.startsWith("map=")) {
     try {
       const [id, ref] = hash.slice(4).split("/").map(decodeURIComponent);
       const meta = getLayer(id);
-      if (!meta || !ref) return;
+      if (!meta || !ref) return showView("map", false);
+      if (selection && selection.meta.id === id && featureId(selection.feature) === ref) return showView("map", false);
       const feature = (await geometry(id)).features.find((f) => featureId(f) === ref);
       if (feature) {
         document.querySelector('[data-layer="' + id + '"]').checked = true;
         toggle(id, true);
         selectFeature(meta, feature, true);
-      }
+      } else showView("map", false);
     } catch { note("The linked feature could not be loaded."); }
+    return;
   }
+  showView("map", false);
+  if (selection) clearSelection();
 }
 
 start().catch((error) => {
