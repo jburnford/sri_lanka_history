@@ -1,0 +1,91 @@
+sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	value_as_printed	figure_ok	column_ok	article_ok	country_ok	unit_ok	class_group_ok	verdict	what_the_page_shows
+1	bb1901:p573:t1	573	Confectionery	United Kingdom	quantity_home_consumption	340055	yes	yes	yes	yes	yes	yes	ok	
+2	bb1901:p573:t1	573	Curry Stuffs— Chillies	Burmah	value_total_rs	492	yes	yes	yes	yes	yes	yes	ok	
+3	bb1901:p575:t1	575	Flour, Wheat	New South Wales	quantity_total	14569	yes	yes	yes	yes	yes	yes	ok	
+4	bb1901:p575:t1	575	Fruit, fresh— Other	Italy	value_total_rs	5534	yes	yes	yes	yes	yes	yes	ok	
+5	bb1901:p576:t1	576	Fruit, preserved— Other	Germany	quantity_total	176	yes	yes	yes	yes	yes	yes	ok	
+6	bb1901:p577:t1	577	Wheat	British India	value_total_rs	4350	yes	yes	no	yes	yes	yes	wrong	"Figure 4350 is right, but the article is printed ""Grain— Wheat"" (Wheat is a sub-line of the heading Grain—, continued from the previous page as ""Grain—contd.""); the label drops the Grain— level."
+7	bb1901:p582:t1	582	Wines, sparkling— Champagne	Germany	value_total_rs	2406	yes	yes	yes	yes	yes	yes	ok	
+8	bb1901:p585:t1	585	Cotton, waste	Germany	quantity_total	16	yes	yes	yes	yes	yes	yes	ok	
+9	bb1901:p586:t1	586	Steel— Blister	Germany	quantity_total	85	yes	yes	yes	yes	yes	yes	ok	
+10	bb1901:p598:t1	598	Other	Holland	quantity_total	40588	yes	yes	yes	yes	yes	yes	ok	
+11	bb1901:p600:t1	600	Iron— Nails and Rivets	Norway	value_total_rs	8054	yes	yes	yes	yes	yes	yes	ok	
+12	bb1901:p604:t1	604	Implement and accessories	British India	value_total_rs	27	yes	yes	no	yes	yes	yes	wrong	"Figure 27 is right, but the article is printed ""Arms— Implements and accessories"" (indented under the heading Arms— with Guns, single and Guns, double); the label drops the Arms— level."
+13	bb1901:p607:t1	607	Carriages and Carts	British India	quantity_home_consumption	14	yes	yes	yes	yes	yes	yes	ok	
+14	bb1901:p610:t1	610	Furniture	France	value_total_rs	2012	yes	yes	yes	yes	yes	yes	ok	
+15	bb1901:p613:t1	613	Leather Articles— Boots and Shoes	Japan	value_total_rs	133	yes	yes	yes	yes	yes	yes	ok	
+16	bb1901:p618:t1	618	Pasteboard	United Kingdom	quantity_total	14302	yes	yes	yes	yes	yes	yes	ok	
+17	bb1901:p623:t1	623	Stationery, excluding Paper	Egypt	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+18	bb1901:p629:t1	629	Birds' Nests	China (excluding Hongkong)	quantity_total	3	yes	yes	yes	yes	yes	no	wrong	"Figure 3 is right, but Birds' Nests is printed under group ""(2) Food and Drink."" (that heading is printed above Aerated and Mineral Waters, higher on the same page), not under ""(1) Animals, Living""."
+19	bb1901:p631:t1	631	Curry Stuffs	Egypt	value_total_rs	500	yes	yes	yes	yes	yes	yes	ok	
+20	bb1901:p631:t1	631	Curry Stuffs	New South Wales	quantity_ceylon_produce	10	yes	yes	yes	yes	yes	yes	ok	
+21	bb1901:p632:t1	632	Spices— Cinnamon Plantation	New Zealand	value_total_rs	3387	yes	yes	yes	yes	yes	yes	ok	
+22	bb1901:p632:t1	632	Spices— Cinnamon Plantation	New South Wales	value_ceylon_produce_rs	22740	yes	yes	yes	yes	yes	yes	ok	
+23	bb1901:p633:t1	633	Spices— Cinnamon, Plantation	U. S. of America	quantity_total	3922	yes	yes	yes	yes	yes	yes	ok	
+24	bb1901:p633:t1	633	Spices— Cinnamon, Plantation	Germany	value_total_rs	848595	yes	yes	yes	yes	yes	yes	ok	
+25	bb1901:p634:t1	634	Tea	Straits Settlements	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+26	bb1901:p634:t1	634	Spirits— Whisky	British India	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+27	bb1901:p634:t1	634	Tea	Straits Settlements	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+28	bb1901:p635:t1	635	Tea	Other Foreign Countries in Australasia	value_total_rs	2297	yes	yes	yes	yes	yes	yes	ok	
+29	bb1901:p635:t1	635	Tea		value_total_rs	47610950	yes	yes	yes	yes	yes	yes	ok	
+30	bb1901:p635:t1	635	Tea	Sweden	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+31	bb1901:p635:t1	635	Tea	Italy	value_total_rs	3599	yes	yes	yes	yes	yes	yes	ok	
+32	bb1901:p635:t1	635	Tea	China (excluding Hongkong)	quantity_ceylon_produce	2187043	yes	yes	yes	yes	yes	yes	ok	
+33	bb1901:p635:t1	635	Tobacco, manufactured— Cigars	United Kingdom	value_other_produce_rs	92	yes	yes	yes	yes	yes	yes	ok	
+34	bb1901:p636:t1	636	Cotton	United Kingdom	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+35	bb1901:p636:t1	636	Cotton		quantity_other_produce	51585	yes	yes	yes	yes	yes	yes	ok	
+36	bb1901:p639:t1	639	Seeds— Rubber	British India	value_ceylon_produce_rs	10665	yes	yes	yes	yes	yes	yes	ok	
+37	bb1901:p639:t1	639	Seeds— Tea	Other British Possessions in Asia	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+38	bb1901:p640:t1	640	Unenumerated	Straits Settlements	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+39	bb1901:p641:t1	641	Satin		quantity_total	886	yes	yes	yes	yes	yes	yes	ok	
+40	bb1901:p644:t1	644	Hardware	Burma	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+41	bb1901:p644:t1	644	Iron— Other	Maldiv Islands	value_total_rs	40	yes	yes	yes	yes	yes	yes	ok	
+42	bb1901:p647:t1	647	Coir— Rope	Straits Settlements	quantity_total	13187	yes	yes	yes	yes	yes	yes	ok	
+43	bb1901:p647:t1	647	Coir— Yarn	Straits Settlements	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+44	bb1901:p651:t1	651	Oil— Cinnamon Leaf		value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+45	bb1901:p653:t1	653	Unenumerated	Burma	value_other_produce_rs	110	yes	yes	yes	yes	yes	yes	ok	
+46	bb1902:p590:t1	590	Unenumerated		quantity_total	50406	yes	yes	yes	yes	yes	yes	ok	
+47	bb1902:p592:t1	592	Butter— Frözen	United Kingdom	quantity_home_consumption	2380	yes	yes	yes	yes	yes	yes	ok	
+48	bb1902:p605:t1	605	Tobacco, manufactured— Other	New South Wales	value_total_rs	7	yes	yes	yes	yes	yes	yes	ok	
+49	bb1902:p609:t1	609	Coal	Japan	quantity_home_consumption	—	yes	yes	yes	yes	yes	yes	ok	
+50	bb1902:p612:t1	612	Apparel, made up	Holland	quantity_home_consumption	6	yes	yes	yes	yes	yes	yes	ok	
+51	bb1902:p617:t1	617	Unenumerated	British India	value_total_rs	4746	yes	yes	yes	yes	yes	yes	ok	
+52	bb1902:p618:t1	618	Brass— Brass Ware	U. S. of America	value_total_rs	162	yes	yes	yes	yes	yes	yes	ok	
+53	bb1902:p618:t1	618	Hardware	Italy	value_total_rs	34	yes	yes	yes	yes	yes	yes	ok	
+54	bb1902:p619:t1	619	Lead— Tea Lead	United Kingdom	value_total_rs	1130877	yes	yes	yes	yes	yes	yes	ok	
+55	bb1902:p620:t1	620	Solder		quantity_home_consumption	603	yes	yes	yes	yes	yes	yes	ok	
+56	bb1902:p621:t1	621	Tin Ware	Japan	quantity_total	13	yes	yes	yes	yes	yes	yes	ok	
+57	bb1902:p623:t1	623	Books	Burma	quantity_total	192	no	yes	yes	yes	yes	yes	wrong	Books, Burma, Total quantities imported is printed 132 (home consumption also 132), not 192.
+58	bb1902:p624:t1	624	Casks and Shooks	Straits Settlements	quantity_home_consumption	63	yes	yes	yes	yes	yes	yes	ok	
+59	bb1902:p632:t1	632	Machinery— Other— Free	Zanzibar	quantity_home_consumption	1	yes	yes	yes	yes	yes	yes	ok	
+60	bb1902:p634:t1	634	Oil— Castor	British India	quantity_total	6134	yes	yes	yes	yes	yes	yes	ok	
+61	bb1902:p634:t1	634	Oil— Castor	British India	value_total_rs	122696	yes	yes	yes	yes	yes	yes	ok	
+62	bb1902:p636:t1	636	Paper— Other— Free	United Kingdom	quantity_home_consumption	1289	yes	yes	yes	yes	yes	yes	ok	
+63	bb1902:p638:t1	638	Soap— Bar	U. S. of America	quantity_total	44	yes	yes	yes	yes	yes	yes	ok	
+64	bb1902:p641:t1	641	Unenumerated— Dutiable	China	value_total_rs	2800	no	yes	yes	yes	yes	yes	wrong	Unenumerated— Dutiable (contd.), China, Value of Total Imports is printed 2300 (last digit faint), not 2800.
+65	bb1902:p645:t1	645	Cacao	Victoria	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+66	bb1902:p645:t1	645	Bêche-de-mer	China	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+67	bb1902:p646:t1	646	Cocoanut— Fresh	British India	value_total_rs	5725	yes	yes	yes	yes	yes	yes	ok	
+68	bb1902:p647:t1	647	Grain— Rice	United Kingdom	quantity_other_produce	24	yes	yes	yes	yes	yes	yes	ok	
+69	bb1902:p648:t1	648	Spices— Cinnamon, Plantation	Other For. Coun. in Africa	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+70	bb1902:p648:t1	648	Spices— Cinnamon, Plantation	Germany	value_total_rs	817599	yes	yes	yes	yes	yes	yes	ok	
+71	bb1902:p648:t1	648	Grain— Ot		quantity_total	477	yes	yes	no	yes	yes	yes	wrong	"Figure 477 is the total of ""Grain— Other"" (heading Grain—contd.; the word Other is printed broken, ""her"" above ""Ot""). The label ""Grain— Ot"" is a truncated reading of Other."
+72	bb1902:p649:t1	649	Spices— Cinnamon, Wild	Germany	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+73	bb1902:p649:t1	649	Spirits— Whisky	U. S. of America	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+74	bb1902:p650:t1	650	Tea	France	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+75	bb1902:p650:t1	650	Tea	Cape Colony	value_ceylon_produce_rs	90426	yes	yes	yes	yes	yes	yes	ok	
+76	bb1902:p650:t1	650	Tea	British Guiana	quantity_total	250	yes	yes	yes	yes	yes	yes	ok	
+77	bb1902:p651:t1	651	Tea	Greece	quantity_ceylon_produce	2582	yes	yes	yes	yes	yes	yes	ok	
+78	bb1902:p651:t1	651	Tea	Java	quantity_total	40	yes	yes	yes	yes	yes	yes	ok	
+79	bb1902:p651:t1	651	Tea	Spain	value_total_rs	385	yes	yes	yes	yes	yes	yes	ok	
+80	bb1902:p651:t1	651	Unenumerated	Russia in Europe	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+81	bb1902:p651:t1	651	Unenumerated	Maldiv Islands	quantity_ceylon_produce	29	yes	yes	yes	yes	yes	yes	ok	
+82	bb1902:p652:t1	652	Cotton	China	value_ceylon_produce_rs	1	yes	yes	yes	yes	yes	yes	ok	
+83	bb1902:p653:t1	653	Fibre— Coir	United Kingdom	value_total_rs	362824	yes	yes	yes	yes	yes	yes	ok	
+84	bb1902:p653:t1	653	Cocoanut	United Kingdom	quantity_ceylon_produce	2	yes	yes	no	yes	yes	yes	wrong	"Figure 2 is right (United Kingdom, cwt., produce of the Colony), but the article is printed ""Cocoanut Shells"", not ""Cocoanut""."
+85	bb1902:p657:t1	657	Ebony	Belgium	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+86	bb1902:p660:t1	660	Hardware	Corrugated	value_total_rs	435	no	yes	no	no	yes	yes	wrong	"435 is the Value Total (and British/Foreign/other Colonial value) of ""Iron— Corrugated"" for British India. ""Corrugated"" is an article sub-heading under Iron—, not a country, and the row does not belong to Hardware. Hardware's British India value total is 13931."
+87	bb1902:p667:t1	667	Oil— Citronella	France	quantity_ceylon_produce	36416	yes	yes	yes	yes	yes	yes	ok	
+88	bb1902:p668:t1	668	Oil— Other		value_total_rs	31800	yes	yes	yes	yes	yes	yes	ok	
+89	bb1902:p669:t1	669	Unenumerated	Manritius	value_other_produce_rs	1150	yes	yes	yes	yes	yes	yes	ok	
+90	bb1902:p670:t1	670	Pearls and Precious Stones	Br. India	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	

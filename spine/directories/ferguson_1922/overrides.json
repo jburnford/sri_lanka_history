@@ -1,0 +1,910 @@
+{
+  "ferg1922:p548:b4:r2": {
+    "reason": "The agent and chief-clerk labels run together across a line break.",
+    "fields": {
+      "roles": [
+        [
+          "J. G. Bumpu",
+          "Agent"
+        ],
+        [
+          "D. Dias Desinghe",
+          "Chief Clerk"
+        ],
+        [
+          "A. Vallipuram, J.P.M.M.C.",
+          "Shroff"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p548:b6:r1": {
+    "reason": "The final staff labels span commas and the Colombo and Kandy words locate managers.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Wine and Spirit Merchants",
+          "Chemists",
+          "General Storekeepers",
+          "Dressmakers",
+          "Milliners",
+          "Gents' Outfitters"
+        ]
+      },
+      "roles": [
+        [
+          "William Jenkins",
+          "Managing Director"
+        ],
+        [
+          "T. R. Mitchell",
+          "General Manager"
+        ],
+        [
+          "W. Jeany",
+          "Manager"
+        ],
+        [
+          "J. B. Hopley",
+          "Assistant"
+        ],
+        [
+          "B. Reckie",
+          "Chemist"
+        ],
+        [
+          "C. Ivory",
+          "Cutter"
+        ],
+        [
+          "Miss B. E. Kench",
+          "Dressmaker and Milliner"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p548:b6:r3": {
+    "reason": "Ladies' Outfitter is a post rather than part of the final name.",
+    "fields": {
+      "roles": [
+        [
+          "J. B. Hunter",
+          "Managing Proprietor"
+        ],
+        [
+          "Miss Kilbride",
+          "Milliner"
+        ],
+        [
+          "Miss Smith",
+          "Ladies' Outfitter"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p548:b6:r4": {
+    "reason": "The staff list mixes location, department labels, qualifications and punctuation across people.",
+    "fields": {
+      "roles": [
+        [
+          "Walter Philips",
+          "Managing Director"
+        ],
+        [
+          "Frank Cossey",
+          "Kandy Manager and Director"
+        ],
+        [
+          "W. M. Irvine",
+          "Draper"
+        ],
+        [
+          "E. Lucock",
+          "Stores Dept."
+        ],
+        [
+          "J. Wiseman",
+          "Cutter (Outfitting and Tailoring Dept.)"
+        ],
+        [
+          "T. Stewart Brechin, M.P.S.",
+          "Chemist"
+        ],
+        [
+          "H. W. Lake",
+          "Printing Dept."
+        ],
+        [
+          "Miss B. at",
+          "Dressmaker"
+        ],
+        [
+          "Mrs. Thompson",
+          "Milliner"
+        ],
+        [
+          "R. M. Smith",
+          "Chief Clerk"
+        ]
+      ],
+      "listing": {
+        "trades": [
+          "Wine and Spirit Merchants",
+          "Chemists",
+          "General Storekeepers",
+          "Dressmakers",
+          "Milliners",
+          "Gents' Outfitters",
+          "Printers",
+          "Publishers"
+        ]
+      }
+    }
+  },
+  "ferg1922:p549:b4:r3": {
+    "reason": "Parenthesis identifies a Colombo head office, and the manager label has no comma.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Imperial Motor Works",
+        "trades": [
+          "Engineers"
+        ]
+      },
+      "roles": [
+        [
+          "A. B. Pompens",
+          "Manager"
+        ],
+        [
+          "J. R. S. Nicholas",
+          "Foreman"
+        ]
+      ],
+      "connections": [
+        [
+          "Head Office",
+          "branch_at",
+          "Colombo",
+          "place",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b4:r4": {
+    "reason": "First cell supplies Kandy and Colombo works. Third cell supplies a London agent rather than the Kandy address.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Walker, Sons & Co. Ltd.",
+        "address_as_printed": "Fairfield Iron Works, Ward St. Kandy",
+        "trades": [
+          "Engineers"
+        ]
+      },
+      "roles": [
+        [
+          "G. H. Hogg",
+          "Manager pro"
+        ],
+        [
+          "T. B. Kerr",
+          "Engineer"
+        ],
+        [
+          "S. Halliday",
+          "Asst. Engineer"
+        ],
+        [
+          "A. W. Cotter",
+          "Motor Garage"
+        ]
+      ],
+      "connections": [
+        [
+          "and",
+          "branch_at",
+          "Colombo Iron Works",
+          "company",
+          "Colombo"
+        ],
+        [
+          "London Agents",
+          "other",
+          "Walker Brothers",
+          "company",
+          "London"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b6:r1": {
+    "reason": "The correspondents column gives three companies with postal addresses.",
+    "fields": {
+      "connections": [
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Ryland & Sons (Colonial)",
+          "company",
+          "London, E. C."
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Arthur & Co. (Export) Ltd.",
+          "company",
+          "Glasgow"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "J. T. Craven Co., Ltd.",
+          "company",
+          "London, E. C. 2."
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b6:r2": {
+    "reason": "Address is parenthetical. The final cell assigns one general managership and a series of visiting agencies.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Martin M. Smith",
+        "address_as_printed": "Lake Bungalow."
+      },
+      "connections": [
+        [
+          "General Manager for",
+          "other",
+          "General Ceylon Rubber and Tea Estates, Ltd.",
+          "estate company",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Farm Group",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Midland-",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Marakona",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Gurulu",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Galaha Group",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Katooloya",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Cottagons",
+          "unknown",
+          null
+        ],
+        [
+          "V. A. for",
+          "agent_for",
+          "Chesterford Estates",
+          "unknown",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b6:r3": {
+    "reason": "The correspondents column lists six companies, one with two places.",
+    "fields": {
+      "connections": [
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Thos. F. Guthrie & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Snow Bros. Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Henry Haile & Co.",
+          "company",
+          "New York"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Shaw Wallace & Co.",
+          "company",
+          "India and Ceylon"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Darley Butler & Co., Ltd.",
+          "company",
+          "Colombo"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Electric Watch Co.",
+          "company",
+          "Switzerland"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b6:r4": {
+    "reason": "Amsterdam follows the correspondent without a comma.",
+    "fields": {
+      "connections": [
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Holland-Ceylon Commercial",
+          "company",
+          "Amsterdam"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p549:b6:r5": {
+    "reason": "The accountant label follows two bare names without a semicolon, and two correspondents share London.",
+    "fields": {
+      "roles": [
+        [
+          "K. M. Meerawuther",
+          "listed"
+        ],
+        [
+          "K. Ibrahim Saibo",
+          "listed"
+        ],
+        [
+          "S. Joshua",
+          "Accountant"
+        ]
+      ],
+      "connections": [
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "Durrant, Radford & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "CORRESPONDENTS, AGENCIES, &c.",
+          "correspondent",
+          "C. S. Saunders & Co.",
+          "company",
+          "London"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r7": {
+    "reason": "Parenthesis explicitly identifies the Singer entry as a local branch.",
+    "fields": {
+      "connections": [
+        [
+          "Kandy Branch",
+          "branch_at",
+          "Kandy",
+          "place",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r11": {
+    "reason": "The partners column provides a collective business name.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "M. H. A. Mohamado Ismail and Bros.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r17": {
+    "reason": "Parenthesis gives a shop name and a separate trade.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Gun Merchant",
+          "Grocery Stores"
+        ]
+      },
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "Cassima Grocery Stores",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r26": {
+    "reason": "The partners column names a business.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "Fernando and Victoria Bros.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r27": {
+    "reason": "The partners column names a business.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "S. A. A. T. de Mel & Co.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r28": {
+    "reason": "The partners column names a business.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "Nicholas Fernando Bros.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r29": {
+    "reason": "The partners column names a business.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "M. P. Seiyyado & Bros.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r35": {
+    "reason": "The partners column names a business.",
+    "fields": {
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "E. Ahamed Saibo & Co.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p551:b4:r1": {
+    "reason": "Hotel ownership is corporate and managers' names and titles wrap across lines.",
+    "fields": {
+      "roles": [
+        [
+          "W. J. Byrne",
+          "Manager"
+        ],
+        [
+          "Nigel I. Lee",
+          "Secretary"
+        ],
+        [
+          "J. W. Maxwell Johnstone",
+          "Managing Director"
+        ]
+      ],
+      "connections": [
+        [
+          "Proprietors",
+          "other",
+          "Kandy Hotels Co., Ltd.",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p551:b6:r0": {
+    "reason": "Mr. Sproule is named parenthetically after the company without a title.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Kandy Aerated Water Co.",
+        "kind": "firm",
+        "address_as_printed": "9, Kirk Street"
+      },
+      "roles": [
+        [
+          "Mr. Sproule",
+          "listed"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p551:b7:r0": {
+    "reason": "Second address is explicitly qualified as an office.",
+    "fields": {
+      "listing": {
+        "address_as_printed": "Gregory Road; Office, Brownrigg Street."
+      },
+      "connections": [
+        [
+          "Office",
+          "other",
+          "Brownrigg Street.",
+          "place",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p551:b9:r7": {
+    "reason": "The address names the outstation Hatton.",
+    "fields": {
+      "listing": {
+        "town": "Hatton"
+      }
+    }
+  },
+  "ferg1922:p551:b9:r8": {
+    "reason": "The address names Colombo.",
+    "fields": {
+      "listing": {
+        "town": "Colombo"
+      }
+    }
+  },
+  "ferg1922:p551:b9:r16": {
+    "reason": "The OCR place name appears as Mata'e.",
+    "fields": {
+      "listing": {
+        "town": "Mata'e"
+      }
+    }
+  },
+  "ferg1922:p551:b11:r4": {
+    "reason": "Mrs Sproule is printed parenthetically after the bakery name.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "New Kandy Bakery",
+        "kind": "firm"
+      },
+      "roles": [
+        [
+          "Mrs Sproule",
+          "listed"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p552:b14:r4": {
+    "reason": "S. S. Dawood is named parenthetically after the works.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Popular Motor Cycle Works"
+      },
+      "roles": [
+        [
+          "S. S. Dawood",
+          "listed"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r0": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The People's Dispensary",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r1": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Apothecaries' Hall",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r2": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Surgery & Dispensary",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r3": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Kandy Pharmacy",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r4": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Pharmacol",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r5": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Apothecaries' Hall",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r9": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The People's Dispensary",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b4:r10": {
+    "reason": "The third cell names the medical practice.",
+    "fields": {
+      "connections": [
+        [
+          "MEDICAL PRACTITIONERS (PRIVATE).",
+          "other",
+          "The Apothecaries' Hall",
+          "company",
+          null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b16:r1": {
+    "reason": "The OCR split the company suffix and acting manager into the following row.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Colombo Apothecaries Co., Ld."
+      },
+      "roles": [
+        [
+          "P. S. Raymond",
+          "Manager"
+        ],
+        [
+          "E. Neeb",
+          "acting"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p554:b16:r2": {
+    "reason": "Suffix and acting manager belong to the preceding row.",
+    "fields": {
+      "skip": true
+    }
+  },
+  "ferg1922:p554:b20:r2": {
+    "reason": "The printer and person are printed together in the first cell.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Lanka Pradipaya Printing Press"
+      },
+      "roles": [
+        [
+          "D. John De Alwis",
+          "listed"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p555:b4:r2": {
+    "reason": "The first cell gives the person and the named works.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Empress Works",
+        "kind": "firm"
+      },
+      "roles": [
+        [
+          "S. W. Cronenberg",
+          "listed"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p548:b4:r1": {
+    "reason": "Line breaks separate agent, chief clerk and shroff.",
+    "fields": {
+      "roles": [
+        [
+          "F. C. Macdonald",
+          "Agent"
+        ],
+        [
+          "D. L. de Alwis",
+          "Chief Clerk"
+        ],
+        [
+          "J. C. Ratwatte",
+          "Shroff"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p548:b6:r7": {
+    "reason": "China and Glassware Importers is a shared trade label.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Dressmakers",
+          "Milliners",
+          "Gents' Outfitters",
+          "China and Glassware Importers",
+          "Household Furnishers"
+        ]
+      }
+    }
+  },
+  "ferg1922:p549:b4:r2": {
+    "reason": "Professional postnominal and assistant title sit mid-list.",
+    "fields": {
+      "roles": [
+        [
+          "Harvey Whittle, AMIEE",
+          "Resident Engineer"
+        ],
+        [
+          "H. Hall",
+          "Asst. Engineer"
+        ],
+        [
+          "Norman A. Keegel",
+          "Chief Clerk and Book-keeper"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p550:b4:r14": {
+    "reason": "The parenthetical descriptor is a trade, with damaged names in the partners column.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "E. F. Cader Saibo & Co.",
+        "trades": [
+          "Canners"
+        ]
+      }
+    }
+  },
+  "ferg1922:p550:b4:r36": {
+    "reason": "The unusual joined trade word is printed in the OCR.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Oilmanstores"
+        ],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p552:b4:r8": {
+    "reason": "Parentheses identify the business connected with Corner Stores.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Corner Stores"
+      },
+      "connections": [
+        [
+          "BOOK-SELLERS AND STATIONERS.",
+          "other",
+          "S. A. A. T. de Mel & Co",
+          "company",
+          null
+        ]
+      ]
+    }
+  }
+}

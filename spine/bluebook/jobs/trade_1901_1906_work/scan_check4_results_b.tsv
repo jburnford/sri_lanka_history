@@ -1,0 +1,91 @@
+sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	value_as_printed	figure_ok	column_ok	article_ok	country_ok	unit_ok	class_group_ok	verdict	what_the_page_shows
+136	bb1904:p631:t1	631	Beer and Ale— Bottled	Austria	quantity_total	1509	yes	yes	yes	yes	yes	yes	ok	
+137	bb1904:p635:t1	635	Fruit, fresh— Other	France	quantity_total	6	yes	yes	yes	yes	yes	yes	ok	
+138	bb1904:p636:t1	636	Fruit, preserved— Other	France	quantity_total	210	yes	yes	yes	yes	yes	yes	ok	
+139	bb1904:p643:t1	643	Wines, still— Port— In bottle	United Kingdom	quantity_home_consumption	2729	yes	yes	yes	yes	yes	yes	ok	
+140	bb1904:p659:t1	659	Drums and Tanks		quantity_home_consumption	2403	yes	yes	yes	yes	yes	yes	ok	ok as printed: no 'Iron—' parent heading is printed on this page above Drums and Tanks (follows Hardware total), though Galvanized/Hoop/Nails and Rivets/Other below are evidently iron sub-lines
+141	bb1904:p660:t1	660	Plate— Silver or Silver-gilt	China	quantity_total	56	yes	yes	yes	yes	yes	yes	ok	
+142	bb1904:p664:t1	664	Twine	Japan	value_total_rs	59	yes	yes	yes	yes	yes	yes	ok	
+143	bb1904:p665:t1	665	Copra		quantity_home_consumption	4111	yes	yes	yes	yes	yes	yes	ok	
+144	bb1904:p665:t1	665	Corks	United Kingdom	quantity_total	104	yes	yes	yes	yes	yes	yes	ok	
+145	bb1904:p669:t1	669	Hats and Bonnets	Japan	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	
+146	bb1904:p669:t1	669	Hats and Bonnets	Austria	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+147	bb1904:p671:t1	671	Machinery— Tea	Canada	value_total_rs	634	yes	yes	yes	yes	yes	yes	ok	
+148	bb1904:p674:t1	674	Oil— Kerosine— Bulk	Borneo (exc. British)	quantity_total	293008	yes	yes	yes	yes	yes	yes	ok	
+149	bb1904:p674:t1	674	Oil— Castor	Germany	quantity_home_consumption	7	yes	yes	yes	yes	yes	yes	ok	
+150	bb1904:p678:t1	678	Stores— Railway Plant and Rolling Stock— Carriages and Trucks and parts thereof	U. S. of America	quantity_total	565	yes	yes	yes	yes	yes	yes	ok	
+151	bb1904:p679:t1	679	Stationery, excluding Paper	Belgium	quantity_total	5	yes	yes	yes	yes	yes	yes	ok	
+152	bb1904:p681:t1	681	Silver— Coin	British India	quantity_home_consumption	1255	yes	yes	yes	yes	yes	yes	ok	ok as printed: unit is a ditto mark under 'Bars' of Silver—Bullion (literal reading Bars; probably a printer's ditto slip for coin)
+153	bb1904:p686:t1	686	Coffee— Arabian— Plantation	Burma	quantity_total	68	yes	yes	yes	yes	yes	yes	ok	
+154	bb1904:p688:t1	688	Spices— Cinnamon, Plantation	U. S. of America	value_ceylon_produce_rs	223029	yes	yes	yes	yes	yes	yes	ok	
+155	bb1904:p688:t1	688	Spices— Cinnamon, Plantation	New Zealand	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+156	bb1904:p688:t1	688	Spices— Cinnamon, Plantation	Belgium	value_total_rs	165526	yes	yes	yes	yes	yes	yes	ok	
+157	bb1904:p688:t1	688	Honey	India (exc. British)	quantity_ceylon_produce	58	yes	yes	yes	yes	yes	yes	ok	
+158	bb1904:p690:t1	690	Tea	Newfoundland	value_ceylon_produce_rs	44851	yes	yes	yes	yes	yes	yes	ok	
+159	bb1904:p690:t1	690	Tea	British West Indies	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+160	bb1904:p690:t1	690	Tea	West Australia	value_ceylon_produce_rs	310664	yes	yes	yes	yes	yes	yes	ok	
+161	bb1904:p690:t1	690	Tea	Straits Settlements	value_total_rs	109973	yes	yes	yes	yes	yes	yes	ok	
+162	bb1904:p691:t1	691	Tea	South America	quantity_ceylon_produce	44117	yes	yes	yes	yes	yes	yes	ok	
+163	bb1904:p691:t1	691	Tea	Turkey in Asia	value_ceylon_produce_rs	24437	yes	yes	yes	yes	yes	yes	ok	
+164	bb1904:p691:t1	691	Tea	Norway	quantity_ceylon_produce	8498	yes	yes	yes	yes	yes	yes	ok	
+165	bb1904:p691:t1	691	Tea	Japan	value_ceylon_produce_rs	40963	yes	yes	yes	yes	yes	yes	ok	
+166	bb1904:p691:t1	691	Unenumerated	Burma	quantity_total	12	yes	yes	yes	yes	yes	yes	ok	
+167	bb1904:p696:t1	696	Seeds— Other	Other For. Coun. in Australasia	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	
+168	bb1904:p696:t1	696	Unenumerated	Burma	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+169	bb1904:p697:t1	697	Apparel, made up	New South Wales	quantity_ceylon_produce	3	yes	yes	yes	yes	yes	yes	ok	ok: printed heading is '(1) Textile. (d) Apparel, made up' (lettered '(a)' on the continuation page); no separate article line
+170	bb1904:p698:t1	698	Lace and Net	France	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+171	bb1904:p699:t1	699	Brass— Brassware	British India	value_total_rs	6370	yes	yes	yes	yes	yes	yes	ok	
+172	bb1904:p700:t1	700	Lead— Tea Lead		quantity_total	970	yes	yes	yes	yes	yes	yes	ok	
+173	bb1904:p700:t1	700	Plate— Silver or Silver-gilt	Hong Kong	value_other_produce_rs	1000	yes	yes	yes	yes	yes	yes	ok	
+174	bb1904:p703:t1	703	Coir— Other	India (exc. British)	value_ceylon_produce_rs	14	yes	yes	yes	yes	yes	yes	ok	
+175	bb1904:p703:t1	703	Copra	Austria	value_ceylon_produce_rs	600656	yes	yes	yes	yes	yes	yes	ok	
+176	bb1904:p704:t1	704	Curios and Fancy Articles	Italy	value_total_rs	320	yes	yes	yes	yes	yes	yes	ok	
+177	bb1904:p706:t1	706	Machinery— Other		quantity_total	269	yes	yes	yes	yes	yes	yes	ok	
+178	bb1904:p706:t1	706	Government Stores	British India	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+179	bb1904:p707:t1	707	Oil— Cinnamon Leaf		quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+180	bb1904:p709:t1	709	Timber, worked— Other	Straits Settlements	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+181	bb1905:p651:t1	651	Butter— Frozen		quantity_home_consumption	66310	yes	yes	yes	yes	yes	yes	ok	
+182	bb1905:p651:t1	651	Butter— Tinned	Egypt	quantity_home_consumption	84	yes	yes	yes	yes	yes	yes	ok	
+183	bb1905:p657:t1	657	Pork, salted	British India	value_total_rs	12	yes	yes	yes	yes	yes	yes	ok	
+184	bb1905:p659:t1	659	Spirits— Gin	Germany	quantity_total	14	yes	yes	yes	yes	yes	yes	ok	
+185	bb1905:p661:t1	661	Wines, still— Claret— In bottle	United Kingdom	quantity_home_consumption	167	yes	yes	yes	yes	yes	yes	ok	
+186	bb1905:p665:t1	665	Iron— Bar, flat, rod, nail rod	Sweden	quantity_home_consumption	696	yes	yes	yes	yes	yes	yes	ok	
+187	bb1905:p666:t1	666	Aniline		quantity_home_consumption	—	yes	yes	yes	yes	yes	no	wrong	figure, column, article, country, unit all right; group heading as printed is '(3) Other: (a) Chemical, Dyeing, and Tanning Materials—' (wrapped onto two lines) - the word 'Materials' is dropped from the group label
+188	bb1905:p668:t1	668	Hides		quantity_home_consumption	33	yes	yes	yes	yes	yes	yes	ok	
+189	bb1905:p671:t1	671	Piece Goods— Bleached	India (exc. British)	quantity_home_consumption	453	yes	yes	yes	yes	yes	yes	ok	
+190	bb1905:p673:t1	673	Piece Goods	China	quantity_total	195	yes	yes	yes	yes	yes	yes	ok	
+191	bb1905:p676:t1	676	Other	China	quantity_home_consumption	120	yes	yes	yes	yes	yes	yes	ok	
+192	bb1905:p684:t1	684	Clocks	United Kingdom	value_total_rs	12573	yes	yes	yes	yes	yes	yes	ok	
+193	bb1905:p686:t1	686	Furniture	Austria	value_total_rs	15269	yes	yes	yes	yes	yes	yes	ok	
+194	bb1905:p687:t1	687	Glass— Window and German sheet	British India	quantity_home_consumption	7	yes	yes	yes	yes	yes	yes	ok	
+195	bb1905:p688:t1	688	Instruments— Musical	U. S. of America	quantity_total	62	yes	yes	yes	yes	yes	yes	ok	
+196	bb1905:p696:t1	696	Stores— Military and Naval		value_total_rs	—	yes	yes	yes	yes	yes	yes	ok	
+197	bb1905:p699:t1	699	Umbrellas	British India	quantity_total	169	yes	yes	yes	yes	yes	yes	ok	
+198	bb1905:p704:t1	704	Cacao	Denmark	value_ceylon_produce_rs	1577	yes	yes	yes	yes	yes	yes	ok	
+199	bb1905:p704:t1	704	Cocoanut— Desiccated	Aden	quantity_ceylon_produce	4	yes	yes	yes	yes	yes	yes	ok	
+200	bb1905:p707:t1	707	Spices— Cinnamon, Plantation	United Kingdom	value_ceylon_produce_rs	296025	yes	yes	yes	yes	yes	yes	ok	
+201	bb1905:p707:t1	707	Spices— Cinnamon, Plantation	New Zealand	value_other_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+202	bb1905:p709:t1	709	Tea	Cape Colony	quantity_total	210566	yes	yes	yes	yes	yes	yes	ok	
+203	bb1905:p709:t1	709	Tea	Canada	quantity_ceylon_produce	5160884	yes	yes	yes	yes	yes	yes	ok	
+204	bb1905:p709:t1	709	Tea	South Australia	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+205	bb1905:p709:t1	709	Tea	Tasmania	value_ceylon_produce_rs	26566	yes	yes	yes	yes	yes	yes	ok	
+206	bb1905:p709:t1	709	Tea	Zanzibar	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+207	bb1905:p709:t1	709	Tea	Maldiv Islands	quantity_ceylon_produce	3236	yes	yes	yes	yes	yes	yes	ok	ok: printed 'Maldive Islands'; 3236 is under Black sub-column of Produce and manufactures of the Colony
+208	bb1905:p709:t1	709	Tea	Straits Settlements	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+209	bb1905:p709:t1	709	Tea	Hong Kong	quantity_total	752409	yes	yes	yes	yes	yes	yes	ok	
+210	bb1905:p714:t1	714	Plumbago	Holland	quantity_ceylon_produce	1496	yes	yes	yes	yes	yes	yes	ok	
+211	bb1905:p715:t1	715	Tar	Br. India	quantity_ceylon_produce	3346	yes	yes	yes	yes	yes	yes	ok	
+212	bb1905:p717:t1	717	Piece Goods— Bleached	United Kingdom	quantity_other_produce	2110	yes	yes	yes	yes	yes	yes	ok	
+213	bb1905:p717:t1	717	Apparel, made up	Br. India	quantity_ceylon_produce	9	yes	yes	yes	yes	yes	yes	ok	
+214	bb1905:p719:t1	719	Iron— Drums and Tanks	British India	value_ceylon_produce_rs	100	yes	yes	yes	yes	yes	yes	ok	
+215	bb1905:p720:t1	720	Boats	Straits Settlements	quantity_other_produce	1	yes	yes	yes	yes	yes	yes	ok	
+216	bb1905:p720:t1	720	Plate— Electroplate	British India	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+217	bb1905:p722:t1	722	Coir— Yarn	Tasmania	quantity_total	323	yes	yes	yes	yes	yes	yes	ok	ok as printed: class heading on this page reads 'II.—Manufactured Articles—contd.' (first I lost/misprinted; it is class III)
+218	bb1905:p722:t1	722	Coir— Yarn	India (exc. British)	quantity_total	137	yes	yes	yes	yes	yes	yes	ok	ok as printed: class heading on this page reads 'II.—Manufactured Articles—contd.' (first I lost/misprinted; it is class III)
+219	bb1905:p723:t1	723	Earthenware	Br. East Africa	value_other_produce_rs	100	yes	yes	yes	yes	yes	yes	ok	
+220	bb1905:p726:t1	726	Oil— Cinnamon Leaf	Germany	quantity_ceylon_produce	19296	yes	yes	yes	yes	yes	yes	ok	
+221	bb1905:p726:t1	726	Oil— Cocoanut	Cape Colony	value_ceylon_produce_rs	3342	yes	yes	yes	yes	yes	yes	ok	
+222	bb1905:p727:t1	727	Ponnc	Canada	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	ok: printed 'Poonac'
+223	bb1905:p728:t1	728	Timber, worked— Other	British India	value_ceylon_produce_rs	13627	yes	yes	yes	yes	yes	yes	ok	
+224	bb1905:p728:t1	728	Stones, worked		quantity_ceylon_produce	122	yes	yes	yes	yes	yes	yes	ok	
+225	bb1905:p731:t1	731	Yarn and Twist— Dyed	United Kingdom	quantity_home_consumption	56	yes	yes	yes	yes	yes	yes	ok	

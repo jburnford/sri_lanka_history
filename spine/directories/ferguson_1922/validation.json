@@ -1,0 +1,15 @@
+{
+  "unique_ids": true,
+  "valid_references": true,
+  "fields_at_most_200": true,
+  "dangling_references": [],
+  "overlong_fields": [],
+  "counts": {
+    "A": {
+      "listings": 285,
+      "roles": 254,
+      "connections": 43
+    }
+  },
+  "skipped": {}
+}
