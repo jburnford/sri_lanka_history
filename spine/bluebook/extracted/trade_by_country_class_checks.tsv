@@ -1,0 +1,128 @@
+table_id	volume	year_data	statement	row_label	source_row	check
+bb1922:p227:t1	1922		domestic_exports	United States	15	classes add to 64502454, total merchandise printed 4502454; merchandise and bullion add to 4502454, total printed 64502454
+bb1923:p232:t1	1923		imports	Other Parts of the British Empire	5	classes add to 168719122, total merchandise printed 168710122; merchandise and bullion add to 172924779, total printed 172933779
+bb1923:p239:t1	1923		total_exports	Postal Articles	47	merchandise and bullion add to 0, total printed 2803097
+bb1924:p249:t1	1924	1924	imports	Straits Settlements	27	classes add to 4040532, total merchandise printed 4040732
+bb1924:p250:t1	1924	1924	imports	Greece	41	classes add to 2077, total merchandise printed 2127
+bb1924:p256:t1	1924	1924	total_exports	Postal Articles	54	merchandise and bullion add to 0, total printed 3374962
+bb1925:p161:t1	1925	1925	imports	Other Parts of the British Empire	5	classes add to 200931105, total merchandise printed 200931005
+bb1925:p161:t1	1925	1925	imports	Gibraltar	35	classes add to 11572, total merchandise printed 1572; merchandise and bullion add to 1572, total printed 11572
+bb1925:p168:t1	1925	1925	total_exports	Postal Articles	54	merchandise and bullion add to 0, total printed 4588903
+bb1926:p167:t1	1926	1926	imports	Maldiv Islands	26	classes add to 48976402, total merchandise printed 4976402
+bb1926:p168:t1	1926	1926	imports	Belgium	43	classes add to 4037077, total merchandise printed 4057077
+bb1926:p169:t1	1926	1926	domestic_exports	British East Africa	8	classes add to 309264, total merchandise printed 300264
+bb1926:p170:t1	1926	1926	domestic_exports	Central America	14	classes add to 619042, total merchandise printed 618842
+bb1926:p173:t1	1926	1926	total_exports	Egypt	12	classes add to 6895132, total merchandise printed 6835132
+bb1926:p173:t1	1926	1926	total_exports	Australia	33	classes add to 20239021, total merchandise printed 20240021
+bb1926:p174:t1	1926	1926	total_exports	Java	28	classes add to 245743, total merchandise printed 24543; merchandise and bullion add to 24543, total printed 245743
+bb1926:p174:t1	1926	1926	total_exports	Philippines	30	classes add to 816579, total merchandise printed 816585
+bb1926:p174:t1	1926	1926	total_exports	Germany	50	classes add to 24365488, total merchandise printed 24362488
+bb1926:p174:t1	1926	1926	total_exports	Italy	54	classes add to 12852335, total merchandise printed 12912335
+bb1926:p174:t1	1926	1926	total_exports	Turkey in Europe	65	classes add to 185873, total merchandise printed 185773
+bb1926:p174:t1	1926	1926	total_exports	Postal Articles	68	merchandise and bullion add to 0, total printed 3752921
+bb1927:p163:t1	1927	1927	imports	British South Africa	9	classes add to 7371209, total merchandise printed 7371109
+bb1927:p164:t1	1927	1927	imports	Madagascar	7	classes add to 457, total merchandise printed 456
+bb1927:p164:t1	1927	1927	imports	United States	18	classes add to 20155058, total merchandise printed 14155058
+bb1927:p164:t1	1927	1927	imports	Austria	41	classes add to 621264, total merchandise printed 621624
+bb1927:p164:t1	1927	1927	imports	Belgium	42	classes add to 4174562, total merchandise printed 4164562
+bb1927:p164:t1	1927	1927	imports	Finland	46	classes add to 961061, total merchandise printed 861061
+bb1927:p165:t1	1927	1927	domestic_exports	United Kingdom	4	classes add to 185235261, total merchandise printed 85235261; merchandise and bullion add to 85235261, total printed 185235261
+bb1927:p165:t1	1927	1927	domestic_exports	Burma	24	classes add to 305060, total merchandise printed 295060
+bb1927:p166:t1	1927	1927	domestic_exports	Arabia	22	merchandise and bullion add to 6636, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	China (exc. Hong Kong)	24	merchandise and bullion add to 3440253, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Cochin-China	25	merchandise and bullion add to 18765, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	India (exc. British)	26	merchandise and bullion add to 111147, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Japan	27	merchandise and bullion add to 1691746, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Java	28	merchandise and bullion add to 144685, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Persia	29	merchandise and bullion add to 316770, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Philippine Islands	30	merchandise and bullion add to 913563, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Russia in Asia	31	merchandise and bullion add to 686221, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Siam	32	merchandise and bullion add to 98222, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Smyrna	33	merchandise and bullion add to 226461, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Sumatra	34	merchandise and bullion add to 65702, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Syria	35	merchandise and bullion add to 51440, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Turkey in Asia	36	merchandise and bullion add to 61515, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Other Foreign Countries	37	merchandise and bullion add to 89, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	New Caledonia	39	merchandise and bullion add to 36, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Other Foreign Countries	40	merchandise and bullion add to 12797, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Austria	42	merchandise and bullion add to 9325, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Belgium	43	merchandise and bullion add to 3556755, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Denmark	45	merchandise and bullion add to 6175219, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Estonia	46	merchandise and bullion add to 64, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Finland	47	merchandise and bullion add to 59518, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Fiume	48	merchandise and bullion add to 417843, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	France	49	merchandise and bullion add to 3575275, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Germany	50	merchandise and bullion add to 21174610, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Greece	51	classes add to 658904, total merchandise printed 658884; merchandise and bullion add to 658884, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Holland	52	merchandise and bullion add to 4950974, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Hungary	53	merchandise and bullion add to 50414, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Italy	54	merchandise and bullion add to 10883273, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Norway	56	merchandise and bullion add to 5919445, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Poland including Dantzig	57	merchandise and bullion add to 174494, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Portugal	58	merchandise and bullion add to 647, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Roumania	59	merchandise and bullion add to 449206, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Russia in Europe	60	merchandise and bullion add to 2745182, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Spain (exc. Gibraltar)	62	merchandise and bullion add to 1563239, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Sweden	63	merchandise and bullion add to 1414926, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Switzerland	64	merchandise and bullion add to 39820, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Turkey in Europe	65	merchandise and bullion add to 68295, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Other Foreign Countries	66	merchandise and bullion add to 5347, total printed 0
+bb1927:p166:t1	1927	1927	domestic_exports	Ships Stores	67	merchandise and bullion add to 1336616, total printed 0
+bb1927:p167:t1	1927	1927	re_exports	Grand Total excluding Value of Ships Stores	3	classes add to 16514016, total merchandise printed 16514056
+bb1927:p167:t1	1927	1927	re_exports	United Kingdom	4	classes add to 1772309, total merchandise printed 1772289
+bb1927:p170:t1	1927	1927	total_exports	Japan	27	classes add to 1761664, total merchandise printed 1760664
+bb1927:p170:t1	1927	1927	total_exports	Sumatra	34	classes add to 82873, total merchandise printed 92873
+bb1927:p170:t1	1927	1927	total_exports	Germany	50	classes add to 21674740, total merchandise printed 21724740
+bb1927:p170:t1	1927	1927	total_exports	Postal Articles	68	merchandise and bullion add to 0, total printed 213122
+bb1928:p180:t1	1928	1928	imports	Cochin-China	25	classes add to 4488488, total merchandise printed 4488518
+bb1928:p180:t1	1928	1928	imports	Italy	53	classes add to 2934100, total merchandise printed 3024100
+bb1928:p182:t1	1928	1928	domestic_exports	Other Foreign Countries	21	classes add to 219160, total merchandise printed 220060
+bb1928:p182:t1	1928	1928	domestic_exports	Belgium	44	classes add to 4821292, total merchandise printed 4821312
+bb1928:p182:t1	1928	1928	domestic_exports	Greece	51	classes add to 18546641, total merchandise printed 18555641
+bb1928:p182:t1	1928	1928	domestic_exports	Other Foreign Countries	66	classes add to 723917, total merchandise printed 705917
+bb1928:p183:t1	1928	1928	re_exports	Straits Settlements and Malay States	28	classes add to 361601, total merchandise printed 361501
+bb1928:p184:t1	1928	1928	re_exports	Ships Stores	67	classes add to 23707830, total merchandise printed 23707790
+bb1928:p185:t1	1928	1928	total_exports	Grand Total excluding Value of Ships Stores and Postal Articles	3	merchandise and bullion add to 391669975, total printed 392569975
+bb1928:p185:t1	1928	1928	total_exports	Other Parts of the British Empire	5	classes add to 71529275, total merchandise printed 71525275
+bb1928:p185:t1	1928	1928	total_exports	Soudan	8	classes add to 1186127, total merchandise printed 1141127
+bb1928:p185:t1	1928	1928	total_exports	British India (exc. Burma)	22	classes add to 16324514, total merchandise printed 16329514
+bb1928:p186:t1	1928	1928	total_exports	Postal Articles	68	merchandise and bullion add to 0, total printed 3895376
+bb1929:p193:t1	1929	1929	imports	British Guiana	14	classes add to 78, total merchandise printed 48
+bb1929:p198:t1	1929	1929	imports	Foreign Countries	3	unreadable figure
+bb1929:p198:t1	1929	1929	imports	Egypt	6	classes add to 1481575, total merchandise printed 1490575
+bb1929:p198:t1	1929	1929	imports	Argentine Republic	12	merchandise and bullion add to 16704, total printed 16714
+bb1929:p198:t1	1929	1929	imports	United States	18	classes add to 13494354, total merchandise printed 13494444
+bb1929:p198:t1	1929	1929	imports	Finland	46	classes add to 985774, total merchandise printed 985684
+bb1929:p198:t1	1929	1929	imports	Italy	53	classes add to 3343280, total merchandise printed 3343380
+bb1929:p204:t1	1929	1929	domestic_exports	Russia in Europe	61	classes add to 2800537, total merchandise printed 2860537
+bb1929:p205:t1	1929	1929	re_exports	United Kingdom	4	merchandise and bullion add to 1236091, total printed 1256091
+bb1929:p205:t1	1929	1929	re_exports	British India (exc. Burma)	21	classes add to 4012955, total merchandise printed 4012975; merchandise and bullion add to 20250587, total printed 20250567
+bb1929:p208:t1	1929	1929	total_exports	Postal Articles	68	merchandise and bullion add to 0, total printed 3984967
+bb1930:p183:t1	1930	1930	imports	Grand Total	3	classes add to 302132857, total merchandise printed 302182857; merchandise and bullion add to 324406513, total printed 324356513
+bb1930:p195:t1	1930	1930	re_exports	Burma	23	classes add to 77031, total merchandise printed 7031; merchandise and bullion add to 7031, total printed 77031
+bb1930:p196:t1	1930	1930	re_exports	Ships Stores	67	classes add to 19472569, total merchandise printed 19472229
+bb1930:p197:t1	1930	1930	total_exports	Australia	31	classes add to 17555331, total merchandise printed 17555831; merchandise and bullion add to 17555831, total printed 17555331
+bb1930:p198:t1	1930	1930	total_exports	Postal Articles	68	merchandise and bullion add to 0, total printed 2355822
+bb1931:p179:t1	1931	1931	imports	Hong Kong	25	classes add to 442854, total merchandise printed 742854
+bb1931:p185:t1	1931	1931	domestic_exports	British East Africa	8	classes add to 75464, total merchandise printed 75469
+bb1931:p185:t1	1931	1931	domestic_exports	British South Africa	9	classes add to 6562567, total merchandise printed 6562557
+bb1931:p191:t1	1931	1931	re_exports	Burma	23	classes add to 59286, total merchandise printed 59586
+bb1931:p192:t1	1931	1931	re_exports	Portuguese East Africa	9	classes add to 1546, total merchandise printed 1018
+bb1931:p194:t1	1931	1931	total_exports	Postal Articles	67	merchandise and bullion add to 0, total printed 1295407
+bb1932:p177:t1	1932	1932	imports	Hong Kong	25	classes add to 723114, total merchandise printed 723164
+bb1932:p177:t1	1932	1932	imports	Maldivé Islands	27	classes add to 3093468, total merchandise printed 3093471
+bb1932:p188:t1	1932	1932	domestic_exports	United States	20	classes add to 16473349, total merchandise printed 1673349; merchandise and bullion add to 1673349, total printed 16473349
+bb1932:p192:t1	1932	1932	total_exports	Postal Articles	67	merchandise and bullion add to 0, total printed 1380097
+bb1933:p188:t1	1933	1933	imports	Algeria	4	classes add to 29, total merchandise printed 2; merchandise and bullion add to 2, total printed 29
+bb1934:p185:t1	1934	1934	imports	United Kingdom	3	classes add to 39850634, total merchandise printed 39850637; merchandise and bullion add to 39943651, total printed 39943648
+bb1934:p185:t1	1934	1934	imports	Malta	43	classes add to 85797, total merchandise printed 85795
+bb1934:p200:t1	1934	1934	total_exports	Holland	54	classes add to 4421079, total merchandise printed 4391079
+bb1935:p187:t1	1935	1935	imports	United Kingdom	3	merchandise and bullion add to 46899853, total printed 46899953
+bb1935:p192:t1	1935	1935	imports	Holland	50	classes add to 1042077, total merchandise printed 1092077
+bb1935:p192:t1	1935	1935	imports	Hungary	51	classes add to 16482, total merchandise printed 6482
+bb1935:p202:t1	1935	1935	total_exports	Foreign West Indies	18	classes add to 541823, total merchandise printed 514338
+bb1935:p202:t1	1935	1935	total_exports	Mexico	19	classes add to 1302536, total merchandise printed 1272536
+bb1936:p201:t1	1936	1936	total_exports	Burma	30	classes add to 536110, total merchandise printed 538110
+bb1938:p209:t1	1938	1938	imports	Total other Parts of the British Empire	52	merchandise and bullion add to 110276784, total printed 110277784
+bb1938:p221:t1	1938	1938	re_exports	Total Other Parts of the British Empire	49	classes add to 1961021, total merchandise printed 1961024
+bb1938:p221:t1	1938	1938	re_exports	Total British Empire	50	classes add to 2381238, total merchandise printed 2386238

@@ -1,427 +1,902 @@
 role	label_as_printed	rows
-article	Other	1446
-country	Ships Stores	1251
-article	Curios	927
+article	Unenumerated	9366
+country	Austria	6082
+article	Other	5771
+country	Other British Possessions in Asia	4782
+article	Unenumerated, dutiable	3282
+article	Curios and fancy articles	2754
+country	Russia in Europe	2654
+article	Hardware	2622
+article	Plants and roots	2616
+article	Furniture	2595
+article	Apparel, made up	2529
+article	Oil, other	2484
+article	Piece goods	2367
+country	Ships Stores	2037
+article	Curios	1716
+article	Carpets	1704
+article	Haberdashery and millinery	1659
+article	Carriages and carts	1656
+article	Unenumerated, free	1644
+article	Pictures	1581
+article	Brass ware	1518
+article	Earthenware	1485
+article	Haberdashery	1476
+article	Machinery, other	1464
+article	Blankets	1440
+article	Books, printed	1434
+article	Seeds, other	1380
+article	Goods manufactured wholly or in part not elsewhere specified	1368
+article	Toys	1281
+country	Other British Possessions	1281
+article	Piece goods, dyed	1218
+article	Seeds, rubber	1212
+article	Chemists' sundries	1203
+country	Other Foreign Countries	1197
+article	Confectionery	1194
+article	Non-ferrous metals and manufactures of all descriptions	1158
+article	Mats, mat bags, and baskets	1119
+article	Curry stuffs	1110
+country	Russia in Asia	1101
+article	Lace and net	1092
+article	Jewellery	1068
+article	Made up	1026
+article	Fancy articles	1005
+article	Natural history specimens	1005
+article	Piece goods, bleached	993
+article	Handkerchiefs, scarves, and shawls	984
+article	Confectionery and preserves	984
+article	Piece goods, other	981
+article	Goods unmanufactured not elsewhere specified	975
+article	Tin ware	966
+article	Images and statues	966
+article	Textile manufactures not elsewhere specified	964
+article	Instruments, scientific	954
+article	Coir yarn	948
+article	Pearls and precious stones	942
+country	British South Africa	939
+country	Turkey in Europe	928
+article	Bricks and tiles	912
+article	Instruments, musical	909
+article	Brooms and brushes	906
+article	Steel ware	879
+article	Stationery, excluding paper	873
+article	Glass, other	864
+article	Thread	861
+country	Other British Possessions in Africa	858
+article	Satin	858
+article	Glass and glassware	840
 area	Total	838
+article	Perfumery	834
+article	Piece goods, gray	828
+article	Gunny bags	822
+article	Books	819
+article	Furniture—contd.	813
+article	Stones, worked	804
+country	Other Foreign Countries in Europe	797
+article	Cement	792
+article	Aerated and mineral waters	792
+article	Piece goods, printed	786
+article	Arms, guns, double	777
 measure	Other Grain.	774
-article	Goods manufactured wholly or in part not elsewhere specified	768
-country	Austria	730
-article	Non-ferrous metals and manufactures of all descriptions	636
-article	Textile manufactures not elsewhere specified	531
-article	Goods unmanufactured not elsewhere specified	519
-article	Coir yarn	468
-country	British South Africa	461
-article	Nuts and kernels for expressing oil therefrom, copra	423
-article	Furniture	420
-article	Manufactures of iron and steel	402
-article	Provisions, unenumerated	393
-article	Unenumerated	390
-article	Piece goods of cotton, dyed	384
-article	Lubricating oil	375
-article	Piece goods	360
-article	Apparel of all descriptions	360
-article	Confectionery	354
-article	Manufactures of wood and timber not elsewhere specified	354
-article	Stationery, other than paper	348
-article	Plants and roots	345
-country	Czecho Slovakia	344
-country	Other Foreign Countries in Europe	327
-article	Coir mats and matting	324
-article	Books, printed, including music	324
-article	Cutlery, hardware, implements, and instruments	312
-article	Goods manufactured wholly or in part not elsewhere specified (dutiable)	306
-article	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c. (except cotton banians)	303
-article	Haberdashery, other	300
-article	Chemical manufactures and products not elsewhere specified, including drugs, medicines, medical preparations	300
-article	Piece goods of cotton, bleached	291
-article	Brooms and brushes	291
-article	Other manufactures	285
-article	Haberdashery and millinery	282
-article	Manufactures of iron or steel, unenumerated	273
-article	Rubber tyres and tubes, pneumatic, outer	273
-article	Paper of all descriptions	270
+article	Provisions, unenumerated	771
+article	Apparel of all descriptions	768
+article	Manufactures of wood and timber not elsewhere specified	765
+article	Piece goods of cotton, dyed	765
+article	Manufactures of iron and steel	756
+article	Lubricating oil	747
+article	Nuts and kernels for expressing oil therefrom, copra	747
+country	Newfoundland	720
+article	Copper ware	717
+article	Plate, silver or silver-gilt	717
+article	Umbrellas	717
+article	Aluminium ware	699
+article	Casks	696
+article	Skins, dressed	696
+article	Seeds, tea	690
+country	Czecho Slovakia	667
+article	Arms, guns, single	660
+article	Chinaware	636
+article	Machinery, agricultural	636
+article	Stationery, other than paper	636
+article	Chemical manufactures and products not elsewhere specified, including drugs, medicines, medicinal preparations	630
+article	Leather articles, other	612
+article	Seeds, rubber—contd.	606
+article	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c. (except cotton banians)	597
+article	Coir mats and matting	594
+article	Books, printed, including music	594
+article	Machinery, other, free	591
+article	Leather articles, boots and shoes	591
+article	Stores, military and naval	583
+article	Poonac	576
+country	Other Foreign Countries in Africa	564
+article	Lamps	558
+article	Biscuits	555
+article	Timber, worked, other	552
+article	Broad stuffs	549
+article	Unenumerated—contd.	546
+article	Chemical manufactures and products not elsewhere specified, including drugs, medicines, medical preparations	546
+article	Rubber tyres and tubes, pneumatic, outer	537
+article	Casks and shooks	534
+article	Other manufactures	531
+article	Cutlery, hardware, implements, and instruments	528
+article	Painters' colours	525
+article	Embroidery	516
+article	Piece goods of cotton, bleached	510
+article	Haberdashery, other	510
+article	Goods manufactured wholly or in part not elsewhere specified (dutiable)	510
+article	Jewellery and gold and silver-smiths' wares	507
+article	Machinery, other, dutiable	501
+article	Tar	498
+article	Glass and glassware, other	495
+article	Manufactures of paper not elsewhere specified	492
+article	Flannel	486
+article	Acids, other	486
+article	Watches	486
+article	Manufactures of iron or steel, unenumerated	486
+article	Clocks	483
+article	Zinc ware	480
+article	Boots and shoes	480
+article	Hats and bonnets	477
+article	Electric materials	474
+article	Paper of all descriptions	474
+article	Yarn and twist, gray	462
+article	Croton seed	456
+article	Seeds (exc. food stuffs), other	450
+article	Coir matting—contd.	450
+article	Boats	441
+article	Earthenware and stoneware	441
+article	Sharks' fins	438
+article	Woollen and worsted manufactures of all descriptions	438
+article	Tallow and grease	432
+article	Curry stuffs, garlic	429
+article	Arecanuts	426
+article	Curry stuffs, other	423
+article	Stones, other	420
+article	Hay and straw	414
+article	Oil, coconut—contd.	414
+article	Ghee	411
+article	Soda	411
+article	Oil, lubricating	408
+article	Shooks	408
+article	Piece goods of cotton, other	408
+country	Foreign West Indies	403
+article	Birds' nests	402
+article	Machinery not elsewhere specified, dutiable	400
+article	Oil and floor cloth	393
+article	Tiles	393
+article	Other descriptions	391
+article	Instruments, other	390
+article	Perfumery—cosmetics, powder, and toilet requisites, and articles used in the manufacture thereof	390
+article	Rubber tyres and tubes, pneumatic, inner	390
+article	Road, mechanically-propelled motor cars	390
+article	Oils, fats, and resins not elsewhere specified	387
+article	Lamps and lanterns (except electric)	387
+article	Brass, nails and wire	381
+article	Oil, kerosine	378
+article	Oil seed cake, coconut poonac	378
+article	Matches	375
+article	Timber, worked	375
+article	Arms, rifles, single	372
+country	Luxemburg	370
+article	Lace	369
+article	Stationery, including notepaper pads, manuscript books (except exercise books in paper covers)	369
+article	Other manufactures of paper not elsewhere specified (free)	369
+article	Printing materials	366
+article	Varnish	366
+article	Broad stuff	363
+article	Basket and basketware	363
+country	Estonia	361
+article	Ham	360
+country	Straits Settlements and Malay States	356
+article	Solder	354
+article	Photographic materials	354
+article	Manufactures of mixed materials of all descriptions	354
+article	Curry stuffs, coriander seed	351
+article	Seeds (exc. food stuffs), garden	351
+article	Cutlery and hardware, knives, scissors, razors, and other cutler's ware	351
+article	Other (including hats)	351
+article	Silk manufactures, other	348
+article	Rubber tyres and tubes, solid tyres	348
+article	Painters' colours and materials not elsewhere specified	342
+article	Petroleum, kerosine oil, in cases	342
+article	Cotton manufactures not elsewhere specified	341
+article	Chalk	336
+article	Beer and ale, bottled	333
+article	Road, other parts and accessories, for other road vehicles	333
+article	Books, printed, including music : Other	333
+article	Plate, electroplate	330
+article	Ribbons	327
+article	Berlin	327
+article	Metals not elsewhere specified, wrought or manufactured, other sorts	327
+article	Electrical machinery not elsewhere enumerated	323
+article	Maps	318
+article	Harness and saddlery	318
+article	Arms, revolvers	315
+article	Seeds, gingelly	312
+country	Foreign Countries	311
+article	Cinematograph films	310
+article	Explosives, fireworks	309
+article	Curry stuffs, tamarind	306
+article	Bêche-de-mer	306
+article	Papain	306
+article	Silk manufactures, broadstuff	306
+article	Curry stuffs, chillies	303
+article	Electric lighting accessories and fittings, including switches	303
+article	Piece goods of cotton, printed	303
+article	Mutton, tinned	300
+article	Coir manufactures not otherwise specified	300
+article	Sail cloth or canvas	297
+article	Road, mechanically-propelled motor cycles	291
+country	In Africa	289
+article	Curry stuffs, cummin seed	288
+article	Machinery, sewing machines	288
+article	Anatto seeds	288
+article	Tea machinery	288
+country	Other Parts of the British Empire	287
+article	Plate, electro-plate	282
+article	Marine stores	282
+article	Carpets and rugs	282
+article	Cordage, cables, ropes, and twine of coir	282
+article	Piece goods, muslin	279
+article	Brass and alloys of copper : Manufactures of brass or copper not elsewhere specified	279
+article	Other manufactures of paper not elsewhere specified (dutiable)	279
+article	Road, other parts and accessories, for motor cars, motor cycles, and tricars in cycles	279
+article	Pictures and prints: Other	279
+article	United Kingdom	276
+article	Glass, window and German sheet	273
+article	Tin manufactures not elsewhere specified	273
+article	Road, other than mechanically-propelled cycles	273
+article	Tar and pitch	267
+article	Hollowware (household, kitchen, &c., utensils enamelled or tinned)	267
 measure	Cinna-mon.	266
-article	Chemical manufactures and products not elsewhere specified, including drugs, medicines, medicinal preparations	264
-article	Manufactures of paper not elsewhere specified	264
-article	Boots and shoes	255
-article	Toys	255
-article	Road, mechanically-propelled motor cars	255
+article	Halmilla	264
+country	Other Foreign Countries in America	264
+article	Hosiery	264
+article	Stones and slates, other	261
+article	Calcium carbide	261
+article	Mats, mat bags and baskets	258
+article	Gold coin	258
+article	Curios and fancy articles—contd.	258
+article	Leather articles, harness and saddlery	255
+article	Seeds (agricultural and horticultural) other than oil seeds, other	255
+article	Drawing materials	252
+article	Horns, deer	252
+article	Horns, other	252
+article	Explosives, cartridges	252
+article	Plants and roots—contd.	252
+article	Piece goods of cotton, gray	252
 measure	Cin-chona.	250
-article	Earthenware and stoneware	249
-article	Jewellery and gold and silver-smiths' wares	249
-article	Glass and glassware, other	246
-article	Cotton manufactures not elsewhere specified	246
-article	Other descriptions	222
-article	Machinery not elsewhere specified, dutiable	220
-article	Cinematograph films	214
-article	Rubber tyres and tubes, pneumatic, inner	210
+article	Asphalt	249
+article	Electrical goods and apparatus not elsewhere specified	249
+article	Spirits of wine, rectified	246
+article	Musical instruments and parts and accessories of musical instruments not otherwise specified	246
+article	Tinned or bottled in syrup or spirits : Other	246
+country	Other Foreign Countries in Asia	245
+country	Other For. Countries	245
+article	Velvet	243
+article	Tea chests	243
+article	Cable, cordage, &c.	243
+article	Silk manufactures, handkerchiefs, scarves, and shawls	243
+article	Porcelainware and Chinaware	243
+country	Czecho-Slovakia	241
+article	Pumping machinery	240
+country	Fiume	240
+article	Foundry and workshop machinery	238
+article	Precious and semi-precious stones and pearls, other	237
+article	Yarn and twist, dyed	234
+article	Arms, rifles, double	234
+article	Stones, coral	234
+article	Arms, rifles, magazine	234
+article	Sawn, other	234
+country	Latvia	233
+article	Mining and quarry products, manufactured, not elsewhere specified	231
+article	Clocks and watches: Clocks, complete	231
+article	Tin slabs	228
+article	Cards, playing	228
+article	Skins, undressed	228
+article	Palu	228
+article	Fertilizers	228
+article	Electrical goods and apparatus of all descriptions	228
+article	Implement and tools and parts thereof (except machine tools), other	228
+article	Perfumery, other	225
+country	In Australasia	223
+article	Benjamin	222
+article	Lead ware	222
+article	Cable, twine	222
+article	Dyeing materials, cinchona bark	222
+article	Oil, turpentine	219
+country	In Asia	217
+article	Dogs	216
+article	Curry stuffs, turmeric	216
+article	Salt, refined	216
+country	Other Foreign Coun. in Africa	216
+article	Wire manufactures, other wire nails, including staples	216
+article	Bleaching materials	213
+country	Other Foreign Countries in Australasia	213
+article	Copper sheathing	213
+article	Cloth and stuff	213
+article	Gums and resins, other	213
+article	Nails and tacks (other than wire nails), rivets, and washers	213
+article	Silk and silk manufactures and satin of all descriptions	210
 article	Stores, Military and Naval	210
-article	Electrical machinery not elsewhere enumerated	208
-article	Oils, fats, and resins not elsewhere specified	207
-article	Lamps and lanterns (except electric)	207
-article	Road, other parts and accessories, for other road vehicles	204
-article	Metals not elsewhere specified, wrought or manufactured, other sorts	201
-article	Curry stuffs, other	198
-article	Electric lighting accessories and fittings, including switches	198
-article	Oil seed cake, coconut poonac	198
-article	Tea machinery	198
-article	Porcelainware and Chinaware	195
-article	Blankets	189
-article	Basket and basketware	189
-article	Cutlery and hardware, knives, scissors, razors, and other cutler's ware	186
-article	Other manufactures of paper not elsewhere specified (free)	186
-article	Machinery, other	186
-article	Other (including hats)	183
-article	Tiles	183
-article	Piece goods of cotton, other	180
-article	Petroleum, kerosine oil, in cases	180
-article	Rubber tyres and tubes, solid tyres	180
-article	Painters' colours and materials not elsewhere specified	177
-article	Perfumery—cosmetics, powder, and toilet requisites, and articles used in the manufacture thereof	177
-article	Stationery, including notepaper pads, manuscript books (except exercise books in paper covers)	174
-article	Road, mechanically-propelled motor cycles	174
-article	Brass and alloys of copper : Manufactures of brass or copper not elsewhere specified	171
-article	Tin manufactures not elsewhere specified	171
-article	Carpets and rugs	171
-article	Seeds, other	171
-country	Other Foreign Countries in Africa	168
-article	Woollen and worsted manufactures of all descriptions	168
-article	Manufactures of mixed materials of all descriptions	168
-article	Pumping machinery	165
-article	Books, printed, including music : Other	162
-article	Piece goods of cotton, printed	159
-article	Silk manufactures, other	159
-article	Sail cloth or canvas	159
-article	Pictures and prints: Other	159
-article	Umbrellas	159
-article	Aluminium ware	156
-article	Road, other than mechanically-propelled cycles	156
-article	Hollowware (household, kitchen, &c., utensils enamelled or tinned)	153
-article	Silk manufactures, broadstuff	153
-article	Stores, military and naval	152
-article	Aerated and mineral waters	150
-article	Curry stuffs, coriander seed	150
-article	Calcium carbide	150
-article	Hosiery	147
-article	Sewing machines	145
-article	Seeds (agricultural and horticultural) other than oil seeds, other	144
-article	Thread	144
-article	Road, other parts and accessories, for motor cars, motor cycles, and tricars in cycles	144
-article	Coir manufactures not otherwise specified	144
-article	Tar and pitch	142
-article	Lace and net	141
-article	Clocks and watches: Clocks, complete	138
-article	Images and statues	138
-article	Musical instruments and parts and accessories of musical instruments not otherwise specified	138
-article	Oils, fats, and greases, other	138
+article	Plate, electro plate	207
+article	Sports goods (except sporting guns and rifles, ammunition, and rubber balls)	207
+country	Other British Possessions in America	207
+article	Tin plates	204
+article	Typewriters	204
+article	Sapan wood	204
+article	Pewter ware	204
+article	Cable, cordage, and twine other than coir	204
+article	Grain and flour not elsewhere specified	204
+article	Oils, fats, and greases, other	204
+article	Glass, plate	201
+article	Sewing machines	200
+article	Typewriters, complete	200
+country	Other British Possessions in Australasia	198
+article	Seeds, feeding, cotton	198
+article	Safes	198
+article	Telegraph and telephone instruments and apparatus	198
+article	Beer and ale, in bottles	195
+article	Tea chests and shooks	195
+article	Zinc, perforated	192
+article	Telephone materials	192
+article	Other scientific instruments	192
+article	Disinfectants, insecticides, weed killers	192
+article	Ammunition : Pyrotechnic products (fireworks)	192
+article	Haberdashery, buttons and studs, pins, including hat pins	192
+article	Goods manufactured wholly or in part not elsewhere specified (durable)	192
+article	Machinery, foundry and work-shop	189
+article	Machinery, tea	189
+article	Gramophones and phonographs, complete	189
+article	Goods manufactured wholly or in part not elsewhere specified (free)	189
+article	Generators, alternators, and dynamos	188
+article		186
+article	Coir matting	186
+article	Coin, other	186
+article	Tallow and stearine	186
+article	Plate, silver or silver gilt	186
+article	Sheep	183
+article	Curry stuffs, fennel seed	183
+article	Lime and clay	183
+article	Small wares, including ribbons and trimmings	182
+country	Chili	181
+article	Unenumerated, dutiable—contd.	180
+article	Tubes, pipes, and fittings	180
+article	Mill board, straw board, card board, and paste board	180
+article	Golf, tennis, and other rubber balls	180
+article	Yarn and twist, bleached	177
+country	Other British Possessions in Europe	177
+article	Dry and dry salted, other	177
+article	Bricks	177
+article	Iron and steel plates and sheets not galvanized, not tinned	177
+article	Glass beads and bangles	177
+article	Other foodstuffs for animals	177
+article	Clocks and watches: Watches, complete	177
+article	Prime movers, not electrical, internal combustion	175
+article	Printing and bookbinding machinery	175
+article	Curry stuffs, mathe seed	174
+article	Oil, fish	174
+article	Cuttle fish	174
+article	Military and Naval stores	174
+article	Bolts and nuts	174
+article	Yellow metal	171
+article	Wire, other descriptions of wire	171
+article	Shawls	171
+article	Salt, natural	168
+article	Seeds, mustard	168
+article	Government stores	168
+article	Military and naval stores	168
+article	Brass sheets	168
+article	Myrobolans	168
+article	Zinc slabs	165
+article	Beads	165
+article	Hoop iron	165
+article	Oil, kerosine, case	162
+article	Salt	162
+article	Machinery, locomotive	162
+article	Hides	162
+article	Timber, worked, palmyra laths and rafters	162
+article	Fertilizers, other	162
+article	Road, other than mechanically-propelled, other sorts (including wheelbarrows)	162
+article	Oils, fats, and greases, animal (except marine animal), not refined, other	159
+article	Bars, rods, angles, shapes, and sections, steel	159
+article	Stone, other, unworked	156
+article	Hats and bonnets—contd.	156
+article	Instruments and parts, musical	156
+article	Silk manufactures, lace and articles thereof	156
+article	Grain rice, not in the husk	156
+article	Perfumery, perfumed spirits	153
+article	Meat not elsewhere specified	153
+article	Nuts used as fruits, other	153
+article	Scarves and shawls	153
+article	Artificial silk manufactures other than apparel	153
+article	Road, mechanically-propelled motor lorries used solely for conveyance of goods	153
+article	Game and poultry	150
+article	Coconut shells	150
+article	Domba nuts	150
+article	Broad stuffs.	150
+article	Rs. Rs. Rs.	150
+article	Mats, mat bags, and baskets—contd.	150
+country	Br. North Borneo	150
+article	Plate, nickel plate	150
+article	Cotton yarn and twist, gray	150
+article	Cotton waste	150
+country	Ships' Stores	150
+article	Hair	147
+article	Explosives, fuse	147
+article	Cars, motor, parts, other	147
+article	Logs, squares, other	147
+article	Bars, rods, angles, shapes, and sections, iron	147
+article	Handkerchiefs	147
+article	Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross	147
+article	Motors	146
+article	Sapanwood	144
+article	Fertilizers, blood meal	144
+article	Silk manufactures, ribbons	144
+article	Seeds, medicinal, croton seed	144
+article	Implement and tools and parts thereof (except machine tools), agricultural, including estate tools, tapping knives, and pruning knives	144
+article	Brass and alloys of copper: Manufactures of brass or copper not elsewhere specified	144
+country	Maldivo Islands	141
+article	Gold leaf	141
+article	Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross	141
+article	Wire, fencing, barbed	141
+article	Wire manufactures, other manufactures of wire	141
+article	Agricultural	141
+article	Cotton banians	141
+article	Cotton manufactures, not elsewhere specified	139
+article	Machinery, oil-making	138
+article	Oil, gingelly	138
+article	Pasteboard	138
+article	Cable, cordage, and twine, other than coir	138
+article	Animal, refined : Ghee	138
+article	Sawn, staves, scantlings	138
+article	Dental, surgical, medical, and veterinary	138
+article	Road, other parts and accessories, for motor cars, motor cycles, and tricar in cycles	138
 measure	Total.	136
-article	Typewriters, complete	135
-article	Mining and quarry products, manufactured, not elsewhere specified	132
-article	Implement and tools and parts thereof (except machine tools), other	132
-article	Telegraph and telephone instruments and apparatus	132
-article	Piece goods of cotton, gray	132
-article	Fertilizers	132
-article	Other manufactures of paper not elsewhere specified (dutiable)	132
-article	Biscuits	129
-article	Tinned or bottled in syrup or spirits : Other	129
-article	Carpets	129
-article	Silk manufactures, handkerchiefs, scarves, and shawls	129
-article	Foundry and workshop machinery	128
-article	Sports goods (except sporting guns and rifles, ammunition, and rubber balls)	126
-article	Electrical goods and apparatus of all descriptions	126
-article	Silk and silk manufactures and satin of all descriptions	126
-article	Generators, alternators, and dynamos	124
-article	Cordage, cables, ropes, and twine of coir	123
+article	Boilers and boiler house plant	136
+article	Meat, frozen, beef	135
+article	Quicksilver	135
+article	Arms, implements and accessories	135
+article	Explosives, caps, percussion	135
+article	Electric wires and cables (insulated)	135
+article	Cloths and stuffs, mixed	135
+article	Road, magnetos	135
+article	Jute manufactures, other	134
+article	Apparel—contd.	132
+article	Miscellaneous.	132
+article	Seeds (exc. food stuffs), cotton	132
+article	Fuller's earth	132
+article	Waxes (other than sealing and paraffin), beeswax	132
+article	Porcelainware and chinaware	132
+article	Metals not elsewhere specified, wrought or manufactured, printing type	132
+article	Photographic instruments and appliances, including paper, plates, and films (except cinematograph films)	132
+article	Tinned or bottled in syrup or spirits : Jams, jellies, marmalades	132
+article	Matches, Safety	132
+article	Saddlery and harness	130
+article	Textile machinery	130
+article	Silk and Satin.	129
+article	Plate, electroplate—contd.	129
+article	Railway plant and rolling stock, carriages and trucks and parts thereof	129
+article	Soldering fluid	129
+article	Aniline	129
+article	Vegetable : Olive	129
+article	Bleaching materials, other	129
+article	Cordage cables, ropes, and twine of hemp	129
+article	Tanks and drums of iron and steel, black painted or galvanized	129
+article	Oil pressing and refining machinery	128
+country	Other British Pos- sessions in Asia	126
+article	Oil, kerosine, bulk	126
+article	Horns, sambur	126
+country	British N. Borneo	126
+country	Other Foreign Coun. in Australasia	126
+article	Ptumbago	126
+article	Logs, squares, teak	126
+article	Flannel, mixed	126
+article	Ooir, yarn	126
+article	Mineral, crude, petroleum	126
+article	Baskets and basketware	126
+article	Instruments, musical, gramophones	123
+article	Oil seed cake, gingelly poonac	123
+article	Salt, table	123
+article	Steel girders, beams, joists, and pillars	123
+article	Brass and alloys of copper : Nails, screws, and wire	123
+article	Zinc, rolled sheets and plates, plain or perforated, excluding printing plates	123
+article	Flannel, pure wool	123
+article	Arms, small arms, guns : Breech-loading, double-barrelled	123
+article	Machinery belting, other than leather	123
+article	Matches, safety	123
+article	Pictures and prints: Picture post cards	123
 article	Other manufactures of paper not elsewhere specified (dutable)	123
-article	Stones and slates, other	120
-article	Sawn, other	120
-article	Artificial silk manufactures other than apparel	120
-article	Grain rice, not in the husk	120
+article	Bark for tanning or dyeing	120
+article	Machinery, spinning and weaving	120
+article	Thorianite	120
+country	Other British Poss. in Australasia	120
+article	Pitch	120
+article	Road, wheels, rims, and spokes, for other road vehicles	120
+article	Arms, small arms, guns, breech-loading, double-barrelled	120
 measure	Other grain	118
-article	Gums and resins, other	117
-article	Wire manufactures, other wire nails, including staples	117
-article	Gramophones and phonographs, complete	117
+article	Alizarine	117
+article	Jarra	117
+article	Shot	117
+article	Oil, petrol	117
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, other	117
+article	Wire manufactures, wire netting	117
 measure	Fruit gardens	116
-article	Small wares, including ribbons and trimmings	116
-country	Other British Possessions in Africa	114
-article	Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross	114
-article	Tubes, pipes, and fittings	114
-article	Nails and tacks (other than wire nails), rivets, and washers	114
-article	Satin	114
-article	Other foodstuffs for animals	111
-article	Curry stuffs, cummin seed	111
-article	Precious and semi-precious stones and pearls, other	111
+article	Feathers	114
+article	Cars and parts (motor)	114
+article	Exercise books in paper covers	114
+article	Oils, fats, and greases, tallow	114
+article	Road, other parts and accessories, for motor cars, motor cycles, and tricers in cycles	114
+article	Machine, tools	113
+article	Beer and ale, in wood	111
+article	Meat, frozen, poultry and game	111
+article	Yarn and twist, other	111
+article	Myrobalans	111
+article	Lac	111
+article	Cars, motor, parts, tyres, and tubes (not imported with complete cars)	111
+article	Wheat products, flour and meal	111
+article	Abrasives manufactured, stones and slates wholly or mainly manufactured, other	111
+article	Cotton yarn and twist, dyed	111
+article	Reconstructed and imitation stones	111
 measure	Pasture.	110
-article	Curry stuffs, chillies	108
-country	Turkey in Europe	108
-article	Disinfectants, insecticides, weed killers	108
-article	Haberdashery, buttons and studs, pins, including hat pins	108
-article	Seeds, tea	108
+article	Weighing machines	110
+article	Aërated and Mineral Waters	108
+article	Arippo	108
+article	Cycles and parts (other than motor cycles and tyres and tubes)	108
+article	Fertilizers, bone meal	108
+article	Arms, small arms, guns : Breech-loading, single-barrelled	108
+article	Arms, small arms, guns : Rifles and carbines, single-barrelled, with magazine	108
+article	Stones and slates, coral stones	108
+article	Hollow ware (household, kitchen, &c., utensils enamelled or tinned)	108
 measure	Miscellaneous	106
-article	Curry stuffs, garlic	105
-article	Bolts and nuts	105
-article	Clocks and watches: Watches, complete	105
-article	Electrical goods and apparatus not elsewhere specified	105
-article	Prime movers, not electrical, internal combustion	105
-article	Dry and dry salted, other	102
-article	Fertilizers, blood meal	102
-article	Safes	102
-article	Plate, electro plate	102
-article	Embroidery	102
-article	Shawls	102
-article	Printing and bookbinding machinery	100
-article	Seeds, feeding, cotton	99
-country	Other British Possessions in Asia	99
-article	Wire, other descriptions of wire	99
-article	Beer and ale, in bottles	96
-article	Chalk	96
-article	Varnish	96
-article	Road, other than mechanically-propelled, other sorts (including wheelbarrows)	96
-article	Glass beads and bangles	96
-article	Oil, other	96
-article	Dyeing materials, cinchona bark	96
-article	Fertilizers, other	93
-article	Bricks	93
-article	Tanks and drums of iron and steel, black painted or galvanized	93
-article	Other scientific instruments	93
-article	Road, mechanically-propelled motor lorries used solely for conveyance of goods	93
-article	Ammunition : Pyrotechnic products (fireworks)	93
-article	Goods manufactured wholly or in part not elsewhere specified (durable)	93
-article	Motors	91
+country	Anglo-Egyptian Soudan	106
+article	Explosives, dynamite	105
+article	Sleepers and keys	105
+article	Woollen.	105
+article	Abrasives manufactured, stones and slates wholly or mainly manufactured, grindstones	105
+article	Silk manufactures, velvet	105
+article	Motor spirit, in tins	105
+article	Arms, small arms, guns : Other arms, implements, and accessories not elsewhere specified	105
+article	Organs and pianos, not automatic : Organs	105
+article	Road, other than mechanically-propelled carts and carriages for animal traction	105
+country	Serb - Croat - Slovene State (Jugo-Slavia)	105
+country	Other For. Countries in Africa	103
+article	Meat, frozen, mutton	102
+article	Arms, rifles, magazines	102
+article	Nets, fishing	102
+country	In America	102
+article	Cycles and parts	102
+article	Plate, silver or silver-gilt— No. of	102
+article	Salt, other	102
+article	Glass and glassware, plate glass	102
+article	Optical instruments	102
+article	Gas mantles, incandescent	102
+article	Seeds for expressing oil therefrom, other	102
+article	Dyeing materials, sapanwood	102
+article	Rubber Latex	102
+article	Prime movers, not electrical, steam	100
+article	Typewriters, parts	100
+article	Spelter	99
+article	Arms, pistols, single	99
+country	Other For. Coun. in Africa	99
+article	Instruments, musical, talking machine records (not including other parts)	99
+article	Plates and sheets, coated, galvanized, flat	99
+article	Cloths and stuffs, pure wool	99
+article	Organs and pianos, not automatic : Pianos	99
+article	Fertilizers, nitrolim	99
+article	Abrasive manufactured, stones and slates wholly or mainly manufactured, other	99
+article	Records	99
+article	Seeds, gingly	96
+article	Precious and semi-precious stones and pearls, diamonds	96
+article	Tea-making machinery	95
+article	Plate, nickelplate	93
+article	Explosives, detonators	93
+article	Vaseline	93
+article	Waxes (other than sealing and paraffin), other	93
+article	Fertilizers, superphosphate	93
+article	Metals not elsewhere specified, unwrought	93
+article	Arms, small arms, guns : Pistols, double-barrelled or magazine	93
+article	Arms, small arms, guns : Revolvers	93
+article	Books, printed, including music : Maps and charts	93
+article	Starch of all kinds	93
+article	Chemical manufactures and products, not elsewhere specified, including drugs, medicines, medicinal preparations	93
+country	Jugo-Slavia (Serbo-Croat Slovene State)	91
 measure	Sheep.	90
-article	Curry stuffs, tamarind	90
-article	Hoop iron	90
-article	Plate, silver or silver gilt	90
-article	Boilers and boiler house plant	90
-article	Grain and flour not elsewhere specified	90
-country	Russia in Europe	87
-article	Nuts used as fruits, other	87
-article	Asphalt	87
-article	Wire manufactures, wire netting	87
-article	Road, wheels, rims, and spokes, for other road vehicles	87
-article	Tea chests and shooks	87
+article	Explosives, gunpowder, coarse (blasting)	90
+article	Instruments, musical, other	90
+article	Cycles, motor, parts, tyres, and tubes for motor and ordinary cycles (not imported with complete cycles)	90
+article	Instruments, musical, talking machines	90
+article	Tea waste (for the manufacture of caffeine)	90
+article	Cotton yarn and twist, bleached	90
+article	Arms, small arms, guns : Rifles and carbines, single-barrelled, without magazine	90
+article	Gramophones and phonographs : Records	90
+article	Seeds, medicinal, nux vomica	90
+article	Rubber machinery	90
+article	Gums and resins, benjamin	90
+country	Other British Possessions in Africa (including Zanzibar)	90
+country	Samoa Islands	90
+article	Arms, pistols, double	87
+country	Other For. Coun. in America	87
+article	Sawn, ceiling boards	87
+article	Fertilizers, muriate of potash	87
+article	Pipes	87
+article	Brass and alloys of copper : Rods, sheets, and strips	87
+article	Road, mechanically-propelled, motor cars	87
 measure	Black Cattle.	86
 measure	Swine.	86
+article	Prime movers, not electrical, hydraulic	85
 measure	Cinna- mon.	84
 measure	With Grain of all kinds.	84
 measure	With Fruits and Vegetables of all kinds.	84
 measure	With Products other than Grain, Fruit, and Vegetables.	84
-article	Iron and steel plates and sheets not galvanized, not tinned	84
-article	Plate, nickel plate	84
-article	Electric wires and cables (insulated)	84
-article	Cotton banians	84
-article	Acids, other	84
-article	Mineral, crude, petroleum	84
-article	Casks	84
-country	Anglo-Egyptian Soudan	84
-article	Oils, fats, and greases, animal (except marine animal), not refined, other	81
-article	Bars, rods, angles, shapes, and sections, steel	81
-article	Brass and alloys of copper : Nails, screws, and wire	81
-article	Cotton yarn and twist, gray	81
-article	Handkerchiefs	81
-article	Mill board, straw board, card board, and paste board	81
-article	Machinery belting, other than leather	81
-country	Russia in Asia	78
-article	Wire manufactures, other manufactures of wire	78
-article	Zinc, rolled sheets and plates, plain or perforated, excluding printing plates	78
-article	Metals not elsewhere specified, wrought or manufactured, printing type	78
-article	Photographic instruments and appliances, including paper, plates, and films (except cinematograph films)	78
-article	Scarves and shawls	78
-article	Silk manufactures, lace and articles thereof	78
-article	Cordage cables, ropes, and twine of hemp	78
-article	Golf, tennis, and other rubber balls	78
-article	Goods manufactured wholly or in part not elsewhere specified (free)	78
-article	Papain	78
-article	Road, other parts and accessories, for motor cars, motor cycles, and tricar in cycles	78
-article	Matches, Safety	78
-article	Records	78
-article	Agricultural	76
-article	Oil seed cake, gingelly poonac	75
-article	Hay and straw	75
-article	Curry stuffs, turmeric	75
-article	Logs, squares, teak	75
-article	Wire, fencing, barbed	75
-article	Implement and tools and parts thereof (except machine tools), agricultural, including estate tools, tapping knives, and pruning knives	75
-article	Textile machinery	75
-article	Soda	75
-article	Baskets and basketware	75
-article	Cotton waste	75
+article	Seeds (exc. food stuffs), tea	84
+article	Poonac, gingelly	84
+article	Coconut leaf quills	84
+article	Rails and fish plates of steel or iron	84
+article	Cars, motor, complete	84
+article	Oils, fats, and greases, animal (except marine animal), not refined, tallow	84
+article	Fertilizers, sulphate of ammonia	84
+article	Oils, refined	84
+article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricars	84
+article	Goods manufactured wholly or in part not elsewhere specified (dustable)	84
+article	Arms, ammunition, and military and naval stores, pyrotechnic products	84
+country	For Bunkers	84
+country	Other British Possessions in Africa (inc. Zanzibar)	84
+country	Other British Possessions in the Pacific	83
+article	Cranes, hoists, and lifting machinery	82
+article	Canes and rattans	81
+article	Zinc manufactures not elsewhere specified	81
+article	Fishing nets	81
+article	Machinery belting	81
+article	Ammunition : Shot, bullets, and pellets	81
+article	Gums and resins, Arabic	81
+article	Ammunition : Cartridge cases, filled	80
+article	Ice	78
+article	Ceir, other	78
+article	Lorries and parts (motor)	78
+article	South America, exc.	78
+article	Fire clay	78
+article	Gums, and resins, rosin	78
+article	Glass and glassware, window glass, 16 oz., thirds and fourths.	78
+article	Petroleum, kerosine oil, in bulk	78
+article	Huberdashery, other	78
+country	Ship Stores	78
+country	Other British Possessions (including Zanzibar)	77
+article	Control and switch gear	76
+article	Oil, liquid fuel	75
+article	Railway plant and rolling stock, other	75
+article	Instruments, musical, other than gramophones	75
+article	Oils, fats, and greases, fish (and marine animal), cod liver oil	75
+article	Dry and dry salted, buffalo	75
+article	Fertilizers, fish manure	75
+article	Piece goods of cotton, muslin	75
+article	Abrasive manufactured, stones and slates wholly or mainly manufactured, grindstones	75
+country	Libia	75
 measure	Palmyra nuts	74
-article	Oil pressing and refining machinery	73
-article	Animal, refined : Ghee	72
-article	Logs, squares, other	72
-article	Waxes (other than sealing and paraffin), beeswax	72
-article	Flannel, pure wool	72
-article	Oil and floor cloth	72
-article	Pictures and prints: Picture post cards	72
-article	Sharks' fins	72
+article	Cider	72
+article	Railway plant and rolling stock, rails and fishplates of steel or iron	72
+article	Railway plant and rolling stock, sleepers and keys	72
+article	Arippe	72
+article	Na	72
+article	Leather articles, other—contd.	72
+article	Poultry and game, dead	72
+article	Mineral, crude petroleum	72
+article	Fertilizers, basic slag	72
+article	Fertilizers, sulphate of potash	72
+article	Cloths and stuffs, other	72
+article	Cordage, cables, ropes, and twine of hemp	72
+article	Fertilizers, nitrate of soda	72
+article	Cordage, cables, ropes and twine of coir	72
 measure	TOTAL.	70
-article	Sawn, staves, scantlings	69
-article	Abrasive manufactured, stones and slates wholly or mainly manufactured, other	69
-article	Bars, rods, angles, shapes, and sections, iron	69
-article	Dental, surgical, medical, and veterinary	69
-article	Silk manufactures, ribbons	69
-article	Bleaching materials, other	69
-article	Road, mechanically-propelled, motor cars	69
-article	Tinned or bottled in syrup or spirits : Jams, jellies, marmalades	66
-article	Salt, table	66
-article	Precious and semi-precious stones and pearls, diamonds	66
-article	Cloths and stuffs, mixed	66
-article	Matches, safety	66
-article	Seeds, medicinal, croton seed	66
-article	Road, other parts and accessories, for motor cars, motor cycles, and tricers in cycles	66
-article	Rubber machinery	66
-article	Prime movers, not electrical, steam	65
-article	Typewriters, parts	65
-article	Weighing machines	65
-article	Saddlery and harness	65
+article	Machinery, not elsewhere specified	70
+country	Postal Articles	70
+country	sessions in Asia	69
+article	Tallow and Stearine	69
+article	Aërated and mineral waters	69
+country	Other British Poss. in Asia	69
+article	Arms, rifles, other	69
+country	Other British Possession in Africa	69
+article	Cycles, motor, complete	69
+article	Silver coin	69
+article	Animal, refined : Lard	69
+article	Wire, fencing, other sorts	69
+article	Unwrought or part wrought, other sorts	69
+article	Motor spirit, in bulk	69
+article	Arms, small arms, guns : Muzzle-loading, single-barrelled	69
+article	Mats and matting	69
+article	Ships and boats (new) complete, other vessels	69
+article	Other manufactures of paper not elsewhere specified (durable)	69
+article	Meat, frozen, pork	66
+article	Mutton, frozen	66
+article	Animal, refined : Dripping	66
+article	Fertilizers, kainit	66
+article	Tanks and drums of iron and steel, black painted or galvanized, except drums for oil	66
+article	Brass and alloys of copper : Tubes	66
+article	Brass and alloys of copper: Rods, sheets, and strips	66
 measure	Sheep	64
-article	Meat not elsewhere specified	63
-article	Vegetable : Olive	63
-article		63
-article	Plates and sheets, coated, galvanized, flat	63
-article	Machine, tools	63
-article	Flannel, mixed	63
-article	Casks and shooks	63
-article	Organs and pianos, not automatic : Organs	63
-article	Chemical manufactures and products, not elsewhere specified, including drugs, medicines, medicinal preparations	63
+country	British Colonies	63
+article	Stone, coral	63
+article	Cycles, motor, parts, other	63
+article	Instruments, musical, talking machine parts (other than records)	63
+article	Vegetable : Other	63
+article	Dry and dry salted, ox and cow	63
+article	Coke	63
+article	Scientific instruments and appliances (except electrical), other scientific instruments	63
+article	Brass and alloys of copper: Nails, screws, and wire	63
+country	Jugo-Slavia (Serb-Croat Slovene State)	62
 area	Kandy—contd.	60
 measure	Black Cattle	60
-article	Fertilizers, bone meal	60
-article	Fertilizers, superphosphate	60
-article	Glass and glassware, plate glass	60
-article	Abrasive manufactured, stones and slates wholly or mainly manufactured, grindstones	60
-article	Steel girders, beams, joists, and pillars	60
-article	Tea-making machinery	60
-article	Exercise books in paper covers	60
-article	Gas mantles, incandescent	60
-article	Reconstructed and imitation stones	60
-country	For Bunkers	60
-article	Oils, fats, and greases, tallow	60
-article	Arms, small arms, guns, breech-loading, double-barrelled	60
-article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, other	60
+article	MANUFACTURED ARTICLES. OTHER.	60
+article	Cadjans	60
+article	Other—contd.	60
+article	Coca leaves	60
+article	Australia	60
+article	South Africa	60
+article	Plates and sheets, coated, galvanized, corrugated	60
+article	Jute manufactures, hessians	60
+article	Nuts and kernels for expressing oil therefrom, other	60
+article	Road, other than mechanically-propelled other sorts (including wheelbarrows)	60
+article	Arms, small arms, rifles and carbines, single-barrelled, with magazine	60
+article	Books, printed, including music, other	60
+article	Oil, castor, unrefined	60
+article	Spices cloves	60
 measure	Swine	58
-article	Waxes (other than sealing and paraffin), other	57
-article	Optical instruments	57
-article	Cloths and stuffs, pure wool	57
-article	Silk manufactures, velvet	57
-article	Jute manufactures, other	57
-article	Motor spirit, in tins	57
-article	Road, magnetos	57
-article	Arms, small arms, guns : Breech-loading, double-barrelled	57
-article	Starch of all kinds	57
-article	Prime movers, not electrical, hydraulic	55
-article	Ships and boats (new) complete, other vessels	55
-article	Ammunition : Cartridge cases, filled	55
-article	Curry stuffs, fennel seed	54
-article	Salt, other	54
-article	Stones and slates, coral stones	54
-article	Seeds for expressing oil therefrom, other	54
-article	Arms, small arms, guns : Rifles and carbines, single-barrelled, with magazine	54
-article	Bêche-de-mer	54
-article	Birds' nests	54
-article	Rubber Latex	54
-country	Other British Possession in Africa	54
-article	Road, other than mechanically-propelled carts and carriages for animal traction	54
-article	Dyeing materials, sapanwood	54
-article	Hollow ware (household, kitchen, &c., utensils enamelled or tinned)	54
-article	Wheat products, flour and meal	51
-article	Curry stuffs, mathe seed	51
-article	Gums and resins, benjamin	51
-article	Ammunition : Shot, bullets, and pellets	51
-article	Arms, small arms, guns : Breech-loading, single-barrelled	51
-article	Arms, small arms, guns : Pistols, double-barrelled or magazine	51
-article	Arms, small arms, guns : Revolvers	51
-article	Arms, small arms, guns : Other arms, implements, and accessories not elsewhere specified	51
-article	Organs and pianos, not automatic : Pianos	51
-article	Brass and alloys of copper: Manufactures of brass or copper not elsewhere specified	51
+country	India exc. British	57
+article	Meat, frozen, fish	57
+article	Oils, fats, and greases, fish (and marine animal), other	57
+article	Fertilizers, poonac, castor seed	57
+article	Pig iron	57
+article	Carbonic acid gas	57
+article	Sawn, sleepers	57
+article	Jute manufactures, sacks and bags, empty, new	57
+country	Other British Possessions (inc. Zanzibar)	56
+article	Rubber manufacturing machinery	55
+article	Muntz metal	54
+article	Clocks—contd.	54
+article	Explosives, Cartridges	54
+article	Keys	54
+article	Biche-de-mer	54
+article	Textile, unenumerated	54
+country	Other British Possession in Asia	54
+article	Transformers and converters	54
+article	Rail, wagons and trucks, parts	54
+article	Ooir, matting	54
+article	Oil seed cake, other	54
+article	Skins (goat and sheep)	54
+article	Gums and resins, dammar	54
+article	Cotton yarn and twist, other	54
+article	Arms, small arms, guns, breech-loading, single-barrelled	54
+article	Meat, other	54
+country	Maldiva Islands	53
+article	a, cured or salted	51
+article	four, wheat	51
+article	Seeds, poppy	51
+article	Gunpowder, fine (sporting)	51
+article	Tinware	51
+article	Locomotive engines and tenders and parts thereof	51
+article	shawls	51
+country	Other For. Coun. in Europe	51
+article	Poultry and game, alive	51
+article	Tinned or bottled in syrup or spirits: Other	51
+article	Fertilizers, refuse of saltpetre	51
+article	Books, printed, including music : Music	51
+article	Manufactures of iron or steel unenumerated	51
+article	Moulding sand	51
+article	Implemente and tools and parts thereof (except machine tools), other	51
 measure	Other Grain	50
-article	Cranes, hoists, and lifting machinery	49
-article	Sheep	48
-article	Fertilizers, nitrolim	48
+country	U. S. of America	50
+country	Poland including Dantzig	49
+article	Steelware	48
+article	Horns	48
+article	Plate, nickelplate— No. of	48
+article	Copra—contd.	48
+article	Oil, petrol and benzine	48
+country	Other Foreign Countries in Australia	48
+article	Clocks and watches: Other parts	48
+article	Magnetos, ignition	48
+article	Arms, small arms, guns : Muzzle-loading, double-barrelled	48
+article	Felt, roofing	48
+article	Beche-de-mer	48
+article	Ground nuts	48
+article	Seeds for expressing oil therefrom, domba nuts	48
+article	Oil, gingly	48
+article	Arms, ammunition, and military and naval stores, ammunition	48
+article	Road, other than mechanically-propelled hand trucks and trolleys	48
+country	lin	48
 article	Goods unmanufactured not elsewhere specific	48
-article	Pipes	48
-article	Metals not elsewhere specified, unwrought	48
-article	Petroleum, kerosine oil, in bulk	48
-article	Machinery belting	48
-article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricars	48
-article	Arms, small arms, guns : Rifles and carbines, single-barrelled, without magazine	48
-country	Other British Possession in Asia	48
-country	Ship Stores	48
-article	Arms, ammunition, and military and naval stores, pyrotechnic products	48
-article	Dogs	48
-article	Fire clay	45
-article	Canes and rattans	45
-article	Brass and alloys of copper : Rods, sheets, and strips	45
-article	Brass and alloys of copper : Tubes	45
+country	Or. For. Coun. in America	48
+article	Asses	45
+article	Alkali	45
+article	Tortoise-shell—contd.	45
+article	Instruments, musical, pianos and pianolas (complete)	45
+article	Corn offals, bran and pollard	45
+article	Precious and semi-precious stones and pearls, pearls	45
+article	Bleaching materials, sodium bisulphite	45
+article	Art, works of (other than pictures)	45
+article	Gums and resins, lac	45
+article	Coir manufactures	45
+article	Ships and boats (new) complete, boats and vessels without means of propulsion other than oars	45
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, aniline	45
+article	Clocks and watches : Other parts	45
 article	Wollen and worsted manufactures, other	45
-article	Books, printed, including music : Maps and charts	45
-country	Other Foreign Countries in Australasia	45
-article	Machinery, not elsewhere specified	45
-article	Control and switch gear	44
-article	Sawn, ceiling boards	42
-article	Gums and resins, Arabic	42
-article	Gums, and resins, rosin	42
-article	Oils, fats, and greases, animal (except marine animal), not refined, tallow	42
-article	Fertilizers, muriate of potash	42
-article	Fertilizers, sulphate of ammonia	42
-article	Zinc manufactures not elsewhere specified	42
-article	Cotton yarn and twist, dyed	42
-article	Motor spirit, in bulk	42
-country	Other Foreign Countries in Asia	42
-article	Palu	42
-article	Horns, deer	42
-article	Seeds, rubber	42
+article	Ammunition : Cartridge cases, empty	43
+article	Gunnies	42
+article	Timber, worked. Palmyra laths and rafters	42
+article	Olas	42
+article	Tinned or bottled in syrup or spirits: Jams, jellies, marmalades	42
+article	Fertilizers, sylvinite	42
+article	Wire manufactures, cables and ropes (except insulated telephone and telegraph cables)	42
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, aniline	42
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, cutch	42
+article	Pictures and prints : Other	42
 article	Playing cards	42
-article	Cordage, cables, ropes and twine of coir	42
 article	Books, printed, including music: Other	42
+country	Esthonia	42
+country	Other British Possessions in Pacific	42
 measure	Pasturage.	40
 measure	Other Grains.	40
-article	Mutton, tinned	39
-article	Poultry and game, dead	39
-article	Vegetable : Other	39
-article	Mineral, crude petroleum	39
-article	Fertilizers, poonac, castor seed	39
-article	Wire, fencing, other sorts	39
-article	Transformers and converters	39
-article	Fishing nets	39
-article	Scientific instruments and appliances (except electrical), other scientific instruments	39
-article	Cordage, cables, ropes, and twine of hemp	39
-article	Tinned or bottled in syrup or spirits: Other	39
+article	Machinery not elsewhere specified, free	40
+article	Arcanuts	39
+article	Piece goods.	39
+country	in America	39
+article	Beer and ale, bottled—contd.	39
+article	Fertilizers, poonac, groundnut	39
+article	Wire manufactures, wire netting.	39
+article	Coal tar products not elsewhere specified	39
+article	Scientific instruments and appliances (except electrical), optical instruments	39
+country	Other Br. Poss. in Asia	39
+article	Sawn sleepers	39
+article	Road, parts of road vehicles, chassis for motor cars	39
+country	Maladive Islands	38
+article	Sugar making and refining machinery	37
 area	Kequlla.	36
 area	Kalutura.	36
-article	Oils, fats, and greases, fish (and marine animal), cod liver oil	36
-article	Oils, fats, and greases, fish (and marine animal), other	36
-article	Fertilizers, basic slag	36
-article	Fertilizers, fish manure	36
-article	Fertilizers, nitrate of soda	36
-article	Cotton yarn and twist, bleached	36
-article	Oils, refined	36
-article	Road, other than mechanically-propelled hand trucks and trolleys	36
-article	Road, parts of road vehicles, chassis for motor cars	36
-article	Arms, small arms, guns : Muzzle-loading, single-barrelled	36
-country	India exc. British	36
-article	Oil, castor, unrefined	36
-article	Horns, other	36
-country	Maldivo Islands	36
-article	Abrasives manufactured, stones and slates wholly or mainly manufactured, grindstones	36
-article	Manufactures of iron or steel unenumerated	36
-article	Books, printed, including music, other	36
+article	Gunpowder, coarse (blasting)	36
+article	Photographic Materials	36
+article	Gutch	36
+article	Explosives, gunpowder, fine (sporting)	36
+article	Element	36
+article	Unwrought or part wrought, anti-friction metal	36
+article	Arms, small arms, guns : Rifles and carbines, double-barrelled	36
+article	Poonao	36
+article	Seeds, medicinal, other	36
+article	Apparel of all descriptions—cont d.	36
+article	Non-ferrous metalliferrous ores and scrap of all descriptions	36
+article	Myrobolams	36
+article	Arms, ammunition, and military and naval stores, explosives	36
+article	Road, mechanically-propelled tractors (including steam rollers), agricultural	36
+article	Arms, small arms, revolvers	36
+article	Provisions unenumerated	36
+article	Pig Iron	36
+article	Wire manufactures, wire nails, \frac{3}{4} to 1\frac{1}{2} in.	36
 article	ARTICLES WHOLLY OR MAINLY MANUFACTURED. Electrical goods and apparatus not elsewhere specified	36
-country	Other Foreign Countries in America	36
-article	Rs. Rs. Rs.	36
+article	Ammunition : Percussion caps	35
+article	Weighing machinery	35
+country	Serb-Croat Slovene State (Jugo Slavia)	35
+country	Serbo-Croat-Slovene State (Jugo-Slavia)	35
 area	Mataru.	34
 area	Rubnapura.	34
 area	Baticaloa.	34
-article	Mutton, frozen	33
-country	Other Br. Poss. in Asia	33
-article	Fertilizers, kainit	33
-article	Fertilizers, sulphate of potash	33
-article	Seeds, gingelly	33
-article	Silver coin	33
-article	Abrasives manufactured, stones and slates wholly or mainly manufactured, other	33
-article	Jute manufactures, sacks and bags, empty, new	33
-country	Foreign West Indies	33
+article	Sunny bags	33
+article	Copperware	33
+article	Revolvers	33
+article	Meat, salted	33
+article	Crutch	33
+article	Cycle and parts	33
+article	. OTHER.	33
+article	Copper coin	33
+article	Machinery, foundry and workshop	33
+article	Cinema films	33
+article	other parts)	33
+article	Other coated plates and sheets, galvanized	33
+article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricar	33
+article	Manufactures of brass or copper not elsewhere specified	33
+article	Nuts used as fruits, groundnuts	33
+article	Unwrought or part wrought, type metal	33
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, other	33
+article	Electric goods and apparatus, not elsewhere specified	33
+article	Millboard, strawboard, and pasteboard	33
 article	Parts of.	33
 article	ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other	33
 article	Woolen and worsted manufactures, other	33
@@ -434,49 +909,63 @@ measure	Chena products.	30
 measure	Citro- nella.	30
 measure	Palmyra.	30
 measure	Vege- tables.	30
+article	Airated and mineral waters	30
+article	Poonac, coconut	30
+article	Foreign Colonies	30
+country	in Australasia	30
+article	Seeds (excluding food stuffs), cotton	30
+article	Brass, brassware	30
+article	Clutch	30
+article	Hats	30
+article	Bullion and coin, nickel coin	30
+country	Other For. Coun. in Australasia	30
+article	Cable cordage, and twine	30
+article	Cars and parts, motor	30
+article	il, lubricating	30
+article	Sapamwood	30
+article	Onchona bark	30
+article	Glass, window and Germansheet	30
+country	Other For. Countries—	30
+article	Ammunition, fuses, and blasting accessories : Safety fuse	30
+article	Ammunition : Explosives and ammunition not elsewhere specified	30
+article	Ooir, rope	30
+article	Road, mechanically propelled motor cars	30
+article	Road, mechanically propelled motor cycles	30
+article	Stationery other than paper	30
+article	Parts of	30
+article	Dyeing materials, other	30
+article	Rail, wagons and trucks, complete	30
+country	Postal articles	30
 article	Seeds, feeding, other.	30
-article	Seeds, mustard	30
-article	Gums and resins, dammar	30
-article	Gums and resins, lac	30
-article	Coke	30
-article	Plates and sheets, coated, galvanized, corrugated	30
-article	Piece goods of cotton, muslin	30
-article	Berlin	30
-article	Jute manufactures, hessians	30
-article	Carbonic acid gas	30
-article	Soldering fluid	30
-article	Felt, roofing	30
-article	Meat, other	30
-article	Nuts and kernels for expressing oil therefrom, other	30
-article	Dry and dry salted, ox and cow	30
-article	Arms, small arms, revolvers	30
-article	Abrasives manufactured, cement, per barrel not exceeding 5 cwt. gross	30
-article	Brass and alloys of copper: Rods, sheets, and strips	30
-article	Rubber manufacturing machinery	30
-article	Ammunition : Cartridge cases, empty	30
-article	Oil, gingelly	30
-country	lin	30
-article	Ships and boats (new) complete, boats and vessels without means of propulsion other than oars	30
-country	Or. For. Coun. in America	30
-country	Fiume	30
-country	Maladive Islands	29
+country	Eire	29
 measure	With Grains of all kinds.	28
 measure	With Vegetables of all kinds.	28
 measure	With Products other than Grains and Vegetables.	28
 measure	Area in Acres of Pasture Land.	28
 measure	Area in Acres of Waste Land which is incapable of being rendered Productive and is unfit for Pasturage.	28
-article	Animal, refined : Lard	27
-article	Moulding sand	27
-article	Dry and dry salted, buffalo	27
-article	Fertilizers, refuse of saltpetre	27
-article	Unwrought or part wrought, other sorts	27
-article	Clocks and watches : Other parts	27
-article	Cotton yarn and twist, other	27
-article	Coir manufactures	27
-article	Bleaching materials, sodium bisulphite	27
-article	Provisions unenumerated	27
-article	Scientific instruments and appliances (except electrical), optical instruments	27
-country	Luxemburg	27
+country	Other British Pos-	27
+article	Bullion and coin, silver coin	27
+article	Bristles	27
+article	locks—contd.	27
+article	Locomotives, excluding railway, other	27
+article	Straits Settlements { yds.	27
+article	Matche.	27
+article	Outch	27
+article	Chinaware—contd.	27
+article	Cars, motor, chassis	27
+article	Oil seed cake, linseed poonac	27
+article	Seeds (agricultural and horticultural) other than oil seeds, tea	27
+article	Tanning substances not elsewhere specified, bark for tanning and dyeing	27
+article	Huberdashery, buttons and studs, pins, including hat pins	27
+article	Nails, screws, and wire	27
+article	Electric goods and apparatus not elsewhere specified	27
+article	Carriages, parts	27
+article	Brass and alloys of copper: Tubes	27
+article	Painters' colours and materials, not elsewhere specified	27
+article	Books, printed, including music, maps and charts	27
+country	Jugo-Slavia	27
+article	Woollen and worsted manufactures, other	27
+article	Road, mechanically-propelled tractors (including steam rollers), other	27
 article	Goods manufactured wholly or in part not elsewhere specified (free, —)	27
 measure	Estimated Acreage of cul- tivated Land in the Colony.	25
 measure	Estimated Acreage of un- cultivated Land in the Colony.	25
@@ -484,104 +973,159 @@ measure	Estimated Acreage of the Colony.	25
 measure	* Number of Estates in Culti- vation.	25
 measure	* Number of Estates aban- doned.	25
 measure	* Number of Es- tates cultivated, wholly or par- tially, on the métairie system.	25
-article	Ammunition : Percussion caps	25
+article	Printing and hookbinding machinery	25
 measure	To- bacco.	24
-article	Fuller's earth	24
-article	Non-ferrous metalliferrous ores and scrap of all descriptions	24
-article	Sawn, sleepers	24
-article	Pig iron	24
-article	Wire manufactures, cables and ropes (except insulated telephone and telegraph cables)	24
-article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, aniline	24
-article	Rail, wagons and trucks, parts	24
-article	Arms, small arms, guns : Muzzle-loading, double-barrelled	24
-article	Gramophones and phonographs : Records	24
-article	Oil seed cake, other	24
-article	Ground nuts	24
-country	Newfoundland	24
-article	Seeds for expressing oil therefrom, domba nuts	24
-article	Seeds, medicinal, nux vomica	24
-article	Skins (goat and sheep)	24
+article	Analine	24
+article	Textile, Unenumerated	24
+article	Brass ware—contd.	24
+article	Cables, cordage, &c.	24
+article	Twine	24
+article	Poonac, castor seed	24
+country	Other For. Countries in America	24
+article	Brass sheathing	24
+article	Aërated and Mineral Waters—co. ntd.	24
+article	Teaching materials	24
+article	—Carriages and trucks and parts thereof	24
+article	Tortoise shell—contd.	24
+article	Mats, mat bags and baskets—contd.	24
+article	Mats, mat bags and baskets contd.	24
+article	Cable, cordage, and twine, other than coil	24
+article	Cycles and parts (other than motor cycles and parts)	24
+article	Instruments, musical, talking machine	24
+article	Place goods	24
+article	Seeds, poppy seed	24
+article	Castings and forgings in the rough, iron	24
+article	Implementments and tools and parts thereof (except machine tools), other	24
+article	Ammunition : Sporting powder	24
+article	Ammunition, high explosives : Blasting powder	24
+article	Organs and pianos : Parts of pianos	24
+article	Gramophones and phonographs : Parts of	24
+article	Arippo nuts	24
+article	Arms, small arms, other arms, implements, and accessories not elsewhere specified	24
+article	Plates and sheets, coated, corrugated	24
+article	Scientific instruments and appliances (except electrical), photographic instruments and appliances, plates, including paper, and films (except cinematograph films)	24
+article	Seeds for expressing oil therefrom, linseed	24
+article	Fertilizers, poonac, other	24
+article	Rail, carriages, parts	24
+article	Road, other parts and accessories, for motor cars, motor cycles, and tricarcs in cycles	24
+article	Réche-de-mer	24
+article	Arms, small arms, rifles and carbines, double-barrelled	24
+article	Silver Coin	24
+article	Wire, other description of wire	24
+article	Oils, fats, and resins, not elsewhere specified	24
+article	Other manufactures of paper, not elsewhere specified	24
+article	Sawn other	24
+article	Gramophones and phonographs : Parts of.	24
 article	Road, other than mechanically-propelled other sorts (including wheelbarrows.)	24
-article	Arms, ammunition, and military and naval stores, ammunition	24
-article	Arms, small arms, guns, breech-loading, single-barrelled	24
-country	Postal articles	24
-article	Sawn sleepers	24
-article	Pig Iron	24
-article	Manufactures of brass or copper not elsewhere specified	24
-article	Electric goods and apparatus, not elsewhere specified	24
-article	Books, printed, including music, maps and charts	24
-article	Brass and alloys of copper: Nails, screws, and wire	24
-article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, aniline	24
 article	Clothes and stuffs, mixed	24
+country	Other Br. Poss. in Africa	24
+country	Or. For. Coun. in Europe	24
+country	India exo. British	24
 article	Tca chests and shooks	24
-article	Spices cloves	24
-country	Maldiva Islands	23
-article	Sugar making and refining machinery	22
-article	Poultry and game, alive	21
-article	Animal, refined : Dripping	21
-article	Precious and semi-precious stones and pearls, pearls	21
-article	Fertilizers, poonac, groundnut	21
-article	Glass and glassware, window glass, 16 oz., thirds and fourths.	21
-article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, other	21
-article	Rail, wagons and trucks, complete	21
-article	Organs and pianos, automatic, complete : Pianos.	21
-article	Sawn other	21
-article	Millboard, strawboard, and pasteboard	21
+country	British Possessions (unclassified) mainly Straits Settlements	24
+country	Foreign Countries (unclassified)	24
+country	Ships' stores	24
+article	Timber	21
+article	Brass, brass ware	21
+article	Brit. Col.	21
+country	Sunatra	21
+article	Coul	21
+article	Furnish	21
+article	Seeds (exc. foodstuffs), garden	21
+article	Clocks and watches: Watches complete	21
+article	Road, other than mechanically propelled, cycles	21
+article	Rubber tyres and tubes, pneumatic inner	21
+article	Hollow ware (household, kitchen, &c., utensils, enamelled or tinned)	21
+article	Tubes	21
+article	Lead manufactures not elsewhere specified	21
+article	Tin ingots, blocks, bars, and slabs	21
+article	Tin solder	21
+article	Clocks and watches, clocks, complete	21
+article	Cloth and stuff, mixed	21
+article	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c., except cotton banians	21
+article	Wagons and trucks, complete	21
+article	Wagons and trucks, parts	21
+article	Fertilizers, poonac, rape seed	21
+article	Ammunition, high explosives : Other	21
+article	Seed, feeding, other.	21
+article	Porcelain ware and chinaware	21
+article	Rods, sheets, and strips	21
+article	Manufactures of wood and timber, not elsewhere specified	21
+article	Textile manufactures, not elsewhere specified	21
+article	Vegetable other than essential, coconut oil	21
 article	Implementes and tools and parts thereof (except machine tools), other	21
-article	Cloths and stuffs, other	21
+article	Road other sorts (including wheel barrows)	21
 article	Ammunition, cartridge cases, filled	21
-country	Jugo-Slavia	21
+article	Organs and pianos, automatic, complete : Pianos.	21
 article	ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)	21
 article	Arms, small arms, guns: Rifles and carbines, single-barrelled, with magazine	21
+article	Arms, small arms, guns rifles and carbines double-barrelled	21
 article	Brass and alloys of copper : Rode, sheets, and strips	21
+country	Jugo Slavia (Serbo-Croat Slovene State)	21
+country	Mascut	21
 measure	Ground Nuts.	20
 measure	Cinamon.	20
-article	Ammunition, fuses, and blasting accessories : Safety fuse	20
-article	Weighing machinery	20
-article	Printing and hookbinding machinery	20
+article	Ammunition : Other accessories (including detonators)	20
+article	Machine tools	20
 measure	Cin- chona.	18
 area	Province of Sabaragamuwa	18
-article	Beer and ale, in wood	18
-article	Fertilizers, sylvinite	18
-article	Seeds (agricultural and horticultural) other than oil seeds, tea	18
-country	Other For. Coun. in Europe	18
-article	Gold leaf	18
-article	Unwrought or part wrought, type metal	18
-article	Road, mechanically-propelled tractors (including steam rollers), agricultural	18
-article	Ammunition : Explosives and ammunition not elsewhere specified	18
-article	Art, works of (other than pictures)	18
-article	Books, printed, including music : Music	18
-country	Or. Br. Poss. in Africa	18
-article	Halmilla	18
-article	Dyeing materials, sapamwood	18
-article	Arms, small arms, rifles and carbines, single-barrelled, with out magazine	18
-article	Arms, small arms, rifles and carbines, single-barrelled, with magazine	18
-article	Arms, small arms, rifles and carbines, double-barrelled	18
-article	Arms, small arms, other arms, implements, and accessories not elsewhere specified	18
-country	Other Foreign Countries in Australia	18
-article	Asses	18
-article	Painters' colours and materials, not elsewhere specified	18
-article	Oils, fats, and resins, not elsewhere specified	18
-article	Stationery other than paper	18
+article	Halewilla	18
+article	Paku	18
+country	Minicoy	18
+article	Bullion and coin, copper coin	18
+country	Other Foreign Possessions in Asia	18
+country	in Africa	18
+country	essions in Asia	18
+country	Other British Possessions in Africa.	18
+article	Berlin wool	18
+article	Chalk and Stearine	18
+country	Franco	18
+article	Oil, kerosine, in case	18
+country	In Europe	18
+article	Cable, cordage, and twine	18
+article	Instruments, musical, pianos and pinolus (complete)	18
+article	Australia—*	18
+article	Instruments, musical, pianos and player pianos (complete)	18
+article	Sapwood	18
+article	Seeds, feeding, other	18
+article	Animal, refined : Other	18
+article	Tanning substances not elsewhere specified, other	18
+article	Potassium permanganate	18
+article	Bony	18
+article	Scientific instruments and appliances (except electrical), dental, surgical, medical, and veterinary	18
+article	Ammunition, high explosives, other	18
+article	Haberdashery, buttons, &c.	18
+article	Fertilizers, lime	18
+article	Tanning substances not elsewhere specified, myrobalams	18
+article	Wire manufactures, wire nails, \frac{3}{8} to 1 \frac{1}{2} inches.	18
+article	Cotton banyans	18
+article	Road, wheels, rims, and spokes for other road vehicles	18
+article	Wire manufactures, wire nails, \frac{3}{8} to 1\frac{1}{2} in.	18
+country	Or. For. Coun. in Europe,,	18
+country	Sumatara	18
+article	Oil and fats, refined, edible, vegetable, olive	18
+article	Gums and resins, arabic	18
+article	Hoop Iron	18
+article	Nails and tacks (other than wire nails, rivets) and washers	18
+article	Lead pig	18
+article	Lead sheets	18
+article	Leather tanned	18
+article	Other parts and accessories for other vehicles	18
 article	Wire manufactures, wire nails, \frac{1}{2} to 1 \frac{1}{2} in.	18
 article	Implementes and tools and parts thereof (except machine tools), agricultural, including estate tools, tapping knives, and pruning knives	18
-article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, cutch	18
 article	Arms, small arms, guns : Breach-loading, single-barrelled	18
 article	Arms, small arms, guns : Breach-loading, double-barrelled	18
-article	Dyeing materials, other	18
+country	Or. Br. Poss. in Africa	18
 article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricers	18
-article	Arms, ammunition, and military and naval stores, explosives	18
-country	Estonia	18
-article	Arms, small arms, guns rifles and carbines double-barrelled	18
-country	Other Br. Poss. in Africa	18
+article	Brass and alloys of copper : Phosphor, bronze, ingots, and bars	18
+country	U. S., of America	18
+article	Dyeing materials, sapamwood	18
+article	Arms, small arms, rifles and carbines, single-barrelled, with out magazine	18
 article	Myrobalams	18
+article	Arms, small arms, rifles, and carbines, double-barrelled	18
 article	Wire manufactures, wire nails, \frac{1}{4} to 1\frac{1}{4} in.	18
-article	Road, mechanically-propelled tractors (including steam rollers), other	18
-article	Beche-de-mer	18
-country	Or. For. Coun. in Europe	18
 article	Precious and semi-precious stones and pearls other	18
 area	TOTAL	17
-article	Magnetos, ignition	17
 measure	Cinna-mon	16
 measure	Cocoa-nuts.	16
 measure	Cocoa- nuts.	16
@@ -608,141 +1152,191 @@ area	Anuradhapura Revenue District	16
 area	Badulla Revenue District	16
 area	Ratnapura Revenue District	16
 area	Kegalla Revenue District	16
-article	Vegetable other than essential, coconut oil	15
-article	Fertilizers, poonac, other	15
+article	Cranes, hoists, and lifting machineries	16
+article	Powder ware	15
+country	British Possessions in Africa	15
+article	Artists' sundries	15
+country	METAL (OTHER THAN MACHINERY).	15
+country	Other British Poss. in Europe	15
+country	Other For. Coun. in Asia	15
+article	Copper Sheathing	15
+country	Other British Pos- sessions in Africa	15
+article	Amphor	15
+article	Gunline	15
+article	Stones, other, unworked	15
+article	Oil (refined for food), other	15
+article	Broad-stuff	15
+article	Arms, implements, and accessories	15
+country	Other Brit. Poss. in Asia	15
+article	Beedy, cigarettes	15
+article	Manufactured fuel	15
+article	Wire manufactures, wire nails, \frac{1}{2} to 1\frac{1}{2} inches.	15
+country	British Possessions	15
+article	Road, mechanically propelled, motor cycles	15
+article	Matches, non-safety	15
+article	Ships and boats (new) complete, boats and vessels without means of locomotion other than the oars	15
+article	Castings and forgings in the rough iron	15
+article	Stationery, including notepaper pads, manuscripts, books (except exercise books in paper covers)	15
+article	Road, wheels, rims, and spokes for other vehicles	15
+article	Ammunition, high explosives, blasting powder	15
+article	Gas mantles	15
+article	Machinery, belting, other than leather	15
+article	Pictures and prints, other	15
+article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricarcs	15
+article	Ships and boats (new) complete, sailing vessels	15
+article	Road, engines for motor cars, cycles, and tricars	15
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, cutch	15
+article	Phosphor bronze, ingots, and bars	15
+article	Other sorts	15
 article	Seeds (agricultural and horticultural) other than oil seeds, rubber	15
-article	Tanning substances not elsewhere specified, bark for tanning and dyeing	15
-article	Other coated plates and sheets, galvanized	15
-article	Wire manufactures, wire nails, \frac{3}{4} to 1\frac{1}{2} in.	15
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, alizarine	15
+article	Rosin	15
+article	Glass and Glassware, window glass	15
 article	Jute manufactures sacks and bags, empty, new	15
-country	Sumatara	15
-article	Rail, carriages, parts	15
-article	Organs and pianos : Parts of pianos	15
-article	Porcelain ware and chinaware	15
-article	Wire, other description of wire	15
-article	Nails, screws, and wire	15
-article	Rods, sheets, and strips	15
-article	Scientific instruments and appliances (except electrical), photographic instruments and appliances, plates, including paper, and films (except cinematograph films)	15
-article	Machine tools	15
-article	Cotton manufactures, not elsewhere specified	15
-article	Other manufactures of paper, not elsewhere specified	15
-article	Carriages, parts	15
-article	Road other sorts (including wheel barrows)	15
-article	Clocks and watches: Other parts	15
-article	Coal tar products not elsewhere specified	15
-article	Parts of	15
-country	Other British Possessions in America	15
 article	Wire manufactures, wire nails, \frac{1}{2} to 1\frac{1}{2} in.	15
 article	Arms, small arms, guns: Other arms, implements, and accessories not elsewhere specified	15
-article	Seeds, gingly	15
 article	Fertilizers, nitrolime	15
 area	Kurunegala—contd.	14
+country	Other British Possessions (ino. Zanzibar)	14
+country	Other For. Countries in Asia	13
+country	Other For. Countries in Australasia	13
 measure	Arecanuts	12
 area	Grand Total	12
 area	Province of Uva	12
-article	Oil seed cake, linseed poonac	12
-article	Cider	12
-article	Nuts used as fruits, groundnuts	12
-article	Seeds, poppy seed	12
-article	Seeds for expressing oil therefrom, linseed	12
-article	Fertilizers, lime	12
-article	Fertilizers, poonac, rape seed	12
-article	Tanning substances not elsewhere specified, myrobalams	12
+article	Crustle fish	12
+article	Hankerchiefs, scarves, and shawls	12
+country	Other Foreign Coun. in America	12
+article	Iron and steel, corrugated	12
+article	Cables cordage, and twine	12
+article	Carriages and trucks and parts thereof	12
+country	Other British Possessions in Australia	12
+country	in Asia	12
+country	Other British Poss.	12
+country	Other For. Poss. in Africa	12
+article	Zinc perforated	12
+article	Arcacuts	12
+article	Iron & steel drums and tanks	12
+article	Thoriunite	12
+article	Timber, worked, palmyra luths and rafters	12
+article	Penwriters	12
+article	Pahu	12
+article	Machinery, locomotives, excluding railway other	12
+article	Thoriamite	12
+country	Maldivi Islands	12
+country	Other Foreign Countries—	12
+article	Cars motor, chassis	12
+article	Seeds, ginglyll	12
+article	Railway plant and rolling stock, rails and fish plates of steel or iron	12
+article	Bloche-de-mer	12
+article	Dammor	12
+article	player pianos (complete)	12
+article	records)	12
+article	Wines still, sherry, in bottle	12
+article	Tanning substances not elsewhere specified, gambier	12
+article	Jute manufactures, sacks and bags empty, new	12
+article	Road, mechanically propelled, motor cars	12
+article	Road, other than mechanically propelled, other sorts (including wheelbarrows)	12
+article	Busks and basketware	12
+article	Organs and pianos, automatic, complete : Pianos	12
+article	Pictures and prints : Picture post cards	12
+article	Other.	12
+article	Grain; other	12
+article	Craton seed	12
+article	Seeds for expressing oil therefrom, castor	12
+article	Road, engines for motor cars, cycles, and tricycles	12
+article	Road, wheels, rims, and spokes for motor cars, motor cycles, and tricycles	12
+article	Wire manufactures, cables and ropes (except insulated telephone and telegraph cables.)	12
+article	Scientific Instruments and appliances (except electrical), dental, surgical, medical, and veterinary	12
+article	Other (including hats).	12
+article	Calcium Carbide	12
+article	Soap other	12
 article	Wire uninsulated electric	12
-country	Or. For. Coun. in Europe,,	12
-article	Brass and alloys of copper : Phosphor, bronze, ingots, and bars	12
-article	Unwrought or part wrought, anti-friction metal	12
-article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, alizarine	12
-article	Ammunition : Sporting powder	12
-article	Ammunition, high explosives : Blasting powder	12
-article	Ammunition, high explosives : Other	12
 country	New Foundland	12
+country	Or. For. Coun. in Asia	12
+article	Arms, small arms, pistols, single-barrelled, not magazine	12
+article	Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross	12
+article	Brass and alloys of copper : Delta metal, ingots, and bars	12
+article	Brass and alloys of copper : Gun metal, ingots, and bars	12
 article	Waxes (other than sealing and paraffin), other.	12
-country	U. S., of America	12
-article	Horns, sambur	12
-article	Seeds, medicinal, other	12
-article	Road, wheels, rims, and spokes, for motor cars, motor cycles, and tricar	12
-article	Oil and fats, refined, edible, vegetable, olive	12
-article	Gums and resins, arabic	12
-article	Rosin	12
-article	Glass and Glassware, window glass	12
-article	Hoop Iron	12
-article	Plates and sheets, coated, corrugated	12
-article	Nails and tacks (other than wire nails, rivets) and washers	12
-article	Tanks and drums of iron and steel, black painted or galvanized, except drums for oil	12
-article	Hollow ware (household, kitchen, &c., utensils, enamelled or tinned)	12
-article	Tubes	12
-article	Phosphor bronze, ingots, and bars	12
-article	Lead pig	12
-article	Lead sheets	12
-article	Lead manufactures not elsewhere specified	12
-article	Tin ingots, blocks, bars, and slabs	12
-article	Tin solder	12
-article	Clocks and watches, clocks, complete	12
-article	Cloth and stuff, mixed	12
-article	Textile manufactures, not elsewhere specified	12
-article	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, skirts, &c., except cotton banians	12
-article	Leather tanned	12
-article	Wagons and trucks, complete	12
-article	Wagons and trucks, parts	12
-article	Other parts and accessories for other vehicles	12
-article	Ammunition, high explosives, other	12
-article	Haberdashery, buttons, &c.	12
-article	Copper coin	12
-article	Tinned or bottled in syrup or spirits: Jams, jellies, marmalades	12
-article	Brass and alloys of copper: Tubes	12
-country	Other British Possessions in Australasia	12
-article	Gutch	12
-article	Myrobolams	12
-article	Road, other than mechanically-propelled other sorts (including wheelbarrows)	12
-article	Silver Coin	12
+article	Locomotives	12
+article	Motor lorries used solely for conveyance of goods	12
+country	Jugo Slavia	12
 article	Clothes and stuffs, pure wool	12
-country	Czecho-Slovakia	12
 article	Road, mechanically-propelled tractors (including steam rollers, &c)	12
 article	Books, printed, including music: Maps and charts	12
 article	Oil, ginglyly	12
+article	Seeds feeding, other	12
+article	Oil seed cake, gingelly poona	12
+country	Or. For. Coun. in Africa	12
+article	Horns, Sambur	12
+article	Road, engines for motor cars, cycles, and tricars)	12
+country	United Kingdom oz. troy.	12
 article	ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, and pillars	12
 country	Port. East Africa	12
-article	Electric goods and apparatus not elsewhere specified	12
-article	Cranes, hoists, and lifting machineries	11
 measure	Palmyrah nuts	10
 area	Mullaittivu	10
-article	Ammunition : Other accessories (including detonators)	10
+article	Prime movers, not electrical, windmills and other sources of energy	10
+article	Typewriter, parts	10
+article	Copro	9
+article	itch	9
+article	For Coun.	9
+article	Wire	9
+article	Bullion and coin, silver	9
+article	Chalk—contd.	9
+article	Spices nutmegs	9
+article	Iron & steel drums & tanks	9
+article	nails and fish plates of steel or iron	9
+article	Nippers and keys	9
+article	Poultry and game	9
+country	Brit. India	9
+article	Telephonic materials	9
+article	Lead other	9
+article	Metal, unenumerated	9
+article	il, linseed	9
+article	Stitch	9
+country	Br. Central America	9
+country	British Central America	9
+country	Other Foreign Coun- tries in Africa	9
+article	Oil, petrol and benzinc	9
+article	Lao	9
+article	Rations	9
+article	Seeds (exc. foodstuffs), cotton	9
+article	Oaks and shooks	9
+article	Gunny bage	9
+article	Other foodstuffs for Animals	9
+article	Tanning substances not elsewhere specified, myrobalans	9
+article	Wire, uninsulated electric	9
+article	Implementments and tools and parts thereof (except machine tools), agricultural, including estate tools, tapping knives, and pruning knives	9
+article	Cotton yarn and twist other	9
+article	"South Australia . """	9
+country	contd.	9
+article	Plates and sheets, coated, other	9
+article	Brass and alloys of copper: Phosphor, bronze, ingots and bars	9
+article	Brass and alloys of copper: Gun metal, ingots and bars	9
+article	Roads, parts of road vehicles, chassis for motor cars	9
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, alizarine	9
+article	Road, mechanically-propelled tractors (including steam rollers, other	9
+article	Lead pipes	9
+article	Road, other parts and accessories for motor cars, motor cycles, and tractors in cycles	9
 article	Coconuts fresh	9
-article	Tanning substances not elsewhere specified, other	9
-article	Castings and forgings in the rough, iron	9
-article	Brass and alloys of copper : Delta metal, ingots, and bars	9
-article	Brass and alloys of copper : Gun metal, ingots, and bars	9
-article	Road, engines for motor cars, cycles, and tricars	9
-article	Arms, small arms, guns : Rifles and carbines, double-barrelled	9
-article	Gramophones and phonographs : Parts of.	9
-article	Moulding Sand	9
-article	Lac	9
-article	Plants and Roots	9
-article	Abrasives manufactured, cement per barrel not exceeding 5 cwt. gross	9
-article	Wire manufactures, cables and ropes (except insulated telephone and telegraph cables.)	9
-article	Other sorts	9
-article	Scientific Instruments and appliances (except electrical), dental, surgical, medical, and veterinary	9
-country	U. S. of America	9
-article	Manufactures of wood and timber, not elsewhere specified	9
-country	Other (including hats). United Kingdom	9
-article	Stationery, including notepaper pads, manuscripts, books (except exercise books in paper covers)	9
-article	Locomotives	9
-article	Motor lorries used solely for conveyance of goods	9
-article	Road, wheels, rims, and spokes for other vehicles	9
-article	Ammunition, high explosives, blasting powder	9
-article	Other Arms implements and accessories not elsewhere specified	9
-article	Pictures and prints, other	9
-article	Seed, feeding, other.	9
 article	Animal, refined: Dripping	9
 article	Seeds, ginyelly	9
-country	Or. For. Coun. in Asia	9
-article	Potassium permanganate	9
-article	Matches, non-safety	9
-country	British Possessions	9
+article	Moulding Sand	9
+article	Plants and Roots	9
+article	Other Arms implements and accessories not elsewhere specified	9
+country	Turky in Europe	9
+article	Waxes (other than sealing and paraffin) beeswax	9
+country	Other (including hats). United Kingdom	9
+article	Carriages, complete	9
+article	Rail, locomotives, complete	9
+article	Motor cars	9
+article	Road, mechanically-propelled tractors (including steam rollers)	9
+article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, alkali	9
+article	Organs and pianos, automatic, complete. Organs	9
+article	Organs and pianos automatic, complete : Pianos	9
+article	Ship, and boats (new) complete, boats and vessels without means of locomotion other than the oars	9
 article	Manufactured fuel— tons.	9
 article	Matches non-safety	9
-article	Scientific instruments and appliances (except electrical), dental, surgical, medical, and veterinary	9
 measure	Cinna mon.	8
 measure	Cocon-nuts.	8
 measure	To-bacco	8
@@ -755,6 +1349,15 @@ measure	Coco- nuts.	8
 measure	Pastur- age	8
 measure	Horned Cattle	8
 article	Ammunition, other accessories, including detonators	8
+country	Serb Croat Slovene State (Jugo-Slavia)	7
+country	Serb-Croat Slovene State (Iugo Slavia)	7
+country		7
+country	Fiurme	7
+country	Serbo-Croat-Slovenian State (Jugo-Slavia)	7
+country	Other Foreign Possessions in the Pacific	7
+country	Fiune	7
+country	Fiurne	7
+country	Bahrein Island	7
 measure	Palmitrah nuts	6
 measure	Palmira nuts	6
 area	Nunura Eliya.	6
@@ -768,45 +1371,117 @@ area	Total —	6
 area	Mataru	6
 area	Hambancota	6
 area	Puttalam-Chilaw.	6
-country	Other Br. Poss. in Asi	6
-article	Animal, refined : Other	6
-article	Seeds, ginnellu	6
-country	Turky in Europe	6
+article	Swine	6
+article	Frozen, fish	6
+article	Fullerscarth	6
+country	Hong King	6
+article	Brass, nails, and wire	6
+article	Tiles and tiles	6
+article	Combs and brushes	6
+article	Ropes, cordage, and twine	6
+article	Paint	6
+article	Linaware	6
+article	Rawing materials	6
+article	Carrige sand trucks and parts thereof	6
+article	Wheels and fish plates of steel or iron	6
+article	Keys and keys	6
+article	Type writers	6
+country	Straits Settlmnts	6
+country	Other British Poss. in Africa	6
+country	Br. West Indies	6
+country	For. West Indies	6
+country	U. S., Africa	6
+article	UNENUMERATED, dutiable	6
+article	UNENUMERATED, free	6
+article	Piece goods, Muslin	6
+country	Ma'ta	6
+article	Implement and Accessories	6
+country	contd. Brought forward	6
+country	Other British Post sessions in Asia	6
+article	Implement and accessories	6
+article	Areca nut seeds	6
+country	Other British Poss. in Australia	6
+country	Other Foreign Coun.	6
+article	Arms, implements & accessories	6
+article	parts thereof	6
+article	and parts thereof	6
+country	Br. India	6
+country	Other British Pos- in Asia	6
+article	doz. 30 30	6
+article	doz. 15326 15660 } 87533	6
+article	doz. — —	6
+article	cwt. No. cwt. No.	6
+country	Foreign New Guinea	6
+country	Borneo exc. British	6
+country	sessions in Africa	6
+article	il, liquid fuel	6
+country	South Austria	6
+article	Cloth and Stuff	6
+article	Brass, sheets	6
+article	arms, implements and accessories	6
+article	Table cordage, and twine	6
+article	British India { yds. — — — } 0	6
+article	Poonac, gingly	6
+country	Adon	6
+country	Cotton.	6
+article	Thread— Cotton.	6
+country	tries in Africa	6
+article	* Meat, frozen, pork	6
+country	Other Foreign Countries in Africa*	6
+country	Phil ppine Islands	6
+country	Sumpatra	6
+country	Jaya	6
+country	BULLION AND COIN.	6
+country	Now South Wales	6
+article	Dammer	6
+article	Outile fish	6
+article	Beehive	6
+article	Iron corrugated,	6
+country	Other Foreign Coun- tries in Asia	6
+article	Seeds (exc. foodstuffs), other	6
+article	Oth. Foreign Coun	6
+article	Railway plants and rolling stock, rails and fish plates of steel or iron	6
+article	Road, mechanically propelled, motor lorries used solely for conveyance of goods	6
+article	Road, mechanically propelled, tractors (including steam rollers), agricultural	6
+article	Road, other than mechanically propelled, carts and carriages for animal traction	6
+article	Organs and pianos, automatic, complete : Organs	6
+country	British East Africa pieces	6
+article	Cable, cordage, and twine, other than cowr	6
+country	Siamatra	6
+article	Tea waste	6
+article	Road, mechanically propelled motor lorries used solely for conveyance of goods	6
+article	Motor spirits, in tins	6
+article	Millboard, strawboard, and paste board	6
+article	Ammunition, fuse and blasting accessories, safety fuse	6
+article	Explosives and ammunition not elsewhere specified	6
+article	Wire manufactures, cables, and ropes (except insulated telephone and telegraph cables)	6
+article	Brass and alloys of copper: Delta metal, ingots and bars	6
+country	Be'gium	6
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, other (synthetic)	6
+article	Rail, locomotives	6
+article	Mutton, other	6
+country	Purma	6
+article	Arms, small arms, rifles and carbines, single-barrelled, without magazine	6
+country	ANIMALS, NOT FOR FOOD.	6
+article	CLASS IV.	6
+country	BULLION AND COIN OF GOLD SILVER, COPPER, AND NICKEL.	6
+article	CLASS V.	6
+article	Castings and forgings in the rough steel	6
+article	Dyes and dyestuffs (except dyewoods and extracts) for dyeing and tanning, other (synthetic)	6
+article	Arms, small arms, guns : Pistols, single-barrelled, not magazine	6
+country	Other B. Poss. in Asia	6
+article	Avippo nuts	6
+country	Jav	6
+article	Arms, small arms, pistols; double-barrelled or magazine	6
+article	Arms, small arms; other arms, implements, and accessories not elsewhere specified	6
+country	Postal Articles value.	6
+article	Gums and resins, rosin	6
+article	Paper tissue	6
+article	Paper other	6
+article	Rail, locomotives, part	6
+article	Oil seed cake gingly poonac	6
 country	O. For. Coun. in Europe	6
 country	Other For. Countries in Europe	6
-article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, cutch	6
-article	Road, mechanically-propelled tractors (including steam rollers, other	6
-article	Arms, small arms, guns : Pistols single-barrelled, not magazine.	6
-article	Organs and pianos, automatic, complete : Organs.	6
-country	Other Foreign Countries in Europe—	6
-country	China exc. British	6
-article	Oil, gingly	6
-article	Dyeing materials, anatto seed	6
-article	Arippe nuts	6
-article	Myrobalans	6
-article	Petroleum, kerosine oil, in bulk.	6
-country	Sunatra	6
-article	Arms, small arms, guns, muzzle-loading	6
-article	Gold coin	6
-article	Sawn staves scantling	6
-article	Fibre hemp	6
-article	Waxes (other than sealing and paraffin) beeswax	6
-article	Seeds (agricultural and horticultural) other than oil seeds tea	6
-article	Castings and forgings in the rough iron	6
-article	Plate, electro plated	6
-article	Plate nickel plated	6
-article	Lead Pipes	6
-article	Type Metal	6
-article	Cloth and stuff pure wool	6
-article	Carriages, complete	6
-article	Road, mechanically-propelled tractors (including steam rollers	6
-article	Hand trucks and trolleys	6
-article	Chassis for motor cars	6
-article	Magnetos	6
-article	Rifles, single-barrelled, without magazine	6
-article	Gas mantles	6
-article	Oil seed cake gingly poonac	6
-article	Seeds for expressing oil therefrom, castor	6
 article	Brass and alloys of copper: Phosphor, bronze, ingots, and bars	6
 article	Cotton manufactures	6
 article	Cordage, cables, ropes, and twine of cotton	6
@@ -814,19 +1489,34 @@ country	Zanziba	6
 article	Monazite Sand.	6
 article	Dyeing materials, anatto seed.	6
 country	India. exc. British	6
-article	Arippo nuts	6
 article	Air aeroplane and parts.	6
 article	Road, engines for motor cars, cycles, and tricers	6
-article	Road, wheels, rims, and spokes for other road vehicles	6
-article	Ships and boats (new) complete, boats and vessels without means of locomotion other than the oars	6
-article	Arms, small arms, pistols, single-barrelled, not magazine	6
 article	Nickel	6
-article	Soap other	6
-article	Road, other parts and accessories for motor cars, motor cycles, and tractors in cycles	6
-country	Jugo Slavia	6
-article	Manufactured fuel	6
-article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, alizarine	6
-article	Rail, locomotives, complete	6
+article	Sawn staves scantling	6
+article	Fibre hemp	6
+article	Seeds (agricultural and horticultural) other than oil seeds tea	6
+article	Plate, electro plated	6
+article	Type Metal	6
+article	Cloth and stuff pure wool	6
+article	Road, mechanically-propelled tractors (including steam rollers	6
+country	Other Br. Poss. in Asi	6
+article	Seeds, ginnellu	6
+article	Arms, small arms, guns : Pistols single-barrelled, not magazine.	6
+country	Sweeden	6
+article	Organs and pianos, automatic, complete : Organs.	6
+country	Other Foreign Countries in Europe—	6
+country	China exc. British	6
+article	Dyeing materials, anatto seed	6
+article	Arippe nuts	6
+article	Petroleum, kerosine oil, in bulk.	6
+article	Arms, small arms, guns, muzzle-loading	6
+article	Plate nickel plated	6
+article	Lead Pipes	6
+article	Clocks and watches, other parts	6
+article	Hand trucks and trolleys	6
+article	Chassis for motor cars	6
+article	Magnetos	6
+article	Rifles, single-barrelled, without magazine	6
 article	Books, printed, including music: Music	6
 article	Nickel coin	6
 country	Or. Fr. Coun. in America	6
@@ -838,40 +1528,42 @@ article	Road, magnets	6
 article	Arms, small arms, pistols, double-barrelled or magazine	6
 country	Slips Stores	6
 article	Silver bullion	6
-article	Motor cars	6
-article	Road, mechanically-propelled tractors (including steam rollers)	6
-article	Dyes and dyestuffs (except dyewoods) and extracts for dyeing and tanning, alkali	6
-article	Organs and pianos automatic, complete : Pianos	6
+article	Non-ferrous metalliferous ores and scrap of all description	6
+country	New Zeland	6
+article	Oil seed cake gingelly poonac	6
+article	Seeds for expressing oil therefrom, Castor	6
+article	Rail, carriages, complete	6
+article	Arms, small arms, guns : Pistols, single-barrelled, not magazine.	6
+country	Ships & stores	6
+country	Madive Islands	6
+article	Road, other than mechanically-propelled hand trucks and trollies.	6
+article	Fullers earth	6
+article	Anti-friction metal	6
 article	Organs and pianos: Parts of pianos	6
-country	Or. For. Coun. in Africa	6
 country	Finme	6
 article	Monazite sand	6
 article	Seeds for expressing oil therefrom, gingelly	6
 country	I a'	6
 country	Or. Brit. Possn. in Asia	6
-article	Horns, Sambur	6
-country	India exo. British	6
 country	Port East Africa	6
 country	Anglo-Egyptian	6
-country	Other For. Coun. in Africa	6
 article	Arms, small arms, rifles, and carbines, single-barrelled, without magazine	6
 article	Arms, small arms, rifles and carbines, single-barrelled with magazine.	6
-article	Arms, small arms, rifles, and carbines, double-barrelled	6
 article	Arms, small arms, other arms, implements, and accessories not elsewhere specified.	6
 country	Anglo-Egypt Soudan	6
 country	Other For. Con. in Australia	6
-country	United Kingdom oz. troy.	6
 article	Plants and roods	6
+article	Jute manufactures, sacks, and bags, empty, new	5
+country	United Kindgom	5
+article	Prime movers, not electrical internal combustion	5
 article	Cinema ograph films	5
 article	Prime movers, not electrical, windmills and other sources of energy.	5
-article	Ships and boats (new) complete, sailing vessels	5
 article	Sugar making refining machinery	5
 article	Ammunition cartridges cases, empty	5
 article	Fuse and blasting accessories, safety fuse	5
 article	Magneto Ignition	5
 article	Prime movers, not electrical windmills and other sources of energy	5
 article	Cranes, hoists, and lifting machines	5
-article	Typewriter, parts	5
 article	Jute manufactures, sacks and bags empty new	5
 measure	Palmyra	4
 area	Marara	4
@@ -882,27 +1574,152 @@ measure	Pasture, in acres.	4
 measure	Total Number of Acres in Crop.	4
 measure	Total Number of Acres of uncultivated Land.	4
 measure	Horned Cattle.	4
-country	Other British Possessions in S. Africa	3
-article	Rail locomotive complete	3
-article	Rail, carriages, complete.	3
-article	Arms, small arms, guns : Rifles and carbines, other.	3
-country	Sweeden	3
-article	Organs and pianos : Parts of Organs.	3
-article	Beasts	3
-article	Seeds cotton	3
-article	Antifrication Metal	3
-article	Clocks and watches, watches, complete	3
-article	Clocks and watches, other parts	3
-article	Piece Goods	3
-article	Road mechanically-propelled motor cycles	3
-article	Road, other parts and accessories for motor cars, motor cycles, and tricycles in cycles	3
-article	Inner tubes	3
-article	Shot, bullets, and pellets	3
-article	Arms, pistols, single-barrelled, not magazine	3
-article	Sports goods	3
+article	Hydrobals	3
+article	Chilla weed	3
+article	Yarn and net	3
+article	Matchware	3
+article	Fullersearth	3
+article	Locomotives, excluding Railway	3
+article	Wire, bar	3
+article	Watering fluid	3
+article	Metal, worked	3
+article	Bullion and coin, copper	3
+article	Spirits other	3
+article	Orchilla weed	3
+country	South Sea Island	3
+article	{ doz. 750 770 } 1875	3
+article	{ doz. — —	3
+article	MUNTSZ metal	3
+article	QUICKSILVER	3
+article	SPELTER	3
+article	ZINC slabs	3
+article	ARECANUT seeds	3
+article	Seeds other	3
+article	Silk and satin handkerchiefs	3
+article	Iron & steel, drums & tanks	3
+article	Sambier	3
+article	Cotton raw	3
+article	Sum Arabic	3
+article	hair	3
+article	lime and clay	3
+article	Arcanut seeds	3
+article	Tools	3
+article	Leather articles, harness and saddlery— British Colonies	3
+article	Machinery, spinning and weaving— British Colonies	3
+article	Mats, mat bags, and baskets— British Colonies	3
+country	Maldivine Islands	3
+article	Handkerchief	3
+country	tries in Asia	3
+country	Other Foreign Poss. in Asia	3
+article	Linen piece goods	3
+article	saddlery	3
+article	Petrol	3
+country	Other Foreign Coun. in Asia	3
+country	Other British Pos- sessions in Asia ,, — — —	3
+article	doz. 287680 286093 } 760393	3
+article	doz. 6403 6836 } 51669	3
+article	doz. 89 89 } 613	3
+article	lb. — —	3
+country	Polium	3
+article	Areca-nut seeds	3
+article	Aluminium wire	3
+article	Brass, sheathing	3
+country	Butma	3
+article	Poonac, casior seed	3
+article	Harnesses and carts	3
+country	Samoa Island	3
+article	Brassware	3
+article	Iron & steel, drums and tanks	3
+article	Ginny bags	3
+country	Other Foreign Coun-	3
+country	Other British Poss in Asia	3
+country	essions in Africa	3
+country	Other British Poss.—	3
+article	(blasting)	3
+country	United Kingdom cwt.	3
+country	Of Mixed Materials.	3
+country	Peria	3
+article	Madder and manjit	3
+country	British India bunches	3
+article	Iron drums and tanks	3
+article	Steel blister	3
+article	Tin Slabs	3
+article	Unenumerated dutiable	3
+article	Boots	3
+country	NARCOTICS.	3
+country	RAW MATERIALS.	3
+country	Other Brit. Poss. in Africa	3
+article	Muniz metal	3
+country	United Kingdom bunches	3
+article	Gold bullion	3
+article	Milk Preserved full cream	3
+article	Oil Kerosine	3
+article	Yarn and twist gray	3
+article	Arms, pistols	3
+article	Cars, motor, parts, tyres, and tubes	3
+article	Fullers Earth	3
+article	Glass, window, and German sheet	3
+article	Lorries and parts	3
+article	Paper hanging	3
+article	Uopra	3
+article	Seeds (exc. foodstuffs), tea	3
+country	Co:hin-China	3
+article	Feather ware	3
+country	United Kingdom pieces	3
+country	tries in Europe	3
+country	Oth. Foreign Countries in Europe	3
+article	Pick	3
+article	Poonae, gingelly	3
+country	Maldivie Islands	3
+article	Non-ferrous metalliferous ores and scrap of all descriptions	3
+article	Brass and alloys of copper : Phosphor, bronze, ingots and bars	3
+article	Brass and alloys of copper : Gun metal, ingots and bars	3
+article	"Straits Settlements . """	3
+article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, cochineal	3
+article	Road, other than mechanically propelled, hand trucks and trolleys	3
+article	Ammunition, propellant powders : Cordite	3
+article	INSTRUMENTS, other	3
+article	Glass and glassware, window glass	3
+article	Mining and quarry products manufactured, not elsewhere specified	3
+article	Rods, sheets, and stripes	3
+article	Gun metal, ingots and bars	3
+article	Other manufactures of paper not elsewhere specified	3
+article	Rail, locomotives, parts	3
+article	Road, mechanically-propelled, other	3
+article	Other parts and accessories for motor cars, &c.	3
+article	Ammunition, fuse and blasting accessories, other fuse	3
+article	Other arms, implements and accessories not elsewhere specified	3
+article	Arts, other than pictures	3
+article	Corn offals, other sorts	3
+article	Spirits Arrack	3
+article	Sawn, palmyra lathes and rafters	3
+article	Dyes and dyestuffs (except dye-wood-) and extracts for dyeing and tanning, alizarine	3
+article	Road, engines for motor car cycles and tricycles	3
+country	Malagascar	3
+country	British Possession	3
+country	India exc., British	3
+country	Othe For. Coun. in Europe	3
+country	Other For. Coun. in Europe,,	3
+article	Abrasives manufactured, cement per cwt. or part thereof in excess of 5 cwt. gross per barrel	3
+article	Wire insulated electric	3
+country	Or. For. Coun.inEurope	3
+article	Road, other than mechanically-propelled hand trucks and trollies	3
+article	Road, engines for motor car cycles and tractors	3
+article	Waxes other than sealing and paraffin, beeswax	3
+article	Oils, fats, and greases, animals (except marine animals), not refined tallow	3
+article	Abrases manufactured, cement barrel not exceeding 5 cwt. gross	3
+article	Abrases manufactured, stones and slates wholly or mainly manufactured, grindstones	3
+article	Abrases manufactured, stones and slates wholly or mainly manufactured, other	3
+article	Castings and forgings in the rough Iron	3
+country	United Kngdom	3
+article	Clocks and watches, cocks, complete	3
+article	Apparel, including outer and under garments, shirts, coats, vests, trousers, costumes, dresses, shirts, &c., except cotton banians	3
+article	Road, carts, and carriages for animal traction	3
+article	Arms, small arms, guns, rifles, and carbines, magazine	3
+article	Arms, small arms, guns, revolvers	3
+article	Haberdashery, buttons, and studs, pins, including hat pins	3
+article	Musical instruments, organs and pianos, non-automatic, complete, pianos	3
 article	Wines still, burgundy, in wood	3
-country	Chili	3
-article	Castings and forgings in the rough steel	3
 article	Brass and alloys of copper: Delta metal, ingots, and bars	3
 article	Brass and alloys of copper: Gun metal, ingots, and bars	3
 country	Sumatera	3
@@ -910,21 +1727,31 @@ article	Air, aeroplanes, and parts.	3
 article	Road, engines for motor car, cycles, and tricars	3
 country	Maldivé Is'ands	3
 article	Nickel, coin	3
-article	Lao	3
 article	Oils, fats, and greases, animals (except marine animals), not refined, tallow	3
 article	Oils, fats, and greases, animals (except marine animals), not refined, other	3
-article	Plates and sheets, coated, other	3
 article	Antifriction Metal	3
 article	Carpe's	3
-article	Other (including hats).	3
 article	Dyes and dye stuffs (except dye woods) and extracts for dyeing and tanning, aniline	3
-article	Paper tissue	3
-article	Paper other	3
 article	Stationery, including, notepaper pads, manuscripts, books (except exercise books in paper covers)	3
 article	Ammunition, cartridge cases, empty	3
-article	Ammunition, fuse and blasting accessories, safety fuse	3
 article	Arms, small arms, guns, rifles, and carbines, single-barrelled without magazine	3
 article	Gas n antles	3
+country	Other British Possessions in S. Africa	3
+article	Rail locomotive complete	3
+article	Rail, carriages, complete.	3
+article	Arms, small arms, guns : Rifles and carbines, other.	3
+article	Organs and pianos : Parts of Organs.	3
+article	Beasts	3
+article	Seeds cotton	3
+article	Antifrication Metal	3
+article	Clocks and watches, watches, complete	3
+article	Piece Goods	3
+article	Road mechanically-propelled motor cycles	3
+article	Road, other parts and accessories for motor cars, motor cycles, and tricycles in cycles	3
+article	Inner tubes	3
+article	Shot, bullets, and pellets	3
+article	Arms, pistols, single-barrelled, not magazine	3
+article	Sports goods	3
 article	Leeds for expressing oil therefrom, Castor	3
 article	Tanning substances not elsewhere specified gambler	3
 article	Castings and forgings in the rough, steel	3
@@ -936,46 +1763,49 @@ country	Palastine	3
 country	Ma'dive Islands	3
 country	Bel'gium	3
 article	Oils and fats, refined, edible animal refined lard	3
-article	Non-ferrous metalliferous ores and scrap of all description	3
 article	Logs, squares other	3
 article	Sawn staves scandling	3
 article	Fibre other	3
-article	HIDES AND SKINS UNDRESSED OTHER.	3
+article	GROUP H.	3
 article	MISCELLANEOUS. Seeds (agricultural and horticultural) other than oil seeds tea	3
-article	OTHER DESCRIPTIONS OF NON-METALLIFEROUS MINING AND QUARRY PRODUCTS WHOLLY OR MAINLY MANUFACTURED.	3
 article	Cotton yarn and twist, bleached.	3
 article	Dyes and dyestuff (except dye-woods) and extracts for dyeing and tanning, aniline	3
 article	Rifles single-barrelled, with magazine	3
 article	Perfumery, cosmetics, powder &c.	3
+article	Baux	3
+country	Tota	3
+country	Other Br. Foes. in Asia	3
+country	Dutch Borneo	3
+country	Mal'dive Islands	3
+country	Jugo Slovnia	3
+article	Road, engines for motor cars, cycles, and tricar	3
+country	Potrugal	3
+article	Salt table	3
+article	Sawn staves, scantling	3
+article	Silk manufacture: other	3
+article	Dyes and dyestuff (except dyewoods) and extracts for dyeing and tanning, other	3
+article	Wheels, rims and spokes for motor cars, motor cycles, and tricar	3
+article	Wheels, rims, and spokes for other vehicles	3
+article	Other parts and accessories for motor cars, motor cycles, and tricar in cycles	3
+article	Pictures and prints : picture post cards	3
 country	Other Br. Poss.in Africa	3
 country	Argentina Republic	3
-article	Seeds for expressing oil therefrom, Castor	3
 country	Other Br. Foss. in Asia	3
-article	Tanning substances not elsewhere specified, myrobalans	3
-article	Wire, uninsulated electric	3
 country	Polland	3
 country	Jugo Slovia	3
-country	New Zeland	3
 country	British Borneo	3
-article	Rail, carriages, complete	3
-article	Arms, small arms, guns : Pistols, single-barrelled, not magazine.	3
 country	Other Br. Pos. in Asia	3
-article	Organs and pianos, automatic, complete. Organs	3
 article	Oils and fats, refined, edible, animal refined lard	3
 article	Pepper whole	3
-article	Fullers earth	3
 article	Logs square other	3
 article	Waxes (other than sealing and paraffin) other	3
 article	Wire, fencing other sorts	3
-article	Lead pipes	3
 article	Zinc manufactures, not elsewhere specified	3
-article	Anti-friction metal	3
 article	Type metal	3
 article	"Cutlery and hardware, knives, scissors, razors, and other cutler's ""re"	3
 article	Jute manufacture, other	3
 article	Oils refined	3
 article	Other parts and accessories for motor cars, motor cycles, and tricarasin cycles	3
-article	Revolvers	3
 article	Rifles, and carbines single-barrelled, with magazine	3
 article	Other arms implements and accessories not elsewhere specified	3
 article	Felt roofing	3

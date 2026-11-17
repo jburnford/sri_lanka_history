@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]
 FIELDS = ('table_id year_volume pdf_page printed_page flow class_as_printed '
           'group_as_printed article_as_printed country_group_as_printed '
           'country_as_printed unit_as_printed measure value_as_printed value row_kind note').split()
-with (ROOT/'extracted/trade.tsv').open() as f:
+with gzip.open(ROOT/'extracted/trade.tsv.gz','rt',newline='') as f:
     reader = csv.DictReader(f, delimiter='\t')
     assert reader.fieldnames == FIELDS
     rows = list(reader)
@@ -21,7 +21,7 @@ for year in sorted({r['year_volume'] for r in rows}):
         source.update((t['id'], t) for t in map(json.loads, f))
 for row in rows:
     assert row['flow'] in {'import', 'export'}
-    assert row['row_kind'] in {'country', 'subtotal', 'article_total'}
+    assert row['row_kind'] in {'country', 'subtotal', 'article_total', 'unassigned'}
     assert not re.match(r'^(Brought|Carried)\b', row['country_as_printed'])
     assert not re.search(r'\d|[{}]', row['country_as_printed'])
     assert row['unit_as_printed'] not in {'"', ',,', '„'}

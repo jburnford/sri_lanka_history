@@ -41,7 +41,7 @@ The ledgers run over many pages. Each is a hierarchy printed in the first column
 
 ## What to produce
 
-`extracted/trade.tsv`, tab-separated, one row per printed country row, with this header:
+`extracted/trade.tsv.gz` (gzipped since the extension to 1907-1928; it was `trade.tsv`), tab-separated, one row per printed country row, with this header:
 
 `table_id  year_volume  pdf_page  printed_page  flow  class_as_printed  group_as_printed  article_as_printed  country_group_as_printed  country_as_printed  unit_as_printed  measure  value_as_printed  value  row_kind  note`
 

@@ -34,9 +34,12 @@ def main():
             n["agriculture"] += 1; n["agri area linked"] += bool(ak); n["agri measure linked"] += bool(mk)
             out.append((f"{r['table_id']}#a{n['agriculture']}", r["table_id"], "agriculture:" + r["table_kind"], r["year_volume"], r["year_data"], r["area_as_printed"], r["parent_area_as_printed"],
                         r["measure_as_printed"], r["unit_as_printed"], r["value_as_printed"], r["value"], r["note"], ak, mt, mk))
-    p = BB / "extracted/trade.tsv"
+    p = BB / "extracted/trade.tsv.gz"
     if p.exists():
-        for r in csv.DictReader(open(p, newline=""), delimiter="\t"):
+        # the period each ledger table covers (trade_periods.py): not always the calendar year of the volume
+        period = {r["table_id"]: r for r in csv.DictReader(open(BB / "extracted/trade_periods.tsv"), delimiter="\t")} \
+            if (BB / "extracted/trade_periods.tsv").exists() else {}
+        for r in csv.DictReader(gzip.open(p, "rt", newline=""), delimiter="\t"):
             if r.get("row_kind") != "country": continue
             at, ak = find(r["country_as_printed"], ["PLACE"])
             art = re.sub(r"[—\-:]+$", "", r["article_as_printed"]).strip()
@@ -48,8 +51,26 @@ def main():
             if not ak: miss[("country", r["country_as_printed"])] += 1
             if not mk: miss[("article", art)] += 1
             n["trade"] += 1; n["trade country linked"] += bool(ak); n["trade article linked"] += bool(mk)
-            out.append((f"{r['table_id']}#t{n['trade']}", r["table_id"], "trade:" + r["flow"] + ":" + r["measure"], r["year_volume"], r["year_volume"], r["country_as_printed"], r["country_group_as_printed"],
-                        art, r["unit_as_printed"], r["value_as_printed"], r["value"], r["note"], ak, mt, mk))
+            pd = period.get(r["table_id"]); yd, note = r["year_volume"], r["note"]
+            if pd:
+                yd = pd["period_end"][:4]
+                if pd["months"] != "12" or not pd["period_end"].endswith("-12"):
+                    note += f"; period: {pd['months']} months ended {pd['period_end']} (not a calendar year); year_data is the year the period ends"
+                elif pd["basis"].startswith("assumed"):
+                    note += "; period caption not read: the calendar year of the volume is assumed"
+            out.append((f"{r['table_id']}#t{n['trade']}", r["table_id"], "trade:" + r["flow"] + ":" + r["measure"], r["year_volume"], yd, r["country_as_printed"], r["country_group_as_printed"],
+                        art, r["unit_as_printed"], r["value_as_printed"], r["value"], note, ak, mt, mk))
+    # value of trade with each country by class, 1922-1938 (extract_trade_summary.py): country rows only
+    p = BB / "extracted/trade_by_country_class.tsv"
+    if p.exists():
+        for r in csv.DictReader(open(p, newline=""), delimiter="\t"):
+            if r["row_kind"] != "country": continue
+            at, ak = find(r["country_as_printed"], ["PLACE"])
+            if not ak: miss[("country", r["country_as_printed"])] += 1
+            n["trade summary"] += 1; n["trade summary country linked"] += bool(ak)
+            note = r["note"] + ("" if r["row_check"] == "adds up" else "; row check: " + r["row_check"])
+            out.append((f"{r['table_id']}#s{n['trade summary']}", r["table_id"], "trade_summary:" + r["statement"] + ":" + r["measure"], r["year_volume"], r["year_data"],
+                        r["country_as_printed"], r["region_as_printed"], r["column_as_printed"], "Rs.", r["value_as_printed"], r["value"], note, ak, "", ""))
     with gzip.open(BB / "observations.tsv.gz", "wt", newline="") as fh:
         w = csv.writer(fh, delimiter="\t"); w.writerow(["id", "table", "kind", "year_volume", "year_data", "area_as_printed", "parent_as_printed", "measure_as_printed", "unit_as_printed",
                     "value_as_printed", "value", "note", "area_key", "measure_type", "measure_key"]); w.writerows(out)

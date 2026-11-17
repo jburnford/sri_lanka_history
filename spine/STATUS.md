@@ -36,7 +36,12 @@ page images by readers who had not seen the extraction.
   index names. Its even pages show the edge of the facing page, which the OCR read as an extra column; the
   officer index extractor now allows for that (1911 gained 704 names too).
 - Not done: the 1928 acreage table (341 figures, one printing) has not been compared with the page; the
-  officials extractor is unchecked outside the volumes sampled; trade is extracted for four volumes only.
+  officials extractor is unchecked outside the volumes sampled; trade before 1907 is not extracted.
+- **Trade is extended** (17 November): the article-by-country ledgers for all 22 volumes 1907–1928 (about
+  439,200 figures; 76–94% of article totals agree; 297 of 312 sampled rows right against the scans, no misread digits, and five of the six error patterns found are now handled), each table's printed period (the 1910 volume holds two
+  periods, 1921 two half-years), and a second source, value of trade by country and class for 1922–1938
+  (43,454 figures; 97–100% of rows add up). Tea exports to 1918 are printed in Black and Green columns and
+  needed their own reading; tea is still incomplete for 1907 and 1917. The graph holds 432,536 figures.
 
 ## Review fixes (branch `review-fixes`, 16 November 2026, late)
 
@@ -79,7 +84,7 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
 | Wikidata concepts (taxa, products, diseases, organisations) | 847 |
 | Blue Book tables and officials (person-years) | 48,091 and 167,416 |
-| Blue Book figures (acreage, district returns, trade) | 85,729 |
+| Blue Book figures (acreage, district returns, trade) | 432,536 |
 | Person profiles | 38,579; 680 linked to Wikidata and/or a Colonial Office List person |
 | Colonial Office List officials and postings | 1,212 and 12,492 |
 | Empire Evolution territories | 739 |
@@ -133,7 +138,7 @@ Tea Association). Local identifiers for the Ceylon bodies are a decision for you
 - **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
   figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
   (imports and exports by article and country; 1924, 1925, 1926, 1928). The briefs supplied a sample of
-  thirteen volumes; agriculture used seven of them and trade four. Trade-ledger tables are present in about 45 volumes and have not been extracted beyond those four. A trade article whose total agrees can still have
+  thirteen volumes; agriculture used seven of them and trade four. The trade ledgers were later extended to 1907–1928 (see the top of this file). A trade article whose total agrees can still have
   figures under the wrong country (coir mats, 1928). I checked samples against the parsed
   tables and loaded them. A second pass on 16 November took the opening acreage tables from every volume that
   prints one (1862–1923): 12,906 agricultural figures from 136 tables, with the 1879–1891 tables read from the
