@@ -1,0 +1,11 @@
+Created the three outputs:
+
+- [Figures](extracted/statistical_view.tsv.gz)
+- [Comparison](extracted/statistical_view_compare.tsv)
+- [Skipped figures and reasons](extracted/statistical_view_skipped.tsv)
+
+All 63 volumes were examined; 45,118 figures were retained from 77 tables in 49 volumes. No figures were corrected.
+
+[README and checks](jobs/statistical_view_work/README.md) includes per-volume counts, per-series coverage, the 30-figure review, and the 20 largest disagreements. All 30 reviewed figures match the supplied table rows. Among cells printed in multiple volumes, 61.8% agree.
+
+[Series mapping](jobs/statistical_view_work/series_map.tsv) and reproducible scripts are also saved.

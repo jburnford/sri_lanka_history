@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "input_records": 1077,
+  "reviewed_records": 600,
+  "unreviewed_records": 477,
+  "first_key": "malabar",
+  "last_key": "jacksonville",
+  "next_input_record": 601,
+  "next_key": "bambarabotuwa",
+  "candidate_references_checked": 688,
+  "errors": [],
+  "checks": [
+    "JSON schema and allowed values",
+    "contiguous input prefix and unique keys",
+    "outcome/qid/also_possible consistency",
+    "all qid and also_possible values belong to the same record candidates",
+    "no rejected candidates referenced",
+    "nonempty reasons",
+    "no duplicate candidate references within a record"
+  ]
+}

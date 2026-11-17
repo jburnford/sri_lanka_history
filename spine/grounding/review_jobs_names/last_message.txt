@@ -1,0 +1,7 @@
+Reviewed all **681 names**, in input order.
+
+- [Proposals](names_review_proposals.jsonl): 241 match, 398 none, 27 ambiguous, 15 not_a_thing.
+- [Summary](names_review_summary.md): confidence counts and ten least-certain decisions.
+- [Validator](validate_names_review.py): **passed**—all 297 QID references are eligible candidates; no rejected items selected.
+
+No network access was used.

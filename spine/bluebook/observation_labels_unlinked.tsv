@@ -93,7 +93,6 @@ article	Umbrellas	717
 article	Aluminium ware	699
 article	Casks	696
 article	Skins, dressed	696
-article	Seeds, tea	690
 country	Czecho Slovakia	667
 article	Arms, guns, single	660
 article	Chinaware	636
@@ -141,7 +140,6 @@ article	Hats and bonnets	477
 article	Electric materials	474
 article	Paper of all descriptions	474
 article	Yarn and twist, gray	462
-article	Croton seed	456
 article	Seeds (exc. food stuffs), other	450
 article	Coir matting—contd.	450
 article	Boats	441
@@ -155,7 +153,6 @@ article	Curry stuffs, other	423
 article	Stones, other	420
 article	Hay and straw	414
 article	Oil, coconut—contd.	414
-article	Ghee	411
 article	Soda	411
 article	Oil, lubricating	408
 article	Shooks	408
@@ -199,7 +196,6 @@ article	Other (including hats)	351
 article	Silk manufactures, other	348
 article	Rubber tyres and tubes, solid tyres	348
 article	Painters' colours and materials not elsewhere specified	342
-article	Petroleum, kerosine oil, in cases	342
 article	Cotton manufactures not elsewhere specified	341
 article	Chalk	336
 article	Beer and ale, bottled	333
@@ -218,13 +214,10 @@ country	Foreign Countries	311
 article	Cinematograph films	310
 article	Explosives, fireworks	309
 article	Curry stuffs, tamarind	306
-article	Bêche-de-mer	306
-article	Papain	306
 article	Silk manufactures, broadstuff	306
 article	Curry stuffs, chillies	303
 article	Electric lighting accessories and fittings, including switches	303
 article	Piece goods of cotton, printed	303
-article	Mutton, tinned	300
 article	Coir manufactures not otherwise specified	300
 article	Sail cloth or canvas	297
 article	Road, mechanically-propelled motor cycles	291
@@ -267,7 +260,6 @@ article	Explosives, cartridges	252
 article	Plants and roots—contd.	252
 article	Piece goods of cotton, gray	252
 measure	Cin-chona.	250
-article	Asphalt	249
 article	Electrical goods and apparatus not elsewhere specified	249
 article	Spirits of wine, rectified	246
 article	Musical instruments and parts and accessories of musical instruments not otherwise specified	246
@@ -356,11 +348,9 @@ article	Coir matting	186
 article	Coin, other	186
 article	Tallow and stearine	186
 article	Plate, silver or silver gilt	186
-article	Sheep	183
 article	Curry stuffs, fennel seed	183
 article	Lime and clay	183
 article	Small wares, including ribbons and trimmings	182
-country	Chili	181
 article	Unenumerated, dutiable—contd.	180
 article	Tubes, pipes, and fittings	180
 article	Mill board, straw board, card board, and paste board	180
@@ -392,7 +382,6 @@ article	Myrobolans	168
 article	Zinc slabs	165
 article	Beads	165
 article	Hoop iron	165
-article	Oil, kerosine, case	162
 article	Salt	162
 article	Machinery, locomotive	162
 article	Hides	162
@@ -455,7 +444,6 @@ article	Dental, surgical, medical, and veterinary	138
 article	Road, other parts and accessories, for motor cars, motor cycles, and tricar in cycles	138
 measure	Total.	136
 article	Boilers and boiler house plant	136
-article	Meat, frozen, beef	135
 article	Quicksilver	135
 article	Arms, implements and accessories	135
 article	Explosives, caps, percussion	135
@@ -482,11 +470,9 @@ article	Soldering fluid	129
 article	Aniline	129
 article	Vegetable : Olive	129
 article	Bleaching materials, other	129
-article	Cordage cables, ropes, and twine of hemp	129
 article	Tanks and drums of iron and steel, black painted or galvanized	129
 article	Oil pressing and refining machinery	128
 country	Other British Pos- sessions in Asia	126
-article	Oil, kerosine, bulk	126
 article	Horns, sambur	126
 country	British N. Borneo	126
 country	Other Foreign Coun. in Australasia	126
@@ -530,7 +516,6 @@ article	Oils, fats, and greases, tallow	114
 article	Road, other parts and accessories, for motor cars, motor cycles, and tricers in cycles	114
 article	Machine, tools	113
 article	Beer and ale, in wood	111
-article	Meat, frozen, poultry and game	111
 article	Yarn and twist, other	111
 article	Myrobalans	111
 article	Lac	111
@@ -562,7 +547,6 @@ article	Organs and pianos, not automatic : Organs	105
 article	Road, other than mechanically-propelled carts and carriages for animal traction	105
 country	Serb - Croat - Slovene State (Jugo-Slavia)	105
 country	Other For. Countries in Africa	103
-article	Meat, frozen, mutton	102
 article	Arms, rifles, magazines	102
 article	Nets, fishing	102
 country	In America	102
@@ -602,7 +586,6 @@ article	Books, printed, including music : Maps and charts	93
 article	Starch of all kinds	93
 article	Chemical manufactures and products, not elsewhere specified, including drugs, medicines, medicinal preparations	93
 country	Jugo-Slavia (Serbo-Croat Slovene State)	91
-measure	Sheep.	90
 article	Explosives, gunpowder, coarse (blasting)	90
 article	Instruments, musical, other	90
 article	Cycles, motor, parts, tyres, and tubes for motor and ordinary cycles (not imported with complete cycles)	90
@@ -630,7 +613,6 @@ measure	Cinna- mon.	84
 measure	With Grain of all kinds.	84
 measure	With Fruits and Vegetables of all kinds.	84
 measure	With Products other than Grain, Fruit, and Vegetables.	84
-article	Seeds (exc. food stuffs), tea	84
 article	Poonac, gingelly	84
 article	Coconut leaf quills	84
 article	Rails and fish plates of steel or iron	84
@@ -659,7 +641,6 @@ article	South America, exc.	78
 article	Fire clay	78
 article	Gums, and resins, rosin	78
 article	Glass and glassware, window glass, 16 oz., thirds and fourths.	78
-article	Petroleum, kerosine oil, in bulk	78
 article	Huberdashery, other	78
 country	Ship Stores	78
 country	Other British Possessions (including Zanzibar)	77
@@ -707,21 +688,17 @@ article	Arms, small arms, guns : Muzzle-loading, single-barrelled	69
 article	Mats and matting	69
 article	Ships and boats (new) complete, other vessels	69
 article	Other manufactures of paper not elsewhere specified (durable)	69
-article	Meat, frozen, pork	66
-article	Mutton, frozen	66
 article	Animal, refined : Dripping	66
 article	Fertilizers, kainit	66
 article	Tanks and drums of iron and steel, black painted or galvanized, except drums for oil	66
 article	Brass and alloys of copper : Tubes	66
 article	Brass and alloys of copper: Rods, sheets, and strips	66
-measure	Sheep	64
 country	British Colonies	63
 article	Stone, coral	63
 article	Cycles, motor, parts, other	63
 article	Instruments, musical, talking machine parts (other than records)	63
 article	Vegetable : Other	63
 article	Dry and dry salted, ox and cow	63
-article	Coke	63
 article	Scientific instruments and appliances (except electrical), other scientific instruments	63
 article	Brass and alloys of copper: Nails, screws, and wire	63
 country	Jugo-Slavia (Serb-Croat Slovene State)	62
@@ -730,7 +707,6 @@ measure	Black Cattle	60
 article	MANUFACTURED ARTICLES. OTHER.	60
 article	Cadjans	60
 article	Other—contd.	60
-article	Coca leaves	60
 article	Australia	60
 article	South Africa	60
 article	Plates and sheets, coated, galvanized, corrugated	60
@@ -743,7 +719,6 @@ article	Oil, castor, unrefined	60
 article	Spices cloves	60
 measure	Swine	58
 country	India exc. British	57
-article	Meat, frozen, fish	57
 article	Oils, fats, and greases, fish (and marine animal), other	57
 article	Fertilizers, poonac, castor seed	57
 article	Pig iron	57
@@ -767,7 +742,6 @@ article	Skins (goat and sheep)	54
 article	Gums and resins, dammar	54
 article	Cotton yarn and twist, other	54
 article	Arms, small arms, guns, breech-loading, single-barrelled	54
-article	Meat, other	54
 country	Maldiva Islands	53
 article	a, cured or salted	51
 article	four, wheat	51
@@ -797,8 +771,6 @@ article	Clocks and watches: Other parts	48
 article	Magnetos, ignition	48
 article	Arms, small arms, guns : Muzzle-loading, double-barrelled	48
 article	Felt, roofing	48
-article	Beche-de-mer	48
-article	Ground nuts	48
 article	Seeds for expressing oil therefrom, domba nuts	48
 article	Oil, gingly	48
 article	Arms, ammunition, and military and naval stores, ammunition	48
@@ -881,7 +853,6 @@ area	Baticaloa.	34
 article	Sunny bags	33
 article	Copperware	33
 article	Revolvers	33
-article	Meat, salted	33
 article	Crutch	33
 article	Cycle and parts	33
 article	. OTHER.	33
@@ -954,7 +925,6 @@ article	Outch	27
 article	Chinaware—contd.	27
 article	Cars, motor, chassis	27
 article	Oil seed cake, linseed poonac	27
-article	Seeds (agricultural and horticultural) other than oil seeds, tea	27
 article	Tanning substances not elsewhere specified, bark for tanning and dyeing	27
 article	Huberdashery, buttons and studs, pins, including hat pins	27
 article	Nails, screws, and wire	27
@@ -1022,7 +992,6 @@ country	Other Br. Poss. in Africa	24
 country	Or. For. Coun. in Europe	24
 country	India exo. British	24
 article	Tca chests and shooks	24
-country	British Possessions (unclassified) mainly Straits Settlements	24
 country	Foreign Countries (unclassified)	24
 country	Ships' stores	24
 article	Timber	21
@@ -1063,7 +1032,6 @@ article	Arms, small arms, guns rifles and carbines double-barrelled	21
 article	Brass and alloys of copper : Rode, sheets, and strips	21
 country	Jugo Slavia (Serbo-Croat Slovene State)	21
 country	Mascut	21
-measure	Ground Nuts.	20
 measure	Cinamon.	20
 article	Ammunition : Other accessories (including detonators)	20
 article	Machine tools	20
@@ -1080,7 +1048,6 @@ country	Other British Possessions in Africa.	18
 article	Berlin wool	18
 article	Chalk and Stearine	18
 country	Franco	18
-article	Oil, kerosine, in case	18
 country	In Europe	18
 article	Cable, cordage, and twine	18
 article	Instruments, musical, pianos and pinolus (complete)	18
@@ -1130,7 +1097,6 @@ measure	Cinna-mon	16
 measure	Cocoa-nuts.	16
 measure	Cocoa- nuts.	16
 measure	Palmirah nuts	16
-area	PROVINCE OF UVA	16
 area	PROVINCE OF SABARAGAMUWA	16
 area	Colombo Revenue District	16
 area	Kalutara Revenue District	16
@@ -1171,7 +1137,6 @@ country	Other Brit. Poss. in Asia	15
 article	Beedy, cigarettes	15
 article	Manufactured fuel	15
 article	Wire manufactures, wire nails, \frac{1}{2} to 1\frac{1}{2} inches.	15
-country	British Possessions	15
 article	Road, mechanically propelled, motor cycles	15
 article	Matches, non-safety	15
 article	Ships and boats (new) complete, boats and vessels without means of locomotion other than the oars	15
@@ -1202,7 +1167,6 @@ country	Other For. Countries in Asia	13
 country	Other For. Countries in Australasia	13
 measure	Arecanuts	12
 area	Grand Total	12
-area	Province of Uva	12
 article	Crustle fish	12
 article	Hankerchiefs, scarves, and shawls	12
 country	Other Foreign Coun. in America	12
@@ -1341,7 +1305,6 @@ measure	Cinna mon.	8
 measure	Cocon-nuts.	8
 measure	To-bacco	8
 measure	Cin-chona	8
-measure	Cocoa.	8
 measure	Cinna- mon	8
 measure	To- bacco	8
 measure	Coconutts	8
@@ -1378,7 +1341,6 @@ country	Hong King	6
 article	Brass, nails, and wire	6
 article	Tiles and tiles	6
 article	Combs and brushes	6
-article	Ropes, cordage, and twine	6
 article	Paint	6
 article	Linaware	6
 article	Rawing materials	6
@@ -1426,7 +1388,6 @@ country	Adon	6
 country	Cotton.	6
 article	Thread— Cotton.	6
 country	tries in Africa	6
-article	* Meat, frozen, pork	6
 country	Other Foreign Countries in Africa*	6
 country	Phil ppine Islands	6
 country	Sumpatra	6
@@ -1459,7 +1420,6 @@ article	Brass and alloys of copper: Delta metal, ingots and bars	6
 country	Be'gium	6
 article	Dyes and dyestuffs (except dye-woods) and extracts for dyeing and tanning, other (synthetic)	6
 article	Rail, locomotives	6
-article	Mutton, other	6
 country	Purma	6
 article	Arms, small arms, rifles and carbines, single-barrelled, without magazine	6
 country	ANIMALS, NOT FOR FOOD.	6
@@ -1508,7 +1468,6 @@ country	Other Foreign Countries in Europe—	6
 country	China exc. British	6
 article	Dyeing materials, anatto seed	6
 article	Arippe nuts	6
-article	Petroleum, kerosine oil, in bulk.	6
 article	Arms, small arms, guns, muzzle-loading	6
 article	Plate nickel plated	6
 article	Lead Pipes	6
@@ -1586,7 +1545,6 @@ article	Metal, worked	3
 article	Bullion and coin, copper	3
 article	Spirits other	3
 article	Orchilla weed	3
-country	South Sea Island	3
 article	{ doz. 750 770 } 1875	3
 article	{ doz. — —	3
 article	MUNTSZ metal	3
@@ -1662,7 +1620,6 @@ article	Glass, window, and German sheet	3
 article	Lorries and parts	3
 article	Paper hanging	3
 article	Uopra	3
-article	Seeds (exc. foodstuffs), tea	3
 country	Co:hin-China	3
 article	Feather ware	3
 country	United Kingdom pieces	3
@@ -1696,7 +1653,6 @@ article	Sawn, palmyra lathes and rafters	3
 article	Dyes and dyestuffs (except dye-wood-) and extracts for dyeing and tanning, alizarine	3
 article	Road, engines for motor car cycles and tricycles	3
 country	Malagascar	3
-country	British Possession	3
 country	India exc., British	3
 country	Othe For. Coun. in Europe	3
 country	Other For. Coun. in Europe,,	3

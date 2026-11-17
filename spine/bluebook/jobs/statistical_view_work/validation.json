@@ -1,0 +1,24 @@
+{
+ "result": "pass",
+ "observations_checked": 45118,
+ "comparison_groups_checked": 2461,
+ "skip_records_read": 7513,
+ "volumes_checked": 63,
+ "series_checked": 50,
+ "eye_review_records_checked": 30,
+ "explicit_sterling_expressions_checked": 31,
+ "source_cells_unique": 45118,
+ "checks": [
+  "gzip/TSV read to EOF",
+  "source literals, page IDs and coordinates",
+  "all original long-table header strings",
+  "plain-number identity and independent \u00a3/s./d. arithmetic",
+  "comparison values, volume sets, ordering and statuses",
+  "series mapping completeness",
+  "per-volume and per-series counts",
+  "all 30 review records",
+  "top 20 disagreement ranking",
+  "no withheld alignment column leaks into output",
+  "1896, 1871, 1911 output ordering"
+ ]
+}

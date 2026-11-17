@@ -117,6 +117,8 @@ def main():
         done = {d["key"] for d in read_jsonl(HERE / "grounding/taxa_col.jsonl") if d["status"] == "matched"}
     rj = HERE / "grounding/name_rejections.jsonl"          # matches a person has thrown out; never offered again
     rejected = {(d["key"], d["qid"]) for d in read_jsonl(rj) if d["type"] == t} if rj.exists() else set()
+    dj = HERE / "grounding/name_decisions.jsonl"
+    decided = {d["key"]: d for d in read_jsonl(dj) if d["type"] == t} if dj.exists() else {}
     out, tally, rec = [], collections.Counter(), collections.Counter()
     total = sum(r["records"] for r in read_names(t))
     for r in read_names(t):
@@ -173,6 +175,18 @@ def main():
             else: d.update(status="review", reason="several items share this name")
             if d["status"] == "matched":
                 d["other_senses"] = [{"qid": c["qid"], "label": c["label"], "kind": c["kind"]} for c in good if c["qid"] != a["qid"]][:4]
+        # a reviewed decision for a name the rules left open (grounding/name_decisions.jsonl): the chosen item must be
+        # one of the candidates read back for this name, and must not have been rejected
+        dec = decided.get(r["key"])
+        if dec and d["status"] != "matched":
+            c = next((c for c in cands if c["qid"] == dec["qid"]), None)
+            if c and (r["key"], c["qid"]) not in rejected:
+                was = d.get("reason", "")
+                choose(c, "medium", "reviewed_proposal")
+                d["confidence"] = "medium"
+                if not d.get("kind"): d["kind"] = "taxon" if c.get("taxon_name") else "product"
+                d.pop("reason", None)
+                d.update(decided_by=dec["by"], decision_reason=dec["reason"], rule_outcome_before=was)
         s = d["status"] + (":" + d.get("confidence", "") if d["status"] == "matched" else "")
         tally[s] += 1; rec[s] += r["records"]; out.append(d)
     with open(HERE / f"grounding/{t.lower()}_wd.jsonl", "w") as fh:

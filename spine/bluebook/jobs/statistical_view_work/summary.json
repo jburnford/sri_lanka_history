@@ -1,0 +1,20 @@
+{
+ "figures": 45118,
+ "numeric_figures": 44828,
+ "literal_only_figures": 290,
+ "tables": 77,
+ "volumes_with_figures": 49,
+ "volumes_scanned": 63,
+ "skipped_figure_cells": 25851,
+ "skip_records": 7513,
+ "alignment_columns_withheld": 151,
+ "series": 50,
+ "series_year_cells": 2461,
+ "all_agree_cells": 1593,
+ "statuses": {
+  "all agree": 1593,
+  "many values": 260,
+  "one volume differs": 560,
+  "two values": 48
+ }
+}

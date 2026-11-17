@@ -35,6 +35,25 @@ page images by readers who had not seen the extraction.
 - **The 1909 volume is in** (its OCR arrived on 17 November): 1,092 tables, its two acreage tables, 5,337
   index names. Its even pages show the edge of the facing page, which the OCR read as an extra column; the
   officer index extractor now allows for that (1911 gained 704 names too).
+- **Codex Sol jobs, 17 November** (briefs in `bluebook/jobs/*.md` and `grounding/review_jobs*/`; each result
+  sampled before use):
+  - *Names in review.* It read 681 crop, plant and commodity names with their candidates and proposed 241
+    matches; I read 50 and rejected none. They are applied through `grounding/name_decisions.jsonl` (rule
+    `reviewed_proposal`, confidence medium). Commodities are now 70.3% matched by record.
+  - *Place names in review.* It read the 600 most frequent of 1,077 and proposed 160 matches (48 read, none
+    rejected), applied the same way; 440 names it left open carry its note (ambiguous between which items, or
+    no fitting candidate) in `grounding/place_review_notes.jsonl`. A second run is on the remaining names.
+  - *Statistical View series.* The annual series reprinted in every volume (population, births, deaths,
+    schools, revenue, expenditure, imports, exports, shipping, land sales): 45,118 figures from 49 volumes.
+    `bluebook/statistical_view_consensus.py` takes the value most volumes print: 2,437 series-years, 1,967 with
+    strong support (five or more volumes, 80% agreeing). Loaded as `series:` observations.
+  - *Trade 1880–1900* and a repair of my 1901–1906 reader are still running. My first 1901–1906 reader put the
+    right figures under the wrong article too often (150 of 240 sampled rows right), so nothing before 1907 is
+    loaded.
+- **Other sources.** `sources/ocr_registry.tsv` lists every OCR'd piece downloaded so far with its collection,
+  title and date. The Ferguson directories will not be re-extracted: historyofceylontea.com has already
+  compiled estate and planter registers from them, and this project links to those pages
+  (`links/build_hoct_index.py`; the index itself stays local).
 - Not done: the 1928 acreage table (341 figures, one printing) has not been compared with the page; the
   officials extractor is unchecked outside the volumes sampled; trade before 1907 is not extracted.
 - **Trade is extended** (17 November): the article-by-country ledgers for all 22 volumes 1907–1928 (about
@@ -80,11 +99,11 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Articles (canonical copies) | 53,501 |
 | Printed names, all types | 169,425 |
 | Article-to-name links | 845,450 |
-| Places with a QID | 2,394 |
+| Places with a QID | 2,499 |
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
-| Wikidata concepts (taxa, products, diseases, organisations) | 847 |
+| Wikidata concepts (taxa, products, diseases, organisations) | 970 |
 | Blue Book tables and officials (person-years) | 48,091 and 167,416 |
-| Blue Book figures (acreage, district returns, trade) | 432,536 |
+| Blue Book figures (acreage, district returns, trade, annual series) | 434,973 |
 | Person profiles | 38,579; 680 linked to Wikidata and/or a Colonial Office List person |
 | Colonial Office List officials and postings | 1,212 and 12,492 |
 | Empire Evolution territories | 739 |

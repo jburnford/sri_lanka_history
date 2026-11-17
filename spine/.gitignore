@@ -8,3 +8,12 @@ grounding/people_review.jsonl
 # Codex working output
 bluebook/jobs/*_codex.log
 bluebook/jobs/*_last_message.txt
+# index of History of Ceylon Tea registry pages: local only; we publish links to their pages, not their lists
+links/hoct/
+# Codex job logs
+**/codex.log
+# large intermediates of the Statistical View job; rebuilt by its extract.py
+bluebook/jobs/statistical_view_work/raw_extraction.json
+bluebook/jobs/statistical_view_work/candidates.json
+bluebook/jobs/statistical_view_work/long_tables.json
+bluebook/jobs/statistical_view_work/raw_skips.json

@@ -36,6 +36,9 @@ def main():
             ent[r["requested"]] = r; ent[r["qid"]] = r
             if f == "sri_lanka_wikidata": sl.add(r["qid"])
     rejected = {(d["key"], d["qid"]) for d in read_jsonl(HERE / "grounding/name_rejections.jsonl") if d["type"] == "PLACE"}
+    dj, nj = HERE / "grounding/name_decisions.jsonl", HERE / "grounding/place_review_notes.jsonl"
+    decided = {d["key"]: d for d in read_jsonl(dj) if d["type"] == "PLACE"} if dj.exists() else {}
+    noted = {d["key"]: d for d in read_jsonl(nj)} if nj.exists() else {}
     search = {d["query"]: d["results"] for d in read_jsonl(HERE / "cache/wd_search.jsonl")}
     done = {d["key"] for d in read_jsonl(HERE / "grounding/places_tier1.jsonl") if d["status"] == "matched"}
     if (HERE / "grounding/places_tier1b.jsonl").exists():   # names settled in the review pass; the rest go on to Wikidata search
@@ -102,6 +105,19 @@ def main():
             d.update(status="review", reason="no candidate carries this exact name")
         else:
             d.update(status="unmatched", reason="candidates not fetched" if unfetched else "no candidates")
+        # a reviewed decision for a name the rules left open (grounding/name_decisions.jsonl): the item must be one of
+        # the candidates read back for this name and must not have been rejected
+        dec = decided.get(r["key"])
+        if dec and d["status"] != "matched":
+            c = next((c for c in cands if c["qid"] == dec["qid"]), None)
+            if c and (r["key"], c["qid"]) not in rejected:
+                was = d.get("reason", "")
+                for k in ("reason", "proposed"): d.pop(k, None)
+                d.update(status="matched", confidence="medium", qid=c["qid"], label=c["label"], rule="reviewed_proposal",
+                         decided_by=dec["by"], decision_reason=dec["reason"], rule_outcome_before=was)
+        elif r["key"] in noted and d["status"] != "matched":
+            nt = noted[r["key"]]
+            d.update(review_outcome=nt["outcome"], review_possible=nt["also_possible"], review_reason=nt["reason"], reviewed_by=nt["by"])
         s = d["status"] + ("/" + d["confidence"] if "confidence" in d else "")
         tally[s] += 1; rec[s] += r["records"]; out.append(d)
     with open(HERE / "grounding/places_tier2.jsonl", "w") as fh:

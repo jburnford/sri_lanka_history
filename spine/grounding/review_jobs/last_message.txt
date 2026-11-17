@@ -1,0 +1,6 @@
+Reviewed **600 of 1,077 names**, through “jacksonville.” **477 remain**, starting at record 601, “bambarabotuwa.”
+
+- [Proposals](places_review_proposals.jsonl): 160 match, 288 ambiguous, 149 none, 3 not_a_place.
+- [Summary](places_review_summary.md): confidence counts and ten least-certain decisions.
+
+Validation passed: all **688 QID references** belong to their record’s candidates; no rejected candidates were referenced.

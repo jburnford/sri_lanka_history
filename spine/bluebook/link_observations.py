@@ -34,11 +34,15 @@ def main():
             n["agriculture"] += 1; n["agri area linked"] += bool(ak); n["agri measure linked"] += bool(mk)
             out.append((f"{r['table_id']}#a{n['agriculture']}", r["table_id"], "agriculture:" + r["table_kind"], r["year_volume"], r["year_data"], r["area_as_printed"], r["parent_area_as_printed"],
                         r["measure_as_printed"], r["unit_as_printed"], r["value_as_printed"], r["value"], r["note"], ak, mt, mk))
-    p = BB / "extracted/trade.tsv.gz"
-    if p.exists():
-        # the period each ledger table covers (trade_periods.py): not always the calendar year of the volume
-        period = {r["table_id"]: r for r in csv.DictReader(open(BB / "extracted/trade_periods.tsv"), delimiter="\t")} \
-            if (BB / "extracted/trade_periods.tsv").exists() else {}
+    # the period each ledger table covers (trade_periods.py): not always the calendar year of the volume
+    period = {r["table_id"]: r for r in csv.DictReader(open(BB / "extracted/trade_periods.tsv"), delimiter="\t")} \
+        if (BB / "extracted/trade_periods.tsv").exists() else {}
+    # the article-by-country ledgers: 1907-1928 (jobs/trade_work), 1901-1906 (read_trade_old.py), 1880-1900 (Codex job)
+    # Only ledgers that have passed a check against the page images are linked. The 1901-1906 file
+    # (read_trade_old.py) and the 1880-1900 file (Codex job) are not yet in that state: add them here when they are.
+    ACCEPTED = ["trade.tsv.gz"]
+    for p in [BB / "extracted" / f for f in ACCEPTED]:
+        if not p.exists(): continue
         for r in csv.DictReader(gzip.open(p, "rt", newline=""), delimiter="\t"):
             if r.get("row_kind") != "country": continue
             at, ak = find(r["country_as_printed"], ["PLACE"])
@@ -71,6 +75,21 @@ def main():
             note = r["note"] + ("" if r["row_check"] == "adds up" else "; row check: " + r["row_check"])
             out.append((f"{r['table_id']}#s{n['trade summary']}", r["table_id"], "trade_summary:" + r["statement"] + ":" + r["measure"], r["year_volume"], r["year_data"],
                         r["country_as_printed"], r["region_as_printed"], r["column_as_printed"], "Rs.", r["value_as_printed"], r["value"], note, ak, "", ""))
+    # the island's annual series from the "Statistical View of the Progress of Ceylon": one value per series and year,
+    # the one most volumes print (statistical_view_consensus.py), tied to the latest table that prints it
+    p, pd_ = BB / "extracted/statistical_view_series.tsv", BB / "extracted/statistical_view.tsv.gz"
+    if p.exists() and pd_.exists():
+        where = {}
+        for r in csv.DictReader(gzip.open(pd_, "rt", newline=""), delimiter="\t"):
+            where[(r["series"], r["data_year"], r["value"])] = (r["table_id"], r["year_volume"], r["column_as_printed"], r["value_as_printed"])
+        at, ak = find("Ceylon", ["PLACE"])
+        for r in csv.DictReader(open(p, newline=""), delimiter="\t"):
+            w = where.get((r["series"], r["data_year"], r["value"]))
+            if not w: continue
+            n["series"] += 1
+            note = (f"Statistical View series; printed with this value in {r['volumes_agreeing']} of {r['volumes_printing']} volumes; support {r['support']}"
+                    + (f"; other values printed: {r['other_values']}" if r["other_values"] else ""))
+            out.append((f"sv:{r['series']}:{r['data_year']}", w[0], "series:" + r["series"], w[1][:4], r["data_year"][:4], "Ceylon", "", w[2], "", w[3], r["value"], note, ak, "", ""))
     with gzip.open(BB / "observations.tsv.gz", "wt", newline="") as fh:
         w = csv.writer(fh, delimiter="\t"); w.writerow(["id", "table", "kind", "year_volume", "year_data", "area_as_printed", "parent_as_printed", "measure_as_printed", "unit_as_printed",
                     "value_as_printed", "value", "note", "area_key", "measure_type", "measure_key"]); w.writerows(out)
