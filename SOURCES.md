@@ -14,6 +14,10 @@ open library may be published, including OCR text; material harvested from the H
 | Wikidata | wikidata.org (CC0) | Items read back by identifier (`spine/gazetteer`) and search results (`spine/cache`) |
 | GeoNames | geonames.org, Sri Lanka country extract (CC BY 4.0) | Selected reference coordinates and feature IDs for the 1834 Gazetteer layer |
 | Catalogue of Life | ChecklistBank release 317005 (COL26.11, doi:10.48580/dgzy8, CC BY) | Name-match results (`spine/cache/col_match*.jsonl`) |
+| Historical GIS (`geography/`) | Built in this project from the sources below; OpenStreetMap geometry (ODbL) for roads and railways | The GeoPackage, QGIS projects, scripts, input tables and review notes |
+| 1936 Survey Department Motor Map; Ferguson's 1893 map | David Rumsey Map Collection, Stanford University Libraries (davidrumsey.com) | Georeferenced adaptations: the Motor Map scan, a JPEG-compressed copy of the Ferguson scan, and atlas tiles of both |
+| Malaria report supplement 1934–35; Census of Ceylon 1911 | archive.org items `b32176910_0002` and `b28069365` (Wellcome Library scans) | The two PDFs (`geography/sources/`) and layers traced from the malaria maps |
+| SRTM 30 m elevation | Tilezen terrain tiles, public AWS mirror | Atlas relief tiles only; `geography/historical-gis/fetch_elevation.sh` fetches the data |
 | History of Ceylon Tea website harvest | historyofceylontea.com | **Nothing.** Not used by `spine/` |
 | Research assistant's person review | project staff | **Held back** (`spine/gold/`, `spine/grounding/people_review.jsonl`) until they agree to be named or the files are anonymised |
 

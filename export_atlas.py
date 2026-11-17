@@ -58,6 +58,8 @@ RASTERS = [
     ("ferguson1893", "Ferguson’s map, 1893", "ferguson-1893/ferguson-1893.tif", "Georeferenced image of Ferguson’s 1893 map of Ceylon.", "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~338023~90105863", 1900),
 ]
 ELEVATION = Path("/mnt/data/jic823/ceylon_hgis_elevation/srtm_30m")
+if not ELEVATION.exists():  # on another machine: made by geography/historical-gis/fetch_elevation.sh
+    ELEVATION = ROOT / "geography" / "elevation" / "srtm_30m"
 RELIEF_RAMP = """0 205 217 184
 100 221 224 194
 300 235 224 190

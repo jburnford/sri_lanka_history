@@ -17,6 +17,8 @@ PKG = HERE / 'ceylon-history.gpkg'
 PROJECT = HERE / 'ceylon-history.qgz'
 NSDI_WMS = 'https://gisapps.nsdi.gov.lk/server/services/SLNSDI/Elevation/MapServer/WMSServer'
 SRTM = Path('/mnt/data/jic823/ceylon_hgis_elevation/srtm_30m')
+if not SRTM.exists():  # on another machine: made by fetch_elevation.sh
+    SRTM = HERE.parent / 'elevation' / 'srtm_30m'
 VAESSA_DEM = Path('/mnt/data/jic823/ceylon_hgis_elevation/vaessa_0_5m/VaeSSA_precise_DEM_0.5m_SLD99.img')
 
 
