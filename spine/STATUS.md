@@ -50,9 +50,11 @@ page images by readers who had not seen the extraction.
     strong support (five or more volumes, 80% agreeing). Loaded as `series:` observations.
   - *Trade before 1907 is extracted but not loaded* (state on 17 Nov 2026; files are in the repo, marked unvetted).
     1901–1906: `bluebook/read_trade_old.py` → `extracted/trade_1880_1906.tsv.gz` (79,072 figures). Scan checks
-    of the labels scored 150 of 240, then 205 of 238 after a first Codex repair; a second repair is done and a
-    third scan check (`jobs/trade_1901_1906_work/scan_check3_*`) was running when this was written. Figures and
-    countries were right in the samples; the faults were article labels. Tea exports for 1902 are missing.
+    of the labels scored 150 of 240, then 205 of 238 after a first Codex repair; then, after a second repair, 250 of 279 on a third sample
+    (`jobs/trade_1901_1906_work/scan_check3_*`): 141 of 147 for 1904–1906, with every figure, column and country
+    right, but 109 of 132 for 1901–1903, including two figures on the wrong country and three in the wrong column.
+    Tea exports for 1902 are missing. A third repair (`jobs/trade_1901_1906_round3.md`, Codex Sol 6.2) was started
+    on the evening of 17 Nov; its output is unreviewed.
     1880–1900 (Codex): `extracted/trade_1880_1900.tsv.gz`, 95,312 figures, but only 1,288 of 2,760 articles agree
     with their printed totals. Neither file is in the linker's `ACCEPTED` list.
 - **Organisation names (proposal, not loaded).** `grounding/org_job/`: Codex Sol grouped the 2,265 most frequent

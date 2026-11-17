@@ -46,3 +46,103 @@ sample_number	table_id	pdf_page	article_as_printed	country_as_printed	measure	va
 177	bb1904:p709:t1	709	Skins, dressed	Turkey in Asia	quantity_total	132	yes	yes	yes	yes	yes	yes	ok	
 178	bb1904:p709:t1	709	Stones, worked		quantity_other_produce	3	yes	yes	yes	yes	yes	yes	ok	
 179	bb1904:p712:t1	712	Apparel, made up	British India	quantity_total	2	yes	yes	yes	yes	yes	yes	ok	
+180	bb1905:p650:t1	650	Beef— Salted	U. S. of America	value_total_rs	644	yes	yes	yes	yes	yes	yes	ok	
+181	bb1905:p652:t1	652	Curry Stuffs— Garlic		value_total_rs	106803	yes	yes	yes	yes	yes	yes	ok	
+182	bb1905:p656:t1	656	Grain— Oats	New Zealand	value_total_rs	2801	yes	yes	yes	yes	yes	yes	ok	
+183	bb1905:p657:t1	657	Milk, preserved	United Kingdom	quantity_total	520	yes	yes	yes	yes	yes	yes	ok	"note: unit printed ""4 doz."" for UK, ""cases"" for the rest"
+184	bb1905:p657:t1	657	Mutton	United Kingdom	quantity_home_consumption	5	yes	yes	no	yes	yes	yes	wrong	"Figure 5 correct (5 / 5 / 709). Printed headings are ""Meat, frozen—"" with lines Beef, Fish, Mutton, Pork, Poultry and Game; full article is ""Meat, frozen— Mutton"". Row drops the ""Meat, frozen"" level"
+185	bb1905:p660:t1	660	Sugar— Refined or candied	British India	quantity_total	9174	yes	yes	yes	yes	yes	yes	ok	
+186	bb1905:p661:t1	661	Wines, still— Claret— In wood	Victoria	value_total_rs	5348	yes	yes	yes	yes	yes	yes	ok	
+187	bb1905:p662:t1	662	Wines, still— Other— In bottle	China	quantity_home_consumption	—	yes	yes	yes	yes	yes	yes	ok	
+188	bb1905:p663:t1	663	Wines, still— Other— In wood	Egypt	value_total_rs	150	yes	yes	yes	yes	yes	yes	ok	
+189	bb1905:p663:t1	663	Unenumerated— Dutiable	India (exc. British)	quantity_total	63	yes	yes	yes	yes	yes	yes	ok	
+190	bb1905:p666:t1	666	Tin— Plates		quantity_total	6494	yes	yes	yes	yes	yes	yes	ok	
+191	bb1905:p671:t1	671	Other	China	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	"note: p671 head prints only ""(3) Other—contd."" then ""Other""; p670 shows it is the third line (after Jarra, Teak) of ""(c) Timber, unworked—"", so group and label agree. China — / — / 300"
+192	bb1905:p672:t1	672	Piece Goods— Dyed	China	quantity_home_consumption	7463	yes	yes	yes	yes	yes	yes	ok	
+193	bb1905:p679:t1	679	Plate— Electroplate	Victoria	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+194	bb1905:p679:t1	679	Plate— Silver or Silver gilt	India (exc. British)	quantity_home_consumption	4	yes	yes	yes	yes	yes	yes	ok	
+195	bb1905:p681:t1	681	Arms— Rifles— Double	United Kingdom	quantity_home_consumption	7	yes	yes	yes	yes	yes	yes	ok	
+196	bb1905:p681:t1	681	Arms— Rifles— Magazine	Germany	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+197	bb1905:p682:t1	682	Books	Burma	quantity_total	55	yes	yes	yes	yes	yes	yes	ok	
+198	bb1905:p695:t1	695	Pasteboard		quantity_home_consumption	28267	yes	yes	yes	yes	yes	yes	ok	note: p695 columns are printed HC first, Total second; both print 28267
+199	bb1905:p695:t1	695	Paper— Dutiable	Germany	quantity_total	407	yes	yes	yes	yes	yes	yes	ok	note: HC 407, Total 407 (both columns same)
+200	bb1905:p695:t1	695	Pictures	Victoria	quantity_home_consumption	1	yes	yes	yes	yes	yes	yes	ok	note: Victoria 1 in both columns
+201	bb1905:p695:t1	695	Pasteboard		quantity_total	28267	yes	yes	yes	yes	yes	yes	ok	note: both columns 28267
+202	bb1905:p695:t1	695	Paper— Free	Austria	quantity_total	113	yes	yes	yes	yes	yes	yes	ok	note: Austria 113 in both columns
+203	bb1905:p698:t1	698	Timber, worked	Siam	quantity_home_consumption	200	yes	yes	yes	yes	yes	yes	ok	
+204	bb1905:p699:t1	699	Watches	British India	quantity_home_consumption	2170	yes	yes	yes	yes	yes	yes	ok	
+205	bb1905:p699:t1	699	Umbrellas	Japan	quantity_total	58	yes	yes	yes	yes	yes	yes	ok	
+206	bb1905:p700:t1	700	Unenumerated— Free	France	quantity_total	53	yes	yes	yes	yes	yes	yes	ok	
+207	bb1905:p705:t1	705	Coffee— Arabian— Plantation	Hong Kong	value_total_rs	3232	yes	yes	yes	yes	yes	yes	ok	
+208	bb1905:p705:t1	705	Cocoanut— Desiccated	France	quantity_total	207	yes	yes	yes	yes	yes	yes	ok	
+209	bb1905:p705:t1	705	Coffee— Arabian— Plantation		quantity_ceylon_produce	5055	yes	yes	yes	yes	yes	yes	ok	
+210	bb1905:p709:t1	709	Tea	Gibraltar	quantity_total	30821	yes	yes	yes	yes	yes	yes	ok	note: no row shift. Tea columns: colony-produce quantity split Black | Green, then other produce, Total; Gibraltar Black 30821, Green —, Total 30821
+211	bb1905:p709:t1	709	Tea	Canada	quantity_total	6446184	yes	yes	yes	yes	yes	yes	ok	note: no row shift. Canada Black 5160884 + Green 1285300; Total 6446184 (last digit partly lost in gutter rule, sum confirms)
+212	bb1905:p709:t1	709	Tea	New South Wales	quantity_ceylon_produce	9246516	yes	yes	yes	yes	yes	yes	ok	note: no row shift; under Black
+213	bb1905:p709:t1	709	Tea	Egypt	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; Egypt Black 164830, Green —
+214	bb1905:p709:t1	709	Tea	Aden	quantity_total	9508	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+215	bb1905:p709:t1	709	Tea	Denmark	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; Denmark Black 69372, Green —
+216	bb1905:p709:t1	709	Tea	Belgium	quantity_total	77378	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+217	bb1905:p709:t1	709	Sugar— Refined or Candied	British India	quantity_other_produce	15	yes	yes	yes	yes	yes	yes	ok	note: no row shift; British India — / 15 / 15
+218	bb1905:p709:t1	709	Tea	Zanzibar	quantity_ceylon_produce	29359	yes	yes	yes	yes	yes	yes	ok	note: no row shift; Zanzibar Black 29359, Green —
+219	bb1905:p709:t1	709	Tea	Cochin China	quantity_total	200	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+220	bb1905:p711:t1	711	Arippo	British India	quantity_ceylon_produce	757	yes	yes	yes	yes	yes	yes	ok	
+221	bb1905:p713:t1	713	Fibre— Coir	Mozambique	value_total_rs	1476	yes	yes	yes	yes	yes	yes	ok	
+222	bb1905:p713:t1	713	Fibre— Palmyra		quantity_ceylon_produce	3555	yes	yes	yes	yes	yes	yes	ok	
+223	bb1905:p714:t1	714	Plants and Roots	Other For. Coun. in Australasia	quantity_total	204	yes	yes	yes	yes	yes	yes	ok	
+224	bb1905:p714:t1	714	Plants and Roots	Germany	quantity_other_produce	1	yes	yes	yes	yes	yes	yes	ok	
+225	bb1905:p716:t1	716	Teak	British India	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+226	bb1905:p716:t1	716	Unenumerated	South Australia	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	"note: page head prints ""(3) Other—contd."" only on this page"
+227	bb1905:p717:t1	717	Apparel, made up	Cape Colony	value_ceylon_produce_rs	—	yes	yes	yes	yes	yes	yes	ok	
+228	bb1905:p725:t1	725	Machinery— Agricultural	Java	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+229	bb1905:p734:t1	734	Brass— Brass Ware		quantity_home_consumption	174	yes	yes	yes	yes	yes	yes	ok	
+230	bb1906:p654:t1	654	Cheese		quantity_home_consumption	1237	yes	yes	yes	yes	yes	yes	ok	
+231	bb1906:p655:t1	655	Confectionery	British India	value_total_rs	1473	yes	yes	yes	yes	yes	yes	ok	
+232	bb1906:p657:t1	657	Fruit, fresh— Apples	South Australia	quantity_home_consumption	998	yes	yes	yes	yes	yes	yes	ok	
+233	bb1906:p659:t1	659	Grain— Paddy	India (exc. British)	quantity_total	141	yes	yes	yes	yes	yes	yes	ok	
+234	bb1906:p663:t1	663	Spirits— Whisky	Victoria	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	
+235	bb1906:p665:t1	665	Wines, still— Port— In bottle	British India	quantity_total	1	yes	yes	yes	yes	yes	yes	ok	
+236	bb1906:p665:t1	665	Wines, still— Hock— In bottle	Holland	quantity_home_consumption	121	yes	yes	yes	yes	yes	yes	ok	
+237	bb1906:p665:t1	665	Wines, still— Hock— In bottle	Holland	quantity_total	121	yes	yes	yes	yes	yes	yes	ok	
+238	bb1906:p675:t1	675	Piece Goods— Other	Straits Settlements	quantity_total	3	yes	yes	yes	yes	yes	yes	ok	"note: Straits Settlements yds. 24 / doz. 3 (both columns); row leaves country group blank, page prints it under ""Br. Col.—"""
+239	bb1906:p676:t1	676	Piece Goods	France	quantity_home_consumption	9	yes	yes	yes	yes	yes	yes	ok	
+240	bb1906:p677:t1	677	Handkerchiefs, Scarves, and Shawls	Hong Kong	quantity_home_consumption	6	yes	yes	yes	yes	yes	yes	ok	
+241	bb1906:p678:t1	678	Flannel	Germany	value_total_rs	16844	yes	yes	yes	yes	yes	yes	ok	"note: class numeral is damaged on this page (prints like ""I.—Manufactured Articles—contd.""); it is class III, row carries ""I.—"""
+242	bb1906:p684:t1	684	Arms— Rifles— Double	United Kingdom	quantity_home_consumption	6	yes	yes	yes	yes	yes	yes	ok	note: UK Total 7, HC 6
+243	bb1906:p685:t1	685	Bran	Burma	quantity_total	25	yes	yes	yes	yes	yes	yes	ok	
+244	bb1906:p686:t1	686	Casks and Shooks	China	quantity_home_consumption	32	yes	yes	yes	yes	yes	yes	ok	
+245	bb1906:p687:t1	687	Chinaware	U. S. of America	quantity_home_consumption	5	yes	yes	yes	yes	yes	yes	ok	
+246	bb1906:p688:t1	688	Explosives— Fireworks	British India	value_total_rs	180	yes	yes	yes	yes	yes	yes	ok	
+247	bb1906:p689:t1	689	Explosives— Gunpowder, coarse (Blasting)		quantity_total	1243	yes	yes	yes	yes	yes	yes	ok	
+248	bb1906:p691:t1	691	Instruments— Musical	Germany	value_total_rs	7205	yes	yes	yes	yes	yes	yes	ok	
+249	bb1906:p692:t1	692	Leather Articles— Harness and Saddlery	New South Wales	quantity_total	3	yes	yes	yes	yes	yes	yes	ok	
+250	bb1906:p693:t1	693	Machinery— Sewing Machines	Germany	quantity_home_consumption	121	yes	yes	yes	yes	yes	yes	ok	
+251	bb1906:p695:t1	695	Natural History Specimens		value_total_rs	759	yes	yes	yes	yes	yes	yes	ok	
+252	bb1906:p697:t1	697	Painters' Colours	Holland	quantity_total	—	yes	yes	yes	yes	yes	yes	ok	
+253	bb1906:p698:t1	698	Paper— Free	France	quantity_home_consumption	12	yes	yes	yes	yes	yes	yes	ok	note: p698 columns printed HC first, Total second; France 12 in both
+254	bb1906:p698:t1	698	Paper— Dutiable	Japan	quantity_total	611	yes	yes	yes	yes	yes	yes	ok	note: Japan 611 in both columns
+255	bb1906:p698:t1	698	Paper— Free	Germany	quantity_total	3591	yes	yes	yes	yes	yes	yes	ok	note: Germany 3591 in both columns
+256	bb1906:p698:t1	698	Photographic Materials	Austria	quantity_home_consumption	1	yes	yes	yes	yes	yes	yes	ok	note: Austria 1 in both columns
+257	bb1906:p699:t1	699	Stores— Railway Plant and Rolling Stock— Sleepers and Keys	British India	quantity_home_consumption	10	yes	yes	yes	yes	yes	yes	ok	
+258	bb1906:p701:t1	701	Tallow and Stearine	United Kingdom	quantity_total	319	yes	yes	yes	yes	yes	yes	ok	
+259	bb1906:p703:t1	703	Unenumerated— Free	Burma	value_total_rs	230	yes	yes	yes	yes	yes	yes	ok	
+260	bb1906:p710:t1	710	Spices— Cardamoms	Maldiv Islands	quantity_ceylon_produce	3	yes	yes	yes	yes	yes	yes	ok	
+261	bb1906:p710:t1	710	Spices— Cardamoms	Zanzibar	quantity_total	8	yes	yes	yes	yes	yes	yes	ok	
+262	bb1906:p712:t1	712	Tea	Gibraltar	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	"note: no row shift. 1906 tea headers: colony produce split Black | Green; the other-produce column is headed ""Black""; then Total. Gibraltar 32823 / — / — / 32823"
+263	bb1906:p712:t1	712	Tea	Other British Possessions in Africa	quantity_ceylon_produce	103613	yes	yes	yes	yes	yes	yes	ok	note: no row shift; under Black; Green —
+264	bb1906:p712:t1	712	Tea	South Australia	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; South Australia Black 919897, Green —
+265	bb1906:p712:t1	712	Tea	Belgium	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; Belgium Black 36070, Green —
+266	bb1906:p712:t1	712	Tea	Queensland	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; Queensland Black 746431, Green —
+267	bb1906:p712:t1	712	Tea	Victoria	value_total_rs	2899951	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+268	bb1906:p712:t1	712	Tea	Germany	value_total_rs	440504	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+269	bb1906:p713:t1	713	Tea	Norway	quantity_ceylon_produce	10446	yes	yes	yes	yes	yes	yes	ok	note: no row shift; under Black (headers Black | Green repeated on p713)
+270	bb1906:p713:t1	713	Tea	South America	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	note: no row shift; South America Black 53718, Green —
+271	bb1906:p713:t1	713	Tea	Madagascar	quantity_total	27114	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+272	bb1906:p713:t1	713	Tea	Holland	quantity_total	90117	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+273	bb1906:p713:t1	713	Tea	Japan	value_ceylon_produce_rs	55017	yes	yes	yes	yes	yes	yes	ok	note: no row shift
+274	bb1906:p716:t1	716	Fibre— Coir	Belgium	value_other_produce_rs	—	yes	yes	yes	yes	yes	no	wrong	"Figure — correct. Group printed ""(3) Other—contd."" / ""(b) Miscellaneous—contd.""; row gives ""(6) Miscellaneous"" ((b) misread as (6) and the ""(3) Other"" level missing)"
+275	bb1906:p718:t1	718	Seeds— Rubber	Austria	quantity_ceylon_produce	—	yes	yes	yes	yes	yes	yes	ok	
+276	bb1906:p720:t1	720	Piece Goods— Bleached	Maldiv Islands	value_total_rs	160	yes	yes	yes	yes	yes	yes	ok	
+277	bb1906:p730:t1	730	Oil— Other	U.S. of America	value_ceylon_produce_rs	1200	yes	yes	yes	yes	yes	yes	ok	
+278	bb1906:p731:t1	731	Skins, dressed	China	quantity_other_produce	—	yes	yes	yes	yes	yes	yes	ok	
+279	bb1906:p732:t1	732	Unenumerated	Other British Possessions in Asia	value_other_produce_rs	1326	yes	yes	yes	yes	yes	yes	ok	
