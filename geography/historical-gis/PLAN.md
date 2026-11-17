@@ -81,6 +81,12 @@ rsync -avP hist-clifford-pgx.usask.ca:Documents/ceylon/kg/spatial/osm-sri-lanka-
 10. **Smaller items.** Fa Hien Cave point (review item 5); small islands off Jaffna and Kalpitiya missing from the
     divisions layer; Avissawella and Hatton-Dickoya fall in the neighbouring district polygon.
 
+## Town plans (added late on 17 November)
+
+Four twentieth-century plans of Colombo are collected in `geography/colombo-plans/` (see its README) but not yet
+georeferenced. `export_atlas.py` already knows them (`TOWN_PLANS`) and will put each on the atlas once its GeoTIFF
+exists. Kandy still needs maps: the Motor Map inset, Baedeker 1914, Skeen 1903 and Cave 1908 are the leads.
+
 ## Working rules
 
 - The roads have been reviewed by the owner and use OSM geometry on purpose: leave them.

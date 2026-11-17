@@ -1,6 +1,11 @@
 # Colombo town plans, twentieth century
 
-Four plans being georeferenced against modern streets (started 17 November 2026). Each plan has its own folder
+**Status, 17 November 2026: not georeferenced yet.** The work was stopped before any control points were
+saved. The only product so far is `motor-1936-colombo/colombo-inset-1936.png`, the Colombo inset cut from the
+Motor Map scan (check its frame before use). Next: pick 12 or more control points per plan at road junctions and
+stations that have not moved, fit an affine transform, warp to EPSG:3857 with alpha, and check against OSM roads.
+
+Four plans to be georeferenced against modern streets. Each plan has its own folder
 with `control-points.csv`, `georeference.py`, `notes.md` and the warped GeoTIFF; `export_atlas.py` (`TOWN_PLANS`)
 puts the finished ones on the web atlas under "Town plans".
 
