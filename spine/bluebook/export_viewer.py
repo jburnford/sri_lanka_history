@@ -150,7 +150,10 @@ def main():
     for r in tsv(BB / "observations.tsv.gz"):
         if r["kind"] != "agriculture:acreage_by_crop" or not r["value"]: continue
         crop = r["measure_key"] or re.sub(r"(\w)[-‐]\s*(\w)", r"\1\2", r["measure_as_printed"]).strip(" .").lower()
-        crop = {"cocoanuts": "coconuts"}.get(crop, crop)
+        crop = re.sub(r"\s+", " ", crop)
+        # printed spellings of one crop: "Cocoa" (1882) is the column later printed "Cacao"; OCR "Cinna mon", "Coconutts"
+        crop = {"cocoanuts": "coconuts", "coconnuts": "coconuts", "coconutts": "coconuts", "cinna mon": "cinnamon",
+                "cinamon": "cinnamon", "other grains": "other grain", "pasturage": "pasture", "cocoa": "cacao"}.get(crop, crop)
         area = r["area_key"] or re.sub(r"\s+", " ", r["area_as_printed"]).strip(" .").lower()
         area = re.sub(r"^province of (.+)$", r"\1 province", area)
         # the island total is printed "CEYLON" (1928), "Total" (1902-1912) or as an unlabelled total row (1869)

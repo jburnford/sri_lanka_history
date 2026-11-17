@@ -2,7 +2,9 @@ role	label_as_printed	rows
 article	Other	1446
 country	Ships Stores	1251
 article	Curios	927
+area	Total	816
 article	Goods manufactured wholly or in part not elsewhere specified	768
+measure	Other Grain.	754
 country	Austria	730
 article	Non-ferrous metals and manufactures of all descriptions	636
 article	Textile manufactures not elsewhere specified	531
@@ -45,8 +47,10 @@ article	Toys	255
 article	Road, mechanically-propelled motor cars	255
 article	Earthenware and stoneware	249
 article	Jewellery and gold and silver-smiths' wares	249
+measure	Cinna-mon.	246
 article	Glass and glassware, other	246
 article	Cotton manufactures not elsewhere specified	246
+measure	Cin-chona.	230
 article	Other descriptions	222
 article	Machinery not elsewhere specified, dutiable	220
 article	Cinematograph films	214
@@ -95,7 +99,6 @@ article	Road, other than mechanically-propelled cycles	156
 article	Hollowware (household, kitchen, &c., utensils enamelled or tinned)	153
 article	Silk manufactures, broadstuff	153
 article	Stores, military and naval	152
-area	Total	150
 article	Aerated and mineral waters	150
 article	Curry stuffs, coriander seed	150
 article	Calcium carbide	150
@@ -111,6 +114,7 @@ article	Clocks and watches: Clocks, complete	138
 article	Images and statues	138
 article	Musical instruments and parts and accessories of musical instruments not otherwise specified	138
 article	Oils, fats, and greases, other	138
+measure	Total.	136
 article	Typewriters, complete	135
 article	Mining and quarry products, manufactured, not elsewhere specified	132
 article	Implement and tools and parts thereof (except machine tools), other	132
@@ -144,10 +148,10 @@ article	Abrasive manufactured, cement, per barrel not exceeding 5 cwt. gross	114
 article	Tubes, pipes, and fittings	114
 article	Nails and tacks (other than wire nails), rivets, and washers	114
 article	Satin	114
-measure	Total.	112
 article	Other foodstuffs for animals	111
 article	Curry stuffs, cummin seed	111
 article	Precious and semi-precious stones and pearls, other	111
+measure	Pasture.	110
 article	Curry stuffs, chillies	108
 country	Turkey in Europe	108
 article	Disinfectants, insecticides, weed killers	108
@@ -198,6 +202,7 @@ article	Road, wheels, rims, and spokes, for other road vehicles	87
 article	Tea chests and shooks	87
 measure	Black Cattle.	86
 measure	Swine.	86
+measure	Cinna- mon.	84
 measure	With Grain of all kinds.	84
 measure	With Fruits and Vegetables of all kinds.	84
 measure	With Products other than Grain, Fruit, and Vegetables.	84
@@ -241,7 +246,6 @@ article	Textile machinery	75
 article	Soda	75
 article	Baskets and basketware	75
 article	Cotton waste	75
-measure	Other Grain.	74
 measure	Palmyra nuts	74
 article	Oil pressing and refining machinery	73
 article	Animal, refined : Ghee	72
@@ -251,6 +255,7 @@ article	Flannel, pure wool	72
 article	Oil and floor cloth	72
 article	Pictures and prints: Picture post cards	72
 article	Sharks' fins	72
+measure	TOTAL.	70
 article	Sawn, staves, scantlings	69
 article	Abrasive manufactured, stones and slates wholly or mainly manufactured, other	69
 article	Bars, rods, angles, shapes, and sections, iron	69
@@ -330,6 +335,7 @@ article	Arms, small arms, guns : Revolvers	51
 article	Arms, small arms, guns : Other arms, implements, and accessories not elsewhere specified	51
 article	Organs and pianos, not automatic : Pianos	51
 article	Brass and alloys of copper: Manufactures of brass or copper not elsewhere specified	51
+measure	Other Grain	50
 article	Cranes, hoists, and lifting machinery	49
 article	Sheep	48
 article	Fertilizers, nitrolim	48
@@ -369,7 +375,8 @@ article	Seeds, rubber	42
 article	Playing cards	42
 article	Cordage, cables, ropes and twine of coir	42
 article	Books, printed, including music: Other	42
-measure	Cinna- mon.	40
+measure	Pasturage.	40
+measure	Other Grains.	40
 article	Mutton, tinned	39
 article	Poultry and game, dead	39
 article	Vegetable : Other	39
@@ -418,6 +425,7 @@ country	Foreign West Indies	33
 article	Parts of.	33
 article	ARTICLES WHOLLY OR MAINLY MANUFACTURED. Abrasives manufactured, stones and slates wholly or mainly manufactured, other	33
 article	Woolen and worsted manufactures, other	33
+measure	To-bacco.	32
 area	Jaffna—contd.	32
 area	Budulla.	32
 measure	Are- canuts.	30
@@ -477,6 +485,7 @@ measure	* Number of Estates in Culti- vation.	25
 measure	* Number of Estates aban- doned.	25
 measure	* Number of Es- tates cultivated, wholly or par- tially, on the métairie system.	25
 article	Ammunition : Percussion caps	25
+measure	To- bacco.	24
 article	Fuller's earth	24
 article	Non-ferrous metalliferrous ores and scrap of all descriptions	24
 article	Sawn, sleepers	24
@@ -525,9 +534,12 @@ country	Jugo-Slavia	21
 article	ELECTRICAL GOODS AND APPARATUS. Electric wires and cables (insulated)	21
 article	Arms, small arms, guns: Rifles and carbines, single-barrelled, with magazine	21
 article	Brass and alloys of copper : Rode, sheets, and strips	21
+measure	Ground Nuts.	20
+measure	Cinamon.	20
 article	Ammunition, fuses, and blasting accessories : Safety fuse	20
 article	Weighing machinery	20
 article	Printing and hookbinding machinery	20
+measure	Cin- chona.	18
 area	Province of Sabaragamuwa	18
 article	Beer and ale, in wood	18
 article	Fertilizers, sylvinite	18
@@ -570,6 +582,9 @@ country	Or. For. Coun. in Europe	18
 article	Precious and semi-precious stones and pearls other	18
 area	TOTAL	17
 article	Magnetos, ignition	17
+measure	Cinna-mon	16
+measure	Cocoa-nuts.	16
+measure	Cocoa- nuts.	16
 measure	Palmirah nuts	16
 area	PROVINCE OF UVA	16
 area	PROVINCE OF SABARAGAMUWA	16
@@ -621,8 +636,6 @@ article	Wire manufactures, wire nails, \frac{1}{2} to 1\frac{1}{2} in.	15
 article	Arms, small arms, guns: Other arms, implements, and accessories not elsewhere specified	15
 article	Seeds, gingly	15
 article	Fertilizers, nitrolime	15
-measure	Pasture.	14
-measure	TOTAL.	14
 area	Kurunegala—contd.	14
 measure	Arecanuts	12
 area	Grand Total	12
@@ -692,9 +705,6 @@ article	ARTICLES WHOLLY OR MAINLY MANUFACTURED. Steel girders, beams, joists, an
 country	Port. East Africa	12
 article	Electric goods and apparatus not elsewhere specified	12
 article	Cranes, hoists, and lifting machineries	11
-measure	Cin- chona.	10
-measure	Cinna-mon.	10
-measure	Cin-chona.	10
 measure	Palmyrah nuts	10
 area	Mullaittivu	10
 article	Ammunition : Other accessories (including detonators)	10
@@ -733,6 +743,16 @@ country	British Possessions	9
 article	Manufactured fuel— tons.	9
 article	Matches non-safety	9
 article	Scientific instruments and appliances (except electrical), dental, surgical, medical, and veterinary	9
+measure	Cinna mon.	8
+measure	Cocon-nuts.	8
+measure	To-bacco	8
+measure	Cin-chona	8
+measure	Cocoa.	8
+measure	Cinna- mon	8
+measure	To- bacco	8
+measure	Coconutts	8
+measure	Coco- nuts.	8
+measure	Pastur- age	8
 measure	Horned Cattle	8
 article	Ammunition, other accessories, including detonators	8
 measure	Palmitrah nuts	6
