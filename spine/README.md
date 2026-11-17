@@ -84,5 +84,6 @@ The Neo4j container is `neo4j-ceylon-spine` (Browser at http://localhost:7478, B
   reviewer confirmed them. The gold sample has 22 of 100 profiles answered.
 - Publications, estates and most organisations are loaded as names only. Generic organisation names are
   skipped on purpose; a match a person rejects goes in `grounding/name_rejections.jsonl`.
-- The research assistant's review files (`gold/`, `grounding/people_review.jsonl`) and the rebuilt load tables
-  (`graph/`) are not in the repository; see `../SOURCES.md`.
+- The research assistant's review files (`gold/`, `grounding/people_review.jsonl`) are not in the repository; see
+  `../SOURCES.md`. The load tables (`graph/`, rebuilt by `build_graph_tables.py`) are included as a snapshot of
+  17 Nov 2026, so `load_graph.py` can fill a Neo4j database on a machine that has only this repository.

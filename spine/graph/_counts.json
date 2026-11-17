@@ -1,0 +1,19 @@
+{
+ "articles": 53501,
+ "concepts": 970,
+ "concept_links": 606,
+ "resolutions": 13816,
+ "places": 2777,
+ "taxa": 3637,
+ "mentions": 845450,
+ "names": 169425,
+ "profiles": 38579,
+ "profile_mentions": 115138,
+ "identities": 780,
+ "wikidata_persons": 449,
+ "col_persons": 1212,
+ "postings": 12492,
+ "col_places": 392,
+ "territories": 739,
+ "territory_edges": 1176
+}
