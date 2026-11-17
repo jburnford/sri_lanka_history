@@ -110,7 +110,7 @@ def main():
                 "confidence": {k: c.get(k, "") for k in ("level", "totals_checked", "totals_agree", "off_by_one_digit", "differ",
                                "numbers_confirmed_by_totals", "numbers_3plus_digits", "also_in_second_reading",
                                "share_in_second_reading", "flags", "disagreements", "nontrivial_totals_agree",
-                               "running_subtotals_agree", "distinct_numbers_3plus")},
+                               "running_subtotals_agree", "distinct_numbers_3plus", "converted_cells")},
             }
             if t["id"] in obs: extracted["obs"][short] = obs[t["id"]]
             if t["id"] in index_people: extracted["officers"][short] = index_people[t["id"]]
@@ -147,7 +147,10 @@ def main():
 
     # acreage by crop, for the series chart: one point per printed figure, with the level of the table it came from
     # printed figures judged to be misprints (page_readings/acreage_suspect.tsv): kept as printed, drawn hollow
-    misprints = {(r["table_id"], int(r["source_row"]), int(r["source_column"])): r["reason"] for r in tsv(BB / "page_readings/acreage_suspect.tsv")}
+    # `kind` says how strong the case is; the label leads the text the chart shows
+    label = {"misprint": "Probably a misprint in the Blue Book", "source_error": "Probably an error in the return (the printed totals carry it)",
+             "doubtful": "An outlier that may be an error", "shared_figure": "Not comparable with other years"}
+    misprints = {(r["table_id"], int(r["source_row"]), int(r["source_column"])): label[r["kind"]] + ": " + r["reason"] for r in tsv(BB / "page_readings/acreage_suspect.tsv")}
     acreage = []
     for r in tsv(BB / "observations.tsv.gz"):
         if r["kind"] != "agriculture:acreage_by_crop" or not r["value"]: continue
@@ -155,7 +158,8 @@ def main():
         crop = re.sub(r"\s+", " ", crop)
         # printed spellings of one crop: "Cocoa" (1882) is the column later printed "Cacao"; OCR "Cinna mon", "Coconutts"
         crop = {"cocoanuts": "coconuts", "coconnuts": "coconuts", "coconutts": "coconuts", "cinna mon": "cinnamon",
-                "cinamon": "cinnamon", "other grains": "other grain", "pasturage": "pasture", "cocoa": "cacao"}.get(crop, crop)
+                "cinamon": "cinnamon", "other grains": "other grain", "pasturage": "pasture", "cocoa": "cacao",
+                "total": "all crops (printed total column)"}.get(crop, crop)
         area = r["area_key"] or re.sub(r"\s+", " ", r["area_as_printed"]).strip(" .").lower()
         area = re.sub(r"^province of (.+)$", r"\1 province", area)
         # the island total is printed "CEYLON" (1928), "Total" (1902-1912) or as an unlabelled total row (1869)

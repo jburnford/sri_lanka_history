@@ -1,7 +1,37 @@
-# Status, 16 November 2026 (evening, all Blue Book volumes in)
+# Status, 17 November 2026
 
 Written for a check-in after working alone. Detail is in `README.md` (how it works) and `UPSTREAM_ERRORS.md`
 (what is wrong upstream).
+
+## Review of the 16 November work, and fixes (17 November 2026)
+
+Everything committed on 16 November after the first review was checked again, the acreage figures against the
+page images by readers who had not seen the extraction.
+
+- **No extraction error found.** Every acreage figure checked was in the right row, column, crop, province
+  and year (year order confirmed on the page for 24 volumes; the pairing of first and second printings
+  recomputed independently).
+- **OCR slips outside 1879–1891: about 3% of cells** (35 of 1,239 compared at high zoom), mostly fractions
+  (¼ and ¾ read as ½; the 1905 table lost its fractions). 34 are corrected from the page
+  (`bluebook/page_readings/acreage_cells.tsv`); agreeing printed totals rose from 1,000 to 1,028 of 1,153.
+  Tables not compared cell by cell will carry errors at about that rate where no second printing or total
+  catches them.
+- **The 1879–1891 page readings hold**: 1,316 cells compared, none differs from a legible figure. One reading
+  changed (the 1882 coffee total, a broken 4).
+- **"Probable misprint" was too strong for most of the flagged figures.** `acreage_suspect.tsv` now has a
+  `kind`: 15 misprints (totals or the other printing show it), 30 probable errors in the return (the printed
+  totals carry them), 4 doubtful outliers, 1 figure shared by two columns.
+- **The acreage validator is not an independent check of the OCR**: it confirms each output against the OCR
+  table or page reading, so it cannot see a misread figure. Its README now says so.
+- **Table confidence**: a "total that does not agree" no longer reports a pence or cents amount as if it were
+  printed (`converted_cells`), and the list is no longer cut inside an entry. Levels are unchanged.
+- **Reruns left by the first review are done**: place grounding (16 names changed), officer matching,
+  label links, figure links and the graph load.
+- The Blue Book viewer was checked against its sources (identical after a fresh export) and against
+  archive.org page counts for 14 volumes; the scan shown beside a table is the right page.
+- Not done: the 1868, 1869 and most 1890s–1910s acreage tables have not been compared cell by cell with the
+  page; a 1909 volume is on disk but not parsed; the officials extractor is unchecked outside the volumes
+  sampled.
 
 ## Review fixes (branch `review-fixes`, 16 November 2026, late)
 
@@ -40,10 +70,11 @@ loaded from decision files in under a minute. The old database and Codex's GIS f
 | Articles (canonical copies) | 53,501 |
 | Printed names, all types | 169,425 |
 | Article-to-name links | 845,450 |
-| Places with a QID | 2,407 |
+| Places with a QID | 2,394 |
 | Taxon name records (Catalogue of Life) | 3,611, of which 932 are synonyms linked to an accepted name |
-| Wikidata concepts (taxa, products, diseases, organisations) | 859 |
-| Blue Book tables and officials (person-years) | 46,999 and 146,383 |
+| Wikidata concepts (taxa, products, diseases, organisations) | 847 |
+| Blue Book tables and officials (person-years) | 46,999 and 161,220 |
+| Blue Book figures (acreage, district returns, trade) | 85,509 |
 | Person profiles | 38,579; 680 linked to Wikidata and/or a Colonial Office List person |
 | Colonial Office List officials and postings | 1,212 and 12,492 |
 | Empire Evolution territories | 739 |
@@ -90,18 +121,18 @@ Tea Association). Local identifiers for the Ceylon bodies are a decision for you
   model writes plausible tables on blank pages (a 1905 blank verso became "quarterly statements, Q1-Q4").
 - **300,107 links from table labels to names the spine had already resolved**: 21,492 tables name a known
   place, commodity or taxon. Trade partners get the polity for the volume's year.
-- **People**: 146,383 person-years of officials in the 39 volumes that print the lists (1863–1917), before the
-  review's officer-index fix added about 32,600 index names for 1907–1917. 5,121 match a Colonial Office List
-  person (1,083 "high") and 11,496 have a journal profile as a candidate; these numbers will change when
-  `match_officers.py` is rerun. In a sample of 20 matches about 5 were uncertain (common surnames such as de
-  Saram, Dias, Koch with one initial).
+- **People**: 161,220 person-years of officials in the 39 volumes that print the lists (1863–1917). 5,908
+  match a Colonial Office List person (559 "high": a Ceylon posting's start year and two initials agree;
+  5,260 medium; 89 low) and 12,612 have a journal profile as a candidate. In a sample of 20 earlier matches
+  about 5 were uncertain (common surnames such as de Saram, Dias, Koch with one initial).
 - **Figures**: two Codex Sol jobs, run from written briefs (`bluebook/jobs/*.md`), produced 4,918 agricultural
   figures (acreage by crop and province, district returns, live stock; seven volumes) and 88,045 trade figures
   (imports and exports by article and country; 1924, 1925, 1926, 1928). The briefs supplied a sample of
-  thirteen volumes; agriculture used seven of them and trade four. Acreage and trade-ledger tables are present
-  in about 45 volumes each and have not been extracted. A trade article whose total agrees can still have
+  thirteen volumes; agriculture used seven of them and trade four. Trade-ledger tables are present in about 45 volumes and have not been extracted beyond those four. A trade article whose total agrees can still have
   figures under the wrong country (coir mats, 1928). I checked samples against the parsed
-  tables and loaded them: 77,741 `Observation` nodes, 92% tied to a place name and 31% to a crop or article name.
+  tables and loaded them. A second pass on 16 November took the opening acreage tables from every volume that
+  prints one (1862–1923): 12,686 agricultural figures from 134 tables, with the 1879–1891 tables read from the
+  page images (`bluebook/extracted/agriculture_README.md`). The graph holds 85,509 `Observation` nodes.
   Printed totals agree with the sum of parts for 92% of acreage checks and 78–85% of trade articles; the rest
   are listed, not repaired. Example from the graph: coffee falls from 207,066 acres in 1868 to 1,389 in 1912
   while rubber rises from 4,100 in 1902 to 184,551 in 1911 (sums over the provinces that report).

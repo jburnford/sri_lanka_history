@@ -215,15 +215,26 @@ def main():
                      "partly" if (n and ok * 2 >= n and ok_real) or (share is not None and share >= 0.7 and distinct >= 5) else "unconfirmed")
             if n and ok == n and not ok_real: flags.append("only_trivial_totals")
             if subs: flags.append(f"subtotals_agree:{subs}")
+            # disagreements: whole entries only (never cut inside one), then "+N more". Where the checked amount is not
+            # the cell's own digits (pounds, shillings and pence or rupees and cents joined into the smallest unit), the
+            # cell is listed in converted_cells so a reader is not sent looking for a number the page does not print.
+            bad = [c for c in checks if c[5] != "agree"]
+            ents, used = [], 0
+            for c in bad:
+                e = f"r{c[0]}c{c[1]} printed {c[3]} sum off by {c[4]:+d}"
+                if used + len(e) + 2 > 300: break
+                ents.append(e); used += len(e) + 2
+            dis = "; ".join(ents) + (f"; +{len(bad) - len(ents)} more" if len(bad) > len(ents) else "")
+            conv = [f"r{c[0]}c{c[1]}" for c in bad[:len(ents)]
+                    if re.sub(r"\D", "", t["rows"][c[0]][c[1]].translate(HALF)) != str(abs(c[3]))]
             out.append((t["id"], t["year"], t["pdf_page"], t.get("printed_page") or "", level, n, ok, one, n - ok - one, cells, nn, nin, "" if share is None else f"{share:.2f}", ";".join(flags),
-                        "; ".join(f"r{c[0]}c{c[1]} printed {c[3]} sum off by {c[4]:+d}" for c in checks if c[5] != "agree")[:300],
-                        ok_real, subs, distinct))
+                        dis, ok_real, subs, distinct, " ".join(conv)))
             s = summ[key]; s["tables"] += 1; s[level] += 1; s["checks"] += n; s["agree"] += ok; s["one_digit"] += one
     with gzip.open(BB / "table_confidence.tsv.gz", "wt", newline="") as fh:
         w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["table_id", "year", "pdf_page", "printed_page", "level", "totals_checked", "totals_agree", "off_by_one_digit", "differ",
                     "numbers_confirmed_by_totals", "numbers_3plus_digits", "also_in_second_reading", "share_in_second_reading", "flags", "disagreements",
-                    "nontrivial_totals_agree", "running_subtotals_agree", "distinct_numbers_3plus"]); w.writerows(out)
+                    "nontrivial_totals_agree", "running_subtotals_agree", "distinct_numbers_3plus", "converted_cells"]); w.writerows(out)
     with open(BB / "confidence_by_volume.tsv", "w", newline="") as fh:
         w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         cols = ["tables", "summed", "two_readings", "partly", "unconfirmed", "suspect", "checks", "agree", "one_digit"]

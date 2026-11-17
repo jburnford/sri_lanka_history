@@ -31,7 +31,7 @@ const BB_LEVELS = {
 const BB_POINT_LEVELS = Object.assign({}, BB_LEVELS, {
   page_image: {
     title: "Read from the page image",
-    text: "This figure was read by eye from the page image, because the OCR of these tables (1879–1891) misreads many digits. Where the print was faint or ambiguous the note says which reading the totals and the other printing support.",
+    text: "This figure was read by eye from the page image, because the OCR misread it (every acreage table for 1879–1891, and single figures elsewhere found by comparing tables with the page). Where the print was faint or ambiguous the note says which reading the totals and the other printing support.",
   },
 });
 const BB_FLAGS = {
@@ -138,7 +138,8 @@ function bluebookRoute(hash) {
   bbBind();
   const rest = hash.slice("bluebook".length);
   if (rest.startsWith("=")) {
-    const id = decodeURIComponent(rest.slice(1));
+    let id = "";
+    try { id = decodeURIComponent(rest.slice(1)); } catch (error) { id = ""; }   // a malformed link is an unreadable id
     if (BB_TABLE_ID.test(id)) bbShowDetail(id);
     else bbShowDetail("an unreadable id");
     return;
@@ -481,15 +482,21 @@ function bbChecks(root, c, cells) {
     add(side, "p", "Select one to find the printed total in the parsed table. A total that does not agree is weak evidence: the check is often wrong (a table continued from another page, a running subtotal, columns of different units), so read the page.", "help");
     const list = add(side, "ul", undefined, "bb-disagreements");
     const pattern = /^r(\d+)c(\d+) printed (-?\d+) sum off by ([+-]\d+)$/;
+    const converted = new Set((c.converted_cells || "").split(" ").filter(Boolean));
     for (const part of parts) {
       const m = part.match(pattern);
       const item = add(list, "li");
+      const more = part.match(/^\+(\d+) more$/);
+      if (more) { item.textContent = "and " + more[1] + " more that are not listed here"; continue; }
       if (!m) { item.textContent = part + " (cut short in the source file)"; continue; }
       const [i, j, printed, diff] = [Number(m[1]), Number(m[2]), Number(m[3]), Number(m[4])];
       const cell = cells.get(i, j);
       if (cell) cell.classList.add("bad");
       action(item, "Row " + i + ", column " + j, () => bbFocus(cells, i, j));
-      item.append(": printed " + instant.format(printed) + ", the parts add up to " + instant.format(printed + diff) + " (" + (diff > 0 ? "+" : "") + instant.format(diff) + ")");
+      // money in two or three columns (pounds, shillings, pence; rupees, cents) is checked as one amount in the
+      // smallest unit, so that figure is not what the cell prints
+      const what = converted.has("r" + i + "c" + j) ? ": the printed amount, with the money columns beside it taken together in pence or cents, is " : ": printed ";
+      item.append(what + instant.format(printed) + ", the parts add up to " + instant.format(printed + diff) + " (" + (diff > 0 ? "+" : "") + instant.format(diff) + ")");
     }
     const failing = (Number(c.totals_checked) || 0) - (Number(c.totals_agree) || 0);
     const shown = list.querySelectorAll("button").length;
@@ -675,7 +682,7 @@ function bbDrawSeries() {
   if (rows.some((r) => r.misprint)) {
     const item = add(key, "span", undefined, "bb-key-item");
     add(item, "i", undefined, "bb-dot misprint");
-    item.append("Printed, but probably a misprint");
+    item.append("Printed, but probably wrong or not comparable (see its note)");
   }
   if (rows.some((r) => !r.dated)) {
     const item = add(key, "span", undefined, "bb-key-item");
@@ -712,8 +719,8 @@ function bbDrawSeries() {
     const offset = sameYear.length > 1 ? (sameYear.indexOf(r) - (sameYear.length - 1) / 2) * 7 : 0;
     const when = r.dated ? String(r.year) : "no single year (" + r.volume + " volume)";
     const dot = svg(s, "circle", { cx: x(r.year) + offset, cy: y(Math.min(r.value, high)), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated") + (r.misprint ? " misprint" : ""), tabindex: 0, role: "button",
-      "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + (r.misprint ? ", probably a misprint" : "") + ", table " + r.table });
-    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + (r.misprint ? " · probably a misprint" : "") + (r.value > high ? " · above the scale" : "") + " · " + r.table;
+      "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + (r.misprint ? ", flagged as probably wrong or not comparable" : "") + ", table " + r.table });
+    svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + (r.misprint ? " · flagged, see note" : "") + (r.value > high ? " · above the scale" : "") + " · " + r.table;
     const select = () => {
       dots.forEach((d) => d.classList.toggle("selected", d === dot));
       const out = byId("bb-point");
@@ -722,7 +729,7 @@ function bbDrawSeries() {
       bbBadge(out, r.level);
       out.append(" printed in the " + r.volume + " volume, ");
       action(out, r.table, () => bbOpenTable(r.table));
-      if (r.misprint) add(out, "small", "Probably a misprint in the Blue Book: " + r.misprint).classList.add("bb-misprint");
+      if (r.misprint) add(out, "small", r.misprint).classList.add("bb-misprint");
       if (r.note) add(out, "small", "Extraction note: " + r.note);
     };
     dot.addEventListener("click", select);

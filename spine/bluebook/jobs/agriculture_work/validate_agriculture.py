@@ -18,6 +18,7 @@ def read_tsv(p):
     with p.open(newline='') as f:return list(csv.DictReader(f,delimiter='\t'))
 
 
+TOL=Fraction(1,1000)
 def trim(s):return re.sub(r'(?:\s*\.\s*){2,}$','',s.strip()).rstrip()
 
 
@@ -62,6 +63,7 @@ with path.open(newline='') as f:
 coords=read_tsv(WORK/'source_cells.tsv')
 assert len(rows)==len(coords)
 assert set(readings)<={(c['table_id'],int(c['source_row']),int(c['source_column'])) for c in coords}
+SUSPECT_LABEL={'misprint':'probable misprint','source_error':'probable error in the return','doubtful':'outlier, possibly an error','shared_figure':'one figure for two columns'}
 suspect={(r['table_id'],int(r['source_row']),int(r['source_column'])):r for r in read_tsv(ROOT/'page_readings/acreage_suspect.tsv')}
 seen=set();numeric=0
 for row,prov in zip(rows,coords):
@@ -85,9 +87,9 @@ for row,prov in zip(rows,coords):
     assert f'source row {ri}, column {ci}' in row['note']
     if key in suspect:
         assert row['value_as_printed']==suspect[key]['value_as_printed'] and row['year_data']==suspect[key]['year_data'], key
-        assert 'probable misprint (page_readings/acreage_suspect.tsv): '+suspect[key]['reason'] in row['note'], key
+        assert SUSPECT_LABEL[suspect[key]['kind']]+' (page_readings/acreage_suspect.tsv): '+suspect[key]['reason'] in row['note'], key
     else:
-        assert 'probable misprint' not in row['note'], key
+        assert '(page_readings/acreage_suspect.tsv)' not in row['note'], key
     if key in readings:
         assert row['value_as_printed']==readings[key] and 'read from the page image' in row['note'], key
         assert row['value_as_printed']==source.strip() or f"the OCR reads '{source.strip()}'" in row['note'], key
@@ -103,7 +105,10 @@ for row,prov in zip(rows,coords):
     assert not re.search(r'\.{2,}\s*$',row['area_as_printed'])
     if row['value']:
         assert re.fullmatch(r'[+-]?\d+(?:\.\d+)?',row['value'])
-        assert independently_read_number(row['value_as_printed'])==Fraction(row['value']), (key,row)
+        if 'value rounded to four decimal places' in row['note']:      # a recurring fraction (2/3, 11/12)
+            assert abs(independently_read_number(row['value_as_printed'])-Fraction(row['value']))<Fraction(1,10000), (key,row)
+        else:
+            assert independently_read_number(row['value_as_printed'])==Fraction(row['value']), (key,row)
         numeric+=1
     elif not re.fullmatch(r'[\s.\-—–−]*|Nil',row['value_as_printed'],re.I):
         assert any(n in row['note'] for n in ['unreadable','nonnumeric']), (key,row)
@@ -145,13 +150,13 @@ for tid in sorted(used_ids):
                     val=cell_value(tid,ri,ci)
                     if re.fullmatch(r'[\s.\-—–−]*|Nil',val,re.I):continue
                     parts.append(independently_read_number(val))
-                assert sum(parts,Fraction())==Fraction(a['computed_sum'])
-                assert independently_read_number(cell_value(tid,last,ci))-sum(parts,Fraction())==Fraction(a['difference'])
+                assert abs(sum(parts,Fraction())-Fraction(a['computed_sum']))<TOL   # recurring fractions are rounded in the output
+                assert abs(independently_read_number(cell_value(tid,last,ci))-sum(parts,Fraction())-Fraction(a['difference']))<TOL
                 checked_blocks.add((tid,cr))
 
 for a in audit+read_tsv(WORK/'other_totals_audit.tsv'):
     if a['computed_sum']:
-        assert independently_read_number(a['printed_total'])-Fraction(a['computed_sum'])==Fraction(a['difference'])
+        assert abs(independently_read_number(a['printed_total'])-Fraction(a['computed_sum'])-Fraction(a['difference']))<TOL
         assert (a['status']=='agree')==(Fraction(a['difference'])==0)
     else:assert a['status'].startswith('uncheckable')
 checks=read_tsv(ROOT/'extracted/agriculture_checks.tsv')

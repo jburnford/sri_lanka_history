@@ -4,3 +4,37 @@ bb1905:p15:t1	10	1	89469	the first digit is faint; the page prints 89469, as the
 bb1896:p15:t1	4	1	52887	the last digit is broken (5288?); the column total (589077) requires 52887. The only printing of 1895 (no 1895 volume)
 bb1894:p14:t2	10	4	1111	the first digit is faint; the page prints 1111, which the column total (26708) requires
 bb1894:p14:t2	7	3	876	the page prints 876; with it the coffee column adds up (20931)
+bb1863:p10:t2	5	2	2434¼	the page prints 2434¼; the OCR reads '2434\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	6	2	25468¼	the page prints 25468¼; the OCR reads '25468\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	8	5	15847¼	the page prints 15847¼; the OCR reads '15847\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	12	7	220042 1/10	the page prints 220042 1/10; the OCR reads '226042\frac{1}{10}' (broken type; the row adds to 220042 1/10; the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	16	2	30554¾	the page prints 30554¾; the OCR reads '30554\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	16	7	105895¼	the page prints 105895¼; the OCR reads '105895\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	18	2	160621¾	the page prints 160621¾; the OCR reads '160621\frac{1}{2}' (the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1863:p10:t2	18	7	1277170 17/20	the page prints 1277170 17/20; the OCR reads '1277170\frac{1}{2}' (the columns add to exactly 17/20; the only printing of this year). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1866:p11:t2	3	7	156852¼	the page prints 156852¼; the OCR reads '156852\frac{1}{2}' (the only printing of 1865). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1866:p11:t2	4	2	11383 2/3	the page prints 11383 2/3; the OCR reads '11383\frac{3}{4}' (the fraction is two-thirds; the only printing of 1865). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1866:p11:t2	4	7	160269 2/3	the page prints 160269 2/3; the OCR reads '160269\frac{3}{4}' (the fraction is two-thirds; the only printing of 1865). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1866:p11:t2	8	7	1,046,156 11/12	the page prints 1,046,156 11/12; the OCR reads '1,046,156\frac{1}{2}' (the fraction is eleven-twelfths; the only printing of 1865). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1901:p16:t2	2	9	338163	the page prints 338163; the OCR reads '388163'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t1	2	1	113020	the page prints 113020; the OCR reads '118020'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t1	2	7	28430	the page prints 28430; the OCR reads '28480'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t1	10	1	82749	the page prints 82749; the OCR reads '82748'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t2	2	9	344078	the page prints 344078; the OCR reads '344073'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t2	3	3	1381	the page prints 1381; the OCR reads '1331'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t2	3	7	275825	the page prints 275825; the OCR reads '275525'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1902:p16:t2	11	5	38889	the page prints 38889; the OCR reads '38839'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	4	1	64723	the page prints 64723; the OCR reads '61723' (poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	3	9	14348	the page prints 14348; the OCR reads '14345' (poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	4	9	20082	the page prints 20082; the OCR reads '20052' (poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	5	8	83	the page prints 83; the OCR reads '53' (broken type; poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	7	9	302869	the page prints 302869; the OCR reads '302969' (poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1903:p18:t1	11	4	32628	the page prints 32628; the OCR reads '32625' (broken type; poorly inked page). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	4	1	62123¼	the page prints 62123¼; the OCR reads '62123'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	7	2	22293¾	the page prints 22293¾; the OCR reads '22293'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	7	8	1402¾	the page prints 1402¾; the OCR reads '1402'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	11	1	697711¼	the page prints 697711¼; the OCR reads '697711'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	11	2	105968¾	the page prints 105968¾; the OCR reads '105968'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	11	8	12885¾	the page prints 12885¾; the OCR reads '12885'. Found when the whole table was compared with the page image on review, 17 November 2026
+bb1905:p15:t2	5	1	122426	the page prints 122426; the OCR reads '122126' (broken 4; the column total requires 122426). Found when the whole table was compared with the page image on review, 17 November 2026
+bb1922:p15:t2	4	2	32713	the page prints 32713; the OCR reads '32748' (under a perforation stamp; the 1921 volume and the column total give 32713). Found when the whole table was compared with the page image on review, 17 November 2026

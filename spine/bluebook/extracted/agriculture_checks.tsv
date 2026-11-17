@@ -6,32 +6,16 @@ bb1869:p11:t2	measure: TOTAL.	1794722¾	1794722.25	0.5
 bb1869:p11:t3	area: Western	173359¼	173360.25	-1
 bb1869:p11:t3	area: (unlabelled colony total)	1691673¼	1691674	-0.75
 bb1869:p11:t3	measure: TOTAL.	1691673¼	1691673	0.25
-bb1902:p16:t1	measure: Paddy.	670433	675432	-4999
 bb1902:p16:t1	measure: Cacao.	23934	24934	-1000
 bb1902:p16:t1	measure: Cotton.	40		
-bb1902:p16:t1	measure: Tea.	406224	406274	-50
 bb1902:p16:t1	measure: Rubber.	—		
-bb1902:p16:t2	measure: Coffee.	5757	5507	250
-bb1902:p16:t2	measure: Cinnamon.	38839	38889	-50
-bb1902:p16:t2	measure: Tea.	434330*	434030	300
-bb1902:p16:t2	measure: Cocoanuts.	853186	853181	5
+bb1902:p16:t2	measure: Coffee.	5757	5557	200
 bb1904:p18:t1	measure: Cotton.	—		
 bb1912:p16:t4	measure: Tobacco.	14374	14394	-20
-bb1863:p10:t2	area: Eastern [1862]	160663\frac{3}{4}	160664	-0.25
-bb1863:p10:t2	area: Northern [1862]	101199\frac{1}{2}	101199.75	-0.25
-bb1863:p10:t2	area: (unlabelled colony total) [1862]	1201257\frac{1}{2}	1201257.75	-0.25
-bb1863:p10:t2	measure: Other Grain. [1862]	113443\frac{3}{4}	113444.25	-0.5
-bb1863:p10:t2	measure: Tobacco. [1862]	15847\frac{1}{2}	15847.25	0.25
-bb1863:p10:t2	area: Western [1863]	226042\frac{1}{10}	220042.1	6000
-bb1863:p10:t2	area: Northern [1863]	105895\frac{1}{2}	105895	0.5
-bb1863:p10:t2	area: (unlabelled colony total) [1863]	1277170\frac{1}{2}	1277170.6	-0.1
-bb1863:p10:t2	measure: TOTAL. [1863]	1277170\frac{1}{2}	1283171.1	-6000.6
 bb1866:p11:t2	area: Western	177143	177143.5	-0.5
-bb1866:p11:t2	area: North-Western	156852\frac{1}{2}	156852.25	0.25
-bb1866:p11:t2	area: (unlabelled colony total)	1,046,156\frac{1}{2}		
-bb1866:p11:t2	measure: Other Grain.	79502\frac{5}{12}		
+bb1866:p11:t2	area: (unlabelled colony total)	1,046,156 11/12	1046166.9167	-10
+bb1866:p11:t2	measure: Other Grain.	79502\frac{5}{12}	79502.9167	-0.5
 bb1866:p11:t2	measure: Tobacco.	6634\frac{3}{4}	6624.75	10
-bb1866:p11:t2	measure: TOTAL.	1,046,156\frac{1}{2}	1046157.25	-0.75
 bb1868:p11:t2	area: Northern	89576\frac{3}{4}	89577.25	-0.5
 bb1868:p11:t2	area: (unlabelled colony total)	1768378\frac{3}{8}	1768378	0.375
 bb1868:p11:t2	measure: Other Grain.	87582\frac{1}{2}	87583.25	-0.75
@@ -41,10 +25,6 @@ bb1868:p11:t3	area: Northern	83719	83779	-60
 bb1868:p11:t3	area: Central	1084565\frac{1}{2}	1084565.875	-0.375
 bb1868:p11:t3	measure: Paddy.	461287\frac{1}{2}	461347.5	-60
 bb1868:p11:t3	measure: TOTAL.	1794722\frac{3}{8}	1794722.25	0.125
-bb1880:p8:t4	area: Eastern	82302 13/18		
-bb1880:p8:t4	area: (unlabelled colony total)	1722298 13/18		
-bb1880:p8:t4	measure: Paddy.	581565 13/18		
-bb1880:p8:t4	measure: Total.	1722298 13/18		
 bb1880:p8:t5	area: Eastern	128687	148687	-20000
 bb1880:p8:t5	area: North-Central	33946	32246	1700
 bb1880:p8:t5	area: (unlabelled colony total)	2943459	2583459	360000
@@ -54,7 +34,6 @@ bb1880:p8:t5	measure: Total.	2943459	2493459	450000
 bb1881:p10:t5	area: Eastern	128687	148687	-20000
 bb1881:p10:t5	area: North-Central	33946	32246	1700
 bb1881:p10:t5	measure: Cocoa-nuts.	524334	542634	-18300
-bb1883:p10:t4	measure: Coffee.	321618½	324618.5	-3000
 bb1883:p11:t1	measure: ☼ Coffee.	292779	292679	100
 bb1886:p13:t1	measure: Cacao.	13776	5739	8037
 bb1889b:p14:t2	measure: Coffee.	72776*	128849	-56073
@@ -85,20 +64,14 @@ bb1900:p18:t1	measure: Other Grain.	98728	103728	-5000
 bb1900:p18:t1	measure: Tea.	417448	417443	5
 bb1900:p18:t2	measure: Cocoanuts.	846115	846165	-50
 bb1901:p16:t2	measure: Cacao.	23934	24934	-1000
-bb1901:p16:t2	measure: Cocoanuts.	846458	896458	-50000
-bb1903:p18:t1	measure: Paddy.	700714	697714	3000
 bb1903:p18:t1	measure: Coffee.	5757	5557	200
-bb1903:p18:t1	measure: Cacao.	32625	32628	-3
 bb1903:p18:t1	measure: Cinnamon.	38889	38891	-2
-bb1903:p18:t1	measure: Tobacco	13071	13041	30
-bb1903:p18:t1	measure: Cocoanuts.	853186	853253	-67
 bb1903:p18:t2	measure: Paddy.	711869½	711839	30.5
 bb1903:p18:t2	measure: Cotton.	—		
 bb1903:p18:t2	measure: Tea.	460715*	460710	5
 bb1903:p18:t2	measure: Tobacco.	14327	14387	-60
 bb1903:p18:t2	measure: Cocoanuts.	890409	880414	9995
-bb1905:p15:t2	measure: Paddy.	697711	697411	300
-bb1905:p15:t2	measure: Tobacco.	12885	12880	5
+bb1905:p15:t2	measure: Tobacco.	12885¾	12880.75	5
 bb1906:p16:t1	measure: Tobacco.	12885\frac{3}{4}	12880.75	5
 bb1906:p16:t2	measure: Other Grain.	137007	137017	-10
 bb1908:p14:t3	measure: Cinna-mon.	54423	44423	10000
@@ -115,7 +88,6 @@ bb1919:p14:t3	measure: Cin-chona.	—
 bb1920:p15:t2	measure: Cin-chona.	—		
 bb1920:p15:t3	measure: Coconuts.	945057	946057	-1000
 bb1921:p15:t2	measure: Coconuts.	945057	946057	-1000
-bb1922:p15:t2	measure: Other Grains.	160665	160700	-35
 bb1928:p327:t1	measure: Cacao.; SOUTHERN PROVINCE vs districts	—		
 bb1928:p327:t1	measure: Cacao.; NORTHERN PROVINCE vs districts	—		
 bb1928:p327:t1	measure: Cacao.; EASTERN PROVINCE vs districts	—		
