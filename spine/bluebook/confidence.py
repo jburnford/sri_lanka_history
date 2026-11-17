@@ -18,13 +18,22 @@ Two independent tests.
 
 Output: bluebook/table_confidence.tsv.gz   one row per table
         bluebook/confidence_by_volume.tsv  summary
-Levels: summed        every printed total that could be checked agrees with the sum of its parts
-        two_readings  at least 90% of the numbers are also in the second reading
-        partly        at least half the totals agree, or 70-90% of the numbers are in the second reading
+Levels: summed        every printed total that could be checked agrees with the sum of its parts, and at least one
+                      of them is non-trivial (a non-zero total of at least two non-zero parts)
+        two_readings  at least 90% of the numbers are also in the second reading, and the table has at least
+                      MIN_DISTINCT (10) distinct numbers of 3+ digits
+        partly        at least half the totals agree (one non-trivially), or at least 70% of the numbers are in the
+                      second reading (at least 5 distinct numbers)
         unconfirmed   nothing confirms it: no usable total and no usable second reading. Not evidence of error.
         suspect       the page is probably blank or invented; do not use without looking at the scan
 A total that does not agree is weak evidence: in a sample, most such cases were tables continued from another
 page or columns the checker grouped wrongly, with the numbers themselves read correctly.
+
+Unlabelled rows of figures are tried as running subtotals, but only an agreeing one is kept (a failing one is
+usually not a subtotal at all). Because they can never fail they are reported separately
+(running_subtotals_agree) and do not count towards any level. The second reading is a set-membership test (same
+digits anywhere on the page): it says the numbers were printed on that page, not that they sit in the right row
+or column, so a row shift can still reach two_readings.
 """
 import collections, csv, glob, gzip, json, re
 from pathlib import Path
@@ -49,6 +58,8 @@ def num(c):
 
 
 HALF = str.maketrans({"½": "", "¼": "", "¾": ""})
+TOK = re.compile(r"\d[\d,.]*\d")          # as in second_reading.py
+MIN_DISTINCT = 10                          # distinct numbers of 3+ digits a table needs to be confirmed by the second reading alone
 
 
 def roles(rows, ncols):
@@ -111,7 +122,10 @@ def check_table(t):
                 if block and sum(1 for b in block if b[1]) >= 2 and not blank(r, j):
                     diff = sum(b[0] for b in block) - v
                     kind = "agree" if diff == 0 else ("one_digit" if len(str(abs(diff)).strip("0")) == 1 else "differ")
-                    if not (sub and kind != "agree"): checks.append((i, j, len(block), v, diff, kind))
+                    nontrivial = v != 0 and sum(1 for b in block if b[0]) >= 2
+                    # an unlabelled row is only kept when it agrees, so it can never fail: it is recorded as "sub"
+                    # and does not count towards the level (see main)
+                    if not (sub and kind != "agree"): checks.append((i, j, len(block), v, diff, kind, "sub" if sub else "total", nontrivial))
                 block = [(v, True)] if sub and not blank(r, j) else []
                 continue
             if block is None: block = []
@@ -138,7 +152,7 @@ def check_table(t):
             if v is None or any(x is None for x in vals) or sum(1 for k in parts if not blank(r, k)) < 2: continue
             diff = sum(vals) - v
             kind = "agree" if diff == 0 else ("one_digit" if len(str(abs(diff)).strip("0")) == 1 else "differ")
-            checks.append((i, j, len(parts), v, diff, kind))
+            checks.append((i, j, len(parts), v, diff, kind, "row", v != 0 and sum(1 for x in vals if x) >= 2))
     return checks
 
 
@@ -187,18 +201,29 @@ def main():
             if blank_page: flags.append("blank_page")
             elif title_page: flags.append("title_page_only")
             suspect = blank_page or title_page or ("no_page_number" in flags and ("modern_words" in flags or "repeated_number" in flags) and not share)
-            checks = check_table(t)
+            allchecks = check_table(t)
+            checks = [c for c in allchecks if c[6] != "sub"]          # labelled totals and row totals: these can fail
+            subs = len(allchecks) - len(checks)                        # unlabelled running subtotals: only kept when they agree
             n = len(checks); ok = sum(c[5] == "agree" for c in checks); one = sum(c[5] == "one_digit" for c in checks)
+            ok_real = sum(c[5] == "agree" and c[7] for c in checks)   # agreeing totals that are not zeros or a single part
             cells = sum(c[2] + 1 for c in checks if c[5] == "agree")
-            level = ("suspect" if suspect else "summed" if n and ok == n else "two_readings" if share is not None and share >= 0.9
-                     else "partly" if (n and ok * 2 >= n) or (share is not None and share >= 0.7) else "unconfirmed")
+            # set membership on a page is easy to satisfy by chance with few numbers (against a random page about 9% of
+            # tables with <5 distinct numbers reach 90%, about 3% with 5-9), so few-number tables cannot reach two_readings
+            distinct = len({x for r in t["rows"] for c in r for x in (re.sub(r"\D", "", m) for m in TOK.findall(c)) if len(x) >= 3})
+            level = ("suspect" if suspect else "summed" if n and ok == n and ok_real else
+                     "two_readings" if share is not None and share >= 0.9 and distinct >= MIN_DISTINCT else
+                     "partly" if (n and ok * 2 >= n and ok_real) or (share is not None and share >= 0.7 and distinct >= 5) else "unconfirmed")
+            if n and ok == n and not ok_real: flags.append("only_trivial_totals")
+            if subs: flags.append(f"subtotals_agree:{subs}")
             out.append((t["id"], t["year"], t["pdf_page"], t.get("printed_page") or "", level, n, ok, one, n - ok - one, cells, nn, nin, "" if share is None else f"{share:.2f}", ";".join(flags),
-                        "; ".join(f"r{c[0]}c{c[1]} printed {c[3]} sum off by {c[4]:+d}" for c in checks if c[5] != "agree")[:300]))
+                        "; ".join(f"r{c[0]}c{c[1]} printed {c[3]} sum off by {c[4]:+d}" for c in checks if c[5] != "agree")[:300],
+                        ok_real, subs, distinct))
             s = summ[key]; s["tables"] += 1; s[level] += 1; s["checks"] += n; s["agree"] += ok; s["one_digit"] += one
     with gzip.open(BB / "table_confidence.tsv.gz", "wt", newline="") as fh:
         w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         w.writerow(["table_id", "year", "pdf_page", "printed_page", "level", "totals_checked", "totals_agree", "off_by_one_digit", "differ",
-                    "numbers_confirmed_by_totals", "numbers_3plus_digits", "also_in_second_reading", "share_in_second_reading", "flags", "disagreements"]); w.writerows(out)
+                    "numbers_confirmed_by_totals", "numbers_3plus_digits", "also_in_second_reading", "share_in_second_reading", "flags", "disagreements",
+                    "nontrivial_totals_agree", "running_subtotals_agree", "distinct_numbers_3plus"]); w.writerows(out)
     with open(BB / "confidence_by_volume.tsv", "w", newline="") as fh:
         w = csv.writer(fh, delimiter="\t", lineterminator="\n")
         cols = ["tables", "summed", "two_readings", "partly", "unconfirmed", "suspect", "checks", "agree", "one_digit"]

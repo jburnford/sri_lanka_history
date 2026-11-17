@@ -63,6 +63,9 @@ def main():
             for name, rx in (("Plantae", PLANT), ("Animalia", ANIMAL), ("Fungi", FUNGUS), ("disease", DISEASE)):
                 if rx.search(txt): w[name] += n
         return w
+    # a person's rejection of a Catalogue of Life match: type TAXON, "qid" holds the COL usage id (e.g. 8WDDM)
+    rj = HERE / "grounding/name_rejections.jsonl"
+    rejected = {(d["key"], d["qid"]) for d in read_jsonl(rj) if d["type"] == "TAXON" and not d["qid"].startswith("Q")} if rj.exists() else set()
     out, tally, rec = [], collections.Counter(), collections.Counter()
     total = sum(r["records"] for r in read_names("TAXON"))
     for r in rows:
@@ -81,7 +84,10 @@ def main():
             top = jk.most_common(1)[0][0] if jk else None
             micro = {"Fungi", "Chromista", "Bacteria", "Protozoa", "Viruses"}
             conflict = top and kg and not (top == kg or (top == "Fungi" and kg in micro) or (top == "disease" and kg in micro))
-            if conflict and jk[top] >= 2 * jk.get(kg, 0):
+            if (r["key"], u["id"]) in rejected:
+                d.update(status="review", reason="match rejected by a person (grounding/name_rejections.jsonl)", rejected=u["id"])
+                s = "review:rejected"
+            elif conflict and jk[top] >= 2 * jk.get(kg, 0):
                 d.update(status="review", reason=f"kingdom conflict: journal uses it as {top}, Catalogue of Life name is {kg} (likely a common name)")
                 s = "review:kingdom conflict"
             elif " " not in r["key"] and not jk:

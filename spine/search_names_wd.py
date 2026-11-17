@@ -40,7 +40,9 @@ def main():
         todo += [q for q in queries(r, t) if q not in cache]
     todo = list(dict.fromkeys(todo))
     print(f"{t}: queries to run {len(todo)}", flush=True)
-    sp.mcp_client.init()
+    sys.path.insert(0, sp.MCP_CLIENT); import mcp_client
+    sp.mcp_client = mcp_client            # sp._safe uses it
+    mcp_client.init()
     with open(sp.CACHE, "a") as fh, cf.ThreadPoolExecutor(2) as ex:
         for i, (q, res) in enumerate(zip(todo, ex.map(sp._safe, todo)), 1):
             if res is None: continue

@@ -4,7 +4,8 @@ A Blue Book name is "Surname, initials" (index) or "initials Surname" (returns).
 surname and have forenames whose initials agree letter for letter with the printed initials.
   Colonial Office List: the person must have a Ceylon posting starting no later than the volume year and be
      born 16-75 years before it. One candidate -> matched (high when a printed appointment year equals the
-     start year of one of the person's postings, otherwise medium). Several -> review.
+     start year of one of the person's Ceylon postings and at least two initials agree, otherwise medium).
+     Several -> review.
   Journal profile: same surname and initials, profile active within 20 years of the volume. One -> candidate
      only (never asserted: the journal's profiles are themselves proposed groupings).
 Output: bluebook/extracted/officer_matches.tsv   one row per Blue Book person-year
@@ -61,11 +62,13 @@ def main():
             ps = [x for x in posts.get(c["id"], []) if x[1] == "Ceylon" and x[0] <= yr]
             by = int(c["birth_year"]) if c["birth_year"].isdigit() else None
             if not ps or (by and not 16 <= yr - by <= 75): continue
-            cands.append((c, ci == ini, bool(p["appt"] & {x[0] for x in posts[c["id"]]})))
+            # the printed appointment year must equal the start of a Ceylon posting, not a posting anywhere
+            cands.append((c, ci == ini, bool(p["appt"] & {x[0] for x in posts[c["id"]] if x[1] == "Ceylon"})))
         pc = [r for i, r in prof.get(sk, []) if i == ini and r["first"] and int(r["first"]) - 20 <= yr <= int(r["last"]) + 20]
         status, conf, cid = "", "", ""
         if len(cands) == 1:
             c, exact, appt = cands[0]; status = "matched"; conf = "high" if appt and exact else "medium" if exact or appt else "low"; cid = c["id"]
+            if conf == "high" and len(ini) < 2: conf = "medium"          # surname + one initial is too thin for "high"
         elif len(cands) > 1:
             best = [c for c in cands if c[1] and c[2]]
             if len(best) == 1: status, conf, cid = "matched", "medium", best[0][0]["id"]

@@ -2,12 +2,16 @@
 
 Candidates come only from cached WikidataMCP vector searches (cache/wd_search.jsonl) and are verified against
 entity details read back by QID (gazetteer/*.jsonl). A decision is per NAME. Rules:
-  - a candidate must be a place (has coordinates or a country) and its label or an alias must equal the name
+  - a candidate must be a place (has coordinates and a place class) and its label or an alias must equal the name
   - exactly one such candidate                      -> matched (high if it ranks top-3 in the hinted search)
-  - several, exactly one in the Sri Lanka gazetteer -> matched/medium "sri_lanka_preferred", unless a rival is
-                                                       a far better known place (>=100 sitelinks) -> review
-  - several, one dominant by sitelinks (>=5x next)  -> matched/medium "dominant"
+  - several, exactly one in Sri Lanka (common.in_sri_lanka), and either the journal context is Ceylon or no rival
+    outside Sri Lanka has >=100 sitelinks           -> matched/medium "sri_lanka_preferred"; otherwise the rules below
+  - several, one dominant by sitelinks (>=40, and >=5x the next, or >=3x when it has >=200) -> matched/medium "dominant"
+  - several, exactly one of the journal's kind (settlement/area) with >=50 sitelinks -> matched/medium "kind_match"
   - otherwise                                        -> review (candidates kept) or unmatched
+Guards applied to every match (match() below): a person's rejection; the journal places the name in Ceylon
+("garden in colombo") but the candidate is elsewhere; Ceylon context and an obscure foreign item; an obscure item
+for a frequent name; the journal's kind (settlement/area) contradicts the candidate's.
 Output grounding/places_tier2.jsonl. Usage: ground_places_wd.py [min_articles=15]
 """
 import collections, json, sys
@@ -15,6 +19,8 @@ from common import *
 from search_places_wd import queries
 
 GENERIC = re.compile(r"^((north|south|east|west|central|upper|lower|interior|low|up)(ern)?( |$))*(coast|coasts|provinces|districts|islands|continent|colonies|colony|interior|hills|tropics|country|plains|highlands|lowlands|states|mainland|settlements|low country|up country)?$")
+# names GENERIC would skip that are proper names of polities (British India's provinces), not relative references
+PROPER_REGIONS = {"central provinces", "north western provinces", "north west provinces"}
 SETTLEMENT_CLASS = re.compile(r"\b(city|town|village|suburb|settlement|locality|municipality|commune|comune|hamlet|neighbou?rhood|capital)\b", re.I)
 PLACE_CLASSES = {q: (v.get("label") or "") for q, v in json.load(open("/home/jic823/Documents/ceylon/col_matching/data/whg/wikidata_places.json"))["classes"].items()}
 NOT_PLACE = re.compile(r"\b(template|disambiguation|category|family name|given name|film|album|song|painting|ship|novel|journal|newspaper|company|genus|species|human)\b", re.I)
@@ -52,7 +58,7 @@ def main():
             is_place = "lat" in w and bool(classes) and not NOT_PLACE.search(desc)
             kind = "settlement" if any(SETTLEMENT_CLASS.search(c) for c in classes) else "area"
             cands.append({"qid": qid, "label": w.get("labels", {}).get("en"), "description": desc,
-                          "exact": r["key"] in wd_names(w), "place": bool(is_place), "in_sri_lanka": "Q854" in w.get("country", []), "kind": kind, "classes": classes[:3],
+                          "exact": r["key"] in wd_names(w), "place": bool(is_place), "in_sri_lanka": in_sri_lanka(w), "kind": kind, "classes": classes[:3],
                           "sitelinks": w.get("sitelinks", 0), "hinted_rank": i + 1 if qi == 0 else None,
                           "lat": w.get("lat"), "lon": w.get("lon")})
         good = sorted([c for c in cands if c["exact"] and c["place"]], key=lambda c: -c["sitelinks"])
@@ -65,6 +71,8 @@ def main():
             # guards: a plausible-looking exact match is still refused when the context contradicts it
             if (d["key"], c["qid"]) in rejected:
                 d.update(status="review", reason="match rejected by a person", rejected=c["qid"]); return
+            if ceylon_context(r["roles"]) and not c["in_sri_lanka"]:     # "garden in colombo" -> not a park in Berlin
+                d.update(status="review", reason="journal places it in Ceylon; candidate is elsewhere", proposed=c["qid"]); return
             if sl_signal and not c["in_sri_lanka"] and c["sitelinks"] < 150:
                 d.update(status="review", reason="journal context is Ceylon; best candidate is elsewhere", proposed=c["qid"]); return
             if not c["in_sri_lanka"] and c["sitelinks"] < 10 and r["articles"] >= 50:
@@ -74,7 +82,7 @@ def main():
             if conf == "high" and not (c["sitelinks"] >= 20 or c["in_sri_lanka"]): conf = "medium"
             d.update(status="matched", confidence=conf, qid=c["qid"], label=c["label"], rule=why)
         sl_good = [c for c in good if c["in_sri_lanka"]]
-        if GENERIC.match(r["key"]):
+        if GENERIC.match(r["key"]) and r["key"] not in PROPER_REGIONS:
             d.update(status="skip", reason="generic or relative reference, not a nameable place")
         elif not search.get(qs[0]) and not search.get(qs[-1]):
             d.update(status="unmatched", reason="search returned nothing")

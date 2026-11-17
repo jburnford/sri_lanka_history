@@ -17,14 +17,19 @@ def main():
     E = Empire()
     sl = {}
     for r in read_jsonl(HERE / "gazetteer/sri_lanka_wikidata.jsonl"):
+        if not in_sri_lanka(r): continue                     # the file also holds items outside Sri Lanka (Ireland, The Gambia, ...)
         lab = r.get("labels", {}).get("en")
         if lab: sl.setdefault(key(lab), []).append(r)
     slq = {r["qid"] for rs in sl.values() for r in rs}
     sitelinks = {r["qid"]: r.get("sitelinks", 0) for r in read_jsonl(HERE / "gazetteer/col_places_wikidata.jsonl")}
     out, tally, rec = [], collections.Counter(), collections.Counter()
+    rj = HERE / "grounding/name_rejections.jsonl"
+    rejected = {(r["key"], r["qid"]) for r in read_jsonl(rj) if r["type"] == "PLACE"} if rj.exists() else set()
     for d in read_jsonl(HERE / "grounding/places_tier1.jsonl"):
         if d["status"] != "review": continue
-        c = d["candidates"]; rule = None
+        c = [x for x in d["candidates"] if (d["key"], x["qid"]) not in rejected]   # a person's rejection removes the candidate
+        rule = None
+        if not c: tally["still review"] += 1; rec["still review"] += d["records"]; out.append(d); continue
         if len(c) > 1:
             terr = [x for x in c if x["qid"] in E.by_qid]; geo = [x for x in c if x["qid"] not in E.by_qid]
             exact = [x for x in c if x["name_is_label"]]
@@ -39,7 +44,7 @@ def main():
         elif c[0]["name_is_label"] and sitelinks.get(c[0]["qid"], 0) >= 100 and c[0]["qid"] not in E.by_qid:
             d.update(status="matched", confidence="medium", qid=c[0]["qid"], label=c[0]["label"], rule="well_known"); rule = "well_known"
         elif d["journal_use"] == "area" and c[0]["wd_kind"] == "settlement":
-            dist = [r for r in sl.get(d["key"] + " district", []) if "Q854" in r.get("country", []) or True]
+            dist = sl.get(d["key"] + " district", [])
             if len(dist) == 1:
                 t = c[0]; di = dist[0]
                 d.update(status="matched", confidence="medium", qid=di["qid"], label=di["labels"]["en"], rule="town+district",

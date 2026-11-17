@@ -8,9 +8,9 @@ are listed but not loaded). `volumes.tsv` maps folder to year and archive.org it
 
 | Layer | Script | Output | What it is |
 |---|---|---|---|
-| Tables as printed | `build_tables.py` | `tables/<year>.jsonl.gz`, `pages/<year>.jsonl.gz`, `inventory.tsv` | One record per printed table: page, running section, headings above it, cells. Nothing interpreted. 7,354 tables. |
+| Tables as printed | `build_tables.py` | `tables/<year>.jsonl.gz`, `pages/<year>.jsonl.gz`, `inventory.tsv` | One record per printed table: page, running section, headings above it, cells. Nothing interpreted. 46,999 tables. |
 | Labels linked to the spine | `link_cells.py` | `cell_links.tsv.gz`, `table_name_links.tsv.gz`, `unlinked_labels.tsv` | A row or column label links when the spine has already matched that name to an entity. Places also get the polity for the volume's year. |
-| People in the Civil Establishment | `extract_officers.py` | `extracted/officers_index.tsv`, `extracted/civil_establishment.tsv` | 1869, 1889, 1902, 1904: the alphabetical list of officers and the returns (office, name, date of appointment, salary, department). |
+| People in the Civil Establishment | `extract_officers.py` | `extracted/officers_index.tsv`, `extracted/civil_establishment.tsv` | 1863–1917 (39 volumes): the alphabetical list of officers and the returns (office, name, date of appointment, salary, department). From 1907 the list is "Name and Office \| Page" in one or two printed columns; `column` says which. |
 | People matched | `match_officers.py` | `extracted/officer_matches.tsv` | Blue Book person-years matched to Colonial Office List persons (surname, initials, a Ceylon posting in time); journal profiles offered as candidates only. |
 | Agriculture (Codex Sol job) | `jobs/agriculture.md`, `jobs/agriculture_work/` | `extracted/agriculture*.tsv` | 4,918 figures from 53 tables in seven volumes: acreage by crop, land/produce/stock by district, live stock. 24 tables with misaligned OCR columns were skipped, not guessed. 200 of 217 checkable printed totals agree. |
 | Trade (Codex Sol job) | `jobs/trade.md`, `jobs/trade_work/` | `extracted/trade*.tsv` | 88,045 figures: imports and exports by article and country for 1924, 1925, 1926, 1928. 78–85% of articles have printed totals that equal the sum of their country rows; the rest are OCR digit errors or skipped rows, listed in `trade_checks.tsv`. 1930–34 do not print the country ledgers. |
@@ -31,7 +31,7 @@ its page.
 ```
 
 A `BlueBookOfficer` is one name in one volume. The same person in two volumes is two nodes until they are
-identified with the same Colonial Office List person; most of the 14,491 (clerks, teachers, headmen,
+identified with the same Colonial Office List person; most of them (clerks, teachers, headmen,
 postmasters) are in no other source and are not merged across volumes yet.
 
 ## How far to trust the numbers
@@ -41,10 +41,10 @@ Every table has a confidence level in `table_confidence.tsv.gz` (and on the `Blu
 
 | Level | Tables | Meaning |
 |---|---:|---|
-| `summed` | 3,774 | every printed total that could be checked equals the sum of its parts |
-| `two_readings` | 15,216 | at least 90% of the numbers are also in a second, conventional OCR reading of the page |
-| `partly` | 5,976 | at least half the totals agree, or 70-90% of the numbers are in the second reading |
-| `unconfirmed` | 21,904 | nothing confirms it. Not evidence of error: mostly tables of names and words, tables with few numbers, sideways pages and the 1880-1894 volumes, where the second reading is poor |
+| `summed` | 1,833 | every printed total that could be checked equals the sum of its parts, and at least one is non-trivial (a non-zero total of two or more non-zero parts) |
+| `two_readings` | 13,046 | at least 90% of the numbers are also in a second, conventional OCR reading of the page, and the table has at least 10 distinct numbers of 3+ digits |
+| `partly` | 8,248 | at least half the totals agree (one non-trivially), or at least 70% of 5+ distinct numbers are in the second reading |
+| `unconfirmed` | 23,743 | nothing confirms it. Not evidence of error: mostly tables of names and words, tables with few numbers, sideways pages and the 1880-1894 volumes, where the second reading is poor |
 | `suspect` | 129 | the page is blank or a section title page and the table is invented. Do not use |
 
 What the tests showed:
@@ -56,12 +56,17 @@ What the tests showed:
 - **On printed pages the numbers are mostly right.** In the 1925-1938 volumes 91-94% of numbers of three or
   more digits are also in the second reading. For numbers that a printed total proves correct the second
   reading has 96%, so the model's own misread rate there is about 2% (about 4% in 1897; five volumes tested).
-- **A total that does not agree is weak evidence.** 77,056 of 181,505 sum checks agree. In the failures read
+- **A total that does not agree is weak evidence.** 64,203 of 168,652 sum checks agree (unlabelled running subtotals, which were only kept when they agreed, are no longer counted). In the failures read
   by eye the numbers were usually right and the check was wrong: a table continued from another page, a
   running subtotal, or columns of different units under one heading.
 - **Sideways tables** are read by the model but not by the second reading, so they stay `unconfirmed`.
-- The extracted agriculture and trade figures (`observations.tsv.gz`): 98.7% come from `two_readings`
-  tables, 1.3% from `summed` or `partly`, 18 figures from `unconfirmed`, none from `suspect`.
+- The extracted agriculture and trade figures (`observations.tsv.gz`): 98.6% come from `two_readings`
+  tables, 1.4% from `summed` or `partly`, 18 figures from `unconfirmed`, none from `suspect`.
+- **What the second reading does not check.** It is a set-membership test: a number counts if the same digits
+  appear anywhere in the second reading of that page. It does not check that a number is in the right row or
+  column, so a row shift or invented headers can still pass. For 1863 and 1880–1894 the second reading is the
+  Internet Archive's OCR alone. Several PDFs (1866–1877, 1896–1899, 1905, 1908, 1910, 1911) are JSTOR / South
+  Asia Open Archives downloads, so their text layer is JSTOR's OCR.
 
 Scripts: `second_reading.py` (PDF text layer joined with the Internet Archive's OCR text, fetched by
 `fetch_ia_text.py`), `page_ink.py` (dark pixels inside each table outline), `confidence.py` (the levels;
@@ -69,7 +74,7 @@ Scripts: `second_reading.py` (PDF text layer joined with the Internet Archive's 
 
 ## Known limits
 
-- Running sections are only detected from 1924 on (bracketed running heads). Earlier volumes rely on headings.
+- Running sections are only detected from 1921 on (bracketed running heads). Earlier volumes rely on headings. A bracketed footer ("Extracted from the Reports of the several Government Agents") became the running section of about 800 tables in 1880, 1881, 1890 and 1891.
 - `header_rows` from the OCR is sometimes wrong; readers should not trust it blindly.
 - Label linking is by exact name. "Kegalla", "Maldive Islands", "Foreign Countries" and other frequent labels
   with no resolved name are listed in `unlinked_labels.tsv`.
