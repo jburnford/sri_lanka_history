@@ -8,7 +8,7 @@ const searchableLayers = new Map();
 const instant = new Intl.NumberFormat("en", { maximumFractionDigits: 4 });
 const label = (key) => String(key || "").replaceAll("_", " ").replace(/^./, (c) => c.toUpperCase());
 const printable = (value) => typeof value === "number" ? instant.format(value) : String(value ?? "—");
-const nameOf = (p) => p.historical_corridor || p.name || p.historical_name || p.place_as_printed || p.feature_id || "Unnamed feature";
+const nameOf = (p) => p.historical_corridor || p.name || p.name_key || p.historical_name || p.place_as_printed || p.feature_id || "Unnamed feature";
 const normalized = (s) => String(s ?? "").normalize("NFKD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 const featureId = (f) => String(f.properties.feature_id);
 const COUNTRY = "country:ceylon";
@@ -127,7 +127,7 @@ function fitIsland() {
 
 function layerStyle(meta, feature) {
   if (meta.group === "Boundaries") {
-    const district = meta.id === "district_census_1946";
+    const district = meta.id === "district_census_1946" || meta.id === "headmen_divisions_1934";
     return { color: meta.color, weight: district ? 1 : 1.35, fillColor: "#f4e9d5", fillOpacity: district ? .15 : .96, opacity: .84, pane: "boundary" };
   }
   const ferry = feature.properties.mode === "ferry";
@@ -324,6 +324,16 @@ async function paintInspector() {
     action(refs, "Island overview", clearSelection);
     return;
   }
+  if (meta.id === "headmen_divisions_1934") {
+    details(root, [
+      ["Number in the printed key", p.key_number],
+      ["Name on the administrative map", p.name_map7],
+      ["District", p.district],
+      ["Province", p.province],
+      ["How the identity was read", p.identity_confidence],
+      ["Note", p.note],
+    ]);
+  }
   add(root, "p", p.significance || p.geometry_note || p.location_note || p.note || meta.description, "help");
   details(root, [
     ["Represented date", p.represented_date || p.map_year],
@@ -346,7 +356,7 @@ async function paintInspector() {
       toggle("ferguson1893", true);
     });
   }
-  if (meta.group === "Boundaries" || meta.id === "urban_census") await censusInspector(root, p.feature_id, ticket);
+  if ((meta.group === "Boundaries" && meta.id !== "headmen_divisions_1934") || meta.id === "urban_census") await censusInspector(root, p.feature_id, ticket);
   if (meta.group === "Transport" && p.corridor_id) await transportInspector(root, p.corridor_id, ticket);
   if (meta.id === "motor_amenity_places_1936") {
     const rows = (await records("motor_amenity_observations_1936")).filter((row) => row.feature_id === p.feature_id);

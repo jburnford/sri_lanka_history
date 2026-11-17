@@ -14,6 +14,7 @@ DATA = ROOT / "docs" / "data"
 LAYERS = [
     ("province_census_1946", "Provinces, 1946", "Boundaries", "Approximate reconstruction used for the census map.", "#8c644c", True),
     ("district_census_1946", "Districts, 1946", "Boundaries", "Approximate district boundaries. Compare census source dates in the selected unit.", "#9b816a", False),
+    ("headmen_divisions_1934", "Chief Headmen’s divisions, 1934", "Boundaries", "Traced from the small maps in the 1934–35 malaria report. Lines are good to a few kilometres; each division says how its identity was read.", "#7a5a94", False),
     ("province_census", "Province reference", "Boundaries", "Generalized modern OSM boundaries used as an approximate reference.", "#817589", False),
     ("urban_census", "Census towns", "Places", "Modern coordinates for census settlements and municipality anchors.", "#8f5f31", True),
     ("historical_wikidata_places", "Historic landmarks", "Places", "Reviewed landmarks, with historical evidence and modern coordinates documented separately.", "#a36a25", True),
