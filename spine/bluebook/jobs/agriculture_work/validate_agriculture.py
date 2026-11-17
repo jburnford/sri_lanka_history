@@ -37,6 +37,21 @@ for path in sorted((ROOT/'tables').glob('*.jsonl.gz')):
     with gzip.open(path,'rt') as f:
         for l in f:
             t=json.loads(l);sources[t['id']]=t
+# Page-image readings, mapped onto the parsed tables independently of the extractor: the grid's rows follow the
+# row naming Paddy (crop row) and the units row below it; its columns are the parsed table's columns.
+readings={}
+for path in sorted((ROOT/'page_readings/acreage').glob('*.tsv')):
+    tid=re.sub(r'^bb(\w+?)_p(\d+)_t(\d+)$',r'bb\1:p\2:t\3',path.stem)
+    grid=[l.rstrip('\n').split('\t') for l in path.open(encoding='utf-8') if l.strip() and not l.startswith('!')]
+    cr=[i for i,r in enumerate(sources[tid]['rows']) if any(c.startswith('Paddy') for c in r)][0]
+    assert len(grid)-1==len(sources[tid]['rows'])-cr-2
+    for i,row in enumerate(grid[1:]):
+        assert len(row)==len(sources[tid]['rows'][cr])
+        for ci in range(1,len(row)):readings[tid,cr+2+i,ci]=row[ci]
+for r in read_tsv(ROOT/'page_readings/acreage_cells.tsv'):
+    k=(r['table_id'],int(r['source_row']),int(r['source_column'])); assert k not in readings; readings[k]=r['reading']
+def cell_value(tid,ri,ci):
+    return readings.get((tid,ri,ci),sources[tid]['rows'][ri][ci])
 volume_labels={}
 for t in sources.values():
     volume_labels.setdefault(t['year'],set()).update(trim(c) for r in t['rows'] for c in r)
@@ -46,6 +61,7 @@ with path.open(newline='') as f:
     rows=list(rd)
 coords=read_tsv(WORK/'source_cells.tsv')
 assert len(rows)==len(coords)
+assert set(readings)<={(c['table_id'],int(c['source_row']),int(c['source_column'])) for c in coords}
 seen=set();numeric=0
 for row,prov in zip(rows,coords):
     tid=row['table_id'];t=sources[tid]
@@ -66,7 +82,12 @@ for row,prov in zip(rows,coords):
     assert row['value_as_printed']==prov['value_as_printed']
     assert row['unit_as_printed']==prov['unit_as_printed']
     assert f'source row {ri}, column {ci}' in row['note']
-    assert row['value_as_printed'] in source or row['value_as_printed']==source.strip()
+    if key in readings:
+        assert row['value_as_printed']==readings[key] and 'read from the page image' in row['note'], key
+        assert row['value_as_printed']==source.strip() or f"the OCR reads '{source.strip()}'" in row['note'], key
+    else:
+        assert 'read from the page image' not in row['note'], key
+        assert row['value_as_printed'] in source or row['value_as_printed']==source.strip()
     printed=[c for r in t['rows'] for c in r]+t['headings']
     cleaned={trim(c) for c in printed}
     for field in ['area_as_printed','parent_area_as_printed','measure_as_printed']:
@@ -115,11 +136,11 @@ for tid in sorted(used_ids):
             if a['computed_sum']:
                 parts=[]
                 for ri in range(cr+2,last):
-                    val=t['rows'][ri][ci]
+                    val=cell_value(tid,ri,ci)
                     if re.fullmatch(r'[\s.\-—–−]*|Nil',val,re.I):continue
                     parts.append(independently_read_number(val))
                 assert sum(parts,Fraction())==Fraction(a['computed_sum'])
-                assert independently_read_number(t['rows'][last][ci])-sum(parts,Fraction())==Fraction(a['difference'])
+                assert independently_read_number(cell_value(tid,last,ci))-sum(parts,Fraction())==Fraction(a['difference'])
                 checked_blocks.add((tid,cr))
 
 for a in audit+read_tsv(WORK/'other_totals_audit.tsv'):
@@ -131,6 +152,6 @@ checks=read_tsv(ROOT/'extracted/agriculture_checks.tsv')
 expected=[{k:a[k] for k in ['table_id','area_or_measure','printed_total','computed_sum','difference']} for a in audit if a['status']!='agree']
 assert checks==expected
 
-report={'rows':len(rows),'numeric_values_verified':numeric,'tables_used':len(used_ids),'tables_skipped':len(skipped_ids),'unique_source_cells_verified':len(seen),'acreage_blocks_recomputed':len(checked_blocks),'acreage_total_statuses':dict(Counter(a['status'] for a in audit)),'result':'PASS'}
+report={'rows':len(rows),'numeric_values_verified':numeric,'tables_used':len(used_ids),'tables_skipped':len(skipped_ids),'unique_source_cells_verified':len(seen),'page_reading_cells':len(readings),'acreage_blocks_recomputed':len(checked_blocks),'acreage_total_statuses':dict(Counter(a['status'] for a in audit)),'result':'PASS'}
 (WORK/'validation_report.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

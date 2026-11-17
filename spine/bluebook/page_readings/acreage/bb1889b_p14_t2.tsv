@@ -1,0 +1,18 @@
+#	Paddy	Other Grain	Coffee	Cacao	Cinnamon	Cotton	Tea	Tobacco	Coconuts	Cinchona
+Western	176110	22555	590	424	33922	302	34896	500	335347	—
+Central	62208	14924	69941	12875	335	42	190198	106	5606	10589
+Northern	54971	10430	—	—	—	92	—	5062	16778	—
+Southern	98081	17278	418	10	2555	—	5796	46	126685	—
+Eastern	58463	2263	—	—	—	—	—	736	15250	—
+North-Western	72256	36446	1827	2308	9315	25	711	9888	141872	—
+North-Central	13878	19500			—	—	—	13	1600	—
+Uva	38253	7168	56073		—	—	—	50	508	—
+TOTAL	574220	130564	72776*	15617*	46127	361	231601*	16401	643641	10589
+! TOTAL	Coffee	the asterisk refers to the page footnote "Excluding the Province of Uva"; so do the Cacao and Tea totals. Tea for Uva is printed as a dash
+! TOTAL	Cinchona	no asterisk, but only Central has a figure; Uva is printed as a dash
+! Western	Cotton	clearly printed 302; the column total (361) implies 202
+! Northern	Coconuts	read as 16778; the column total implies 16773 (the last digit is a 3 or an 8, which look alike in this typeface)
+! Uva	Coffee	coffee and cacao together: 56073 is printed once, centred under a brace spanning the Coffee and Cacao columns
+! Uva	Cacao	no separate figure: the 56073 under the brace in the Coffee column covers coffee and cacao together
+! North-Central	Coffee	blank under the brace that joins the Coffee and Cacao columns for Uva
+! North-Central	Cacao	blank under the brace that joins the Coffee and Cacao columns for Uva

@@ -111,10 +111,58 @@ def register(t, kind, dating):
     USED[t['id']] = {'kind':kind, 'dating':dating}
 
 
+# Page-image readings (page_readings/acreage/): the opening acreage tables for 1879-1891 read by eye from the
+# archive.org page images, because the OCR of these pages misreads many figures. Each file is the table's grid in
+# the parsed table's own row and column order (crop row, then province rows, then the printed total row); a line
+# starting "!" is a note on one cell. A reading replaces the OCR string in value_as_printed; the OCR string stays
+# in source_cells.tsv and is quoted in note wherever it differs.
+READINGS = ROOT / 'page_readings/acreage'
+PAGE_READING = {}   # (table, row, column) -> (reading, [notes])
+TABLE_READING_CELLS = {}   # the part of PAGE_READING that comes from whole-table readings
+
+
+def load_page_readings():
+    def short(s): return re.sub(r'[^a-z]', '', s.lower())
+    for path in sorted(READINGS.glob('*.tsv')):
+        tid = re.sub(r'^bb(\w+?)_p(\d+)_t(\d+)$', r'bb\1:p\2:t\3', path.stem)
+        lines = [l.rstrip('\n').split('\t') for l in path.open(encoding='utf-8') if l.strip()]
+        grid = [l for l in lines if not l[0].startswith('!')]
+        notes = {(l[0][1:].strip(), l[1]): l[2] for l in lines if l[0].startswith('!')}
+        t = TABLES[tid]
+        cr = next(i for i, r in enumerate(t['rows']) if any(c.startswith('Paddy') for c in r))
+        head = grid[0]
+        assert len(head) == len(t['rows'][cr]) and len(grid) - 1 == len(t['rows']) - cr - 2, (tid, 'grid shape')
+        assert all(short(a)[:3] == short(b)[:3] for a, b in zip(head[1:], t['rows'][cr][1:])), (tid, 'crop headings')
+        used = set()
+        for i, row in enumerate(grid[1:]):
+            ri = cr + 2 + i
+            label = t['rows'][ri][0]
+            if row[0] == 'TOTAL': assert total_label(label) or not label.strip(), (tid, ri, label)
+            else: assert short(row[0])[:4] == short(label)[:4], (tid, ri, row[0], label)
+            for ci in range(1, len(head)):
+                ns = [f'read from the page image (page_readings/acreage/{path.name})']
+                if (row[0], head[ci]) in notes:
+                    ns.append('page reading: ' + notes[row[0], head[ci]]); used.add((row[0], head[ci]))
+                PAGE_READING[tid, ri, ci] = (row[ci], ns)
+        assert used == set(notes), (tid, set(notes) - used)
+    TABLE_READING_CELLS.update(PAGE_READING)
+    # Single cells read from the page image after the outlier check (page_readings/acreage_cells.tsv), by source
+    # row and column (zero-based).
+    with (ROOT / 'page_readings/acreage_cells.tsv').open(encoding='utf-8', newline='') as f:
+        for r in csv.DictReader(f, delimiter='\t'):
+            key = (r['table_id'], int(r['source_row']), int(r['source_column']))
+            assert key not in PAGE_READING and key[0] in TABLES, key
+            PAGE_READING[key] = (r['reading'], ['read from the page image (page_readings/acreage_cells.tsv)', 'page reading: ' + r['note']])
+
+
 def emit(t, ri, ci, kind, level, area, parent, measure, unit='', yd='', notes=(), split=False):
     cell = t['rows'][ri][ci]
     v = cell.strip()  # Do not remove dots from missing values.
     ns = list(notes)
+    if (t['id'], ri, ci) in PAGE_READING:
+        v, page_notes = PAGE_READING[t['id'], ri, ci]
+        ns += page_notes
+        if v != cell.strip(): ns.append(f"the OCR reads '{cell.strip()}'")
     if split:
         v, cell_unit = split_unit(v)
         if cell_unit:
@@ -193,6 +241,8 @@ def simple_acreage(tid, yd, crop_ri=0, end=None, label='', dating=None, col_year
         for ci in range(1,ncols):
             add_check(t,'measure: '+trim(head[ci])+label,grid[ri,ci],[grid[r,ci] for r in ordinary])
 
+
+load_page_readings()
 
 for tid,yd in [('bb1869:p11:t2',1868),('bb1869:p11:t3',1869),('bb1902:p16:t1',1901),('bb1902:p16:t2',1902),('bb1904:p18:t1',1903),('bb1904:p18:t2',1904),('bb1912:p16:t4',1911),('bb1912:p17:t1',1912)]:
     simple_acreage(tid,yd)
@@ -633,8 +683,14 @@ lines += ['', 'The complete reviewed candidate inventory, including per-table da
  '## Second printings','',
  f'Each volume reprints the previous year\'s table, so most acreage figures are printed twice, set in type and read by OCR separately. `agriculture_second_printing.tsv` pairs every figure with its other printings (same data year, area and crop; printed crop spellings such as Cocoanuts/Coconuts joined): {len(REPRINTS):,} pairs, {sum(x[-1]=="agree" for x in REPRINTS):,} the same, {sum(x[-1]=="differ" for x in REPRINTS)} different, {sum(x[-1]!="agree" and x[-1]!="differ" for x in REPRINTS)} with one side blank or unreadable. Each figure\'s note names its other printing; where they differ it gives the other figure and which printing the totals checks favour. The 1921 census figures repeated in 1922 and 1923 are paired too.','',
  f'Where two printings differ, `totals` / `other_totals` say whether the totals each takes part in add up. One adds up and the other does not in {sum(x[-1]=="differ" and {x[6],x[10]}=={"adds up","does not add up"} for x in REPRINTS)} pairs: the one that adds up is most likely the right reading. Neither adds up in {sum(x[-1]=="differ" and x[6]==x[10]=="does not add up" for x in REPRINTS)}; both add up in {sum(x[-1]=="differ" and x[6]==x[10]=="adds up" for x in REPRINTS)}, which suggests a revision between editions or two errors that cancel. No figure is changed on this evidence.','',
+ '## Page-image readings, 1879–1891','',
+ f'The OCR of the opening tables for 1879–1891 misreads many figures: it drops or merges digits (the 1881 volume gives coffee as 34,460 and 36,183 acres for 341,460½ and 361,838½) and confuses 3 with 8 and 5 with 6. These {len({k[0] for k in TABLE_READING_CELLS})} tables (the data years 1879–1891, each printed in its own volume and again in the next where that survives) were read by eye from the archive.org page images. `page_readings/acreage/` holds one file per table, the grid in the parsed table\'s row and column order with notes on single cells. The readings replace the OCR string in value_as_printed for {len(TABLE_READING_CELLS):,} cells; {sum(v!=TABLES[k[0]]["rows"][k[1]][k[2]].strip() for k,(v,_) in TABLE_READING_CELLS.items())} of them differ from the OCR, and those quote the OCR string in note. source_cells.tsv keeps the OCR string. Labels (provinces and crops) are still the OCR\'s.','',
+ '- A reading is what the page shows, not a corrected figure. Where the print is faint, broken or blotted, or a 3 prints like an 8, the reading takes the digit the totals and the other printing require, and a note says so. Where a figure is clearly printed but does not add up, it is kept and the note gives what the totals imply: for example 1880 Eastern coconuts (57786, the totals imply 37786), the 1880 tobacco total misprinted 99957, the 1883 coffee total (292779; the provinces add to 292679) and the 1891 cinchona total (12127; Central and Uva add to 12172).',
+ '- 1888: the Uva figure for coffee and cacao is printed once (56073) across both columns, and the coffee, cacao and tea totals exclude Uva (page footnote). The reading puts 56073 in the Coffee column, with a note, and leaves Cacao blank.',
+ '- Cinchona: the summary table has no cinchona column in 1880 or 1882–1885; this is the printed table, not a reading gap. From 1886 to 1891 the provinces reporting cinchona change from year to year (1886 Central only; 1887 Uva only; 1888 Central only; 1890 Sabaragamuwa 27000).','',
+ 'An outlier check of every acreage series (see `page_readings/README.md`) found five more OCR misreadings outside these tables, read from the page images and applied the same way: `page_readings/acreage_cells.tsv` (1921 Eastern paddy 103380 in the 1922 volume, 1904 Sabaragamuwa paddy 89469 in the 1905 volume, 1895 Northern paddy 52887, 1894 Sabaragamuwa cacao 1111 and North-Western coffee 876). Its other findings (`page_readings/acreage_outliers.tsv`) are figures the page prints, including misprints in one volume that the other volume prints correctly; those are left as printed, and their second-printing notes give the other figure.','',
  '## Reading the fields','',
- '- The source is OCR, not page images. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.',
+ '- The source is OCR, except for the page-image readings above. “As printed” means the supplied OCR string, with whitespace at the edges and trailing dot leaders removed from labels. Single punctuation dots, accents, hyphenation, spelling and OCR errors are retained. Missing-value strings such as `...` are preserved unchanged in value_as_printed.',
  '- Each row corresponds to one selected source measurement cell, including blank and no-figure cells. Zero-based source row and column are recorded in note; the unaltered cell is also recorded in `jobs/agriculture_work/source_cells.tsv`. Repeated expanded province/district heading cells produce no observations.',
  '- Crop and animal names are measure_as_printed. For row-oriented district returns, note gives the exact statistic header (acreage, Gross Produce., or Number.) so acreage and produce for the same crop remain distinguishable. For cultivated-land returns, the lower printed header is the measure and the upper header is retained in note. No synthetic combined measure label is introduced.',
  '- Units are copied from explicit headers or the same source cell. An explicit unit immediately above an observation is used for that observation only. Units are not guessed from a neighbouring crop or a previous district. Numeric portions of cells containing explicit units are separated, with the complete source cell preserved in note. Blank unit means no safe explicit unit was available. Acre/Acres retain their printed forms; no unit conversions are performed. A heading saying only Acreage has no separate unit, so unit_as_printed is blank.',
@@ -659,6 +715,6 @@ lines += ['', 'The complete reviewed candidate inventory, including per-table da
  '- The 1925 acreage and livestock tables and 1926 acreage table show a province aggregate beside the first district label, followed by shifted district data and an unlabelled last row. They are skipped in full. The 1926 acreage headers also misplace Vegetables. No area labels are reassigned from arithmetic alone.',
  '- The 1928 acreage table has a missing Northern Province Coconuts total despite numeric district acreages; retained as printed and marked uncheckable. Other arithmetic discrepancies are reported, not repaired.',
  '- 1930 page 215 has no parsed table (n_tables=0), though page text contains colony crop/stock summaries and says provincial/district figures were omitted as unreliable. It is not reconstructed as a fictitious table. The 1933 and 1934 crop/stock tables collapse the two adjacent layouts: livestock numbers align with crop names and most crop numbers are absent. Both candidate tables are skipped.',
- '- OCR-looking geographic names and crop spellings remain literal. Dates not explicitly established are deliberately blank. A few Gross Produce cells report money rather than a physical quantity; these are retained in that statistic with their explicit currency text, without conversion. The 1904 Kandy tobacco return reports 10,168,000 cwt.; the suspect magnitude/unit is flagged without changing the source number. No network, external references or page images were used.', '']
+ '- OCR-looking geographic names and crop spellings remain literal. Dates not explicitly established are deliberately blank. A few Gross Produce cells report money rather than a physical quantity; these are retained in that statistic with their explicit currency text, without conversion. The 1904 Kandy tobacco return reports 10,168,000 cwt.; the suspect magnitude/unit is flagged without changing the source number. No network or external references were used; page images were used only for the 1879–1891 readings.', '']
 (OUT/'agriculture_README.md').write_text('\n'.join(lines))
 print(json.dumps({'rows':len(DATA),'numeric_values':numeric,'used_tables':len(USED),'skipped_tables':len(SKIPPED),'checks':len(AUDIT),'agree':agreements,'mismatch':mismatches,'uncheckable':uncheckable},indent=2))
