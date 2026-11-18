@@ -40,7 +40,8 @@ Read the placement as "the place printed in the office", not as a residence. Kno
 ## Printed names are not people
 
 Records are grouped under a printed-name key: surname plus the first letter of each given name, with titles and
-post-nominals left out. 39,205 keys. A key gathers "J. Perera" from 90 volume records that are certainly several
+post-nominals left out. 35,956 keys. Names are read in both printed orders ("Clifford, Hon. Sir Hugh" and
+"The Hon. Sir Hugh Clifford, K.C.M.G."), and two-word surnames are learned from the lists themselves. A key gathers "J. Perera" from 90 volume records that are certainly several
 men. The viewer says this on every name page. Only the Colonial Office List matches are identifications, and
 those were made by program (surname, initials, dates) and have not been checked by a person.
 

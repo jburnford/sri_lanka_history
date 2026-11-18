@@ -47,6 +47,12 @@ def norm(text):
     return re.sub(r"[^a-z0-9]+", " ", text).strip()
 
 
+def plain(text):
+    """Accents removed, case and punctuation kept."""
+    text = unicodedata.normalize("NFKD", str(text or ""))
+    return "".join(c for c in text if not unicodedata.combining(c))
+
+
 def slug(text):
     return norm(text).replace(" ", "-")
 
@@ -202,6 +208,67 @@ def name_key(surname, initials):
     return (family.replace(" ", "-") or "unknown") + (":" + letters if letters else "")
 
 
+COMPOUND = set()   # surnames of two or more words seen in "Surname, given" form, e.g. "casie chitty"
+
+
+def split_printed(printed):
+    """(surname, given) from one printed form, or None. Handles "Surname, Hon. Sir Given" and
+    "The Hon. Sir Given Surname, K.C.M.G." alike; the upstream columns read the second form wrongly."""
+    text = re.sub(r"\(.*?\)", " ", plain(printed)).replace("'", "")
+    parts = [part.strip() for part in text.split(",")]
+    head = [w for w in re.sub(r"[^A-Za-z ]", " ", parts[0]).split() if w.lower() not in TITLES]
+    if not head:
+        return None
+    rest = parts[1] if len(parts) > 1 else ""
+    lowered = [w.lower() for w in head]
+    if len(head) == 1:
+        return lowered[0], rest
+    # Two or more words before the comma: a compound surname ("Casie Chitty, A") or given names followed by
+    # post-nominals ("Hugh Clifford, K.C.M.G."). Only a surname already seen with several sets of initials counts.
+    if len(parts) > 1 and (" ".join(lowered) in COMPOUND or (len(head) == 2 and lowered[0] in ("de", "van", "la"))):
+        return " ".join(lowered), rest
+    # given names first: leading initials, then either a known compound surname or the last word
+    for size in (3, 2):
+        if len(head) > size and " ".join(lowered[-size:]) in COMPOUND:
+            return " ".join(lowered[-size:]), " ".join(head[:-size])
+    if len(head) >= 3 and lowered[-2] in ("de", "van", "la"):
+        return " ".join(lowered[-2:]), " ".join(head[:-2])
+    return lowered[-1], " ".join(head[:-1])
+
+
+def printed_key(printed_forms, surname, initials):
+    keys = collections.Counter()
+    for form in printed_forms:
+        parsed = split_printed(form)
+        if parsed and parsed[0]:
+            keys[name_key(parsed[0], parsed[1])] += 1
+    if keys:
+        # prefer the fullest reading when the forms disagree (an index line often has fewer initials)
+        return max(keys, key=lambda k: (keys[k], len(k)))
+    return name_key(surname, initials)
+
+
+def learn_compounds(rows):
+    """Two- and three-word surnames. Evidence: printed before a comma with at least three different sets of
+    initials, and also printed after bare initials ("C. N. M. Abdul Cader"). The second test keeps out given names
+    followed by degrees ("Aldo Castellani, M.D.")."""
+    before_comma, after_initials = collections.defaultdict(set), set()
+    for row in rows:
+        for form in row["names_as_printed"].split(" | "):
+            parts = plain(form).replace("'", "").split(",")
+            raw = re.sub(r"[^A-Za-z ]", " ", parts[0]).split()
+            words = [w.lower() for w in raw if w.lower() not in TITLES]
+            if len(parts) > 1 and 2 <= len(words) <= 3 and all(len(w) > 1 for w in words):
+                before_comma[" ".join(words)].add(norm(parts[1]))
+            lead = 0
+            while lead < len(words) and len(words[lead]) == 1:
+                lead += 1
+            if lead and 2 <= len(words) - lead <= 3 and all(len(w) > 2 for w in words[lead:]):
+                after_initials.add(" ".join(words[lead:]))
+    COMPOUND.update(name for name, rests in before_comma.items()
+                    if len(rests) >= 3 and (name in after_initials or len(rests) >= 8))
+
+
 def officials(match, col_people):
     rows = read_tsv(SPINE / "bluebook" / "extracted" / "officer_matches.tsv")
     roster = {}
@@ -210,9 +277,10 @@ def officials(match, col_people):
         for row in read_tsv(path):
             if row["match"] == "unique":
                 roster[row["bb_person"]] = (row["col_edition"], row["roster_office"])
+    learn_compounds(rows)
     for row in rows:
-        key = name_key(row["surname"], row["initials"])   # the same key as directory people, so shared names meet
         printed = [value.strip() for value in row["names_as_printed"].split(" | ") if value.strip()]
+        key = printed_key(printed, row["surname"], row["initials"])   # the same key as directory people
         display = min(printed, key=len) if printed else row["surname"]
         offices = [value.strip(" -") for value in row["offices_as_printed"].split(" | ") if value.strip(" -")]
         places = match(" ; ".join(offices))
@@ -246,7 +314,7 @@ def directory(match):
             role_text = ""
         year = role.get("year") or (listing.get("attested") if isinstance(listing.get("attested"), int) else None)
         flags = sorted(set(role.get("flags") or []) | set(listing.get("flags") or []))
-        yield dict(k="d", key=name_key(role.get("surname") or role["person_as_printed"], role.get("given_or_initials") or ""),
+        yield dict(k="d", key=printed_key([role["person_as_printed"]], role.get("surname") or "", role.get("given_or_initials") or ""),
                    name=role["person_as_printed"][:90], y=int(year) if year else 1921,
                    dated="year printed in the list" if year else "list corrected to December 1921" if section == "B"
                    else "1922 volume",
