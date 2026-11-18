@@ -454,7 +454,12 @@ async function peopleDetail(ticket) {
         if (i) pages.append(", ");
         link(pages, book.pdf + "#page=" + pdf, printed || "scan " + pdf);
       });
-      add(tr, "td", undefined, "people-id").textContent = "A named person in a modern history; summary in our words, read from the scan by program.";
+      const about = add(tr, "td", undefined, "people-id");
+      about.textContent = "A named person in a modern history; summary in our words, read from the scan by program.";
+      for (const r of e.reviews || []) {
+        const label = { same_person: "Reviewed: the Blue Book or directory records on this page are this person.", probably_same: "Reviewed: the records on this page are probably this person.", some_records: "Reviewed: some of the records on this page are this person; they are marked.", namesake: "Reviewed: the other records on this page are a namesake, not this person.", unclear: "Reviewed: whether the other records on this page are this person is not established." }[r.decision];
+        add(about, "small", label + " " + r.basis + (r.outside ? " (From outside these sources: " + r.outside + ")" : ""));
+      }
       continue;
     }
     const source = add(tr, "td");
@@ -476,11 +481,17 @@ async function peopleDetail(ticket) {
       if (e.col.qid) link(ident, "https://www.wikidata.org/wiki/" + encodeURIComponent(e.col.qid), e.col.qid + " ↗");
     }
     if (e.roster) add(ident, "small", "Also in the Colonial Office List " + e.roster.edition + " establishment: " + e.roster.office);
-    if (!e.col && !e.roster) add(ident, "span", "—", "muted");
+    if (e.ds) {
+      const line = add(ident, "small");
+      line.append("De Silva’s History: " + e.ds.wording + " ");
+      action(line, e.ds.name, () => peopleOpen(e.ds.key));
+      line.append(". " + e.ds.basis + (e.ds.outside ? " (From outside these sources: " + e.ds.outside + ")" : "") + " Decided by a language model, sampled.");
+    }
+    if (!e.col && !e.roster && !e.ds) add(ident, "span", "—", "muted");
   }
   if (pointers.length) {
-    add(root, "h2", "Similar printed names");
-    add(root, "p", "The same surname with initials that fit, in years that fit. Listed for comparison; no link has been checked.", "help");
+    add(root, "h2", "Linked printed names");
+    add(root, "p", "Printed names under another spelling or set of initials that a review linked to a person on this page. Each link was decided by a language model from the records and sampled by a second reader.", "help");
     const ul = add(root, "ul", undefined, "people-list");
     for (const x of pointers) {
       const li = add(ul, "li");

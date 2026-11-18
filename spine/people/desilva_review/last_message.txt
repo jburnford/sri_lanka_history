@@ -1,0 +1,3 @@
+Reviewed all 158 pairs. [decisions.tsv](/home/jic823/ceylon/sri_lanka_history/spine/people/desilva_review/decisions.tsv) contains 16 same-person matches, 5 probable matches, 122 namesakes, 5 mixed record groups, and 10 unclear pairs. [check.py](/home/jic823/ceylon/sri_lanka_history/spine/people/desilva_review/check.py) passed all checks.
+
+The [README](/home/jic823/ceylon/sri_lanka_history/spine/people/desilva_review/README.md) explains the ten hardest calls, flags possible errors in the atlas entries, and identifies three pairs whose 1921 directory roles were cut off in the input.

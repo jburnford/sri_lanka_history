@@ -450,16 +450,38 @@ def main():
 
     # names: a light index for search, and the full entries in shards by the first two letters of the key
     proposals = cross_references(by_key)
+    # Reviewed decisions on those proposals and on de Silva people who share a printed name with records
+    # (desilva_review/decisions.tsv: made by a language model pair by pair, sampled by a second reader).
+    WORDING = {"same_person": "identified with", "probably_same": "probably", "some_records": "identified with",
+               "unclear": "possibly; not established"}
     see_also = collections.defaultdict(list)
-    per_person = collections.Counter(item["book_key"] for item in proposals)
-    for item in proposals:
-        if per_person[item["book_key"]] > 3:   # a common name: too many candidates to be worth showing; see the TSV
-            continue
-        book_record = item["book"]
-        see_also[item["book_key"]].append(dict(k="x", key=item["other"], name=item["display"], y=item["first"],
-                                               y2=item["last"], n=item["n"], note=item["grade"]))
-        see_also[item["other"]].append(dict(k="x", key=item["book_key"], name=book_record["name"], y=book_record["y"],
-                                            y2=book_record["y2"], n=1, book=True, note=item["grade"]))
+    review = HERE / "desilva_review" / "decisions.tsv"
+    book_by_ref = {r["ref"]: (key, r) for key, items in by_key.items() for r in items if r["k"] == "b"}
+    if review.exists():
+        for row in read_tsv(review):
+            if row["desilva_id"] not in book_by_ref or row["printed_name_key"] not in by_key:
+                continue
+            book_key, book_record = book_by_ref[row["desilva_id"]]
+            decision, other = row["decision"], row["printed_name_key"]
+            years = {int(y) for y in re.findall(r"\d{4}", row["years_that_fit"])}
+            note = dict(decision=decision, basis=row["evidence"], outside=row["outside_knowledge"])
+            if other == book_key:
+                book_record.setdefault("reviews", []).append(dict(note, records="the records on this page"))
+            if decision == "namesake":
+                continue
+            for record in by_key[other]:
+                if record["k"] in "od" and decision != "unclear" and (not years or record["y"] in years):
+                    record["ds"] = dict(name=book_record["name"], key=book_key, wording=WORDING[decision],
+                                        basis=row["evidence"], outside=row["outside_knowledge"])
+            if other != book_key:
+                linked = [r for r in by_key[other] if r["k"] in "od"]
+                display = collections.Counter(r["name"] for r in linked).most_common(1)[0][0]
+                see_also[book_key].append(dict(k="x", key=other, name=display, y=min(r["y"] for r in linked),
+                                               y2=max(r["y"] for r in linked), n=len(linked),
+                                               note=WORDING[decision] + " this person: " + row["evidence"]))
+                see_also[other].append(dict(k="x", key=book_key, name=book_record["name"], y=book_record["y"],
+                                            y2=book_record["y2"], n=1, book=True,
+                                            note=WORDING[decision] + ": " + row["evidence"]))
     with (HERE / "desilva_match_proposals.tsv").open("w", encoding="utf-8", newline="") as handle:
         out = csv.writer(handle, delimiter="\t", lineterminator="\n")
         out.writerow(["desilva_id", "desilva_name", "desilva_years", "desilva_description", "printed_name_key",
