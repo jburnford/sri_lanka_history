@@ -1,0 +1,1897 @@
+{
+  "1": {
+    "ferg1922:p549:b6:r4": {
+      "source": "Merchant row gives the Saibo firm and two managers. The third cell identifies the Amsterdam correspondent.",
+      "extracted": {
+        "listing_id": "ferg1922:p549:b6:r4",
+        "section": "A. KANDY MERCHANTS, &c.—(contd.) / Merchants.",
+        "pdf_page": 549,
+        "printed_page": 526,
+        "name_as_printed": "E. N. Cader Saibo & Co.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Kandy",
+        "trades": [
+          "Merchants"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p550:b4:r1": {
+      "source": "Dukar row gives Missier and the damaged Colombo Street form.",
+      "errors": {
+        "kind": "The entry gives a one-word trading name and another person in the staff column. A sole proprietorship is unsupported."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p550:b4:r1",
+        "section": "A. KANDY MERCHANTS, &c.—(Contd.) / NATIVE SHOPKEEPERS, STOREKEEPERS, ETC.",
+        "pdf_page": 550,
+        "printed_page": 527,
+        "name_as_printed": "Dukar",
+        "kind": "sole trader",
+        "address_as_printed": "248, Colom' o Street",
+        "town": "Kandy",
+        "trades": [
+          "Shopkeepers",
+          "Storekeepers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p550:b4:r28": {
+      "source": "Drapery store has its own name, a separate collective staff entry and a repeated street.",
+      "extracted": {
+        "listing_id": "ferg1922:p550:b4:r28",
+        "section": "A. KANDY MERCHANTS, &c.—(Contd.) / NATIVE SHOPKEEPERS, STOREKEEPERS, ETC.",
+        "pdf_page": 550,
+        "printed_page": 527,
+        "name_as_printed": "Christy's Drapery Stores",
+        "kind": "firm",
+        "address_as_printed": "36, Colombo St.",
+        "town": "Kandy",
+        "trades": [
+          "Shopkeepers",
+          "Storekeepers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p550:b4:r30": {
+      "source": "The parenthesis gives the outfitters trade. The repeated street carries house number 221.",
+      "extracted": {
+        "listing_id": "ferg1922:p550:b4:r30",
+        "section": "A. KANDY MERCHANTS, &c.—(Contd.) / NATIVE SHOPKEEPERS, STOREKEEPERS, ETC.",
+        "pdf_page": 550,
+        "printed_page": 527,
+        "name_as_printed": "S. S. Vez & Co.",
+        "kind": "firm",
+        "address_as_printed": "221, Colombo St.",
+        "town": "Kandy",
+        "trades": [
+          "Gent's Outfitters"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p550:b4:r5": {
+      "source": "The ditto chain leads to the damaged Colom’ o Street reading.",
+      "extracted": {
+        "listing_id": "ferg1922:p550:b4:r5",
+        "section": "A. KANDY MERCHANTS, &c.—(Contd.) / NATIVE SHOPKEEPERS, STOREKEEPERS, ETC.",
+        "pdf_page": 550,
+        "printed_page": 527,
+        "name_as_printed": "R. M. M. S. Mayappa Chetty",
+        "kind": "sole trader",
+        "address_as_printed": "10, Colom' o Street",
+        "town": "Kandy",
+        "trades": [
+          "Shopkeepers",
+          "Storekeepers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p551:b9:r7": {
+      "source": "Auctioneer ditto repeats the occupational label. Hatton is explicit. The repeated numerical header is retained.",
+      "extracted": {
+        "listing_id": "ferg1922:p551:b9:r7",
+        "section": "A. KANDY MERCHANTS, &c / AUCTIONEERS AND BROKERS.",
+        "pdf_page": 551,
+        "printed_page": 526,
+        "name_as_printed": "E. W. Scholman",
+        "kind": "sole trader",
+        "address_as_printed": "Hatton (Wicklow)",
+        "town": "Hatton",
+        "trades": [
+          "Auctioneer"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p552:b10:r1": {
+      "source": "Dispensary row repeats Trincomalee Street from the prior line.",
+      "extracted": {
+        "listing_id": "ferg1922:p552:b10:r1",
+        "section": "A. KANDY MERCHANTS, &c.—(contd). / NATIVE DISPENSARIES.",
+        "pdf_page": 552,
+        "printed_page": 529,
+        "name_as_printed": "J. B. M. Ilukkumbura",
+        "kind": "sole trader",
+        "address_as_printed": "Trincomalee Street.",
+        "town": "Kandy",
+        "trades": [
+          "Native dispensaries"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p552:b14:r2": {
+      "source": "Third semicolon-delimited item gives Ibrahim and Ward St.",
+      "extracted": {
+        "listing_id": "ferg1922:p552:b14:r2",
+        "section": "A. KANDY MERCHANTS, &c.—(contd). / CYCLE REPAIRERS.",
+        "pdf_page": 552,
+        "printed_page": 529,
+        "name_as_printed": "N. Ibrahim",
+        "kind": "sole trader",
+        "address_as_printed": "Ward St.",
+        "town": "Kandy",
+        "trades": [
+          "Cycle repairers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p552:b4:r8": {
+      "source": "Corner Stores is the trading name. Parentheses identify a corporate connection. Address cells are empty.",
+      "extracted": {
+        "listing_id": "ferg1922:p552:b4:r8",
+        "section": "A. KANDY MERCHANTS, &c.—(contd). / BOOK-SELLERS AND STATIONERS.",
+        "pdf_page": 552,
+        "printed_page": 529,
+        "name_as_printed": "Corner Stores",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Kandy",
+        "trades": [
+          "Book-sellers",
+          "Stationers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p552:b8:r4": {
+      "source": "First-cell ditto repeats the preceding dispensary name.",
+      "errors": {
+        "flags": "The expanded name inherits the visibly damaged article Tho."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p552:b8:r4",
+        "section": "A. KANDY MERCHANTS, &c.—(contd). / CHEMISTS AND DRUGGISTS.",
+        "pdf_page": 552,
+        "printed_page": 529,
+        "name_as_printed": "Dispensary, Tho",
+        "kind": "firm",
+        "address_as_printed": "Columbo Road",
+        "town": "Kandy",
+        "trades": [
+          "Chemists",
+          "Druggists"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p553:b23:r1": {
+      "source": "Hotel-license listing gives Hotel Suisse and Victoria Drive.",
+      "extracted": {
+        "listing_id": "ferg1922:p553:b23:r1",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / HOTEL LICENSES.",
+        "pdf_page": 553,
+        "printed_page": 530,
+        "name_as_printed": "Hotel Suisse",
+        "kind": "firm",
+        "address_as_printed": "Victoria Drive",
+        "town": "Kandy",
+        "trades": [
+          "Hotel licenses"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p554:b10:r3": {
+      "source": "The fourth money-lender row has an explicit Trincomalee Street address.",
+      "extracted": {
+        "listing_id": "ferg1922:p554:b10:r3",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / MONEY LENDERS.",
+        "pdf_page": 554,
+        "printed_page": 531,
+        "name_as_printed": "V. K. N. M. R. M. Raman Chetty",
+        "kind": "sole trader",
+        "address_as_printed": "Trincomalee Street",
+        "town": "Kandy",
+        "trades": [
+          "Money lenders"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p554:b12:r2": {
+      "source": "Nurses table gives Mrs. Baptist and Katugastota Road.",
+      "extracted": {
+        "listing_id": "ferg1922:p554:b12:r2",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / NURSES.",
+        "pdf_page": 554,
+        "printed_page": 531,
+        "name_as_printed": "Mrs. Baptist",
+        "kind": "sole trader",
+        "address_as_printed": "Katugastota Road",
+        "town": "Kandy",
+        "trades": [
+          "Nurses"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p554:b14:r12": {
+      "source": "Final pawnbroker row supplies its own street and house number.",
+      "extracted": {
+        "listing_id": "ferg1922:p554:b14:r12",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / PAWNBROKERS.",
+        "pdf_page": 554,
+        "printed_page": 531,
+        "name_as_printed": "S. M. M. Muttu Raman Chetty",
+        "kind": "sole trader",
+        "address_as_printed": "956, Peradeniya Rd.",
+        "town": "Kandy",
+        "trades": [
+          "Pawnbrokers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b14:r2": {
+      "source": "House number 39 takes the Madawella Road ditto.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b14:r2",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TEA SHOOKS DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "S. Charles Silva",
+        "kind": "sole trader",
+        "address_as_printed": "39, Madawella Road",
+        "town": "Kandy",
+        "trades": [
+          "Tea shooks dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b14:r4": {
+      "source": "House number 74 takes the Madawella Road ditto.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b14:r4",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TEA SHOOKS DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "K. P. Sandias Silva",
+        "kind": "sole trader",
+        "address_as_printed": "74, Madawella Road",
+        "town": "Kandy",
+        "trades": [
+          "Tea shooks dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b14:r5": {
+      "source": "House number 73 takes the Madawella Road ditto.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b14:r5",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TEA SHOOKS DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "A. M. A. Lebbe Ahim Sahib",
+        "kind": "sole trader",
+        "address_as_printed": "73, Madawella Road",
+        "town": "Kandy",
+        "trades": [
+          "Tea shooks dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b16:r5": {
+      "source": "This timber-dealer row resets the repeated street to Trincomalee St.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b16:r5",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TIMBER DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "C. B. Nugegoda",
+        "kind": "sole trader",
+        "address_as_printed": "89, Trincomalee St.",
+        "town": "Kandy",
+        "trades": [
+          "Timber dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b16:r7": {
+      "source": "Number 46 repeats Trincomalee St. from Nugegoda’s row via Palis.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b16:r7",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TIMBER DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "K. W. Maris",
+        "kind": "sole trader",
+        "address_as_printed": "46, Trincomalee St.",
+        "town": "Kandy",
+        "trades": [
+          "Timber dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b4:r2": {
+      "source": "The source names the trader first and gives the establishment parenthetically.",
+      "errors": {
+        "name_as_printed": "Keep the listed trader and his printed establishment together.",
+        "kind": "The identifying entry is an individual trader."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p555:b4:r2",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / SHOE-MAKING ESTABLISHMENTS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "Empress Works",
+        "kind": "firm",
+        "address_as_printed": "Trincomalee Street",
+        "town": "Kandy",
+        "trades": [
+          "Shoe-making establishments"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p468:b6:r1": {
+      "source": "First Colombo row pairs the inverted proprietor name and bracketed address with trade terms and branch places.",
+      "errors": {
+        "trades": "Army and Navy Contractors is one trade. Army alone is not a trade.",
+        "flags": "Oilmanatores is visibly doubtful and should remain uncorrected with a flag."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p468:b6:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 468,
+        "printed_page": 430,
+        "name_as_printed": "Abdul Caffoor, N. D. H.",
+        "kind": "sole trader",
+        "address_as_printed": "Caffoor Bldgs., Main St., Fort.",
+        "town": "Colombo",
+        "trades": [
+          "General Merchants",
+          "Importers",
+          "Exporters",
+          "Stationers",
+          "Drapers",
+          "Milliners",
+          "Vegetable Growers",
+          "Oilmanatores",
+          "Army",
+          "Navy Contractors",
+          "Rice Dealers",
+          "Seedsmen",
+          "Tanners",
+          "Forwarding Agents",
+          "Cooly Pay Suppliers"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      },
+      "item_errors": {
+        "trades[9]": "Army is the first part of a single printed trade.",
+        "trades[10]": "Navy Contractors is the second part of the same trade."
+      }
+    },
+    "ferg1922:p472:b2:r1": {
+      "source": "The third column names agency targets. No separate trade descriptor appears.",
+      "extracted": {
+        "listing_id": "ferg1922:p472:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 472,
+        "printed_page": 434,
+        "name_as_printed": "Brodie & Co.",
+        "kind": "firm",
+        "address_as_printed": "No. 26, Chatham Street, Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p473:b2:r2": {
+      "source": "A missing opening delimiter precedes the York House address. The right cell has distinct import and export headings.",
+      "errors": {
+        "trades": "The import and export product terms are omitted."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p473:b2:r2",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 473,
+        "printed_page": 425,
+        "name_as_printed": "Cader & Co.",
+        "kind": "firm",
+        "address_as_printed": "\"York House\" Fort, Colombo.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p475:b2:r3": {
+      "source": "The first column gives the Fort address. The right column lists agents.",
+      "notes": {
+        "flags": "The wrapped list has its own locality parsing uncertainty, separate from the firm name."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p475:b2:r3",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 475,
+        "printed_page": 437,
+        "name_as_printed": "Cave, H. W., & Co.",
+        "kind": "firm",
+        "address_as_printed": "Fort",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p479:b2:r5": {
+      "source": "The partners cell explicitly calls De Soysa a proprietary planter and merchant.",
+      "errors": {
+        "trades": "Planter and Merchant are attested in the role cell."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p479:b2:r5",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 479,
+        "printed_page": 443,
+        "name_as_printed": "De Soysa, R. F. S.",
+        "kind": "sole trader",
+        "address_as_printed": "No. 5, Baillie St., Colombo.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p481:b2:r4": {
+      "source": "The source gives the Prince Building and the firm’s agents. The page header reads 145.",
+      "extracted": {
+        "listing_id": "ferg1922:p481:b2:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 481,
+        "printed_page": 145,
+        "name_as_printed": "Eastern Produce & Estates Co., Limited",
+        "kind": "firm",
+        "address_as_printed": "Prince Building, Prince St., Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p483:b2:r3": {
+      "source": "The right cell identifies the chartered accountants trade and London office.",
+      "extracted": {
+        "listing_id": "ferg1922:p483:b2:r3",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 483,
+        "printed_page": 447,
+        "name_as_printed": "Ford, Rhodes, Thornton & Co.",
+        "kind": "firm",
+        "address_as_printed": "Gaffoor's Building, Fort",
+        "town": "Colombo",
+        "trades": [
+          "Chartered Accountants"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p483:b2:r4": {
+      "source": "The first cell repeats both named partners. The first right-cell line names mills and works.",
+      "errors": {
+        "trades": "Dessicated Coconut Mills, Baling and Fibre Works are omitted."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p483:b2:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 483,
+        "printed_page": 447,
+        "name_as_printed": "Fradd & Co.",
+        "kind": "firm",
+        "address_as_printed": "No. 5, Queen St., Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p485:b2:r5": {
+      "source": "The broker label applies to produce, shares, freight and exchange.",
+      "errors": {
+        "trades": "The first three loose words omit the shared Brokers label."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p485:b2:r5",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 485,
+        "printed_page": 450,
+        "name_as_printed": "Gow, Somerville & Co.",
+        "kind": "firm",
+        "address_as_printed": "No. 15, Queen St., Fort.",
+        "town": "Colombo",
+        "trades": [
+          "Produce",
+          "Share",
+          "Freight",
+          "Exchange Brokers"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p487:b2:r1": {
+      "source": "Hatton is printed parenthetically and the bracketed list consists of branch locations.",
+      "errors": {
+        "address_as_printed": "The branch list is not a street address. Use branch records and leave the address empty."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p487:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 487,
+        "printed_page": 452,
+        "name_as_printed": "Hatton Bank and Agency Co.",
+        "kind": "bank",
+        "address_as_printed": "Branches at Upcott, Glentilt, Kotiyagalla, Campion, Diyagama, Holbrook, Hardenhuis.",
+        "town": "Hatton",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p490:b1:r4": {
+      "source": "There is no numerical page header. The name and mill address are legible.",
+      "extracted": {
+        "listing_id": "ferg1922:p490:b1:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 490,
+        "printed_page": null,
+        "name_as_printed": "Lipton, Limited",
+        "kind": "firm",
+        "address_as_printed": "Maddema Mills, Cinnamon Gardens",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p491:b2:r5": {
+      "source": "The printed line break divides Mackenzie. The agency cell is empty.",
+      "extracted": {
+        "listing_id": "ferg1922:p491:b2:r5",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 491,
+        "printed_page": 457,
+        "name_as_printed": "Mackinnon Mackenzie & Co",
+        "kind": "firm",
+        "address_as_printed": "Victoria Arcade, Fort",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p492:b2:r7": {
+      "source": "The partners and assistants column gives two explicitly labelled partners.",
+      "errors": {
+        "kind": "Two named partners establish a firm."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p492:b2:r7",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 492,
+        "printed_page": 458,
+        "name_as_printed": "Mercantile Agency",
+        "kind": "sole trader",
+        "address_as_printed": "1, Consistory Bldgs., Colombo.",
+        "town": "Colombo",
+        "trades": [
+          "General Importers",
+          "Exporters"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p493:b2:r2": {
+      "source": "Address names the Colombo and Kandy premises, the mills, and two explicit branch towns.",
+      "errors": {
+        "address_as_printed": "A split OCR line leaves a space inside Forage."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p493:b2:r2",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 493,
+        "printed_page": 459,
+        "name_as_printed": "Miller & Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": "Nos. 11, 12, 13, York St., Fort, Colombo, & Ward St., Kandy. For age Mills and Stores at Dawson Street, Slave Island. Also Branches at Nuwara Eliya and Bandarawela.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p495:b2:r2": {
+      "source": "Established date is separate from the insurer’s name. The listing date follows the section heading.",
+      "extracted": {
+        "listing_id": "ferg1922:p495:b2:r2",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 495,
+        "printed_page": 461,
+        "name_as_printed": "Oriental Government Security Life Assurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": "Oriental Assurance Buildings, 13, Bailie St., Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p495:b2:r3": {
+      "source": "Printed trade is Import and Export Merchant.",
+      "errors": {
+        "trades": "Import alone drops the shared Merchant label."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p495:b2:r3",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 495,
+        "printed_page": 461,
+        "name_as_printed": "Othuman Pillay, A. M.",
+        "kind": "sole trader",
+        "address_as_printed": "Nos 15, 24 and 25, Keyzer St., Pettah, Colombo",
+        "town": "Colombo",
+        "trades": [
+          "Import",
+          "Export Merchant"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p495:b2:r6": {
+      "source": "Postal address is in the first cell and four short trades appear in the third.",
+      "errors": {
+        "trades": "Carriage Builders, Veterinarians, Livery Stable Keepers and Undertakers are omitted."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p495:b2:r6",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 495,
+        "printed_page": 461,
+        "name_as_printed": "Pate & Son, A.",
+        "kind": "firm",
+        "address_as_printed": "Union Place, Slave Island.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p496:b2:r4": {
+      "source": "The bracketed address belongs to Skrine. The right cell lists correspondents and shipping agencies.",
+      "extracted": {
+        "listing_id": "ferg1922:p496:b2:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 496,
+        "printed_page": 464,
+        "name_as_printed": "Skrine & Co",
+        "kind": "firm",
+        "address_as_printed": "National Mutual Building, Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p497:b2:r5": {
+      "source": "Printed Import, Export and Commission Agents uses a shared head noun.",
+      "errors": {
+        "trades": "Import and Export should retain the shared Agents label."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p497:b2:r5",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 497,
+        "printed_page": 465,
+        "name_as_printed": "Stuart, Francis, & Co.",
+        "kind": "firm",
+        "address_as_printed": "18, Baillie St., Fort.",
+        "town": "Colombo",
+        "trades": [
+          "Import",
+          "Export",
+          "Commission Agents"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p499:b2:r4": {
+      "source": "Whittall starts here and its title repeats on 500. The following partners cell has detached fragments.",
+      "extracted": {
+        "listing_id": "ferg1922:p499:b2:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 499,
+        "printed_page": 469,
+        "name_as_printed": "Whittall & Co.",
+        "kind": "firm",
+        "address_as_printed": "No. 2, Queen St., Fort, Colombo.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [
+          500
+        ],
+        "flags": [
+          "ocr_doubtful",
+          "structure_lost"
+        ],
+        "continuation_sources": [
+          "ferg1922:p500:b2:r1"
+        ]
+      }
+    },
+    "ferg1922:p462:b3:r1": {
+      "source": "Year and role columns name Lochore, Mackwood and Duncum. A following line also lists Mackwood as chairman.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b3:r1",
+        "section": "C. PAST OFFICERS last office OF THE CEYLON CHAMBER OF COMMERCE.—(Contd)",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1919,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p462:b5:r30": {
+      "source": "The ditto repeats Alfred Wise from 1869.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b5:r30",
+        "section": "C. Past Mercantile Representatives.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1870,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b5:r32": {
+      "source": "The second name is visibly cut off after Job. The 1872 year is clear.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b5:r32",
+        "section": "C. Past Mercantile Representatives.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1872,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p462:b5:r38": {
+      "source": "The second representative ends at initials. The 1878 year is clear.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b5:r38",
+        "section": "C. Past Mercantile Representatives.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1878,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p462:b7:r23": {
+      "source": "The 1904 Council row gives W. H. Figg.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b7:r23",
+        "section": "C. Representatives in the Legislative Council.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1904,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b7:r26": {
+      "source": "The 1907 ditto repeats the 1906 Council representative.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b7:r26",
+        "section": "C. Representatives in the Legislative Council.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1907,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b8:r0": {
+      "source": "The association title is clear. The following OCR is interleaved.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b8:r0",
+        "section": "C. Colonial Tea Traders' Association.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "Colonial Tea Traders' Association.",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "ocr_doubtful",
+          "structure_lost"
+        ]
+      }
+    },
+    "ferg1922:p463:b13:r6": {
+      "source": "Fire association company row names British Traders and shows Delmege, Reid as agent.",
+      "extracted": {
+        "listing_id": "ferg1922:p463:b13:r6",
+        "section": "C. Ceylon Fire Insurance Association. / MEMBERS.",
+        "pdf_page": 463,
+        "printed_page": 425,
+        "name_as_printed": "British Traders Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p463:b9:r0": {
+      "source": "Fire association title precedes officer and member blocks. The membership list continues on 464.",
+      "extracted": {
+        "listing_id": "ferg1922:p463:b9:r0",
+        "section": "C. Ceylon Fire Insurance Association.",
+        "pdf_page": 463,
+        "printed_page": 425,
+        "name_as_printed": "Ceylon Fire Insurance Association.",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [
+          464
+        ],
+        "flags": [],
+        "continuation_sources": [
+          "ferg1922:p464:b2:r0"
+        ]
+      }
+    },
+    "ferg1922:p464:b3:r15": {
+      "source": "Palatine is a fire association member. Of London identifies the member’s stated locality.",
+      "errors": {
+        "town": "The company is explicitly described as of London."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p464:b3:r15",
+        "section": "C. CEYLON FIRE INSURANCE ASSOCIATION MEMBERS.—(Contd)",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Palatine Insurance Co., Ltd., of London",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b5:r10": {
+      "source": "Acquisition row names Norwich Union and Phoenix. No company locality is printed.",
+      "extracted": {
+        "listing_id": "ferg1922:p464:b5:r10",
+        "section": "C. ACQUIRED COMPANIES.",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Norwich Union Fire Insurance Society, Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b5:r11": {
+      "source": "Acquisition row names Palatine of London and Commercial Union.",
+      "errors": {
+        "town": "The company is explicitly described as of London."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p464:b5:r11",
+        "section": "C. ACQUIRED COMPANIES.",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Palatine Insurance Co., Ltd., of London",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b5:r13": {
+      "source": "Acquisition row names Union Assurance Society of London and Commercial Union.",
+      "errors": {
+        "town": "The company is explicitly described as of London."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p464:b5:r13",
+        "section": "C. ACQUIRED COMPANIES.",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Union Assurance Society, Ltd., of London",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p465:b6:r2": {
+      "source": "Atlas name keeps the OCR comma. The following agent suffix is displaced into the preceding row.",
+      "extracted": {
+        "listing_id": "ferg1922:p465:b6:r2",
+        "section": "C. Colombo Marine Insurance Agents' Association. / MEMBERS.",
+        "pdf_page": 465,
+        "printed_page": 427,
+        "name_as_printed": "Atlas Assurance, Co., Ltd",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p465:b6:r44": {
+      "source": "Sphinx is the exact OCR spelling on this page. The following ditto gives a second agent.",
+      "extracted": {
+        "listing_id": "ferg1922:p465:b6:r44",
+        "section": "C. Colombo Marine Insurance Agents' Association. / MEMBERS.",
+        "pdf_page": 465,
+        "printed_page": 427,
+        "name_as_printed": "Sphinx Fire and Marine Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p465:b6:r55": {
+      "source": "Union Marine is written out here and a following ditto gives another agent.",
+      "extracted": {
+        "listing_id": "ferg1922:p465:b6:r55",
+        "section": "C. Colombo Marine Insurance Agents' Association. / MEMBERS.",
+        "pdf_page": 465,
+        "printed_page": 427,
+        "name_as_printed": "Union Marine Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p465:b6:r7": {
+      "source": "Marine membership table pairs China Fire and Heath & Co.",
+      "extracted": {
+        "listing_id": "ferg1922:p465:b6:r7",
+        "section": "C. Colombo Marine Insurance Agents' Association. / MEMBERS.",
+        "pdf_page": 465,
+        "printed_page": 427,
+        "name_as_printed": "China Fire Insurance Co., Ltd",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p466:b20:r0": {
+      "source": "Bank name is the header. Next block gives the numbered Queen Street office.",
+      "extracted": {
+        "listing_id": "ferg1922:p466:b20:r0",
+        "section": "C. BANKS IN CEYLON. / IN COLOMBO :",
+        "pdf_page": 466,
+        "printed_page": 428,
+        "name_as_printed": "MERCANTILE BANK OF INDIA, LIMITED",
+        "kind": "bank",
+        "address_as_printed": "2, Queen Street, Fort.",
+        "town": "Colombo",
+        "trades": [
+          "Banking"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p466:b30:r0": {
+      "source": "Bank of Uva’s block gives manager, secretaries and bankers. It has no street address.",
+      "extracted": {
+        "listing_id": "ferg1922:p466:b30:r0",
+        "section": "C. BANKS IN CEYLON. / IN COLOMBO :",
+        "pdf_page": 466,
+        "printed_page": 428,
+        "name_as_printed": "BANK OF UVA, LIMITED",
+        "kind": "bank",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Banking"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p467:b19:r0": {
+      "source": "The Galle subheading governs the Chartered Bank agency row.",
+      "extracted": {
+        "listing_id": "ferg1922:p467:b19:r0",
+        "section": "C. Banks at Outstations.",
+        "pdf_page": 467,
+        "printed_page": 429,
+        "name_as_printed": "CHARTERED BANK OF INDIA, AUSTRALIA AND CHINA",
+        "kind": "bank",
+        "address_as_printed": null,
+        "town": "GALLE",
+        "trades": [
+          "Banking"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    }
+  },
+  "2": {
+    "ferg1922:p549:b4:r3": {
+      "source": "Engineers row gives the Imperial Motor Works name, Ward Street, and a parenthetical Colombo head office.",
+      "extracted": {
+        "listing_id": "ferg1922:p549:b4:r3",
+        "section": "A. KANDY MERCHANTS, &c.—(contd.) / Engineers, &c.",
+        "pdf_page": 549,
+        "printed_page": 526,
+        "name_as_printed": "Imperial Motor Works",
+        "kind": "firm",
+        "address_as_printed": "Ward Street",
+        "town": "Kandy",
+        "trades": [
+          "Engineers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p550:b4:r16": {
+      "source": "The next address after Costa’s Colombo Street gives 244 and a ditto. Hardwaremen is explicit.",
+      "extracted": {
+        "listing_id": "ferg1922:p550:b4:r16",
+        "section": "A. KANDY MERCHANTS, &c.—(Contd.) / NATIVE SHOPKEEPERS, STOREKEEPERS, ETC.",
+        "pdf_page": 550,
+        "printed_page": 527,
+        "name_as_printed": "Khaja Nainar & Co.",
+        "kind": "firm",
+        "address_as_printed": "244, Colombo Street",
+        "town": "Kandy",
+        "trades": [
+          "Hardwaremen"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p553:b10:r2": {
+      "source": "Surveyors are three independent names per physical row. Jayasinghe is the third cell on the first row.",
+      "extracted": {
+        "listing_id": "ferg1922:p553:b10:r2",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / LICENSED SURVEYORS.",
+        "pdf_page": 553,
+        "printed_page": 530,
+        "name_as_printed": "C. D. Jayasinghe",
+        "kind": "sole trader",
+        "address_as_printed": null,
+        "town": "Kandy",
+        "trades": [
+          "Licensed surveyors"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p553:b23:r4": {
+      "source": "Royal Hotel repeats King’s Street from the preceding hotel-license line.",
+      "extracted": {
+        "listing_id": "ferg1922:p553:b23:r4",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / HOTEL LICENSES.",
+        "pdf_page": 553,
+        "printed_page": 530,
+        "name_as_printed": "Royal Hotel",
+        "kind": "firm",
+        "address_as_printed": "King's Street",
+        "town": "Kandy",
+        "trades": [
+          "Hotel licenses"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p554:b18:r1": {
+      "source": "Tutor name is Mrs. VanReyk. The ditto refers to the preceding Trincomalee Street address.",
+      "extracted": {
+        "listing_id": "ferg1922:p554:b18:r1",
+        "section": "A. KANDY MERCHANTS, &c —(contd.) / PIANO TUTORS.",
+        "pdf_page": 554,
+        "printed_page": 531,
+        "name_as_printed": "Mrs. VanReyk",
+        "kind": "sole trader",
+        "address_as_printed": "Trincomalee Street",
+        "town": "Kandy",
+        "trades": [
+          "Piano tutors"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b14:r12": {
+      "source": "Gabriel Fernando row supplies 135, Katugastota Road directly.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b14:r12",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TEA SHOOKS DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "W. Gabriel Fernando",
+        "kind": "sole trader",
+        "address_as_printed": "135, Katugastota Road",
+        "town": "Kandy",
+        "trades": [
+          "Tea shooks dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b14:r9": {
+      "source": "Number 183 takes the preceding Katugastota Road ditto.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b14:r9",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TEA SHOOKS DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "B. J. Peiris",
+        "kind": "sole trader",
+        "address_as_printed": "183, Katugastota Road",
+        "town": "Kandy",
+        "trades": [
+          "Tea shooks dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b16:r6": {
+      "source": "Palis’s row repeats Nugegoda’s Trincomalee St. with a new house number.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b16:r6",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / TIMBER DEALERS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "G. G. Palis",
+        "kind": "sole trader",
+        "address_as_printed": "40, Trincomalee St.",
+        "town": "Kandy",
+        "trades": [
+          "Timber dealers"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b4:r0": {
+      "source": "First shoe-making row gives Alfred Brodie & Co. and Hill Street.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b4:r0",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / SHOE-MAKING ESTABLISHMENTS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "Alfred Brodie & Co.",
+        "kind": "firm",
+        "address_as_printed": "Hill Street",
+        "town": "Kandy",
+        "trades": [
+          "Shoe-making establishments"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p555:b4:r6": {
+      "source": "The Kandy boot emporium has the number 90 on Castle Hill Street.",
+      "extracted": {
+        "listing_id": "ferg1922:p555:b4:r6",
+        "section": "A. KANDY MERCHANTS, &c —(contd). / SHOE-MAKING ESTABLISHMENTS.",
+        "pdf_page": 555,
+        "printed_page": 532,
+        "name_as_printed": "S. C. B. Boot Emporium",
+        "kind": "firm",
+        "address_as_printed": "90, Castle Hill Street",
+        "town": "Kandy",
+        "trades": [
+          "Shoe-making establishments"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p470:b2:r1": {
+      "source": "Baur’s row gives the office and works location alongside three explicitly marked partners.",
+      "errors": {
+        "kind": "The partners column establishes a firm despite the inverted personal name."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p470:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 470,
+        "printed_page": 432,
+        "name_as_printed": "Baur, A",
+        "kind": "sole trader",
+        "address_as_printed": "The Ceylon Manure Works. Office: No. 5, Prince St., Fort Works at Kolaniya",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p471:b2:r3": {
+      "source": "The row ends with oil milling and related trades after a long tobacco company list.",
+      "errors": {
+        "flags": "Cor Fibre is a visibly damaged reading. The oil trades and tobacco firms share an OCR cell and may be misaligned."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p471:b2:r3",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 471,
+        "printed_page": 433,
+        "name_as_printed": "British American Tobacco Co., (Ceylon Ltd)",
+        "kind": "firm",
+        "address_as_printed": "No 20, Baillie St., Fort",
+        "town": "Colombo",
+        "trades": [
+          "Oil Millers",
+          "Manufacturers of Desiccated Coconut",
+          "Cor Fibre",
+          "Matting"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p475:b2:r2": {
+      "source": "The firm has Hillcrest Mills as its Colombo address. The right cell lists its other places.",
+      "extracted": {
+        "listing_id": "ferg1922:p475:b2:r2",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 475,
+        "printed_page": 437,
+        "name_as_printed": "Carter, Macy & Co., Inc.",
+        "kind": "firm",
+        "address_as_printed": "Hillcrest Mills, Darley Lane.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p478:b2:r4": {
+      "source": "The Queen Street address opens the Darley, Butler entry. The next page explicitly repeats the continued name.",
+      "extracted": {
+        "listing_id": "ferg1922:p478:b2:r4",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 478,
+        "printed_page": 442,
+        "name_as_printed": "Darley, Butler & Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": "9, Queen Street, Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [
+          479
+        ],
+        "flags": [],
+        "continuation_sources": [
+          "ferg1922:p479:b2:r1"
+        ]
+      }
+    },
+    "ferg1922:p482:b2:r1": {
+      "source": "The row identifies the mill premises and finishes with a list of sectors and estate properties.",
+      "errors": {
+        "trades": "The trade list near the end of the right cell is omitted."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p482:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 482,
+        "printed_page": 446,
+        "name_as_printed": "English and Scottish Co-operative Wholesale Societies.",
+        "kind": "firm",
+        "address_as_printed": "Mahavilla Mills, Cinnamon Gardens, Colombo.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p485:b2:r1": {
+      "source": "The Goodyear row gives three managers. The right cell is empty.",
+      "extracted": {
+        "listing_id": "ferg1922:p485:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 485,
+        "printed_page": 450,
+        "name_as_printed": "Goodyear Tire and Rubber Co.",
+        "kind": "firm",
+        "address_as_printed": "No 1, Baillie St., Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p485:b2:r2": {
+      "source": "The building address and both agency headings are clear. The right cell has no independent trade description.",
+      "extracted": {
+        "listing_id": "ferg1922:p485:b2:r2",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 485,
+        "printed_page": 450,
+        "name_as_printed": "Gordon Fraser & Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": "Gaffoor's Building, Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p488:b2:r3": {
+      "source": "The Holland-Ceylon row gives the Gaffoor building and a list of principals.",
+      "extracted": {
+        "listing_id": "ferg1922:p488:b2:r3",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 488,
+        "printed_page": 453,
+        "name_as_printed": "Holland-Ceylon Commercial Co",
+        "kind": "firm",
+        "address_as_printed": "Gaffoor's Buildings, Fort.",
+        "town": "Colombo",
+        "trades": [],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p494:b2:r1": {
+      "source": "The firm’s address is in the left cell. The right cell gives trade labels followed by another street address.",
+      "errors": {
+        "trades": "No. 35 and Second Cross Street are a location. Tea Merchants should be separate from the preceding etc."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p494:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 494,
+        "printed_page": 460,
+        "name_as_printed": "Mohamado Ibrahim Rawther & Co., N. M.",
+        "kind": "firm",
+        "address_as_printed": "34, 2nd Cross St., Pettah.",
+        "town": "Colombo",
+        "trades": [
+          "General Merchants",
+          "Rice Dealers",
+          "Suppliers of all kinds of Estate Requisites",
+          "Dealers in Cooly Cumbhies",
+          "Cooly Clothes",
+          "etc. Tea Merchants",
+          "No. 35",
+          "Second Cross Street"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p496:b2:r1": {
+      "source": "The parenthetical address is Gregory’s Road. Third cell distinguishes trades from the branch list.",
+      "extracted": {
+        "listing_id": "ferg1922:p496:b2:r1",
+        "section": "B. LIST OF COLOMBO MERCHANTS AND AGENTS.",
+        "pdf_page": 496,
+        "printed_page": 464,
+        "name_as_printed": "Silva, N D. P., & Co",
+        "kind": "firm",
+        "address_as_printed": "Gregory's Road, Colombo.",
+        "town": "Colombo",
+        "trades": [
+          "General Merchants",
+          "Plumbago Mine Owners"
+        ],
+        "attested": "corrected to December 1921",
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b5:r35": {
+      "source": "The 1875 ditto repeats John T. White and W. W. Mitchell from 1874.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b5:r35",
+        "section": "C. Past Mercantile Representatives.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1875,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b5:r9": {
+      "source": "Armitage and Swan both appear on the 1849 line.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b5:r9",
+        "section": "C. Past Mercantile Representatives.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1849,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b7:r0": {
+      "source": "The first Council table row has the year 1881 and two representatives.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b7:r0",
+        "section": "C. Representatives in the Legislative Council.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1881,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p462:b7:r27": {
+      "source": "The 1908 Council line names Figg and Giles F. Walker, acting.",
+      "extracted": {
+        "listing_id": "ferg1922:p462:b7:r27",
+        "section": "C. Representatives in the Legislative Council.",
+        "pdf_page": 462,
+        "printed_page": 424,
+        "name_as_printed": "CEYLON CHAMBER OF COMMERCE",
+        "kind": "association",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [],
+        "attested": 1908,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b3:r19": {
+      "source": "Royal Exchange row in the continued fire list supplies two agents.",
+      "extracted": {
+        "listing_id": "ferg1922:p464:b3:r19",
+        "section": "C. CEYLON FIRE INSURANCE ASSOCIATION MEMBERS.—(Contd)",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Royal Exchange Assurance Corporation",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b3:r24": {
+      "source": "Sphere is the spelling in the fire list. Gabriel Fernando is listed alongside Cumberbatch.",
+      "extracted": {
+        "listing_id": "ferg1922:p464:b3:r24",
+        "section": "C. CEYLON FIRE INSURANCE ASSOCIATION MEMBERS.—(Contd)",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Sphere Fire and Marine Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p464:b3:r27": {
+      "source": "An agent’s name starts here and its displaced suffix is bracketed on the next line.",
+      "extracted": {
+        "listing_id": "ferg1922:p464:b3:r27",
+        "section": "C. CEYLON FIRE INSURANCE ASSOCIATION MEMBERS.—(Contd)",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Titan Fire and Marine Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    },
+    "ferg1922:p464:b3:r5": {
+      "source": "The member is Motor Union and the printed agent is Percy H Fraadd & Co.",
+      "extracted": {
+        "listing_id": "ferg1922:p464:b3:r5",
+        "section": "C. CEYLON FIRE INSURANCE ASSOCIATION MEMBERS.—(Contd)",
+        "pdf_page": 464,
+        "printed_page": 426,
+        "name_as_printed": "Motor Union Insurance Co. Ltd",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p465:b6:r47": {
+      "source": "Thames and Mersey row names The Colombo Commercial Co. as agent.",
+      "extracted": {
+        "listing_id": "ferg1922:p465:b6:r47",
+        "section": "C. Colombo Marine Insurance Agents' Association. / MEMBERS.",
+        "pdf_page": 465,
+        "printed_page": 427,
+        "name_as_printed": "Thames and Mersey Insurance Co., Ltd.",
+        "kind": "firm",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Insurance"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    },
+    "ferg1922:p467:b3:r6": {
+      "source": "The seventh banking agency item lists Charles Hoare and the George Stewart agency.",
+      "errors": {
+        "name_as_printed": "The period in Co. precedes the role delimiter and belongs to the abbreviation."
+      },
+      "extracted": {
+        "listing_id": "ferg1922:p467:b3:r6",
+        "section": "C. BANKING AGENCIES IN COLOMBO.",
+        "pdf_page": 467,
+        "printed_page": 429,
+        "name_as_printed": "CHARLES HOARE & Co",
+        "kind": "bank",
+        "address_as_printed": null,
+        "town": "Colombo",
+        "trades": [
+          "Banking"
+        ],
+        "attested": null,
+        "continues_from": null,
+        "continuation_pages": [],
+        "flags": []
+      }
+    }
+  }
+}

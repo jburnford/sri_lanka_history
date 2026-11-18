@@ -800,16 +800,25 @@
     }
   },
   "ferg1922:p555:b4:r2": {
-    "reason": "The first cell gives the person and the named works.",
+    "reason": "The first cell gives the person and the named works. The trader is the first printed identity and the named premises are given in parentheses.",
     "fields": {
       "listing": {
-        "name_as_printed": "Empress Works",
-        "kind": "firm"
+        "name_as_printed": "S. W. Cronenberg (Empress Works)",
+        "kind": "sole trader"
       },
       "roles": [
         [
           "S. W. Cronenberg",
           "listed"
+        ]
+      ],
+      "connections": [
+        [
+          "SHOE-MAKING ESTABLISHMENTS.",
+          "other",
+          "Empress Works",
+          "company",
+          null
         ]
       ]
     }
@@ -903,6 +912,2632 @@
           "S. A. A. T. de Mel & Co",
           "company",
           null
+        ]
+      ]
+    }
+  },
+  "ferg1922:p486:b2:r6": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          2
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r7": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          2
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r8": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          2
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r9": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          3
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r10": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          4
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r11": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          4
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r12": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          4
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r13": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          5
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p486:b2:r14": {
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "fields": {
+      "attach": [
+        [
+          486,
+          5
+        ]
+      ],
+      "structure_lost": true,
+      "uncertain_connections": true
+    }
+  },
+  "ferg1922:p470:b2:r3": {
+    "reason": "The Directors label fell into the firm-name cell.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Bois Brothers & Co., Ltd."
+      },
+      "structure_lost": true,
+      "roles": [
+        [
+          "W. Sutherland Ross",
+          "Directors"
+        ],
+        [
+          "G. C. Slater",
+          "Directors"
+        ],
+        [
+          "Neill G. Campbell",
+          "Directors"
+        ],
+        [
+          "P. W Weekes",
+          "Assistants"
+        ],
+        [
+          "G. P. Kelly",
+          "Assistants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p472:b2:r3": {
+    "reason": "The first and second cells repeat interleaved columns. Recover individually clear addresses, names and posts.",
+    "fields": {
+      "listing": {
+        "address_as_printed": "No 12, National Mutual Buildings, Chatham St., Fort"
+      },
+      "structure_lost": true,
+      "ocr_doubtful": true,
+      "roles": [
+        [
+          "T. Walker",
+          "Chairman"
+        ],
+        [
+          "R. A Lyons",
+          "Directors"
+        ],
+        [
+          "H. C. Wills",
+          "Directors"
+        ],
+        [
+          "H. G. Brown",
+          "Directors"
+        ],
+        [
+          "A. Ness",
+          "Directors"
+        ],
+        [
+          "A. Dougan, A.C.A.",
+          "Directors"
+        ],
+        [
+          "T. Black",
+          "acting"
+        ],
+        [
+          "J. M Forrest",
+          "Sales Manager"
+        ],
+        [
+          "J. R. Johnstone",
+          "Office"
+        ],
+        [
+          "W D. Parke",
+          "Office"
+        ],
+        [
+          "A. Dickson",
+          "Store Assistants"
+        ],
+        [
+          "W. C. Pritchett",
+          "Store Assistants"
+        ],
+        [
+          "T. Baird",
+          "Store Assistants"
+        ],
+        [
+          "J. W. Small",
+          "Store Assistants"
+        ],
+        [
+          "V. Mo Gatig'e",
+          "Store Assistants"
+        ],
+        [
+          "R. A. Mc Lenan",
+          "Store Assistants"
+        ],
+        [
+          "R. S Stewart",
+          "Store Assistants"
+        ],
+        [
+          "W J Boyle",
+          "Store Assistants"
+        ],
+        [
+          "W. M Owen",
+          "Chief Asst."
+        ],
+        [
+          "R. Newbould",
+          "Asst. Engineers"
+        ],
+        [
+          "W. H. Digby",
+          "Asst. Engineers"
+        ],
+        [
+          "S. Clare",
+          "Asst. Engineers"
+        ],
+        [
+          "W. P. Mc Nicol",
+          "Asst. Engineers"
+        ],
+        [
+          "F. Walker",
+          "Manager"
+        ],
+        [
+          "T. Segrue",
+          "Assistant"
+        ],
+        [
+          "R. C. Gordon",
+          "Manager"
+        ],
+        [
+          "H.E. Broadbent",
+          "Engineer"
+        ],
+        [
+          "Geo Mitchell",
+          "Manager"
+        ],
+        [
+          "D Mc Geachy",
+          "Engineer"
+        ],
+        [
+          "A. Park",
+          "Manager"
+        ],
+        [
+          "J. K. Kelly",
+          "Garage"
+        ]
+      ],
+      "connections": [
+        [
+          "Works",
+          "other",
+          "Lanka Works",
+          "company",
+          null
+        ],
+        [
+          "Agency",
+          "other",
+          "270, Mansion House Chambers, Queen's Street, E. C., 4.",
+          "place",
+          "London"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p468:b6:r1": {
+    "reason": "The shared qualifier in Army and Navy Contractors and the local spelling of Oilmanatores are printed. Army and Navy share the Contractors label. Preserve the damaged Oilmanatores spelling.",
+    "fields": {
+      "listing": {
+        "kind": "sole trader",
+        "trades": [
+          "General Merchants",
+          "Importers",
+          "Exporters",
+          "Stationers",
+          "Drapers",
+          "Milliners",
+          "Vegetable Growers",
+          "Oilmanatores",
+          "Army and Navy Contractors",
+          "Rice Dealers",
+          "Seedsmen",
+          "Tanners",
+          "Forwarding Agents",
+          "Cooly Pay Suppliers"
+        ]
+      },
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p473:b2:r1": {
+    "reason": "Hayley & Kenny is the firm named as agent in the partners column.",
+    "fields": {
+      "roles": [],
+      "connections": [
+        [
+          "Sole Agents for Ceylon",
+          "other",
+          "Hayley & Kenny",
+          "company",
+          "Ceylon"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p477:b2:r2": {
+    "reason": "An opening bracket landed inside the firm name. The agency fragments have no recoverable target names.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Colombo [Crystal Palace",
+        "address_as_printed": "No 48-49, Keyzer St., Pettah",
+        "kind": "firm"
+      },
+      "structure_lost": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "Correspondents and Agents",
+          "correspondent",
+          "England",
+          "place"
+        ],
+        [
+          "Correspondents and Agents",
+          "correspondent",
+          "the Continent",
+          "place"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p477:b2:r3": {
+    "reason": "The last cell starts with scrambled fragments. Two New York names are individually legible.",
+    "fields": {
+      "structure_lost": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES.",
+          "correspondent",
+          "Javies Turner & Co.",
+          "company",
+          "New York"
+        ],
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES.",
+          "correspondent",
+          "Lep Transport & Depository",
+          "company",
+          "New York"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p481:b2:r2": {
+    "reason": "The postal box comes before the street address.",
+    "fields": {
+      "listing": {
+        "address_as_printed": "1, Lake Road, Slave Island, Colombo."
+      }
+    }
+  },
+  "ferg1922:p482:b2:r2": {
+    "reason": "Union Place belongs to the address. The middle cell names another company.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Fairfield Stores",
+        "address_as_printed": "Union Place, Copa Stores Fairfield House"
+      },
+      "roles": [],
+      "connections": [
+        [
+          "PARTNERS AND ASSISTANTS",
+          "other",
+          "G. Robert de Zoyea & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p483:b2:r4": {
+    "reason": "The two people in the first cell repeat the explicitly marked partners in the second. The right cell includes the mill and manufacturing trade labels.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Fradd & Co.",
+        "trades": [
+          "Dessicated Coconut Mills",
+          "Baling",
+          "Fibre Works"
+        ]
+      }
+    }
+  },
+  "ferg1922:p484:b2:r1": {
+    "reason": "The parenthesis describes the firm’s trades.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "George Stewart & Co",
+        "trades": [
+          "Private Attorneys",
+          "Estate Agents",
+          "Commission Agents",
+          "Banking Agents"
+        ]
+      }
+    }
+  },
+  "ferg1922:p487:b2:r1": {
+    "reason": "Hatton is printed outside the bracketed branch list. Bracketed text supplies branches only.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Hatton Bank and Agency Co.",
+        "town": "Hatton",
+        "kind": "bank",
+        "address_as_printed": null
+      }
+    }
+  },
+  "ferg1922:p492:b2:r7": {
+    "reason": "OCR gave an opening parenthesis rather than an opening bracket. Two partners are explicitly named.",
+    "fields": {
+      "listing": {
+        "name_as_printed": "Mercantile Agency",
+        "address_as_printed": "1, Consistory Bldgs., Colombo.",
+        "kind": "firm"
+      }
+    }
+  },
+  "ferg1922:p500:b2:r1": {
+    "reason": "The partners column is reduced to four disconnected OCR fragments. The Whittall entry is explicitly continued. Only the agency column can be recovered on the continuation page.",
+    "fields": {
+      "structure_lost": true,
+      "ocr_doubtful": true,
+      "roles": [],
+      "attach": [
+        [
+          499,
+          4
+        ]
+      ]
+    }
+  },
+  "ferg1922:p462:b5:r17": {
+    "reason": "The OCR supplies a stray initial or visibly truncated names in the representative cell.",
+    "fields": {
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p462:b5:r32": {
+    "reason": "The OCR supplies a stray initial or visibly truncated names in the representative cell.",
+    "fields": {
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p462:b5:r38": {
+    "reason": "The OCR supplies a stray initial or visibly truncated names in the representative cell.",
+    "fields": {
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p462:b5:r40": {
+    "reason": "The OCR supplies a stray initial or visibly truncated names in the representative cell.",
+    "fields": {
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p462:b8:r0": {
+    "reason": "The OCR interleaves association officers, a historical name run and company lines. Retain readable names and unambiguous posts.",
+    "fields": {
+      "structure_lost": true,
+      "officers": [
+        [
+          9,
+          "B. W. Leeve",
+          "Chairman"
+        ],
+        [
+          9,
+          "J. M. Robertson",
+          "Buyers"
+        ],
+        [
+          9,
+          "J. M. Robertson",
+          "Chairmen"
+        ],
+        [
+          9,
+          "W. W. Mitchell",
+          "Chairmen"
+        ],
+        [
+          9,
+          "G. B. Leechman",
+          "Chairmen"
+        ],
+        [
+          9,
+          "Geo. Wall",
+          "Chairmen"
+        ],
+        [
+          9,
+          "N. Gordon Frazer",
+          "Sec—Secretary"
+        ],
+        [
+          9,
+          "A. Duncum",
+          "listed"
+        ]
+      ],
+      "membership": [
+        [
+          9,
+          "ex-officio",
+          "The Ceylon Chamber of Commerce",
+          "unknown"
+        ],
+        [
+          9,
+          "COMMITTEE",
+          "Do well & Co., Ltd.",
+          "company"
+        ],
+        [
+          9,
+          "COMMITTEE",
+          "George Stewart & Co., Ltd.",
+          "company"
+        ],
+        [
+          9,
+          "COMMITTEE",
+          "Heath & Co.",
+          "company"
+        ],
+        [
+          9,
+          "Sellers",
+          "Carson & Co., Ltd.",
+          "company"
+        ],
+        [
+          9,
+          "COMMITTEE",
+          "Whittall & Co",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p463:b2:r0": {
+    "reason": "The buyers and sellers are committee firms. The chair is an ex-officio post.",
+    "fields": {
+      "officers": [
+        [
+          4,
+          "A. Duncum, Esq.",
+          "Secretary"
+        ]
+      ],
+      "membership": [
+        [
+          3,
+          "Chairman or Vice Chairman",
+          "Ceylon Chamber of Commerce",
+          "unknown"
+        ],
+        [
+          3,
+          "Buyers",
+          "General Rubber Co.",
+          "company"
+        ],
+        [
+          3,
+          "Buyers",
+          "Wilson Holgate & Co., (Ceylon) Ltd.",
+          "company"
+        ],
+        [
+          3,
+          "Buyers",
+          "C. W. Mackie & Co.",
+          "company"
+        ],
+        [
+          3,
+          "Buyers",
+          "Hayley & Kenny",
+          "company"
+        ],
+        [
+          3,
+          "Sellers",
+          "Gordon Frazier & Co., Ltd.",
+          "company"
+        ],
+        [
+          3,
+          "Sellers",
+          "J. M. Robertson & Co.",
+          "company"
+        ],
+        [
+          3,
+          "Sellers",
+          "Geo. Stuart & Co.",
+          "company"
+        ],
+        [
+          3,
+          "Sellers",
+          "Whittall & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p463:b5:r0": {
+    "reason": "The committee lists firms, followed by a named secretary and treasurer.",
+    "fields": {
+      "officers": [
+        [
+          8,
+          "A. Duncum, Esq.",
+          "Secretary and Treasurer"
+        ]
+      ],
+      "membership": [
+        [
+          7,
+          "COMMITTEE",
+          "Bartloet & Co.",
+          "company"
+        ],
+        [
+          7,
+          "COMMITTEE",
+          "Forbes & Walker",
+          "company"
+        ],
+        [
+          7,
+          "COMMITTEE",
+          "R. Gordon & Co.",
+          "company"
+        ],
+        [
+          7,
+          "COMMITTEE",
+          "Gow, Somerville & Co.",
+          "company"
+        ],
+        [
+          7,
+          "COMMITTEE",
+          "E. John & Co.",
+          "company"
+        ],
+        [
+          7,
+          "COMMITTEE",
+          "Keell & Waldock.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p463:b9:r0": {
+    "reason": "Individual standing committee members use semicolons and the secretary follows without a semicolon.",
+    "fields": {
+      "officers": [
+        [
+          11,
+          "E. J. Hayward, Esq.",
+          "Chairman"
+        ],
+        [
+          11,
+          "E. H. Cole, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "J. J. Caon, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "W. A. Martin, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "G. D. Robinson Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "G. G. Smith, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "J. J. Wall, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          11,
+          "A. DUNCUM, ESQ.",
+          "Secretary"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p465:b2:r0": {
+    "reason": "List gives the chairman, other standing committee members, and the secretary.",
+    "fields": {
+      "officers": [
+        [
+          4,
+          "J. J. Wall, Esq.",
+          "Chairman"
+        ],
+        [
+          4,
+          "E. H. Cole, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          4,
+          "A. B. Dixie, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          4,
+          "H. W. Horner, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          4,
+          "A. J. Howard Smith, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          4,
+          "W. A. Martin, Esq.",
+          "STANDING COMMITTEE"
+        ],
+        [
+          4,
+          "A. DUNCUM, Esq.",
+          "Secretary"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b4:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "H. E. Holmes",
+          "Agent"
+        ],
+        [
+          "Ian Stewart",
+          "Sub-Agent"
+        ],
+        [
+          "W. J. Treleaven",
+          "Sub-Accountant"
+        ],
+        [
+          "D. H. S. McDonald",
+          "Assistant Accountants"
+        ],
+        [
+          "G. G. Hasting",
+          "Assistant Accountants"
+        ],
+        [
+          "P. E. Pitcher",
+          "Assistant Accountants"
+        ],
+        [
+          "W. J. Threlfall",
+          "Assistant Accountants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b8:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "E. H. Lawrence",
+          "Manager"
+        ],
+        [
+          "R. M. Black",
+          "Accountant"
+        ],
+        [
+          "T. K. Allan",
+          "Assistant Accountants"
+        ],
+        [
+          "R. J. Elliot",
+          "Assistant Accountants"
+        ],
+        [
+          "L. Kelly",
+          "Assistant Accountants"
+        ],
+        [
+          "D. MacGregor",
+          "Assistant Accountants"
+        ],
+        [
+          "F. Latham",
+          "Assistant Accountants"
+        ],
+        [
+          "J. Watson Baker",
+          "Assistant Accountants"
+        ],
+        [
+          "R. O. Hunter",
+          "Assistant Accountants"
+        ],
+        [
+          "J. A. Keir",
+          "Assistant Accountants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b12:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "P. E. Beeston",
+          "Agent"
+        ],
+        [
+          "W. Cantlay",
+          "Accountant"
+        ],
+        [
+          "D. J. Jones",
+          "Sub-Accountants"
+        ],
+        [
+          "I. B. Hybart",
+          "Sub-Accountants"
+        ],
+        [
+          "W. J. A. Grant",
+          "Sub-Accountants"
+        ],
+        [
+          "B. W. Talbot",
+          "Sub-Accountants"
+        ],
+        [
+          "S. C. Bywater",
+          "Sub-Accountants"
+        ],
+        [
+          "A. D. Markintosh",
+          "Sub-Accountants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b16:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "F. A. Rickard",
+          "Agent"
+        ],
+        [
+          "J. P. McGillivray",
+          "Accountant"
+        ],
+        [
+          "H. M. Cook",
+          "Assistant Accountants"
+        ],
+        [
+          "J. B. Stewart",
+          "Assistant Accountants"
+        ],
+        [
+          "R. Newsam",
+          "Assistant Accountants"
+        ],
+        [
+          "M. Thiagarajah",
+          "Shroff"
+        ],
+        [
+          "Terence R. Frugtniet",
+          "Head Clerk"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b20:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "F. H. Yeats",
+          "Manager"
+        ],
+        [
+          "Jas. Mc Murray",
+          "Accountant"
+        ],
+        [
+          "N. Wilks",
+          "Assistant Accountants"
+        ],
+        [
+          "H. Graves",
+          "Assistant Accountants"
+        ],
+        [
+          "H. W. Hawkins",
+          "Assistant Accountants"
+        ],
+        [
+          "L. B. Kidd",
+          "Assistant Accountants"
+        ],
+        [
+          "V. Carthigasu",
+          "Head Shroff"
+        ],
+        [
+          "A. W. Kelly",
+          "Head Clerk"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b24:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "H. Manwaring",
+          "Manager"
+        ],
+        [
+          "J. H. Webster",
+          "Accountant"
+        ],
+        [
+          "H. Pappin",
+          "Sub-Accountants"
+        ],
+        [
+          "T. S. D. Brown",
+          "Sub-Accountants"
+        ],
+        [
+          "Ratnasabapathy Doreamy",
+          "Head Shroff"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b27:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "B. V. Casper, c. c. s.",
+          "Secretary"
+        ],
+        [
+          "H. D. Morrow",
+          "Actg Accountant"
+        ],
+        [
+          "A. J. Sansoni",
+          "Actg Chief Clerk"
+        ],
+        [
+          "Edwin de Livera, J. P. & Gate Muhandiram",
+          "Shroff"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p466:b30:r0": {
+    "reason": "Bank staff are grouped by suffix titles while other titles precede individual names.",
+    "fields": {
+      "roles": [
+        [
+          "H. H. Phelp",
+          "Manager"
+        ]
+      ],
+      "connections": [
+        [
+          "Secretaries",
+          "other",
+          "Harrisons and Crosfield, Ltd.",
+          "company"
+        ],
+        [
+          "Bankers",
+          "other",
+          "Imperial Bank of India",
+          "bank"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b6:r0": {
+    "reason": "The outstation listing puts the individual role after the name.",
+    "fields": {
+      "roles": [
+        [
+          "F. C. Macdonald",
+          "Agent"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b7:r0": {
+    "reason": "The outstation listing puts the individual role after the name.",
+    "fields": {
+      "roles": [
+        [
+          "J. G. Bumpus",
+          "Agent"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b12:r0": {
+    "reason": "The outstation listing puts the individual role after the name.",
+    "fields": {
+      "roles": [
+        [
+          "N. A. Ormiston",
+          "Agent"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b14:r0": {
+    "reason": "The outstation listing puts the individual role after the name.",
+    "fields": {
+      "roles": [
+        [
+          "H. H. Phelp",
+          "Manager"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b16:r0": {
+    "reason": "The outstation listing puts the individual role after the name.",
+    "fields": {
+      "roles": [
+        [
+          "K. A. Robertson",
+          "Acting Agent"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b17:r0": {
+    "reason": "The outstation agent is a business.",
+    "fields": {
+      "connections": [
+        [
+          "Agents",
+          "other",
+          "Clark, Spence & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b18:r0": {
+    "reason": "The outstation agent is a business.",
+    "fields": {
+      "connections": [
+        [
+          "Agents",
+          "other",
+          "E. Coates & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b19:r0": {
+    "reason": "The outstation agent is a business.",
+    "fields": {
+      "connections": [
+        [
+          "Agents",
+          "other",
+          "E. Coates & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p467:b9:r0": {
+    "reason": "The Hatton block combines two proprietors, two staff and four branch clusters. Keep the OCR place and job spellings.",
+    "fields": {
+      "roles": [
+        [
+          "W. B. Paterson, J.P.",
+          "Proprietors"
+        ],
+        [
+          "A. R. Aitken, J.P. & U.P.M.",
+          "Proprietors"
+        ],
+        [
+          "R. T. Niles",
+          "Head Shreff"
+        ],
+        [
+          "D. S. C. Umagiliya",
+          "Head Clerk"
+        ]
+      ],
+      "branches": [
+        [
+          "Upcot",
+          "Maskeliya"
+        ],
+        [
+          "Glentilt",
+          "Maskeliya"
+        ],
+        [
+          "Kotiyagala",
+          "Bogawantalawa"
+        ],
+        [
+          "Champion",
+          "Bogawantalawa"
+        ],
+        [
+          "Holbrook",
+          "Ayras"
+        ],
+        [
+          "Diyagama",
+          "Ayras"
+        ],
+        [
+          "Hardenhuish",
+          "Watawala"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p463:b13:r2": {
+    "reason": "Two final agent names are interleaved.",
+    "fields": {
+      "agents": [
+        [
+          "Eastern Produce & Estates Co., Ltd.",
+          null,
+          "company"
+        ],
+        [
+          "Boustead Bros.",
+          null,
+          "company"
+        ],
+        [
+          "Mackinnon, Mackenzie & Co.",
+          null,
+          "company"
+        ],
+        [
+          "Volkart Bros.",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p463:b13:r4": {
+    "reason": "An orphaned bracket splits the agent name.",
+    "fields": {
+      "agents": [
+        [
+          "C. D. Caroli [ & Co",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p463:b13:r7": {
+    "reason": "The final agent in this cell continues into the following OCR row. Lee and Ceylon Trading appear as Commercial Union agents in the same volume. Their displaced names are attached to that row.",
+    "fields": {
+      "agents": [],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p463:b13:r8": {
+    "reason": "A wrapped agent name starts in the preceding OCR cell. The same volume identifies both firms as Commercial Union agents.",
+    "fields": {
+      "agents": [
+        [
+          "Lee, Heuges & Co., Ltd.",
+          null,
+          "company"
+        ],
+        [
+          "The Ceylon Trading Co., Ltd.",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p463:b13:r9": {
+    "reason": "The abbreviation for the final company shifted into the next row.",
+    "fields": {
+      "agents": [
+        [
+          "Clark Young & Co.",
+          null,
+          "company"
+        ],
+        [
+          "Molchanoff, Pechatnoff & Co.",
+          null,
+          "company"
+        ],
+        [
+          "Tarrant & Co.",
+          null,
+          "company"
+        ],
+        [
+          "Whittall & Co",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p463:b13:r10": {
+    "reason": "Bracketed suffix completes preceding row.",
+    "fields": {
+      "agents": [
+        [
+          "Walker, Sons & Co., Ltd",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p464:b3:r23": {
+    "reason": "The two final agent names lack punctuation between them.",
+    "fields": {
+      "agents": [
+        [
+          "James Finlay & Co., Ltd.",
+          null,
+          "company"
+        ],
+        [
+          "Francis F. Street",
+          null,
+          "person"
+        ],
+        [
+          "Harrisons and Eastern Export, Ltd",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p464:b3:r27": {
+    "reason": "A bracketed suffix in the next row completes Despatch.",
+    "fields": {
+      "agents": [
+        [
+          "E. G. Negris & Co.",
+          null,
+          "company"
+        ],
+        [
+          "Cargo Boat Despatch Co",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p464:b3:r28": {
+    "reason": "The bracketed suffix is assigned to the preceding row.",
+    "fields": {
+      "agents": [
+        [
+          "Whittall & Co.",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p464:b5:r4": {
+    "reason": "The trailing bracketed fragment has no recoverable separate acquirer.",
+    "fields": {
+      "agents": [
+        [
+          "Royal Insurance Co., Ltd.",
+          null,
+          "insurer"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p465:b6:r1": {
+    "reason": "Bracketed text is the suffix of the agent in the following row.",
+    "fields": {
+      "agents": [
+        [
+          "George Stewart & Co",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p465:b6:r2": {
+    "reason": "Agent suffix appears in brackets on the preceding row.",
+    "fields": {
+      "agents": [
+        [
+          "Hayley & Kenny",
+          null,
+          "company"
+        ],
+        [
+          "Mackinnon Mackenzie & Co.",
+          null,
+          "company"
+        ]
+      ],
+      "listing": {
+        "flags": [
+          "structure_lost",
+          "ocr_doubtful"
+        ]
+      }
+    }
+  },
+  "ferg1922:p550:b4:r1": {
+    "reason": "Dukar is an undifferentiated trading name with a separately listed person.",
+    "fields": {
+      "listing": {
+        "kind": "firm"
+      }
+    }
+  },
+  "ferg1922:p473:b2:r2": {
+    "reason": "The right column has distinct Import and Export product lists.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Import",
+          "General Merchandise",
+          "Paper",
+          "Jewellery",
+          "Table Glassware",
+          "Textiles",
+          "Fancy Goods",
+          "Novelties",
+          "Export",
+          "Ceylon Produce",
+          "Fibre",
+          "Desiccated Coconuts",
+          "Citronella Oil"
+        ]
+      }
+    }
+  },
+  "ferg1922:p479:b2:r5": {
+    "reason": "A compound occupation follows the sole trader’s name in the partners column.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Planter",
+          "Merchant"
+        ]
+      },
+      "roles": [
+        [
+          "R. F. S. De Soysa",
+          "Proprietary Planter and Merchant"
+        ],
+        [
+          "F. P. de Silva",
+          "Manager"
+        ],
+        [
+          "C. A. N. de Soysa",
+          "Assistants"
+        ],
+        [
+          "J. M. Silva",
+          "Assistants"
+        ],
+        [
+          "W. M. de Mel",
+          "Accountant"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p481:b2:r4": {
+    "reason": "Chief Engineer precedes a name inside the engineering department line.",
+    "fields": {
+      "roles": [
+        [
+          "R. F. Battams",
+          "Manager in Ceylon"
+        ],
+        [
+          "C. T. W. Dunsmure",
+          "Assistants"
+        ],
+        [
+          "A. E. Donaldson",
+          "Assistants"
+        ],
+        [
+          "C. H. Jolliffe",
+          "Chief Engineer"
+        ],
+        [
+          "J. W. G. Meaby",
+          "Engineers"
+        ],
+        [
+          "W. T. Stewart",
+          "Engineers"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p491:b2:r5": {
+    "reason": "The final directors in this cell belong with Mackwoods, the next listing.",
+    "fields": {
+      "structure_lost": true,
+      "roles": [
+        [
+          "R. S. Philpott",
+          "Partners"
+        ],
+        [
+          "T. H. Tatham",
+          "Partners"
+        ],
+        [
+          "A. R. Quarne",
+          "Assistants"
+        ],
+        [
+          "C. St A. Angove",
+          "Assistants"
+        ],
+        [
+          "H. Watkins",
+          "Assistants"
+        ],
+        [
+          "R. H. Dullace",
+          "Assistants"
+        ],
+        [
+          "D. H. Beatt",
+          "Assistants"
+        ],
+        [
+          "J. D. Hammond",
+          "Assistants"
+        ],
+        [
+          "P. Hay Baker",
+          "Officer Afloat"
+        ],
+        [
+          "A C Campbell",
+          "Deputy Superintending Engineer"
+        ]
+      ],
+      "connections": [
+        [
+          "Officer Afloat",
+          "other",
+          "P. & O Co",
+          "shipping line"
+        ],
+        [
+          "Deputy Superintending Engineer",
+          "other",
+          "B. I. S. N. Co",
+          "shipping line"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p491:b2:r6": {
+    "reason": "Previous row contains this firm’s displaced directors.",
+    "fields": {
+      "structure_lost": true,
+      "additional_roles": [
+        [
+          "ferg1922:p491:b2:r5",
+          "F. M. Mackwood",
+          "Directors"
+        ],
+        [
+          "ferg1922:p491:b2:r5",
+          "F. E. Mackwood",
+          "Directors"
+        ],
+        [
+          "ferg1922:p491:b2:r5",
+          "F O Mackwood",
+          "Directors"
+        ],
+        [
+          "ferg1922:p491:b2:r5",
+          "E. O. Mackwood",
+          "Directors"
+        ],
+        [
+          "ferg1922:p491:b2:r5",
+          "R. F. Darby",
+          "Directors"
+        ],
+        [
+          "ferg1922:p491:b2:r5",
+          "H F. Parfitt",
+          "Directors"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p493:b2:r1": {
+    "reason": "The narrow column wraps posts and repeats the consul’s name with a different hyphen.",
+    "fields": {
+      "roles": [
+        [
+          "E. Dumonteil-Lagrèze",
+          "Agent General for Ceylon and India"
+        ],
+        [
+          "A. Fombertaux",
+          "Agent in Ceylon"
+        ],
+        [
+          "I. Zebrowski",
+          "Chief Accountant"
+        ],
+        [
+          "E. Pascalis",
+          "2nd Accountant"
+        ],
+        [
+          "E. Dumonteil Lagrèze",
+          "Acting Consul for Italy"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p493:b2:r2": {
+    "reason": "Narrow columns split Forage and put each department and branch label among the staff lines.",
+    "fields": {
+      "listing": {
+        "address_as_printed": "Nos. 11, 12, 13, York St., Fort, Colombo, & Ward St., Kandy. Forage Mills and Stores at Dawson Street, Slave Island."
+      },
+      "roles": [
+        [
+          "Hon. Mr. J. Lohore",
+          "Chairman"
+        ],
+        [
+          "Walter Philips",
+          "Managing Director"
+        ],
+        [
+          "T. C. Dyball",
+          "Directors"
+        ],
+        [
+          "William Geddes",
+          "Directors"
+        ],
+        [
+          "F. C. Cossey",
+          "Directors"
+        ],
+        [
+          "H. J. Lintchergs",
+          "Accountant & Secretary"
+        ],
+        [
+          "H. J. Grav",
+          "As t. Accountants"
+        ],
+        [
+          "L. E. Hoal",
+          "As t. Accountants"
+        ],
+        [
+          "A. L. Paterson-Himbury",
+          "As t. Accountants"
+        ],
+        [
+          "W. E. Gibson",
+          "As t. Accountants"
+        ],
+        [
+          "J. McVurdo",
+          "Manager"
+        ],
+        [
+          "W. K. Harris",
+          "Stores and Wines Dept."
+        ],
+        [
+          "H. J. Brooks",
+          "Stores and Wines Dept."
+        ],
+        [
+          "C. Kent",
+          "Forage"
+        ],
+        [
+          "F. J. Harlow",
+          "Silverware"
+        ],
+        [
+          "J. F. Ness",
+          "Drugs & Dispensing"
+        ],
+        [
+          "A. Wood",
+          "Men's Clothing & Outfitting"
+        ],
+        [
+          "A. Robertson",
+          "Men's Clothing & Outfitting"
+        ],
+        [
+          "H. B. Winter",
+          "Men's Clothing & Outfitting"
+        ],
+        [
+          "P. G. Kitchingman",
+          "Men's Clothing & Outfitting"
+        ],
+        [
+          "P. G. Usherwood",
+          "Household-ware Dept."
+        ],
+        [
+          "E. Jardine",
+          "Forwarding Dept"
+        ],
+        [
+          "F. Cossey",
+          "Manager"
+        ],
+        [
+          "E. Lucock",
+          "Assistant"
+        ],
+        [
+          "T. S. Brechin",
+          "Drug Dept."
+        ],
+        [
+          "Miss Beat",
+          "Ladies' Depts."
+        ],
+        [
+          "Mrs. Thompson",
+          "Ladies' Depts."
+        ],
+        [
+          "J. Wiseman",
+          "Gent's Clothing & Outfitting Depts"
+        ],
+        [
+          "W. M. Irvine",
+          "Gent's Clothing & Outfitting Depts"
+        ],
+        [
+          "H. W. Lake",
+          "Printing Dept."
+        ],
+        [
+          "H. J. Allsop",
+          "Nuwara Eliya Branch"
+        ],
+        [
+          "W. G. Hales",
+          "Bandarawela Branch"
+        ]
+      ],
+      "connections": [
+        [
+          "&",
+          "branch_at",
+          "Kandy",
+          "place"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p495:b2:r3": {
+    "reason": "Import and Export modify the same Merchant label.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Import Merchant",
+          "Export Merchant"
+        ]
+      }
+    }
+  },
+  "ferg1922:p495:b2:r6": {
+    "reason": "All four short trades are printed in a plain list.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Carriage Builders",
+          "Veterinarians",
+          "Livery Stable Keepers",
+          "Undertakers"
+        ]
+      }
+    }
+  },
+  "ferg1922:p497:b2:r5": {
+    "reason": "Import, Export and Commission all modify Agents.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Import Agents",
+          "Export Agents",
+          "Commission Agents"
+        ]
+      }
+    }
+  },
+  "ferg1922:p489:b4:r0": {
+    "reason": "Head Office block aligns with Kearley and Tonge.",
+    "fields": {
+      "right_blocks": [
+        12,
+        12
+      ]
+    }
+  },
+  "ferg1922:p489:b6:r0": {
+    "reason": "Broker trade block aligns with Keell and Waldock.",
+    "fields": {
+      "right_blocks": [
+        13,
+        13
+      ]
+    }
+  },
+  "ferg1922:p489:b8:r0": {
+    "reason": "Tea Growers agency and foreign correspondents align with Lanka Commercial.",
+    "fields": {
+      "right_blocks": [
+        14,
+        16
+      ]
+    }
+  },
+  "ferg1922:p489:b10:r0": {
+    "reason": "Representatives, shipping and insurance headings and the lower estate-company list form the Lee, Hedges right column.",
+    "fields": {
+      "right_blocks": [
+        17,
+        55
+      ]
+    }
+  },
+  "ferg1922:p468:b6:r6": {
+    "reason": "The blank left cell continues the shared shipping and insurance entry above.",
+    "fields": {
+      "attach": [
+        [
+          468,
+          5
+        ],
+        [
+          468,
+          4
+        ]
+      ]
+    }
+  },
+  "ferg1922:p469:b2:r1": {
+    "reason": "All three firms repeat as continued, with a single shared agency column.",
+    "fields": {
+      "attach": [
+        [
+          468,
+          4
+        ],
+        [
+          468,
+          5
+        ],
+        [
+          468,
+          7
+        ]
+      ]
+    }
+  },
+  "ferg1922:p470:b2:r4": {
+    "reason": "Visiting Agents appears in the first cell of a two-cell extension of the Bois entry.",
+    "fields": {
+      "attach": [
+        [
+          470,
+          3
+        ]
+      ]
+    }
+  },
+  "ferg1922:p474:b2:r1": {
+    "reason": "The Cargills entry is explicitly continued. Wine and drug principals are interleaved in two columns. Recover separable targets and retain OCR spellings.",
+    "fields": {
+      "attach": [
+        [
+          473,
+          3
+        ]
+      ],
+      "structure_lost": true,
+      "skip_right": true,
+      "agency_groups": [
+        {
+          "relation": "Wine & Spirits Agencies",
+          "targets": [
+            "Mackie & Co.",
+            "Stephen Smith & Co.",
+            "Moet & Chandon",
+            "Stenhouse & Co.",
+            "Otard Dupuy & Co.",
+            "\"St. Pancras\" Refinery",
+            "Paul Ruinart & Co.",
+            "Stowers",
+            "Pommery & Grauo",
+            "Tennent, Ltd., J. & B.",
+            "Read Bros., Ltd.",
+            "Usher & Co., Andrew",
+            "W. A. Ross",
+            "Warre & Co",
+            "Ruij Hermanos",
+            "Wynand Lockink",
+            "Sagar Evans & Co.",
+            "Sandeman Sons & Co."
+          ]
+        },
+        {
+          "relation": "Drug Agencies",
+          "targets": [
+            "Carnick Co., G. W.",
+            "Hoffman La Roche",
+            "Chamberlain's Medicine Co.",
+            "Ch'm Co.",
+            "Clim & Co.",
+            "Kay Bros.",
+            "Colgate & Co.",
+            "McCoy's Fever and Ague Killer",
+            "Duckworin & Co.",
+            "Mentholatum Co",
+            "Molteni & Co., L",
+            "Edge & Sons, William",
+            "Otoli, Ltd.",
+            "Felice Bisleri & Co.",
+            "Pearson & Co., E. T.",
+            "Fellows Manufacturing Co.",
+            "Remedy Co., D.D.D.",
+            "Robin. M.",
+            "Ferber & Co.",
+            "Saltrates, Ltd.",
+            "Foster McClellan Co.",
+            "Sardou & Co., H.",
+            "Griffiths Hughes & Co",
+            "Serravallo, J.",
+            "Stephen Smith & Co.",
+            "Wander & Co.",
+            "Herpicide Co."
+          ]
+        }
+      ]
+    }
+  },
+  "ferg1922:p475:b2:r1": {
+    "reason": "Carron is a visibly damaged continued form of the preceding Carson entry.",
+    "fields": {
+      "attach": [
+        [
+          474,
+          3
+        ]
+      ]
+    }
+  },
+  "ferg1922:p479:b2:r1": {
+    "reason": "The Darley, Butler entry is explicitly continued.",
+    "fields": {
+      "attach": [
+        [
+          478,
+          4
+        ]
+      ]
+    }
+  },
+  "ferg1922:p488:b2:r1": {
+    "reason": "The Henderson entry is explicitly continued.",
+    "fields": {
+      "attach": [
+        [
+          487,
+          6
+        ]
+      ]
+    }
+  },
+  "ferg1922:p470:b2:r1": {
+    "reason": "Three partners are named, with a works location in the address.",
+    "fields": {
+      "listing": {
+        "kind": "firm"
+      },
+      "connections": [
+        [
+          "Works at",
+          "branch_at",
+          "Kolaniya",
+          "place"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p471:b2:r3": {
+    "reason": "The OCR joins tobacco principals with an oil-manufacturing trade list containing Cor Fibre; verify the original layout before relying on those trades.",
+    "fields": {
+      "structure_lost": true,
+      "ocr_doubtful": true
+    }
+  },
+  "ferg1922:p482:b2:r1": {
+    "reason": "Explicit trade and site headings identify the cooperative business, its offices and proprietary estates.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Wholesale General Dealers",
+          "Manufacturers",
+          "Bankers",
+          "Shipowners",
+          "Insurers",
+          "Millers",
+          "Colliery Owners"
+        ]
+      },
+      "roles": [
+        [
+          "Geo. Price",
+          "Ceylon Representative and Attorney"
+        ],
+        [
+          "Geo. Price, jr.",
+          "Assistant"
+        ],
+        [
+          "Geo. Benie Ulapana",
+          "Estates Manager"
+        ]
+      ],
+      "skip_right": true,
+      "connections": [
+        [
+          "Central Offices",
+          "other",
+          "Balloon St.",
+          "place",
+          "Manchester"
+        ],
+        [
+          "Tea & Coffee Depts.",
+          "other",
+          "100, Leman St.",
+          "place",
+          "London"
+        ],
+        [
+          "Central Offices",
+          "other",
+          "95, Morrison St.",
+          "place",
+          "Glasgow"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Colombo",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "New York",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Copenhagen",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Aarhus",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Montreal",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Odense",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Esbjerg",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Herning",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Sierra Leone",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Gold Coast",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Nigeria",
+          "place"
+        ],
+        [
+          "Colonial and Foreign Depots",
+          "branch_at",
+          "Denia",
+          "place",
+          "Spain"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Mahavilla",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Nugawella",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Weliganga",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Dambagalla",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Denmark",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Westhall",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Barcaple",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Culhorn",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Bowhill",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Nagastenne",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Bahurundrab",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Kolapatna",
+          "unknown"
+        ],
+        [
+          "Proprietary Estates in Ceylon",
+          "other",
+          "Gingranoya",
+          "unknown"
+        ],
+        [
+          "Southern Indian Estates",
+          "other",
+          "Wynaad",
+          "unknown"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p494:b2:r1": {
+    "reason": "Street address in the right cell belongs to the tea merchants operation, separate from the trade descriptors.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "General Merchants",
+          "Rice Dealers",
+          "Estate Requisites",
+          "Cooly Cumbhies",
+          "Cooly Clothes",
+          "Tea Merchants"
+        ]
+      },
+      "roles": [
+        [
+          "N. M. Mohamado Ibrahim Rawther",
+          "Partners"
+        ],
+        [
+          "S. Mohamado Usoof Rawther",
+          "Partners"
+        ],
+        [
+          "N. Abdul Rahiman Rawther",
+          "Partners"
+        ],
+        [
+          "S. Mohamado Salihu Rawther",
+          "Partners"
+        ],
+        [
+          "A. K. Abdul Rahiman Rawther",
+          "Partners"
+        ],
+        [
+          "S. Mohamed Usoof Rawther",
+          "Colombo Manager"
+        ],
+        [
+          "S. Mohamed Salihu Rawther",
+          "Amarapur Manager"
+        ],
+        [
+          "N. Abdul Rahiman Rawther",
+          "Gampola Manager"
+        ],
+        [
+          "K. A. Sangalingam Pillay",
+          "Broker"
+        ]
+      ],
+      "connections": [
+        [
+          "Tea Merchants",
+          "other",
+          "No. 35, Second Cross Street",
+          "place",
+          "Colombo"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p496:b2:r1": {
+    "reason": "Closing braces delimit a name and the separate visiting-agent line.",
+    "fields": {
+      "roles": [
+        [
+          "N. Don Stephen Silva, J.P.",
+          "listed"
+        ],
+        [
+          "Col T. Y Wright",
+          "Visiting Agent"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p476:b2:r4": {
+    "reason": "The first part of the partners cell is a corporate agent followed by the named resident manager.",
+    "fields": {
+      "roles": [
+        [
+          "S.H. Barlow",
+          "Resident Manager"
+        ]
+      ],
+      "connections": [
+        [
+          "General Agents",
+          "other",
+          "Clark, Young & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p485:b2:r1": {
+    "reason": "Department names modify two of the three manager posts.",
+    "fields": {
+      "roles": [
+        [
+          "C. D. Moorhead",
+          "Manager, Crude Rubber Dept."
+        ],
+        [
+          "C. C. Devore",
+          "Manager, Sales Dept."
+        ],
+        [
+          "J. A. Jamieson",
+          "Office Manager"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p495:b2:r4": {
+    "reason": "The agent named in the partner cell is a company rather than staff.",
+    "fields": {
+      "roles": [],
+      "connections": [
+        [
+          "Colombo Agents",
+          "other",
+          "Mackinnon, Mackenzie & Co.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p478:b2:r4": {
+    "reason": "The Sun Life representative label precedes a name on a separate line.",
+    "fields": {
+      "roles": [
+        [
+          "W. E. Mitchell",
+          "Chairman"
+        ],
+        [
+          "F. S. Mitchell",
+          "Director"
+        ],
+        [
+          "E. R. Williams",
+          "Director"
+        ],
+        [
+          "W. A. Cole",
+          "Managing Director"
+        ],
+        [
+          "R. J. Mackenzie",
+          "Secretary"
+        ],
+        [
+          "O. P. Rust",
+          "Assistant Secretaries"
+        ],
+        [
+          "L. F. Foucar",
+          "Assistant Secretaries"
+        ],
+        [
+          "E. C. Rice",
+          "Assistants"
+        ],
+        [
+          "J. M. Souter",
+          "Assistants"
+        ],
+        [
+          "B. J. Lallyett",
+          "Assistants"
+        ],
+        [
+          "E. C. Boyce",
+          "Representative, Sun Life Assurance Co. of Canada"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p488:b2:r3": {
+    "reason": "The locations are printed with management titles and a consul line follows the assistants.",
+    "fields": {
+      "roles": [
+        [
+          "H. L. Bekker",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "M. H. T. Bury",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "W. H. J. Oderwald",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "W. Stork",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "Dr. Th. M. Verster",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "D. H. de Vries",
+          "Directors (Amsterdam)"
+        ],
+        [
+          "G. J. Van Hooiwerff",
+          "Manager (Amsterdam)"
+        ],
+        [
+          "L. Vander Spoel",
+          "Manager (Colombo)"
+        ],
+        [
+          "H. de Wildt",
+          "Assistants"
+        ],
+        [
+          "F. Elhorst",
+          "Assistants"
+        ],
+        [
+          "F. H. Wentholt",
+          "Assistants"
+        ],
+        [
+          "L. Vander Spoel",
+          "Consul for the Netherlands"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p473:b2:r3": {
+    "reason": "Wine and spirit principals are printed in two columns that OCR interleaves by line.",
+    "fields": {
+      "structure_lost": true,
+      "skip_right_from": "Wine and Spirits Agencies",
+      "connections": [
+        [
+          "and at",
+          "branch_at",
+          "Cinnamon Gardens",
+          "place"
+        ],
+        [
+          "and at",
+          "branch_at",
+          "Galle Face",
+          "place"
+        ],
+        [
+          "and at",
+          "branch_at",
+          "Kandy",
+          "place"
+        ],
+        [
+          "and at",
+          "branch_at",
+          "Nuwara Eliya",
+          "place"
+        ]
+      ],
+      "agency_groups": [
+        {
+          "relation": "Wine and Spirits Agencies",
+          "targets": [
+            "Beck & Co.",
+            "Dow's Port",
+            "Bernard & Co.",
+            "Duff Gordon & Co.",
+            "Bouchard Pere et Fils",
+            "East Asiatic Co.",
+            "Bouvet Ladubay",
+            "Gilmour Thomson & Co.",
+            "Burke, Ltd., F. & J.",
+            "Guimaraens & Co",
+            "Courvoisier et Cie",
+            "Haig & Haig, Ltd.",
+            "Crawford, Robert",
+            "Haig & Co, J",
+            "Dewar & Sons, Ltd., John",
+            "Hanappier & Co.",
+            "Hendsieck, Chas.",
+            "De St. Marceaux",
+            "Irroy & Co., Ernest",
+            "Dienhard's",
+            "Johnson, Nathl",
+            "Dom Bellardi & Co.",
+            "Latrille & Ginesiet"
+          ]
+        }
+      ]
+    }
+  },
+  "ferg1922:p498:b2:r1": {
+    "reason": "The signed agency heading governs the long list. The first branch names are printed without a separator between Kandy and Talawakelle.",
+    "fields": {
+      "connections": [
+        [
+          "Also at",
+          "branch_at",
+          "Kandy",
+          "place"
+        ],
+        [
+          "Also at",
+          "branch_at",
+          "Talawakelle",
+          "place"
+        ],
+        [
+          "Also at",
+          "branch_at",
+          "Ratnapura",
+          "place"
+        ],
+        [
+          "Also at",
+          "branch_at",
+          "Galle",
+          "place"
         ]
       ]
     }

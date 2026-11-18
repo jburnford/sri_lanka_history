@@ -4,12 +4,25 @@
   "fields_at_most_200": true,
   "dangling_references": [],
   "overlong_fields": [],
+  "overlong_audit_fields": [],
   "counts": {
     "A": {
       "listings": 285,
-      "roles": 254,
-      "connections": 43
+      "roles": 262,
+      "connections": 44
+    },
+    "B": {
+      "listings": 153,
+      "roles": 997,
+      "connections": 1716
+    },
+    "C": {
+      "listings": 215,
+      "roles": 217,
+      "connections": 317
     }
   },
-  "skipped": {}
+  "skipped": {
+    "461": "Military directories only. No Chamber heading or roster is present."
+  }
 }
