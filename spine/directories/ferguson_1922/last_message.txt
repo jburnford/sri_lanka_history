@@ -1,0 +1,7 @@
+Extracted **653 listings, 1,476 roles, and 2,077 connections** across Sections A, B, and C. The outputs rebuild byte for byte. Validation passed for unique IDs, listing references, and the 200-character field limit.
+
+The first manual audit found 19 mismatches across 782 fields. The fresh audit found 5 across 391 fields. Both sets of findings were corrected in the final extracts, and the audit preserves the original verdicts.
+
+Colombo pages 480, 484, and 489 were recovered with structure-loss flags. The available Chamber roster begins mid-list on PDF 462. PDF 461 contains military entries, and the opening roster was unavailable in the OCR.
+
+[README with counts and five worked examples](/home/jic823/Documents/ceylon/spine/directories/ferguson_1922/README.md) · [Audit](/home/jic823/Documents/ceylon/spine/directories/ferguson_1922/audit.tsv) · [Validation](/home/jic823/Documents/ceylon/spine/directories/ferguson_1922/validation.json)

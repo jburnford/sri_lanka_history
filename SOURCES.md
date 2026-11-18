@@ -28,3 +28,28 @@ Before adding a new folder to `.gitignore`'s allow-list, add a row here saying w
 `spine/sources/bluebook_ia_text/` holds the Internet Archive's own OCR text (search text and page index) for the
 Blue Book items listed in `spine/bluebook/volumes.tsv`, fetched by `spine/bluebook/fetch_ia_text.py`. Source:
 archive.org. It is used only to check the numbers in the parsed tables.
+
+## Blue Book years not held
+
+Checked 2026-11-17. No scan of these years was found on archive.org or HathiTrust. JSTOR South Asia Open Archives,
+NYPL Digital Collections and the West Bengal Secretariat Library site could not be reached by script and are
+unchecked. The National Archives, Kew, holds a complete run in series CO 59 ("Blue books of statistics"), one piece
+per year, all open and none digitised. The volumes for 1821–1861 are reported to be handwritten (Sunday Observer,
+15 October 2017; not confirmed).
+
+| Missing year(s) | Kew reference |
+|---|---|
+| 1821–1862 | CO 59/30 to CO 59/73 (CO 59/41 and CO 59/45 are statistical tables 1826–1831 and the 1834 civil establishment) |
+| 1864, 1865 | CO 59/75, CO 59/76 |
+| 1867 | CO 59/78 |
+| 1870 | CO 59/81 |
+| 1872–1876 | CO 59/83 to CO 59/87 |
+| 1878, 1879 | CO 59/89, CO 59/90 |
+| 1884 | CO 59/95 |
+| 1888 | CO 59/99 |
+| 1895 | CO 59/106 |
+| 1912 (main volume; only the supplementary is held) | CO 59/123 |
+| 1939–1945 | CO 59/152, 153, 155 to 159 |
+
+Other paper copies: the Sri Lanka National Archives reading room, Colombo (reported run 1821–1937), and the National
+Museum Library, Colombo (reported 1864–1938).
