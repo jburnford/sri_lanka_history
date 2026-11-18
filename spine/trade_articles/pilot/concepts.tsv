@@ -1,0 +1,30 @@
+concept_id	label	family	qid	qid_label	relation	species_qid	note
+tea.made	Tea (made tea: the dried, manufactured leaf)	tea	Q6097	tea	closest_item_differs	Q101815	The item describes the brewed drink; no item was found for the traded dried leaf. Black (Q203415) and green (Q484083) are separate items and are used as a facet where the ledger prints them.
+tea.seed	Tea seed (for planting)	tea	Q101815	Camellia sinensis	part_of_taxon	Q101815	Seed of the plant; not the commodity tea.
+tea.waste	Tea waste (sweepings, for caffeine)	tea	Q6097	tea	by_product		
+tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)	tea			not_the_commodity		Named after tea but a different good; kept so a search for "tea" does not sum them in.
+coffee.raw	Coffee, raw (unroasted beans)	coffee	Q795206	green coffee	exact	Q156354	Species (Coffea arabica Q47685, Coffea liberica Q47718) and the plantation/native distinction are facets. Q153697 "coffee bean" is the broader item.
+coffee.by_product	Coffee refuse, husks	coffee	Q153697	coffee bean	by_product		
+coffee.seed	Coffee seed (for planting)	coffee	Q156354	Coffea	part_of_taxon	Q156354	
+cinchona.bark	Cinchona (Peruvian) bark	cinchona	Q3133417	Jesuit's bark	exact		The UK statements file it under Drugs as "Bark, Peruvian"; Ceylon from 1921 under "Dyeing materials".
+bark.other	Tanning and other barks (not cinchona)	cinchona			not_the_commodity		Tanners', mangrove (kandal) and "Valeen/Salem" bark share the word only.
+cinnamon.quills	Cinnamon (bark, quills and chips)	cinnamon	Q28165	cinnamon	exact	Q370239	Plantation and wild are a grade facet with no item.
+cinnamon.bark_oil	Cinnamon oil	cinnamon	Q72460907	cinnamon oil	exact	Q370239	
+cinnamon.leaf_oil	Cinnamon leaf oil	cinnamon	Q30314560	cinnamon leaf oil	exact	Q370239	Printed 1881-1900 as "Cinnamon Leaf" in ounces under an Oil heading the OCR lost.
+cinnamon.leaves	Cinnamon leaves	cinnamon			none		
+coconut.oil	Coconut oil	coconut	Q216235	coconut oil	exact	Q13187	
+coconut.copra	Copra	coconut	Q193726	copra	exact	Q13187	
+coconut.desiccated	Desiccated coconut	coconut	Q11117594	grated coconut	closest_item_differs	Q13187	The item is grated coconut as a food ingredient; desiccated (dried) is the trade product.
+coconut.fresh	Coconuts, fresh (by number)	coconut	Q3342808	coconut	exact	Q13187	
+coconut.poonac	Coconut poonac (oil cake)	coconut	Q513720	press cake	narrower	Q13187	Press cake of coconut; gingelly (sesame) poonac is a different good under the same word.
+coconut.shells	Coconut shells	coconut	Q16137729	coconut shell	exact	Q13187	
+coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	coconut	Q13187	Cocos nucifera	part_of_taxon	Q13187	
+coconut.unclear	"Cocoanut" with no qualifier, by weight	coconut			heading_lost		Printed as a sub-line; the heading it belongs to (Oil, or Desiccated) was lost in reading. Needs the page.
+coconut.uk_nuts_kernels	UK "Nuts and Kernels: Coco-nut"	coconut	Q3342808	coconut	uncertain	Q13187	Whether this UK line is copra, whole nuts or both is not established.
+coir.fibre	Coir fibre	coir	Q1029620	coir	exact	Q13187	Mattress and bristle fibre are a grade facet from 1921.
+coir.yarn	Coir yarn	coir	Q1029620	coir	narrower	Q13187	Manufactured state of the fibre; no item of its own was looked for.
+coir.rope	Coir rope and cordage	coir	Q1029620	coir	narrower	Q13187	
+coir.matting	Coir mats, matting and rugs	coir	Q1029620	coir	narrower	Q13187	
+coir.other	Coir, other manufactures	coir	Q1029620	coir	narrower	Q13187	
+cordage.not_coir	Cable, cordage and twine other than coir	coir			not_the_commodity		Defined by excluding coir.
+plumbago	Plumbago (graphite)	plumbago	Q5309	graphite	exact		Plumbago is the period name.

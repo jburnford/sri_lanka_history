@@ -1,0 +1,266 @@
+side	article_as_printed	concept_id	concept_label	qid	relation_to_item	facets	status	first_year	last_year	volumes_or_years	figures	units	rule_note
+ceylon	Oil seed cake, gingelly poonac—						set_aside	1922	1928	6	114	cwt 57	sesame oil cake, not coconut
+ceylon	Kandal Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1898	1898	1	4	cwt 2	
+ceylon	Mangrove Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1897	1897	1	6	cwt 3	
+ceylon	Salem Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1883	1883	1	4	packages 2	
+ceylon	Tanners' Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1880	1898	9	138	cwt 53; pkgs 22; bags 8	
+ceylon	Tannery's Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1891	1891	1	12	cwt 6	
+ceylon	Valeem Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1887	1887	1	6	cwt 4	
+ceylon	Valeen Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1886	1886	1	8	cwt 4	
+ceylon	Valeu Bark	bark.other	Tanning and other barks (not cinchona)		not_the_commodity		assigned	1885	1885	1	4	cwt 2	
+ceylon	Cinchona	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1897	1897	1	24	lb 12	includes the OCR forms Onchona and Inchona
+ceylon	Cinchona Bark	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1881	1906	10	308	lb 153	includes the OCR forms Onchona and Inchona
+ceylon	Cinchona bark—	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1907	1921	14	558	lb 279	includes the OCR forms Onchona and Inchona
+ceylon	Cinchona-Bark	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1900	1900	1	16	lb 8	includes the OCR forms Onchona and Inchona
+ceylon	Dyeing materials, cinchona bark—	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1921	1928	8	270	cwt 135	includes the OCR forms Onchona and Inchona
+ceylon	Inchona Bark	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1890	1890	1	30	lb 15	includes the OCR forms Onchona and Inchona
+ceylon	Onchona bark—	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1916	1916	1	36	lb 18	includes the OCR forms Onchona and Inchona
+ceylon	Oil, Cinnamon	cinnamon.bark_oil	Cinnamon oil	Q72460907	exact		assigned	1885	1899	10	194	oz 94; bottles 2	
+ceylon	Oil, cinnamon—	cinnamon.bark_oil	Cinnamon oil	Q72460907	exact		assigned	1907	1928	22	1266	oz 633	
+ceylon	Oil— Cinnamon	cinnamon.bark_oil	Cinnamon oil	Q72460907	exact		assigned	1901	1905	5	132	oz 66	
+ceylon	Cinnamon Leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1881	1900	6	98	oz 48	
+ceylon	Cinnamon leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1886	1892	3	62	oz 30	
+ceylon	Oil, Cinnamon leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1891	1891	1	24	oz 12	
+ceylon	Oil, cinnamon leaf—	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1907	1928	22	1092	oz 525; cwt 21	
+ceylon	Oil— Cinnamon Leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1901	1905	5	132	oz 66	
+ceylon	— Cinnamon leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1887	1890	2	28	oz 14	
+ceylon	—Cinnamon leaf	cinnamon.leaf_oil	Cinnamon leaf oil	Q30314560	exact		assigned	1885	1885	1	20	oz 10	
+ceylon	Cinnamon Leaves	cinnamon.leaves	Cinnamon leaves		none		assigned	1887	1896	5	36	packages 6; cwt 6; lb 4	
+ceylon	Cinnamon	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact		assigned	1880	1900	5	156	lb 56; lbs 16; oz 8	
+ceylon	Cinnamon, Plantation	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=plantation	assigned	1900	1900	1	89	cwt 51	
+ceylon	Spices, Cinnamon	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact		assigned	1893	1897	2	130	lbs 38; lb 36	
+ceylon	Spices, cinnamon plantation—	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=plantation	assigned	1908	1921	12	1278	cwt 639	
+ceylon	Spices, cinnamon, plantation—	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=plantation	assigned	1921	1928	8	1362	cwt 681	
+ceylon	Spices, cinnamon, wild—	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=wild	assigned	1908	1919	10	282	cwt 141	
+ceylon	Spices— Cinnamon Plantation	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=plantation	assigned	1901	1901	1	54	cwt 24; (none) 3	
+ceylon	Spices— Cinnamon, Plantation	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=plantation	assigned	1901	1906	6	811	cwt 446	
+ceylon	Spices— Cinnamon, Wild	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact	grade=wild	assigned	1900	1906	6	96	cwt 48	
+ceylon	Copra	coconut.copra	Copra	Q193726	exact		assigned	1904	1906	3	216	cwt 108	
+ceylon	Copra—	coconut.copra	Copra	Q193726	exact		assigned	1907	1921	14	1224	cwt 528; owt 84	
+ceylon	Copra—contd	coconut.copra	Copra	Q193726	exact		assigned	1913	1913	1	54	cwt 27	
+ceylon	Nuts and kernels for expressing oil therefrom, copra—	coconut.copra	Copra	Q193726	exact		assigned	1921	1928	8	792	cwt 396	
+ceylon	Cocoanut, De-	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1899	1899	1	4	cwt 2	
+ceylon	Cocoanut, De-siccated	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1898	1898	1	60	cwt 26; cases 8	
+ceylon	Cocoanut— Desiccated	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1901	1905	5	654	cwt 327	
+ceylon	Coconut, desiccated—	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1907	1921	15	3000	cwt 1500	
+ceylon	Coconuts, desiccated—	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1921	1928	8	1794	cwt 897	
+ceylon	Coconut— Desiccated	coconut.desiccated	Desiccated coconut	Q11117594	closest_item_differs		assigned	1906	1906	1	78	cwt 39	
+ceylon	Cocoanuts	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1880	1894	7	292	no 87; nos 37; bags 36	
+ceylon	Cocoanuts, fresh—	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1927	1927	1	162	no 81	
+ceylon	Cocoanut— Fresh	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1901	1905	5	552	no 276	
+ceylon	Coconut, fresh—	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1909	1921	12	1410	no 705	
+ceylon	Coconuts, fresh—	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1907	1928	9	1386	no 693	
+ceylon	Fruits, Cocoanuts	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1898	1899	2	52	no 24; pkgs 2; bags 2	
+ceylon	— Cocoanuts	coconut.fresh	Coconuts, fresh (by number)	Q3342808	exact		assigned	1893	1893	1	44	no 22	
+ceylon	Oil seed cake, coconut poonac—	coconut.oil	Coconut oil	Q216235	exact		assigned	1921	1928	8	456	cwt 228	
+ceylon	Oil, Cocoanut	coconut.oil	Coconut oil	Q216235	exact		assigned	1882	1899	2	136	cwt 68	
+ceylon	Oil, coconut—	coconut.oil	Coconut oil	Q216235	exact		assigned	1907	1928	22	3396	cwt 1698	
+ceylon	Oil, coconut—contd	coconut.oil	Coconut oil	Q216235	exact		assigned	1909	1912	4	444	cwt 222	
+ceylon	Oil— Cocoanut	coconut.oil	Coconut oil	Q216235	exact		assigned	1901	1905	5	690	cwt 345	
+ceylon	Cocoanut Husks	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1887	1887	1	4	cwt 2	
+ceylon	Cocoanut Laths &c	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1886	1887	2	15	no 7; pkgs 1	
+ceylon	Cocoanut Laths and Rafter	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1898	1898	1	16	no 6; pkgs 4	
+ceylon	Cocoanut Laths and Rafters	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1899	1899	1	12	no 6	
+ceylon	Cocoanut Leaf Quills	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1901	1901	1	6	cwt 3	
+ceylon	Cocoanut Leaves and Chidjau	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1893	1893	1	4	no 2	
+ceylon	Cocoanut, Laths and Batters	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1891	1891	1	3	no 2	
+ceylon	Cocoanut, Laths and Rafters	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1892	1893	2	20	no 8; pkgs 4	
+ceylon	Cocoanut, Laths and rafters	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1889	1890	2	20	no 8; pkgs 4	
+ceylon	Coconut leaf quills—	coconut.other	Other coconut-palm goods (laths, rafters, leaf quills, husks)	Q13187	part_of_taxon		assigned	1907	1919	10	108	cwt 54	
+ceylon	Poonac	coconut.poonac	Coconut poonac (oil cake)	Q513720	narrower		assigned	1880	1903	14	502	cwt 251	
+ceylon	Poonac—	coconut.poonac	Coconut poonac (oil cake)	Q513720	narrower		assigned	1907	1920	14	666	cwt 333	
+ceylon	Cocoanut Shells	coconut.shells	Coconut shells	Q16137729	exact		assigned	1880	1894	8	32	packages 14; pkgs 2	
+ceylon	Coconut Shells	coconut.shells	Coconut shells	Q16137729	exact		assigned	1881	1881	1	6	pkgs 2; no 2	
+ceylon	Coconut shells—	coconut.shells	Coconut shells	Q16137729	exact		assigned	1907	1920	13	180	cwt 90	
+ceylon	Cocoanut	coconut.unclear	Cocoanut with no qualifier, by weight		heading_lost		assigned	1880	1904	10	404	cwt 202	
+ceylon	Coconut	coconut.unclear	Cocoanut with no qualifier, by weight		heading_lost		assigned	1891	1906	3	134	cwt 67	
+ceylon	— Cocoanut	coconut.unclear	Cocoanut with no qualifier, by weight		heading_lost		assigned	1883	1887	2	120	cwt 60	
+ceylon	— Coconut	coconut.unclear	Cocoanut with no qualifier, by weight		heading_lost		assigned	1890	1890	1	68	cwt 34	
+ceylon	Coffee, Husks	coffee.by_product	Coffee refuse, husks	Q153697	by_product		assigned	1889	1889	1	16	cwt 8	
+ceylon	Coffee, Refuse	coffee.by_product	Coffee refuse, husks	Q153697	by_product		assigned	1880	1882	3	24	cwt 12	
+ceylon	Coffee	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1896	1897	2	58	cwt 18; pkgs 14; packages 2	no species or mode printed
+ceylon	Coffee, Arabian, native—	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=native	assigned	1907	1916	9	270	cwt 135	
+ceylon	Coffee, Liberian	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47718	assigned	1881	1899	7	122	cwt 64	
+ceylon	Coffee, Liberian—	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47718	assigned	1907	1916	9	270	cwt 135	
+ceylon	Coffee, Native	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=native	assigned	1881	1892	6	240	cwt 120	
+ceylon	Coffee, Plantation	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=plantation	assigned	1880	1892	7	462	cwt 231	
+ceylon	Coffee, plantation—	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=plantation	assigned	1907	1921	14	1488	cwt 744	
+ceylon	Coffee—	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1921	1928	8	432	cwt 216	no species or mode printed
+ceylon	Coffee— Arabian— Native	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=native	assigned	1901	1905	5	138	cwt 69	
+ceylon	Coffee— Arabian— Plantation	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47685;mode=plantation	assigned	1900	1905	6	784	cwt 392	
+ceylon	Coffee— Liberian	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact	species=Q47718	assigned	1901	1905	5	84	cwt 33; (none) 9	
+ceylon	Seeds, Coffee	coffee.seed	Coffee seed (for planting)	Q156354	part_of_taxon		assigned	1893	1898	3	32	cwt 14; pkg 4	
+ceylon	Coir, Fibre	coir.fibre	Coir fibre	Q1029620	exact		assigned	1880	1899	11	378	cwt 189	
+ceylon	Fibre, coir, bristles—	coir.fibre	Coir fibre	Q1029620	exact	grade=bristle	assigned	1922	1927	6	666	cwt 333	
+ceylon	Fibre, coir, mattress—	coir.fibre	Coir fibre	Q1029620	exact	grade=mattress	assigned	1921	1928	8	1362	cwt 681	
+ceylon	Fibre, coir—	coir.fibre	Coir fibre	Q1029620	exact		assigned	1907	1921	15	2382	cwt 1041; owt 150	
+ceylon	Fibre— Coir	coir.fibre	Coir fibre	Q1029620	exact		assigned	1901	1906	5	546	cwt 273	
+ceylon	Coir mats and matting—	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1921	1928	8	696	no 219; yds 144	"includes the OCR form ""malting"""
+ceylon	Coir matting—	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1907	1908	2	198	pkgs 99	"includes the OCR form ""malting"""
+ceylon	Coir matting—contd	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1909	1912	4	480	pkgs 240	"includes the OCR form ""malting"""
+ceylon	Coir, malting—	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1914	1914	1	126	pkgs 63	"includes the OCR form ""malting"""
+ceylon	Coir, matting—	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1907	1920	13	666	pkgs 333	"includes the OCR form ""malting"""
+ceylon	Coir— Matting	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1900	1906	6	412	pkgs 183; packages 30	"includes the OCR form ""malting"""
+ceylon	Rugs (Coir)	coir.matting	Coir mats, matting and rugs	Q1029620	narrower		assigned	1893	1899	6	168	cwt 80; pkg 4; pkgs 4	"includes the OCR form ""malting"""
+ceylon	Coir Manufacture	coir.other	Coir, other manufactures	Q1029620	narrower		assigned	1880	1880	1	16	cwt 5; pkgs 2; no 2	
+ceylon	Coir manufactures not otherwise specified—	coir.other	Coir, other manufactures	Q1029620	narrower		assigned	1921	1928	8	372	cwt 165; no 21	
+ceylon	Coir, other—	coir.other	Coir, other manufactures	Q1029620	narrower		assigned	1909	1921	12	690	cwt 345	
+ceylon	Coir— Other	coir.other	Coir, other manufactures	Q1029620	narrower		assigned	1901	1906	5	264	cwt 132	
+ceylon	Coir Rope	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1880	1881	2	35	cwt 16; packages 1; pkgs 1	
+ceylon	Coir, Rope	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1885	1886	2	80	cwt 40	
+ceylon	Coir, rope—	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1907	1920	14	990	cwt 495	
+ceylon	Coir— Rope	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1901	1906	4	216	cwt 108	
+ceylon	Cordage, cables, ropes and twine of coir—	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1923	1924	2	96	cwt 48	
+ceylon	Cordage, cables, ropes, and twine of coir—	coir.rope	Coir rope and cordage	Q1029620	narrower		assigned	1921	1928	6	258	cwt 105; no 24	
+ceylon	1.—Manufactured Articles. Other. Coir— Yarn	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1900	1900	1	94	cwt 47	
+ceylon	Coir Yarn	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1889	1891	2	130	cwt 65	
+ceylon	Coir yarn—	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1921	1928	8	1038	cwt 519	
+ceylon	Coir, Yarn	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1893	1893	1	66	cwt 33	
+ceylon	Coir, yarn—	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1907	1920	14	1746	cwt 804; owt 69	
+ceylon	Coir, yarn—contd	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1913	1916	4	306	cwt 153	
+ceylon	Coir— Yarn	coir.yarn	Coir yarn	Q1029620	narrower		assigned	1901	1906	5	642	cwt 321	
+ceylon	Cable, Cordage, and Twine other than Coir	cordage.not_coir	Cable, cordage and twine other than coir		not_the_commodity		assigned	1900	1906	5	93	cwt 34; no 15	
+ceylon	Cable, Cordage, and Twine— other than Coir	cordage.not_coir	Cable, cordage and twine other than coir		not_the_commodity		assigned	1903	1903	1	6	cwt 3	
+ceylon	Cable, cordage, and twine other than coir—	cordage.not_coir	Cable, cordage and twine other than coir		not_the_commodity		assigned	1907	1912	6	246	cwt 123	
+ceylon	Cable, cordage, and twine, other than coir—	cordage.not_coir	Cable, cordage and twine other than coir		not_the_commodity		assigned	1913	1920	7	180	cwt 90	
+ceylon	Minerals Plumbago	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1898	1898	1	68	cwt 34	
+ceylon	Minerals, Plumbago	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1893	1899	2	108	cwt 54	
+ceylon	Plumbago	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1880	1906	12	696	cwt 348	
+ceylon	Plumbago—	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1907	1928	21	2592	cwt 1251; owt 45	
+ceylon	--- Tea Lead	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1887	1887	1	4	cwt 1; pkgs 1	
+ceylon	Lead, tea lead—	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1907	1921	15	666	cwt 333	
+ceylon	Lead— Tea Lead	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1900	1905	3	66	cwt 34	
+ceylon	Tea Lead	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1893	1899	4	50	cwt 20; pkgs 8	
+ceylon	Tea Shooks	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1898	1898	1	8	packages 4	
+ceylon	Tea Solder	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1893	1899	3	14	cwt 6; case 2	
+ceylon	Tea Soldering Fluid	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1893	1893	1	4	cwt 2	
+ceylon	Tea machinery—	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1921	1928	7	432	no 156; cwt 60	
+ceylon	— Tea Lead	tea.ancillary	Goods for packing or making tea (tea lead, solder, shooks, machinery)		not_the_commodity		assigned	1886	1890	2	18	pkgs 4; cwt 3; packages 2	
+ceylon	For. Coun— Tea	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1905	1905	1	156	lb 78	Black and Green are printed as columns to 1918, not as articles
+ceylon	Tea	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1881	1906	20	3765	lb 1894; cwt 76; pkgs 22	Black and Green are printed as columns to 1918, not as articles
+ceylon	Tea—	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1907	1928	22	9320	lb 4837; cwt 32	Black and Green are printed as columns to 1918, not as articles
+ceylon	Tea—contd	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1899	1899	1	32	lb 16	Black and Green are printed as columns to 1918, not as articles
+ceylon	Seeds, Tea	tea.seed	Tea seed (for planting)	Q101815	part_of_taxon		assigned	1896	1896	1	31	cwt 12; pkgs 5	
+ceylon	Seeds, tea—	tea.seed	Tea seed (for planting)	Q101815	part_of_taxon		assigned	1907	1928	21	840	cwt 420	
+ceylon	Seeds— Tea	tea.seed	Tea seed (for planting)	Q101815	part_of_taxon		assigned	1901	1906	5	270	cwt 135	
+ceylon	Tea waste (for the manufacture of caffeine)—	tea.waste	Tea waste (sweepings, for caffeine)	Q6097	by_product		assigned	1916	1921	6	120	cwt 60	
+ceylon	Tea waste—	tea.waste	Tea waste (sweepings, for caffeine)	Q6097	by_product		assigned	1921	1921	1	6	cwt 3	
+ceylon	Tea, waste—	tea.waste	Tea waste (sweepings, for caffeine)	Q6097	by_product		assigned	1922	1928	7	126	cwt 63	
+uk	TEA / For the Manufacture of Caffeine						set_aside	1898	1900	3	3	lbs 2; (none) 1	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / From British East Indies						set_aside	1890	1890	1	2	(none) 2	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / Red, in Bottles : Still						set_aside	1896	1896	1	12	gallons 12	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / Red, in Casks						set_aside	1896	1896	1	18	gallons 18	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / Red: Total of						set_aside	1896	1896	1	20	(none) 20	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / Total of all Kinds						set_aside	1896	1896	1	5	gallons 5	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / Unmanufactured						set_aside	1874	1874	1	36	(none) 19; gallons 12; lbs 5	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White : Total of						set_aside	1896	1896	1	8	gallons 8	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Bottles: Sparkling : Burgundy						set_aside	1896	1896	1	2	gallons 2	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Bottles: Sparkling : Champagne						set_aside	1896	1896	1	2	gallons 2	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Bottles: Sparkling : Hock						set_aside	1896	1896	1	2	gallons 2	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Bottles: Sparkling : Saumur						set_aside	1896	1896	1	2	gallons 2	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Bottles: Still						set_aside	1896	1896	1	11	gallons 11	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White, in Casks						set_aside	1896	1896	1	17	gallons 17	wine and spirit lines filed under the Tea group by the parser
+uk	TEA / White: Total of						set_aside	1896	1896	1	12	(none) 12	wine and spirit lines filed under the Tea group by the parser
+uk	BARK / Peruvian	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1872	1881	10	95	cwts 95	
+uk	DRUGS / Bark Peruvian	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1886	1886	1	17	cwts 17	
+uk	DRUGS / Bark, Peruvian	cinchona.bark	Cinchona (Peruvian) bark	Q3133417	exact		assigned	1882	1900	18	313	cwts 190; (none) 86; owts 19	
+uk	COTTON / Cinnamon	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact		assigned	1899	1899	1	3	lbs 3	also found under a damaged group name
+uk	LATES / Cinnamon	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact		assigned	1894	1898	5	35	lbs 35	also found under a damaged group name
+uk	SPICES / Cinnamon	cinnamon.quills	Cinnamon (bark, quills and chips)	Q28165	exact		assigned	1870	1900	27	90	lbs 81; (none) 8; cwts 1	also found under a damaged group name
+uk	OIL / Coco-Nut	coconut.oil	Coconut oil	Q216235	exact		assigned	1886	1900	14	129	cwts 107; (none) 22	
+uk	OIL / Coco-nut	coconut.oil	Coconut oil	Q216235	exact		assigned	1872	1884	11	59	cwts 49; (none) 10	
+uk	NUTS AND KERNELS / Coco-Nut	coconut.uk_nuts_kernels	"UK ""Nuts and Kernels: Coco-nut"""	Q3342808	uncertain		assigned	1883	1887	3	23	cwts 23	
+uk	NUTS AND KERNELS / Coco-nut	coconut.uk_nuts_kernels	"UK ""Nuts and Kernels: Coco-nut"""	Q3342808	uncertain		assigned	1893	1900	8	213	cwts 200; tuns 13	
+uk	COFFEE	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1874	1899	20	485	cwts 419; (none) 42; proof gallons 10	UK prints one raw coffee line: no species or mode
+uk	COFFEE / British East Indies	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1886	1890	4	8	(none) 8	UK prints one raw coffee line: no species or mode
+uk	COFFEE / British India	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1883	1884	2	12	(none) 12	UK prints one raw coffee line: no species or mode
+uk	COFFEE / Raw	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1872	1900	13	366	cwts 188; (none) 159; lbs 19	UK prints one raw coffee line: no species or mode
+uk	COFFEE, RAW	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1891	1896	5	64	(none) 34; cwts 30	UK prints one raw coffee line: no species or mode
+uk	COFFEE, RAW / British East Indies	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1891	1895	2	5	(none) 5	UK prints one raw coffee line: no species or mode
+uk	COFFEE, RAW / India	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1892	1892	1	16	(none) 16	UK prints one raw coffee line: no species or mode
+uk	COFFEE, RAW / West Africa	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1891	1893	2	20	(none) 20	UK prints one raw coffee line: no species or mode
+uk	COFFEE. RAW	coffee.raw	Coffee, raw (unroasted beans)	Q795206	exact		assigned	1894	1894	1	19	(none) 19	UK prints one raw coffee line: no species or mode
+uk	BEEF / Cable Yarn of Coir	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	5	cwts 5	1870 only; later years are not in the UK file under this name
+uk	BEEF / Cable Yarn of Hemp, or other like Material, except Coir	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	4	lbs 4	1870 only; later years are not in the UK file under this name
+uk	BEEF / Cordage and Cables of Hemp, or other like Material (except Coir and Bast)	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	3	cwts 3	1870 only; later years are not in the UK file under this name
+uk	BEEF / Of Coir	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	5	cwts 5	1870 only; later years are not in the UK file under this name
+uk	COIR (FIBRE)	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	5	tons 5	1870 only; later years are not in the UK file under this name
+uk	JUTE YARN / Other Vegetable Substances of the nature and quality of Undressed Hemp (except Coir and Flax)	coir.fibre	Coir fibre	Q1029620	exact		assigned	1870	1870	1	4	cwts 4	1870 only; later years are not in the UK file under this name
+uk	PAPER / PLUMBAGO	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1870	1900	3	18	tons 18	
+uk	PLUMBAGO	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1872	1899	28	192	tons 168; (none) 24	
+uk	PLUMBAGO / From British East Indies	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1891	1894	4	5	(none) 5	
+uk	PLUMBAGO.	plumbago	Plumbago (graphite)	Q5309	exact		assigned	1896	1896	1	2	tons 2	
+uk	TEA	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1872	1900	29	458	lbs 381; (none) 77	a region header was read as the article
+uk	TEA / British East Indies	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1886	1891	3	5	(none) 5	a region header was read as the article
+uk	TEA / British Indies	tea.made	Tea (made tea: the dried, manufactured leaf)	Q6097	closest_item_differs		assigned	1885	1885	1	9	(none) 9	a region header was read as the article
+uk	BACON AND HAMS / EXTRACT of BARK or other Vegetable Substance to be used in Tanning or Dyeing						unassigned	1870	1870	1	9	cwts 9	
+uk	BACON AND HAMS / EXTRACTS of BARK or other Vegetable Substances to be used in Tanning or Dyeing						unassigned	1873	1873	1	4	value 4	
+uk	BARK						unassigned	1882	1882	1	5	cwts 5	
+uk	BARK / Canada						unassigned	1894	1898	5	21	(none) 21	
+uk	BARK / Catch and Gambier						unassigned	1892	1892	1	6	tons 6	
+uk	BARK / Cocaine						unassigned	1889	1889	1	3	cwts 3	
+uk	BARK / Dyes obtained from Coal Tar (Aniline)						unassigned	1882	1882	1	5	value 5	
+uk	BARK / Dyes obtained from Coal Tar, Alizarine						unassigned	1895	1895	1	2	value 2	
+uk	BARK / EXTRACTS of BARK or other Substances to be used in Tanning or Dyeing						unassigned	1874	1874	1	4	value 4	
+uk	BARK / EXTRACTS of BARK or other Substances to be usedin Tanning or Dyeing						unassigned	1874	1874	1	3	(none) 3	
+uk	BARK / EXTRACTS of BARK or other Vegetable Substancesto be used in Tanning or Dyeing						unassigned	1873	1873	1	3	(none) 3	
+uk	BARK / Eastern Coast of Africa						unassigned	1893	1898	6	109	(none) 109	
+uk	BARK / Extracts of Bark or other Substances to be used in Tanning or Dyeing						unassigned	1875	1879	5	26	value 26	
+uk	BARK / Extracts of Bark or other Substances to be usedin Tanning or Dyeing						unassigned	1877	1877	1	5	(none) 5	
+uk	BARK / Extracts of Bark, or of other Substances to be used in Tanning or Dyeing, Unenumerated						unassigned	1880	1880	1	6	value 6	
+uk	BARK / Extracts of Bark, or of other Substances to be usedin Tanning or Dyeing, Unenumerated						unassigned	1880	1880	1	5	(none) 5	
+uk	BARK / For Tanners' and Dyers' Use						unassigned	1880	1881	2	16	cwts 16	
+uk	BARK / For Tanners' or Dyers' Use						unassigned	1876	1879	3	23	cwts 23	
+uk	BARK / For Tanners' or Dyers' Use, Unenumerated						unassigned	1870	1875	5	35	cwts 35	
+uk	BARK / For Tanners’ or Dyers’ Use						unassigned	1878	1878	1	7	cwts 7	
+uk	BARK / Fresh (not of British taking) Herrings						unassigned	1894	1898	3	38	cwts 38	
+uk	BARK / Herrings						unassigned	1893	1897	5	20	(none) 20	
+uk	BARK / Indigo						unassigned	1900	1900	1	11	cwts 11	
+uk	BARK / Logwood						unassigned	1894	1899	6	59	tons 59	
+uk	BARK / Madder, Madder Root, Garancine and Munjeet						unassigned	1889	1889	1	5	cwts 5	
+uk	BARK / Madder, Madder Root, Garancine, and Munjeet						unassigned	1893	1897	5	22	cwts 22	
+uk	BARK / Madder, Madder Root, Guancine and Munjeet						unassigned	1891	1891	1	4	cwts 4	
+uk	BARK / Of other Sorts						unassigned	1872	1881	10	24	cwts 24	
+uk	BARK / Other sorts of Fresh Fish						unassigned	1893	1893	1	8	cwts 8	
+uk	BARK / Quercitron						unassigned	1870	1870	1	3	cwts 3	
+uk	BARK / Shell Fish, Oysters						unassigned	1896	1897	2	5	(none) 5	
+uk	BARK / Shumach						unassigned	1889	1889	1	4	tons 4	
+uk	BARK / Sumach						unassigned	1893	1898	4	25	tons 25	
+uk	BARK / Unenumerated						unassigned	1879	1900	3	20	cwts 18; lbs 2	
+uk	BARK / Valonia						unassigned	1895	1898	4	22	tons 22	
+uk	BARK / West Africa						unassigned	1891	1891	1	8	(none) 8	
+uk	CHEESE / CHICORY: Other Vegetable Matter,applicable to the uses of Chicoryor Coffee						unassigned	1896	1896	1	1	(none) 1	
+uk	CHEMICAL MANUFACTURES AND PRO-DUCTS / CHICORY : Other Vegetable Matter,applicable to the uses of Chicoryor Coffee						unassigned	1894	1894	1	1	(none) 1	
+uk	CHEMICAL MANUFACTURES AND PRO-DUCTS, NOT ENUMERATED / CHICORY : Other Vegetable Matter,applicable to the uses of Chicoryor Coffee						unassigned	1895	1895	1	1	(none) 1	
+uk	CHEMICAL MANUFACTURES AND PRODUCTS / Other Vegetable matter applicable to the uses of Chicory or Coffee						unassigned	1882	1883	2	13	cwts 13	
+uk	CHEMICAL MANUFACTURES AND PRODUCTS / Vegetable Matter, applicable to the uses of Chicory or Coffee						unassigned	1889	1890	2	3	cwts 3	
+uk	CHEMICAL MANUFACTURES AND PRODUCTS / Vegetable matter applicable to the uses of Chicory or Coffee						unassigned	1885	1885	1	11	cwts 11	
+uk	CHICORY / CHICORY AND COFFEE, mixed						unassigned	1895	1895	1	2	lbs 2	
+uk	CHICORY AND COFFEE, MIXED						unassigned	1896	1896	1	2	lbs 2	
+uk	CHICORY AND COFFEE, ROASTED AND GROUND, MIXED						unassigned	1900	1900	1	2	lbs 2	
+uk	COCOA / COFFEE AND CHICORY, mixed						unassigned	1891	1892	2	7	lbs 7	
+uk	COFFEE / COFFEE AND CHICORY, Roasted orGround, Mixed						unassigned	1888	1888	1	1	(none) 1	
+uk	COFFEE / COFFEE AND CHICORY, mixed						unassigned	1893	1894	2	4	lbs 4	
+uk	COFFEE / COFFEE and CHICORY, Roasted orGround, Mixed in Bond						unassigned	1888	1888	1	1	(none) 1	
+uk	COFFEE / COFFEE and CHICORY, mixed						unassigned	1885	1885	1	3	lbs 3	
+uk	COFFEE / COLLODION						unassigned	1885	1898	2	3	gallons 3	
+uk	COFFEE / Kiln Dried, Roasted, or Ground						unassigned	1893	1900	8	48	lbs 48	
+uk	COFFEE / Kiln dried, roasted or ground						unassigned	1893	1896	4	8	lbs 8	
+uk	COFFEE / Kiln-dried, Roasted or Ground						unassigned	1888	1888	1	1	(none) 1	
+uk	COFFEE / Kiln-dried, Roasted, or Ground, in Bond						unassigned	1888	1888	1	1	(none) 1	
+uk	COFFEE / Manufactured						unassigned	1872	1900	26	565	value 407; lbs 119; (none) 33	
+uk	COFFEE / Manufactured : Cigars						unassigned	1880	1881	2	24	lbs 12; (none) 12	
+uk	COFFEE / Manufactured : Other Sorts (including Cigarettes)						unassigned	1876	1881	4	24	lbs 19; (none) 5	
+uk	COFFEE / PICKLES preserved in Vinegar						unassigned	1878	1878	1	1	gallons 1	
+uk	COFFEE / Rum Shrub, Liqueurs and Cordials, of and from British Possessions						unassigned	1880	1880	1	18	gallons 18	
+uk	COFFEE AND CHICORY, MIXED						unassigned	1883	1890	7	18	(none) 14; lbs 4	
+uk	COPPER, ORE OF / Bark						unassigned	1894	1898	5	73	cwts 73	
+uk	DYE STUFFS (OTHER THAN DYE WOODS) AND SUBSTANCES USED IN TAN- NING OR DYEING / Bark						unassigned	1893	1899	7	120	cwts 81; (none) 39	
+uk	DYE STUFFS (OTHER THAN DYE WOODS) AND SUBSTANCES USED IN TAN- NING OR DYEING / Bark for Tanning						unassigned	1900	1900	1	11	(none) 11	
+uk	DYE STUFFS (OTHER THAN DYE WOODS), AND SUBSTANCES USED IN TANNING OR DYEING / Bark						unassigned	1895	1896	2	29	cwts 16; cwis 13	
+uk	DYE STUFFS, AND SUBSTANCES USED IN TANNING / Bark						unassigned	1883	1894	12	143	cwts 143	
+uk	EXTRACTS / Of Bark and other Vegetable Substances used in Tanning or Dyeing						unassigned	1878	1879	2	9	(none) 9	
+uk	FISH / Coco-nut						unassigned	1885	1885	1	6	cwts 6	
+uk	PLUMBAGO / PORK, Salted (not Hams)						unassigned	1872	1884	9	29	(none) 29	
+uk	PLUMBAGO / QUICKSILVER, Metallic						unassigned	1873	1873	1	4	lbs 4	
+uk	WOOD AND TIMBER / Greenheart, Red and Blue Gum, Stringy Bark, Mora Locust, and other Sorts of Timber, for Shipbuilding						unassigned	1870	1870	1	3	loads 3	

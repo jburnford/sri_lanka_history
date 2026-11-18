@@ -1,0 +1,46 @@
+side	pattern	concept_id	facets	note
+ceylon	other than coir	cordage.not_coir		
+ceylon	gingelly	-		sesame oil cake, not coconut
+ceylon	tea (lead|solder|shooks|machinery)|lead, tea|lead— tea	tea.ancillary		
+ceylon	seeds?[,—\- ]+tea	tea.seed		
+ceylon	tea,? waste	tea.waste		
+ceylon	(^|[ .—-])tea(—|—contd)?$	tea.made		Black and Green are printed as columns to 1918, not as articles
+ceylon	seeds?, coffee	coffee.seed		
+ceylon	coffee, (refuse|husks)	coffee.by_product		
+ceylon	coffee.*arabian.*plantation|coffee, plantation	coffee.raw	species=Q47685;mode=plantation	
+ceylon	coffee.*arabian.*native|coffee, native	coffee.raw	species=Q47685;mode=native	
+ceylon	coffee.*liberian	coffee.raw	species=Q47718	
+ceylon	^coffee—?$	coffee.raw		no species or mode printed
+ceylon	[ioc]n?chona|cinchona	cinchona.bark		includes the OCR forms Onchona and Inchona
+ceylon	bark	bark.other		
+ceylon	oil.*cinnamon leaf|cinnamon leaf$	cinnamon.leaf_oil		
+ceylon	cinnamon leaves	cinnamon.leaves		
+ceylon	oil.*cinnamon	cinnamon.bark_oil		
+ceylon	cinnamon.*plantation	cinnamon.quills	grade=plantation	
+ceylon	cinnamon.*wild	cinnamon.quills	grade=wild	
+ceylon	^(spices, )?cinnamon$	cinnamon.quills		
+ceylon	oil.*coco	coconut.oil		
+ceylon	copra	coconut.copra		
+ceylon	coco.*de-?\s?siccated|coco.*, de-$	coconut.desiccated		
+ceylon	coco.*fresh|^(fruits, |— )?cocoanuts$	coconut.fresh		
+ceylon	poonac	coconut.poonac		
+ceylon	coco.*shells	coconut.shells		
+ceylon	coco.*(laths|quills|husks|leaves)	coconut.other		
+ceylon	^(— )?coco-?a?nut$	coconut.unclear		
+ceylon	rugs \(coir\)|coir,? ma[lt]ting|coir mats|coir— matting	coir.matting		includes the OCR form "malting"
+ceylon	coir,? yarn|coir— yarn	coir.yarn		
+ceylon	coir,? rope|coir— rope|cordage.*of coir	coir.rope		
+ceylon	fibre.*coir.*mattress	coir.fibre	grade=mattress	
+ceylon	fibre.*coir.*bristles	coir.fibre	grade=bristle	
+ceylon	fibre.*coir|coir, fibre	coir.fibre		
+ceylon	coir	coir.other		
+ceylon	plumbago	plumbago		
+uk	^tea( / british (east )?indies)?$	tea.made		a region header was read as the article
+uk	^tea /	-		wine and spirit lines filed under the Tea group by the parser
+uk	^coffee( / raw)?$|^coffee[,.] raw( / .*)?$|^coffee / british	coffee.raw		UK prints one raw coffee line: no species or mode
+uk	bark,? peruvian|^bark / peruvian	cinchona.bark		
+uk	cinnamon	cinnamon.quills		also found under a damaged group name
+uk	^oil / coco-nut	coconut.oil		
+uk	nuts and kernels / coco-nut	coconut.uk_nuts_kernels		
+uk	coir	coir.fibre		1870 only; later years are not in the UK file under this name
+uk	^plumbago\.?$|^paper / plumbago|^plumbago / from	plumbago		

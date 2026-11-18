@@ -1,0 +1,127 @@
+commodity	year	unit	ceylon_exports_to_uk	uk_imports_from_ceylon	ratio_ceylon_to_uk	status	ceylon_articles_summed	ceylon_share_of_quantity	ceylon_share_of_value	ceylon_internal_check	uk_rank	uk_readings	uk_unit	uk_vs_neighbours	ceylon_vs_uk_neighbours	points_to	ceylon_tables
+tea	1880	lb		150395		ceylon missing					1	1	lbs				
+tea	1881	lb	206578	171676	1.203	differ more than 15%	Tea	0.592	0.529	consistent	1	1	lbs	0.62	0.75	undecided: needs the pages	bb1881:p511:t1
+tea	1882	lb		507081		ceylon missing					1	1	lbs	0.86			
+tea	1883	lb		2005510		ceylon missing					3	1	lbs	1.89			
+tea	1884	lb		2210983		ceylon missing					3	1	lbs	0.76			
+tea	1885	lb	4246849	4212214	1.008	agree within 5%	Tea			no printed total read	3	2	lbs (assumed)	1.06	1.07		bb1885:p542:t1
+tea	1886	lb	7626123	7144313	1.067	differ 5-15%	Tea			no printed total read	3	1	lbs	0.96	1.03	undecided: needs the pages	bb1886:p491:t1
+tea	1887	lb	13282980	13062040	1.017	agree within 5%	Tea			no printed total read	3	2	lbs (assumed)	1.03	1.05		bb1887:p494:t1
+tea	1888	lb		22509564		ceylon missing					3	1	lbs	1.09			
+tea	1889	lb	32657590	32673294	1.000	agree within 5%	Tea			no printed total read	2	2	lbs	1.06	1.06		bb1889b:p245:t1
+tea	1890	lb	42855071	42491112	1.009	agree within 5%	Tea	0.936	0.936	consistent	3	1	lbs	0.94	0.95		bb1890:p535:t1
+tea	1891	lb	6338254	61900075	0.102	differ more than 15%	Tea	0.094	0.936	inconsistent	3	1	lbs	1.17	0.12	ceylon reading: its share of quantity and its share of value disagree	bb1891:p528:t1
+tea	1892	lb		66011630		ceylon missing					3	1	lbs	1.05			
+tea	1893	lb	73355840	64218062	1.142	differ 5-15%	Tea	0.891	0.892	consistent	2	1	lbs	0.90	1.03	uk reading: the ceylon figure fits the uk's neighbouring years and is self-consistent	bb1893:p581:t1
+tea	1894	lb	76434118	76311436	1.002	agree within 5%	Tea	0.895	0.895	consistent	3	1	lbs	1.04	1.04		bb1894:p546:t1
+tea	1895	lb		83447792		ceylon missing					3	1	lbs	0.98			
+tea	1896	lb	95487060	94859965	1.007	agree within 5%	Tea	0.867	0.867	consistent	3	1	lbs	1.06	1.07		bb1896:p579:t1
+tea	1897	lb	97500012	96325578	1.012	agree within 5%	Tea	0.851	0.851	consistent	3	1	lbs	1.00	1.01		bb1897:p570:t1
+tea	1898	lb	99256128	97613977	1.017	agree within 5%	Tea	0.811	0.810	consistent	3	1	lbs	0.99	1.00		bb1898:p585:t1
+tea	1899	lb		101700896		ceylon missing					2	1	lbs	0.96			
+tea	1900	lb		114480023		ceylon missing					3	1	lbs				
+coffee, raw (all kinds)	1880	cwt	531232	539757	0.984	agree within 5%	Coffee, Plantation	0.868	0.868	consistent	3	1	cwts				bb1880:p527:t1
+coffee, raw (all kinds)	1881	cwt	334175	331582	1.008	agree within 5%	Coffee, Liberian + Coffee, Native + Coffee, Plantation			printed totals not usable	2	1	cwts	0.73	0.74		bb1881:p499:t1 bb1881:p500:t1
+coffee, raw (all kinds)	1882	cwt		380658		ceylon missing					1	1	cwts	1.38			
+coffee, raw (all kinds)	1883	cwt	230124	227848	1.010	agree within 5%	Coffee, Plantation			no printed total read	1	1	cwts	0.74	0.74		bb1883:p504:t1
+coffee, raw (all kinds)	1884	cwt		251146		ceylon missing					3	1	cwts	1.06			
+coffee, raw (all kinds)	1885	cwt	238670	246784	0.967	agree within 5%	Coffee, Plantation			no printed total read	3	1	cwts	1.25	1.21		bb1885:p528:t1
+coffee, raw (all kinds)	1886	cwt	2751	155538	0.018	ceylon partial: main line not read	Coffee, Liberian	0.717	0.717	consistent	1	1	cwts	0.86	0.02		bb1886:p477:t1
+coffee, raw (all kinds)	1887	cwt	129505	133872	0.967	agree within 5%	Coffee, Native + Coffee, Plantation	0.725	0.736	consistent	1	1	cwts	1.04	1.01		bb1887:p479:t1 bb1887:p480:t1
+coffee, raw (all kinds)	1888	cwt		106082		ceylon missing					1	1	cwts	1.23			
+coffee, raw (all kinds)	1889	cwt	301	55236	0.005	ceylon partial: main line not read	Coffee, Native			no printed total read	3	1	cwts	0.65	0.00		bb1889b:p230:t1
+coffee, raw (all kinds)	1890	cwt	57482	69115	0.832	differ more than 15%	Coffee, Native + Coffee, Plantation			no printed total read	3	1	cwts	1.16	0.96	undecided: needs the pages	bb1890:p518:t1 bb1890:p519:t1
+coffee, raw (all kinds)	1891	cwt	409	64582	0.006	ceylon partial: main line not read	Coffee, Native			no printed total read	3	1	cwts	1.49	0.01		bb1891:p513:t1
+coffee, raw (all kinds)	1892	cwt	24153	27168	0.889	differ 5-15%	Coffee, Native + Coffee, Plantation	0.572	0.579	consistent	3	1	cwts	0.56	0.50	undecided: needs the pages	bb1892:p547:t1 bb1892:p548:t1
+coffee, raw (all kinds)	1893	cwt	462	36149	0.013	ceylon partial: main line not read	Coffee, Liberian	0.617	0.617	consistent	3	1	cwts (assumed)	1.58	0.02		bb1893:p576:t1
+coffee, raw (all kinds)	1894	cwt	389	19314	0.020	ceylon partial: main line not read	Coffee, Liberian	0.492		no printed total read	1	1	cwts (assumed)	0.47	0.01		bb1894:p541:t1
+coffee, raw (all kinds)	1895	cwt		46570		ceylon missing					1	1	cwts (assumed)	2.88			
+coffee, raw (all kinds)	1896	cwt	419	13523	0.031	ceylon partial: main line not read	Coffee, Liberian			printed totals not usable	2	2	cwts (assumed)	0.53	0.02		bb1896:p575:t1
+coffee, raw (all kinds)	1897	cwt		13941		ceylon missing					3	1	cwts	1.31			
+coffee, raw (all kinds)	1898	cwt	457	8385	0.054	ceylon partial: main line not read	Coffee, Liberian	0.457	0.457	consistent	2	2	cwts (assumed)	0.54	0.03		bb1898:p581:t1
+coffee, raw (all kinds)	1899	cwt	52	17535	0.003	ceylon partial: main line not read	Coffee, Liberian			no printed total read	3	1	cwts	1.91	0.01		bb1899:p584:t1
+coffee, raw (all kinds)	1900	cwt		10074		ceylon missing					2	1	cwts				
+cinchona bark	1880	cwt				both missing						0					
+cinchona bark	1881	cwt	8658			uk missing	Cinchona Bark	0.738	0.720	consistent		0					bb1881:p499:t1
+cinchona bark	1882	cwt		22868		ceylon missing					2	1	cwts				
+cinchona bark	1883	cwt		47860		ceylon missing					2	1	cwts	1.13			
+cinchona bark	1884	cwt		78055		ceylon missing					3	1	cwts	1.09			
+cinchona bark	1885	cwt		106375		ceylon missing					2	1	cwts	1.12			
+cinchona bark	1886	cwt		114932		ceylon missing					3	1	cwts	1.09			
+cinchona bark	1887	cwt		105282		ceylon missing					2	1	cwts	0.96			
+cinchona bark	1888	cwt		104634		ceylon missing					2	1	cwts	1.13			
+cinchona bark	1889	cwt		80951		ceylon missing					2	1	cwts	0.93			
+cinchona bark	1890	cwt		72638		ceylon missing					2	1	owts	1.17			
+cinchona bark	1891	cwt		47527		ceylon missing					2	1	cwts	0.73			
+cinchona bark	1892	cwt		57614		ceylon missing					2	1	cwts	1.53			
+cinchona bark	1893	cwt		29859		ceylon missing					2	2	cwts	0.82			
+cinchona bark	1894	cwt		23067		ceylon missing					2	2	cwts	1.47			
+cinchona bark	1895	cwt		8208		ceylon missing					2	1	cwts (assumed)	0.48			
+cinchona bark	1896	cwt		12579		ceylon missing					2	1	cwts	2.09			
+cinchona bark	1897	cwt	4758	4400	1.081	differ 5-15%	Cinchona	0.901	0.901	consistent	1	1	cwts (assumed)	0.52	0.57	undecided: needs the pages	bb1897:p576:t1
+cinchona bark	1898	cwt		5605		ceylon missing					2	1	cwts (assumed)	0.94			
+cinchona bark	1899	cwt		8150		ceylon missing					2	1	cwts (assumed)	1.23			
+cinchona bark	1900	cwt	5129	7892	0.650	differ more than 15%	Cinchona-Bark	0.973	0.973	consistent	2	1	cwts			undecided: needs the pages	bb1900:p635:t1
+cinnamon	1880	lb	1375926	1377272	0.999	agree within 5%	Cinnamon	0.855	0.855	consistent	2	1	lbs				bb1880:p527:t1
+cinnamon	1881	lb	1566425	1529698	1.024	agree within 5%	Cinnamon			no printed total read	2	1	lbs (assumed)	1.06	1.09		bb1881:p499:t1
+cinnamon	1882	lb		1499483		ceylon missing					2	1	lbs (assumed)	0.96			
+cinnamon	1883	lb		1592395		ceylon missing					2	1	lbs	0.95			
+cinnamon	1884	lb		1875008		ceylon missing					2	1	lbs				
+cinnamon	1885	lb				both missing						0					
+cinnamon	1886	lb				both missing						0					
+cinnamon	1887	lb				both missing						0					
+cinnamon	1888	lb				both missing						0					
+cinnamon	1889	lb				both missing						0					
+cinnamon	1890	lb				both missing						0					
+cinnamon	1891	lb				both missing						0					
+cinnamon	1892	lb		1116299		ceylon missing					2	1	lbs				
+cinnamon	1893	lb		1125227		ceylon missing					2	1	lbs	0.99			
+cinnamon	1894	lb		1154223		ceylon missing					2	2	lbs	0.86			
+cinnamon	1895	lb		1612110		ceylon missing					2	2	lbs	1.34			
+cinnamon	1896	lb		1252900		ceylon missing					2	2	lbs	0.80			
+cinnamon	1897	lb		1527420		ceylon missing					2	1	lbs	1.04			
+cinnamon	1898	lb		1731324		ceylon missing					2	1	lbs				
+cinnamon	1899	lb				both missing						0					
+cinnamon	1900	lb	265712	1502380	0.177	ceylon partial: main line not read	Spices— Cinnamon, Wild	0.856	0.737	consistent	3	1	lbs				bb1900:p631:t1
+coconut oil	1880	cwt		221076		ceylon missing					2	1	cwts (assumed)				
+coconut oil	1881	cwt		148366		ceylon missing					2	1	cwts	1.24			
+coconut oil	1882	cwt	78014	65254	1.196	differ more than 15%	Oil, Cocoanut	0.370	0.370	consistent	2	1	cwts	0.49	0.58	undecided: needs the pages	bb1882:p503:t1
+coconut oil	1883	cwt		120776		ceylon missing					2	1	cwts	1.24			
+coconut oil	1884	cwt		145478		ceylon missing					2	1	cwts				
+coconut oil	1885	cwt				both missing						0					
+coconut oil	1886	cwt				both missing						0					
+coconut oil	1887	cwt				both missing						0					
+coconut oil	1888	cwt				both missing						0					
+coconut oil	1889	cwt				both missing						0					
+coconut oil	1890	cwt				both missing						0					
+coconut oil	1891	cwt		129351		ceylon missing					2	1	cwts				
+coconut oil	1892	cwt		99498		ceylon missing					2	1	cwts	0.91			
+coconut oil	1893	cwt		92996		ceylon missing					2	1	cwts	0.67			
+coconut oil	1894	cwt		192676		ceylon missing					2	1	cwts (assumed)	1.42			
+coconut oil	1895	cwt		197236		ceylon missing					2	1	cwts (assumed)	1.38			
+coconut oil	1896	cwt		106681		ceylon missing					2	1	cwts	0.76			
+coconut oil	1897	cwt		99212		ceylon missing					3	1	cwts	0.85			
+coconut oil	1898	cwt		128231		ceylon missing					3	1	cwts				
+coconut oil	1899	cwt	190592			uk missing	Oil, Cocoanut			no printed total read		0					bb1899:p604:t1
+coconut oil	1900	cwt		297861		ceylon missing					3	1	cwts				
+plumbago	1880	cwt	70276	64580	1.088	differ 5-15%	Plumbago			no printed total read	2	1	tons			undecided: needs the pages	bb1880:p535:t1
+plumbago	1881	cwt	89709	73080	1.228	differ more than 15%	Plumbago	0.345	0.345	consistent	2	1	tons			undecided: needs the pages	bb1881:p508:t1
+plumbago	1882	cwt				both missing						0					
+plumbago	1883	cwt				both missing						0					
+plumbago	1884	cwt				both missing						0					
+plumbago	1885	cwt	136964			uk missing	Plumbago			no printed total read		0					bb1885:p538:t1
+plumbago	1886	cwt	84877	74340	1.142	differ 5-15%	Plumbago	0.351	0.351	consistent	2	1	tons			undecided: needs the pages	bb1886:p488:t1
+plumbago	1887	cwt	67252	73120	0.920	differ 5-15%	Plumbago			no printed total read	2	1	tons			undecided: needs the pages	bb1887:p490:t1
+plumbago	1888	cwt				both missing						0					
+plumbago	1889	cwt	213763			uk missing	Plumbago	0.440	0.440	consistent		0					bb1889b:p241:t1
+plumbago	1890	cwt	190737			uk missing	Plumbago	0.486	0.486	consistent		0					bb1890:p531:t1
+plumbago	1891	cwt		166040		ceylon missing					2	1	tons				
+plumbago	1892	cwt	110226	117540	0.938	differ 5-15%	Plumbago			no printed total read	2	1	tons	0.85	0.79	undecided: needs the pages	bb1892:p561:t1
+plumbago	1893	cwt	107170	115860	0.925	differ 5-15%	Minerals, Plumbago	0.323	0.323	consistent	2	1	tons	0.89	0.83	undecided: needs the pages	bb1893:p585:t1
+plumbago	1894	cwt		143300		ceylon missing					1	2	tons	1.26			
+plumbago	1895	cwt		110980		ceylon missing					2	1	tons	0.74			
+plumbago	1896	cwt		155180		ceylon missing					2	1	tons	1.13			
+plumbago	1897	cwt		169920		ceylon missing					2	2	tons (assumed)	0.98			
+plumbago	1898	cwt	168361	194320	0.866	differ 5-15%	Minerals Plumbago			no printed total read	2	1	tons (assumed)	1.01	0.88	undecided: needs the pages	bb1898:p589:t1
+plumbago	1899	cwt	216438	217840	0.994	agree within 5%	Minerals, Plumbago			no printed total read	2	1	tons (assumed)				bb1899:p593:t1
+plumbago	1900	cwt				both missing						0					
