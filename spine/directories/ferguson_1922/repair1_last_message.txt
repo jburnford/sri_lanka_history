@@ -1,0 +1,12 @@
+Repair round 1 is complete. Before editing, the original rules reproduced all five committed outputs byte for byte. The repaired extract rebuilds with either `CEYLON_OCR_ROOT` or the local fallback, preserves all 653 listing IDs, and passes all nine regression tests and the 200-character field check.
+
+| Per-record audit | Listings sampled | Checked | Wrong | Missing |
+|---|---:|---:|---:|---:|
+| Seed 4711, after the initial repairs | 30 B + 10 C | 573 | 123 | 30 |
+| Seed 4712, after the first audit fixes | 20 B | 346 | 48 | 8 |
+
+The audit also exposed department headings and signatory notes being extracted as people. The parser now separates them from names. Further corrections followed the second review, so the table reports the two audited snapshots. Joined company names, regional branch qualifiers, shared agency groups, and damaged initials remain unreliable. [README](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/README.md) · [Per-record audit](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/audit_repair1.tsv)
+
+**All 34 observed honorific spellings**, checked as titles or post-nominals
+
+`A. C. A.`, `A. S. A. A.`, `A.C.A.`, `A.M. I.C.E.`, `A.M.I.E.S.`, `AMIEE`, `B.A.`, `c. c. s.`, `C.A.`, `c.a.`, `Col`, `Dr`, `Dr.`, `ESQ.`, `Esq.`, `F.C.A.`, `G.B.V.C.`, `Gate Muhandiram`, `Hon.`, `J. P.`, `J.P.`, `J.P.M.M.C.`, `M.A.`, `M.P.S.`, `Madame`, `Miss`, `Mlle.`, `Mr.`, `Mrs`, `Mrs.`, `Sir`, `The Hon.`, `the Hon.`, `U.P.M.`

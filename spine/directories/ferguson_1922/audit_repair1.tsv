@@ -1,0 +1,958 @@
+round	listing_id	record_id	kind	agrees	comment
+1	ferg1922:p462:b5:r2	ferg1922:p462:b5:r2:role1	role	yes	
+1	ferg1922:p462:b5:r2	ferg1922:p462:b5:r2:role2	role	yes	
+1	ferg1922:p462:b5:r24	ferg1922:p462:b5:r24:role1	role	yes	
+1	ferg1922:p462:b5:r24	ferg1922:p462:b5:r24:role2	role	yes	
+1	ferg1922:p462:b5:r25	ferg1922:p462:b5:r25:role1	role	yes	
+1	ferg1922:p462:b5:r25	ferg1922:p462:b5:r25:role2	role	yes	
+1	ferg1922:p462:b5:r33	ferg1922:p462:b5:r33:role1	role	yes	
+1	ferg1922:p462:b5:r37	ferg1922:p462:b5:r37:role1	role	yes	
+1	ferg1922:p462:b7:r10	ferg1922:p462:b7:r10:role1	role	yes	
+1	ferg1922:p462:b7:r21	ferg1922:p462:b7:r21:role1	role	yes	
+1	ferg1922:p462:b7:r21	ferg1922:p462:b7:r21:role2	role	yes	
+1	ferg1922:p463:b13:r3	ferg1922:p463:b13:r3:conn1	connection	yes	
+1	ferg1922:p464:b3:r29	ferg1922:p464:b3:r29:conn1	connection	yes	
+1	ferg1922:p465:b6:r57	ferg1922:p465:b6:r57:conn1	connection	yes	
+1	ferg1922:p465:b6:r57	ferg1922:p465:b6:r57:conn2	connection	yes	
+1	ferg1922:p465:b6:r57	ferg1922:p465:b6:r57:conn3	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role1	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role2	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role3	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role4	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role5	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role6	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:role7	role	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn1	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn2	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn3	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn4	connection	no	London is a place fragment under the General heading, with no agency target.
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn5	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn6	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn7	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn8	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn9	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn10	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn11	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn12	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn13	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn14	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn15	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn16	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn17	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn18	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn19	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn20	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn21	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn22	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn23	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn24	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn25	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn26	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn27	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn28	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn29	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn30	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn31	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn32	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn33	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn34	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn35	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn36	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn37	connection	yes	
+1	ferg1922:p468:b6:r4	ferg1922:p468:b6:r4:conn38	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role1	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role2	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role3	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role4	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role5	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role6	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:role7	role	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn1	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn2	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn3	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn4	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn5	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn6	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn7	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn8	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn9	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn10	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn11	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn12	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn13	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn14	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn15	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn16	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn17	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn18	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn19	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn20	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn21	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn22	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn23	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn24	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn25	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn26	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn27	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn28	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn29	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn30	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn31	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn32	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn33	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn34	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn35	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn36	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn37	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn38	connection	yes	
+1	ferg1922:p468:b6:r7	ferg1922:p468:b6:r7:conn39	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role1	role	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role2	role	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role3	role	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role4	role	no	Tea Stores is part of the following manager title.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role5	role	no	The printed role is Tea Stores Manager.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role6	role	no	Oil Stores is part of the following manager title.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role7	role	no	Copra Stores is part of the following manager title.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role8	role	no	Plumbago Stores is part of the following manager title.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:role9	role	no	The manager title names the oil, copra and plumbago stores.
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn1	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn2	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn3	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn4	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn5	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn6	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn7	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn8	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn9	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn10	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn11	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn12	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn13	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn14	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn15	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn16	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn17	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn18	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn19	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn20	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn21	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn22	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn23	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn24	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn25	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn26	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn27	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn28	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn29	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn30	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn31	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn32	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn33	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn34	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn35	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn36	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn37	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn38	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn39	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn40	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn41	connection	yes	
+1	ferg1922:p469:b2:r2	ferg1922:p469:b2:r2:conn42	connection	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:role1	role	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:role2	role	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:role3	role	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:role4	role	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:role5	role	yes	
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:conn1	connection	no	The broker description is the listing’s own trades.
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:conn2	connection	no	Geo White & Co. is the listing’s London agent.
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:conn3	connection	no	London Stock Exchange falls under the inbound London Agents heading.
+1	ferg1922:p469:b2:r4	ferg1922:p469:b2:r4:conn4	connection	no	E. N. Vowler & Co. is an agent for the listing.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role1	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role2	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role3	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role4	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role5	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role6	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role7	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role8	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role9	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role10	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role11	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role12	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role13	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role14	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:role15	role	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn1	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn2	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn3	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn4	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn5	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn6	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn7	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn8	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn9	connection	no	The London Assurance name includes insurance descriptions in the target.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn10	connection	no	The Phoenix name is joined to Provident Accident & Guarantee Co.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn11	connection	no	Taisho is joined to the Fusco and Nippon names on following lines.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn12	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn13	connection	no	Toyo is joined to Union on the following line.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn14	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn15	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn16	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn17	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn18	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn19	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn20	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn21	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn22	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn23	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn24	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn25	connection	no	The role label prints a Local Cos. qualifier.
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn26	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn27	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn28	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn29	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn30	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn31	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn32	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn33	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn34	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn35	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn36	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn37	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn38	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn39	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn40	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn41	connection	yes	
+1	ferg1922:p474:b2:r3	ferg1922:p474:b2:r3:conn42	connection	yes	
+1	ferg1922:p474:b2:r3		missing_connection	no	Provident Accident & Guarantee Co., Ltd.
+1	ferg1922:p474:b2:r3		missing_connection	no	The Fusco Marine & Fire Insurance Co.
+1	ferg1922:p474:b2:r3		missing_connection	no	The Nippon Marine Insurance Co., Ltd.
+1	ferg1922:p474:b2:r3		missing_connection	no	Union Marine Insurance Co., Ltd.
+1	ferg1922:p476:b2:r2	ferg1922:p476:b2:r2:role1	role	no	The consul role contains the manager, secretary and consulate heading.
+1	ferg1922:p476:b2:r2	ferg1922:p476:b2:r2:role2	role	yes	
+1	ferg1922:p476:b2:r2	ferg1922:p476:b2:r2:conn1	connection	yes	
+1	ferg1922:p476:b2:r2	ferg1922:p476:b2:r2:conn2	connection	yes	
+1	ferg1922:p476:b2:r2		missing_role	no	Harald Thiede, Asst. Secretary
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role1	role	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role2	role	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role3	role	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role4	role	no	The signatory wording describes Dixie and names no person.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role5	role	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:role6	role	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn1	connection	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn2	connection	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn3	connection	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn4	connection	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn5	connection	yes	
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn6	connection	no	The parenthetical Agents marks Bengal Coal as an agency principal.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn7	connection	no	The parenthetical Agents makes this an insurance agency.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn8	connection	no	Two insurance agencies are joined and both have explicit Agents markers.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn9	connection	no	The parenthetical Agents makes this an insurance agency.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn10	connection	no	The parenthetical Agents makes this an insurance agency.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn11	connection	no	The parenthetical Agents makes this an insurance agency.
+1	ferg1922:p476:b2:r5	ferg1922:p476:b2:r5:conn12	connection	no	The parenthetical Agents marks Steel Bros as an agency principal.
+1	ferg1922:p476:b2:r5		missing_connection	no	Shanghai Life Insurance Co., Ltd.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role1	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role2	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role3	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role4	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role5	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role6	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:role7	role	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn1	connection	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn2	connection	no	Four other cities and China were attached to Hongkong.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn3	connection	no	Three other cities and Japan were attached to Yokohama.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn4	connection	no	Six other cities and regional labels were attached to New York.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn5	connection	no	Buenos Ayres and Argentina were attached to Antwerp.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn6	connection	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn7	connection	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn8	connection	no	The shipping name includes the route fragment from.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn9	connection	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn10	connection	yes	
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn11	connection	no	The coconut company and Navigazione appear together in one target.
+1	ferg1922:p480:b2:r3	ferg1922:p480:b2:r3:conn12	connection	yes	
+1	ferg1922:p480:b2:r3		missing_connection	no	Shanghai branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Hankow branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Canton branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Foochow branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Tokio branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Osaka branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Kobe branch
+1	ferg1922:p480:b2:r3		missing_connection	no	San Francisco branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Tacoma branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Seattle branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Portland branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Victoria branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Vancouver branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Buenos Ayres branch
+1	ferg1922:p480:b2:r3		missing_connection	no	Navigazione Generale Italiana shipping agency
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:role1	role	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:role2	role	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:role3	role	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:role4	role	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:conn1	connection	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:conn2	connection	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:conn3	connection	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:conn4	connection	yes	
+1	ferg1922:p480:b2:r4	ferg1922:p480:b2:r4:conn5	connection	yes	
+1	ferg1922:p480:b2:r4		missing_connection	no	Saw Mills at Wakan-de, Slave Island
+1	ferg1922:p481:b2:r6	ferg1922:p481:b2:r6:role1	role	yes	
+1	ferg1922:p481:b2:r6	ferg1922:p481:b2:r6:conn1	connection	yes	
+1	ferg1922:p481:b2:r7	ferg1922:p481:b2:r7:role1	role	no	Dadabhoy is Chief Agent for Ceylon.
+1	ferg1922:p481:b2:r7	ferg1922:p481:b2:r7:role2	role	no	Chief is part of Dadabhoy’s title.
+1	ferg1922:p481:b2:r7	ferg1922:p481:b2:r7:conn1	connection	yes	
+1	ferg1922:p482:b2:r3	ferg1922:p482:b2:r3:role1	role	yes	
+1	ferg1922:p482:b2:r5	ferg1922:p482:b2:r5:role1	role	yes	
+1	ferg1922:p482:b2:r5	ferg1922:p482:b2:r5:conn1	connection	no	Merchant is a trade description.
+1	ferg1922:p482:b2:r5	ferg1922:p482:b2:r5:conn2	connection	no	The automobile products describe the firm’s trade.
+1	ferg1922:p482:b2:r5	ferg1922:p482:b2:r5:conn3	connection	no	The proprietary relationship is included in the target under Agent for.
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role1	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role2	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role3	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role4	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role5	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:role6	role	yes	
+1	ferg1922:p485:b2:r3	ferg1922:p485:b2:r3:conn1	connection	no	The broker description is the listing’s own trades.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:role1	role	no	The proprietor name, assistants heading and G. H. Hassenally were joined.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:role2	role	no	The printed label is Assistants.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn1	connection	yes	
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn2	connection	no	The places Sundaan and Jesselton are part of the target name.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn3	connection	no	The London heading and two firms were joined into one target.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn4	connection	no	The London heading applies to this address.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn5	connection	no	The Japan heading and Yokohama were left in the principal’s name.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn6	connection	no	The Japan heading supplies the agency location.
+1	ferg1922:p486:b2:r5	ferg1922:p486:b2:r5:conn7	connection	no	Esmajee and Moorbhoy are separate principals.
+1	ferg1922:p486:b2:r5		missing_role	no	Hassenally Davoodbhoy, listed
+1	ferg1922:p486:b2:r5		missing_connection	no	Gibbon & Co. agency
+1	ferg1922:p486:b2:r5		missing_connection	no	M. M. Moorbhoy & Co., Ltd. agency
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role1	role	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role2	role	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role3	role	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role4	role	no	The signatory wording describes Griggs and names no person.
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role5	role	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:role6	role	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:conn1	connection	yes	
+1	ferg1922:p487:b2:r3	ferg1922:p487:b2:r3:conn2	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role1	role	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role2	role	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role3	role	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role4	role	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role5	role	no	A post-nominal and the Offices label were folded into Adkins’s name.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role6	role	no	Works is part of the following title.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role7	role	no	The printed title is Works Manager.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role8	role	no	Works is part of the following title.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role9	role	no	The printed title is Works Engineers.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role10	role	no	The printed title is Works Engineers.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role11	role	no	Harbour is part of the following title.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role12	role	no	The printed title is Harbour Engineer.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:role13	role	no	The printed title identifies the engineering stores department.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn1	connection	no	Special belongs to the agencies heading.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn2	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn3	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn4	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn5	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn6	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn7	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn8	connection	yes	
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn9	connection	no	The Crossley item is split at the Ltd. abbreviation.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn10	connection	no	Motor Cars and Lorries describes the Crossley item.
+1	ferg1922:p488:b2:r2	ferg1922:p488:b2:r2:conn11	connection	yes	
+1	ferg1922:p488:b2:r2		missing_connection	no	Hoare & Co., London Buying Office
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:role1	role	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:role2	role	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:role3	role	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn1	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn2	connection	no	The coal trades do not name a second head office.
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn3	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn4	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn5	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn6	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn7	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn8	connection	yes	
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn9	connection	no	Sabang and Durban are printed together without a separator in OCR.
+1	ferg1922:p488:b2:r4	ferg1922:p488:b2:r4:conn10	connection	yes	
+1	ferg1922:p489:b4:r0	ferg1922:p489:b4:r0:role1	role	yes	
+1	ferg1922:p489:b4:r0	ferg1922:p489:b4:r0:role2	role	yes	
+1	ferg1922:p489:b4:r0	ferg1922:p489:b4:r0:conn1	connection	no	Mitre Square is the address, London the town.
+1	ferg1922:p492:b2:r4	ferg1922:p492:b2:r4:role1	role	no	This is part of the title Manager for South-Eastern Asia.
+1	ferg1922:p492:b2:r4	ferg1922:p492:b2:r4:role2	role	no	The manager’s title is split and partly included in the person field.
+1	ferg1922:p492:b2:r4	ferg1922:p492:b2:r4:conn1	connection	no	Lipton is named under General Agents.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:role1	role	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:role2	role	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:role3	role	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:role4	role	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:role5	role	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn1	connection	no	The opening shipping route description names no correspondent.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn2	connection	no	Madagascar belongs to the opening shipping route.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn3	connection	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn4	connection	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn5	connection	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn6	connection	yes	
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn7	connection	no	Far East and the scope of the general ports statement were split.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn8	connection	no	East is part of Far East.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn9	connection	no	Australia is in the general ports statement.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn10	connection	no	Madagascar is in the general ports statement.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn11	connection	no	Eastern has been detached from Coast of Africa.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn12	connection	no	Coast of Africa belongs to the general ports statement.
+1	ferg1922:p493:b2:r1	ferg1922:p493:b2:r1:conn13	connection	no	M. M. Co. is a London agent of the listing. London is absent from the place field.
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:role1	role	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:role2	role	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:role3	role	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn1	connection	no	The produce merchant description is the listing’s own trade.
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn2	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn3	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn4	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn5	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn6	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn7	connection	yes	
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn8	connection	no	Marine is an insurance qualifier, separate from Moscow.
+1	ferg1922:p494:b2:r2	ferg1922:p494:b2:r2:conn9	connection	no	Marine and Fire describes the insurance agency, outside the company name.
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:role1	role	no	Travianon is the manager. Barker is a separate assistant signing per pro.
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:role2	role	no	Walsgrove is an assistant under the per pro heading.
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:conn1	connection	yes	
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:conn2	connection	yes	
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:conn3	connection	yes	
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:conn4	connection	yes	
+1	ferg1922:p494:b2:r5	ferg1922:p494:b2:r5:conn5	connection	yes	
+1	ferg1922:p494:b2:r5		missing_role	no	W. Barker, assistant per pro
+1	ferg1922:p495:b2:r4	ferg1922:p495:b2:r4:conn1	connection	no	Mackinnon, Mackenzie & Co. is the listing’s Colombo agent.
+1	ferg1922:p495:b2:r8	ferg1922:p495:b2:r8:role1	role	yes	
+1	ferg1922:p495:b2:r8	ferg1922:p495:b2:r8:conn1	connection	no	Millinery, drapery and mine ownership are the firm’s own trades.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role1	role	yes	
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role2	role	no	The printed role is Head Cutter and Manager.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role3	role	no	Head Cutter is part of Cooke’s role.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role4	role	yes	
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role5	role	no	Claridge is Cutter.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role6	role	no	Cutter is Claridge’s role.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role7	role	yes	
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role8	role	yes	
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role9	role	yes	
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role10	role	no	Kandy belongs in the Branch Manager title.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role11	role	no	Lodge is Cutter.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:role12	role	no	Cutter is Lodge’s role.
+1	ferg1922:p496:b2:r5	ferg1922:p496:b2:r5:conn1	connection	yes	
+1	ferg1922:p497:b2:r4	ferg1922:p497:b2:r4:role1	role	yes	
+1	ferg1922:p497:b2:r4	ferg1922:p497:b2:r4:role2	role	yes	
+1	ferg1922:p497:b2:r4	ferg1922:p497:b2:r4:conn1	connection	yes	
+1	ferg1922:p497:b2:r4		missing_connection	no	Correspondents all over the world, an unspecific place
+1	ferg1922:p497:b2:r7	ferg1922:p497:b2:r7:role1	role	yes	
+1	ferg1922:p497:b2:r7	ferg1922:p497:b2:r7:role2	role	no	Mathaparaman and Sivagunasegaram are separate partners.
+1	ferg1922:p497:b2:r7		missing_role	no	T. Sivagunasegaram, partner
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role1	role	no	Edmund was parsed as part of the directors heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role2	role	no	The heading is Directors.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role3	role	no	The heading is Directors.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role4	role	no	The heading is Directors.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role5	role	no	The heading is Directors.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role6	role	no	Director & is part of Hayward’s title.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role7	role	no	The printed title is Director & General Manager.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role8	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role9	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role10	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role11	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role12	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role13	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role14	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role15	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role16	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role17	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role18	role	no	The Colombo Iron Works heading is in the person field and Works Manager is missing.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role19	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role20	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role21	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role22	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role23	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role24	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role25	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role26	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role27	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role28	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role29	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role30	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role31	role	no	The Colombo Iron Works heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role32	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role33	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role34	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role35	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role36	role	no	Motor Garage is the heading and has been attached to Glasse’s name.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role37	role	no	The Motor Garage heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role38	role	no	The Motor Garage heading applies here.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role39	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role40	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role41	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role42	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role43	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role44	role	no	Engineering names the department and was included in Kerr’s name.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role45	role	no	Halliday is under Engineering.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role46	role	no	Garage is the heading and was included in Cotton’s name.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role47	role	no	TALAWAKELLE STAFF is a heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role48	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role49	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role50	role	no	WALKERS is part of the branch heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role51	role	no	CLARK SPENCE is part of the branch heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role52	role	no	Galle is part of the branch heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role53	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role54	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role55	role	no	RATNAPURA BRANCH is a heading.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:role56	role	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn1	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn2	connection	no	Auckland House is part of the Walker Brothers street address.
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn3	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn4	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn5	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn6	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn7	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn8	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn9	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn10	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn11	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn12	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn13	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn14	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn15	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn16	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn17	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn18	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn19	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn20	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn21	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn22	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn23	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn24	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn25	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn26	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn27	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn28	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn29	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn30	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn31	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn32	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn33	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn34	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn35	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn36	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn37	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn38	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn39	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn40	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn41	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn42	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn43	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn44	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn45	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn46	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn47	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn48	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn49	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn50	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn51	connection	yes	
+1	ferg1922:p498:b2:r1	ferg1922:p498:b2:r1:conn52	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role1	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role2	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role3	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role4	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role5	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role6	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role7	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role8	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role9	role	no	Kandy Branch and Ward Street identify the site.
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role10	role	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:role11	role	no	Nuwara Eliya Branch is the heading, separate from Randies’s name.
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn1	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn2	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn3	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn4	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn5	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn6	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn7	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn8	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn9	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn10	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn11	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn12	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn13	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn14	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn15	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn16	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn17	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn18	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn19	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn20	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn21	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn22	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn23	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn24	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn25	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn26	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn27	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn28	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn29	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn30	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn31	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn32	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn33	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn34	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn35	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn36	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn37	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn38	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn39	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn40	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn41	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn42	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn43	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn44	connection	yes	
+1	ferg1922:p499:b2:r3	ferg1922:p499:b2:r3:conn45	connection	yes	
+1	ferg1922:p499:b2:r3		missing_connection	no	Kandy Branch, Ward Street
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:role1	role	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:role2	role	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:role3	role	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn1	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn2	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn3	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn4	connection	no	Aliboy is the named branch entry, with Calcutta as its place.
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn5	connection	no	Calcutta belongs with the preceding branch entry.
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn6	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn7	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn8	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn9	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn10	connection	yes	
+2	ferg1922:p468:b6:r3	ferg1922:p468:b6:r3:conn11	connection	yes	
+2	ferg1922:p470:b2:r2	ferg1922:p470:b2:r2:role1	role	no	The trailing OCR credential A I M has been lost.
+2	ferg1922:p470:b2:r2	ferg1922:p470:b2:r2:conn1	connection	no	Mining and Consulting Engineers is a trade description.
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role1	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role2	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role3	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role4	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role5	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role6	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role7	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role8	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role9	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role10	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:role11	role	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn1	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn2	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn3	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn4	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn5	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn6	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn7	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn8	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn9	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn10	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn11	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn12	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn13	connection	no	Mauritius is the place of Chas. Jacobs & Sons.
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn14	connection	no	Port Elizabeth is the place of Dunell Ebben & Co.
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn15	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn16	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn17	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn18	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn19	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn20	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn21	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn22	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn23	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn24	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn25	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn26	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn27	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn28	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn29	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn30	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn31	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn32	connection	yes	
+2	ferg1922:p471:b2:r1	ferg1922:p471:b2:r1:conn33	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role1	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role2	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role3	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role4	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role5	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role6	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role7	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role8	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role9	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role10	role	no	Parke appears under the displaced Motor Garage heading.
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role11	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role12	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role13	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role14	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role15	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role16	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role17	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role18	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role19	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role20	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role21	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role22	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role23	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role24	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role25	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role26	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role27	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role28	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role29	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role30	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:role31	role	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn1	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn2	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn3	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn4	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn5	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn6	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn7	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn8	connection	no	Tullis and Brunton are separate principals.
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn9	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn10	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn11	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn12	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn13	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn14	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn15	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn16	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn17	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn18	connection	no	The manufacturer and Colthurst & Harding are separate principals.
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn19	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn20	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn21	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn22	connection	no	Massay-Harris and Newton Chambers are separate principals.
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn23	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn24	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn25	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn26	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn27	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn28	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn29	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn30	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn31	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn32	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn33	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn34	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn35	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn36	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn37	connection	no	The trailing etcetera mark is outside the name.
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn38	connection	yes	
+2	ferg1922:p472:b2:r3	ferg1922:p472:b2:r3:conn39	connection	no	The London agency address occupies the target field.
+2	ferg1922:p472:b2:r3		missing_connection	no	W. N. Brunton & Son
+2	ferg1922:p472:b2:r3		missing_connection	no	Colthurst & Harding
+2	ferg1922:p472:b2:r3		missing_connection	no	Newton Chambers & Co
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:role1	role	yes	
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:role2	role	yes	
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:conn1	connection	no	B.I.S.N. is a shipping principal.
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:conn2	connection	yes	
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:conn3	connection	yes	
+2	ferg1922:p476:b2:r3	ferg1922:p476:b2:r3:conn4	connection	no	Feroke and Quilon Tile Works are separate principals.
+2	ferg1922:p476:b2:r3		missing_connection	no	Quilon Tile Works
+2	ferg1922:p476:b2:r4	ferg1922:p476:b2:r4:role1	role	yes	
+2	ferg1922:p476:b2:r4	ferg1922:p476:b2:r4:conn1	connection	yes	
+2	ferg1922:p476:b2:r4	ferg1922:p476:b2:r4:conn2	connection	no	The General Agents heading identifies Clark, Young & Co. as the listing’s agent.
+2	ferg1922:p482:b2:r2	ferg1922:p482:b2:r2:conn1	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role1	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role2	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role3	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role4	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role5	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role6	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role7	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role8	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role9	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role10	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role11	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role12	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role13	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role14	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role15	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role16	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role17	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role18	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role19	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role20	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role21	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role22	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role23	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role24	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:role25	role	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn1	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn2	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn3	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn4	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn5	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn6	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn7	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn8	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn9	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn10	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn11	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn12	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn13	connection	no	The cell contains the Co. overflow from the second insurer.
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn14	connection	no	The displaced Co. suffix belongs to North British & Mercantile Insurance.
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn15	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn16	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn17	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn18	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn19	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn20	connection	no	Montreal is part of the bank’s name.
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn21	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn22	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn23	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn24	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn25	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn26	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn27	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn28	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn29	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn30	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn31	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn32	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn33	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn34	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn35	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn36	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn37	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn38	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn39	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn40	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn41	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn42	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn43	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn44	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn45	connection	no	The second Ltd. fragment is displaced OCR.
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn46	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn47	connection	no	The printed legal name includes of Ceylon.
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn48	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn49	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn50	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn51	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn52	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn53	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn54	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn55	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn56	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn57	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn58	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn59	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn60	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn61	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn62	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn63	connection	yes	
+2	ferg1922:p484:b2:r1	ferg1922:p484:b2:r1:conn64	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role1	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role2	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role3	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role4	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role5	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role6	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role7	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role8	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role9	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role10	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role11	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role12	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role13	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role14	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role15	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role16	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role17	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role18	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role19	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role20	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role21	role	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:role22	role	no	H. & C Mills is a department label, separate from Wickwar’s name.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn1	connection	no	The following cities also qualify Harrisons & Crossfield.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn2	connection	no	The remaining cities were made into a Calicut correspondent.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn3	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn4	connection	no	The printed trade description names no correspondent.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn5	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn6	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn7	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn8	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn9	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn10	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn11	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn12	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn13	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn14	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn15	connection	yes	
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn16	connection	no	The Agents & Secretaries heading is included in the bank’s name.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn17	connection	no	This estate is under Agents & Secretaries.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn18	connection	no	This estate is under Agents & Secretaries.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn19	connection	no	This estate is under Agents & Secretaries.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn20	connection	no	This company is under Agents & Secretaries.
+2	ferg1922:p486:b2:r2	ferg1922:p486:b2:r2:conn21	connection	no	This estate is under Agents & Secretaries.
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role1	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role2	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role3	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role4	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role5	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role6	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role7	role	no	E. Walter and H. W. Horner were joined across the Local Board heading.
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role8	role	no	Sibbald is listed under Local Board.
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role9	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:role10	role	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:conn1	connection	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:conn2	connection	no	The repeated listing name introduces its offices.
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:conn3	connection	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:conn4	connection	yes	
+2	ferg1922:p486:b2:r3	ferg1922:p486:b2:r3:conn5	connection	yes	
+2	ferg1922:p486:b2:r3		missing_role	no	H. W. Horner, Local Board
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:role1	role	no	Horner is manager and Sibbald is listed separately in the office.
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:role2	role	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:role3	role	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn1	connection	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn2	connection	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn3	connection	no	The firm and W. S. King are separate predecessors.
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn4	connection	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn5	connection	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn6	connection	yes	
+2	ferg1922:p486:b2:r4	ferg1922:p486:b2:r4:conn7	connection	no	Yang-tse is a named insurance principal under Agents for.
+2	ferg1922:p486:b2:r4		missing_role	no	J. F. Sibbald, Office
+2	ferg1922:p486:b2:r4		missing_connection	no	W. S. King, predecessor
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:role1	role	yes	
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn1	connection	yes	
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn2	connection	no	Shand and Haldane are the same London firm.
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn3	connection	no	This is the remainder of Shand, Haldane & Co.
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn4	connection	no	London belongs to the preceding firm and Grindlay to this record.
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn5	connection	no	The cities qualify Grindlay & Co.
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn6	connection	no	The head-office place name is broken across lines.
+2	ferg1922:p490:b1:r2	ferg1922:p490:b1:r2:conn7	connection	no	Sunlight is the continuation of Port Sunlight.
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role1	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role2	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role3	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role4	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role5	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role6	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role7	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role8	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:role9	role	yes	
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:conn1	connection	no	Agents and Valuators is part of the listing’s own trade description.
+2	ferg1922:p491:b2:r4	ferg1922:p491:b2:r4:conn2	connection	no	Estate Agents is a trade and the target is the insurer named after it.
+2	ferg1922:p492:b2:r1	ferg1922:p492:b2:r1:role1	role	yes	
+2	ferg1922:p492:b2:r1	ferg1922:p492:b2:r1:role2	role	yes	
+2	ferg1922:p492:b2:r1	ferg1922:p492:b2:r1:role3	role	yes	
+2	ferg1922:p492:b2:r1	ferg1922:p492:b2:r1:role4	role	yes	
+2	ferg1922:p492:b2:r1	ferg1922:p492:b2:r1:role5	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:role1	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:role2	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:role3	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:role4	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:role5	role	yes	
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:conn1	connection	no	The store name was joined with the listing’s own trades.
+2	ferg1922:p494:b2:r4	ferg1922:p494:b2:r4:conn2	connection	yes	
+2	ferg1922:p494:b2:r4		missing_role	no	E. G., proprietor. Surname absent in the staff cell.
+2	ferg1922:p495:b2:r5	ferg1922:p495:b2:r5:role1	role	no	This phrase refers to the late Pappé in a trustee description.
+2	ferg1922:p495:b2:r5	ferg1922:p495:b2:r5:role2	role	yes	
+2	ferg1922:p495:b2:r5	ferg1922:p495:b2:r5:role3	role	yes	
+2	ferg1922:p495:b2:r5	ferg1922:p495:b2:r5:role4	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role1	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role2	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role3	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role4	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role5	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role6	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:role7	role	yes	
+2	ferg1922:p496:b2:r2	ferg1922:p496:b2:r2:conn1	connection	no	The merchandise and dressmaking labels are the listing’s trades.
+2	ferg1922:p499:b2:r1	ferg1922:p499:b2:r1:role1	role	yes	
+2	ferg1922:p499:b2:r1	ferg1922:p499:b2:r1:role2	role	yes	
+2	ferg1922:p499:b2:r1	ferg1922:p499:b2:r1:conn1	connection	no	Undertakers and Funeral Furnishers describe the listing’s trades.
+2	ferg1922:p500:b2:r3	ferg1922:p500:b2:r3:role1	role	yes	
+2	ferg1922:p500:b2:r3	ferg1922:p500:b2:r3:role2	role	yes	
+2	ferg1922:p500:b2:r3	ferg1922:p500:b2:r3:role3	role	yes	

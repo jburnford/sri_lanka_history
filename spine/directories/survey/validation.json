@@ -1,0 +1,348 @@
+{
+  "volume_count": 37,
+  "section_count": 1198,
+  "fields_at_most_200": true,
+  "oversize_fields": [],
+  "all_classes_valid": true,
+  "all_held_pages_exactly_once": true,
+  "pilot_1922_ranges_match": {
+    "462-467": true,
+    "468-500": true,
+    "548-555": true
+  },
+  "volumes": {
+    "1922-fergusons-ceylon-directory_4e422995": {
+      "pages_held": 1366,
+      "sections": 69,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "FergusonsCeylonDirectory1920_43c2c5d7": {
+      "pages_held": 1255,
+      "sections": 70,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1871-72-ceylon-directory-calendar_7af11425": {
+      "pages_held": 795,
+      "sections": 55,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618": {
+      "pages_held": 687,
+      "sections": 21,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272": {
+      "pages_held": 572,
+      "sections": 29,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1883-84_FERGUSON_S_CEYLON_DIRECTORY_PART_TWO_f639fd7f": {
+      "pages_held": 572,
+      "sections": 29,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1887-88-ceylon-directory_598eef85": {
+      "pages_held": 1268,
+      "sections": 50,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1890-91-the-ceylon-handbook-and-directory-part-1_7d937270": {
+      "pages_held": 509,
+      "sections": 23,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683": {
+      "pages_held": 772,
+      "sections": 36,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1898-99-the-ceylon-handbook-and-directory_a3eca189": {
+      "pages_held": 1381,
+      "sections": 57,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "ceylonhandbook1902_c8f9a543_p01001": {
+      "pages_held": 505,
+      "sections": 30,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1904-fergusons-ceylon-directory_e893781a_p01001": {
+      "pages_held": 569,
+      "sections": 12,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "ceylonhandbook1904_cd510006_p01001": {
+      "pages_held": 601,
+      "sections": 30,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1905-06-fergusons-ceylon-directory_32de2db2_p01001": {
+      "pages_held": 533,
+      "sections": 28,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "CeylonHandbook1905_f9714cdb_p01001": {
+      "pages_held": 743,
+      "sections": 48,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "CeylonHandbook1906_4f9daa70": {
+      "pages_held": 1465,
+      "sections": 72,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "CeylonHandbook1907_a0b9e13d_p01001": {
+      "pages_held": 769,
+      "sections": 44,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1909-fergusons-ceylon-directory_77af1786_p01001": {
+      "pages_held": 607,
+      "sections": 27,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1925-fergusons-ceylon-directory_837eb3f7_p01001": {
+      "pages_held": 658,
+      "sections": 12,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1937-fergusons-ceylon-directory_0bf0f598_p02001": {
+      "pages_held": 355,
+      "sections": 8,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1940-fergusons-ceylon-directory_800b40ed_p02001": {
+      "pages_held": 379,
+      "sections": 2,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1941-fergusons-ceylon-directory_6d53a7cc_p02001": {
+      "pages_held": 273,
+      "sections": 7,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1942-fergusons-ceylon-directory_a3a35172_p02001": {
+      "pages_held": 517,
+      "sections": 19,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1943-fergusons-ceylon-directory_2fee9219_p01001": {
+      "pages_held": 557,
+      "sections": 11,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1944-fergusons-ceylon-directory_15d9ca95": {
+      "pages_held": 1338,
+      "sections": 68,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1946-fergusons-ceylon-directory_245be47f": {
+      "pages_held": 1448,
+      "sections": 70,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1949-fergusons-ceylon-directory_8caef43e_p01001": {
+      "pages_held": 680,
+      "sections": 21,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1950-fergusons-ceylon-directory_d9609e09_p01001": {
+      "pages_held": 704,
+      "sections": 20,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1951-fergusons-ceylon-directory_ec649410": {
+      "pages_held": 1221,
+      "sections": 57,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1955-fergusons-ceylon-directory_857cd976": {
+      "pages_held": 725,
+      "sections": 37,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1956-fergusons-ceylon-directory_23557c3d_p01001": {
+      "pages_held": 631,
+      "sections": 22,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1959-fergusons-ceylon-directory_056ac4d5": {
+      "pages_held": 1466,
+      "sections": 48,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1960-61-fergusons-ceylon-directory_ad3fa277_p02001": {
+      "pages_held": 397,
+      "sections": 12,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1963-fergusons-ceylon-directory_897c2c80_p02001": {
+      "pages_held": 114,
+      "sections": 4,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1964-fergusons-ceylon-directory_ae941e4a_p02001": {
+      "pages_held": 214,
+      "sections": 5,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1967-68-fergusons-ceylon-directory_d843e6ef_p01001": {
+      "pages_held": 805,
+      "sections": 31,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    },
+    "1969-70-fergusons-ceylon-directory_3d8ceebf_p02001": {
+      "pages_held": 470,
+      "sections": 14,
+      "exactly_once": true,
+      "page_assignment_errors": "",
+      "classes_valid": true,
+      "unknown_classes": [],
+      "fields_at_most_200": true
+    }
+  }
+}

@@ -13,14 +13,77 @@
     },
     "B": {
       "listings": 153,
-      "roles": 997,
-      "connections": 1716
+      "roles": 979,
+      "connections": 1729
     },
     "C": {
       "listings": 215,
       "roles": 217,
       "connections": 317
     }
+  },
+  "relation_class_counts": {
+    "agent_for": 743,
+    "branch_at": 240,
+    "correspondent": 252,
+    "has_agent": 206,
+    "head_office": 27,
+    "insurer_agent": 137,
+    "other": 205,
+    "represents": 10,
+    "secretary_for": 199,
+    "shipping_agent": 71
+  },
+  "role_class_counts": {
+    "licensee": 8,
+    "manager": 127,
+    "officer": 261,
+    "owner": 23,
+    "partner": 132,
+    "staff": 694,
+    "unknown": 213
+  },
+  "honorific_values": [
+    "A. C. A.",
+    "A. S. A. A.",
+    "A.C.A.",
+    "A.M. I.C.E.",
+    "A.M.I.E.S.",
+    "AMIEE",
+    "B.A.",
+    "c. c. s.",
+    "C.A.",
+    "c.a.",
+    "Col",
+    "Dr",
+    "Dr.",
+    "ESQ.",
+    "Esq.",
+    "F.C.A.",
+    "G.B.V.C.",
+    "Gate Muhandiram",
+    "Hon.",
+    "J. P.",
+    "J.P.",
+    "J.P.M.M.C.",
+    "M.A.",
+    "M.P.S.",
+    "Madame",
+    "Miss",
+    "Mlle.",
+    "Mr.",
+    "Mrs",
+    "Mrs.",
+    "Sir",
+    "The Hon.",
+    "the Hon.",
+    "U.P.M."
+  ],
+  "dropped_phrases": {
+    "ferg1922:p481:b2:r2": 1,
+    "ferg1922:p488:b2:r2": 2,
+    "ferg1922:p493:b2:r1": 1,
+    "ferg1922:p498:b2:r1": 2
   },
   "skipped": {
     "461": "Military directories only. No Chamber heading or roster is present."

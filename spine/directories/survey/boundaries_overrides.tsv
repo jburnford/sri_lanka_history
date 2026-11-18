@@ -1,0 +1,1062 @@
+ocr_folder	pdf_page_start	pdf_page_end	section_class	heading_as_printed	town_or_area	attested	layout	confidence	reason
+1922-fergusons-ceylon-directory_4e422995	1	1	front_matter	CEYLON DIRECTORY				high	Cover precedes the advertisement indexes.
+1922-fergusons-ceylon-directory_4e422995	2	8	index	Alphabetical Index to Advertisements			advertiser and trade indexes	high	Classified index follows alphabetical index.
+1922-fergusons-ceylon-directory_4e422995	29	31	front_matter	FERGUSON'S CEYLON DIRECTORY FOR 1922.			illustration, title and preface	high	Portrait, title leaf and preface follow the advertising block.
+1922-fergusons-ceylon-directory_4e422995	32	34	statistics_review	CEYLON.			descriptive prose and tables	high	Island overview between preface and contents.
+1922-fergusons-ceylon-directory_4e422995	35	35	front_matter	Principal Contents.			contents with printed page references	high	Printed contents verified against the following section starts.
+1922-fergusons-ceylon-directory_4e422995	36	36	front_matter	AGENCIES WHERE FERGUSON'S CEYLON DIRECTORY MAY BE OBTAINED.			agency list	high	Publisher's distribution information follows contents.
+1922-fergusons-ceylon-directory_4e422995	37	64	statistics_review	PLANTING AND AGRICULTURAL REVIEW.			running prose and statistical tables	high	Review divider, statistical opening and last cultivated area table.
+1922-fergusons-ceylon-directory_4e422995	38	38	advertisements				advertisements	high	Full-page advertisement interrupts the planting review.
+1922-fergusons-ceylon-directory_4e422995	65	72	almanac_calendar	CHRONOLOGICAL AND HISTORICAL.			calendar notes and tables	high	Chronology divider followed by ephemeris, festivals, time and measures.
+1922-fergusons-ceylon-directory_4e422995	66	66	advertisements				advertisements	high	Full-page advertisement before the ephemeris.
+1922-fergusons-ceylon-directory_4e422995	73	229	almanac_calendar	CHRONOLOGICAL TABLE OF EVENTS.			dated chronology	high	Historical Events is the continuation of the calendar chronology.
+1922-fergusons-ceylon-directory_4e422995	230	230	statistics_review	STATISTICAL AND GENERAL INFORMATION.			section divider	high	Statistical and general information divider.
+1922-fergusons-ceylon-directory_4e422995	231	231	advertisements				advertisements	high	Advertising running head and full-page advertisement.
+1922-fergusons-ceylon-directory_4e422995	232	250	gazetteer_places	RIVERS, LAKES AND TANKS.			places, distances and elevations tables	high	Geographic tables include roads, canals and resthouses.
+1922-fergusons-ceylon-directory_4e422995	251	251	professions	Hospitals in Ceylon.			hospital list by province	high	Hospital list precedes the stamp duties.
+1922-fergusons-ceylon-directory_4e422995	252	278	government_establishment	STAMP DUTIES.			regulations and rate tables	high	Duties, licences, royalities and Crown land rules.
+1922-fergusons-ceylon-directory_4e422995	279	293	statistics_review	CEYLON IMPORTS AND EXPORTS IN 1919 AND 1920:		1919–1920	statistical tables	high	Trade returns followed by colonial finances.
+1922-fergusons-ceylon-directory_4e422995	294	314	government_establishment	CEYLON CUSTOMS TARIFF.			regulations and fee schedules	high	Customs, hospital charges and civil registration rules.
+1922-fergusons-ceylon-directory_4e422995	315	323	government_establishment	POSTAL, TELEGRAPHIC AND RAILWAY.			service regulations and rate tables	high	Postal divider and postal, telegraph and telephone information.
+1922-fergusons-ceylon-directory_4e422995	316	316	advertisements				advertisements	high	Full-page advertisement before postal information.
+1922-fergusons-ceylon-directory_4e422995	324	346	gazetteer_places	COACH AND MOTOR MAIL SERVICES IN CEYLON.			route, hire and railway schedules	high	Local transport schedules and rates.
+1922-fergusons-ceylon-directory_4e422995	347	362	gazetteer_places	South Indian Railway Fares	South India		railway fare tables	high	Separate South Indian railway schedules.
+1922-fergusons-ceylon-directory_4e422995	363	366	government_establishment	Ceylon Labour Commission.			staff, stations and regulations	high	Labour commission before Colombo municipal rules.
+1922-fergusons-ceylon-directory_4e422995	367	371	municipal_local	Colombo Municipal Taxes and Bylaws.	Colombo		rules and fee schedules	high	Municipal series ends with drainage.
+1922-fergusons-ceylon-directory_4e422995	372	380	statistics_review	CENSUS OF CEYLON.			statistical tables	high	Census, temperature and rainfall tables.
+1922-fergusons-ceylon-directory_4e422995	381	403	government_establishment	LEGISLATIVE AND EXECUTIVE COUNCILS.			order in council and procedural rules	high	Divider and legislative council rules.
+1922-fergusons-ceylon-directory_4e422995	382	382	advertisements				advertisements	high	Full-page advertisement between council dividers.
+1922-fergusons-ceylon-directory_4e422995	404	446	government_establishment	PUBLIC OFFICES &c., IN COLOMBO.—(Contd.)			department and staff lists; seniority tables	high	Printed sequence jumps into public offices. Courts, civil establishments and committees follow.
+1922-fergusons-ceylon-directory_4e422995	447	457	municipal_local	GALLE MUNICIPALITY.			local boards and committee rosters	high	Printed jump begins at Galle. Road, health, school and excise bodies follow.
+1922-fergusons-ceylon-directory_4e422995	458	459	military_volunteer	ROYAL NAVY : EAST INDIES STATION.			ship and naval staff lists	high	Naval establishment and ship rosters.
+1922-fergusons-ceylon-directory_4e422995	460	461	military_volunteer	CEYLON DEFENCE FORCE.			unit and officer lists	high	Page 460 starts with the end of the navy roster and introduces the military establishment.
+1922-fergusons-ceylon-directory_4e422995	462	465	associations	PAST OFFICERS last office OF THE CEYLON CHAMBER OF COMMERCE.—(Contd)			year | names tables and membership lists	high	Chamber is already in progress at PDF 462. Printed 419–423 are skipped. Trade and insurance associations follow.
+1922-fergusons-ceylon-directory_4e422995	466	467	banks_insurance	BANKS IN CEYLON.			bank and agency lists	high	Colombo banks followed by agencies and outstation banks.
+1922-fergusons-ceylon-directory_4e422995	468	500	mercantile_colombo	LIST OF COLOMBO MERCHANTS AND AGENTS.	Colombo	December, 1921	3-column table: firm | staff | agencies	high	Pilot surveyed range verified; Visiting Agents starts on the next page.
+1922-fergusons-ceylon-directory_4e422995	501	503	professions	Visiting Agents, Inspectors of Estates, Valuators, &c.			name and agency tables	high	Boat companies begin later on PDF 503.
+1922-fergusons-ceylon-directory_4e422995	504	510	shipping_port	STEAM NAVIGATION COMPANIES AND AGENCIES.			company lists, routes and signal tables	high	Steam navigation, coastal lights and port signals.
+1922-fergusons-ceylon-directory_4e422995	511	517	press	ENGLISH NEWSPAPERS IN COLOMBO.			3-column tables and newspaper lists	high	Colombo section leads into islandwide press listings.
+1922-fergusons-ceylon-directory_4e422995	518	536	trade_lists	COLOMBO PROFESSIONAL AND TRADE LIST.	Colombo		trade headings over grouped names	high	Classified occupations include professions and insurance as subsections.
+1922-fergusons-ceylon-directory_4e422995	537	541	trade_lists	LICENSED RUBBER AND CACAO DEALERS.			licensed dealers by district	high	District dealers before the licensed surveyors.
+1922-fergusons-ceylon-directory_4e422995	542	544	professions	LICENSED SURVEYORS AND LEVELLERS.			name and post-station tables	high	Surveying licences end before poison licences.
+1922-fergusons-ceylon-directory_4e422995	545	546	trade_lists	PERSONS LICENSED TO SELL POISONS.			licensed and occupational lists	high	Poison sellers and music listings occupy adjacent pages.
+1922-fergusons-ceylon-directory_4e422995	547	547	trade_lists	LICENSED PAWNBROKERS IN COLOMBO.	Colombo		trade headings over grouped names	high	Pawnbrokers and Chetty firms on one page.
+1922-fergusons-ceylon-directory_4e422995	548	555	mercantile_outstation	KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Pilot range verified. Bankers and staffed firms lead into classified trades from PDF 551.
+1922-fergusons-ceylon-directory_4e422995	556	560	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		3-column firm tables; grouped trade lists	high	Galle merchants followed by Galle trades under same running heading.
+1922-fergusons-ceylon-directory_4e422995	561	575	mercantile_outstation	OUTSTATIONS AND VILLAGES IN CEYLON.			town headings over firm and staff lists	high	Branch banks, stores and firms by town, ending with Tuticorin.
+1922-fergusons-ceylon-directory_4e422995	576	576	trade_lists	HOTELS, CLUBS AND PRINCIPAL BOARDING HOUSES IN CEYLON.			grouped lists by town	high	Hotel and boarding-house list.
+1922-fergusons-ceylon-directory_4e422995	577	577	professions	Licenses to Examine Steam Engine Boilers.			licensed-person lists	high	Boiler examiners and mine inspection precede the factory register.
+1922-fergusons-ceylon-directory_4e422995	578	593	trade_lists	Tea and Cocoa Packing, Rubber, Cardamoms, Oil, Cotton and other Mills, Manufactories and Machine Offices in Colombo, Kandy, Galle			factory and mill tables	high	Industrial lists run through the last Various Factories table.
+1922-fergusons-ceylon-directory_4e422995	594	680	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Company profiles run alphabetically to W before institutions.
+1922-fergusons-ceylon-directory_4e422995	681	728	associations	PLANTERS' ASSOCIATION OF CEYLON. (INCORPORATED.)			alphabetical institutional profiles; rosters	medium	Contents labels this Institutions. Includes clubs, schools and religious bodies. Dedicated planters and growers associations near end.
+1922-fergusons-ceylon-directory_4e422995	729	733	professions				hospital profiles and nursing lists	high	Hospitals and nurses dominate. First hospital material shares PDF 728.
+1922-fergusons-ceylon-directory_4e422995	734	734	government_establishment	GOVERNMENT APOTHECARIES.			civil staff list	high	Government apothecaries end on the mixed opening estate spread.
+1922-fergusons-ceylon-directory_4e422995	735	752	estates_directory				estate name, Tamil name and district tables	high	Estate indexes start beside the apothecaries on a mixed spread. Repeated or composite scans present.
+1922-fergusons-ceylon-directory_4e422995	753	895	estates_directory				estate, owner, agent, acreage and crop tables	medium	First detailed estate tables share a spread with medical regulations. Crop tables continue through lowcountry plantations.
+1922-fergusons-ceylon-directory_4e422995	896	923	estates_directory	INDIVIDUAL OWNERS OF TEA, RUBBER, CACAO, EIC., ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	PDF 922 briefly inserts a coconut index also seen at 924; PDF 923 returns to owners.
+1922-fergusons-ceylon-directory_4e422995	924	936	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate and province tables	high	Separate coconut index immediately before detailed coconut tables.
+1922-fergusons-ceylon-directory_4e422995	937	1010	estates_directory	COCONUT PLANTATIONS.			estate, owner, agent, acreage and post town tables	high	Provincial coconut tables end with other crop estates.
+1922-fergusons-ceylon-directory_4e422995	1011	1025	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	India postal list before errata.
+1922-fergusons-ceylon-directory_4e422995	1026	1026	advertisements				advertisements	high	Advertisement before the errata.
+1922-fergusons-ceylon-directory_4e422995	1027	1032	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Errata are bound before the address list.
+1922-fergusons-ceylon-directory_4e422995	1033	1316	residents_alphabetical				alphabetical names, occupations and addresses	high	Held address list starts partway through A and includes firms. Table of contents places addresses in Part II.
+1922-fergusons-ceylon-directory_4e422995	1317	1366	index	GENERAL INDEX.			alphabetical subject and name index	high	Divider and general index to the end.
+FergusonsCeylonDirectory1920_43c2c5d7	1	7	front_matter				cover and library leaves	high	Library and reproduction leaves before advertisements.
+FergusonsCeylonDirectory1920_43c2c5d7	8	11	advertisements				advertisements	high	Front advertisements precede their index.
+FergusonsCeylonDirectory1920_43c2c5d7	12	19	index	ALPHABETICAL INDEX OF ADVERTISEMENTS.			advertiser and trade indexes	high	Alphabetical and classified indexes.
+FergusonsCeylonDirectory1920_43c2c5d7	20	43	advertisements				advertisements	high	Roman-numbered advertising sequence.
+FergusonsCeylonDirectory1920_43c2c5d7	44	47	front_matter	FERGUSON'S CEYLON DIRECTORY FOR 1920-21.			title, library leaf and preface	high	Title and prefatory pages.
+FergusonsCeylonDirectory1920_43c2c5d7	48	49	statistics_review	CEYLON.			descriptive prose and figures	high	Overview of the island.
+FergusonsCeylonDirectory1920_43c2c5d7	50	51	advertisements				advertisements	high	Advertising after island overview.
+FergusonsCeylonDirectory1920_43c2c5d7	52	53	front_matter	PRINCIPAL CONTENTS.			contents with printed page references	high	Contents and adjoining blank verso. Printed references checked against headings.
+FergusonsCeylonDirectory1920_43c2c5d7	54	83	statistics_review	THE PLANTING INDUSTRY OF CEYLON.			running prose and statistical tables	high	Planting statistics and review. Printed area total ends the section.
+FergusonsCeylonDirectory1920_43c2c5d7	70	71	advertisements				advertisements	high	Advertising pages interrupt the review.
+FergusonsCeylonDirectory1920_43c2c5d7	84	85	statistics_review	STATISTICS.			section divider	high	Divider and facing verso before the chronology.
+FergusonsCeylonDirectory1920_43c2c5d7	86	94	almanac_calendar	CHRONOLOGICAL TABLE OF EVENTS, 1919.		1919	dated chronology	high	Chronological account for 1919.
+FergusonsCeylonDirectory1920_43c2c5d7	95	95	statistics_review	CEYLON STATISTICS.			population tables	high	Population and provincial statistics.
+FergusonsCeylonDirectory1920_43c2c5d7	96	114	gazetteer_places	LENGTH OF PRINCIPAL RIVERS IN CEYLON.			places, distances and elevations tables	high	Geographical and road tables end with resthouses.
+FergusonsCeylonDirectory1920_43c2c5d7	115	119	statistics_review	REVENUE OF CEYLON.			statistical tables	high	Colonial revenues, expenditure and balance sheet.
+FergusonsCeylonDirectory1920_43c2c5d7	120	161	government_establishment	CEYLON CUSTOMS TARIFF.			regulations and fee schedules	high	Customs, stamp duties, licences, land and civil registration rules.
+FergusonsCeylonDirectory1920_43c2c5d7	162	162	professions	LIST OF HOSPITALS.			hospital list by province	high	Hospital names before the schedule of charges.
+FergusonsCeylonDirectory1920_43c2c5d7	163	165	government_establishment	HOSPITAL CHARGES.			regulations and fee schedules	high	Schedules of health charges.
+FergusonsCeylonDirectory1920_43c2c5d7	166	182	statistics_review	Export of Ceylon Produce from Colombo and Galle during the Past Ten Years.			statistical tables	high	Library tissue or image leaf precedes foldout and trade and shipping returns.
+FergusonsCeylonDirectory1920_43c2c5d7	183	190	government_establishment	POSTAL AND TELEGRAPHIC INFORMATION.			service regulations and rate tables	high	Postal and communications rates and rules.
+FergusonsCeylonDirectory1920_43c2c5d7	191	193	gazetteer_places	COACH AND MOTOR MAIL SERVICES IN CEYLON.			route schedules	high	Coach and motor-mail routes.
+FergusonsCeylonDirectory1920_43c2c5d7	194	236	government_establishment	GOVERNMENT OF CEYLON.			department and staff lists; seniority tables	high	Directories divider, then executive, legislature, courts and civil service.
+FergusonsCeylonDirectory1920_43c2c5d7	237	251	municipal_local	COLOMBO MUNICIPALITY.			local staff and committee lists	high	Municipalities followed by local road, health and advisory bodies.
+FergusonsCeylonDirectory1920_43c2c5d7	252	253	military_volunteer	ROYAL NAVY : EAST INDIES STATION.			ship and naval staff lists	high	Navy precedes separate military roster.
+FergusonsCeylonDirectory1920_43c2c5d7	254	257	military_volunteer	MILITARY ESTABLISHMENTS.			unit and officer lists	high	Military and Ceylon Defence Force.
+FergusonsCeylonDirectory1920_43c2c5d7	258	265	associations	The Ceylon Chamber of Commerce.			year | names tables and membership lists	high	Bank and mercantile divider precedes the Chamber and trade associations.
+FergusonsCeylonDirectory1920_43c2c5d7	266	267	banks_insurance	BANKS IN CEYLON.			bank and agency lists	high	Opening shares PDF 266 with end of insurance association.
+FergusonsCeylonDirectory1920_43c2c5d7	268	306	mercantile_colombo	LIST OF COLOMBO MERCHANTS AND AGENTS.	Colombo	November, 1900	3-column table: firm | staff | agencies	high	Firm, staff and agencies continue to Visiting Agents. OCR reads 1900 in the attestation of the 1920–21 volume.
+FergusonsCeylonDirectory1920_43c2c5d7	307	309	professions	Visiting Agents: Inspectors of Estates, Valuators, &c.			name and agency tables	high	Last page shares space with boat companies.
+FergusonsCeylonDirectory1920_43c2c5d7	310	317	shipping_port	STEAM NAVIGATION COMPANIES AND AGENCIES.			company lists, routes and signal tables	high	Ends with flagstaff signals and a following blank.
+FergusonsCeylonDirectory1920_43c2c5d7	318	325	press	ENGLISH NEWSPAPERS IN COLOMBO.			3-column tables and newspaper lists	high	Colombo and principal islandwide newspapers.
+FergusonsCeylonDirectory1920_43c2c5d7	326	355	trade_lists	COLOMBO PROFESSIONAL AND TRADE LIST.	Colombo		trade headings over grouped names	high	Classified occupations followed by district rubber and cacao dealers.
+FergusonsCeylonDirectory1920_43c2c5d7	356	358	professions	LICENSED SURVEYORS AND LEVELLERS.			name and post-station tables	high	Separate tables of licensed surveyors.
+FergusonsCeylonDirectory1920_43c2c5d7	359	362	trade_lists	Persons Licensed to Sell Poisons.			trade headings over grouped names	high	Poison sellers, music, pawnbrokers and Chetty firms.
+FergusonsCeylonDirectory1920_43c2c5d7	363	367	mercantile_outstation	KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy bankers and merchants followed by trades under same heading.
+FergusonsCeylonDirectory1920_43c2c5d7	368	373	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		3-column firm tables; grouped trade lists	high	Galle merchants and trades under same heading.
+FergusonsCeylonDirectory1920_43c2c5d7	374	387	mercantile_outstation	OUTSTATIONS AND VILLAGES IN CEYLON.			town headings over firm and staff lists	high	Branch banks, merchants and stores by town.
+FergusonsCeylonDirectory1920_43c2c5d7	388	388	trade_lists	HOTELS, CLUBS AND PRINCIPAL BOARDING HOUSES IN CEYLON.			grouped lists by town	high	Hotels and boarding houses before the mills.
+FergusonsCeylonDirectory1920_43c2c5d7	389	410	trade_lists				factory and mill tables	high	Industrial directory runs through the printed summary.
+FergusonsCeylonDirectory1920_43c2c5d7	411	411	professions	Licenses to Examine Steam Engine Boilers.			licensed-person lists	high	Boiler examiners and mine inspection.
+FergusonsCeylonDirectory1920_43c2c5d7	412	511	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Alphabetical company histories end before Public Institutions.
+FergusonsCeylonDirectory1920_43c2c5d7	512	544	associations	PUBLIC INSTITUTIONS.			alphabetical institutional profiles; rosters	high	Includes schools and churches within the institution directory.
+FergusonsCeylonDirectory1920_43c2c5d7	545	548	professions	CEYLON NURSING ASSOCIATION.			hospital and health institution profiles	high	Contents places principal hospitals here. Nursing association precedes hospitals on opening page.
+FergusonsCeylonDirectory1920_43c2c5d7	549	551	professions	MATERNITY AND OTHER NURSES IN CEYLON.			name and location lists	high	Nurses and municipal midwives.
+FergusonsCeylonDirectory1920_43c2c5d7	552	582	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Section title and overview followed by English-name index.
+FergusonsCeylonDirectory1920_43c2c5d7	583	602	estates_directory	TAMIL OR SINHALESE NAMES OF ESTATES.			estate name, English name and district tables	high	Reverse estate-name lookup.
+FergusonsCeylonDirectory1920_43c2c5d7	603	607	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			post station and district tables	high	Post stations and planting medical district list.
+FergusonsCeylonDirectory1920_43c2c5d7	608	613	government_establishment	PRIVATE TELEPHONES IN PLANTING DISTRICTS.			exchange lists and rate tables	high	Exchange lists followed by trunk and local charges.
+FergusonsCeylonDirectory1920_43c2c5d7	614	807	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed planting districts through lowcountry plantations.
+FergusonsCeylonDirectory1920_43c2c5d7	808	833	estates_directory	INDIVIDUAL OWNERS OF TEA, RUBBER, CACAO, ETC., ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Alphabetical owner tables end before coconut estate index.
+FergusonsCeylonDirectory1920_43c2c5d7	834	847	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate and province tables	high	Index precedes detailed provincial tables.
+FergusonsCeylonDirectory1920_43c2c5d7	848	919	estates_directory	COCONUT PLANTATIONS.			estate, owner, agent, acreage and post town tables	high	Detailed province tables followed by other crops.
+FergusonsCeylonDirectory1920_43c2c5d7	920	927	front_matter	GENERAL DIRECTORY			title leaves and abbreviations	high	Title and explanations for the address section.
+FergusonsCeylonDirectory1920_43c2c5d7	928	1156	residents_alphabetical				alphabetical names, occupations and addresses	high	General list includes firms with the personal listings.
+FergusonsCeylonDirectory1920_43c2c5d7	1157	1159	residents_alphabetical	BOX-HOLDERS AT THE GENERAL POST OFFICE,			box number and holder tables	high	Separate Colombo GPO box-holder list.
+FergusonsCeylonDirectory1920_43c2c5d7	1160	1175	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	Covers southern Indian postal districts.
+FergusonsCeylonDirectory1920_43c2c5d7	1176	1199	trade_lists	TELEGRAPHIC ADDRESSES			firm and telegraphic address tables	high	Alphabetical telegraph address lookup.
+FergusonsCeylonDirectory1920_43c2c5d7	1200	1243	index	GENERAL INDEX.			alphabetical subject and name index	high	Index divider precedes insertions and index proper.
+FergusonsCeylonDirectory1920_43c2c5d7	1201	1201	front_matter				library mark	high	Library leaf between index title and index proper.
+FergusonsCeylonDirectory1920_43c2c5d7	1202	1203	advertisements				advertisements	high	Advertisements bound before index proper.
+FergusonsCeylonDirectory1920_43c2c5d7	1244	1249	advertisements				advertisements	high	Advertising leaves after index.
+FergusonsCeylonDirectory1920_43c2c5d7	1250	1255	front_matter				library and binding leaves	high	End leaves and library date stamp.
+1871-72-ceylon-directory-calendar_7af11425	1	2	front_matter	FERGUSON'S CEYLON DIRECTORY				high	Title and preface.
+1871-72-ceylon-directory-calendar_7af11425	3	10	statistics_review	THE COFFEE ENTERPRISE IN CEYLON.	Ceylon	September, 1871	running prose and tables	high	Coffee review is interrupted by an index page at PDF 9.
+1871-72-ceylon-directory-calendar_7af11425	9	9	index	Index.				high	Index leaf between coffee review pages.
+1871-72-ceylon-directory-calendar_7af11425	11	51	index	INDEX.				high	General index with interleaved errata leaves.
+1871-72-ceylon-directory-calendar_7af11425	17	17	front_matter	ERRATA AND ADDENDA.				high	Errata interrupt the index.
+1871-72-ceylon-directory-calendar_7af11425	19	19	front_matter	ERRATA AND ADDENDA.				high	Errata interrupt the index.
+1871-72-ceylon-directory-calendar_7af11425	21	24	front_matter	ERRATA AND ADDENDA.				high	Errata and continuing corrections.
+1871-72-ceylon-directory-calendar_7af11425	26	26	front_matter	ERRATA AND ADDENDA.				high	Errata interrupt the index.
+1871-72-ceylon-directory-calendar_7af11425	52	52	front_matter	ERRATA AND ADDENDA.				high	Final early errata before the calendar.
+1871-72-ceylon-directory-calendar_7af11425	53	116	almanac_calendar	CALENDAR AND COMPENDIUM OF USEFUL INFORMATION.		1871–1872	calendar and reference tables; prose	high	Calendars followed by commercial conversions and practical household and medical notes.
+1871-72-ceylon-directory-calendar_7af11425	117	167	government_establishment				regulations and rate tables	high	Duties and legal, postal and telegraph rates before the altitude tables.
+1871-72-ceylon-directory-calendar_7af11425	168	172	gazetteer_places	TRIGONOMETRICAL ALTITUDES.			place and altitude tables	high	Altitude tables end before enactments.
+1871-72-ceylon-directory-calendar_7af11425	173	180	government_establishment	A TABLE OF LEGISLATIVE ENACTMENTS, &c.			laws and patent lists	high	Enactments and proclamations followed by patents.
+1871-72-ceylon-directory-calendar_7af11425	181	192	banks_insurance	BANKS AND COMPANIES CONNECTED WITH THE EAST.			bank profiles and exchange tables	high	Banking, exchange and Loan Board.
+1871-72-ceylon-directory-calendar_7af11425	193	194	government_establishment	SUMMARY OF THE TOLL ORDINANCE			rules and toll tables	high	Tolls before municipalities.
+1871-72-ceylon-directory-calendar_7af11425	195	197	municipal_local	MUNICIPALITIES IN CEYLON.			rules and municipal lists	high	Municipal section ends before burial rules.
+1871-72-ceylon-directory-calendar_7af11425	198	200	almanac_calendar				reference tables and notes	high	Burial rules, interest and holidays before the coffee manual.
+1871-72-ceylon-directory-calendar_7af11425	201	396	statistics_review	A MANUAL FOR COFFEE PLANTERS.			running prose and statistical tables	high	Planting manual followed by colonial revenue, trade, weather and agricultural statistics.
+1871-72-ceylon-directory-calendar_7af11425	397	398	front_matter	Directories.			divider and facing leaf	high	Directories divider before road tables.
+1871-72-ceylon-directory-calendar_7af11425	399	413	gazetteer_places	Tables of Roads in the Island of Ceylon.			route and distance tables	high	Route tables before European and Indian listings.
+1871-72-ceylon-directory-calendar_7af11425	414	448	government_establishment	European, Indian, &c., Directory.			office and seniority tables	high	British, Indian and colonial office holders followed by Ceylon civil service.
+1871-72-ceylon-directory-calendar_7af11425	449	460	military_volunteer	GENERAL STAFF.			military establishment lists	medium	General staff opens a military run within the directories.
+1871-72-ceylon-directory-calendar_7af11425	499	499	municipal_local	KANDY MUNICIPALITY.	Kandy			high	Municipality before consuls.
+1871-72-ceylon-directory-calendar_7af11425	500	500	consuls	CONSULS IN CEYLON.			country and consul table	high	Consular table before mercantile firms.
+1871-72-ceylon-directory-calendar_7af11425	501	503	mercantile_colombo	DIRECTORIES.	Colombo		3-column table: firm | staff | agencies	high	Firm tables follow consuls and end before banks.
+1871-72-ceylon-directory-calendar_7af11425	504	504	banks_insurance	BANKS IN COLOMBO.	Colombo			high	Bank list before Chamber roster.
+1871-72-ceylon-directory-calendar_7af11425	505	505	associations	FIRMS AND BANKS REPRESENTED IN THE CHAMBER.			membership table	high	Chamber roster before press.
+1871-72-ceylon-directory-calendar_7af11425	506	506	press	NEWSPAPERS AND PERIODICALS.			publication table	high	Press table before trade material.
+1871-72-ceylon-directory-calendar_7af11425	507	508	trade_lists	HOTELS AND LODGING HOUSES.	Colombo		grouped lists and tables	high	Hotels and Chetty firms before Kandy.
+1871-72-ceylon-directory-calendar_7af11425	509	512	mercantile_outstation	LIST OF KANDY BANKERS, MERCHANTS, COMMISSION AGENTS	Kandy		firm, staff and address tables; trade lists	high	Kandy listings, including Chetty firms, before Galle.
+1871-72-ceylon-directory-calendar_7af11425	513	515	mercantile_outstation	GALLE—(Continued.)	Galle		firm tables and trade lists	high	Galle mercantile pages contain shipping subsection.
+1871-72-ceylon-directory-calendar_7af11425	516	516	mercantile_outstation	NUWERA ELIYA.	Nuwara Eliya		town and firm lists	high	Outstation listings before institutions.
+1871-72-ceylon-directory-calendar_7af11425	517	535	associations	Institutions.			institutional rosters	high	Institution directory includes schools, churches, masonic lodges and inserted naval material.
+1871-72-ceylon-directory-calendar_7af11425	530	531	military_volunteer	TRINCOMALIE ROYAL, NAVAL, AND VICTUALLING ESTABLISHMENTS	Trincomalee		ship and naval staff lists	high	Inserted naval leaves sit within institution almanac.
+1871-72-ceylon-directory-calendar_7af11425	536	536	clergy_religious	ENGLISH SERVICES IN COLOMBO ON SUNDAYS.	Colombo		church service schedule	high	Services table before industrial directory.
+1871-72-ceylon-directory-calendar_7af11425	537	540	trade_lists	DIRECTORIES.			factory and mill tables	high	Industrial tables close with summary.
+1871-72-ceylon-directory-calendar_7af11425	541	542	military_volunteer	MILITARY DIRECTORY.			unit and officer lists	high	Military leaves before estate divider.
+1871-72-ceylon-directory-calendar_7af11425	543	609	estates_directory	Estates Directories.			estate, owner, agent, acreage and crop tables	high	Coffee estates by district, followed by addenda.
+1871-72-ceylon-directory-calendar_7af11425	610	626	estates_directory	ALPHABETICAL LIST OF COCOA-NUT ESTATES.			estate and province tables	high	Coconut index followed by detailed provincial tables.
+1871-72-ceylon-directory-calendar_7af11425	627	632	estates_directory	Cinnamon Estates.			estate, owner and acreage tables	high	Cinnamon and sugar estates.
+1871-72-ceylon-directory-calendar_7af11425	633	633	government_establishment	CEYLON GOVERNMENT RAILWAY.			railway information	high	Railway leaf precedes general directory.
+1871-72-ceylon-directory-calendar_7af11425	634	731	residents_alphabetical	The General Directory:			alphabetical names, occupations and addresses	high	General address directory includes changes while printing.
+1871-72-ceylon-directory-calendar_7af11425	732	795	advertisements	Advertisements.			advertisements and publisher catalogues	high	Publisher prospectuses, catalogues and commercial advertisements.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	1	7	front_matter	PREFACE.			title and preface	high	Title and preface before publisher advertisements.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	8	11	advertisements	Advertisements.				high	Advertising and publisher material before index.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	12	36	index	Index.				high	General index before planting review.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	37	145	statistics_review	REVIEW OF THE AGRICULTURAL AND PLANTING INDUSTRIES OF CEYLON			running prose and statistical tables	high	Planting review from historical coffee account to world crop markets.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	146	147	front_matter	HANDBOOK			section divider	high	Handbook divider and facing leaf.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	148	197	almanac_calendar	A CHRONOLOGICAL TABLE OF EVENTS,			dated chronology	high	Chronology and corrections.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	198	223	almanac_calendar	PRINCIPAL ARTICLES OF THE CALENDAR			calendar and reference tables; prose	high	Calendar followed by practical hints, weights and currency.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	224	231	banks_insurance	BANKS AND BANKING IN CEYLON.			bank profiles and exchange tables	high	Banking chapter before wills and stamp duties.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	232	267	government_establishment	DIRECTIONS FOR MAKING A WILL.			regulations and fee schedules	high	Legal, stamp, licensing, registration and burial material.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	268	278	shipping_port	LISTS OF MAIL AND OTHER STEAMERS CALLING AT THE PORT OF COLOMBO.	Colombo		company lists, routes and port rules	high	Steamers, flagstaff and harbour regulations.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	279	299	government_establishment	CEYLON PATENTS.			regulations and fee schedules	high	Customs tariff, enactments, patents and Crown land.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	300	313	gazetteer_places	TRIGONOMETRICAL AND CADASTRAL SURVEY OF CEYLON			place, distance and elevation tables	medium	Survey and altitudes lead into carriage and inland route material.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	314	357	government_establishment	CEYLON GOVERNMENT RAILWAY.			regulations, routes and rate tables	high	Railway fare and goods schedules open the run. Numbered railway rules begin on PDF 321.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	358	614	statistics_review	STATE OF CEYLON.			running prose and statistical tables	high	Colonial statistics including population, economy, trade, transport and meteorology.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	615	630	government_establishment	European, Indian, &c., Directory.			office and seniority tables	high	Imperial and colonial officials followed by Ceylon Civil Service.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	631	647	military_volunteer	Military.			unit and officer lists	high	Military, volunteers and navy.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	648	654	government_establishment	LIST OF PUBLIC SERVANTS ON LEAVE.			government staff and court lists	high	Public servants, justices and coroners.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	655	659	professions	LEGAL DIRECTORY.	Ceylon		name, rank and practice location tables	high	Advocates and proctors.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	660	664	clergy_religious	CLERICAL DIRECTORY.			clergy and station tables	high	Clerical list before medical directory.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	665	667	professions	MEDICAL DIRECTORY.			medical practitioner and nurse tables	high	Medical and nursing listings.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-1_c877f618	668	687	government_establishment	CIVIL ESTABLISHMENTS.			department and staff lists	high	Departments continue into Part 2.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	1	10	government_establishment	DIRECTORIES.			department and staff lists	high	Starts within Civil Establishments. Early railway staff leaves repeat at PDF 3–4.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	11	11	consuls	CONSULS IN CEYLON.			country and consul table	high	Consuls before Colombo firms.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	12	18	mercantile_colombo	DIRECTORIES.	Colombo		3-column table: firm | staff | agencies	high	Firm and assistants tables before banks.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	19	19	banks_insurance	BANKS IN COLOMBO.	Colombo			high	Banks before Chamber.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	20	20	associations	CHAMBER OF COMMERCE.—(Continued.)			membership tables	high	Chamber and fire insurance association.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	21	21	shipping_port	MESSAGERIES MARITIMES CO.'S STAFF :—COLOMBO.	Colombo		shipping agent and staff lists	high	Shipping listings before press.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	22	22	press	NEWSPAPERS AND PERIODICALS:			publication table	high	Press table before trade list.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	23	27	trade_lists	COLOMBO TRADE LIST.	Colombo		trade headings over grouped names	high	Classified trades end with Moorish traders.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	28	31	mercantile_outstation	KANDY MERCANTILE AND TRADE LISTS. &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy listings before Galle.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	32	34	mercantile_outstation	GALLE—(Continued.)	Galle		firm, staff and address tables; trade lists	high	Galle listings before outstations.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	35	43	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Multiple outstations, including Nuwara Eliya and Horton Plains.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	44	44	professions	PRIVATE SURVEYORS IN CEYLON.			name and location tables	high	Surveyor table before institutions.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	45	77	associations	Institutions.			institutional rosters	high	Colombo followed by Kandy and outstations. Contains churches and schools.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	78	78	gazetteer_places	Geographical Positions, Elevations, &c.,			place and altitude tables	high	Geographical table before industrial lists.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	79	86	trade_lists				factory and mill tables	high	Industrial tables end at summary.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	87	91	gazetteer_places	INDEX FOR POST-STATIONS AND COFFEE DISTRICTS.			station and planting district tables	high	Estate divider and reference to planting and medical districts.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	92	120	estates_directory	ALPHABETICAL LIST OF THE TAMIL OR SINHALESE NAMES OF UP- AND LOW-COUNTRY PLANTATIONS.			estate name, Tamil name and district tables	high	Estate-name lookup series before detailed district tables.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	121	209	estates_directory	ALAGALA, OR KADUGANNAWA NORTH.			estate, owner, agent, acreage and crop tables	high	Detailed plantation tables end with Kelani Valley.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	210	210	professions	VISITING AGENTS: INSPECTORS OF ESTATES VALUATORS, &c.			name and agency table	high	Visiting agents between estate tables.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	211	233	estates_directory	LIST OF NATIVE COFFEE GARDENS IN THE CENTRAL PROVINCE			garden, owner and acreage tables	high	Coffee gardens and estate tables. Some coconut leaves are interleaved.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	234	247	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES.			estate, owner, agent, acreage and post town tables	high	Coconut index and provincial coconut and cinnamon properties.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	248	249	front_matter	General Directory.			title and reference	high	General directory title and stations reference.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	250	387	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	Alphabetical address list through Z.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	388	390	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Errata before advertisement sequence.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	391	566	advertisements	Advertisements.			advertisements and publisher catalogues	high	Advertising sequence includes commercial circulars and publisher catalogues.
+1887-88-ceylon-directory_598eef85	1	2	front_matter	CEYLON DIRECTORY				high	Cover and publications leaf.
+1887-88-ceylon-directory_598eef85	3	3	advertisements	Advertisements.				high	Advertising leaf before index.
+1887-88-ceylon-directory_598eef85	4	23	index	INDEX.				high	General index before planting review.
+1887-88-ceylon-directory_598eef85	24	179	statistics_review	PLANTING AND AGRICULTURAL REVIEW.			running prose and statistical tables	high	Review and commodity markets. Includes lists of plantation companies.
+1887-88-ceylon-directory_598eef85	180	181	advertisements					high	Commercial advertising before handbook.
+1887-88-ceylon-directory_598eef85	182	185	almanac_calendar	HANDBOOK AND COMPENDIUM OF USEFUL INFORMATION.			calendar tables and reference	high	Calendar reference before chronology.
+1887-88-ceylon-directory_598eef85	186	250	almanac_calendar	A CHRONOLOGICAL TABLE OF EVENTS,			dated chronology	high	Historical chronology ends before currency.
+1887-88-ceylon-directory_598eef85	251	266	banks_insurance	CURRENCY OF CEYLON.			currency and exchange tables; bank profiles	high	Currency, banks and Loan Board.
+1887-88-ceylon-directory_598eef85	267	269	almanac_calendar	USEFUL HINTS TO SPORTSMEN, &c.			reference prose	high	Sporting notes precede Crown land rules.
+1887-88-ceylon-directory_598eef85	270	275	government_establishment	AMENDED RULES FOR THE SALE OF CROWN LANDS.			regulations and fee schedules	high	Crown land rules, survey and timber royalty.
+1887-88-ceylon-directory_598eef85	276	289	gazetteer_places	LIST OF TRIGONOMETRICAL ALTITUDES			place and altitude tables	medium	Altitudes and distances precede legal material.
+1887-88-ceylon-directory_598eef85	290	343	government_establishment				regulations and fee schedules	high	Stamp rules, legislative enactments and patents.
+1887-88-ceylon-directory_598eef85	344	354	shipping_port	LISTS OF MAIL AND OTHER STEAMERS CALLING AT THE PORT OF COLOMBO.			company lists, routes and port rules	high	Flagstaff signals and steamer fleets through port rules.
+1887-88-ceylon-directory_598eef85	355	360	government_establishment				regulations and fee schedules	high	Agency rates, customs and export duties.
+1887-88-ceylon-directory_598eef85	361	365	shipping_port	DUES PAYABLE BY SHIPS DISCHARGING OR LOADING			port dues and shipping schedules	high	Port schedules and coastal steamer followed by carriage hire.
+1887-88-ceylon-directory_598eef85	366	371	gazetteer_places	CARRIAGE HIRE, NUWARA ELIYA.			route and hire schedules	high	Carriages and coaches precede postage.
+1887-88-ceylon-directory_598eef85	372	382	government_establishment	POSTAL RATES AND RULES.			service regulations and rate tables	high	Postal rates and parcel rules.
+1887-88-ceylon-directory_598eef85	383	387	gazetteer_places	LIST OF POST TOWNS IN CEYLON.			post station lists and schedules	high	Post town and route schedules.
+1887-88-ceylon-directory_598eef85	388	396	government_establishment	POSTAL-TELEGRAPH RATES AND RULES.			service regulations and rate tables	medium	Telegraph rules before colonial statistics.
+1887-88-ceylon-directory_598eef85	397	564	statistics_review	REVENUE AND EXPENDITURE.			running prose and statistical tables	high	Colonial revenue, institutions, transport, trade and meteorological statistics.
+1887-88-ceylon-directory_598eef85	565	566	advertisements					high	Two advertisements precede directories.
+1887-88-ceylon-directory_598eef85	567	574	gazetteer_places	Tables of Principal Roads in the Island of Ceylon.			route and distance tables	medium	Directories divider and principal roads.
+1887-88-ceylon-directory_598eef85	575	585	government_establishment				office and staff lists	high	Imperial and colonial office holders.
+1887-88-ceylon-directory_598eef85	586	597	military_volunteer	Military.			unit and officer lists	high	Military, volunteers and Naval Station.
+1887-88-ceylon-directory_598eef85	598	603	government_establishment	LIST OF PUBLIC SERVANTS ON LEAVE.			government staff and court lists	high	Public servants and magistrates. OCR gives a spurious calendar header on PDF 601 over pension data.
+1887-88-ceylon-directory_598eef85	604	610	professions	LEGAL DIRECTORY.			name, rank and practice location tables	high	Advocates and proctors before clergy.
+1887-88-ceylon-directory_598eef85	611	615	clergy_religious	CLERICAL DIRECTORY.			clergy and station tables	high	Clerical directory before medical.
+1887-88-ceylon-directory_598eef85	616	619	professions	MEDICAL DIRECTORY.			medical practitioner and nurse tables	high	Medical practitioners and nurses.
+1887-88-ceylon-directory_598eef85	620	657	government_establishment	CIVIL ESTABLISHMENTS.			department and staff lists	high	Civil departments and village tribunals.
+1887-88-ceylon-directory_598eef85	658	658	shipping_port	Ceylon and Minicoy Imperial Lighthouses' Service.			lighthouse service roster	high	Lighthouse service between tribunals and consuls.
+1887-88-ceylon-directory_598eef85	659	659	consuls	CONSULS IN CEYLON.			country and consul table	high	Consular roster before firms.
+1887-88-ceylon-directory_598eef85	660	667	mercantile_colombo	DIRECTORIES.	Colombo		3-column table: firm | staff | agencies	high	Colombo merchant table before banks.
+1887-88-ceylon-directory_598eef85	668	668	banks_insurance	BANKS IN COLOMBO.	Colombo			high	Bank list before Chamber.
+1887-88-ceylon-directory_598eef85	669	669	associations	CHAMBER OF COMMERCE—(Continued).			membership tables	high	Chamber roster before shipping.
+1887-88-ceylon-directory_598eef85	670	670	shipping_port	MESSAGERIES MARITIMES CO.'S STAFF:—COLOMBO.			shipping agent and staff lists	high	Shipping agents before press.
+1887-88-ceylon-directory_598eef85	671	671	press	NEWSPAPERS AND PERIODICALS:			publication table	high	Press table before trade list.
+1887-88-ceylon-directory_598eef85	672	676	trade_lists	COLOMBO TRADE LIST.	Colombo		trade headings over grouped names	high	Classified Colombo occupations before Kandy.
+1887-88-ceylon-directory_598eef85	677	680	mercantile_outstation	KANDY MERCANTILE AND TRADE LISTS. &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy merchant and trade headings.
+1887-88-ceylon-directory_598eef85	681	683	mercantile_outstation	GALLE—(Continued).	Galle		firm, staff and address tables; trade lists	high	Galle listings before other towns.
+1887-88-ceylon-directory_598eef85	684	693	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Trade and commerce by locality.
+1887-88-ceylon-directory_598eef85	694	695	unclassified	EGYPTIAN EXILES IN CEYLON.			short lists	medium	Brief standalone material between outstations and institutions.
+1887-88-ceylon-directory_598eef85	696	741	associations	Institutions.			institutional rosters	high	Colombo and outstation institutions include clubs, churches and schools.
+1887-88-ceylon-directory_598eef85	742	751	trade_lists	FACTORIES.			factory and mill tables	high	Industrial directory before estate title.
+1887-88-ceylon-directory_598eef85	752	787	estates_directory	Estates Directories.		middle of June 1888	estate name, Tamil name and district tables	high	Estate indexes and post-station references.
+1887-88-ceylon-directory_598eef85	788	889	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed planting districts and lowcountry properties.
+1887-88-ceylon-directory_598eef85	890	926	estates_directory	COCONUT ESTATES.			estate, owner, agent, acreage and post town tables	high	Coconut and cinnamon tables; Travancore plantation leaf and other insertions.
+1887-88-ceylon-directory_598eef85	927	928	advertisements	Advertisements.				high	Advertising before general address lists.
+1887-88-ceylon-directory_598eef85	929	1076	residents_alphabetical	The General Directory			alphabetical names, occupations and addresses	high	General alphabetical list before errata.
+1887-88-ceylon-directory_598eef85	1077	1083	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Corrections include estate and departmental tables.
+1887-88-ceylon-directory_598eef85	1084	1268	advertisements	Advertisements.			advertisements and publisher catalogues	high	Commercial advertisements and publisher catalogues close the volume.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	1	11	front_matter	PREFACE.			title and preface	high	Title and preface before commercial material.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	12	17	advertisements	ADVERTISEMENTS.			advertisements and publisher catalogues	medium	Advertisement reference and publisher material before displaced estate leaves.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	14	16	index	ADVERTISERS ARRANGED PROFESSIONALLY.			classified advertiser index	high	Professional categories with references to advertisements.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	20	48	index	GENERAL INDEX.			alphabetical subject index	high	General index through Roman XLVI.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	49	64	statistics_review	PLANTING AND AGRICULTURAL REVIEW.			running prose and statistical tables	high	Short review ends before handbook divider.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	65	68	almanac_calendar	HANDBOOK AND COMPENDIUM OF USEFUL INFORMATION.			calendar and reference	high	Handbook divider and annual notes.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	69	136	almanac_calendar	A CHRONOLOGICAL TABLE OF EVENTS,			dated chronology	medium	Chronology precedes reference tables. PDF 95 has a spurious contents header over the 1874 entries.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	137	145	almanac_calendar				reference prose and tables	high	Measures, sporting hints and exchange tables.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	146	152	banks_insurance	BANKS AND BANKING IN CEYLON.			bank profiles and exchange tables	high	Banking and Loan Board before stamps.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	153	201	government_establishment	STAMP ORDINANCE AND DUTIES.			regulations and fee schedules	high	Stamp law, legal, licensing, survey and land material.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	202	214	gazetteer_places	LIST OF TRIGONOMETRICAL ALTITUDES			place, distance and elevation tables	high	Altitudes, distances and railway datum.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	215	217	government_establishment	SUMMARY OF THE TOLL ORDINANCE			rules and toll tables	high	Toll schedules before port.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	218	231	shipping_port	PORT OF COLOMBO.	Colombo		company lists, routes and port rules	high	Port regulations and mail steamers.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	232	243	government_establishment				regulations and fee schedules	high	Commission, sales, customs and bonded warehouse rules.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	244	245	shipping_port	NAVIGATION ROUND THE ISLAND,			route schedules	medium	Bark price table precedes coastal navigation.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	246	268	gazetteer_places	CARRIAGE HIRE IN CEYLON.			route, hire and reference tables	medium	Local travel and postal rules lead into the dispatch tables.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	269	290	government_establishment				service regulations and rate tables	high	Dispatch times, telegraph and railway rules.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	291	294	statistics_review	COTTON SPINNING AND WEAVER IN CEYLON.			running prose and statistical tables	high	Early cotton mill and company balance sheet.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	295	298	government_establishment				service regulations and rate tables	high	Petroleum licences and public works establishment material.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	299	321	statistics_review	INDIAN (CEYLON) FISHES.			descriptive reference and species lists	high	Museum minerals and fish catalogue before colonial statistics.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	322	509	statistics_review	Statistical.			running prose and statistical tables	high	Colonial statistics, transport and trade. Trade tables continue into Part 2.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	1	54	statistics_review	CEYLON TEA EXPORTS AND SALES.			statistical tables	high	Begins within trade and export data from Part 1, then weather and revenue.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	55	79	gazetteer_places	Tables of Principal Roads in the Island of Ceylon.			route, distance and elevation tables	high	Directories divider, principal roads, shooting stations and elevations.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	80	93	government_establishment	European, Indian, &c., Directory.			office and staff lists	high	Imperial and colonial officials before military.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	94	104	military_volunteer	Military.			unit and officer lists	high	Military, volunteers and naval station.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	105	111	government_establishment	LIST OF PUBLIC SERVANTS ON LEAVE.			government staff and court lists	high	Public officers and magistrates before legal roster.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	112	117	professions	LEGAL DIRECTORY.			name, rank and practice location tables	high	Legal practitioners.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	118	122	clergy_religious	CLERICAL DIRECTORY.			clergy and station tables	high	Clerical roster before medical.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	123	126	professions	MEDICAL DIRECTORY.			medical practitioner and nurse tables	high	Medical and nursing listings.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	127	166	government_establishment	Public Establishments in Ceylon.			department and staff lists	high	Staff and pension rules followed by civil departments.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	167	168	municipal_local	COLOMBO MUNICIPALITY.—(Continued.)			local lists and tables	high	Municipal roster and village tribunals.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	169	170	shipping_port	LIGHTHOUSES ROUND THE CEYLON COAST.			lighthouse service tables	high	Lighthouse table and service staff.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	171	171	consuls	CONSULS IN CEYLON.			country and consul table	high	Consuls before Colombo merchant lists.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	172	180	mercantile_colombo	DIRECTORIES.	Colombo		3-column table: firm | staff | agencies	high	Firm tables follow consuls and end before banks.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	181	181	banks_insurance	BANKS IN COLOMBO.	Colombo			high	Bank list before Chamber.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	182	182	associations	CHAMBER OF COMMERCE—(Continued).			membership table	high	Chamber membership before shipping agencies.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	183	183	shipping_port	P. & O. CO.'S STAFF:—COLOMBO AGENCY.	Colombo		shipping agent and staff lists	high	Shipping agencies plus start of newspaper list.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	184	185	press	ENGLISH NEWSPAPERS IN COLOMBO.—(Continued.)	Colombo		publication tables	high	Press continues from preceding mixed page.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	186	191	trade_lists	COMMISSION AGENTS.	Colombo		trade headings over grouped names	high	Classified trades before Kandy.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	192	194	mercantile_outstation	KANDY—(Continued).	Kandy		firm, staff and address tables; trade lists	high	Kandy listings after Colombo traders.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	195	198	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST. MERCHANTS.	Galle		firm, staff and address tables; trade lists	high	Galle listings include shipping agencies.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	199	210	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Outstation series ends with banks.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	211	213	professions	REGISTERED PRIVATE SURVEYORS IN CEYLON.			name and agency tables	high	Surveyors and visiting agents before institutions.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	214	266	associations	Institutions.			institutional rosters	high	Colombo and outstation institutions, clubs, churches and schools.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	267	275	trade_lists				factory and mill tables	high	Industrial tables before estates.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	276	311	estates_directory	Estates Directories.			estate name, Tamil name and district tables	high	Title and name lookup series.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	312	314	gazetteer_places	INDEX FOR POST-STATIONS AND COFFEE DISTRICTS.			station and district tables	medium	Post stations and planting district reference.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	315	414	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed estates by locality to end of lowcountry tables.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	415	448	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES.			estate, owner, agent, acreage and post town tables	high	Coconut index and estate tables through cinnamon.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	449	449	gazetteer_places	NAMES OF THE PRINCIPAL CIVIL STATIONS, &c., IN CEYLON			station and district table	high	Station list before addresses.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	450	599	residents_alphabetical	The General Directory			alphabetical names, occupations and addresses	high	Islandwide general list through Z.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	600	600	clergy_religious	LIST OF THE MORE LEARNED AND BETTER KNOWN BUDDHIST PRIESTS OF CEYLON.			religious roster	high	Buddhist priest list immediately after general directory.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	601	601	associations	CEYLON ASSOCIATION IN LONDON.	London		membership table	high	London association list before Travancore.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	602	606	estates_directory	TRAVANCORE : TEA, CINCHONA AND COFFEE PLANTATIONS	Travancore		estate, owner and acreage tables	high	Travancore plantations and summary.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	607	608	residents_alphabetical	CEYLON NECROLOGY FOR 1889.		1889	names and death notices	high	Necrology follows estates.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	609	614	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Corrections and supplements before ads.
+1890-91-the-ceylon-handbook-and-directory-part-2_bc97d683	615	772	advertisements	Advertisements.			advertisements and publisher catalogues	high	Continuous closing commercial advertising and publisher catalogue.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1	3	front_matter	THE CEYLON HANDBOOK AND DIRECTORY				high	Cover and initial leaves.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	4	10	advertisements					high	Opening commercial advertisements.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	11	22	front_matter	PREFACE.			title and preface	high	Title and preface before indexes.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	23	28	index	INDEX TO ADVERTISEMENTS.			classified advertiser index	high	Advertisement indexes before publications leaf.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	29	29	advertisements	PUBLICATIONS, &C., FOR SALE				high	Publisher advertisement before the general index.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	30	64	index	1898-99 GENERAL INDEX.			alphabetical subject index	high	Bound index sequence includes repeated or out-of-order roman pagination.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	65	248	statistics_review	PLANTING AND AGRICULTURAL REVIEW.			running prose and statistical tables	high	Planting history, reports and crop statistics to world market tables.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	249	301	almanac_calendar	CALENDAR AND USEFUL INFORMATION.		1898–1899	calendar tables and dated chronology	high	Calendars for both years followed by historical chronology.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	302	349	government_establishment	THE ISSUE OF STAMPS.			regulations and fee schedules	high	Stamp, legal and land regulations before altitudes.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	350	366	gazetteer_places	LIST OF TRIGONOMETRICAL ALTITUDES.			place, distance and elevation tables	medium	Altitude and geographic tables precede port rules.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	367	377	shipping_port	PORT OF COLOMBO RULES.	Colombo		port regulations and signal tables	high	Port and flagstaff material before tariff.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	378	391	government_establishment	CEYLON CUSTOMS TARIFF.			regulations and fee schedules	high	Customs and shipping dues before steamer listings.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	392	404	shipping_port	MAIL AND OTHER STEAMERS CALLING AT THE PORT OF COLOMBO.			company and route lists	high	Steamer service tables.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	405	429	gazetteer_places	Carriage Hire in Ceylon.			route, hire and postal schedules	medium	Carriages and coaches through postal rates and schedules.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	430	460	government_establishment				service regulations and rate tables	medium	Post, telegraph and railway tariffs before banking.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	461	468	banks_insurance	BANKS AND BANKING IN CEYLON.			bank profiles and exchange tables	medium	Banking material before practical and statistical reference.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	478	787	statistics_review	STATISTICAL.			running prose and statistical tables	high	Statistical divider, jubilee review and colonial economy, transport, weather and trade tables.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	788	792	advertisements					medium	Short commercial insert before the directories.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	793	818	gazetteer_places	INDEX TO ROADS IN CEYLON.			road index, distances and station tables	high	Road index and route tables followed by Indian stations.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	819	824	government_establishment	LIST OF BRITISH COLONIAL GOVERNORS.			office and staff lists	high	Colonial office holders and legislature.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	825	838	military_volunteer	NAVAL EAST INDIA STATION.			naval and military staff lists	high	Navy, military units and volunteers.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	839	847	government_establishment	PENSIONED CIVIL AND PUBLIC SERVANTS.			government staff and court lists	high	Civil pensioners, justices and magistrates.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	848	853	professions	LEGAL DIRECTORY.			name, rank and practice location tables	high	Legal practitioners before clerical listings.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	854	861	clergy_religious	CLERICAL DIRECTORY.			clergy and station tables	high	Clerical directory ends with missionary list.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	876	911	government_establishment	CIVIL ESTABLISHMENTS.			department and staff lists	high	Pensions, civil departments and colonial service establishments.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	912	915	municipal_local	PROVINCIAL ROAD COMMITTEES.			local lists and tables	high	Road committees and village bodies.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	916	916	shipping_port	LIGHTHOUSES ROUND THE CEYLON COAST.			lighthouse service table	high	Coastal lights precede municipal establishment.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	917	918	municipal_local	Colombo Municipality.	Colombo		department and staff lists	high	Colombo municipality and health department.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	919	919	government_establishment	THE LEGISLATIVE COUNCIL.			council roster	high	Council before mercantile divider.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	920	936	mercantile_colombo	LIST OF COLOMBO MERCHANTS AND AGENTS.	Colombo	JULY 1ST, 1898	3-column table: firm | staff | agencies	high	Mercantile divider, duplicate opening and firm tables. The second opening reads 1888 in the attestation.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	937	937	associations	CEYLON CHAMBER OF COMMERCE.			membership table	high	Chamber roster before banks.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	938	939	banks_insurance	BANKS IN CEYLON.			bank and agency lists	high	Colombo and other banks.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	940	941	shipping_port	STEAM NAVIGATION COMPANIES & AGENCIES.			company and agency tables	high	Steamships before press.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	942	944	press	English Newspapers in Colombo.			publication tables	high	Newspaper and periodical tables.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	945	955	trade_lists	COLOMBO TRADE LIST.	Colombo		trade headings over grouped names	high	Classified trades before company register.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	956	969	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Company register before Kandy.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	970	973	mercantile_outstation	LIST OF KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy merchant and trade listings.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	974	978	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		firm, staff and address tables; trade lists	high	Galle merchant and trade listings.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	979	991	mercantile_outstation	OUTSTATION TOWNS AND VILLAGES IN CEYLON.			town headings over firm and staff lists	high	Outstation listings before the mills.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	992	1001	trade_lists				factory and mill tables	high	Industry tables through summary.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1002	1040	associations	INSTITUTIONS.			institutional rosters	high	Clubs and societies with embedded religious, educational and other bodies.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1041	1043	professions				hospital and health institution profiles	high	Principal hospitals immediately before estates.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1044	1074	estates_directory	ESTATE DIRECTORIES.			estate index and estate, owner, acreage and crop tables	high	Large gaps in printed sequence within held estate scans.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1075	1079	estates_directory	WESTERN PROVINCE.—Continued			estate, owner, agent, acreage and post town tables	high	Jump from hill estate sequence to western province.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1080	1086	estates_directory	TRAVANCORE. TEA, COFFEE AND CINCHONA PLANTATIONS	Travancore		estate, owner and acreage tables	high	Travancore and North Borneo planting supplement.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1087	1094	advertisements					high	Commercial advertisements before general directory.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1095	1096	front_matter	GENERAL DIRECTORY		10th July 1898	title and abbreviations	medium	Title and address-list abbreviation key.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1097	1234	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	Alphabetical addresses from A through the final letters before the public officers list.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1236	1237	unclassified				miscellaneous reference lists	medium	Exile and title listings follow the alphabetical addresses.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1238	1238	associations	CEYLON ASSOCIATION IN LONDON.	London		membership table	high	London member list before addenda.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1239	1247	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Addenda include revised service, nursing and estate information.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1248	1381	advertisements				advertisements and publisher catalogues	high	Commercial advertisements followed by catalogue and book notices.
+ceylonhandbook1902_c8f9a543_p01001	1001	1020	associations	DIRECTORIES.			institutional rosters	high	Starts within institutional profiles. Principal hospitals begin at PDF 1021.
+ceylonhandbook1902_c8f9a543_p01001	1021	1026	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	high	Hospitals before the visiting agents table.
+ceylonhandbook1902_c8f9a543_p01001	1027	1027	professions	Visiting Agents: Inspectors of Estates, Valuators, &c.			name and agency table	high	Separate list before titles and priests.
+ceylonhandbook1902_c8f9a543_p01001	1028	1028	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+ceylonhandbook1902_c8f9a543_p01001	1029	1029	clergy_religious				religious roster	high	List of Buddhist priests.
+ceylonhandbook1902_c8f9a543_p01001	1030	1031	advertisements					high	Hotel profiles are facing promotional pages.
+ceylonhandbook1902_c8f9a543_p01001	1032	1032	trade_lists	HOTELS AND CLUBS IN CEYLON.			grouped lists by town	high	Hotels list before London membership.
+ceylonhandbook1902_c8f9a543_p01001	1033	1033	associations	CEYLON ASSOCIATION IN LONDON.	London		membership table	high	London membership before planting companies.
+ceylonhandbook1902_c8f9a543_p01001	1034	1034	companies_register	CEYLON TEA COMPANIES (Registered in England).			company tables	high	Companies registered in England.
+ceylonhandbook1902_c8f9a543_p01001	1035	1035	unclassified					low	Composite or poorly legible leaf before estate title.
+ceylonhandbook1902_c8f9a543_p01001	1036	1078	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate title, planting overview and name indexes.
+ceylonhandbook1902_c8f9a543_p01001	1079	1081	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Postal and medical district reference.
+ceylonhandbook1902_c8f9a543_p01001	1082	1083	advertisements					high	Fertiliser advertisements before detailed estates.
+ceylonhandbook1902_c8f9a543_p01001	1084	1213	estates_directory				estate, owner, agent, acreage and crop tables	high	District estates to locally owned tea gardens.
+ceylonhandbook1902_c8f9a543_p01001	1096	1097	advertisements					high	Advertising interrupts Dikoya tables.
+ceylonhandbook1902_c8f9a543_p01001	1214	1229	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Companies and their estates before village communities.
+ceylonhandbook1902_c8f9a543_p01001	1230	1231	municipal_local	Village Communities.			district and local office tables	high	Village institutions interrupt planting listings.
+ceylonhandbook1902_c8f9a543_p01001	1232	1283	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and provincial tables.
+ceylonhandbook1902_c8f9a543_p01001	1284	1285	associations	MASONIC LODGES IN CEYLON.			institutional rosters	high	Lodges follow coconut estates.
+ceylonhandbook1902_c8f9a543_p01001	1286	1287	military_volunteer	Ceylon Volunteer Company., 2nd Bn. Gloucestershire Regiment.			unit and officer lists	high	Volunteer company pages before tennis.
+ceylonhandbook1902_c8f9a543_p01001	1288	1288	associations	LAWN TENNIS CHAMPIONSHIP IN CEYLON.			championship lists	high	Tennis championship listings.
+ceylonhandbook1902_c8f9a543_p01001	1289	1296	front_matter	GENERAL DIRECTORY.			plates and title leaves	medium	Image leaves and general directory title.
+ceylonhandbook1902_c8f9a543_p01001	1297	1447	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	General alphabetical addresses.
+ceylonhandbook1902_c8f9a543_p01001	1448	1455	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Errata and additions with advertisements near end.
+ceylonhandbook1902_c8f9a543_p01001	1456	1505	advertisements	CATALOGUE			advertisements and publisher catalogues	high	Publisher catalogue and closing commercial ads.
+1904-fergusons-ceylon-directory_e893781a_p01001	1001	1114	estates_directory	BALANGODA. [TAMIL: VELLANRODAI.]			estate, owner, agent, acreage and crop tables	high	Starts among detailed hill estates and ends with tea gardens.
+1904-fergusons-ceylon-directory_e893781a_p01001	1115	1130	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Separate planting companies before coconut index.
+1904-fergusons-ceylon-directory_e893781a_p01001	1131	1179	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and detailed provincial estates through other crops.
+1904-fergusons-ceylon-directory_e893781a_p01001	1180	1180	advertisements					medium	Commercial leaf before address section.
+1904-fergusons-ceylon-directory_e893781a_p01001	1181	1182	front_matter	GENERAL DIRECTORY.		31st July 1903	title leaves	high	Address introduction gives 1903. The separately scanned title OCR reads 1908.
+1904-fergusons-ceylon-directory_e893781a_p01001	1183	1290	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	False contents heading on PDF 1230 belongs to a normal address page.
+1904-fergusons-ceylon-directory_e893781a_p01001	1291	1297	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Errata and section insertions after addresses.
+1904-fergusons-ceylon-directory_e893781a_p01001	1298	1488	statistics_review	STATE OF CEYLON IN 1902.			running prose and statistical tables	high	Statistical supplement followed by agricultural review bound late in this copy.
+1904-fergusons-ceylon-directory_e893781a_p01001	1489	1542	advertisements	CATALOGUE.			advertisements and publisher catalogues	high	Catalogue and advertising before general index.
+1904-fergusons-ceylon-directory_e893781a_p01001	1543	1569	index	GENERAL INDEX.			alphabetical subject index	high	General index to end of held PDF.
+ceylonhandbook1904_cd510006_p01001	1001	1013	trade_lists	DIRECTORIES.			factory and mill tables	high	Begins within the industrial directory.
+ceylonhandbook1904_cd510006_p01001	1014	1050	associations	DIRECTORIES.			institutional rosters	medium	Institutions before the hospital heading.
+ceylonhandbook1904_cd510006_p01001	1051	1054	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	high	Hospitals before hotel advertisements.
+ceylonhandbook1904_cd510006_p01001	1058	1059	advertisements					high	Hotel advertising between hospitals and visiting agents.
+ceylonhandbook1904_cd510006_p01001	1060	1060	professions	Visiting Agents: Inspectors of Estates, Valuers, &c.			name and agency table	high	Visiting agent table.
+ceylonhandbook1904_cd510006_p01001	1061	1061	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+ceylonhandbook1904_cd510006_p01001	1062	1062	clergy_religious				religious roster	high	Buddhist priest list.
+ceylonhandbook1904_cd510006_p01001	1063	1063	companies_register	RUPEE PLANTING COMPANIES.			company and financial table	high	Company table before tennis insert.
+ceylonhandbook1904_cd510006_p01001	1064	1065	associations	LAWN TENNIS CHAMPIONSHIP IN CEYLON.			championship lists	high	Tennis leaf and adjacent leaf before estate title.
+ceylonhandbook1904_cd510006_p01001	1066	1110	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate titles and name lookup tables.
+ceylonhandbook1904_cd510006_p01001	1111	1113	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Post stations and medical districts.
+ceylonhandbook1904_cd510006_p01001	1114	1117	advertisements					medium	Blank and commercial leaves before district tables.
+ceylonhandbook1904_cd510006_p01001	1118	1251	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed district lists end with native-owned tea gardens.
+ceylonhandbook1904_cd510006_p01001	1252	1267	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Planting company profiles precede estate proprietors.
+ceylonhandbook1904_cd510006_p01001	1268	1287	estates_directory	INDIVIDUAL OWNERS OF TEA AND OTHER ESTATE PROPERTY IN CEYLON.			owner, estate and district lists	high	Supplementary estate proprietor list.
+ceylonhandbook1904_cd510006_p01001	1288	1342	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and provincial estate tables.
+ceylonhandbook1904_cd510006_p01001	1346	1347	advertisements					medium	Commercial insert immediately before addresses.
+ceylonhandbook1904_cd510006_p01001	1348	1348	front_matter	GENERAL DIRECTORY.		end of June, 1904	title and abbreviations	high	General directory introduction and abbreviations preceding A.
+ceylonhandbook1904_cd510006_p01001	1488	1553	advertisements				advertisements and publisher catalogues	high	Advertising and catalogue; PDF 1489 is the catalogue contents.
+ceylonhandbook1904_cd510006_p01001	1554	1595	index	GENERAL INDEX			alphabetical subject index	high	General index before closing advertising leaves.
+ceylonhandbook1904_cd510006_p01001	1596	1601	advertisements					high	Closing commercial advertisements.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1001	1004	companies_register	DIRECTORIES.			capital and directors profiles; property tables	high	Starts within alphabetical company profiles.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1005	1010	mercantile_outstation	LIST OF KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy listings before Galle.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1011	1016	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		firm, staff and address tables; trade lists	high	Galle merchants and trades end with steam agencies.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1017	1030	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Town series before building lots.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1031	1032	municipal_local	BUILDING LOTS AT NUWARA ELIYA.	Nuwara Eliya		lot and rent tables	high	Board and outlying building lots.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1033	1047	trade_lists				factory and mill tables	high	Mills, machines and factories to summary.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1048	1070	associations	INSTITUTIONS IN COLOMBO, ETC.	Colombo		institutional rosters	high	Colombo institutions precede outstation institutions.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1071	1082	associations	OUTSTATION INSTITUTIONS.			institutional rosters	high	Planters and other institutional rosters.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1083	1084	advertisements					high	Two hotel advertising pages.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1085	1086	almanac_calendar				reference prose and lists	high	Libraries list and practical note before estates.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1087	1130	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate divider and name indexes.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1131	1133	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Post stations and planting medical districts.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1134	1135	advertisements					high	Manure advertisements before estate tables.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1136	1215	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed district tables to native gardens. Printed jumps in held scan.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1216	1230	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Planting companies immediately before owner list.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1231	1249	estates_directory	INDIVIDUAL OWNERS OF TEA AND OTHER ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Individual property owners.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1250	1293	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and tables, cinnamon and other crops.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1294	1296	front_matter	GENERAL DIRECTORY.			title and abbreviations	high	Address directory preliminaries.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1297	1425	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	General alphabetical address list.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1426	1426	professions	Visiting Agents: Inspectors of Estates, Valuators, &c.			name and agency table	high	Visiting agent table after addresses.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1427	1427	clergy_religious				religious roster	high	Buddhist priest list.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1428	1428	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1429	1440	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	Indian postal lists after address supplements.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1441	1463	front_matter	ERRATA AND ADDENDA.			corrections and supplements	high	Errata followed by added statistics, companies, transport and patents.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1464	1517	advertisements				advertisements and publisher catalogues	high	Catalogue and commercial ads before general index.
+1905-06-fergusons-ceylon-directory_32de2db2_p01001	1518	1533	index	GENERAL INDEX.			alphabetical subject index	high	General index to end of held PDF.
+CeylonHandbook1905_f9714cdb_p01001	1001	1008	shipping_port	FLEET OF THE NORDDEUTSCHER LLGYD COMPANY.			company and route lists	high	Starts within steamship fleet material.
+CeylonHandbook1905_f9714cdb_p01001	1009	1011	press	ENGLISH NEWSPAPERS IN COLOMBO.			publication tables	high	Newspapers and periodicals.
+CeylonHandbook1905_f9714cdb_p01001	1012	1026	trade_lists	COLOMBO TRADE LIST.	Colombo		trade headings over grouped names	high	Classified Colombo trades before company profiles.
+CeylonHandbook1905_f9714cdb_p01001	1027	1046	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Companies with brief advertising insertion.
+CeylonHandbook1905_f9714cdb_p01001	1028	1029	advertisements					high	Tea machinery ads interrupt the company section.
+CeylonHandbook1905_f9714cdb_p01001	1047	1051	mercantile_outstation	LIST OF KANDY MERCHANTS, AGENTS, &C.	Kandy		firm, staff and address tables; trade lists	high	Kandy listing before Galle.
+CeylonHandbook1905_f9714cdb_p01001	1052	1057	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		firm, staff and address tables; trade lists	high	Galle listing ends with steam agencies.
+CeylonHandbook1905_f9714cdb_p01001	1058	1071	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Town series before building lots.
+CeylonHandbook1905_f9714cdb_p01001	1072	1073	municipal_local	BUILDING LOTS AT NUWARA ELIYA.	Nuwara Eliya		lot and rent tables	high	Board and outlying building lots.
+CeylonHandbook1905_f9714cdb_p01001	1074	1088	trade_lists				factory and mill tables	high	Industrial directory to summary.
+CeylonHandbook1905_f9714cdb_p01001	1089	1114	associations	INSTITUTIONS.			institutional rosters	high	Institutions divider and Colombo subsections.
+CeylonHandbook1905_f9714cdb_p01001	1115	1134	associations	OUTSTATION INSTITUTIONS.			institutional rosters	high	Outstation institutions include planters.
+CeylonHandbook1905_f9714cdb_p01001	1135	1137	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	high	Hospital profiles before hotel advertisements.
+CeylonHandbook1905_f9714cdb_p01001	1142	1143	advertisements					high	Hotel promotional spread.
+CeylonHandbook1905_f9714cdb_p01001	1144	1145	almanac_calendar				reference prose and lists	high	Library reference and practical advice.
+CeylonHandbook1905_f9714cdb_p01001	1146	1190	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate title and name lookup lists.
+CeylonHandbook1905_f9714cdb_p01001	1191	1193	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Post stations and medical districts.
+CeylonHandbook1905_f9714cdb_p01001	1194	1197	advertisements					medium	Commercial leaves including fertiliser ads before detailed estates.
+CeylonHandbook1905_f9714cdb_p01001	1198	1340	estates_directory				estate, owner, agent, acreage and crop tables	high	District tables end with gardens. A directory advertisement interrupts the tables.
+CeylonHandbook1905_f9714cdb_p01001	1225	1225	advertisements	THE LONDON DIRECTORY,				high	Publisher ad interrupts the detailed tables.
+CeylonHandbook1905_f9714cdb_p01001	1341	1356	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Planting companies before owners.
+CeylonHandbook1905_f9714cdb_p01001	1357	1377	estates_directory	INDIVIDUAL OWNERS OF TEA AND OTHER ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Owner tables before coconut index.
+CeylonHandbook1905_f9714cdb_p01001	1378	1437	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	medium	Coconut index and detailed provincial properties.
+CeylonHandbook1905_f9714cdb_p01001	1438	1441	front_matter	GENERAL DIRECTORY.			illustrations, title and abbreviations	high	Address directory preliminaries.
+CeylonHandbook1905_f9714cdb_p01001	1442	1582	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	Alphabetical addresses through Z.
+CeylonHandbook1905_f9714cdb_p01001	1583	1583	professions	Visiting Agents: Inspectors of Estates, Valuators, &c.			name and agency table	high	Visiting agents after address list.
+CeylonHandbook1905_f9714cdb_p01001	1584	1584	clergy_religious				religious roster	high	Buddhist priest list.
+CeylonHandbook1905_f9714cdb_p01001	1585	1585	reference_material	Native Titles and Names with English Equivalents			reference table	high	Terminology reference.
+CeylonHandbook1905_f9714cdb_p01001	1586	1597	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	Indian postal districts through Trichinopoly.
+CeylonHandbook1905_f9714cdb_p01001	1598	1624	front_matter	ERRATA AND ADDENDA.			corrections and supplements	high	Errata and supplements including statistics and patents.
+CeylonHandbook1905_f9714cdb_p01001	1625	1693	advertisements				advertisements and publisher catalogues	high	Catalogue and advertisements before the general index.
+CeylonHandbook1905_f9714cdb_p01001	1694	1735	index	GENERAL INDEX.			alphabetical subject index	medium	General index before closing commercial leaves.
+CeylonHandbook1905_f9714cdb_p01001	1736	1743	advertisements					medium	Closing commercial leaves.
+CeylonHandbook1906_4f9daa70	1	23	advertisements	Advertisements.				high	Library leaf and commercial advertisements. The supplied PDF starts without the opening handbook material.
+CeylonHandbook1906_4f9daa70	24	64	government_establishment	STAMP DUTIES.			regulations and fee schedules	high	Stamp ordinance, duties, licences and toll schedules.
+CeylonHandbook1906_4f9daa70	65	78	shipping_port	LIMITS OF THE PORT OF COLOMBO.	Colombo		port rules and signal tables	high	Port rules, shipping signals and funnels before customs tariff.
+CeylonHandbook1906_4f9daa70	79	154	government_establishment	CEYLON CUSTOMS TARIFF.			regulations and fee schedules	high	Tariffs and subsequent quarantine, civil, registration, public health and factory regulations.
+CeylonHandbook1906_4f9daa70	155	185	government_establishment	COOLY IMMIGRATION.			immigration regulations and statistical tables	high	Labour immigration and planting medical rules precede postal rates.
+CeylonHandbook1906_4f9daa70	186	188	government_establishment	POSTAL AND TELEGRAPHIC INFORMATION.			service regulations and rate tables	high	Postal rules before coach services.
+CeylonHandbook1906_4f9daa70	189	200	gazetteer_places	COACH SERVICES IN CEYLON.			route and hire schedules	high	Travel routes and municipal hire schedules.
+CeylonHandbook1906_4f9daa70	201	237	government_establishment	RAILWAY RATES AND RULES.			regulations and rate tables	high	Motor registration rules and railway freight and passenger rates.
+CeylonHandbook1906_4f9daa70	238	238	statistics_review	DUTIES ON TEA ALL OVER THE WORLD.			statistical table	high	Trade comparison before fire insurance.
+CeylonHandbook1906_4f9daa70	239	241	banks_insurance	FIRE INSURANCE.			insurance premium tables	high	Insurance rates before census.
+CeylonHandbook1906_4f9daa70	242	478	statistics_review	THE CEYLON CENSUS OF 1901			running prose and statistical tables	high	Census followed by colonial finance, councils, transport, trade and shipping statistics.
+CeylonHandbook1906_4f9daa70	479	482	associations	TENNIS CHAMPIONSHIPS IN CEYLON.			championship lists	high	Tennis results among statistical and reference supplements.
+CeylonHandbook1906_4f9daa70	485	486	government_establishment	CEYLON PATENTS			patent lists	high	Patent supplement before travel notes.
+CeylonHandbook1906_4f9daa70	487	553	gazetteer_places	PRINCIPAL INDIAN STATIONS.			route, elevation and station tables	high	Travel insert, station tables, roads and resthouses.
+CeylonHandbook1906_4f9daa70	554	554	professions	LIST OF HOSPITALS.			hospital list by province	high	Hospitals before charitable institutions.
+CeylonHandbook1906_4f9daa70	555	564	associations	CHARITABLE INSTITUTIONS IN CEYLON.			institution and capacity tables	high	Provincial charitable institution tables.
+CeylonHandbook1906_4f9daa70	565	594	government_establishment	PENSION REGULATIONS.			regulations and pension lists	medium	Pensions and pensioners before naval station.
+CeylonHandbook1906_4f9daa70	595	596	military_volunteer	NAVAL EAST INDIES STATION.			ship and naval staff lists	high	Naval staff and ships before colonial governor lists.
+CeylonHandbook1906_4f9daa70	597	636	government_establishment	GOVERNMENT OF CEYLON.			department and staff lists; seniority tables	high	Governor lists, executive and public service, judiciary and civil departments.
+CeylonHandbook1906_4f9daa70	637	646	municipal_local	Provincial Road Committees.			local staff and committee lists	high	Road committees, municipalities and village communities.
+CeylonHandbook1906_4f9daa70	647	647	government_establishment	MOTOR CYCLES AND CARS.			regulations	high	Motor rules before legal list.
+CeylonHandbook1906_4f9daa70	648	657	professions	ADVOCATES AND PROCTORS.			name, rank and practice location tables	high	Legal practitioners before clergy.
+CeylonHandbook1906_4f9daa70	658	667	clergy_religious	CLERICAL DIRECTORY.			clergy and station lists	high	Clergy, missionaries and ministers before medical directory.
+CeylonHandbook1906_4f9daa70	668	677	professions				medical practitioner and nurse lists	high	Medical officers, private practitioners and nurses.
+CeylonHandbook1906_4f9daa70	678	679	professions	LICENSED SURVEYORS, etc.			name and location tables	high	Licensed surveyors before military.
+CeylonHandbook1906_4f9daa70	680	702	military_volunteer	MILITARY ESTABLISHMENTS.			unit and officer lists	medium	Military and volunteers before lighthouse table.
+CeylonHandbook1906_4f9daa70	703	703	shipping_port	LIGHTHOUSES ROUND THE CEYLON COAST.			lighthouse service table	high	Separate lighthouse table.
+CeylonHandbook1906_4f9daa70	704	708	associations	CEYLON CHAMBER OF COMMERCE.			membership and committee lists	high	Banking divider followed by Chamber, importers and insurance associations.
+CeylonHandbook1906_4f9daa70	709	710	banks_insurance	BANKS IN CEYLON.			bank and agency lists	high	Colombo and outstation banks.
+CeylonHandbook1906_4f9daa70	711	730	mercantile_colombo	LIST OF COLOMBO MERCHANTS AND AGENTS.	Colombo	JULY 16th, 1908	3-column table: firm | staff | agencies	high	Firm table before steam navigation. Attested date is the OCR reading. Registry dates this incomplete source 1906.
+CeylonHandbook1906_4f9daa70	731	746	shipping_port	STEAM NAVIGATION COMPANIES AND AGENCIES.			company, fleet and route tables	high	Shipping companies, coaling facilities and fleet lists.
+CeylonHandbook1906_4f9daa70	747	750	press	ENGLISH NEWSPAPERS IN COLOMBO.			publication tables	high	Press lists end with islandwide titles.
+CeylonHandbook1906_4f9daa70	751	764	trade_lists	COLOMBO TRADE LIST.	Colombo		trade headings over grouped names	high	Trades through pawn and poison licences.
+CeylonHandbook1906_4f9daa70	765	765	associations	CEYLON ASSOCIATION IN LONDON.	London		membership list	high	London membership before companies.
+CeylonHandbook1906_4f9daa70	766	786	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Company profiles before Kandy.
+CeylonHandbook1906_4f9daa70	787	791	mercantile_outstation	LIST OF KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy listings before Galle.
+CeylonHandbook1906_4f9daa70	792	797	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		firm, staff and address tables; trade lists	high	Galle merchants and trade ending with shipping agencies.
+CeylonHandbook1906_4f9daa70	798	810	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Other towns before building lots.
+CeylonHandbook1906_4f9daa70	811	812	municipal_local	BUILDING LOTS AT NUWARA ELIYA.	Nuwara Eliya		lot and rent tables	high	Town and outlying building lots.
+CeylonHandbook1906_4f9daa70	813	830	trade_lists				factory and mill tables	high	Industrial directory before examiners.
+CeylonHandbook1906_4f9daa70	831	831	professions	Licenses to Examine Steam Engine Boilers.			licensed-person list	high	Examiners before institutions.
+CeylonHandbook1906_4f9daa70	832	857	associations	INSTITUTIONS.			institutional rosters	high	Colombo institutions.
+CeylonHandbook1906_4f9daa70	858	877	associations	OUTSTATION INSTITUTIONS.			institutional rosters	high	Planters and other outstation bodies.
+CeylonHandbook1906_4f9daa70	878	880	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	high	Hospital profiles before lodge listings.
+CeylonHandbook1906_4f9daa70	881	884	associations	MASONIC LODGES IN CEYLON.			institutional rosters	high	Lodges and affiliated bodies.
+CeylonHandbook1906_4f9daa70	885	932	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate opening and name indexes.
+CeylonHandbook1906_4f9daa70	933	935	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Postal and planting medical districts.
+CeylonHandbook1906_4f9daa70	936	1091	estates_directory				estate, owner, agent, acreage and crop tables	high	District estate tables to gardens and acreage tables.
+CeylonHandbook1906_4f9daa70	1092	1108	companies_register	PLANTING COMPANIES IN CEYLON.			company profiles and estate tables	high	Planting company section before individual owners.
+CeylonHandbook1906_4f9daa70	1109	1128	estates_directory	INDIVIDUAL OWNERS OF TEA AND OTHER ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Individual property owners.
+CeylonHandbook1906_4f9daa70	1129	1185	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and detailed properties before general directory.
+CeylonHandbook1906_4f9daa70	1186	1189	front_matter	GENERAL DIRECTORY.			title and abbreviations	high	Title and abbreviation key before A.
+CeylonHandbook1906_4f9daa70	1190	1327	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	General alphabetical address lists.
+CeylonHandbook1906_4f9daa70	1328	1328	professions	Visiting Agents: Inspectors of Estates, Valuators, &c.			name and agency table	high	Visiting agents after general directory.
+CeylonHandbook1906_4f9daa70	1329	1329	clergy_religious				religious roster	high	Buddhist priest list.
+CeylonHandbook1906_4f9daa70	1330	1330	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+CeylonHandbook1906_4f9daa70	1331	1342	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	Indian postal districts through Trichinopoly.
+CeylonHandbook1906_4f9daa70	1343	1351	front_matter	ERRATA AND ADDENDA.			corrections and supplements	high	Errata and additions include company and patent material.
+CeylonHandbook1906_4f9daa70	1352	1415	advertisements	CATALOGUE			advertisements and publisher catalogues	high	Publisher catalogue and advertising before index.
+CeylonHandbook1906_4f9daa70	1416	1458	index	GENERAL INDEX.			alphabetical subject index	medium	General index followed by commercial end leaves.
+CeylonHandbook1906_4f9daa70	1460	1465	advertisements					medium	Closing advertisements.
+CeylonHandbook1907_a0b9e13d_p01001	1001	1011	trade_lists				trade headings over grouped names	high	Starts in Colombo classified trades including medical subsection.
+CeylonHandbook1907_a0b9e13d_p01001	1012	1013	professions	LICENSED SURVEYORS, etc.			name and location tables	high	Licensed surveyors immediately before companies.
+CeylonHandbook1907_a0b9e13d_p01001	1014	1052	companies_register	MERCANTILE AND PLANTING COMPANIES.			capital and directors profiles; property tables	high	Company lists before Kandy.
+CeylonHandbook1907_a0b9e13d_p01001	1053	1057	mercantile_outstation	LIST OF KANDY MERCHANTS, AGENTS, &c.	Kandy		firm, staff and address tables; trade lists	high	Kandy part ends immediately before Galle.
+CeylonHandbook1907_a0b9e13d_p01001	1058	1063	mercantile_outstation	GALLE MERCANTILE AND TRADE LIST.	Galle		firm, staff and address tables; trade lists	high	Galle merchant, trade and steam navigation subsections.
+CeylonHandbook1907_a0b9e13d_p01001	1064	1080	mercantile_outstation	DIRECTORIES.			town headings over firm and staff lists	high	Outstation towns until building lots.
+CeylonHandbook1907_a0b9e13d_p01001	1081	1082	municipal_local	BUILDING LOTS AT NUWARA ELIYA.	Nuwara Eliya		lot and rent tables	high	Local Board and outlying building lots.
+CeylonHandbook1907_a0b9e13d_p01001	1083	1104	trade_lists				factory and mill tables	high	Mills and factories until boiler examiners.
+CeylonHandbook1907_a0b9e13d_p01001	1105	1105	professions	Licenses to Examine Steam Engine Boilers.			licensed-person list	high	Boiler examiners before institutions.
+CeylonHandbook1907_a0b9e13d_p01001	1106	1131	associations				institutional rosters	high	Colombo institution profiles before outstation section.
+CeylonHandbook1907_a0b9e13d_p01001	1132	1151	associations	OUTSTATION INSTITUTIONS,			institutional rosters	high	Planters and outstation institutions.
+CeylonHandbook1907_a0b9e13d_p01001	1152	1154	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	high	Hospitals before lodges.
+CeylonHandbook1907_a0b9e13d_p01001	1155	1157	associations	MASONIC LODGES IN CEYLON.			institutional rosters	high	Masonic and temperance lodges.
+CeylonHandbook1907_a0b9e13d_p01001	1158	1158	trade_lists	HOTELS AND CLUBS IN CEYLON.			grouped lists by town	high	Hotels and clubs reference.
+CeylonHandbook1907_a0b9e13d_p01001	1159	1159	statistics_review	BIGGEST CARGO OF CEYLON TEA.			trade table and notes	high	Single trade statistical insert.
+CeylonHandbook1907_a0b9e13d_p01001	1160	1161	unclassified					low	No readable section content on adjacency leaves.
+CeylonHandbook1907_a0b9e13d_p01001	1162	1162	associations	CEYLON ASSOCIATION IN LONDON.	London		membership table	high	London membership before insurance.
+CeylonHandbook1907_a0b9e13d_p01001	1163	1163	banks_insurance	FIRE INSURANCE.			insurance premium tables	high	Fire insurance rates before estate divider.
+CeylonHandbook1907_a0b9e13d_p01001	1164	1207	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate title and name lookup lists.
+CeylonHandbook1907_a0b9e13d_p01001	1208	1211	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Postal and medical districts.
+CeylonHandbook1907_a0b9e13d_p01001	1212	1377	estates_directory				estate, owner, agent, acreage and crop tables	high	Detailed district estate tables through acreage summaries.
+CeylonHandbook1907_a0b9e13d_p01001	1378	1398	estates_directory	INDIVIDUAL OWNERS OF TEA AND OTHER ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Alphabetical owner lookup.
+CeylonHandbook1907_a0b9e13d_p01001	1399	1405	estates_directory	RUBBER ESTATES IN MALAYA.	Malaya		estate, owner and area tables	high	Malaya estate insert.
+CeylonHandbook1907_a0b9e13d_p01001	1406	1407	statistics_review	Plantation Rubber : Yield and Prices Realised.		1906	statistical table	high	Rubber yield statistics and facing leaf.
+CeylonHandbook1907_a0b9e13d_p01001	1408	1409	companies_register	F.M.S. STERLING COMPANIES.	Federated Malay States		capital and financial tables	high	Sterling and rupee company tables.
+CeylonHandbook1907_a0b9e13d_p01001	1410	1469	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES, ETC.			estate, owner, agent, acreage and post town tables	high	End of Perak insert, then Ceylon coconut index and estate tables.
+CeylonHandbook1907_a0b9e13d_p01001	1470	1473	front_matter	GENERAL DIRECTORY.			title and abbreviations	high	Address directory preliminaries.
+CeylonHandbook1907_a0b9e13d_p01001	1474	1629	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	General address lists before visiting agents.
+CeylonHandbook1907_a0b9e13d_p01001	1630	1630	professions	Visiting Agents: Inspectors of Estates, Valuers, &c.			name and agency table	high	Separate visiting agent roster.
+CeylonHandbook1907_a0b9e13d_p01001	1631	1631	clergy_religious				religious roster	high	Buddhist priests.
+CeylonHandbook1907_a0b9e13d_p01001	1632	1632	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+CeylonHandbook1907_a0b9e13d_p01001	1633	1645	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	medium	Indian postal districts before errata.
+CeylonHandbook1907_a0b9e13d_p01001	1646	1649	front_matter	ERRATA AND ADDENDA.			corrections and additions	high	Errata through last additions page.
+CeylonHandbook1907_a0b9e13d_p01001	1650	1711	advertisements	CATALOGUE			advertisements and publisher catalogues	high	Publisher catalogue and advertisements.
+CeylonHandbook1907_a0b9e13d_p01001	1712	1763	index	GENERAL INDEX.			alphabetical subject index	high	Divider and index before advertising.
+CeylonHandbook1907_a0b9e13d_p01001	1764	1769	advertisements					high	Closing advertisements.
+1909-fergusons-ceylon-directory_77af1786_p01001	1001	1006	trade_lists	VARIOUS FACTORIES, MILLS, &c.			factory and mill tables	high	Begins within factory tables. Summary closes them.
+1909-fergusons-ceylon-directory_77af1786_p01001	1007	1007	professions	Licenses to Examine Steam Engine Boilers.			licensed-person list	high	Boiler examiners before institutions.
+1909-fergusons-ceylon-directory_77af1786_p01001	1008	1035	associations	INSTITUTIONS IN COLOMBO, ETC.	Colombo		institutional rosters	high	Colombo institution profiles.
+1909-fergusons-ceylon-directory_77af1786_p01001	1036	1057	associations	OUTSTATION INSTITUTIONS.			institutional rosters	high	Planters and outstation institutions.
+1909-fergusons-ceylon-directory_77af1786_p01001	1058	1060	professions	Principal Hospitals, etc., in Ceylon.			hospital and health institution profiles	medium	Hospital material before lodges.
+1909-fergusons-ceylon-directory_77af1786_p01001	1061	1064	associations	Good Templars' Lodges.			institutional rosters	high	Lodges before hotel list.
+1909-fergusons-ceylon-directory_77af1786_p01001	1065	1065	trade_lists	HOTELS, CLUBS AND PRINCIPAL BOARDING HOUSES IN CEYLON.			grouped lists by town	high	Hotel and club reference.
+1909-fergusons-ceylon-directory_77af1786_p01001	1066	1066	associations	CEYLON ASSOCIATION IN LONDON.	London		membership table	high	London membership roster.
+1909-fergusons-ceylon-directory_77af1786_p01001	1067	1067	banks_insurance	FIRE INSURANCE.			insurance premium tables	high	Premiums before estate divider.
+1909-fergusons-ceylon-directory_77af1786_p01001	1068	1112	estates_directory	ESTATE DIRECTORIES.			estate name, Tamil name and district tables	high	Estate titles and name lookup tables.
+1909-fergusons-ceylon-directory_77af1786_p01001	1113	1116	gazetteer_places	INDEX FOR POST-STATIONS AND PLANTING DISTRICTS.			station and district tables	high	Postal and planting medical districts.
+1909-fergusons-ceylon-directory_77af1786_p01001	1117	1275	estates_directory				estate, owner, agent, acreage and crop tables	high	District and lowcountry tables, then garden and forestry acreages.
+1909-fergusons-ceylon-directory_77af1786_p01001	1276	1297	estates_directory	INDIVIDUAL OWNERS OF TEA, RUBBER, AND CACAO ESTATE PROPERTY IN CEYLON.			owner | estate | district tables	high	Owner lookup before coconut index.
+1909-fergusons-ceylon-directory_77af1786_p01001	1298	1359	estates_directory	ALPHABETICAL LIST OF COCONUT ESTATES. ETC.			estate, owner, agent, acreage and post town tables	high	Coconut index and provincial properties, cinnamon and other crops.
+1909-fergusons-ceylon-directory_77af1786_p01001	1360	1361	front_matter	GENERAL DIRECTORY.			title and abbreviations	high	Address directory title and reference.
+1909-fergusons-ceylon-directory_77af1786_p01001	1362	1536	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	medium	General address lists before old colonists.
+1909-fergusons-ceylon-directory_77af1786_p01001	1537	1540	residents_alphabetical	OLD COLONISTS IN CEYLON.			name and arrival lists	high	Separate old colonist tables followed by a legislature roster.
+1909-fergusons-ceylon-directory_77af1786_p01001	1542	1542	clergy_religious				religious roster	high	Buddhist priest list.
+1909-fergusons-ceylon-directory_77af1786_p01001	1543	1543	reference_material	Native Titles and Names with English Equivalents			reference table	high	Short terminology reference.
+1909-fergusons-ceylon-directory_77af1786_p01001	1544	1545	government_establishment				inquiry questions and witness lists	high	Commission inquiry material before postal list.
+1909-fergusons-ceylon-directory_77af1786_p01001	1546	1559	gazetteer_places	POST OFFICES IN SOUTH INDIA.	South India		post office tables by district	high	South Indian postal stations through Travancore.
+1909-fergusons-ceylon-directory_77af1786_p01001	1560	1607	advertisements	CATALOGUE			advertisements and publisher catalogues	high	Publisher catalogue and commercial ads to end.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1001	1063	estates_directory	NORTH-WESTERN PROVINCE—Continued.			estate, owner, agent, acreage and post town tables	high	Starts within provincial coconut estate tables.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1064	1067	estates_directory	CINNAMON ESTATES.			estate, owner and acreage tables	high	Cinnamon and other estate listings before owners.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1068	1126	estates_directory	LIST OF ESTATE OWNERS.			owner | estate | district tables	high	Estate-owner alphabetical lookup before Part II.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1127	1136	front_matter	PART II GENERAL DIRECTORY OF ADDRESSES.			title and abbreviations	high	Address title, advertising verso and abbreviation key.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1128	1128	advertisements					high	Single ad between title and key.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1137	1591	residents_alphabetical	ADDRESSES.			alphabetical names, occupations and addresses	high	General alphabet through Z.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1592	1649	index	GENERAL INDEX.			alphabetical subject index	high	General index divider through final leaves.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1593	1593	advertisements					high	Advertisement after index divider.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1650	1652	index	ALPHABETICAL INDEX TO ADVERTISEMENTS.			advertiser index	high	Alphabetical index before classified index.
+1925-fergusons-ceylon-directory_837eb3f7_p01001	1653	1658	index	CLASSIFIED INDEX TO ADVERTISEMENTS.			classified advertiser index	high	Classified index concludes the held PDF.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2001	2187	residents_alphabetical	MEN'S ADDRESSES.			alphabetical names, occupations and addresses	high	Begins within men's address list.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2188	2188	advertisements					high	Bank advertisement between address series.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2189	2276	residents_alphabetical	LADIES' ADDRESSES.			alphabetical names and addresses	high	Ladies' series before travel advertisement.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2277	2277	advertisements					high	Travel promotion before foreign directory.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2278	2310	residents_alphabetical	FOREIGN DIRECTORY.			alphabetical names and addresses	high	Former Ceylon residents abroad.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2311	2311	advertisements					high	Publisher and language book advertisement before index.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2312	2354	index	GENERAL INDEX.			alphabetical subject index	high	General index precedes advertiser index.
+1937-fergusons-ceylon-directory_0bf0f598_p02001	2355	2355	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Separate closing advertiser index.
+1940-fergusons-ceylon-directory_800b40ed_p02001	2001	2246	residents_alphabetical	MEN'S ADDRESSES.			alphabetical names, occupations and addresses	high	Begins within men's addresses. Recurring academy advertisements share the address pages.
+1940-fergusons-ceylon-directory_800b40ed_p02001	2247	2379	residents_alphabetical	LADIES' ADDRESSES.			alphabetical names and addresses	medium	Ladies' address heading appears at PDF 2247. Prominent academy advertisements recur within the held list.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2001	2003	estates_directory	SINHALESE AND TAMIL NAMES OF ESTATES			estate name and English name tables	high	Begins within estate name lookup.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2006	2080	government_establishment	INCOME TAX ORDINANCE			ordinance and explanatory prose	high	Income tax handbook and ordinance before address directory.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2081	2081	advertisements					high	Commercial advertisement immediately before address divider.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2082	2091	front_matter	General Directory of Addresses			title and abbreviations	high	Part II divider and abbreviation key.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2092	2272	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's series through last held address page before isolated index leaf.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2273	2273	index	iNDEX			alphabetical subject index	high	Isolated general index leaf at PDF end.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2001	2074	government_establishment	INCOME TAX ORDINANCE			ordinance and explanatory prose	high	Starts in tax guide. Ordinance follows.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2075	2087	government_establishment	EXCESS PROFITS DUTY ORDINANCE			ordinance and explanatory prose	high	Excess profits rules end before Part II divider.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2088	2097	front_matter	General Directory of Addresses			title and abbreviations	high	Part II title and address key.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2098	2323	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's list ends with Z at PDF 2323.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2324	2423	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's list ends with Z at PDF 2423.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2325	2325	advertisements					high	Bus advertisement immediately after women's title.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2424	2463	residents_alphabetical	FOREIGN ADDRESSES			alphabetical names and addresses	medium	Former Ceylon residents abroad before general index sequences.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2464	2516	index	GENERAL INDEX			alphabetical subject index	medium	Index sequences include repeated or reordered leaves.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2468	2468	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Advertiser index amid general index sequences.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2469	2469	index	INDEXES			section divider	high	Index title preceding a commercial leaf.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2510	2510	index	INDEXES			section divider	high	Repeated index title preceding a commercial leaf.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2517	2517	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Closing advertiser index.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1001	1251	estates_directory	HANTANE.			estate, owner, agent, acreage and crop tables	high	Starts within district estate tables. Ends with Yakdessa.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1252	1256	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents following detailed estates.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1257	1258	statistics_review	Planted and Total Extent of Private Lands			acreage summary tables	high	Estate acreage totals before index.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1259	1260	advertisements					high	Advertisements before estate lookup.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1261	1308	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	Estate index with vernacular names ending before address divider.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1309	1310	advertisements					high	Two advertising leaves before address title.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1311	1319	front_matter	General Directory of Addresses			title and abbreviations	high	General directory and abbreviation key.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1320	1545	residents_alphabetical	ADDRESSES			alphabetical names, occupations and addresses	high	Combined address list through Z, with advertisements interleaved.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1546	1547	advertisements					high	Commercial leaves before general index.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1548	1556	index	GENERAL INDEX			alphabetical subject index	high	General index before advertisement index.
+1943-fergusons-ceylon-directory_2fee9219_p01001	1557	1557	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Separate closing advertiser index.
+1944-fergusons-ceylon-directory_15d9ca95	1	8	front_matter	PREFACE			cover, title, preface and contents	high	Front leaves include the contents at PDF 8.
+1944-fergusons-ceylon-directory_15d9ca95	2	4	advertisements					high	Ads between cover and title.
+1944-fergusons-ceylon-directory_15d9ca95	6	6	advertisements					high	Advertisement between title and preface.
+1944-fergusons-ceylon-directory_15d9ca95	9	12	statistics_review	CEYLON			descriptive overview and figures	high	Island overview, statistical tables and map.
+1944-fergusons-ceylon-directory_15d9ca95	13	14	advertisements					high	Bank and fertiliser ads before calendar.
+1944-fergusons-ceylon-directory_15d9ca95	15	19	almanac_calendar	CALENDAR FOR 1944		1944–1945	calendar and ephemeris tables	high	Calendar, memoranda, ephemeris and festivals.
+1944-fergusons-ceylon-directory_15d9ca95	20	24	statistics_review	Population of Ceylon			statistical tables	high	Temperature, rainfall, currency and population figures.
+1944-fergusons-ceylon-directory_15d9ca95	25	25	almanac_calendar	Principal Ceylon Events : 1943		1943	dated chronology	high	Annual events before judicial system.
+1944-fergusons-ceylon-directory_15d9ca95	26	82	government_establishment	Public Service of Ceylon			department and staff lists; seniority tables	high	Judiciary, governor, State Council, civil departments and public offices.
+1944-fergusons-ceylon-directory_15d9ca95	83	83	consuls	Consuls in Ceylon	Ceylon		country and consul table	high	Consuls before local government.
+1944-fergusons-ceylon-directory_15d9ca95	84	102	municipal_local	Local Government			local staff and committee lists	high	Municipal and urban bodies, roads and sanitary boards.
+1944-fergusons-ceylon-directory_15d9ca95	103	111	education	THE UNIVERSITY OF CEYLON			university and school profiles; tables	high	University and primary and secondary education.
+1944-fergusons-ceylon-directory_15d9ca95	112	140	government_establishment	LICENSING FEES			regulations and fee schedules	high	Licence and stamp duties, electricity tariffs, registration and trustee.
+1944-fergusons-ceylon-directory_15d9ca95	141	142	advertisements					high	Commercial leaves before postal section.
+1944-fergusons-ceylon-directory_15d9ca95	143	152	government_establishment	Post and Telegraphs and Railway			postal regulations and rate tables	high	Post rules before post-box rosters.
+1944-fergusons-ceylon-directory_15d9ca95	153	162	residents_alphabetical	COLOMBO POST BOX-HOLDERS			box number and holder tables	high	Colombo listings followed by Kandy.
+1944-fergusons-ceylon-directory_15d9ca95	163	177	government_establishment	TELEGRAPH RULES AND RATES			service regulations and rate tables	high	Telegraph, telephone, wireless and railway service rules.
+1944-fergusons-ceylon-directory_15d9ca95	178	189	advertisements	BRANDED PRODUCTS GUIDE			product and supplier advertisements	high	Branded guide and advertisements before mercantile section.
+1944-fergusons-ceylon-directory_15d9ca95	190	200	banks_insurance	BANKING AND COMMERCE			bank profiles and agency lists	high	Banking and outstation bank roster before Chamber.
+1944-fergusons-ceylon-directory_15d9ca95	201	202	associations	CEYLON CHAMBER OF COMMERCE			membership lists	high	Chamber roster before arbitrators.
+1944-fergusons-ceylon-directory_15d9ca95	203	205	professions	Arbitrators and Surveyors			professional rosters	high	Arbitrators and surveyors.
+1944-fergusons-ceylon-directory_15d9ca95	206	206	associations	Ceylon Merchants' Chamber			committee and members	high	Chamber precedes insurance companies.
+1944-fergusons-ceylon-directory_15d9ca95	207	209	banks_insurance	LIFE INSURANCE COMPANIES			company and agency tables	high	Life and motor insurance companies before insurance associations.
+1944-fergusons-ceylon-directory_15d9ca95	210	214	associations	THE CEYLON FIRE INSURANCE ASSOCIATION			membership lists	high	Fire and marine insurance associations.
+1944-fergusons-ceylon-directory_15d9ca95	215	220	shipping_port	Steam Navigation Companies and Agencies in Colombo			company and agency tables	high	Colombo and Galle shipping agencies.
+1944-fergusons-ceylon-directory_15d9ca95	221	224	press	Ceylon Newspapers	Ceylon		publication lists	high	Newspapers and periodicals before merchant tables.
+1944-fergusons-ceylon-directory_15d9ca95	226	349	mercantile_colombo	MERCANTILE LIST	Colombo	March, 1944	3-column table: firm | staff | business and agencies	high	Colombo firm tables through end of mercantile sequence.
+1944-fergusons-ceylon-directory_15d9ca95	350	389	trade_lists	Colombo Professional and Trade Lists	Colombo		trade headings over grouped names	high	Classified Colombo trades and industrial lists.
+1944-fergusons-ceylon-directory_15d9ca95	390	413	trade_lists	Mercantile Firms, Stores, &c., at Outstations			town and trade headings over grouped names	high	Outstation lists are organised by trades and towns.
+1944-fergusons-ceylon-directory_15d9ca95	414	502	companies_register	Mercantile and Planting Companies			company profiles grouped by crop and sector	high	Companies before Professions.
+1944-fergusons-ceylon-directory_15d9ca95	503	533	professions	Professions			professional rosters	high	Advocates, proctors, medical, dentists and surveyors.
+1944-fergusons-ceylon-directory_15d9ca95	534	545	government_establishment	COMMERCIAL & LABOUR LEGISLATION			ordinances and administrative lists	high	Emigration, labour and compensation rules.
+1944-fergusons-ceylon-directory_15d9ca95	546	546	associations	Trade Unions			union list	high	Trade union list inside labour legislation.
+1944-fergusons-ceylon-directory_15d9ca95	547	547	government_establishment	MINES AND MACHINERY PROTECTION			regulations	high	Rules before institutions.
+1944-fergusons-ceylon-directory_15d9ca95	548	597	associations	PUBLIC INSTITUTIONS			institutional profiles and rosters	high	Institutions before separate planters' roster.
+1944-fergusons-ceylon-directory_15d9ca95	598	611	associations	PLANTERS' ASSOCIATIONS			committee and membership rosters	high	Planters' groups and London membership.
+1944-fergusons-ceylon-directory_15d9ca95	612	614	government_establishment	Boards, Committees, &c.			board and committee rosters	high	Public boards before sports.
+1944-fergusons-ceylon-directory_15d9ca95	615	616	associations	Sport and Recreation in 1943		1943	sports reports and club notes	high	Sports review before ecclesiastical directory.
+1944-fergusons-ceylon-directory_15d9ca95	617	626	clergy_religious	ECCLESIASTICAL			religious rosters and profiles	high	Christian bodies followed by Buddhist monks.
+1944-fergusons-ceylon-directory_15d9ca95	627	635	professions	Principal Hospitals, etc., in Ceylon			hospital and medical staff lists	high	Hospitals and medical staff before industry review.
+1944-fergusons-ceylon-directory_15d9ca95	636	665	statistics_review	AGRICULTURE, TRADE AND FINANCE			running prose and statistical tables	high	Agriculture, finance and crop research information.
+1944-fergusons-ceylon-directory_15d9ca95	637	637	advertisements					high	Bank advertisement before the review text.
+1944-fergusons-ceylon-directory_15d9ca95	666	673	government_establishment	MEDICAL WANTS ORDINANCE			ordinances and legal schedules	high	Labour, land and fauna laws.
+1944-fergusons-ceylon-directory_15d9ca95	674	675	advertisements					high	Ads before income tax guide.
+1944-fergusons-ceylon-directory_15d9ca95	676	753	government_establishment	INCOME TAX ORDINANCE, 1932.			ordinance and explanatory prose	high	Income tax and excess profits duty before estate section.
+1944-fergusons-ceylon-directory_15d9ca95	754	755	advertisements					high	Two advertisements before Part II.
+1944-fergusons-ceylon-directory_15d9ca95	756	1013	estates_directory	ESTATES. DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II divider then district estate tables.
+1944-fergusons-ceylon-directory_15d9ca95	1014	1019	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agent lists after estate tables.
+1944-fergusons-ceylon-directory_15d9ca95	1020	1020	statistics_review	Planted and Total Extent of Private Lands			acreage summary table	high	Estate acreage totals before advertisements.
+1944-fergusons-ceylon-directory_15d9ca95	1021	1022	advertisements					high	Two advertisements before estate lookup.
+1944-fergusons-ceylon-directory_15d9ca95	1023	1072	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name estate lookup precedes reverse lookup.
+1944-fergusons-ceylon-directory_15d9ca95	1073	1094	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Vernacular-name estate lookup.
+1944-fergusons-ceylon-directory_15d9ca95	1095	1096	advertisements					high	Advertising before address directory.
+1944-fergusons-ceylon-directory_15d9ca95	1097	1104	front_matter	General Directory of Addresses			title and abbreviations	high	Address section title and keys.
+1944-fergusons-ceylon-directory_15d9ca95	1105	1327	residents_alphabetical	ADDRESSES			alphabetical names, occupations and addresses	high	Combined alphabetical addresses through end of list.
+1944-fergusons-ceylon-directory_15d9ca95	1328	1330	advertisements					high	Ads and index divider before general index.
+1944-fergusons-ceylon-directory_15d9ca95	1331	1337	index	GENERAL INDEX			alphabetical subject index	high	General index followed by advertiser index.
+1944-fergusons-ceylon-directory_15d9ca95	1338	1338	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Separate closing advertiser index.
+1946-fergusons-ceylon-directory_245be47f	1	6	front_matter	principal contents			title, preface and contents	high	Front matter and the contents at PDF 6.
+1946-fergusons-ceylon-directory_245be47f	3	3	advertisements					high	Commercial page between title material and preface.
+1946-fergusons-ceylon-directory_245be47f	7	10	statistics_review	CEYLON			descriptive overview and figures	high	Island overview, statistics and map.
+1946-fergusons-ceylon-directory_245be47f	11	12	advertisements					high	Bank and fertiliser ads before calendar.
+1946-fergusons-ceylon-directory_245be47f	13	23	almanac_calendar	CALENDAR FOR 1946		1946–1947	calendar and reference tables	high	Calendar, ephemeris, festivals, time tables and abbreviations.
+1946-fergusons-ceylon-directory_245be47f	24	24	banks_insurance	The Currency of Ceylon			currency tables and prose	high	Currency material before advertising insert.
+1946-fergusons-ceylon-directory_245be47f	25	26	advertisements					high	Advertisements precede chronology.
+1946-fergusons-ceylon-directory_245be47f	27	28	almanac_calendar	Principal Ceylon Events : 1945		1945	dated chronology	high	Chronology before census.
+1946-fergusons-ceylon-directory_245be47f	29	40	statistics_review	THE CENSUS OF CEYLON, 1946.			statistical tables	high	Census, population, immigration and weather.
+1946-fergusons-ceylon-directory_245be47f	41	103	government_establishment	Public Service of Ceylon			department and staff lists; seniority tables	high	Honours, judiciary, governor, council, public service and civil staff.
+1946-fergusons-ceylon-directory_245be47f	104	104	consuls	Consuls in Ceylon	Ceylon		country and consul table	high	Consular listings before justices.
+1946-fergusons-ceylon-directory_245be47f	105	109	government_establishment	JUSTICES OF THE PEACE			regional rosters	high	Justices by province.
+1946-fergusons-ceylon-directory_245be47f	110	127	municipal_local	Local Government			local staff and committee lists	high	Local corps, municipalities and road and sanitary boards.
+1946-fergusons-ceylon-directory_245be47f	128	139	education	THE UNIVERSITY OF CEYLON			university and school profiles; tables	high	Universities and schools before licensing.
+1946-fergusons-ceylon-directory_245be47f	140	185	government_establishment	LICENSING FEES			regulations and fee schedules	high	Licensing, stamps, registration, trustee, postal rules and overseas postage.
+1946-fergusons-ceylon-directory_245be47f	186	193	residents_alphabetical	COLOMBO POST BOX-HOLDERS			box number and holder tables	high	Colombo and Kandy box-holder lists.
+1946-fergusons-ceylon-directory_245be47f	194	206	government_establishment	Registered Abbreviated Addresses			service regulations and rate tables	high	Telegraph, wireless and railway rules.
+1946-fergusons-ceylon-directory_245be47f	207	220	advertisements	BRANDED PRODUCTS GUIDE			product and supplier advertisements	high	Branded products and commercial advertisements before mercantile.
+1946-fergusons-ceylon-directory_245be47f	221	231	banks_insurance	BANKING AND COMMERCE			bank profiles and agency lists	high	Banking up to Chamber members.
+1946-fergusons-ceylon-directory_245be47f	232	233	associations	CEYLON CHAMBER OF COMMERCE			membership lists	high	Chamber before arbitrators.
+1946-fergusons-ceylon-directory_245be47f	234	236	professions	Arbitrators and Surveyors			professional rosters	high	Arbitrators and surveyors.
+1946-fergusons-ceylon-directory_245be47f	237	237	associations	Ceylon Merchants' Chamber			committee and members	high	Chamber before insurers.
+1946-fergusons-ceylon-directory_245be47f	238	240	banks_insurance	LIFE INSURANCE COMPANIES			company and agency tables	high	Insurance companies preceding associations.
+1946-fergusons-ceylon-directory_245be47f	241	245	associations	THE CEYLON FIRE INSURANCE ASSOCIATION			membership lists	high	Fire and marine insurance association members.
+1946-fergusons-ceylon-directory_245be47f	246	250	shipping_port	SHIPPING AGENCIES			company and agency tables	high	Airline and shipping agencies then boat companies.
+1946-fergusons-ceylon-directory_245be47f	251	253	press	Other Ceylon Periodical Publications			publication lists	high	Press directory before mercantile title.
+1946-fergusons-ceylon-directory_245be47f	257	377	mercantile_colombo	MERCANTILE LIST.	Colombo	March, 1946	3-column table: firm | staff | business and agencies	high	First firm table declares the correction date. Tables end immediately before the professional and trade lists.
+1946-fergusons-ceylon-directory_245be47f	255	256	advertisements					high	Two full advertisements after mercantile title.
+1946-fergusons-ceylon-directory_245be47f	378	417	trade_lists	Colombo Professional and Trade List	Colombo		trade headings over grouped names	high	Colombo trade listings before outstations.
+1946-fergusons-ceylon-directory_245be47f	418	441	trade_lists	Mercantile Firms, Stores, &c., at Outstations			town and trade headings over grouped names	high	Outstation trades before companies.
+1946-fergusons-ceylon-directory_245be47f	442	523	companies_register	Mercantile and Planting Companies			company profiles grouped by crop and sector	high	Companies to Professions boundary.
+1946-fergusons-ceylon-directory_245be47f	524	556	professions	Professions			professional rosters	high	Law, notarial, medical and other professional lists.
+1946-fergusons-ceylon-directory_245be47f	557	568	government_establishment	Ceylon Labour Commission			ordinances and administrative lists	high	Labour, compensation and mine protection.
+1946-fergusons-ceylon-directory_245be47f	566	566	associations	Trade Unions			union list	high	Trade union roster inside the labour section.
+1946-fergusons-ceylon-directory_245be47f	569	570	advertisements					high	Advertising before institutions.
+1946-fergusons-ceylon-directory_245be47f	571	621	associations	INSTITUTIONS			institutional profiles and rosters	high	Institution directory and separate planters' association lists.
+1946-fergusons-ceylon-directory_245be47f	622	625	government_establishment	BOARDS, COMMITTEES, &C.			board and committee rosters	high	Boards precede schools.
+1946-fergusons-ceylon-directory_245be47f	626	638	education	COLLEGES, SCHOOLS AND OLD PUPILS' ASSOCIATIONS			school and staff profiles	high	School rosters and their alumni associations.
+1946-fergusons-ceylon-directory_245be47f	639	655	associations	READING ROOMS, LIBRARIES AND LITERARY CLUBS			club lists and sports reports	high	Library and sports sections before ecclesiastical.
+1946-fergusons-ceylon-directory_245be47f	656	663	clergy_religious	Ecclesiastical			religious rosters and profiles	high	Church and mission directory followed by Buddhist monks.
+1946-fergusons-ceylon-directory_245be47f	664	670	professions	HOSPITALS			hospital and medical staff lists	high	Hospital lists before advertisements and agricultural review.
+1946-fergusons-ceylon-directory_245be47f	671	672	advertisements					high	Ads immediately before agricultural review.
+1946-fergusons-ceylon-directory_245be47f	673	697	statistics_review	AGRICULTURAL REVIEW			running prose and statistical tables	high	Planting review, trade and financial statements.
+1946-fergusons-ceylon-directory_245be47f	698	789	government_establishment	TEA CONTROL REGULATIONS			ordinance and explanatory prose	high	Planting laws and research administration precede income, profits and estate duty.
+1946-fergusons-ceylon-directory_245be47f	790	791	advertisements					high	Commercial leaves before Part II.
+1946-fergusons-ceylon-directory_245be47f	792	1053	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II and district estate tables.
+1946-fergusons-ceylon-directory_245be47f	1054	1059	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents after the district lists.
+1946-fergusons-ceylon-directory_245be47f	1060	1061	statistics_review	Planted and Total Extent of Private Lands			acreage summary tables	high	Estate acreage totals.
+1946-fergusons-ceylon-directory_245be47f	1062	1063	advertisements					high	Ads before estate lookup.
+1946-fergusons-ceylon-directory_245be47f	1064	1098	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name estate lookup before reverse index.
+1946-fergusons-ceylon-directory_245be47f	1099	1116	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	First run of vernacular-name lookup ends before abbreviations.
+1946-fergusons-ceylon-directory_245be47f	1117	1122	front_matter	ABBREVIATIONS			abbreviation tables	high	Abbreviation key before men's addresses.
+1946-fergusons-ceylon-directory_245be47f	1123	1346	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's directory. Page banners often advertise products.
+1946-fergusons-ceylon-directory_245be47f	1347	1348	advertisements					high	Advertisements between address series.
+1946-fergusons-ceylon-directory_245be47f	1349	1427	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's address directory through end, with advertising banners.
+1946-fergusons-ceylon-directory_245be47f	1428	1430	advertisements					high	Promotional leaves before index.
+1946-fergusons-ceylon-directory_245be47f	1431	1432	index	GENERAL INDEX			alphabetical subject index	high	First held index run before displaced estate leaves.
+1946-fergusons-ceylon-directory_245be47f	1433	1436	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Displaced estate-name tables within index sequence.
+1946-fergusons-ceylon-directory_245be47f	1437	1438	advertisements					high	Displaced commercial leaves before Part III.
+1946-fergusons-ceylon-directory_245be47f	1439	1440	front_matter	General Directory of Addresses			title and abbreviations	high	Displaced Part III opening and abbreviations.
+1946-fergusons-ceylon-directory_245be47f	1441	1445	index	INDEX			alphabetical subject index	high	Index resumes after displaced address preliminaries.
+1946-fergusons-ceylon-directory_245be47f	1446	1446	index	ALPHABETICAL INDEX TO ADVERTISEMENTS			advertiser index	high	Advertiser index before final ads.
+1946-fergusons-ceylon-directory_245be47f	1447	1448	advertisements					high	Closing insurance advertisements.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1001	1018	government_establishment	INCOME TAX ORDINANCE			ordinance and explanatory prose	high	Starts within tax provisions.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1019	1020	statistics_review	Statistics of Income and Tax 1937-1947		1937–1947	tax statistics tables	high	Income and estate duty statistics, then profits tax.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1024	1024	advertisements					high	Commercial leaf before estates.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1025	1293	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II, district tables and four displaced estate-name index leaves.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1286	1289	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Four vernacular lookup leaves interrupt district sequence.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1294	1301	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agent lists before acreage summaries.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1302	1303	statistics_review	Planted and Total Extent of Private Lands			acreage summary tables	high	Acreage summaries before advertisements.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1304	1305	advertisements					high	Ads before estate index.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1306	1341	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	Estate index before reverse lookup.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1342	1358	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Remaining vernacular estate lookup.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1359	1364	front_matter	ABBREVIATIONS			title and abbreviations	high	Address directory preliminaries.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1365	1368	gazetteer_places	INTRODUCTION OF ZONE NUMBERING SYSTEM	Colombo		street and postal zone lists	high	Zone number and street lists before men's addresses.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1369	1564	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's roster before advertising and women's addresses.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1565	1567	advertisements					high	Advertising between alphabetic runs.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1568	1640	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's list then transitional ads.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1641	1670	residents_alphabetical	FOREIGN ADDRESSES			alphabetical names and addresses	high	Former Ceylon residents overseas to Y.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1671	1672	advertisements					high	Commercial leaves before subject index.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1673	1680	index	GENERAL INDEX			alphabetical subject index	high	Subject index runs to Q–R on the final held PDF page. Later index leaves are absent from the supplied scan.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1001	1061	government_establishment	INCOME TAX ORDINANCE			ordinance and explanatory prose	high	Starts with fauna protection and progresses into tax provision.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1062	1065	statistics_review	Statistics of Income and Tax 1938-1948		1938–1948	tax statistics tables	high	Income and estate duty tables, then profits tax.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1066	1067	advertisements					high	Commercial leaves before estates.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1068	1326	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II title and district estate tables.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1327	1332	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1333	1333	statistics_review	Planted and Total Extent of Private Lands			acreage summary table	high	Acreage totals follow visiting agents.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1334	1335	advertisements					high	Ads before estate index.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1336	1371	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name estate lookup.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1372	1394	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Reverse estate name lookup.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1395	1396	advertisements					high	Commercial leaves before Part III.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1397	1404	front_matter	General Directory of Addresses			title and abbreviations	high	Part III and abbreviations.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1405	1408	gazetteer_places	INTRODUCTION OF ZONE NUMBERING SYSTEM	Colombo		street and postal zone lists	high	Street and zone lists before addresses.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1409	1601	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	medium	Men's series includes disrupted scan sequence.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1604	1672	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's address series before foreign address heading.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1675	1702	residents_alphabetical	FOREIGN - ADDRESSES OF EX-CEYLON RESIDENTS			alphabetical names and addresses	high	Overseas address list before final leaves.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1703	1704	advertisements				advertisements	high	Two full-page machinery advertisements close the supplied PDF.
+1951-fergusons-ceylon-directory_ec649410	1	9	almanac_calendar	Twelve OClock Noon Greenwich Mean Time			time, measures and reference tables	high	First held page is mid-reference section. Title and calendar opening absent from supplied PDF.
+1951-fergusons-ceylon-directory_ec649410	10	10	government_establishment				office and staff lists	high	Former governors before annual events.
+1951-fergusons-ceylon-directory_ec649410	11	29	almanac_calendar	Princival Ceylon Events, 1950		1950	dated chronology and historical prose	high	Annual events, constitutional development and review of island history.
+1951-fergusons-ceylon-directory_ec649410	30	34	statistics_review	POPULATION OF CEYLON			statistical tables	medium	Population and other figures before honours.
+1951-fergusons-ceylon-directory_ec649410	35	108	government_establishment	The Judicial System of Ceylon			department and staff lists; parliamentary proceedings	high	Honours, judicial system, Parliament, cabinet and public service.
+1951-fergusons-ceylon-directory_ec649410	109	119	education	THE UNIVERSITY OF CEYLON			university and school profiles; tables	high	University and education descriptions within public service.
+1951-fergusons-ceylon-directory_ec649410	120	183	government_establishment	THE CEYLON CIVIL SERVICE			department and staff lists; fee schedules	high	Civil departments, civil service and legal and licence reference.
+1951-fergusons-ceylon-directory_ec649410	184	199	municipal_local	THE COLOMBO MUNICIPALITY			local staff and committee lists	high	Municipal and town councils and road committees.
+1951-fergusons-ceylon-directory_ec649410	200	200	gazetteer_places	REST--HOUSES IN CEYLON			place and route table	high	Resthouse table before addenda.
+1951-fergusons-ceylon-directory_ec649410	201	202	front_matter	ADDENDA			corrections and additions	high	Ministerial updates before ads.
+1951-fergusons-ceylon-directory_ec649410	203	204	advertisements					high	Two ads before communications.
+1951-fergusons-ceylon-directory_ec649410	205	218	government_establishment	Post and Telegraphs and Railway			postal regulations and rate tables	high	Postal rates and service information.
+1951-fergusons-ceylon-directory_ec649410	219	233	residents_alphabetical	COLOMBO POST BOX-HOLDERS			box number and holder tables	high	Colombo and Kandy GPO lists.
+1951-fergusons-ceylon-directory_ec649410	234	241	government_establishment	TELEGRAPH RULES AND RATES			service regulations and rate tables	high	Telegraph, telephone and radio rules.
+1951-fergusons-ceylon-directory_ec649410	242	247	gazetteer_places	Post Offices in Ceylon			postal station and zone lists	high	Post offices, sub-offices and zone numbers.
+1951-fergusons-ceylon-directory_ec649410	248	265	government_establishment	RAILWAY RATES AND REGULATIONS			service regulations and rate tables	high	Broadcast, railways and road transport rules.
+1951-fergusons-ceylon-directory_ec649410	266	279	advertisements	ADVERTISEMENTS OF BRANDED PRODUCTS			product and supplier advertisements	high	Branded products and full advertisements before mercantile.
+1951-fergusons-ceylon-directory_ec649410	280	292	banks_insurance	BANKING AND COMMERCE			bank profiles and agency lists	high	Banking and outstation banking agencies before Chamber.
+1951-fergusons-ceylon-directory_ec649410	293	297	associations	LIST OF MEMBERS—(Contd.)			chamber, trade and insurer membership lists	high	Chamber, arbitrators and trade associations.
+1951-fergusons-ceylon-directory_ec649410	298	306	banks_insurance	COMPANIES			insurance company and agency tables	high	Insurance company and agent listings.
+1951-fergusons-ceylon-directory_ec649410	307	313	shipping_port	SHIPPING AGENCIES			company and agency tables	high	Airline and steam services precede press.
+1951-fergusons-ceylon-directory_ec649410	314	320	press	Ceylon Newspapers			publication lists	high	Newspapers and periodicals.
+1951-fergusons-ceylon-directory_ec649410	321	496	mercantile_colombo	MERCANTILE AND TRADES LIST	Colombo		3-column table: firm | staff | business and agencies	high	First mercantile sequence followed by a repeated insurance and press sequence.
+1951-fergusons-ceylon-directory_ec649410	497	505	banks_insurance	LIFE INSURANCE COMPANIES			insurance company and agency tables	high	Repeated or displaced insurance material.
+1951-fergusons-ceylon-directory_ec649410	506	513	shipping_port	SHIPPING AGENCIES			company and agency tables	high	Repeated shipping and aviation listings through boat companies.
+1951-fergusons-ceylon-directory_ec649410	514	519	press	Ceylon Newspapers			publication lists	high	Repeated newspaper and periodical pages.
+1951-fergusons-ceylon-directory_ec649410	520	705	mercantile_colombo	MERCANTILE AND TRADES LIST	Colombo	MARCH, 1931	3-column table: firm | staff | business and agencies	high	Second held firm-table run overlaps first. Its stated date reads 1931 in OCR of this 1951 volume.
+1951-fergusons-ceylon-directory_ec649410	706	707	advertisements					high	Commercial pages between firms and company profiles.
+1951-fergusons-ceylon-directory_ec649410	708	750	companies_register	PLANTING COMPANIES			company profiles grouped by crop and sector	medium	Planting and commercial companies before emigration rules.
+1951-fergusons-ceylon-directory_ec649410	751	765	government_establishment	Ceylon Labour Commission			ordinances and administrative lists	high	Immigration, labour and workers' compensation rules before trade unions.
+1951-fergusons-ceylon-directory_ec649410	766	766	associations	Trade Unions			union list	high	Trade union roster within labour material.
+1951-fergusons-ceylon-directory_ec649410	767	767	government_establishment				regulations	high	Administrative requirements after union roster.
+1951-fergusons-ceylon-directory_ec649410	768	769	advertisements					high	Commercial advertisements before trade lists.
+1951-fergusons-ceylon-directory_ec649410	770	834	trade_lists	Colombo Trade Lists	Colombo		trade headings over grouped names	medium	Classified Colombo trades before industrial workshops.
+1951-fergusons-ceylon-directory_ec649410	835	847	trade_lists				industrial workshop and station tables	medium	Industrial workshop and centre tables between the two geographic lists.
+1951-fergusons-ceylon-directory_ec649410	848	883	trade_lists				town and trade headings over grouped names	medium	Outstation trades through Wattegama.
+1951-fergusons-ceylon-directory_ec649410	884	917	professions	ADVOCATES			professional rosters	high	Legal, medical, veterinary and accounting lists.
+1951-fergusons-ceylon-directory_ec649410	918	919	advertisements					high	Advertising before institutions.
+1951-fergusons-ceylon-directory_ec649410	920	964	associations	INSTITUTIONS			institutional profiles and rosters	high	Institutions and affiliated labour and civic groups.
+1951-fergusons-ceylon-directory_ec649410	965	966	advertisements					high	Commercial leaves before planters.
+1951-fergusons-ceylon-directory_ec649410	967	977	associations	THE PLANTERS' ASSOCIATION OF CEYLON			committee and membership rosters	medium	Planters' and associated board lists.
+1951-fergusons-ceylon-directory_ec649410	984	1005	education				school and staff profiles	high	Schools and old pupils' associations within institution series.
+1951-fergusons-ceylon-directory_ec649410	1006	1031	associations				club lists and sports reports	high	Libraries begin below final school material. Sports and clubs follow.
+1951-fergusons-ceylon-directory_ec649410	1032	1041	clergy_religious	Ecclesiastical			religious rosters and profiles	high	Churches, missions and Buddhist monks.
+1951-fergusons-ceylon-directory_ec649410	1042	1053	professions	Principal Hospitals, etc., in Ceylon			hospital and medical staff lists	high	Hospital listings before financial and agricultural review.
+1951-fergusons-ceylon-directory_ec649410	1054	1108	statistics_review	ECONOMIC CONDITIONS IN 1950		1950	running prose and statistical tables	high	Economic and agricultural reviews with trades and finance tables.
+1951-fergusons-ceylon-directory_ec649410	1109	1127	government_establishment	PLANTING AND AGRICULTURAL LEGISLATION			ordinances and legal schedules	high	Research, agricultural and wildlife regulations.
+1951-fergusons-ceylon-directory_ec649410	1128	1131	gazetteer_places	Trout Fishing			location and fishery division tables	high	Fishing centres before ads.
+1951-fergusons-ceylon-directory_ec649410	1132	1133	advertisements					high	Commercial ads before tax.
+1951-fergusons-ceylon-directory_ec649410	1134	1194	government_establishment	INCOME TAX ORDINANCE, 1932			ordinance and statistical tables	high	Income and profits tax including statistics near end.
+1951-fergusons-ceylon-directory_ec649410	1195	1221	estates_directory	ALAGALA OR KADUGANNAWA NORTH			estate, owner, agent, acreage and crop tables	high	PDF ends within early district estate tables.
+1955-fergusons-ceylon-directory_857cd976	1	8	advertisements					high	Commercial leaves at start of supplied scan.
+1955-fergusons-ceylon-directory_857cd976	9	14	almanac_calendar	Ephemeris Data 1955		1955	calendar and ephemeris tables	high	Held calendar starts partway through the ephemeris.
+1955-fergusons-ceylon-directory_857cd976	15	18	gazetteer_places	TRIGONOMETRICAL ALTITUDES			place and elevation tables	high	Altitude tables before abbreviation reference.
+1955-fergusons-ceylon-directory_857cd976	19	20	almanac_calendar	Abbreviations Used in Commerce			reference tables	high	Commercial abbreviations.
+1955-fergusons-ceylon-directory_857cd976	21	22	banks_insurance	The Currency of Ceylon			currency tables and prose	high	Currency then weights and measures.
+1955-fergusons-ceylon-directory_857cd976	23	38	almanac_calendar	Weights and Measures			reference tables and dated chronology	medium	Measures and historical reference before constitution review.
+1955-fergusons-ceylon-directory_857cd976	39	54	almanac_calendar	CEYLON'S CONSTITUTIONAL DEVELOPMENT			historical prose	high	Constitution and island history before census.
+1955-fergusons-ceylon-directory_857cd976	55	68	statistics_review	Population Census of Ceylon 1953		1953	statistical tables	medium	Population and demographic statistics.
+1955-fergusons-ceylon-directory_857cd976	69	117	government_establishment	The Judicial System of Ceylon			office lists and legal prose	high	Honours, judicial system and acts including bribery and housing.
+1955-fergusons-ceylon-directory_857cd976	118	118	advertisements					high	Commercial ad before Constitution Order.
+1955-fergusons-ceylon-directory_857cd976	119	219	government_establishment	The Ceylon (Constitution) Order			ordinances and department rosters	high	Constitution and Parliament followed by public service.
+1955-fergusons-ceylon-directory_857cd976	220	241	education	THE UNIVERSITY OF CEYLON			university and school profiles; tables	high	University, academic bodies and staff within public service.
+1955-fergusons-ceylon-directory_857cd976	242	255	government_establishment				department and staff lists	medium	Departmental rosters before foreign representatives.
+1955-fergusons-ceylon-directory_857cd976	256	257	consuls	LIST OF FOREIGN AND COMMONWEALTH REPRESENTATIVES			country and representative lists	high	Foreign and Commonwealth representatives before Civil Service.
+1955-fergusons-ceylon-directory_857cd976	258	312	government_establishment	THE CEYLON CIVIL SERVICE			department and staff lists; fee schedules	high	Civil Service, licensing, stamps, regulation and public trustee.
+1955-fergusons-ceylon-directory_857cd976	313	328	municipal_local	THE COLOMBO MUNICIPALITY			local staff and committee lists	high	Municipal and other councils before resthouses.
+1955-fergusons-ceylon-directory_857cd976	329	330	gazetteer_places	RESTHOUSES IN CEYLON			place tables	high	Resthouse lists before ads.
+1955-fergusons-ceylon-directory_857cd976	331	332	advertisements					high	Commercial ads before communications.
+1955-fergusons-ceylon-directory_857cd976	333	349	government_establishment	Post and Telegraphs and Railways			postal regulations and rate tables	high	Postal information before box holder lists.
+1955-fergusons-ceylon-directory_857cd976	350	365	residents_alphabetical	COLOMBO POST BOX-HOLDERS			box number and holder tables	high	Colombo and Kandy GPO box holders.
+1955-fergusons-ceylon-directory_857cd976	366	375	government_establishment	TELEGRAPH RULES AND RATES			service regulations and rate tables	high	Telegraph and telephone rates before post office table.
+1955-fergusons-ceylon-directory_857cd976	376	382	gazetteer_places	SUB-POST OFFICES IN CEYLON			postal station and zone lists	high	Postal stations and Colombo zones.
+1955-fergusons-ceylon-directory_857cd976	383	389	government_establishment				service regulations and rate tables	high	Broadcast and railway service information.
+1955-fergusons-ceylon-directory_857cd976	390	391	gazetteer_places	LIST OF RAILWAY STATIONS			railway station lists	high	Railway stations before advertising.
+1955-fergusons-ceylon-directory_857cd976	392	393	advertisements					high	Commercial ads before transport review.
+1955-fergusons-ceylon-directory_857cd976	394	399	government_establishment	TRANSPORT SYSTEM IN CEYLON			transport overview and regulation	high	Transport including motor traffic rules.
+1955-fergusons-ceylon-directory_857cd976	400	403	shipping_port	Port of Colombo	Colombo		port overview and schedules	medium	Port and shipping information before mercantile section.
+1955-fergusons-ceylon-directory_857cd976	404	408	banks_insurance	BANKING AND COMMERCE			bank profiles and agency lists	high	Mercantile divider and banking pages before firms.
+1955-fergusons-ceylon-directory_857cd976	409	552	mercantile_colombo	MERCANTILE LIST	Colombo		3-column table: firm | staff | business and agencies	high	Firm tables before planting company lists.
+1955-fergusons-ceylon-directory_857cd976	553	614	companies_register	PLANTING COMPANIES			company profiles grouped by crop and sector	high	Planting and commercial profiles before emigration.
+1955-fergusons-ceylon-directory_857cd976	615	657	government_establishment	Wages Boards Ordinance			ordinances and legal schedules	high	Immigration, employment, factory and labour laws.
+1955-fergusons-ceylon-directory_857cd976	658	659	advertisements					high	Two advertisements before classified trades.
+1955-fergusons-ceylon-directory_857cd976	660	722	trade_lists	Colombo Trade Lists	Colombo		trade headings over grouped names	high	Colombo classified lists until workshop tables.
+1955-fergusons-ceylon-directory_857cd976	723	725	trade_lists	Department of Industries Commercial Division			industrial workshop and station tables	high	Supplied PDF ends within the industrial unit tables.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1001	1014	education	COLLEGES, SCHOOLS AND OLD PUPILS' ASSOCIATIONS			school and staff profiles	high	Begins within school and alumni listings.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1015	1016	associations	READING ROOMS, LIBRARIES AND LITERARY CLUBS			institutional profiles	high	Libraries before commercial leaves.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1017	1018	advertisements					high	Commercial ads before economic review.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1019	1072	statistics_review	ECONOMIC CONDITIONS IN 1955		1955	running prose and statistical tables	high	Economic and agricultural reviews, crop exports and finance.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1073	1084	government_establishment	TEA CONTROL ACT			ordinance and explanatory prose	high	Agricultural control, institutions and labour rules.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1085	1092	banks_insurance	THE CEYLON STATE MORTGAGE BANK			bank profiles and rules	high	Mortgage, agricultural credit and Loan Board.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1093	1094	government_establishment	Game and Fauna Protection in Ceylon			regulations and protected species lists	high	Fauna rules before fishing tables.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1095	1101	gazetteer_places	Fishing Centres in Ceylon			location and fishery division tables	high	Fishing locations before advertising.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1102	1103	advertisements					high	Commercial leaves before income tax.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1104	1172	government_establishment	INCOME TAX ORDINANCE, 1932			ordinance and explanatory prose	high	Income and estate tax ordinances.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1173	1176	statistics_review	Statistics of Income and Tax 1943-1954		1943–1954	tax statistics tables	high	Income, estate duty and profits tax statistics.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1177	1179	advertisements					high	Commercial leaves before estate divider.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1180	1335	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II and district estate sequence with printed gaps.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1336	1343	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents before estate index.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1344	1376	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name lookup runs up to reverse lookup.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1377	1398	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Reverse estate name lookup.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1399	1400	advertisements					high	Advertising before Part III.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1401	1411	front_matter	General Directory of Addresses			title and abbreviations	high	Part III title and abbreviation tables.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1412	1416	gazetteer_places	ZONE NUMBERS	Colombo		street and postal zone lists	high	Colombo zone numbers before men's lists.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1417	1626	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's address run through Y and Z.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1627	1628	advertisements					high	Commercial pages before women's addresses.
+1956-fergusons-ceylon-directory_23557c3d_p01001	1629	1631	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Supplied PDF ends near the beginning of women's addresses.
+1959-fergusons-ceylon-directory_056ac4d5	1	8	front_matter	FERGUSON'S CEYLON DIRECTORY			cover, preface and ads	high	Cover and preface, with early advertising.
+1959-fergusons-ceylon-directory_056ac4d5	2	6	advertisements					high	Commercial pages before preface.
+1959-fergusons-ceylon-directory_056ac4d5	8	8	advertisements					high	Advertisement after preface.
+1959-fergusons-ceylon-directory_056ac4d5	9	11	statistics_review	CEYLON			descriptive overview and figures	high	Island overview and statistical extract.
+1959-fergusons-ceylon-directory_056ac4d5	12	23	advertisements					high	Advertising before map and index.
+1959-fergusons-ceylon-directory_056ac4d5	24	24	gazetteer_places	MAP OF CEYLON	Ceylon		map	high	Map immediately preceding general index.
+1959-fergusons-ceylon-directory_056ac4d5	25	36	index	GENERAL INDEX			alphabetical subject index	high	Held opening index before bank ads.
+1959-fergusons-ceylon-directory_056ac4d5	37	38	advertisements					high	Bank ads before calendar.
+1959-fergusons-ceylon-directory_056ac4d5	39	47	almanac_calendar	CALENDAR FOR 1959 .		1959–1960	calendar and ephemeris tables	high	Calendar, memoranda and astronomical reference.
+1959-fergusons-ceylon-directory_056ac4d5	48	54	gazetteer_places	TRIGONOMETRICAL ALTITUDES			place and elevation tables	high	Altitudes, lakes, tanks and rivers.
+1959-fergusons-ceylon-directory_056ac4d5	55	63	almanac_calendar	Abbreviations Used in Commerce			commercial reference tables	high	Abbreviations, currency and measures.
+1959-fergusons-ceylon-directory_056ac4d5	64	65	government_establishment	PAST GOVERNORS, GOVERNORS-GENERAL			office-holder lists	high	Governors and chief justices before events.
+1959-fergusons-ceylon-directory_056ac4d5	66	120	almanac_calendar	HISTORICAL EVENTS			dated chronology and historical prose	high	Chronology and island history before population.
+1959-fergusons-ceylon-directory_056ac4d5	121	133	statistics_review	CENSUS OF CEYLON,			statistical tables	high	Population census and demographic tables.
+1959-fergusons-ceylon-directory_056ac4d5	134	372	government_establishment	Public Service of Ceylon			ordinances and department rosters	high	Honours, judiciary, acts, Parliament, ministries and civil service.
+1959-fergusons-ceylon-directory_056ac4d5	373	408	government_establishment	STAMP DUTIES			regulations and fee schedules	high	Licences, statistics, co-operative societies, stamps, electricity and registration.
+1959-fergusons-ceylon-directory_056ac4d5	409	410	gazetteer_places	RESTHOUSES			place tables	high	Resthouse table and transitional material before local government.
+1959-fergusons-ceylon-directory_056ac4d5	413	424	municipal_local	LOCAL GOVERNMENT BODIES			local staff and committee lists	high	Local bodies through council roster. Printed pagination then jumps to trade lists.
+1959-fergusons-ceylon-directory_056ac4d5	425	435	trade_lists	COLOMBO TRADE LISTS	Colombo		trade headings over grouped names	high	Held classified Colombo trades start mid-list after a printed-page jump.
+1959-fergusons-ceylon-directory_056ac4d5	436	457	trade_lists	OUTSTATION TRADE LISTS			town and trade headings over grouped names	high	Trades grouped by town until industrial listings.
+1959-fergusons-ceylon-directory_056ac4d5	458	509	trade_lists	INDUSTRIAL UNITS			industrial workshop tables with school and society lists	high	Industry establishments interleaved with district schools and co-operative societies.
+1959-fergusons-ceylon-directory_056ac4d5	510	511	advertisements					high	Commercial pages before professions.
+1959-fergusons-ceylon-directory_056ac4d5	512	564	professions	PROFESSIONS			professional rosters	high	Legal, medical, veterinary, accountancy and actuarial lists.
+1959-fergusons-ceylon-directory_056ac4d5	565	566	advertisements					high	Commercial pages before institutions.
+1959-fergusons-ceylon-directory_056ac4d5	567	634	associations	INSTITUTIONS			institutional profiles and rosters	medium	General and planters' institutions through boards.
+1959-fergusons-ceylon-directory_056ac4d5	635	656	associations	Sports and Recreation 1958		1958	sports reports and club rosters	medium	Sporting organisations and reports.
+1959-fergusons-ceylon-directory_056ac4d5	657	665	clergy_religious	ECCLESIASTICAL			religious rosters and profiles	high	Churches, missions and Buddhist rosters.
+1959-fergusons-ceylon-directory_056ac4d5	666	686	professions	PRINCIPAL HOSPITALS, ETC., IN CEYLON			hospital and medical staff lists	high	Hospitals, clinics and specialist institutions.
+1959-fergusons-ceylon-directory_056ac4d5	687	687	advertisements					high	Commercial page before education.
+1959-fergusons-ceylon-directory_056ac4d5	688	758	education	EDUCATION IN CEYLON			university and school profiles; tables	high	Education overview, universities, schools and old pupils.
+1959-fergusons-ceylon-directory_056ac4d5	759	763	associations	READING ROOMS, LIBRARIES AND LITERARY CLUBS			institutional profiles	high	Libraries before finance and economic review.
+1959-fergusons-ceylon-directory_056ac4d5	764	765	advertisements					high	Bank and other advertising before review.
+1959-fergusons-ceylon-directory_056ac4d5	766	797	statistics_review	ECONOMIC REVIEW OF 1958		1958	running prose and statistical tables	medium	Economic and agricultural reviews followed by financing.
+1959-fergusons-ceylon-directory_056ac4d5	798	938	government_establishment	PADDY LANDS ACT			ordinance and explanatory prose	medium	Agricultural and tax legislation to estate duty.
+1959-fergusons-ceylon-directory_056ac4d5	939	940	advertisements					high	Two ads before estate section.
+1959-fergusons-ceylon-directory_056ac4d5	941	1200	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II and detailed district listings.
+1959-fergusons-ceylon-directory_056ac4d5	1201	1208	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents follow district estates.
+1959-fergusons-ceylon-directory_056ac4d5	1209	1210	statistics_review	Planted and Total Extent of Private Lands			acreage summary tables	high	District and crop totals.
+1959-fergusons-ceylon-directory_056ac4d5	1211	1212	advertisements					high	Commercial ads before estate index.
+1959-fergusons-ceylon-directory_056ac4d5	1213	1215	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	Only opening estate-index leaves precede a large printed-page jump.
+1959-fergusons-ceylon-directory_056ac4d5	1216	1390	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's addresses start partway through the alphabet after a scan jump.
+1959-fergusons-ceylon-directory_056ac4d5	1391	1394	advertisements					high	Commercial ads between address series.
+1959-fergusons-ceylon-directory_056ac4d5	1395	1454	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's list through Y.
+1959-fergusons-ceylon-directory_056ac4d5	1455	1455	advertisements					high	Advertisement immediately before foreign addresses.
+1959-fergusons-ceylon-directory_056ac4d5	1456	1464	residents_alphabetical	FOREIGN ADDRESSES			alphabetical names and addresses	high	Overseas address sequence includes PDF 1464, a discontinuous address leaf headed F–H.
+1959-fergusons-ceylon-directory_056ac4d5	1465	1466	advertisements					medium	Commercial advertising and closing scan.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2001	2060	estates_directory	MORAWAK KORALE (Continue)			estate, owner, agent, acreage and crop tables	high	Begins within district tables and reaches end of Wattegama.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2061	2068	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents after district estate listings.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2069	2070	statistics_review	Planted and Total Extent of Private Lands			acreage summary tables	high	Private land and crop totals.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2071	2072	advertisements					high	Commercial pages before estate indexes.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2073	2104	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name estate index followed by reverse lookup.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2105	2128	estates_directory	SINHALESE & TAMIL NAMES OF ESTATES			estate name and English name tables	high	Reverse estate name lookup.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2129	2130	advertisements					high	Commercial ads before Part III.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2131	2141	front_matter	General Directory of Addresses			title and abbreviations	high	Address title and abbreviation reference.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2142	2147	gazetteer_places	INTRODUCTION OF ZONE NUMBERING SYSTEM	Colombo		street and postal zone lists	high	Colombo street lists by zone.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2148	2349	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's addresses until section break.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2350	2352	advertisements					medium	Full-page bank advertisement, blank leaf and commercial ad separate address runs.
+1960-61-fergusons-ceylon-directory_ad3fa277_p02001	2353	2397	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Supplied PDF ends within women's list.
+1963-fergusons-ceylon-directory_897c2c80_p02001	2001	2029	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Begins within men's list and reaches end of alphabet.
+1963-fergusons-ceylon-directory_897c2c80_p02001	2030	2088	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's addresses extend to Y before overseas heading.
+1963-fergusons-ceylon-directory_897c2c80_p02001	2089	2111	residents_alphabetical	FOREIGN ADDRESSES			alphabetical names and addresses	high	Overseas addresses through last alphabetic leaf.
+1963-fergusons-ceylon-directory_897c2c80_p02001	2112	2114	advertisements					high	Advertising on closing leaves.
+1964-fergusons-ceylon-directory_ae941e4a_p02001	2001	2141	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Begins within men's address list. Final held leaves repeat Y.
+1964-fergusons-ceylon-directory_ae941e4a_p02001	2142	2143	advertisements					high	Commercial ads between address lists.
+1964-fergusons-ceylon-directory_ae941e4a_p02001	2144	2201	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's addresses through end of alphabet before overseas.
+1964-fergusons-ceylon-directory_ae941e4a_p02001	2202	2203	advertisements					high	Bank ad before overseas address heading.
+1964-fergusons-ceylon-directory_ae941e4a_p02001	2204	2214	residents_alphabetical	FOREIGN ADDRESSES OF EX-CEYLON RESIDENTS			alphabetical names and addresses	high	Overseas list ends in J in supplied PDF.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1001	1004	trade_lists	COLOMBO TRADE LISTS	Colombo		trade headings over grouped names	high	Starts within classified Colombo trades.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1005	1017	trade_lists	OUTSTATION TRADE LISTS			town and trade headings over grouped names	high	Outstation lists preceding profession rosters.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1018	1019	advertisements					high	Commercial ads before professions.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1020	1114	professions	PROFESSIONS			professional rosters	high	Law, medical, accountants and actuaries.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1115	1136	professions	THE INSTITUTION OF ENGINEERS, CEYLON			membership and professional lists	high	Institution officers and engineering rosters in professions.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1137	1138	advertisements					high	Commercial ads before institutions.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1139	1189	associations	INSTITUTIONS			institutional profiles and rosters	high	Alphabetical institutions before planters.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1190	1193	associations	THE PLANTERS' ASSOCIATION OF CEYLON			committee and membership rosters	high	Planters' groups before public boards.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1194	1203	government_establishment	BOARDS, COMMITTEES, &c.			board and committee rosters	high	Public boards before ecclesiastical.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1204	1213	clergy_religious	ECCLESIASTICAL			religious rosters and profiles	high	Churches, missions and Buddhist listings.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1214	1215	advertisements					high	Commercial ads before hospitals.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1216	1239	professions	PRINCIPAL HOSPITALS, ETC., IN CEYLON			hospital and medical staff lists	high	Hospital and clinic profiles.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1240	1241	advertisements					high	Commercial ads before sports.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1242	1263	associations	Sports and Recreation 1967		1967	sports reports and club rosters	high	Sports review and club profiles.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1264	1265	advertisements					high	Commercial ads before educational review.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1266	1359	education	REVIEW OF EDUCATION			education review, regulations and staff rosters	high	Survey, Higher Education Act, university and school rosters.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1360	1363	associations	READING ROOMS, LIBRARIES AND LITERARY CLUBS			institutional profiles	high	Library and club profiles before commercial and economic section.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1364	1365	advertisements					high	Commercial pages before map and review.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1366	1390	statistics_review	ECONOMIC REVIEW OF 1967		1967	running prose and statistical tables	high	Map then economic and farming reports, crop and research data.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1391	1424	government_establishment	THE DISEASES (LABOURERS) ORDINANCE			ordinances and administrative information	medium	Agricultural and administration material before industrial survey.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1425	1505	statistics_review	INDUSTRIAL DEVELOPMENT IN CEYLON			sector and trade statistical tables	high	Industrial survey followed by exports and import tables.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1506	1535	statistics_review	EXCHANGE AND MONEY			financial and trade statistical tables	high	Duties, exports, public finance and banking before tax law.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1537	1538	advertisements					high	Commercial advertising before Inland Revenue Act.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1539	1660	government_establishment	INLAND REVENUE ACT			ordinance and explanatory prose	high	Inland revenue, associated acts and estate duty.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1661	1663	statistics_review	Statistics of Income and Tax 1956-1966		1956–1966	tax statistics tables	high	Estate and income tax totals before Finance Act.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1664	1713	government_establishment	FINANCE ACT			ordinance and explanatory prose	high	Finance Act before estates.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1714	1714	advertisements					high	Ad immediately before Part II.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1715	1805	estates_directory	ESTATES DIRECTORY			estate, owner, agent, acreage and crop tables	high	Part II and district estate tables. Supplied PDF ends within list.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2001	2145	estates_directory	KALUTARA (Continued)			estate, owner, agent, acreage and crop tables	high	Starts within Kalutara and ends with Wattegama.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2146	2153	professions	Visiting Agents, Inspectors of Estates, Valuators			name and agency lists	high	Visiting agents after district estates.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2154	2156	advertisements					high	Commercial and image leaves before acreage table.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2157	2157	statistics_review	Planted and Total Extent of Private Lands			acreage summary table	high	Crop and property acreage totals before estate index.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2158	2181	estates_directory	Index to Tea, Rubber and Coconut Estates			estate and vernacular name tables	high	English-name estate index to last page held.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2182	2183	advertisements					high	Two ads before address section.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2184	2197	front_matter	General Directory of Addresses			title and abbreviations	high	Part III and abbreviation tables.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2198	2202	gazetteer_places	INTRODUCTION OF ZONE NUMBERING SYSTEM	Colombo		street and postal zone lists	high	Colombo street and zone tables before men's addresses.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2203	2396	residents_alphabetical	MEN'S ADDRESSES			alphabetical names, occupations and addresses	high	Men's names through end of alphabet.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2397	2398	advertisements					high	Two advertisements between address runs.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2399	2448	residents_alphabetical	WOMEN'S ADDRESSES			alphabetical names and addresses	high	Women's names through end of alphabet.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2449	2450	advertisements					high	Bank and trade fair advertisements.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2451	2468	residents_alphabetical	FOREIGN ADDRESSES OF EX-CEYLON RESIDENTS			alphabetical names and addresses	high	Overseas address series through end of list.
+1969-70-fergusons-ceylon-directory_3d8ceebf_p02001	2469	2470	advertisements					high	Closing commercial pages.
+1871-72-ceylon-directory-calendar_7af11425	461	461	clergy_religious	CLERICAL DIRECTORY.			clergy and station table	high	Clerical leaf is interleaved with military tables.
+1871-72-ceylon-directory-calendar_7af11425	462	462	military_volunteer	CEYLON RIFLE REGIMENT.			unit and officer tables	high	Displaced military leaf after clerical page.
+1871-72-ceylon-directory-calendar_7af11425	463	465	clergy_religious	CLERICAL DIRECTORY.			clergy and station tables	high	Clerical sequence before advocates.
+1871-72-ceylon-directory-calendar_7af11425	466	470	professions	LEGAL DIRECTORY.			name, rank and practice tables	high	Legal directory before medical directory.
+1871-72-ceylon-directory-calendar_7af11425	471	471	professions	MEDICAL DIRECTORY.			medical practitioner table	high	Medical roster before justices.
+1871-72-ceylon-directory-calendar_7af11425	472	498	government_establishment	CIVIL ESTABLISHMENTS.			department and staff lists	high	Justices, coroners, civil establishments, courts and railways.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	567	568	statistics_review				export statistical tables	high	Trade totals after publisher advertisements.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	569	570	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	Two displaced address leaves between export tables.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	571	571	statistics_review				export statistical table	high	Continues export table after displaced address leaves.
+1883-84-the-ceylon-handbook-and-directory-calendar-part-2_897cc272	572	572	front_matter	Ceylon DIRECTORY			cover leaf	high	Directory cover bound as final leaf.
+1890-91-the-ceylon-handbook-and-directory-part-1_7d937270	18	19	estates_directory	NORTH-WESTERN PROVINCE.—Continued.			estate, owner, agent, acreage and post town tables	high	Displaced detailed estate leaves before the general index.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	469	473	government_establishment	Royalty on Timber in Ceylon.			regulations and fee schedules	high	Loan Board ends on the opening mixed page. Timber royalty and magistrates follow.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	474	477	almanac_calendar	USEFUL HINTS.			reference prose and tables	high	Practical hints, orchard spacing and exchange tables before statistics.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	862	867	professions	MEDICAL DIRECTORY.			medical practitioner and nurse lists	high	Medical and nurse rosters before Public Establishments.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	868	875	government_establishment	PUBLIC ESTABLISHMENTS IN CEYLON.			department and staff lists	high	Public establishments and initial pension regulations.
+1898-99-the-ceylon-handbook-and-directory_a3eca189	1235	1235	government_establishment	Public Officers, &c.			office and staff lists	high	Government official list follows address directory.
+ceylonhandbook1904_cd510006_p01001	1055	1057	associations				institutional rosters	high	Masonic and temperance lodge lists before the hotel advertisement.
+ceylonhandbook1904_cd510006_p01001	1343	1345	front_matter	GENERAL DIRECTORY		end of June, 1904	title and facing leaves	high	Address title leaf and adjacent blanks before advertisements.
+ceylonhandbook1904_cd510006_p01001	1349	1487	residents_alphabetical	DIRECTORIES.			alphabetical names, occupations and addresses	high	Address list starts with A and runs through Z.
+CeylonHandbook1905_f9714cdb_p01001	1138	1141	associations	MASONIC LODGES IN CEYLON.			institutional rosters	high	Masonic and temperance lodge profiles before the hotel ad.
+CeylonHandbook1906_4f9daa70	483	484	companies_register	RUPEE COMPANIES IN CEYLON.		Second quarter of 1906	company and financial tables	high	Listed plantation companies and market capitalisation.
+CeylonHandbook1906_4f9daa70	1459	1459	front_matter				binding leaf	high	Binding leaf with manuscript marks after the index.
+CeylonHandbook1907_a0b9e13d_p01001	1006	1007	advertisements				advertisements	high	Photographic advertisement and adjacent leaf interrupt the trades.
+1909-fergusons-ceylon-directory_77af1786_p01001	1541	1541	government_establishment	List of all Living ex-Unofficial Members			council member table	high	Former legislative members before clergy list.
+1941-fergusons-ceylon-directory_6d53a7cc_p02001	2004	2005	advertisements				advertisements	high	Promotional advertising and adjacent leaf before the tax guide.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2470	2470	advertisements				advertisements	high	Book advertisement before the index proper.
+1942-fergusons-ceylon-directory_a3a35172_p02001	2511	2511	advertisements				advertisements	high	Repeated book advertisement before the index proper.
+1944-fergusons-ceylon-directory_15d9ca95	225	225	government_establishment	H. M. Trade Commissioners in India and Ceylon			trade commissioner list	high	Mercantile title above the trade commissioner roster. Firm tables begin on the next page.
+1946-fergusons-ceylon-directory_245be47f	254	254	front_matter	MERCANTILE AND TRADES LIST.			section divider	high	Title leaf before two advertisements and the firm tables.
+1949-fergusons-ceylon-directory_8caef43e_p01001	1021	1023	government_establishment	PROFITS TAX			ordinance and explanatory prose	high	Profits Tax Act between income statistics and estate section.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1602	1603	advertisements				advertisements	high	Two ads separate the men’s and women’s rosters.
+1950-fergusons-ceylon-directory_d9609e09_p01001	1673	1674	advertisements				advertisements	high	Aviation and railway ads separate women’s and overseas rosters.
+1951-fergusons-ceylon-directory_ec649410	978	983	government_establishment	BOARDS, COMMITTEES ETC			board and committee rosters	high	Public boards and advisory committees continue to the mixed school opening leaf.
+1959-fergusons-ceylon-directory_056ac4d5	411	412	advertisements				advertisements	high	Commercial leaves between resthouse tables and local government.
+1967-68-fergusons-ceylon-directory_d843e6ef_p01001	1536	1536	government_establishment	GOVERNMENT LOAN BOARD			loan rules	high	Loan Board rules precede advertisements and Inland Revenue Act.

@@ -4,9 +4,30 @@ import csv
 import json
 import random
 
-from extract import Layout, ROOT, get_pages, plain
+from extract import Layout, ROOT, get_pages, plain  # Shared CEYLON_OCR_ROOT lookup.
 
 SEEDS = {1: 1922, 2: 1923}
+REPAIR_DRAWS = ((4711, (('B', 30), ('C', 10))), (4712, (('B', 20),)))
+REPAIR_EXAMPLES = {
+    'ferg1922:p468:b6:r5', 'ferg1922:p470:b2:r3',
+    'ferg1922:p481:b2:r2', 'ferg1922:p481:b2:r5',
+    'ferg1922:p497:b2:r1', 'ferg1922:p499:b2:r2',
+    'ferg1922:p467:b3:r0', 'ferg1922:p464:b3:r25',
+}
+
+
+def repair_samples():
+    with (ROOT / 'listings.jsonl').open(encoding='utf-8') as src:
+        listings = [json.loads(line) for line in src]
+    with (ROOT / 'audit.tsv').open(encoding='utf-8', newline='') as src:
+        reserved = REPAIR_EXAMPLES | {row['listing_id'] for row in csv.DictReader(src, delimiter='\t')}
+    for seed, sections in REPAIR_DRAWS:
+        rng = random.Random(seed)
+        sample = [row['listing_id'] for section, count in sections for row in rng.sample([
+            row for row in listings if row['section'][0] == section and row['listing_id'] not in reserved
+        ], count)]
+        reserved.update(sample)
+        yield sorted(sample, key=lambda key: tuple(int(part[1:]) for part in key.split(':')[1:]))
 
 
 def read_sample(round_number, manual):
@@ -93,14 +114,18 @@ if __name__ == '__main__':
     parser.add_argument('--section', choices='ABC')
     parser.add_argument('--rebuild', action='store_true')
     parser.add_argument('--draw', action='store_true', help='Draw a candidate sample from the current output.')
+    parser.add_argument('--repair-sample', type=int, choices=[1, 2],
+                        help='Print the listing IDs for the specified repair audit.')
     args = parser.parse_args()
     with (ROOT / 'audit_notes.json').open(encoding='utf-8') as src:
         manual = json.load(src)
-    if args.rebuild:
+    if args.repair_sample:
+        print(*list(repair_samples())[args.repair_sample - 1], sep='\n')
+    elif args.rebuild:
         write_review(manual)
     elif args.round:
         sample = (read_sample(args.round, manual) if args.draw else
                   [review['extracted'] for review in manual[str(args.round)].values()])
         show([row for row in sample if not args.section or row['section'][0] == args.section])
     else:
-        parser.error('supply a round or --rebuild')
+        parser.error('supply a round, --rebuild, or --repair-sample')

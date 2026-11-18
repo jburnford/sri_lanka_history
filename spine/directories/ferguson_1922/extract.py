@@ -1,15 +1,19 @@
 #!/home/jic823/miniforge3/bin/python
 """Extract factual fields from the specified 1922 directory OCR."""
 import argparse
+from collections import Counter
 import csv
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = Path(
-    '/mnt/data/jic823/ocr_chandra/out_chandra2/1922-fergusons-ceylon-directory_4e422995/'
+OCR_ROOTS = (Path('/home/jic823/ceylon/ocr_chandra/out_chandra2'),
+             Path('/mnt/data/jic823/ocr_chandra/out_chandra2'))
+OCR_LAYOUT = Path(
+    '1922-fergusons-ceylon-directory_4e422995/'
     '1922-fergusons-ceylon-directory/1922-fergusons-ceylon-directory_layout.jsonl'
 )
 
@@ -56,7 +60,10 @@ class Layout(HTMLParser):
 
 
 def get_pages(wanted):
-    with SOURCE.open(encoding='utf-8') as source:
+    root = os.environ.get('CEYLON_OCR_ROOT')
+    if root is None:
+        root = next((path for path in OCR_ROOTS if (path / OCR_LAYOUT).is_file()), OCR_ROOTS[0])
+    with (Path(root) / OCR_LAYOUT).open(encoding='utf-8') as source:
         for line in source:
             page = json.loads(line)
             number = int(page['pdf_page'])
@@ -147,9 +154,39 @@ def kind_of(name):
 
 
 HONORIFIC = re.compile(r'^(?:The\s+)?(?:Hon\.?|M(?:rs|r|iss)\.?|Madame|Dr\.?|Sir|Lady|'
-                       r'Lieut\.?[- ]?Col\.?|Col\.?|Capt\.?|Rev\.?|Mlle\.?|Major|H\.? E\.?)\s+', re.I)
-POST = re.compile(r'(?:\s*,\s*|\s+&\s+|\s+)((?:[A-Za-z]{1,5}\.\s*){2,}|J\.P\.(?:M\.M\.C\.)?|'
-                  r'A\.?M\.?I\.?E\.?E\.?|Esq\.?|Gate Muhandiram)$', re.I)
+                       r'Lieut\.?[- ]?Col\.?|Col\.?|Capt\.?|Rev\.?|Mlle\.?|Major)\s+', re.I)
+POST_INITIALISMS = (
+    'JPMMC', 'JP', 'MMC', 'ACA', 'FCA', 'CA', 'ASAA', 'AMIEE', 'AMIES', 'AMICE',
+    'BA', 'MA', 'MPS', 'UPM', 'GBVC', 'CCS',
+)
+POST_TITLE = r'(?:' + '|'.join(
+    (r'\.\s*' if len(title) == 2 else r'\.?\s*').join(title) + r'\.?' for title in POST_INITIALISMS
+) + (
+    r'|Esq\.?|Gate Muhandiram)'
+)
+POST = re.compile(r'(?:\s*,\s*|\s+&\s+|\s+)(' + POST_TITLE + r')$', re.I)
+DOUBTFUL_INITIALS = r'(?:[A-Z]\.\s*|[A-Z] ){2,}[A-Z]\.?'
+DOUBTFUL_POST = re.compile(r', ' + DOUBTFUL_INITIALS + r'$')
+SUFFIX_ABBREVIATION = re.compile(
+    r"(?:^|[\s,(])(?:[A-Z]|Ltd|Ld|Co|Cos|Bros|Jr|Junr|Sr|St|Ste|Inc|Cie|"
+    r"Ests|Ges|Dept|Assn|Corp|etc|[A-Za-z](?:\.\s*[A-Za-z])+|Esq)\.$", re.I
+)
+PER_PRO = re.compile(r'\bper\s+pro\b\.?', re.I)
+
+
+def trim_full_stop(value):
+    if value is None:
+        return None
+    value = value.rstrip()
+    if value.endswith('.') and not SUFFIX_ABBREVIATION.search(value):
+        return value[:-1].rstrip()
+    return value
+
+
+def signatory(value):
+    value, count = PER_PRO.subn('', value)
+    value = re.sub(r'\s*\(\s*\)', '', value)
+    return clean(value).strip(' ,;'), bool(count)
 ROLE_WORDS = (
     r'Managing Director|Managing Proprietress|Managing Proprietor|Managing Partner|'
     r'General Manager|Acting General Manager|Acting Manager|Assistant(?:s| Manager| Engineer| Secretary)?|'
@@ -170,9 +207,13 @@ def person_parts(value):
     while (match := HONORIFIC.match(name)):
         titles.append(match.group().strip())
         name = name[match.end():]
+    trailing = []
     while (match := POST.search(name)):
-        titles.append(match[1])
+        trailing.append(match[1])
         name = name[:match.start()].rstrip(' ,&')
+    titles.extend(reversed(trailing))
+    name = DOUBTFUL_POST.sub('', name)
+    name = trim_full_stop(name)
     words = name.split()
     if not words:
         return None, None, titles
@@ -246,6 +287,7 @@ class Extraction:
         self.roles = []
         self.connections = []
         self.skipped = {}
+        self.dropped_phrases = Counter()
         self.source_locator = None
         self.overrides = {}
         override_file = ROOT / 'overrides.json'
@@ -259,23 +301,29 @@ class Extraction:
                 town=None, trades=None, kind=None, attested=None, flags=()):
         key = f'ferg1922:p{page}:b{block}:r{row}'
         entry = dict(listing_id=key, section=f'{sect}. {heading}', pdf_page=page,
-                     printed_page=printed, name_as_printed=name, kind=kind or kind_of(name),
+                     printed_page=printed, name_as_printed=name, other_names_as_printed=[],
+                     kind=kind or kind_of(name),
                      address_as_printed=address, town=town, trades=trades or [],
                      attested=attested, continues_from=None, continuation_pages=[],
                      flags=sorted(set(flags) | set(damage(name, address))))
         entry.update(self.override(key).get('listing', {}))
+        entry['name_as_printed'] = trim_full_stop(entry['name_as_printed'])
         self.listings.append(entry)
         return entry
 
-    def role(self, listing, page, name, role='listed', year=None, column=None, flags=()):
+    def role(self, listing, page, name, role='listed', year=None, column=None, flags=(), per_pro=False):
         if not name:
             return
+        name, signed = signatory(name)
+        name = trim_full_stop(name)
         surname, given, titles = person_parts(name)
+        if DOUBTFUL_POST.search(name) and not POST.search(name):
+            flags = [*flags, 'ocr_doubtful']
         key = listing['listing_id']
         record = dict(role_id=f'{key}:role{len(self.roles_for(key)) + 1}',
                       listing_id=key, person_as_printed=name, surname=surname,
                       given_or_initials=given, honorifics=titles, role_as_printed=role,
-                      role_class=role_class(role), year=year, pdf_page=page,
+                      role_class=role_class(role), per_pro=per_pro or signed, year=year, pdf_page=page,
                       source_column=column, source_locator=self.source_locator or key, flags=sorted(set(flags) | set(damage(name))))
         self.roles.append(record)
 
@@ -283,17 +331,22 @@ class Extraction:
         return [row for row in self.roles if row['listing_id'] == key]
 
     def connection(self, listing, page, relation, relation_class, target,
-                   target_kind='unknown', place=None, qualifier=None, flags=()):
+                   target_kind='unknown', place=None, qualifier=None, flags=(), address=None):
         if not fact(target):
             return
+        target, target_flags = overflow(target)
+        place, place_flags = overflow(place)
+        address, address_flags = overflow(address)
         key = listing['listing_id']
         number = 1 + sum(row['listing_id'] == key for row in self.connections)
         self.connections.append(dict(
             connection_id=f'{key}:conn{number}', listing_id=key,
-            relation_as_printed=relation, relation_class=relation_class, target_as_printed=target,
-            target_kind=target_kind, target_place_as_printed=place, qualifier=qualifier,
+            relation_as_printed=relation, relation_class=relation_class,
+            target_as_printed=trim_full_stop(target), target_kind=target_kind,
+            target_place_as_printed=trim_full_stop(place), target_address_as_printed=trim_full_stop(address),
+            qualifier=qualifier,
             pdf_page=page, source_locator=self.source_locator or key,
-            flags=sorted(set(flags) | set(damage(target, place)))))
+            flags=sorted(set(flags) | set(target_flags + place_flags + address_flags + damage(target, place, address)))))
 
     def people(self, listing, page, value, column, entries=None):
         if entries is None:
@@ -330,16 +383,23 @@ class Extraction:
                       for tag, rows in (('listings', self.listings), ('roles', self.roles),
                                         ('connections', self.connections))}
                   for s in sorted(set(sections.values()))}
-        audit_path = ROOT / 'audit.tsv'
         audit_long = []
-        if audit_path.exists():
+        for audit_path in (ROOT / 'audit.tsv', ROOT / 'audit_repair1.tsv'):
+            if not audit_path.exists():
+                continue
             with audit_path.open(encoding='utf-8', newline='') as audit:
                 for row in csv.DictReader(audit, delimiter='\t'):
                     for key, value in row.items():
                         if len(value) > 200:
                             audit_long.append((row['listing_id'], key, len(value)))
         result = dict(unique_ids=unique, valid_references=not dangling, fields_at_most_200=not (long or audit_long),
-                      dangling_references=dangling, overlong_fields=long, overlong_audit_fields=audit_long, counts=counts, skipped=self.skipped)
+                      dangling_references=dangling, overlong_fields=long, overlong_audit_fields=audit_long,
+                      counts=counts, relation_class_counts=dict(sorted(Counter(
+                          row['relation_class'] for row in self.connections).items())),
+                      role_class_counts=dict(sorted(Counter(row['role_class'] for row in self.roles).items())),
+                      honorific_values=sorted({value for row in self.roles for value in row['honorifics']},
+                                               key=lambda value: (value.casefold(), value)),
+                      dropped_phrases=dict(sorted(self.dropped_phrases.items())), skipped=self.skipped)
         (ROOT / 'validation.json').write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
         print(json.dumps(result, ensure_ascii=False))
         if not all((unique, not dangling, not long, not audit_long)):
@@ -473,33 +533,42 @@ def extract_a(data):
 B_HEADING = 'LIST OF COLOMBO MERCHANTS AND AGENTS.'
 B_ROLES = (
     r'(?:Sole |Governing |Local |General |Acting |Assistant |Chief |Joint |Head |Visiting |Sub[ -]|Colombo |Ceylon |'
-    r'London |Resident |Travelling |Fixing |Superintending |Managing |Asst\.? |As t\.? |Office |Branch |Honorary |Hon\.? )*'
+    r'London |Resident |Travelling |Fixing |Superintending |Managing |Asst\.? |As t\.? |Office |Branch |Honorary |Hon\.? |'
+    r'Works |Harbour |Engineering Stores Department |Tea Stores |'
+    r'(?:Oil Stores, Copra Stores and )?Plumbago Stores )*'
     r'(?:Propriet(?:or|ress)s?|Partners?|Directors?|Managers?|Agents?|Engineers?|Secretar(?:y|ies)|'
     r'Attorneys?|Accountants?|Assistants?|Assts?\.?|Auditors?|Superintendents?|Inspectors?|'
     r'Chairman|Canvasser|Clerks?|Storekeeper|Book-?keeper|Electrician|Shroff|Treasurer|'
-    r'Tea Buyers?|Milliner|Draper|Dressmaker|(?:Vice-)?Consul|Cashier|Trustee|Veterinary Surgeon|Staff)'
+    r'Tea Buyers?|Milliner|Draper|Dressmaker|(?:Vice-)?Consul|Cashier|Cutter|Trustee|Veterinary Surgeon|Staff|Asssts?\.?)'
+)
+ROLE_COMPLEMENT = (
+    r'(?: (?:and|&) (?:General )?(?:Manager|Accountant|Secretary|Treasurer|Director|Engineer))?'
+    r'(?: (?:in|for) [A-Z][A-Za-z -]+?)?'
 )
 TITLE_PATTERN = (
-    r'(?P<title>' + B_ROLES +
-    r'(?: (?:and|&) (?:Manager|Accountant|Secretary|Treasurer|Director|Engineer))?'
-    r'(?: (?:in|for) [A-Z][A-Za-z -]+?)?(?: \([^)]{2,32}\))?|'
+    r'(?P<title>' + B_ROLES + ROLE_COMPLEMENT +
+    r'(?: \((?:Amsterdam|Colombo|London|Kandy|Ceylon)\))?|'
     r'[A-Z][A-Za-z &’\'-]{2,45} (?:Dept\.?|Department|Branch)|'
-    r'General Office|Office|Tramway|Forage|Silverware|Drapery|Rubber & Produce|Men.s Clothing)'
+    r'General Office|Offices?|Tramway|Forage|Silverware|Drapery|Rubber & Produce|Men.s Clothing|'
+    r'Colombo Iron Works|Motor Garage|Engineering|Garage|Local Board|H\. & C Mills)'
 )
-CREDENTIAL = r'(?:[A-Za-z]\.\s*){2,}[A-Za-z.]?|(?:A\.?M\.?I\.?E\.?E\.?|J\.?\s*P\.|C\.?\s*A\.|jr\.|junr\.)'
+CREDENTIAL = POST_TITLE + r'|(?:Jr\.|Junr\.)'
 PERSON_HEADING = re.compile(
     r'(?<![\w-])' + TITLE_PATTERN +
     r'\s*[:—–]\s*[—–-]*\s*', re.I
 )
 PREFIX_ROLE = re.compile(r'^' + TITLE_PATTERN + r'(?:\s*[:,.—–-]\s*|\s+)(?=[(A-Z])')
-SUFFIX_ROLE = re.compile(r'^(.+?)(?:,\s*|\s+)(?P<post>' + B_ROLES + r'(?: (?:in|for) .+)?)[.]?$')
+ROLE_POST = B_ROLES + ROLE_COMPLEMENT + r'(?:, Kandy)?'
+SUFFIX_ROLE = re.compile(r'^(.+?)(?:,\s*|\s+)(?P<post>' + ROLE_POST + r')[.]?$')
+SIGNED_GROUP = re.compile(r'^(' + B_ROLES + r')\s+per\s+pro\b\.?\s*', re.I)
 
 
 def b_people(lines):
     title = 'listed'
+    signed_group = False
     buffer = ''
     for line in lines:
-        if re.fullmatch(r'(?:COLOMBO|KANDY|WALKERS) STAFF(?: AT [A-Z &,.]+)?[:.]?', line, re.I):
+        if re.fullmatch(r'[A-Z ]+ STAFF(?: AT [A-Z &,.]+)?[:.]?', line):
             continue
         if not buffer:
             buffer = line
@@ -508,7 +577,10 @@ def b_people(lines):
             buffer = buffer[:-1] + line
             continue
         preceding = buffer.rsplit('\n', 1)[-1]
-        if re.match(r'(?:and |& |per pro|signs |\()', line, re.I) or re.search(
+        if SIGNED_GROUP.match(line) or (PREFIX_ROLE.match(line) and preceding.endswith('.')
+                                       and not re.search(r'\b[A-Z]\.$', preceding)):
+            sep = '\n'
+        elif re.match(r'(?:and |& |per pro|signs |\()', line, re.I) or re.search(
             r'[:,;]$|\b(?:and|for|of|in|Mr\.?|Mrs\.?|Miss|Hon\.?|Sir|Dr\.?|Geo\.?|Chas\.?|'
             r'[A-Z]\.?)$', preceding
         ):
@@ -525,51 +597,78 @@ def b_people(lines):
             sep = '\n'
         buffer += sep + line
     buffer = re.sub(r'\(Contd\.?\)', '', buffer, flags=re.I)
+    buffer = re.sub(r'\((Local Board:\s*[^)]*)\)', r'\n\1', buffer, flags=re.I)
+    buffer = re.sub(r'\bDanish Royal Consulate:\s*', '\n', buffer, flags=re.I)
+    buffer = re.sub(r'(?<=[a-z]\.) (?=(?:Asst\.? |Assistant )?Secretary [A-Z])', '\n', buffer)
+    buffer = re.sub(r'(?<=[a-z]) (?=Assistants? ' + PERSON_START + r')', '\n', buffer)
+    buffer = re.sub(r'\bBranch Manager, ([A-Z][a-z]+):', r'\nBranch Manager in \1:', buffer)
+    # The OCR can place the following role immediately after a corporate name.
+    buffer = re.sub(r'(\b(?:Ltd|Ld|Limited)\.?) (?=Manager for [A-Z])', r'\1\n', buffer)
     # Headings printed with punctuation can start a new role within the same line.
     buffer = PERSON_HEADING.sub(lambda m: '\n' + m['title'] + ': ', buffer)
     for line in buffer.splitlines():
         line = clean(line).strip(' ;—–')
         if not fact(line) or line.startswith(('[See', '(In Private')):
             continue
+        group = SIGNED_GROUP.match(line)
+        if group:
+            title, signed_group = group[1], True
+            if line[group.end():]:
+                yield title, line[group.end():], signed_group
+            continue
         if only_role := re.fullmatch(TITLE_PATTERN + r'[.:—–]*', line):
             title = only_role['title']
+            signed_group = False
             continue
         prefix = PREFIX_ROLE.match(line)
         if prefix:
             title = prefix['title']
+            signed_group = False
             line = line[prefix.end():]
         if not line:
             continue
-        yield title, line
+        if not re.fullmatch(r'(?:[A-Z &]+ BRANCH|WALKERS & CLARK SPENCE|Engineers, Galle)\.?', line):
+            yield title, line, signed_group
 
 
-PERSON_SPLIT = re.compile(r';\s*|,\s+(?:and\s+)?|\s+(?:and|&)\s+|(?<=[a-z])\. +(?=(?:Mr\.? |Mrs\.? |Miss |Dr\.? |Sir |[A-Z]\.))')
-SIGNATORY = re.compile(r'\b(?:per pro\.?|signs? (?:the|&) firm)\b', re.I)
+PERSON_SPLIT = re.compile(r';\s*|,\s+(?:and\s+)?| +(?:and|&) +|(?<=[a-z])\. +(?=(?:Mr\.? |Mrs\.? |Miss |Dr\.? |Sir |[A-Z]\.))')
 
 
 def split_people(value, title):
     value = re.sub(r'\s*\([^)]*(?:See |on leave|which see)[^)]*\)', '', value, flags=re.I)
-    value = re.sub(r'\s*\(\s*\)', '', SIGNATORY.sub('', value)).strip(' ,;')
+    value = re.sub(r'[, ]+\(?signs? (?:the |& (?:he )?)firm\b\.?\)?', '', value, flags=re.I).strip(' ,;')
+    value = re.sub(r',\s*(?=\(?per\s+pro\b)', ' ', value, flags=re.I)
     if BODY.search(value) and len(value) < 120:
         corporate = re.search(r'\b(?:Co\.|Ltd\.?|Limited|Brothers|Bros\.?|Sons)\b[.,]?', value, re.I)
         if corporate and not re.search(r',\s*sign', value, re.I):
-            yield value.strip(' ;'), title, True, []
+            suffix = SUFFIX_ROLE.fullmatch(value)
+            name, role = (suffix[1].rstrip(' ,'), suffix['post']) if suffix else (value, title)
+            yield name.strip(' ;'), role, True, [], False
             return
     names = []
     value = re.sub(r'\b(Mr|Mrs|Mlle|Dr|Geo|Chas|Thos|Robt|Hon|Rev|Capt)\. ', r'\1. ', value)
+    # Conjunctions inside a job title must survive the person separator.
+    value = re.sub(r'\b((?:Head )?Cutter|Engineer|Director|Agent) (and|&) ((?:General )?Manager)\b',
+                   r'\1 \2 \3', value)
     for item in PERSON_SPLIT.split(value):
         item = item.replace(' ', ' ')
         item = item.strip(' ,;—–')
         if not fact(item):
             continue
-        if names and (re.fullmatch(CREDENTIAL, item) or re.fullmatch(r'(?:[A-Z]\.\s*)+[A-Z]\.?', item)
-                      and not re.search(r'[a-z]{2}', item)):
+        item, signed = signatory(item)
+        if names and (re.fullmatch(CREDENTIAL, item, re.I) or re.fullmatch(DOUBTFUL_INITIALS, item)):
             names[-1][0] += ', ' + item
-        elif names and re.fullmatch(B_ROLES, item.strip('.'), re.I):
-            names[-1][1] = item.strip('.')
+            names[-1][2] |= signed
+        elif names and re.fullmatch(ROLE_POST, item.strip('.'), re.I):
+            named_role = item.strip('.')
+            if names[-1][1] != title and names[-1][1] != named_role:
+                names.append([names[-1][0], named_role, names[-1][2] or signed])
+            else:
+                names[-1][1] = named_role
+                names[-1][2] |= signed
         else:
-            names.append([item, title])
-    for name, role in names:
+            names.append([item, title, signed])
+    for name, role, signed in names:
         if suffix := SUFFIX_ROLE.fullmatch(name):
             name, role = suffix[1], suffix['post']
         if post := re.search(r'\((Chairman|Managing|Manager|Works Manager|acting)\)', name, re.I):
@@ -582,33 +681,35 @@ def split_people(value, title):
                 role = post[1]
         if not re.search(r'[A-Za-zÀ-ž]{2}', name) or len(name) > 100:
             continue
-        if name[0] in '([' and not name.endswith((')', ']')):
+        if name[0] in '([' and not any(mark in name for mark in ')]'):
             name = name[1:]
         is_uncertain = len(name.split()) == 1 and role == 'listed'
-        yield name.strip(' ,;'), role, False, ['ocr_doubtful'] if is_uncertain else []
+        yield name.strip(' ,;'), role, False, ['ocr_doubtful'] if is_uncertain else [], signed
 
 
 B_RELATION = re.compile(
     r"(?<![\w-])(?P<label>"
     r'Principal Correspondents and Agencies|Agents and Correspondents|Correspondents and Agents|'
-    r'Insurance Agencies|Wine (?:&|and) Spirits Agencies|Drug Agencies|General Agencies|Other Agencies|'
+    r'Insurance Agencies|Wine (?:&|and) Spirits Agencies|Drug Agencies|General Agencies|Other Agencies|Special Agencies|'
     r'W\. S\. & Co\x27s AGENCIES|'
     r'(?:(?:Sole|Chief|Local|General|Managing|Buying|Colombo|London|Visiting) )?'
-    r"Agen(?:t|ts|['’]s)(?: (?:&|and) Secretaries)?" r'(?: for(?: (?:Shipping|Insurance|Bankers))?| in| at)|Agents?(?=\s*[:—–])|'
-    r'(?:Local )?Representatives? (?:of|in)|Agency at|Agencies (?:at|in)|Agencies|Correspondents(?: in| at)?|'
+    r"Agen(?:t|ts|['’]s)(?: (?:&|and) Secretaries)?" r'(?: for(?: (?:Shipping|Insurance|Bankers))?| in| at)|'
+    r'Agents?(?: (?:&|and) Secretaries)?(?=\s*[:—–])|'
+    r'(?:Local )?Representatives? (?:of|in)|Agency at|Agencies (?:at|in)|Agencies|Correspondents(?: for| in| at)?|'
     r'Bankers|Branches and Agencies in|Branches(?: at| in)?|Branch Office|Branch Depôt|Depôts at|Also at|Head Office(?: and Sale Rooms)?|'
-    r'Registered Offices?|London (?:Buying )?Office|London Agent[s]?|London Correspondent|'
-    r'Central Offices|Colonial and Foreign Depots|Engineering Workshops and Stores at|Mills at|Works at|Saw Mills at|Coaling Contractors to|Successors to|Proprietors? of|'
+    r'Registered Offices?|London (?:Buying )?Office|London (?:Advertising )?Agent[s]?|London Correspondent|'
+    r'Central Offices|Colonial and Foreign Depots|Engineering Workshops and Stores at|Mills at|Works at|Saw Mills at|Coaling Contractors to|Successors to|Proprietor and Manager of|Proprietors? of|'
     r'Sterling Companies|Rupee Companies)'
     r'(?:(?:\s*[:—–-]\s*)|(?:\.\s*)|(?=\s+(?:the\b|[A-Z0-9"(“]))|$)', re.I
 )
-QUALIFIER = re.compile(r'^\(?\s*(?P<qual>(?:Sterling|Rupee|Rupen)\s+(?:Companies|Co\.?[’\']?s\.?)|'
+QUALIFIER = re.compile(r'^\(?\s*(?P<qual>(?:Sterling|Rupee|Rupen|Local)\s+(?:Companies|Co\.?[’\']?s\.?)|'
                        r'Shipping|Insurance|Estates|General)\s*\)?[.:—– -]*', re.I)
 TRADE_PATTERN = re.compile(
     r'\b(?:merchants?|brokers?|dealers?|manufacturers?|importers?|exporters?|engineers?|'
     r'contractors?|builders?|veterinarians?|undertakers?|livery stable keepers?|booksellers?|seed(s)?men|printers?|publishers?|drapers?|milliners?|'
     r'stationers?|outfitters?|packers?|purveyors?|ship repairers?|planters?|'
-    r'accountants?|mine owners?|mining|min(er|ers)|valuer[s]?|valuators?|agents|attorneys)\b', re.I
+    r'accountants?|mine owners?|mining|min(er|ers)|valuer[s]?|valuators?|agents|attorneys|'
+    r'machinists|boiler makers|ironworkers|forge masters|founders|proprietors)\b', re.I
 )
 CO_SUFFIX = re.compile(r'(?i)\b(?:Co|Cos|Company|Corporation|Inc|Ltd|Ld|Limited|Bros|Brother[s]?|Sons|Cie|'
                        r'Association|Society|Syndicate|Insurance|Assurance|Bank|Works|Steamers|Line|Estates|'
@@ -617,18 +718,46 @@ PLACES = re.compile(
     r'(?:London|New York(?: City)?|Glasgow|Manchester|Liverpool|Birmingham|Edinburgh|'
     r'Calcutta|Bombay|Madras|Cochin|Karachi|Karaobi|Rangoon|Colombo|Kandy|Galle|'
     r'Sydney|Melbourne|Adelaide|Perth|Brisbane|Wellington|Auckland|Dunedin|Christchurch|'
-    r'Paris|Marseilles?|Hamburg|Bordeaux|Copenhagen|Amsterdam|Zurich|Berlin|Rotterdam|'
+    r'Bale & Paris|Paris|Marseilles?|Hamburg|Bordeaux|Copenhagen|Amsterdam|Zurich|Berlin|Rotterdam|'
     r'Yokohama|Tokio|Tokyo|Osaka|Kobe|Japan|Penang|Singapore|Shanghai|Hankow|Foochow|'
     r'China|Havana|Canton|Hongkong|Montreal|Toronto|Vancouver|Boston|Chicago|Seattle|'
     r'San Francisco|Philadelphia|Antwerp|England|Europe|Australia|India|Ceylon|'
     r'Burma|Switzerland|Scotland|Ireland|Belfast|Beyrouth|Victoria|Belgium|Argentina|'
     r'New Zealand|Wellington|Henselo|The Hague|Helmond|Widnes|Northwich|Kallai|Genoa|'
+    r'Delhi|Moscow|Petrograd|Riga|Manritus|Chungking|Johannesburg|Manila|Hobart|'
+    r'Detroit|Akron|Utrecht|Dundee|Port Sunlight|Port Elizabeth|Mauritius|Sundaan|Jesselton|'
     r'F\.M\.S\.|U\.?\s*S\.?\s*A\.?|E\.?\s*C\.?\s*\d*|S\.?\s*E\.?|B\.C\.)'
 )
+POSTAL_DISTRICT = r'[NSEW](?:\.?\s*[WEC])?\.?(?:\s*\d+)?'
+STREET_WORD = r'(?:Streets?|St\.|Roads?|Rd\.|Lanes?|Pavement|Avenue|Buildings?|House|Gate|Circle|Court|Place|Axe|Square)'
+STREET_END = re.compile(r'\b' + STREET_WORD + r'(?=\W|$)', re.I)
+HOUSE_NUMBER = r'\d+(?:[-/]\d+)*(?:[A-Za-z])?'
+ADDRESS_START = re.compile(r'^(?:' + HOUSE_NUMBER + r'(?:\s*(?:,|&)\s*' + HOUSE_NUMBER +
+                           r')*(?=[, ]|$)|[^,;]{2,65}\b' + STREET_WORD + r'(?=[, .]|$))', re.I)
+TOWN_END = re.compile(r'(?<!\w)(?P<town>' + PLACES.pattern +
+                      r')(?:,\s*(?P<district>' + POSTAL_DISTRICT + r'))?(?=[.;, ]|$)')
+UNSPECIFIC_PLACE = re.compile(r'\b(?:(?:at|in)\s+)?all\s+(?:(?:the|other|chief|principal|foreign)\s+)*'
+                              r'(?:parts|ports|towns|cities|directions|over the world)\b[^;]*', re.I)
+
+
+def overflow(value):
+    if value is None or '[' not in value and ']' not in value:
+        return value, []
+    value = re.sub(r'\bPetro-\s*\[grad\b', 'Petrograd', value)
+    # OCR sometimes repeats a complete suffix alongside its overflow.
+    value = re.sub(r'(\b(?:Co\.?,\s*)?(?:Ltd|Ld)\.?)\s+[\[(](?:(?:Co\.?,\s*)?(?:Ltd|Ld)\.?|Co\.?)'
+                   r'(?=\s|$)', r'\1', value, flags=re.I)
+    value = re.sub(r'(?<=,)\s*\[(?=(?:Co\.?(?:,\s*(?:Ltd|Ld)\.?)?|Ltd\.?|Ld\.?)'
+                   r'(?:\s|$))', ' ', value, flags=re.I)
+    if '[' in value or ']' in value:
+        return clean(value.replace('[', '').replace(']', '')), ['ocr_doubtful']
+    return value, []
 
 
 def relation_class_of(label, qualifier):
     key = label.lower()
+    if key.startswith(('head office', 'registered office', 'central office')):
+        return 'head_office'
     if key.startswith(('branch', 'also at', 'depôts', 'works at', 'saw mills at', 'mills at',
                        'colonial and foreign depots', 'engineering workshops and stores at')):
         return 'branch_at'
@@ -638,6 +767,8 @@ def relation_class_of(label, qualifier):
         return 'correspondent'
     if 'representative' in key:
         return 'represents'
+    if key in ('london agent', 'london agents', 'london advertising agents'):
+        return 'has_agent'
     if 'insurance' in key or qualifier and qualifier.lower() == 'insurance':
         return 'insurer_agent'
     if 'shipping' in key or qualifier and qualifier.lower() == 'shipping':
@@ -654,7 +785,7 @@ def target_kind_of(value, relation=None):
         return 'insurer'
     if re.search(r'\bBank\b|\bBanking Corporation\b', value, re.I):
         return 'bank'
-    if re.search(r'Steamers?|Steamship|Shipping|Steam Navigation|\bS\.\s*S\.|\bLine\b|Kisen Kaisha|Fleet', value, re.I):
+    if re.search(r'Steamers?|Steamship|Shipping|Steam Navigation|\bS\.\s*S\.|\bB\.\s*I\.\s*S\.\s*N\.|\bLine\b|Kisen Kaisha|Fleet', value, re.I):
         return 'shipping line'
     if re.search(r'\b(?:Ests\.?|Estates?|Plantations?)\b|\b(?:Tea|Rubber|Coconut|Cocoanut) (?:Co\b|Company|Syndicate)', value, re.I):
         return 'estate company'
@@ -668,8 +799,6 @@ def target_kind_of(value, relation=None):
 
 
 def place_list(value):
-    value = re.split(r'\b(?:and )?(?:at |in )?all (?:other |the |chief |principal |foreign )*'
-                     r'(?:parts|ports|towns|cities|directions)\b', value, maxsplit=1, flags=re.I)[0]
     return [item.strip(' ,.;&') for item in re.split(r'[,;]|\s+(?:and|&)\s+', value)
             if item.strip(' ,.;&') and item.strip(' ,.;&').lower() not in ('etc', 'c', 'etc etc')]
 
@@ -683,6 +812,77 @@ def trade_chunks(value):
     terms = trade_terms(value)
     return [item for item in terms if len(item) <= 75 and not re.match(r'^(?:The|See|Established)\s', item)
             and not CO_SUFFIX.search(item) and not re.search(r'\b(?:is |are |has |will |which |where |being )\b', item)]
+
+
+TRADE_LEAD = re.compile(
+    r'^(?:(?:General|Wholesale|Retail|Marine|Manufacturing|Naval|Import|Export|Produce|Tea|Rubber|'
+    r'Coffee|Copra|Ceylon|Chartered|Steam|Coal|Wine|Spirits|Oil|Estate|Plumbago|'
+    r'Mining|Consulting|Cash|and|&)[ ,]+)*'
+    r'(?:Buyers|Merchants?|Importers?|Exporters?|Blenders|Packers|Manufacturers|Engineers|'
+    r'Agents|Brokers|Accountants|Dealers|Contractors|Purveyors|(?:Mine )?Owners|Depot Proprietors|'
+    r'Miners|Millers|Undertakers|Milliners?|Drapers?)\b|'
+    r"^Manufacturers['’] Representatives\b", re.I
+)
+PROMOTION = re.compile(r"^Founders of\b|^On (?:Admiralty|Crown Agents|Lloyd|War Office)\b", re.I)
+ROUTE_DESCRIPTION = re.compile(r'^Shipping Co\. Lines to\b', re.I)
+
+
+def own_trades(value):
+    value = re.sub(r'\b(?:and|&)\s*$', '', value, flags=re.I).strip(' ,')
+    if not (TRADE_LEAD.match(value) or re.fullmatch(r'.+ Brokers?\.?', value, re.I)
+            or re.match(r'(?:Tea|Copra)[, ].* Merchants?\b', value, re.I)):
+        return []
+    if re.search(r'\b(?:Co|Ltd|Ld|Bros|Company|Limited|Association|Syndicate|Corporation)\b', value, re.I):
+        return []
+    if re.match(r'^(?:Agents|Brokers)\s+(?:for|to|at|in)\b', value, re.I):
+        return []
+    terms = trade_chunks(value)
+    return terms if terms and any(TRADE_PATTERN.search(term) for term in terms) else []
+
+
+def street_and_place(value, default_place=None, office=False):
+    """Return a street and locality when the printed boundary is recognizable."""
+    value = value.strip(' ,;')
+    for location in TOWN_END.finditer(value):
+        street = value[:location.start()].rstrip(' ,')
+        if not street or not (ADDRESS_START.match(street) or STREET_END.search(street)):
+            continue
+        tail = value[location.end():].strip(' .,')
+        if tail and not (office and PLACES.fullmatch(tail)):
+            continue
+        place = location['town'] if office else value[location.start():]
+        if default_place and re.fullmatch(POSTAL_DISTRICT, place):
+            place = default_place if office else default_place + ', ' + place
+        return street, place
+    if ADDRESS_START.match(value) or STREET_END.search(value):
+        postal = re.search(r',?\s+(' + POSTAL_DISTRICT + r')\.?$', value)
+        if postal and default_place:
+            return value[:postal.start()].rstrip(' ,'), (
+                default_place if office else default_place + ', ' + postal[1])
+        if postal and office:
+            return value[:postal.start()].rstrip(' ,'), None
+        return value, default_place
+    return None, value or default_place
+
+
+def branch_targets(value):
+    """Yield town, address and flags for geographical labels."""
+    generic = UNSPECIFIC_PLACE.search(value)
+    if generic:
+        value = re.sub(r'[\s,;]+(?:and|&)\s*$', '', value[:generic.start()]).rstrip(' ,;')
+    if ADDRESS_START.match(value) or STREET_END.search(value.split(',', 1)[0]):
+        start = 0
+        for location in TOWN_END.finditer(value):
+            street = re.sub(r'^(?:and|&)\s+', '', value[start:location.start()].strip(' ,;'), flags=re.I)
+            if STREET_END.search(street) or ADDRESS_START.match(street):
+                yield location['town'], street, []
+                start = location.end()
+        value = value[start:]
+    for place in place_list(value):
+        if not re.fullmatch(r'(?:' + HOUSE_NUMBER + r'|' + STREET_WORD + r')\.?', place, re.I):
+            yield place, None, []
+    if generic:
+        yield generic[0], None, ['unspecific_place']
 
 
 def company_chunks(line):
@@ -704,11 +904,18 @@ def company_chunks(line):
             for m in re.finditer(r',\s+(?:and\s+)?', fragment):
                 head = fragment[start:m.start()]
                 tail = fragment[m.end():]
+                if head.count('(') > head.count(')') or ADDRESS_START.match(tail) or re.match(
+                    r'&\s+' + HOUSE_NUMBER + r'[, ]', tail
+                ):
+                    continue
                 if re.match(r'(?:of|for|from)\s', tail, re.I):
                     continue
                 if not CO_SUFFIX.search(head) or re.match(r'^(?:Ltd\b|Ld\b|Limited\b|Inc\b|Prptry\b|\(|\[)', tail, re.I):
                     continue
-                if re.match(PLACES.pattern + r'(?:[ ,.]|$)', tail):
+                begins_place = re.match(PLACES.pattern + r'(?:[ ,.]|$)', tail)
+                if begins_place and not CO_SUFFIX.search(tail.split(',', 1)[0]) or re.fullmatch(
+                    POSTAL_DISTRICT + r'\.?', tail
+                ):
                     continue
                 if re.search(r'[A-Z](?:[A-Za-z]|\.)', tail) and (CO_SUFFIX.search(tail) or
                         re.search(r'(?:,|\s)' + PLACES.pattern + r'\.?$', head)):
@@ -720,35 +927,61 @@ def company_chunks(line):
 
 
 def split_target(value, default_place=None, ditto_place=None):
-    flags = []
+    value, flags = overflow(value)
     value = re.sub(r'\s*\((?:See Adv[st]?\.?|which see)\)', '', value, flags=re.I)
     value = re.sub(r'\s*[—–-]+\s*See Adv.*$', '', value, flags=re.I).strip(' ,;')
     suffix = re.search(r',?\s+([„〃"]+)$', value)
     if suffix:
-        return value[:suffix.start()].rstrip(' ,'), ditto_place, flags if ditto_place else ['ocr_doubtful']
-    if re.search(r'\[[^]]*|\b(?:\?\?+|etc\.)', value, re.I):
+        return value[:suffix.start()].rstrip(' ,'), ditto_place, None, flags if ditto_place else ['ocr_doubtful']
+    if re.search(r'\?\?+|\betc\.', value, re.I):
         flags.append('ocr_doubtful')
+    for comma in re.finditer(r',\s*', value):
+        prefix, suffix = value[:comma.start()], value[comma.end():]
+        if prefix and ADDRESS_START.match(suffix) and (
+            STREET_END.search(suffix) or re.match(HOUSE_NUMBER + r'[, ]', suffix)
+        ):
+            offices = re.split(r',\s*&\s+(?=' + HOUSE_NUMBER + r'[, ])', suffix)
+            if len(offices) > 1:
+                pairs = [street_and_place(office, default_place) for office in offices]
+                if all(address and place for address, place in pairs):
+                    return prefix, '; '.join(place for _, place in pairs), (
+                        '; '.join(address for address, _ in pairs)), flags
+            address, place = street_and_place(suffix, default_place)
+            if address:
+                return prefix, place, address, flags
     location = re.search(r'(?:[,.;]\s+|\s+of\s+|\s+)(?=' + PLACES.pattern + r'(?:[, .]|$))', value)
     if location and location.start() > 1:
         tail = value[location.end():].strip(' ,')
         if not any((location[0].strip(), re.match(r'\s*,', value[location.end() + len(tail):]))) and re.search(
             r'^(?:Ceylon|India|China|England|Scotland|Australia)\b', tail
         ) and ',' not in tail:
-            return value, default_place, flags
+            return value, default_place, None, flags
         prefix = value[:location.start()].strip(' ,')
+        if location[0].strip() == 'of' and (re.search(r'\bBank$', prefix) or re.fullmatch(
+                r'(?:Ceylon|India|China|England|Scotland|Australia)\.?', tail)):
+            return value, default_place, None, flags
         if not re.match(r'^(?:The|of)\s+', tail) and not CO_SUFFIX.search(tail) and not re.match(r'^(?:Co\.|Ltd)', tail):
             if ' of ' not in location[0] or not CO_SUFFIX.search(tail):
-                return prefix, tail, flags
-    return value, default_place, flags
+                return prefix, tail, None, flags
+    return value, default_place, None, flags
 
 
-def b_connections(data, listing, page, lines, column, initial=None, flags=()):
+def b_connections(data, listing, page, lines, column, initial=None, flags=(), suppressed=()):
     state = initial or (column, 'correspondent', None, None)
     previous_the = ''
     previous_place = None
     buffer = []
     for line in lines:
-        if buffer and page in (470, 478, 490, 491, 492, 493, 500) and (
+        if buffer and (
+            buffer[-1].count('(') > buffer[-1].count(')') and ')' in line
+            and not re.search(r'\b(?:Ltd|Ld|Co)\.?[, ]', line.split(')', 1)[0], re.I)
+            or re.match(r'^(?:Street|Lane|Road|St\.|Pavement|Buildings?)(?:[, .]|$)', line, re.I)
+            or re.match(r'^' + PLACES.pattern + r'(?:[, .]|$)', line) and STREET_END.search(buffer[-1])
+            or re.match(r'^' + HOUSE_NUMBER + r',\s*', line) and re.search(r'\b(?:Ltd|Ld|Co)\.?,$', buffer[-1], re.I)
+            or re.search(r'\b(?:the Far|Eastern)\s*$', buffer[-1])
+        ):
+            buffer[-1] += ' ' + line
+        elif buffer and page in (470, 478, 490, 491, 492, 493, 500) and (
             re.match(r'^(?:Ltd|Ld|Limited|Inc|Co\.|of |and |& |Sons[,.])', line) or
             re.search(r'\b(?:The|of|and|in|for|\d+)\s*$', buffer[-1])
         ):
@@ -761,9 +994,9 @@ def b_connections(data, listing, page, lines, column, initial=None, flags=()):
             buffer.append(line)
     for line in buffer:
         line = re.sub(r'\(Cont(?:inue)?d\.?[^)]*\)|\(See Adv[^)]*\)', '', line, flags=re.I).strip(' ;—–')
-        if not fact(line) or line.startswith(('On ', 'Member ', 'Established ', 'Danish Royal ')):
+        if not fact(line) or line.startswith(('Member ', 'Established ', 'Danish Royal ')):
             continue
-        if state[1] == 'other' and re.search(r'Office', state[0], re.I) and not (
+        if state[1] in ('other', 'head_office') and re.search(r'Office', state[0], re.I) and not (
             re.match(r'^' + PLACES.pattern, line) or not CO_SUFFIX.search(line)
         ):
             state = (column, 'correspondent', None, None)
@@ -783,32 +1016,71 @@ def b_connections(data, listing, page, lines, column, initial=None, flags=()):
                 if label.lower().startswith(('sterling', 'rupee')):
                     qualifier = label
                 place = 'London' if label.startswith('London ') else None
+                if label.lower().endswith((' in', ' at')) and label.lower().startswith(('agent', 'representative')):
+                    if stated_place := re.match(r'^([A-Z][A-Za-z -]+):\s*', value):
+                        place = stated_place[1]
+                        label += ' ' + place
+                        value = value[stated_place.end():]
                 state = (label, relation_class_of(label, qualifier), qualifier, place)
                 previous_the = ''
                 previous_place = None
             relation, cls, qualifier, region = state
             if not fact(value):
                 continue
+            if PROMOTION.match(value) or ROUTE_DESCRIPTION.match(value):
+                data.dropped_phrases[listing['listing_id']] += 1
+                continue
+            if not label and re.match(r'^(?:Import|Export)\s*:', value, re.I):
+                terms = trade_terms(re.split(r':\s*[—–-]*\s*', value, maxsplit=1)[1])
+                listing['trades'] = list(dict.fromkeys(listing['trades'] + terms))
+                continue
             if re.fullmatch(r'\((?:LIFE|FIRE|MARINE|ACCIDENT)[^)]*\)[.]?', value, re.I):
                 continue
-            if not label and (cls == 'correspondent' and relation == column or
-                              relation.lower().endswith('office')) and trade_chunks(value) and not re.search(
-                                  r'\b(?:Co\.|Company|Ltd\.?|Inc\.)\b', value):
-                listing['trades'] = list(dict.fromkeys(listing['trades'] + trade_chunks(value)))
+            if (not label or cls == 'correspondent') and (trades := own_trades(value)):
+                listing['trades'] = list(dict.fromkeys(listing['trades'] + trades))
                 continue
             if re.match(r'^(?:[„〃"]\s+)', value):
                 value = previous_the + re.sub(r'^[„〃"]\s+', '', value)
             else:
                 previous_the = 'The ' if value.startswith('The ') else ''
-            geographical = bool(re.search(r'\b(?:Branches|Also at|Depôts at|Mills at|Correspondents in|Agencies (?:at|in)|'
-                                          r'Agency at|Colonial and Foreign Depots)\b',
-                                          relation, re.I))
-            office = bool(re.search(r'\b(?:Office[s]?|Works at|Depôt)\b', relation, re.I))
-            if geographical and (not CO_SUFFIX.search(value) or relation.lower() in ('correspondents in', 'agencies in')):
-                targets = place_list(value)
-            elif office and not relation.lower().startswith(('branches', 'depôts')):
-                targets = [value]
-            elif qualifier == 'Estates' and not CO_SUFFIX.search(value):
+            office = bool(re.search(r'\b(?:Offices?|Branch Depôt)\b', relation, re.I))
+            place_labels = ('correspondents in', 'agencies in', 'agencies at', 'agency at')
+            geographical = cls == 'branch_at' or relation.lower() in place_labels or (
+                relation.lower() == 'correspondents' and UNSPECIFIC_PLACE.match(value))
+            if office:
+                value = re.sub(r'^(?:at\s+|for [^:;]+:\s*)', '', value, flags=re.I)
+                for site in value.split(';'):
+                    name, place, address, local_flags = split_target(site, region)
+                    if address and target_kind_of(name) in ('company', 'bank', 'insurer'):
+                        data.connection(listing, page, relation, cls, place or name, 'place', place,
+                                        qualifier, list(flags) + local_flags, address=address)
+                    else:
+                        address, place = street_and_place(site, region, office=True)
+                        data.connection(listing, page, relation, cls, place or address, 'place', place,
+                                        qualifier, flags, address=address)
+                continue
+            if geographical and (not CO_SUFFIX.search(value) or relation.lower() in (
+                'correspondents in', 'agencies in', 'agencies at', 'agency at'
+            )):
+                for name, address, local_flags in branch_targets(value):
+                    if name in suppressed:
+                        continue
+                    data.connection(listing, page, relation, cls, name, 'place', None, qualifier,
+                                    list(flags) + local_flags, address=address)
+                continue
+            if geographical:
+                for site in value.split(';'):
+                    if not CO_SUFFIX.search(site):
+                        for name, address, local_flags in branch_targets(site):
+                            data.connection(listing, page, relation, cls, name, 'place', None, qualifier,
+                                            list(flags) + local_flags, address=address)
+                        continue
+                    for target in company_chunks(site):
+                        name, place, address, local_flags = split_target(target)
+                        data.connection(listing, page, relation, cls, name, target_kind_of(name), place, qualifier,
+                                        list(flags) + local_flags, address=address)
+                continue
+            if qualifier == 'Estates' and not CO_SUFFIX.search(value):
                 targets = place_list(value)
             else:
                 targets = company_chunks(value)
@@ -819,29 +1091,36 @@ def b_connections(data, listing, page, lines, column, initial=None, flags=()):
                 ) or re.fullmatch(r'(?:&c|etc|General|Insurance|Shipping|and|for|Co\.?|Ltd\.?)[ .,]*', target, re.I
                 ) or re.fullmatch(r'\([^)]*\)[, .]*', target):
                     continue
-                if geographical and not CO_SUFFIX.search(target):
-                    name, place, local_flags = target.rstrip(' .'), None, []
+                local_qualifier = qualifier
+                explicit_agent = re.search(r',?\s*\(Agents?\)[. ,]*(?:&c\.?)?$', target, re.I)
+                if explicit_agent:
+                    target = target[:explicit_agent.start()]
+                if target_kind_of(target) == 'insurer':
+                    profile = re.search(r'[, ]+(\((?:Fire|Life|Marine|Accident|Fidelity)[^)]*\)\.?|Marine and Fire\.?)$',
+                                        target, re.I)
+                    if profile:
+                        target = target[:profile.start()]
+                        local_qualifier = trim_full_stop(profile[1].rstrip('.').strip('()'))
+                name, place, address, local_flags = split_target(target, region, previous_place)
+                if trim_full_stop(name) in suppressed:
+                    continue
+                kind = target_kind_of(name, cls)
+                if kind == 'unknown' and PLACES.fullmatch(name.strip(' .')):
                     kind = 'place'
-                elif office:
-                    name, place, local_flags = target.rstrip(' ,'), region, []
-                    location = list(PLACES.finditer(target))
-                    if location and not region:
-                        place = location[0][0]
-                    kind = 'place'
-                else:
-                    name, place, local_flags = split_target(target, region, previous_place)
-                    kind = target_kind_of(name, cls)
-                    if kind == 'unknown' and PLACES.fullmatch(name.strip(' .')):
-                        kind = 'place'
                 if len(name) < 3 or re.search(r'\b(?:which see|see advert|continued over)\b', name, re.I):
+                    continue
+                if re.fullmatch(r'(?:' + HOUSE_NUMBER + r'|' + STREET_WORD + r')\.?', name, re.I):
                     continue
                 if place:
                     previous_place = place
-                target_cls = cls
-                if cls == 'agent_for' and kind in ('insurer', 'shipping line'):
+                target_cls = 'agent_for' if explicit_agent and cls == 'correspondent' else cls
+                if target_cls == 'agent_for' and kind in ('insurer', 'shipping line'):
                     target_cls = 'insurer_agent' if kind == 'insurer' else 'shipping_agent'
-                data.connection(listing, page, relation, target_cls, name, kind, place, qualifier,
-                                list(flags) + local_flags)
+                if kind == 'place' and target_cls in ('agent_for', 'has_agent') and not geographical:
+                    continue
+                data.connection(listing, page, 'Agents' if explicit_agent else relation,
+                                target_cls, name, kind, place, local_qualifier,
+                                list(flags) + local_flags, address=address)
     return state
 
 
@@ -945,16 +1224,19 @@ def extract_b(data):
                 if len(targets) > 1:
                     flags = sorted(set(flags + ['shared_entry']))
                 if 'roles' in opts:
-                    for person, role in opts['roles']:
-                        data.role(listing, page, person, role, column=people_col, flags=flags)
+                    for person, role, *signed in opts['roles']:
+                        data.role(listing, page, person, role, column=people_col, flags=flags,
+                                  per_pro=bool(signed and signed[0]))
                 else:
-                    for title, names in b_people(middle):
-                        for name, role, is_body, local_flags in split_people(names, title):
+                    for title, names, signed_group in b_people(middle):
+                        for name, role, is_body, local_flags, signed in split_people(names, title):
                             if is_body:
+                                relation = 'has_agent' if re.search(r'\bAgents?$', role, re.I) else 'other'
                                 data.connection(listing, page, role if role != 'listed' else people_col,
-                                                'other', name, target_kind_of(name), flags=flags)
+                                                relation, name, target_kind_of(name), flags=flags)
                             else:
-                                data.role(listing, page, name, role, column=people_col, flags=flags + local_flags)
+                                data.role(listing, page, name, role, column=people_col, flags=flags + local_flags,
+                                          per_pro=signed or signed_group)
                 for source, person, role in opts.get('additional_roles', []):
                     data.source_locator = source
                     data.role(listing, page, person, role, column=people_col, flags=flags)
@@ -964,7 +1246,8 @@ def extract_b(data):
                     right = []
                 if cutoff := opts.get('skip_right_from'):
                     right = right[:next(index for index, line in enumerate(right) if line.startswith(cutoff))]
-                state = b_connections(data, listing, page, right, agencies, states.get(target), all_flags)
+                state = b_connections(data, listing, page, right, agencies, states.get(target), all_flags,
+                                      suppressed=opts.get('suppress_connections', ()))
                 states[target] = state
                 for source, relation, cls, target_name, kind, place in opts.get('additional_connections', []):
                     data.source_locator = source
@@ -977,14 +1260,18 @@ def extract_b(data):
                 if 'trades' in opts.get('listing', {}):
                     listing['trades'] = opts['listing']['trades']
                 for connection in opts.get('connections', []):
-                    data.connection(listing, page, *connection, flags=all_flags)
+                    relation, cls, name, kind, *location = connection
+                    place, address, qualifier = (location + [None, None, None])[:3]
+                    data.connection(listing, page, relation, cls, name, kind, place, qualifier,
+                                    flags=all_flags, address=address)
                 if target == coord:
                     extra = re.search(r'\b(?:Also )?(?:Branches at|Branch Office:)\s*(.+)',
                                       b_address(first)[1] or '', re.I)
                     if extra:
-                        for place in place_list(extra[1]):
+                        for place, address, local_flags in branch_targets(extra[1]):
                             data.connection(listing, page, extra[0][:-len(extra[1])].strip(' :'),
-                                            'branch_at', place, 'place', flags=flags)
+                                            'branch_at', place, 'place', flags=flags + local_flags,
+                                            address=address)
         data.source_locator = None
 
 
@@ -1076,14 +1363,16 @@ def c_member_list(data, page, printed, block, raw, association, heading, acquire
             value = re.sub(r'^\s*\.{2,}\s*', '', joined(agents)).rstrip(' ,')
             entries = []
             for target in company_chunks(value):
-                name, place, flags = split_target(target)
+                name, place, address, flags = split_target(target)
                 if name and not re.fullmatch(r'(?:Co|Ltd|Ld)\.?', name, re.I):
                     kind = 'insurer' if acquired else target_kind_of(name)
                     if kind == 'unknown' and re.fullmatch(r"[A-Z][A-Za-z. '-]+", name):
                         kind = 'person'
-                    entries.append([name, place, kind])
-        for name, place, kind in entries:
-            data.connection(listing, page, key, 'other', name, kind, place, flags=listing['flags'])
+                    entries.append([name, place, kind, address, flags])
+        for name, place, kind, *details in entries:
+            address, flags = details or (None, [])
+            data.connection(listing, page, key, 'other' if acquired else 'has_agent', name, kind, place,
+                            flags=listing['flags'] + flags, address=address)
             if not acquired and kind == 'person':
                 data.role(listing, page, name, 'Agents', column=key, flags=listing['flags'])
 
@@ -1126,8 +1415,9 @@ def c_banking_agencies(data, page, printed, blocks):
         data.source_locator = f'ferg1922:p{page}:b3:r{row}'
         listing = data.listing('C', heading, page, printed, 3, row, name, town=place or 'Colombo',
                                trades=['Banking'], kind='bank')
-        data.connection(listing, page, 'Agents', 'other', agent.strip(),
-                        'bank' if 'Bank' in agent else 'company', place='Colombo')
+        target, agent_place, address, flags = split_target(agent.strip())
+        data.connection(listing, page, 'Agents', 'has_agent', target,
+                        'bank' if 'Bank' in target else 'company', agent_place, flags=flags, address=address)
 
 
 def c_outstations(data, page, printed, blocks, banks):

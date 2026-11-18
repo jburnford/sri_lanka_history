@@ -917,7 +917,7 @@
     }
   },
   "ferg1922:p486:b2:r6": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. The correspondent is followed by the listing’s own trades.",
     "fields": {
       "attach": [
         [
@@ -926,7 +926,17 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "correspondent",
+          "Twinings, Crossfield & Co., Ltd.",
+          "company",
+          "London"
+        ]
+      ]
     }
   },
   "ferg1922:p486:b2:r7": {
@@ -956,7 +966,7 @@
     }
   },
   "ferg1922:p486:b2:r9": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. The repeated firm name is a heading for its offices.",
     "fields": {
       "attach": [
         [
@@ -965,7 +975,10 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "suppress_connections": [
+        "Harrisons & Eastern Export, Ltd."
+      ]
     }
   },
   "ferg1922:p486:b2:r10": {
@@ -982,7 +995,7 @@
     }
   },
   "ferg1922:p486:b2:r11": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. The successor heading names two predecessors before the head office.",
     "fields": {
       "attach": [
         [
@@ -991,11 +1004,28 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "suppress_connections": [
+        "Westphal, King, Ramsay, Ltd., and W. S. King"
+      ],
+      "connections": [
+        [
+          "Successors to",
+          "other",
+          "Westphal, King, Ramsay, Ltd.",
+          "company"
+        ],
+        [
+          "Successors to",
+          "other",
+          "W. S. King",
+          "person"
+        ]
+      ]
     }
   },
   "ferg1922:p486:b2:r12": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. The successors phrase modifies Litvinoff; Yang-tse resumes the agency list.",
     "fields": {
       "attach": [
         [
@@ -1004,11 +1034,28 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "Agents for",
+          "agent_for",
+          "S. W. Litvinoff & Co.",
+          "company",
+          "Hankow"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "The Yang-tse Insurance Association, Ltd.",
+          "insurer",
+          "Shanghai"
+        ]
+      ]
     }
   },
   "ferg1922:p486:b2:r13": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. The London heading governs three principals and the addresses belong to the last two.",
     "fields": {
       "attach": [
         [
@@ -1017,11 +1064,37 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "Agents in London",
+          "agent_for",
+          "Gibbon & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agents in London",
+          "agent_for",
+          "B. Rigill & Bergmann",
+          "company",
+          "London, E.C.",
+          "69, Bishopsgate"
+        ],
+        [
+          "Agents in London",
+          "agent_for",
+          "Austin Payton & Co.",
+          "company",
+          "London",
+          "55, Newhall Street"
+        ]
+      ]
     }
   },
   "ferg1922:p486:b2:r14": {
-    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above.",
+    "reason": "OCR emitted a detached right-column row. The named affiliates and offices identify the corresponding firm above. Esmajee and Moorbhoy are separate principals under the Japan heading.",
     "fields": {
       "attach": [
         [
@@ -1030,11 +1103,42 @@
         ]
       ],
       "structure_lost": true,
-      "uncertain_connections": true
+      "uncertain_connections": true,
+      "skip_right": true,
+      "connections": [
+        [
+          "Agents in Japan",
+          "agent_for",
+          "Japan Products Export Co.",
+          "company",
+          "Yokohama"
+        ],
+        [
+          "Agents in Japan",
+          "agent_for",
+          "Y. Nakashima & Co., Ltd.",
+          "company",
+          "Japan"
+        ],
+        [
+          "Agents in Japan",
+          "agent_for",
+          "A. H. Esmajee",
+          "person",
+          "Japan"
+        ],
+        [
+          "Agents in Japan",
+          "agent_for",
+          "M. M. Moorbhoy & Co., Ltd.",
+          "company",
+          "Japan"
+        ]
+      ]
     }
   },
   "ferg1922:p470:b2:r3": {
-    "reason": "The Directors label fell into the firm-name cell.",
+    "reason": "The Directors label fell into the firm-name cell. Carson Parker completes the assistants list.",
     "fields": {
       "listing": {
         "name_as_printed": "Bois Brothers & Co., Ltd."
@@ -1059,6 +1163,10 @@
         ],
         [
           "G. P. Kelly",
+          "Assistants"
+        ],
+        [
+          "C. L. Carson Parker",
           "Assistants"
         ]
       ]
@@ -1248,7 +1356,7 @@
       "connections": [
         [
           "Sole Agents for Ceylon",
-          "other",
+          "has_agent",
           "Hayley & Kenny",
           "company",
           "Ceylon"
@@ -1370,13 +1478,281 @@
     }
   },
   "ferg1922:p492:b2:r7": {
-    "reason": "OCR gave an opening parenthesis rather than an opening bracket. Two partners are explicitly named.",
+    "reason": "OCR gave an opening parenthesis rather than an opening bracket. Two partners are explicitly named. Wrapped place headings scope the agency names. The branch addresses precede the agencies.",
     "fields": {
       "listing": {
         "name_as_printed": "Mercantile Agency",
         "address_as_printed": "1, Consistory Bldgs., Colombo.",
-        "kind": "firm"
-      }
+        "kind": "firm",
+        "trades": [
+          "General Importers",
+          "Exporters"
+        ]
+      },
+      "skip_right": true,
+      "connections": [
+        [
+          "Branches at",
+          "branch_at",
+          "Colombo",
+          "place",
+          null,
+          "25, Grandpass",
+          "Produce"
+        ],
+        [
+          "Branches at",
+          "branch_at",
+          "Madras",
+          "place",
+          null,
+          "20, Moore Market"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Jeremiah Lyon & Co., Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "H. C. John",
+          "person",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Austin Payton & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Sidney H. Webster & Co., Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Hill & Co., Merchants, Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "S. H. Prentice & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Sharp Bros.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Sharland & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Harris Sauer & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "D. & W. Gibbs",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Tyler Bros (Eastern) Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Mitchell & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "R. S. Murray & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Neuburger & Co.",
+          "company",
+          "Switzerland"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Levanillant & Co.",
+          "company",
+          "Switzerland"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Fco Glanzmann",
+          "person",
+          "Trieste"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "H. S. Atkinson",
+          "person",
+          "Huddersfield"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Fischli & Arnd.",
+          "company",
+          "Basel"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Javal & Biennaime",
+          "company",
+          "Paris"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "La Lande & Co.",
+          "company",
+          "Bordeaux"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Ryken Topker & Co.",
+          "company",
+          "Rotterdam"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Theo Migeon",
+          "person",
+          "Rotterdam"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Richard Kuhn",
+          "person",
+          "Germany"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Consao Sales Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Henins Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Janovici & Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "La Va Valliere Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "A. J. Bates & Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "American Aniline Products, Ltd.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Garland & Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Dodge & Seymour, Ltd.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "F. Mayer Root & Shoe Co.",
+          "company",
+          "America"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "Daito Bussan Kaisha, Ltd.",
+          "company",
+          "Japan"
+        ],
+        [
+          "Agencies",
+          "agent_for",
+          "T. Murakami & Co.",
+          "company",
+          "Japan"
+        ],
+        [
+          "Bankers",
+          "other",
+          "The National Bank of India, Ltd.",
+          "bank"
+        ]
+      ]
     }
   },
   "ferg1922:p500:b2:r1": {
@@ -2760,14 +3136,73 @@
     }
   },
   "ferg1922:p495:b2:r3": {
-    "reason": "Import and Export modify the same Merchant label.",
+    "reason": "Import and Export modify the same Merchant label. Four place headings govern the list of buying agents.",
     "fields": {
       "listing": {
         "trades": [
           "Import Merchant",
           "Export Merchant"
         ]
-      }
+      },
+      "skip_right": true,
+      "connections": [
+        [
+          "Buying Agents in",
+          "has_agent",
+          "Levetus & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "F. Newbery and Sons Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "C. and E. Morton, Ltd.",
+          "company",
+          "London"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "A. G. Kidston",
+          "person",
+          "London"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "I. Griffon & Co.",
+          "company",
+          "Paris"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "Getz Bros",
+          "company",
+          "San Francisco"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "J. Bartram & Sons",
+          "company",
+          "Melbourne"
+        ],
+        [
+          "Buying Agents in",
+          "has_agent",
+          "John Mackintosh",
+          "person",
+          "Melbourne"
+        ]
+      ]
     }
   },
   "ferg1922:p495:b2:r6": {
@@ -3034,24 +3469,27 @@
       "connections": [
         [
           "Central Offices",
-          "other",
-          "Balloon St.",
+          "head_office",
+          "Manchester",
           "place",
-          "Manchester"
+          "Manchester",
+          "Balloon St."
         ],
         [
           "Tea & Coffee Depts.",
           "other",
-          "100, Leman St.",
+          "London",
           "place",
-          "London"
+          "London",
+          "100, Leman St."
         ],
         [
           "Central Offices",
-          "other",
-          "95, Morrison St.",
+          "head_office",
+          "Glasgow",
           "place",
-          "Glasgow"
+          "Glasgow",
+          "95, Morrison St."
         ],
         [
           "Colonial and Foreign Depots",
@@ -3291,7 +3729,7 @@
     }
   },
   "ferg1922:p476:b2:r4": {
-    "reason": "The first part of the partners cell is a corporate agent followed by the named resident manager.",
+    "reason": "The first part of the partners cell is a corporate agent followed by the named resident manager. General Agents names the company acting for the insurer.",
     "fields": {
       "roles": [
         [
@@ -3302,7 +3740,7 @@
       "connections": [
         [
           "General Agents",
-          "other",
+          "has_agent",
           "Clark, Young & Co.",
           "company"
         ]
@@ -3335,7 +3773,7 @@
       "connections": [
         [
           "Colombo Agents",
-          "other",
+          "has_agent",
           "Mackinnon, Mackenzie & Co.",
           "company"
         ]
@@ -3394,7 +3832,7 @@
     }
   },
   "ferg1922:p488:b2:r3": {
-    "reason": "The locations are printed with management titles and a consul line follows the assistants.",
+    "reason": "The locations are printed with management titles and a consul line follows the assistants. The first assistant signs per pro.",
     "fields": {
       "roles": [
         [
@@ -3431,7 +3869,8 @@
         ],
         [
           "H. de Wildt",
-          "Assistants"
+          "Assistants",
+          true
         ],
         [
           "F. Elhorst",
@@ -3538,6 +3977,656 @@
           "branch_at",
           "Galle",
           "place"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p468:b6:r5": {
+    "reason": "The same Galle cell prints a second firm name above the advertising reference. The existing shared listing retains its own ID.",
+    "fields": {
+      "listing": {
+        "other_names_as_printed": [
+          "Walkers & Clark Spence (Galle)"
+        ]
+      }
+    }
+  },
+  "ferg1922:p469:b2:r4": {
+    "reason": "The unqualified Agents label here names the firm’s agent.",
+    "fields": {
+      "connections": [
+        [
+          "Agents",
+          "has_agent",
+          "E. N. Vowler & Co.",
+          "company",
+          null,
+          "31, Throgmorton St."
+        ]
+      ],
+      "suppress_connections": [
+        "E. N. Vowler & Co."
+      ]
+    }
+  },
+  "ferg1922:p474:b2:r3": {
+    "reason": "The first insurance sublist has interleaved descriptions and an unclosed qualifier.",
+    "fields": {
+      "skip_right_from": "Agents for:—Insurance.",
+      "connections": [
+        [
+          "Agents for",
+          "insurer_agent",
+          "Law Union & Rock Insurance Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Lloyds Underwriters",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "London Assurance Corporation",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Phoenix Assurance Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Provident Accident & Guarantee Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Taisho Marine & Fire Insurance Co., Ltd.",
+          "insurer",
+          "Kobe, Japan"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "The Fusco Marine & Fire Insurance Co.",
+          "insurer",
+          "Tokio (Osaka)"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "The Nippon Marine Insurance Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Tokio Marine & Fire Insurance Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Toyo Marine Insurance Co., Ltd.",
+          "insurer",
+          "Tokio"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "Union Marine Insurance Co., Ltd.",
+          "insurer"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p476:b2:r2": {
+    "reason": "The consular heading follows the assistant secretary without a separator.",
+    "fields": {
+      "roles": [
+        [
+          "Kai Nielsen",
+          "Manager"
+        ],
+        [
+          "Harald Thiede",
+          "Asst. Secretary"
+        ],
+        [
+          "Kai Nielsen",
+          "Consul for Ceylon"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p480:b2:r3": {
+    "reason": "The two shipping names are separated by intervening routes and punctuation.",
+    "fields": {
+      "suppress_connections": [
+        "the Dodwell Line of Steamers from",
+        "The Ceylon Coconut Oil and Deseccating Co., Ltd., Navigazione Generale Italiana"
+      ],
+      "connections": [
+        [
+          "Agents for",
+          "shipping_agent",
+          "the Dodwell Line of Steamers",
+          "shipping line"
+        ],
+        [
+          "Agents for",
+          "agent_for",
+          "The Ceylon Coconut Oil and Deseccating Co., Ltd.",
+          "company"
+        ],
+        [
+          "Agents for",
+          "shipping_agent",
+          "Navigazione Generale Italiana",
+          "shipping line"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p480:b2:r4": {
+    "reason": "The address cell names a saw mill site.",
+    "fields": {
+      "connections": [
+        [
+          "Saw Mills at",
+          "branch_at",
+          "Wakan-de",
+          "place",
+          "Slave Island"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p482:b2:r5": {
+    "reason": "The automobile description is a trade, and the proprietary heading names the other business.",
+    "fields": {
+      "listing": {
+        "trades": [
+          "Merchant",
+          "Agent for Automobiles",
+          "Agent for Automobile Supplies"
+        ]
+      },
+      "suppress_connections": [
+        "Automobiles and Automobile Supplies"
+      ]
+    }
+  },
+  "ferg1922:p486:b2:r5": {
+    "reason": "Two separate principals in each continuation are separated only by commas.",
+    "fields": {
+      "roles": [
+        [
+          "Hassenally Davoodbhoy",
+          "listed"
+        ],
+        [
+          "G. H. Hassenally",
+          "Assistants"
+        ],
+        [
+          "A. Amally Hassenally",
+          "Assistants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p488:b2:r2": {
+    "reason": "The buying office is in the address cell. The Crossley products belong to the preceding firm.",
+    "fields": {
+      "suppress_connections": [
+        "Crossley Motors Ltd.",
+        "Motor Cars and Lorries"
+      ],
+      "connections": [
+        [
+          "London Buying Office",
+          "other",
+          "Hoare & Co.",
+          "company",
+          "London, E.C. 2",
+          "10, New Broad Street"
+        ],
+        [
+          "Special Agencies",
+          "agent_for",
+          "Crossley Motors Ltd.",
+          "company",
+          null,
+          null,
+          "Motor Cars and Lorries"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p488:b2:r4": {
+    "reason": "Two depôt towns have no separator in the OCR.",
+    "fields": {
+      "suppress_connections": [
+        "Sabang Durban"
+      ],
+      "connections": [
+        [
+          "Depôts at",
+          "branch_at",
+          "Sabang",
+          "place"
+        ],
+        [
+          "Depôts at",
+          "branch_at",
+          "Durban",
+          "place"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p492:b2:r4": {
+    "reason": "The corporate agent is immediately followed by a manager’s title split across lines.",
+    "fields": {
+      "roles": [
+        [
+          "F. S. Evans",
+          "Manager for South-Eastern Asia"
+        ]
+      ],
+      "connections": [
+        [
+          "General Agents",
+          "has_agent",
+          "Lipton, Ltd.",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p497:b2:r7": {
+    "reason": "Two partners appear next to each other without a separator.",
+    "fields": {
+      "roles": [
+        [
+          "K. Tambypillai",
+          "Partners"
+        ],
+        [
+          "K. Mathaparaman",
+          "Partners"
+        ],
+        [
+          "T. Sivagunasegaram",
+          "Partners"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p499:b2:r3": {
+    "reason": "Branch headings are printed in the staff cell and Ward Street is the Kandy address.",
+    "fields": {
+      "roles": [
+        [
+          "E. V. Mitchelmore",
+          "General Manager"
+        ],
+        [
+          "Mrs. Lawrence",
+          "Assistants"
+        ],
+        [
+          "E. W. Diamond",
+          "Assistants"
+        ],
+        [
+          "A. J. Ellingham",
+          "Assistants"
+        ],
+        [
+          "R. B. Lawrence",
+          "Assistants"
+        ],
+        [
+          "F. B. Le Marquand",
+          "Assistants"
+        ],
+        [
+          "R. H. Randies",
+          "Assistants"
+        ],
+        [
+          "J. Smith",
+          "Assistants"
+        ],
+        [
+          "G. Barlow",
+          "Manager"
+        ],
+        [
+          "R. H. Randies",
+          "Manager"
+        ]
+      ],
+      "connections": [
+        [
+          "Kandy Branch",
+          "branch_at",
+          "Kandy",
+          "place",
+          null,
+          "Ward Street"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p491:b2:r4": {
+    "reason": "The per pro label governs the assistants before the Annesley Stores heading. The last trade is joined to the insurer’s name.",
+    "fields": {
+      "roles": [
+        [
+          "C. W. Mackie",
+          "listed"
+        ],
+        [
+          "Geo. Gill",
+          "Manager"
+        ],
+        [
+          "N R Cameron",
+          "Assistants",
+          true
+        ],
+        [
+          "J M. Caldwell",
+          "Assistants",
+          true
+        ],
+        [
+          "A E Williams",
+          "Assistants",
+          true
+        ],
+        [
+          "J C Gammell",
+          "Annesley Stores"
+        ],
+        [
+          "C. H. Kerr",
+          "Annesley Stores"
+        ],
+        [
+          "C W Mackie",
+          "Vice-Consul for Finland"
+        ],
+        [
+          "N. R. Cameron",
+          "Vice-Consul for Finland, acting"
+        ]
+      ],
+      "skip_right": true,
+      "listing": {
+        "trades": [
+          "Dealers in Rubber",
+          "General Merchants",
+          "Commission Agents",
+          "Forwarding Agents",
+          "Valuators",
+          "Estate Agents"
+        ]
+      },
+      "connections": [
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "insurer_agent",
+          "Employers' Liability Assurance Corporation, Ld",
+          "insurer"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p468:b6:r3": {
+    "reason": "Aliboy and Calcutta form a single item after the semicolon.",
+    "fields": {
+      "suppress_connections": [
+        "Mohamedbhoy Aliboy",
+        "Calcutta"
+      ],
+      "connections": [
+        [
+          "Branches",
+          "branch_at",
+          "Mohamedbhoy Aliboy",
+          "unknown",
+          "Calcutta"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p476:b2:r3": {
+    "reason": "The two tile works are separate agency principals.",
+    "fields": {
+      "suppress_connections": [
+        "Feroke Tile Works & Quilon Tile Works"
+      ],
+      "connections": [
+        [
+          "Agent for",
+          "agent_for",
+          "Feroke Tile Works",
+          "company"
+        ],
+        [
+          "Agent for",
+          "agent_for",
+          "Quilon Tile Works",
+          "company"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p484:b2:r2": {
+    "reason": "The displaced Co. suffix belongs to the second insurer.",
+    "fields": {
+      "skip_right": true,
+      "connections": [
+        [
+          "Agents for Insurance",
+          "insurer_agent",
+          "The Alliance Assurance Co., Ltd.",
+          "insurer"
+        ],
+        [
+          "Agents for Insurance",
+          "insurer_agent",
+          "The North British & Mercantile Insurance Co.",
+          "insurer"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p486:b2:r2": {
+    "reason": "The first agency cell gives one firm followed by a continuous list of locations.",
+    "fields": {
+      "skip_right": true,
+      "connections": [
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "correspondent",
+          "Harrisons & Crossfield, Ltd.",
+          "company",
+          "London, Calicut, Cochin, Calcutta, Montreal, Kuala Lumpur, Tangier, Batavia, Bandoeng, Quilon, Medan, Kobe, Tandjong Balsi, and Labuan Bilik"
+        ]
+      ],
+      "listing": {
+        "trades": [
+          "Tea Merchants",
+          "Rubber Merchants",
+          "General Produce Merchants",
+          "Estate Agents",
+          "General Importers"
+        ]
+      }
+    }
+  },
+  "ferg1922:p486:b2:r4": {
+    "reason": "The manager and office staff are printed on a line without punctuation between the roles.",
+    "fields": {
+      "roles": [
+        [
+          "H. W. Horner",
+          "Manager"
+        ],
+        [
+          "J. F. Sibbald, c.a.",
+          "Office"
+        ],
+        [
+          "H. G. P. Maddocks",
+          "Tea Dept"
+        ],
+        [
+          "G. L. Yule",
+          "Rubber and Produce Dept."
+        ]
+      ]
+    }
+  },
+  "ferg1922:p490:b1:r2": {
+    "reason": "One correspondent name and Port Sunlight wrap at the line boundary.",
+    "fields": {
+      "skip_right": true,
+      "connections": [
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "correspondent",
+          "Lyall, Anderson & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "correspondent",
+          "Shand, Haldane & Co.",
+          "company",
+          "London"
+        ],
+        [
+          "PRINCIPAL CORRESPONDENTS AND AGENCIES",
+          "correspondent",
+          "Grindlay & Co.",
+          "company",
+          "London, Calcutta and Bombay"
+        ],
+        [
+          "Head Office",
+          "head_office",
+          "Port Sunlight",
+          "place",
+          "Port Sunlight, Liverpool, England"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p494:b2:r4": {
+    "reason": "The staff cell prints only the proprietor’s initials; the store relationship and firm trades are separate. The final insurer is separately marked in the agency cell.",
+    "fields": {
+      "ocr_doubtful": true,
+      "listing": {
+        "trades": [
+          "General Merchants",
+          "Naval Purveyors"
+        ]
+      },
+      "roles": [
+        [
+          "E. G.",
+          "Proprietor"
+        ],
+        [
+          "A. Jordanides",
+          "Manager"
+        ],
+        [
+          "Loucas Loucas",
+          "Assistants"
+        ],
+        [
+          "F. C. Solomons",
+          "Assistants"
+        ],
+        [
+          "A. M. Lazarus",
+          "Assistants"
+        ],
+        [
+          "M. J. David",
+          "Assistants"
+        ]
+      ],
+      "connections": [
+        [
+          "Proprietors of",
+          "other",
+          "\"The Continental Stores\"",
+          "company"
+        ],
+        [
+          "Agents for",
+          "insurer_agent",
+          "\"The Titan Fire and Marine Insurance Co, Ltd.",
+          "insurer"
+        ]
+      ],
+      "skip_right": true
+    }
+  },
+  "ferg1922:p495:b2:r5": {
+    "reason": "The late Pappé is named in a trustee description. The trustee’s name cannot be assigned reliably.",
+    "fields": {
+      "ocr_doubtful": true,
+      "roles": [
+        [
+          "F. E. Jolliffe",
+          "listed"
+        ],
+        [
+          "Robt. Ford, C.A.",
+          "Assistants"
+        ],
+        [
+          "E. W. Wright",
+          "Assistants"
+        ]
+      ]
+    }
+  },
+  "ferg1922:p496:b2:r3": {
+    "reason": "The shop count is a place relationship that follows the description of the products.",
+    "fields": {
+      "skip_right": true,
+      "listing": {
+        "trades": [
+          "Manufacturers of Singer Family and Manufacturing Sewing Machines",
+          "Sellers of Singer Family and Manufacturing Sewing Machines"
+        ]
+      },
+      "connections": [
+        [
+          "branch shops in",
+          "branch_at",
+          "Ceylon",
+          "place",
+          null,
+          null,
+          "One hundred"
         ]
       ]
     }
