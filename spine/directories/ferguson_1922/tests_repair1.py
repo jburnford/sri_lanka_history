@@ -17,8 +17,8 @@ WEBSTER = 'ferg1922:p499:b2:r2'
 
 # Spacing and case variants are retained in the data.
 REVIEWED_HONORIFICS = {
-    'A. C. A.', 'A. S. A. A.', 'A.C.A.', 'A.M. I.C.E.', 'A.M.I.E.S.', 'AMIEE',
-    'B.A.', 'c. c. s.', 'C.A.', 'c.a.', 'Col', 'Dr', 'Dr.', 'ESQ.', 'Esq.',
+    'A. C. A.', 'A. S. A. A.', 'A.C.A.', 'A.I.M.M.', 'A.M. I.C.E.', 'A.M.I.E.S.', 'AMIEE',
+    'B.A.', 'c. c. s.', 'C.A.', 'c.a.', 'Col', 'Dr', 'Dr.', 'Effendi', 'ESQ.', 'Esq.',
     'F.C.A.', 'G.B.V.C.', 'Gate Muhandiram', 'Hon.', 'J. P.', 'J.P.', 'J.P.M.M.C.',
     'M.A.', 'M.P.S.', 'Madame', 'Miss', 'Mlle.', 'Mr.', 'Mrs', 'Mrs.', 'Sir',
     'The Hon.', 'the Hon.', 'U.P.M.',

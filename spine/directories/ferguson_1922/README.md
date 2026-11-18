@@ -7,13 +7,14 @@ From `spine/directories`, use the supplied Python interpreter.
 ```sh
 /home/jic823/miniforge3/bin/python -B ferguson_1922/extract.py
 /home/jic823/miniforge3/bin/python -B ferguson_1922/tests_repair1.py
+/home/jic823/miniforge3/bin/python -B ferguson_1922/coverage_check.py
 ```
 
 Set `CEYLON_OCR_ROOT` to the directory containing the volume folder. The
 extractor and audit viewer share the lookup. They try
 `/home/jic823/ceylon/ocr_chandra/out_chandra2` and then
 `/mnt/data/jic823/ocr_chandra/out_chandra2` when the variable is unset.
-`overrides.json` records corrections with their source rows and reasons.
+`overrides.json` records corrections for sections A and C.
 `audit.py --rebuild` regenerates the original listing audit from `audit_notes.json`.
 Run `audit.py 1` or `audit.py 2` to view those samples beside the OCR, or
 `audit.py --repair-sample 1` or `2` to print the repair sample IDs.
@@ -72,19 +73,44 @@ The second sample includes one listing with zero roles and connections.
 Further corrections followed that review, including split office locations and
 misfiled trades. The numbers describe the reviewed snapshots.
 
-## Coverage and remaining uncertainty
+## Colombo re-read
 
-- PDF 461 is military. The available Chamber continuation starts on PDF 462,
-  printed 424. The OCR index lacks headers for printed 419–423.
-- All requested Kandy and Colombo pages are represented. Recovered layouts
-  on PDF 480, 484 and 489 carry `structure_lost`. PDF 489 and 490 lack printed
-  page numbers in the OCR. The repeated page number on PDF 551 is flagged.
-- PDF 472 interleaves Brown’s staff and addresses. PDF 477 has incomplete
-  principal names, and PDF 500 has an illegible staff continuation. Parts of
-  the Colonial Tea Traders’ roster and fire insurance tables are displaced.
-- Consecutive company names without separators, regional qualifiers in branch
-  lists, shared agency groups, compound surnames and damaged initials still
-  need source review. Unclear group ownership can affect attribution.
+| Section | Listings before → after | Roles before → after | Connections before → after |
+|---|---:|---:|---:|
+| B. Colombo, PDF 468–500 | 153 → 153 | 979 → 957 | 1,729 → 1,790 |
+
+`colombo_readings.jsonl` holds the readings in PDF order, including continuations
+and detached blocks in `source_rows`. All listing IDs retain their order, and
+the A and C lines in each export match `git show HEAD:<path>` byte for byte.
+The repair tests now expect `A.I.M.M.` and `Effendi` in the honorific field.
+
+`coverage_b.tsv` matched 12,814 of 13,619 OCR word tokens (94.09%).
+Each of the 31 listings still below 90% was reread and has a reading note.
+The check removes heading occurrences and rejoins line-end word breaks.
+
+The second look drew 30 listings with seed 4713. Before fixes, 19 of 197
+roles and 29 of 338 connections disagreed (48 of 535, 9.0%). Two connections
+were missing. One listing had zero records. `audit_reread.tsv` preserves the
+pre-fix verdicts and IDs. Corrections addressed matching faults outside the draw.
+
+Check the interleaved staff on PDF 472, the agency fragments on PDF 477,
+and the staff continuation on PDF 500 against the images first. The Cargills
+agency continuation on PDF 474 also has interleaved columns.
+
+Listings with doubtful OCR or recovered layout
+
+`ferg1922:p468:b6:r1`, `ferg1922:p468:b6:r3`, `ferg1922:p468:b6:r4`, `ferg1922:p468:b6:r5`, `ferg1922:p468:b6:r7`, `ferg1922:p469:b2:r2`, `ferg1922:p469:b2:r3`, `ferg1922:p469:b2:r4`, `ferg1922:p470:b2:r2`, `ferg1922:p470:b2:r3`
+`ferg1922:p471:b2:r1`, `ferg1922:p471:b2:r2`, `ferg1922:p471:b2:r3`, `ferg1922:p472:b2:r1`, `ferg1922:p472:b2:r3`, `ferg1922:p473:b2:r1`, `ferg1922:p473:b2:r2`, `ferg1922:p473:b2:r3`, `ferg1922:p474:b2:r2`, `ferg1922:p474:b2:r3`
+`ferg1922:p475:b2:r4`, `ferg1922:p476:b2:r1`, `ferg1922:p476:b2:r2`, `ferg1922:p476:b2:r3`, `ferg1922:p476:b2:r4`, `ferg1922:p476:b2:r5`, `ferg1922:p476:b2:r6`, `ferg1922:p477:b2:r1`, `ferg1922:p477:b2:r2`, `ferg1922:p477:b2:r3`
+`ferg1922:p478:b2:r1`, `ferg1922:p478:b2:r4`, `ferg1922:p479:b2:r7`, `ferg1922:p480:b2:r1`, `ferg1922:p480:b2:r2`, `ferg1922:p480:b2:r3`, `ferg1922:p480:b2:r4`, `ferg1922:p481:b2:r1`, `ferg1922:p481:b2:r2`, `ferg1922:p481:b2:r3`
+`ferg1922:p481:b2:r4`, `ferg1922:p481:b2:r5`, `ferg1922:p481:b2:r6`, `ferg1922:p481:b2:r7`, `ferg1922:p482:b2:r1`, `ferg1922:p482:b2:r2`, `ferg1922:p482:b2:r5`, `ferg1922:p482:b2:r6`, `ferg1922:p483:b2:r4`, `ferg1922:p484:b2:r1`
+`ferg1922:p485:b2:r2`, `ferg1922:p486:b2:r2`, `ferg1922:p486:b2:r3`, `ferg1922:p486:b2:r4`, `ferg1922:p486:b2:r5`, `ferg1922:p487:b2:r2`, `ferg1922:p487:b2:r5`, `ferg1922:p487:b2:r6`, `ferg1922:p488:b2:r2`, `ferg1922:p488:b2:r3`
+`ferg1922:p489:b4:r0`, `ferg1922:p489:b6:r0`, `ferg1922:p489:b8:r0`, `ferg1922:p489:b10:r0`, `ferg1922:p490:b1:r1`, `ferg1922:p490:b1:r2`, `ferg1922:p490:b1:r3`, `ferg1922:p490:b1:r4`, `ferg1922:p491:b2:r5`, `ferg1922:p491:b2:r6`
+`ferg1922:p492:b2:r3`, `ferg1922:p492:b2:r7`, `ferg1922:p493:b2:r1`, `ferg1922:p493:b2:r2`, `ferg1922:p494:b2:r2`, `ferg1922:p494:b2:r4`, `ferg1922:p494:b2:r7`, `ferg1922:p495:b2:r5`, `ferg1922:p496:b2:r2`, `ferg1922:p497:b2:r6`
+`ferg1922:p497:b2:r8`, `ferg1922:p498:b2:r1`, `ferg1922:p499:b2:r3`, `ferg1922:p499:b2:r4`, `ferg1922:p500:b2:r4`
+
+All Kandy and Colombo pages are represented. PDF 489 and 490 lack printed
+page numbers in the OCR. The Chamber continuation starts on PDF 462.
 
 ## Original listing audit
 

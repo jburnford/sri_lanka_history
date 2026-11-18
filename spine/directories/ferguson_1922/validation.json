@@ -13,8 +13,8 @@
     },
     "B": {
       "listings": 153,
-      "roles": 979,
-      "connections": 1729
+      "roles": 957,
+      "connections": 1790
     },
     "C": {
       "listings": 215,
@@ -23,30 +23,31 @@
     }
   },
   "relation_class_counts": {
-    "agent_for": 743,
-    "branch_at": 240,
-    "correspondent": 252,
-    "has_agent": 206,
-    "head_office": 27,
-    "insurer_agent": 137,
-    "other": 205,
-    "represents": 10,
-    "secretary_for": 199,
-    "shipping_agent": 71
+    "agent_for": 668,
+    "branch_at": 300,
+    "correspondent": 240,
+    "has_agent": 289,
+    "head_office": 26,
+    "insurer_agent": 140,
+    "other": 215,
+    "represents": 6,
+    "secretary_for": 195,
+    "shipping_agent": 72
   },
   "role_class_counts": {
     "licensee": 8,
-    "manager": 127,
-    "officer": 261,
+    "manager": 136,
+    "officer": 259,
     "owner": 23,
-    "partner": 132,
-    "staff": 694,
-    "unknown": 213
+    "partner": 129,
+    "staff": 589,
+    "unknown": 292
   },
   "honorific_values": [
     "A. C. A.",
     "A. S. A. A.",
     "A.C.A.",
+    "A.I.M.M.",
     "A.M. I.C.E.",
     "A.M.I.E.S.",
     "AMIEE",
@@ -57,6 +58,7 @@
     "Col",
     "Dr",
     "Dr.",
+    "Effendi",
     "ESQ.",
     "Esq.",
     "F.C.A.",
@@ -80,10 +82,7 @@
     "U.P.M."
   ],
   "dropped_phrases": {
-    "ferg1922:p481:b2:r2": 1,
-    "ferg1922:p488:b2:r2": 2,
-    "ferg1922:p493:b2:r1": 1,
-    "ferg1922:p498:b2:r1": 2
+    "ferg1922:p481:b2:r2": 1
   },
   "skipped": {
     "461": "Military directories only. No Chamber heading or roster is present."

@@ -3,7 +3,8 @@
 // People view and People layer. Data: docs/data/people/, built by spine/people/build_atlas_people.py.
 // Uses the helpers in atlas.js (byId, add, elt, action, link, details, normalized, note, showView, route).
 //
-// Two kinds of record: "o" an official as printed in one Blue Book volume, "d" a person in a directory listing.
+// Kinds of record: "o" an official as printed in one Blue Book volume, "d" a person in a directory listing,
+// "b" a person in the timeline read from de Silva's History; "x" is a pointer to a similar printed name.
 // Records are grouped under a printed-name key (surname and initials). A group is not an identified person.
 
 const PEOPLE_PAGE = 40;
@@ -48,7 +49,7 @@ const peopleYearLabel = (value) => value === "d" ? "Directory, 1921–22" : valu
 
 // How many records a place has under the year filter: "" all, "d" directory only, or a Blue Book year.
 function peopleCount(place) {
-  if (!people.year) return place.o + place.d;
+  if (!people.year) return place.o + place.d + (place.b || 0);
   if (people.year === "d") return place.d;
   let total = 0;
   for (const [kind, year, n] of place.years) if (kind === "o" && String(year) === people.year) total += n;
@@ -183,6 +184,7 @@ async function peoplePaintPlace() {
   details(root, [
     ["Officials (Blue Books 1863–1917)", place.o ? place.o.toLocaleString("en") + " name-and-volume records" : "none"],
     ["Directory people (1921–22)", place.d ? place.d.toLocaleString("en") + " roles" : "none"],
+    ["In de Silva’s History", place.b ? place.b + (place.b === 1 ? " person" : " people") : ""],
     ["How the place was recognised", place.basis],
   ]);
   const filter = add(root, "div", undefined, "people-filter");
@@ -239,10 +241,11 @@ async function peoplePaintPlace() {
     for (const [kind, y, key, name, office, ref] of rows.slice(start, start + PEOPLE_PAGE)) {
       const li = add(ul, "li");
       action(li, name, () => peopleOpen(key));
-      add(li, "small", (kind === "d" ? "Directory " : "") + y + (office ? " · " + office : ""));
+      add(li, "small", (kind === "d" ? "Directory " : kind === "b" ? "de Silva’s History · " : "") + y + (office ? " · " + office : ""));
       const src = add(li, "span", undefined, "people-src");
       if (kind === "o" && ref && ref[0]) action(src, "Blue Book table →", () => peopleOpenTable(ref[0]));
       if (kind === "d") src.textContent = "Ferguson’s Directory 1922, PDF p. " + ref;
+      if (kind === "b" && ref) link(src, people.summary.book_source.pdf + "#page=" + ref[0], "A History of Sri Lanka, p. " + (ref[1] || "(scan " + ref[0] + ")") + " ↗");
     }
     pager.replaceChildren();
     if (pages > 1) {
@@ -346,7 +349,7 @@ async function peopleShow() {
   const s = people.summary;
   byId("people-summary").textContent = s.officials.toLocaleString("en") + " official records (one per name and Blue Book volume), of which " +
     s.officials_placed.toLocaleString("en") + " name a place on the map; " + s.directory.toLocaleString("en") +
-    " directory roles; " + s.names.toLocaleString("en") + " printed names.";
+    " directory roles; " + (s.book || 0).toLocaleString("en") + " people from de Silva’s History; " + s.names.toLocaleString("en") + " printed names.";
   if (people.state.key) return peopleDetail(ticket);
 
   const words = normalized(people.state.q).split(/[^a-z0-9]+/).filter(Boolean);
@@ -376,7 +379,7 @@ async function peopleShow() {
     action(cell, display, () => peopleOpen(key));
     add(tr, "td", from === to ? String(from) : from + "–" + to);
     add(tr, "td", String(n));
-    add(tr, "td", [kinds.includes("o") ? "Blue Books" : "", kinds.includes("d") ? "Directory 1922" : ""].filter(Boolean).join(" + "));
+    add(tr, "td", [kinds.includes("o") ? "Blue Books" : "", kinds.includes("d") ? "Directory 1922" : "", kinds.includes("b") ? "de Silva’s History" : ""].filter(Boolean).join(" + "));
     tr.addEventListener("click", (event) => { if (event.target.tagName !== "BUTTON") peopleOpen(key); });
   }
 }
@@ -401,6 +404,8 @@ async function peopleDetail(ticket) {
   }
   if (ticket !== people.version) return;
   if (!entries) return add(root, "p", "No records are filed under this printed name.", "help");
+  const pointers = entries.filter((e) => e.k === "x");
+  entries = entries.filter((e) => e.k !== "x");
   const names = [...new Set(entries.map((e) => e.name))];
   add(root, "div", "PRINTED NAME", "eyebrow");
   add(root, "h1", names[0]);
@@ -413,11 +418,17 @@ async function peopleDetail(ticket) {
   const body = add(table, "tbody");
   for (const e of entries) {
     const tr = add(body, "tr");
-    const year = add(tr, "td", String(e.y));
+    const year = add(tr, "td", e.y2 && e.y2 !== e.y ? e.y + "–" + e.y2 : String(e.y));
     if (e.k === "d") add(year, "small", e.dated);
+    if (e.k === "b") add(year, "small", "years the book mentions");
     const office = add(tr, "td");
     if (e.k === "o") office.textContent = e.office || "No office printed with this name";
-    else {
+    else if (e.k === "b") {
+      office.textContent = e.office || e.name;
+      if (e.desc) add(office, "small", e.desc);
+      const life = [e.community, e.born ? "born " + e.born : "", e.died ? "died " + e.died : ""].filter(Boolean).join(" · ");
+      if (life) add(office, "small", life);
+    } else {
       office.textContent = [e.office, e.firm].filter(Boolean).join(", ");
       if (e.address) add(office, "small", e.address);
       if (e.trades) add(office, "small", e.trades);
@@ -433,6 +444,19 @@ async function peopleDetail(ticket) {
       add(where, "small", how);
     }
     if (!e.places.length) add(where, "span", e.k === "o" ? "none printed" : e.town || "—", "muted");
+    if (e.k === "b") {
+      const source = add(tr, "td");
+      const book = people.summary.book_source;
+      link(source, book.item, "K. M. de Silva, A History of Sri Lanka (1981) ↗");
+      const pages = add(source, "small");
+      pages.append("pp. ");
+      (e.pages || []).forEach(([pdf, printed], i) => {
+        if (i) pages.append(", ");
+        link(pages, book.pdf + "#page=" + pdf, printed || "scan " + pdf);
+      });
+      add(tr, "td", undefined, "people-id").textContent = "A named person in a modern history; summary in our words, read from the scan by program.";
+      continue;
+    }
     const source = add(tr, "td");
     if (e.k === "o") {
       add(source, "span", "Blue Book " + e.y);
@@ -453,5 +477,15 @@ async function peopleDetail(ticket) {
     }
     if (e.roster) add(ident, "small", "Also in the Colonial Office List " + e.roster.edition + " establishment: " + e.roster.office);
     if (!e.col && !e.roster) add(ident, "span", "—", "muted");
+  }
+  if (pointers.length) {
+    add(root, "h2", "Similar printed names");
+    add(root, "p", "The same surname with initials that fit, in years that fit. Listed for comparison; no link has been checked.", "help");
+    const ul = add(root, "ul", undefined, "people-list");
+    for (const x of pointers) {
+      const li = add(ul, "li");
+      action(li, x.name, () => peopleOpen(x.key));
+      add(li, "small", (x.book ? "In de Silva’s History · " : x.n + " records · ") + (x.y2 && x.y2 !== x.y ? x.y + "–" + x.y2 : x.y) + " · " + x.note);
+    }
   }
 }

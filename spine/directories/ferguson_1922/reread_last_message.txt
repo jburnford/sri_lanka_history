@@ -1,0 +1,7 @@
+Completed the Colombo re-read. All 153 listing IDs are preserved. Section B now rebuilds from [colombo_readings.jsonl](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/colombo_readings.jsonl). Roles went from 979 to 957, and connections from 1,729 to 1,790. The 78 superseded overrides were removed.
+
+- [Coverage check](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/coverage_b.tsv) matched 94.09% of OCR word tokens. All 31 listings below 90% were reread and have notes.
+- [Second-look audit](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/audit_reread.tsv) found 48 disagreements among 535 records and two missing connections before fixes.
+- All nine repair tests passed. The only test change records `A.I.M.M.` and `Effendi` in the honorific field. Validation passed, and the A and C lines match `HEAD` byte for byte in all three exports.
+
+The [README](/home/jic823/ceylon/sri_lanka_history/spine/directories/ferguson_1922/README.md) lists the remaining doubtful entries and the OCR passages to check first.

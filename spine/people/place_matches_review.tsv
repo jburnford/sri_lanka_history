@@ -1,11 +1,11 @@
 place	how_matched	records
 Colombo	census town	12463
-Kandy	census town	4285
+Kandy	census town	4291
 Galle	census town	3820
-Jaffna	census town	3207
+Jaffna	census town	3215
 Matara	census town	2386
 Batticaloa	census town	2245
-Kurunegala	census town	2122
+Kurunegala	census town	2123
 Kalutara	census town	1779
 Trincomalee	census town	1733
 Ratnapura	census town	1639
@@ -15,16 +15,16 @@ Hambantota	census town	1273
 Negombo	census town	1234
 Matale	census town	1181
 Kegalle	census town	1171
-Anuradhapura	census town	1153
-Nuwara Eliya	census town	1088
-Mannar	town on Ferguson's 1893 map	963
+Anuradhapura	census town	1156
+Nuwara Eliya	census town	1089
+Mannar	town on Ferguson's 1893 map	964
 Chilaw	census town	884
 Mullaittivu	place on the 1936 Motor Map lists	707
 Tangalla	place on the 1936 Motor Map lists	515
-Point Pedro	place on the 1936 Motor Map lists	491
+Point Pedro	place on the 1936 Motor Map lists	492
 Panadura	census town	468
-Gampola	census town	377
-Avissawella	census town	352
+Gampola	census town	381
+Avissawella	census town	354
 Peradeniya	place on the 1936 Motor Map lists	346
 Welikada	Wikidata name	335
 Vavuniya	place on the 1936 Motor Map lists	297
@@ -37,7 +37,7 @@ Mahara	place on the 1936 Motor Map lists	177
 Beruwala	census town	151
 Galagedara	place on the 1936 Motor Map lists	150
 Bentota	place on the 1936 Motor Map lists	144
-Dumbara	Wikidata name	127
+Dumbara	Wikidata name	128
 Dambulla	place on the 1936 Motor Map lists	122
 Ragama	Wikidata name	114
 Nawalapitiya	census town	109
@@ -85,8 +85,8 @@ Alutgama	place on the 1936 Motor Map lists	40
 Minuwangoda	census town	37
 Kirinda	one of 2 Wikidata places of this name	36
 Deltota	Wikidata name	36
+Kotahena	Wikidata name	36
 Borella	Wikidata name	35
-Kotahena	Wikidata name	35
 Nilavelly	entry in the 1834 Gazetteer	35
 Passara	place on the 1936 Motor Map lists	34
 Nikaweratiya	place on the 1936 Motor Map lists	34
@@ -125,13 +125,14 @@ Kongahawela	Wikidata name	21
 Rambukkana	place on the 1936 Motor Map lists	19
 Grandpass	Wikidata name	18
 Hakmana	Wikidata name	18
+Tissamaharama	place on the 1936 Motor Map lists	18
 Anamaduwa	Wikidata name	18
 Palavi	Wikidata name	18
 Ellakkala	Wikidata name	18
 Puwakpitiya	Wikidata name	18
 Horana South	census town	18
+Sri Jayewardenepura Kotte	census town	17
 Hanguranketa	place on the 1936 Motor Map lists	17
-Tissamaharama	place on the 1936 Motor Map lists	17
 Kitulgala	place on the 1936 Motor Map lists	17
 Kadawata	place on the 1936 Motor Map lists	16
 Madulkele	Wikidata name	16
@@ -168,7 +169,6 @@ Pannawa	Wikidata name	12
 Nanaatan	entry in the 1834 Gazetteer	12
 Kolonnawa	census town	12
 Malwana	Wikidata name	12
-Sri Jayewardenepura Kotte	census town	11
 Alauwe	entry in the 1834 Gazetteer	11
 Ambawela	Wikidata name	11
 Ahangama	place on the 1936 Motor Map lists	11
@@ -194,6 +194,7 @@ Galahitiyawa	Wikidata name	9
 Kinigama	Wikidata name	9
 Batuwatta	Wikidata name	9
 Batapola	Wikidata name	9
+Dambadiniya	entry in the 1834 Gazetteer	8
 Lunawa	place on the 1936 Motor Map lists	8
 Ohiya	Wikidata name	8
 Pattipola	Wikidata name	8
@@ -217,7 +218,6 @@ Nugegoda	place on the 1936 Motor Map lists	7
 Kendangamuwa	Wikidata name	7
 Valvettithurai	Wikidata name	6
 Agrapatana	place on the 1936 Motor Map lists	6
-Dambadiniya	entry in the 1834 Gazetteer	6
 Pallegama	Wikidata name	6
 Gintota	place on the 1936 Motor Map lists	6
 Diyagama	Wikidata name	6
@@ -262,6 +262,7 @@ Handessa	Wikidata name	4
 Ganewatta	Wikidata name	4
 Marassana	Wikidata name	4
 Rupaha	Wikidata name	4
+Polonnaruwa	place on the 1936 Motor Map lists	4
 Manipay	entry in the 1834 Gazetteer	3
 Yatiyantota	place on the 1936 Motor Map lists	3
 Trincomalee Harbour	Wikidata name	3

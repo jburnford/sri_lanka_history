@@ -14,6 +14,17 @@ python spine/people/build_atlas_people.py
 | Officials | `bluebook/extracted/officer_matches.tsv` (Blue Books 1863–1917) | one name in one volume | 167,801 |
 | Directory people | `directories/ferguson_1922/roles.jsonl` (Ferguson 1922: Kandy, Colombo, associations and banks) | one role in one listing | 1,458 |
 
+De Silva's *History* is a third source: `desilva_people.json` (402 people), made by `import_desilva.py` from the
+timeline read from K. M. de Silva, *A History of Sri Lanka* (1981). It holds names, offices, dates, places, a
+one-line summary in our own words, and page numbers; each page links to the open scan at archive.org
+(`bub_gb_dByI_qil26YC`). The full timeline (events and evidence phrases) is kept outside the repository.
+`desilva_match_proposals.tsv` lists printed names that could be one of de Silva's people (same surname, initials
+that fit, years that fit) with a blank `decision` column. Most are namesakes (a clerk called J. de Silva is not
+the dramatist John de Silva), so nothing is merged on their strength, and the viewer shows them only where a
+person has three candidates or fewer. Where a de Silva person and Blue Book records fall under the same
+printed-name key (Sir Hugh Clifford, P. Arunachalam, J. F. Dickson) they appear on one name page, under the same
+caution as any shared name.
+
 Colonial Office List matches (`col_person`, and the establishment-list matches in `col_roster/`) are carried
 through and shown as proposed identifications with their confidence.
 
@@ -48,6 +59,7 @@ those were made by program (surname, initials, dates) and have not been checked 
 ## Known weak points
 - Office text is as the extractor left it: ditto marks ("do"), row letters, and two offices run together.
 - Some official names were split wrongly into surname and initials upstream; they sit under odd keys.
-- The Colombo section of the directory is being re-read; about one record in seven was wrong at the last check.
+- The Colombo section of the directory was read entry by entry by a language model; an independent sample of seven
+  listings (about 155 records) found none clearly wrong, but it has not been checked in full.
 - Directory people are placed at their town only. Street addresses are carried as text and not yet mapped.
 - Nothing here has been compared with the page by a person.

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Export people for the atlas's People view and People layer (docs/data/people/).
 
-Two kinds of record, kept apart:
+Three kinds of record, kept apart:
   o  officials: one name group per Blue Book volume (bluebook/extracted/officer_matches.tsv, 1863-1917)
   d  directory people: one role in one listing (directories/ferguson_1922/roles.jsonl)
+  b  people named in K. M. de Silva, A History of Sri Lanka (desilva_people.json), linked to the book's pages
 
 A record is placed on the map when its office title, department or listing names a place the gazetteer knows.
 The place is "named in the office", which is usually but not always where the person worked. Nothing here says
@@ -193,7 +194,8 @@ def make_matcher(names):
 # ---- records --------------------------------------------------------------------------------------------------
 
 TITLES = set("""the hon honble honourable sir mr mrs miss dr rev revd capt captain major col colonel lieut lt
-his her excellency honor honour lady madame mlle esq kt knt bart""".split())
+his her excellency honor honour lady madame mlle esq kt knt bart governor lord earl viscount bishop monsignor
+professor justice general admiral father fr ven venerable king queen prince""".split())
 
 
 def name_key(surname, initials):
@@ -322,9 +324,68 @@ def directory(match):
                    address=(listing.get("address_as_printed") or "")[:160], town=town,
                    trades=", ".join((listing.get("trades") or [])[:4])[:120],
                    section=listing["section"][3:90], page=role["pdf_page"], ref=role["role_id"],
-                   doubt=("Colombo list: being re-read entry by entry; about one record in seven was wrong at the "
-                          "last check" if section == "B" else "") or ("OCR doubtful" if "ocr_doubtful" in flags else ""),
+                   doubt="; ".join(v for v in ("OCR doubtful" if "ocr_doubtful" in flags else "",
+                                               "page layout lost in OCR" if "structure_lost" in flags else "") if v),
                    places=[(p["id"], how) for p, how in places])
+
+
+def book(match):
+    """People in the timeline read from de Silva's History (desilva_people.json, made by import_desilva.py)."""
+    path = HERE / "desilva_people.json"
+    if not path.exists():
+        return
+    data = json.loads(path.read_text())
+    for person in data["people"]:
+        forms = [person["name"]] + [a for a in person["aliases"] if "(" not in a]
+        key = printed_key(forms[:1], "", "")
+        if ":" not in key:   # the main name is a bare surname or a title: an alias may carry the given names
+            fuller = [printed_key([form], "", "") for form in forms[1:]]
+            fuller = [k for k in fuller if ":" in k and k.split(":")[0] == key]
+            if fuller:
+                key = max(fuller, key=len)
+        roles = []
+        for role in person["roles"]:
+            span = "–".join(v[:4] for v in (role["start"], role["end"]) if v)
+            roles.append(", ".join(v for v in (role["title"], role["organization"]) if v) + (f" ({span})" if span else ""))
+        text = " ; ".join([r["title"] for r in person["roles"]] + [pl["name"] + " ; " + pl["modern"] for pl in person["places"]])
+        yield dict(k="b", key=key, name=person["name"][:90], y=person["first_year"], y2=person["last_year"],
+                   office="; ".join(dict.fromkeys(roles))[:260], desc=person["description"][:320],
+                   community=person["community"], born=str(person["born"])[:12], died=str(person["died"])[:12],
+                   pages=person["pages"][:14], ref=person["id"],
+                   places=[(p["id"], how) for p, how in match(text)])
+
+
+def cross_references(by_key):
+    """Printed names that could be a person in de Silva: same surname, compatible initials, dates within reach.
+    Proposals for a reader to judge; nothing is merged on the strength of them."""
+    by_surname = collections.defaultdict(list)
+    for key in by_key:
+        by_surname[key.split(":")[0]].append(key)
+    proposals = []
+    for key, items in by_key.items():
+        for record in items:
+            if record["k"] != "b" or ":" not in key or record["y2"] < 1850 or record["y"] > 1930:
+                continue
+            surname, initials = key.split(":")
+            mine = initials.split("_")
+            for other in by_surname[surname]:
+                if other == key or ":" not in other:
+                    continue
+                theirs = other.split(":")[1].split("_")
+                records = [r for r in by_key[other] if r["k"] in "od"]
+                if not records:
+                    continue
+                short, long = sorted((mine, theirs), key=len)
+                if long[:len(short)] != short:
+                    continue
+                first, last = min(r["y"] for r in records), max(r["y"] for r in records)
+                if last < record["y"] - 25 or first > record["y2"] + 25:
+                    continue
+                proposals.append(dict(book_key=key, book=record, other=other, first=first, last=last, n=len(records),
+                                      display=collections.Counter(r["name"] for r in records).most_common(1)[0][0],
+                                      offices=[r["office"] for r in records if r["office"]][:3],
+                                      grade="surname and first initials agree; the other name has more initials"))
+    return proposals
 
 
 def write(name, value):
@@ -342,7 +403,7 @@ def main():
     places, names = build_gazetteer()
     match = make_matcher(names)
     col_people = {row["id"]: row for row in read_tsv(SPINE / "graph" / "col_persons.tsv.gz")}
-    records = list(officials(match, col_people)) + list(directory(match))
+    records = list(officials(match, col_people)) + list(directory(match)) + list(book(match))
 
     shutil.rmtree(OUT, ignore_errors=True)
     by_place = collections.defaultdict(list)
@@ -362,16 +423,21 @@ def main():
         for record in items:
             years[(record["k"], record["y"])] += 1
         hows = sorted({how for (pid, how) in how_used if pid == place_id})
+        if not (years := years):
+            continue
         file_id = slug(place_id)
         place_rows.append(dict(id=file_id, name=place["name"], lat=place["lat"], lon=place["lon"], qid=place["qid"],
                                basis="; ".join(hows), o=sum(1 for r in items if r["k"] == "o"),
-                               d=sum(1 for r in items if r["k"] == "d"),
+                               d=sum(1 for r in items if r["k"] == "d"), b=sum(1 for r in items if r["k"] == "b"),
                                oy=sorted({y for (k, y) in years if k == "o"}),
                                years=[[k, y, n] for (k, y), n in sorted(years.items())]))
         rows = []
         for record in sorted(items, key=lambda r: (r["y"], norm(r["name"]))):
             if record["k"] == "o":
                 rows.append(["o", record["y"], record["key"], record["name"], record["office"], record["tables"][:1]])
+            elif record["k"] == "b":
+                rows.append(["b", record["y"], record["key"], record["name"], record["office"] or record["desc"],
+                             record["pages"][0] if record["pages"] else None])
             else:
                 rows.append(["d", record["y"], record["key"], record["name"],
                              " — ".join(v for v in (record["office"], record["firm"], record["address"]) if v),
@@ -383,17 +449,37 @@ def main():
     name_of = {slug(place_id): places[place_id]["name"] for place_id in by_place}
 
     # names: a light index for search, and the full entries in shards by the first two letters of the key
+    proposals = cross_references(by_key)
+    see_also = collections.defaultdict(list)
+    per_person = collections.Counter(item["book_key"] for item in proposals)
+    for item in proposals:
+        if per_person[item["book_key"]] > 3:   # a common name: too many candidates to be worth showing; see the TSV
+            continue
+        book_record = item["book"]
+        see_also[item["book_key"]].append(dict(k="x", key=item["other"], name=item["display"], y=item["first"],
+                                               y2=item["last"], n=item["n"], note=item["grade"]))
+        see_also[item["other"]].append(dict(k="x", key=item["book_key"], name=book_record["name"], y=book_record["y"],
+                                            y2=book_record["y2"], n=1, book=True, note=item["grade"]))
+    with (HERE / "desilva_match_proposals.tsv").open("w", encoding="utf-8", newline="") as handle:
+        out = csv.writer(handle, delimiter="\t", lineterminator="\n")
+        out.writerow(["desilva_id", "desilva_name", "desilva_years", "desilva_description", "printed_name_key",
+                      "printed_name", "record_years", "records", "sample_offices", "basis", "decision"])
+        for item in sorted(proposals, key=lambda i: (i["book"]["name"], i["other"])):
+            b = item["book"]
+            out.writerow([b["ref"], b["name"], f'{b["y"]}-{b["y2"]}', b["desc"], item["other"], item["display"],
+                          f'{item["first"]}-{item["last"]}', item["n"], " | ".join(item["offices"])[:400], item["grade"], ""])
     index, shards = [], collections.defaultdict(dict)
     for key, items in by_key.items():
         items.sort(key=lambda r: (r["y"], r["k"]))
         display = collections.Counter(r["name"] for r in items).most_common(1)[0][0]
         kinds = "".join(sorted({r["k"] for r in items}))
-        index.append([key, display, items[0]["y"], items[-1]["y"], len(items), kinds])
+        index.append([key, display, items[0]["y"], max(r.get("y2") or r["y"] for r in items), len(items), kinds])
         entries = []
         for record in items:
             entry = {k: v for k, v in record.items() if k not in ("key", "places") and v not in ("", None, [])}
             entry["places"] = [[slug_of[p], name_of[slug_of[p]], how] for p, how in record["places"]]
             entries.append(entry)
+        entries.extend(see_also.get(key, []))
         shard = (re.sub(r"[^a-z]", "", key)[:2] or "zz").ljust(2, "_")
         shards[shard][key] = entries
     index.sort(key=lambda row: row[0])
@@ -404,7 +490,9 @@ def main():
     placed = collections.Counter(r["k"] for r in records if r["places"])
     total = collections.Counter(r["k"] for r in records)
     summary = dict(officials=total["o"], officials_placed=placed["o"], directory=total["d"],
-                   directory_placed=placed["d"], places=len(place_rows), names=len(index),
+                   directory_placed=placed["d"], book=total["b"], book_placed=placed["b"],
+                   book_source=json.loads((HERE / "desilva_people.json").read_text())["source"] if total["b"] else None,
+                   places=len(place_rows), names=len(index),
                    official_years=sorted({r["y"] for r in records if r["k"] == "o"}),
                    directory_source=HOCT_1922)
     write("summary.json", summary)
