@@ -146,20 +146,21 @@ def main():
     for concept_id, year, unit, quantity, value, q_rank, label in uk_ceylon:
         unit = (unit or "").strip(". ").lower()
         if quantity:
-            ukq[(concept_id, year)].append((quantity, unit, q_rank, label))
+            ukq[(concept_id, year)].append((quantity, unit, q_rank, label, value))
 
     with (HERE / "mirror.tsv").open("w", encoding="utf-8", newline="") as handle:
         out = csv.writer(handle, delimiter="\t", lineterminator="\n")
         out.writerow(["commodity", "year", "unit", "ceylon_exports_to_uk", "uk_imports_from_ceylon", "ratio_ceylon_to_uk",
                       "status", "ceylon_articles_summed", "ceylon_share_of_quantity", "ceylon_share_of_value",
                       "ceylon_internal_check", "uk_rank", "uk_readings", "uk_unit", "uk_vs_neighbours",
-                      "ceylon_vs_uk_neighbours", "points_to", "ceylon_tables"])
+                      "ceylon_vs_uk_neighbours", "points_to", "ceylon_tables",
+                      "ceylon_value_rs", "uk_value_pounds", "pounds_per_rupee_implied", "rupees_per_unit", "pounds_per_unit"])
         for title, ceylon_concepts, uk_concept, unit, uk_unit, minor in MIRROR:
             per = LB_PER[unit]
             series = {}
             for year in range(1880, 1901):
                 readings = ukq.get((uk_concept, year), [])
-                usable = [(q * LB_PER[u or uk_unit] / per, r, u or uk_unit + " (assumed)") for q, u, r, _ in readings
+                usable = [(q * LB_PER[u or uk_unit] / per, r, u or uk_unit + " (assumed)", v) for q, u, r, _, v in readings
                           if u in LB_PER or not u]
                 # more than one UK reading for a year: prefer the best rank, then the larger (a sub-line may repeat)
                 series[year] = min(usable, key=lambda item: (item[1], -item[0])) if usable else None
@@ -227,7 +228,12 @@ def main():
                               f"{share_q:.3f}" if share_q is not None else "", f"{share_v:.3f}" if share_v is not None else "",
                               internal, series[year][1] if series[year] else "", len(ukq.get((uk_concept, year), [])),
                               series[year][2] if series[year] else "", neighbours, fits, points,
-                              " ".join(sorted(c["tables"]))])
+                              " ".join(sorted(c["tables"])),
+                              f"{c['uk_v']:.0f}" if c["n"] and c["uk_v"] else "",
+                              f"{series[year][3]:.0f}" if series[year] and series[year][3] else "",
+                              f"{series[year][3] / c['uk_v']:.4f}" if series[year] and series[year][3] and c["n"] and c["uk_v"] else "",
+                              f"{c['uk_v'] / ceylon_value:.4f}" if ceylon_value and c["uk_v"] else "",
+                              f"{series[year][3] / uk_value:.5f}" if uk_value and series[year][3] else ""])
 
 
 if __name__ == "__main__":

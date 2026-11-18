@@ -72,6 +72,27 @@ and arrival dates, declared destination, cargo sent "for orders"), so a few per 
 - The unqualified "Cocoanut" line, where it was read, runs at 0.76 to 1.36 times UK coconut oil imports from
   Ceylon, the right order of magnitude for it to be the oil line, but not close enough to settle it.
 
+## What the values add (`mirror.tsv`, last five columns)
+
+The plan was to use the two value columns as an exchange-rate check: rupees on one side, sterling on the other.
+It does not work that way, and the reason is useful. Ceylon valued its staple exports at an **official price fixed
+for duty**, so the value in a row is the quantity times a round figure: tea at Rs 0.65 a pound in 1885–86, 0.50 in
+1890, 0.45 in 1891; plantation coffee at Rs 52 a hundredweight in 1880; plumbago at Rs 10 a hundredweight for
+years on end. The ratio of the UK's declared sterling value to that is not a market exchange rate (it runs at
+22–25 pence a rupee for tea when the rupee was worth far less).
+
+What the values do give:
+- **A check inside the Ceylon ledger that needs no other source.** Every country row of a staple in one year
+  shares the same price. In the 1880–1900 export file, 135 articles have such a common price, covering 1,699
+  country rows; 69 rows (4%) break it, six of them by a factor of ten. Tea to the United Kingdom in 1891 is one:
+  its value divided by Rs 0.45 gives about 63.38 million pounds, where the quantity cell reads 6.34 million.
+  Plantation coffee to the United Kingdom in 1883 is another, with the fault in the value. The other 435 articles
+  have no common price, so the check is confined to the staples valued this way.
+- **Unit values on the UK side.** UK tea from Ceylon is worth about £0.04–0.07 a pound in every year except 1893,
+  where the reading gives £0.017. So the 1893 UK row is out of line in its value as well as its quantity.
+
+None of this corrects a figure. It says which cell to look at on the page, and what it probably says.
+
 ## Limits
 - Rules, not reading: the assignments were made by pattern and read down once by Claude. Not reviewed by a person.
 - The UK side is used as exported on 17 August 2026; that repository has later uncommitted work.
