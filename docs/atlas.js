@@ -267,6 +267,7 @@ function resetLayers() {
     if (input) input.checked = Boolean(entry.visible);
     toggle(entry.id, Boolean(entry.visible));
   }
+  peopleReset();
 }
 
 function updateHash(value, push = false) {
@@ -604,13 +605,16 @@ function showView(id, setHash = true, push = false) {
   if (setHash) {
     if (id === "map" && selection) {
       updateHash("map=" + encodeURIComponent(selection.meta.id) + "/" + encodeURIComponent(featureId(selection.feature)), push);
-    } else if (id === "bluebook") updateHash(bluebookHash(), push);
+    } else if (id === "map" && peoplePlaceShown()) updateHash("people-place=" + encodeURIComponent(people.place.id), push);
+    else if (id === "bluebook") updateHash(bluebookHash(), push);
+    else if (id === "people") updateHash(peopleHash(), push);
     else updateHash(id, push);
   }
   if (id === "map") requestAnimationFrame(() => map.invalidateSize());
   if (id === "records") paintRecords();
   if (id === "sources") paintSources();
   if (id === "bluebook" && setHash) bluebookShowSearch();
+  if (id === "people" && setHash) peopleShowSearch();
 }
 
 function openRecords(id, query = "") {
@@ -734,7 +738,8 @@ function bindViews() {
   // Moving between views adds a history entry so that the browser's Back button returns to the previous view.
   document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => {
     const id = button.dataset.view;
-    showView(id, true, id !== view || id === "bluebook");
+    if (id === "people") people.state.key = "";
+    showView(id, true, id !== view || id === "bluebook" || id === "people");
   }));
   document.querySelector(".brand").addEventListener("click", (event) => {
     event.preventDefault();
@@ -772,6 +777,7 @@ async function start() {
   atlas = await request("atlas.json");
   makeMap();
   addLayerControls();
+  peopleInit();   // people.js: adds the People group to the layer panel
   bindViews();
   bindSearch();
   resetLayers();
@@ -794,6 +800,7 @@ async function route() {
     showView("bluebook", false);
     return bluebookRoute(hash);
   }
+  if (hash.startsWith("people")) return peopleRoute(hash);
   if (hash.startsWith("map=")) {
     try {
       const [id, ref] = hash.slice(4).split("/").map(decodeURIComponent);

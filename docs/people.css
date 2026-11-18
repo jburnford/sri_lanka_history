@@ -1,0 +1,16 @@
+/* People view and People layer. Kept apart from styles.css, which belongs to the map and record views. */
+.people-caution{border-left:3px solid #a36a25;padding:.35rem .7rem;margin:.6rem 0;background:rgba(163,106,37,.08);font-size:.86rem;line-height:1.4}
+.people-list{list-style:none;margin:.5rem 0;padding:0}
+.people-list li{padding:.4rem 0;border-top:1px solid rgba(38,59,64,.14);font-size:.86rem;line-height:1.35}
+.people-list li button.text-button{font-weight:600;text-align:left;padding:0}
+.people-list small{display:block;opacity:.82}
+.people-list .people-src{font-size:.78rem;opacity:.8}
+.people-filter{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
+.people-filter label{font-size:.8rem;display:flex;flex-direction:column;gap:.15rem}
+.people-layer-year{margin:.2rem 0 .5rem 1.7rem;font-size:.8rem;display:flex;flex-direction:column;gap:.15rem}
+.people-entries td,.people-entries th{vertical-align:top}
+.people-entries td small{display:block;opacity:.8}
+.people-entries .text-button{padding:0;text-align:left}
+#people-detail h2{margin-top:1.2rem}
+#people-results tr{cursor:pointer}
+.people-id{font-size:.82rem}
