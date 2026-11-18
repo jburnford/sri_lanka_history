@@ -1,0 +1,109 @@
+commodity	year	volume	unit	ceylon_exports_to_uk_reread	ceylon_reading	uk_imports_from_ceylon	ratio_ceylon_to_uk	status	first_pass_ceylon	first_pass_status	ceylon_value_rs	ceylon_articles	ceylon_total_vs_components	ceylon_price_check	uk_rank	uk_vs_neighbours	ceylon_rows
+tea	1880	1880	lb	147924	clear	150395	0.984	agree within 5%		ceylon missing	135133	Tea 147924	Tea: components sum to 148424, total cell reads 147924		1		bb1880:p538:t1:r3
+tea	1881	1881	lb	206578	clear	171676	1.203	differ more than 15%	206578	differ more than 15%	171134	Tea 206578			1	0.62	bb1881:p511:t1:r21
+tea	1882	1882	lb	660697	clear	507081	1.303	differ more than 15%		ceylon missing	560512	Tea 660697			1	0.86	bb1882:p506:t1:r38
+tea	1883	1883	lb	1618331	doubtful	2005510	0.807	differ more than 15%		ceylon missing	890082	Tea 1618331			3	1.89	bb1883:p517:t1:r10+11
+tea	1885	1885	lb	4246849	clear	4212214	1.008	agree within 5%	4246849	agree within 5%	2760478	Tea 4246849			3	1.06	bb1885:p542:t1:r3
+tea	1886	1886	lb	7626123	clear	7144313	1.067	differ 5-15%	7626123	differ 5-15%	4956980	Tea 7626123			3	0.96	bb1886:p491:t1:r8
+tea	1887	1887	lb	13282980	clear	13062040	1.017	agree within 5%	13282980	agree within 5%	7969788	Tea 13282980			3	1.03	bb1887:p494:t1:r2
+tea	1889	1889b	lb	32657590	clear	32673294	1.000	agree within 5%	32657590	agree within 5%	16981946	Tea 32657590			2	1.06	bb1889b:p245:t1:r2
+tea	1890	1890	lb	42855071	clear	42491112	1.009	agree within 5%	42855071	agree within 5%	21427536	Tea 42855071			3	0.94	bb1890:p535:t1:r4
+tea	1891	1891	lb	6338254	clear	61900075	0.102	differ more than 15%	6338254	differ more than 15%	28522141	Tea 6338254		Tea: row price is 10.00 times the block price of Rs 0.45; the value implies a quantity of 63382535	3	1.17	bb1891:p528:t1:r14
+tea	1892	1892	lb	65824822	clear	66011630	0.997	agree within 5%		ceylon missing	29621170	Tea 65824822			3	1.05	bb1892:p564:t1:r24
+tea	1893	1893	lb	73355840	clear	64218062	1.142	differ 5-15%	73355840	differ 5-15%	36311141	Tea 73355840			2	0.90	bb1893:p581:t1:r14
+tea	1894	1894	lb	76434118	clear	76311436	1.002	agree within 5%	76434118	agree within 5%	41274423	Tea 76434118			3	1.04	bb1894:p546:t1:r3
+tea	1896	1896	lb	95487060	clear	94859965	1.007	agree within 5%	95487060	agree within 5%	36285083	Tea ... 95487060			3	1.06	bb1896:p579:t1:r3
+tea	1897	1897	lb	97500012	clear	96325578	1.012	agree within 5%	97500012	agree within 5%	39975005	Tea 97500012			3	1.00	bb1897:p570:t1:r17
+tea	1898	1898	lb	99256128	clear	97613977	1.017	agree within 5%	99256128	agree within 5%	38709890	Tea 99256128			3	0.99	bb1898:p585:t1:r9
+tea	1899	1899	lb	103651068	doubtful	101700896	1.019	agree within 5%		ceylon missing	41460427	Tea 103651068			2	0.96	bb1899:p588:t1:r24
+tea	1900	1900	lb	114078447	clear	114480023	0.996	agree within 5%		ceylon missing	41068241	Tea ... 114078447			3		bb1900:p633:t1:r2
+coffee, raw (all kinds)	1880	1880	cwt	543657	clear	539757	1.007	agree within 5%	531232	agree within 5%	31848525	Coffee, Plantation 531232; Native 12426		Native: row price is 10.00 times the block price of Rs 34; the value implies a quantity of 124249	3		bb1880:p527:t1:r25; bb1880:p527:t1:r40
+coffee, raw (all kinds)	1881	1881	cwt	334175	clear	331582	1.008	agree within 5%	334175	agree within 5%	16689203	Coffee, Plantation 332896; Coffee, Native 1200; Coffee, Liberian 79			2	0.73	bb1881:p499:t1:r49; bb1881:p500:t1:r14; bb1881:p500:t1:r3
+coffee, raw (all kinds)	1882	1882	cwt	346233	clear	380658	0.910	differ 5-15%		ceylon missing	13794477	Pee, Plantation 343000; - Native 3226; - Liberian 7			1	1.38	bb1882:p495:t1:r27; bb1882:p495:t1:r42; bb1882:p495:t1:r52
+coffee, raw (all kinds)	1883	1883	cwt	231475	clear	227848	1.016	agree within 5%	230124	agree within 5%	1078565	Coffee, Plantation 230124; — Native 860; — Liberian 491		Coffee, Plantation: row price is 0.10 times the block price of Rs 45; the value implies a quantity of 23013	1	0.74	bb1883:p504:t1:r13; bb1883:p504:t1:r30; bb1883:p504:t1:r41
+coffee, raw (all kinds)	1885	1885	cwt	241751	clear	246784	0.980	agree within 5%	238670	agree within 5%	9623841	Coffee, Plantation 238670; — Native 33; — Liberian 3048			3	1.25	bb1885:p528:t1:r13; bb1885:p528:t1:r33; bb1885:p528:t1:r46
+coffee, raw (all kinds)	1886	1886	cwt	135552	clear	155538	0.872	differ 5-15%	2751	ceylon partial: main line not read	6054909	Coffee, Plantation 132433; — Native 368; Coffee, Liberian 2751			1	0.86	bb1886:p476:t1:r33; bb1886:p476:t1:r55; bb1886:p477:t1:r2
+coffee, raw (all kinds)	1887	1887	cwt	132464	clear	133872	0.989	agree within 5%	129505	agree within 5%	8549822	Coffee, Plantation 129417; Coffee, Native 88; Liberian 2958			1	1.04	bb1887:p479:t1:r34; bb1887:p480:t1:r15; bb1887:p480:t1:r2
+coffee, raw (all kinds)	1889	1889b	cwt	61266	clear	55236	1.109	differ 5-15%	301	ceylon partial: main line not read	4154944	Plantation 60604; Coffee, Native 301; Liberian 361			3	0.65	bb1889b:p229:t1:r47; bb1889b:p230:t1:r17; bb1889b:p230:t1:r3
+coffee, raw (all kinds)	1890	1890	cwt	58263	clear	69115	0.843	differ more than 15%	57482	differ more than 15%	3838427	Coffee, Plantation 57099; Coffee, Native 382; Liberian 781		Coffee, Native: row price is 4.33 times the block price of Rs 55; the value implies a quantity of 1655	3	1.16	bb1890:p518:t1:r33; bb1890:p519:t1:r17; bb1890:p519:t1:r2
+coffee, raw (all kinds)	1891	1891	cwt	62775	doubtful	64582	0.972	agree within 5%	409	ceylon partial: main line not read	4067324	Coffee, Plantation 61893; Coffee, Native 409; Liberian 474			3	1.49	bb1891:p512:t1:r33; bb1891:p513:t1:r16; bb1891:p513:t1:r2
+coffee, raw (all kinds)	1892	1892	cwt	24861	clear	27168	0.915	differ 5-15%	24153	differ 5-15%	1910554	Coffee, Plantation 24135; Coffee, Native 18; Liberian 708			3	0.56	bb1892:p547:t1:r32; bb1892:p548:t1:r13; bb1892:p548:t1:r3
+coffee, raw (all kinds)	1893	1893	cwt	36323	clear	36149	1.005	agree within 5%	462	ceylon partial: main line not read	2823529	Coffee, Liberian 462; Coffee, Native 14; Coffee, Plantation 35846		Coffee, Native: row price is 0.77 times the block price of Rs 63.5; the value implies a quantity of 11	3	1.58	bb1893:p576:t1:r35; bb1893:p577:t1:r19; bb1893:p577:t1:r3
+coffee, raw (all kinds)	1894	1894	cwt	20266	clear	19314	1.049	agree within 5%	389	ceylon partial: main line not read	1808140	Coffee, Liberian ... 389; Native ... 116; Coffee, Plantation 19761			1	0.47	bb1894:p541:t1:r23; bb1894:p541:t1:r30; bb1894:p542:t1:r4
+coffee, raw (all kinds)	1896	1896	cwt	13574	clear	13523	1.004	agree within 5%	419	ceylon partial: main line not read	1044269	Coffee, Liberian 419; — Plantation 13155			2	0.53	bb1896:p575:t1:r22; bb1896:p575:t1:r3
+coffee, raw (all kinds)	1897	1897	cwt	12890	clear	13941	0.925	differ 5-15%		ceylon missing	1029162	Coffee, Liberian 232; Native 280; Plantation 12377			3	1.31	bb1897:p566:t1:r20; bb1897:p566:t1:r26; bb1897:p566:t1:r35
+coffee, raw (all kinds)	1898	1898	cwt	8802	clear	8385	1.050	agree within 5%	457	ceylon partial: main line not read	624357	Coffee, Liberian 457; Plantation 8345			2	0.54	bb1898:p581:t1:r15; bb1898:p581:t1:r27
+coffee, raw (all kinds)	1899	1899	cwt	15295	clear	17535	0.872	differ 5-15%	52	ceylon partial: main line not read	1082116	Coffee, Liberian 52; — Native 1; — Plantation 15243			3	1.91	bb1899:p584:t1:r15; bb1899:p584:t1:r16; bb1899:p584:t1:r21
+coffee, raw (all kinds)	1900	1900	cwt	7457	clear	10074	0.740	differ more than 15%		ceylon missing	434095	Native ... 74; Plantation ... 7046; Liberian ... 337			2		bb1900:p627:t1:r54; bb1900:p628:t1:r2; bb1900:p628:t1:r29
+cinchona bark	1880	1880	cwt	10330	clear			uk missing		both missing	1261951	Cinchona Bark 10330					bb1880:p526:t1:r47
+cinchona bark	1881	1881	cwt	8658	clear			uk missing	8658	uk missing	910910	Cinchona Bark 8658					bb1881:p499:t1:r2
+cinchona bark	1882	1882	cwt	35059	clear	22868	1.533	differ more than 15%		ceylon missing	2720269	Cinchona Bark 35059			2		bb1882:p494:t1:r47
+cinchona bark	1883	1883	cwt	49424	clear	47860	1.033	agree within 5%		ceylon missing	3321287	Puncha Bark 49424			2	1.13	bb1883:p503:t1:r12
+cinchona bark	1885	1885	cwt	113374	clear	106375	1.066	differ 5-15%		ceylon missing	3770898	Vinchona Bark 113374			2	1.12	bb1885:p527:t1:r11
+cinchona bark	1886	1886	cwt	115824	clear	114932	1.008	agree within 5%		ceylon missing	4093466	Cinchona Bark 115824			3	1.09	bb1886:p475:t1:r23
+cinchona bark	1887	1887	cwt	108876	clear	105282	1.034	agree within 5%		ceylon missing	2307925	Cinchona Bark 108876			2	0.96	bb1887:p478:t1:r32
+cinchona bark	1889	1889b	cwt	80716	clear	80951	0.997	agree within 5%		ceylon missing	1616993	Cinchona Bark 80716			2	0.93	bb1889b:p229:t1:r3
+cinchona bark	1890	1890	cwt	72820	clear	72638	1.003	agree within 5%		ceylon missing	978700	Inchona Bark 72820			2	1.17	bb1890:p518:t1:r2
+cinchona bark	1891	1891	cwt	46066	doubtful	47527	0.969	agree within 5%		ceylon missing	619638	Cinchona Bark 46066	Cinchona Bark: components sum to 54994, total cell reads 46066		2	0.73	bb1891:p511:t1:r50
+cinchona bark	1892	1892	cwt	55353	doubtful	57614	0.961	agree within 5%		ceylon missing	743939	Cinnamon Bark 55353			2	1.53	bb1892:p546:t1:r55
+cinchona bark	1893	1893	cwt	28237	clear	29859	0.946	differ 5-15%		ceylon missing	253006	Cinchona Bark 28237			2	0.82	bb1893:p587:t1:r37
+cinchona bark	1894	1894	cwt	19670	clear	23067	0.853	differ 5-15%		ceylon missing	176241	Cinchona Bark 19670			2	1.47	bb1894:p552:t1:r28
+cinchona bark	1896	1896	cwt	10218	clear	12579	0.812	differ more than 15%		ceylon missing	57212	Cinchona Bark 10218			2	2.09	bb1896:p585:t1:r13
+cinchona bark	1897	1897	cwt	4758	clear	4400	1.081	differ 5-15%	4758	differ 5-15%	29308	Cinchona ... 4758			1	0.52	bb1897:p576:t1:r17
+cinchona bark	1898	1898	cwt		unreadable	5605		ceylon unreadable		ceylon missing					2	0.94	bb1898:p591:t1:r34
+cinchona bark	1899	1899	cwt	5151	clear	8150	0.632	differ more than 15%		ceylon missing	40383	Cinchona Bark 5151			2	1.23	bb1899:p595:t1:r4
+cinchona bark	1900	1900	cwt	5129	clear	7892	0.650	differ more than 15%	5129	differ more than 15%	63195	Cinchona-Bark ... 5129			2		bb1900:p635:t1:r18
+cinnamon	1880	1880	lb	1375926	clear	1377272	0.999	agree within 5%	1375926	agree within 5%	687963	Cinnamon 1375926			2		bb1880:p527:t1:r2
+cinnamon	1881	1881	lb	1566425	clear	1529698	1.024	agree within 5%	1566425	agree within 5%	782712	Cinnamon 1566425	Cinnamon: components sum to 1565425, total cell reads 1566425		2	1.06	bb1881:p499:t1:r16
+cinnamon	1882	1882	lb	1708374	doubtful	1499483	1.139	differ 5-15%		ceylon missing	854187	Peppermint 1708374			2	0.96	bb1882:p495:t1:r4
+cinnamon	1883	1883	lb	1843150	clear	1592395	1.157	differ more than 15%		ceylon missing	921575	Cinnamon 1843150			2	0.95	bb1883:p503:t1:r22
+cinnamon	1885	1885	lb	1691560	clear			uk missing		both missing	845780	Cinnamon 1691560					bb1885:p527:t1:r23
+cinnamon	1886	1886	lb	1413620	clear			uk missing		both missing	706810	Cinnamon 1413620	Cinnamon: components sum to 1408620, total cell reads 1413620				bb1886:p475:t1:r33
+cinnamon	1887	1887	lb	1030237	clear			uk missing		both missing	515118	Cinnamon 1030237					bb1887:p478:t1:r41
+cinnamon	1889	1889b	lb	1658245	clear			uk missing		both missing	829122	Cinnamon 1658245	Cinnamon: components sum to 658245, total cell reads 1658245				bb1889b:p228:t1:r34
+cinnamon	1890	1890	lb		unreadable			both missing		both missing							bb1890:p517:t1:r37
+cinnamon	1891	1891	lb	1377771	doubtful			uk missing		both missing	688886	Cinnamon 1377771					bb1891:p511:t1:r27
+cinnamon	1892	1892	lb	1038791	doubtful	1116299	0.931	differ 5-15%		ceylon missing	519396	Cinnamon 1038791			2		bb1892:p546:t1:r34
+cinnamon	1893	1893	lb	1230517	clear	1125227	1.094	differ 5-15%		ceylon missing	492207	Cinnamon 1230517			2	0.99	bb1893:p599:t1:r44
+cinnamon	1894	1894	lb	1180217	clear	1154223	1.023	agree within 5%		ceylon missing	472087	Cinnamon ... 1180217			2	0.86	bb1894:p564:t1:r5
+cinnamon	1896	1896	lb	1334086	clear	1252900	1.065	differ 5-15%		ceylon missing	533634	Cinnamon 1334086			2	0.80	bb1896:p597:t1:r5
+cinnamon	1897	1897	lb	1510409	doubtful	1527420	0.989	agree within 5%		ceylon missing	860933	Cinnamon 1510409			2	1.04	bb1897:p587:t1:r37
+cinnamon	1898	1898	lb	1667832	clear	1731324	0.963	agree within 5%		ceylon missing	950664	Cinnamon ... 1667832			2		bb1898:p603:t1:r2
+cinnamon	1899	1899	lb	2979107	clear			uk missing		both missing	1229751	Cinnamon 1932843; Cinnamon, wild 1046264					bb1899:p607:t1:r43; bb1899:p608:t1:r3
+cinnamon	1900	1900	lb	1336728	doubtful	1502380	0.890	differ 5-15%	265712	ceylon partial: main line not read	639871	Cinnamon, Plantation 1071016; Cinnamon, Wild ... 265712			3		bb1900:p630:t1:r37; bb1900:p631:t1:r2
+coconut oil	1880	1880	cwt			221076		ceylon: no United Kingdom row		ceylon missing					2		
+coconut oil	1881	1881	cwt	96712	clear	148366	0.652	differ more than 15%		ceylon missing	1203531	— Cocoanut 96712			2	1.24	bb1881:p507:t1:r34
+coconut oil	1882	1882	cwt	78014	clear	65254	1.196	differ more than 15%	78014	differ more than 15%	970826	Oil, Cocoanut 78014			2	0.49	bb1882:p503:t1:r2
+coconut oil	1883	1883	cwt	164826	clear	120776	1.365	differ more than 15%		ceylon missing	2051170	— Cocoanut 164826			2	1.24	bb1883:p512:t1:r27
+coconut oil	1885	1885	cwt	67486	clear			uk missing		both missing	839822	—Cocosnut 67486					bb1885:p537:t1:r42
+coconut oil	1886	1886	cwt	109007	clear			uk missing		both missing	1356528	— Cocoanut ... 109007					bb1886:p486:t1:r14
+coconut oil	1887	1887	cwt	106475	clear			uk missing		both missing	1325024	— Cocoanut 106475					bb1887:p489:t1:r24
+coconut oil	1889	1889b	cwt	137680	clear			uk missing		both missing	1713356	Cocoanut 137680					bb1889b:p240:t1:r14
+coconut oil	1890	1890	cwt	95895	clear			uk missing		both missing	1193354	— Coconut 95895					bb1890:p529:t1:r34
+coconut oil	1891	1891	cwt	137651	clear	129351	1.064	differ 5-15%		ceylon missing	1712989	Coconut 137651			2		bb1891:p523:t1:r19
+coconut oil	1892	1892	cwt	130512	clear	99498	1.312	differ more than 15%		ceylon missing	1624146	Cocoanut 130512			2	0.91	bb1892:p559:t1:r28
+coconut oil	1893	1893	cwt	86118	clear	92996	0.926	differ 5-15%		ceylon missing	1339607	Cocoanut 86118			2	0.67	bb1893:p596:t1:r18
+coconut oil	1894	1894	cwt	223190	clear	192676	1.158	differ more than 15%		ceylon missing	3471843	Coconut 223190			2	1.42	bb1894:p560:t1:r18
+coconut oil	1896	1896	cwt	99925	clear	106681	0.937	differ 5-15%		ceylon missing	1554391	Cocoanut 99925			2	0.76	bb1896:p593:t1:r39
+coconut oil	1897	1897	cwt	75010	clear	99212	0.756	differ more than 15%		ceylon missing	980382	Cocoanut 75010			3	0.85	bb1897:p584:t1:r21
+coconut oil	1898	1898	cwt	127166	doubtful	128231	0.992	agree within 5%		ceylon missing	1662064	Cocoanut 127166			3		bb1898:p599:t1:r44
+coconut oil	1899	1899	cwt	190592	clear			uk missing	190592	uk missing	2683540	Oil, Cocoanut 190592					bb1899:p604:t1:r2
+coconut oil	1900	1900	cwt	265203	clear	297861	0.890	differ 5-15%		ceylon missing	3779146	Cocoanut ... 265203			3		bb1900:p651:t1:r30
+plumbago	1880	1880	cwt	70276	clear	64580	1.088	differ 5-15%	70276	differ 5-15%	702758	Plumbago 70276			2		bb1880:p535:t1:r26
+plumbago	1881	1881	cwt	89709	clear	73080	1.228	differ more than 15%	89709	differ more than 15%	897086	Plumbago 89709			2		bb1881:p508:t1:r48
+plumbago	1882	1882	cwt	143451	clear			uk missing		both missing	1434505	Plumbago 143451					bb1882:p504:t1:r12
+plumbago	1883	1883	cwt	119313	clear			uk missing		both missing	1193126	Rumbago 119313					bb1883:p513:t1:r48
+plumbago	1885	1885	cwt	136964	clear			uk missing	136964	uk missing	1369639	Plumbago 136964					bb1885:p538:t1:r54
+plumbago	1886	1886	cwt	84877	clear	74340	1.142	differ 5-15%	84877	differ 5-15%	848768	Plumbago 84877			2		bb1886:p488:t1:r16
+plumbago	1887	1887	cwt	67252	clear	73120	0.920	differ 5-15%	67252	differ 5-15%	672525	Plumbago 67252			2		bb1887:p490:t1:r53
+plumbago	1889	1889b	cwt	213763	clear			uk missing	213763	uk missing	2137633	Plumbago 213763					bb1889b:p241:t1:r40
+plumbago	1890	1890	cwt	190737	clear			uk missing	190737	uk missing	1907368	Plumbago 190737					bb1890:p531:t1:r16
+plumbago	1891	1891	cwt	170624	clear	166040	1.028	agree within 5%		ceylon missing		Plumbago 170624			2		bb1891:p525:t1:r4
+plumbago	1892	1892	cwt	110226	clear	117540	0.938	differ 5-15%	110226	differ 5-15%	1102262	Plumbago 110226			2	0.85	bb1892:p561:t1:r2
+plumbago	1893	1893	cwt	107170	clear	115860	0.925	differ 5-15%	107170	differ 5-15%	803771	Minerals, Plumbago ... 107170			2	0.89	bb1893:p585:t1:r24
+plumbago	1894	1894	cwt		unreadable	143300		ceylon unreadable		ceylon missing					1	1.26	bb1894:p550:t1:r19
+plumbago	1896	1896	cwt	151104	clear	155180	0.974	agree within 5%		ceylon missing	1284385	Minerals, Plumbago 151104			2	1.13	bb1896:p583:t1:r13
+plumbago	1897	1897	cwt	170180	clear	169920	1.002	agree within 5%		ceylon missing	1646495	Minerals, Plumbago 170180			2	0.98	bb1897:p574:t1:r15
+plumbago	1898	1898	cwt	168361	clear	194320	0.866	differ 5-15%	168361	differ 5-15%	2525421	Minerals Plumbago 168361			2	1.01	bb1898:p589:t1:r26
+plumbago	1899	1899	cwt	216438	clear	217840	0.994	agree within 5%	216438	agree within 5%	7583029	Minerals, Plumbago 216438			2		bb1899:p593:t1:r3
+plumbago	1900	1900	cwt	138598	clear			uk missing		both missing	3464946	Plumbago 138598					bb1900:p638:t1:r30

@@ -1,0 +1,7 @@
+Completed all 18 volumes. The transcription covers 145 blocks and all 108 commodity-volume pairs. [The checker](spine/bluebook/jobs/main_exports_1880_1900_work/check.py) passes.
+
+- [Main export figures](spine/bluebook/jobs/main_exports_1880_1900_work/main_exports.tsv) — 8,367 clear, 147 doubtful, and 207 unreadable records.
+- [Block inventory and sum checks](spine/bluebook/jobs/main_exports_1880_1900_work/blocks.tsv)
+- [Status grid, rule-reader differences, and pages to review](spine/bluebook/jobs/main_exports_1880_1900_work/README.md)
+
+Displaced destination labels account for most unreadable records, especially in 1892 Tea and 1880 coconut oil. Two article identifications remain doubtful, and the source labels are preserved in both cases.

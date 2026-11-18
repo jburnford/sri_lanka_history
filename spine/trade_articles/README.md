@@ -93,6 +93,49 @@ What the values do give:
 
 None of this corrects a figure. It says which cell to look at on the page, and what it probably says.
 
+## Second pass: the main lines re-read (`pilot/mirror_reread.tsv`)
+
+The first pass left 69 of 126 commodity-years without a usable Ceylon figure. The export blocks for the six main
+lines were then re-read entry by entry by a language model (GPT-6.2 Sol, 18 November 2026) from the parsed tables
+of the 18 Blue Book volumes for 1880–1900, **without the UK figures**, so the UK side is an independent test of
+the reading. The readings are in `../bluebook/jobs/main_exports_1880_1900_work/` (8,721 records: 8,367 clear, 147
+doubtful, 207 unreadable). Claude compared a random 30 of the clear records with their source rows; all 30 matched.
+
+| Outcome | First pass (126 commodity-years) | Re-read (108 commodity-volumes) |
+|---|---:|---:|
+| Agree within 5% | 16 | 39 |
+| Differ 5–15% | 10 | 27 |
+| Differ more than 15% | 6 | 18 |
+| Ceylon has no usable main-line figure | 69 | 3 |
+| UK missing (Ceylon read) | 5 | 20 |
+
+(There are 18 volumes; no Blue Book for 1884, 1888 or 1895 is in the set. The first pass counted all 21 years.)
+
+- **Tea** agrees within 2% in 12 of 18 volumes, including 1892, 1899 and 1900, which were missing before. The
+  re-read gives the same 1891 quantity as the rule reader (6,338,254 lb), so the lost digit is in the OCR text or
+  on the page, not in the parsing. 1881–83 differ by 20–30% in both directions while exports were multiplying
+  each year; shipment and arrival dates may account for it.
+- **Coffee** agrees within 5% in 10 of 18 volumes once the three lines are summed, and within 15% in 16.
+- **Cinchona bark** agrees within 7% in all nine volumes from 1883 to 1893. The Ceylon side runs low in
+  1894–1900 (0.63 to 0.85 of the UK figure), except 1897, and high in 1882 (1.53).
+- **Cinnamon**: the UK figure matches Ceylon's quills **plus chips**, not quills alone (1894: 1,180,217 against
+  1,154,223 lb). The UK heading does not say so.
+- **Coconut oil**: the "Cocoanut" sub-line is the oil line; the 1896 ledger prints it under "Oil" and the same
+  sequence recurs in the other volumes. That settles the `heading_lost` case above. The two sides still differ by
+  up to a third in both directions with both self-consistent, as plumbago does, which suggests a difference in
+  what was counted (declared destination, cargo "for orders") and not misreading.
+
+Two internal checks on the Ceylon row are carried in the table, and the mirror arbitrates between cells:
+
+- **Total against components.** Cinnamon to the UK in 1889 reads 328,071 lb of quills, 330,174 of chips and a
+  total of 1,658,245: the quills cell has lost a leading 1. Cinchona 1891 has components summing to 6,159,352 lb
+  against a total cell of 5,159,352; the UK figure (47,527 cwt) supports the total cell.
+- **Official price**, applied only where the other destinations of the block share one price within 2%. Native
+  coffee to the UK in 1880 has a value ten times what its quantity implies. The UK figure agrees with the
+  quantity (ratio 1.007), so the fault is in the value cell. Tea 1891 is the reverse case.
+
+None of these has been checked against a page image, and no figure has been changed.
+
 ## Limits
 - Rules, not reading: the assignments were made by pattern and read down once by Claude. Not reviewed by a person.
 - The UK side is used as exported on 17 August 2026; that repository has later uncommitted work.
@@ -103,4 +146,5 @@ None of this corrects a figure. It says which cell to look at on the page, and w
 ## Rebuild
 ```sh
 python spine/trade_articles/pilot/build_pilot.py     # needs duckdb and the UK database (UK_TRADE_DB)
+python spine/trade_articles/pilot/mirror_reread.py   # standard library; reads mirror.tsv and the re-read
 ```

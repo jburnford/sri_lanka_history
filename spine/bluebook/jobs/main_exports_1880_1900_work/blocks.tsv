@@ -1,0 +1,146 @@
+commodity	article_as_printed	year_volume	tables_and_rows	status	countries_read	country_sum_quantity	printed_total_quantity	sum_agrees_quantity	country_sum_value	printed_total_value	sum_agrees_value	note
+coffee	Coffee, Liberian	1896	bb1896:p575:t1:3-10	read	5	962.1518	962.1518	yes	11545.82	11545.82	yes	Article and unit on PDF 575 r3 and header r2. The displaced complete money pairs occupy c9 in later rows, before the separate duty figure.
+coffee	— Native ...	1896	bb1896:p575:t1:11-21	read	8	2567.2500	2567.2500	yes	161736.75	161736.75	yes	Parent from Coffee, Liberian, PDF 575 r3. Country and article columns exchange positions after Australia.
+coffee	— Plantation	1896	bb1896:p575:t1:22-42	read	18	19593.0446	19593.0446	yes	1547850.53	1547850.53	yes	Parent from Coffee, Liberian, PDF 575 r3.
+tea	Tea ...	1896	bb1896:p579:t1:3-47	read	42	110045193.75	110095193.75	no	41791173.62	41836173.62	no	Article and lb. in PDF 579 r2, included among header rows in the source tables.
+plumbago	Minerals, Plumbago	1896	bb1896:p583:t1:13-27	read	12	361061.3661	361061.3661	yes	3069021.62	3069021.62	yes	PDF 583 r13 includes a separate cwt. cell. Royalty runs to the right of value.
+cinchona	Cinchona Bark	1896	bb1896:p585:t1:13-21	read	7	1377180	1377180	yes	68849.00	68849.00	yes	
+coconut_oil	Cocoanut	1896	bb1896:p593:t1:39-58	read	17	390833.2232	390833.2232	yes	6079627.90	6079627.90	yes	Oil is printed at PDF 593 r2 in Oil, Cinnamon and again at PDF 594 r2 in Oil, Kerosine. The Cocoanut sub-line follows Lemon Grass and precedes Fish.
+cinnamon	Cinnamon	1896	bb1896:p597:t1:5-6	read	16	3182823.5	3182823.5	yes	1273129.40	1273129.40	yes	PDF 597 r5 collapses 16 destinations in printed order. Quantity columns explicitly say plantation lb. and chips lb. The currency and quantity totals cover both.
+cinnamon	Cinnamon	1891	bb1891:p511:t1:26-44	partly_read	16	2810098	2810098	yes	1405049.00	1405049.00	yes	Unit line r26 identifies bales lb. and chips lb.; quantity and value totals cover both. UK figures sit on the Br. Col. row immediately below its label.
+cinchona	Cinchona Bark	1891	bb1891:p511:t1:49-56	partly_read	6	"{""bales"": ""11"", ""lb."": ""5595977""}"	"{""bales"": ""11"", ""lb."": ""5596977""}"	no	671741.50	671741.80	no	PDF 511 r49 labels Trunk lb., Br. and Twig lb., other-produce pounds and bales, and Trunk Rs. Branch and twig values also appear in page text footnotes, outside the table rows.
+coffee	Coffee, Plantation	1891	bb1891:p512:t1:32-57	partly_read	21	82334.8482	62324.8482	no	5351115.13	5351115.13	yes	PDF 512 r32 prints the cwt. unit and United Kingdom. Its figures appear beside Br. Col. immediately below. Only one currency pair survives per country. The article value total is separately printed at r57.
+coffee	Coffee, Native	1891	bb1891:p513:t1:2-15	read	11	6456.2946	6456.2946	yes	335727.31	335727.31	yes	
+coffee	Liberian	1891	bb1891:p513:t1:16-25	read	7	892.5089	892.5089	yes	44625.43	44625.43	yes	Parent printed immediately above in Coffee, Native, PDF 513 r2–15.
+coconut_oil	Coconut	1891	bb1891:p523:t1:19-37	read	16	426669.5179	426669.5179	yes	5309665.11	5309665.11	yes	Oil, Cinnamon at PDF 522 r47, then Oil, Cinnamon leaf at PDF 523 r2 and Citronella and Coconut below it.
+plumbago	Plumbago	1891	bb1891:p525:t1:4-13	partly_read	7	400540.1339	400540.1339	yes			no_total	PDF 525 r2–3 labels cwt and royalty. Each row contains two cwt readings, one currency pair, then royalty; the duplication or placement of the one export value is uncertain.
+tea	Tea	1891	bb1891:p528:t1:14-55	read	39	10676263.25	67720544.416666666667	no	30474244.99	30474244.99	yes	PDF 528 r14 has distinct colony, other, and total digits for the United Kingdom. The unaltered quantity cells and the printed article totals do not reconcile.
+coffee	Coffee, Liberian	1893	bb1893:p576:t1:35-43	read	6	749.6875	749.6875	yes	43481.88	43481.88	yes	
+coffee	Coffee, Native	1893	bb1893:p577:t1:3-18	read	13	3518.8348	3518.8348	yes	223246.05	223446.05	no	PDF 577 r3 has different colony and total currency. The total row does too. Both are retained.
+coffee	Coffee, Plantation	1893	bb1893:p577:t1:19-41	read	20	51154.6741	51154.6741	yes	3990064.59	3990064.59	yes	
+tea	Tea	1893	bb1893:p581:t1:14-56	read	40	82269353	82269353	yes	46723329.82	40723329.82	no	PDF 581 r17 prints 9374122 95 in both value columns for Australia; retained as printed.
+plumbago	Minerals, Plumbago ...	1893	bb1893:p585:t1:24-35	read	11	332168.8973	332168.8973	yes	2491266.72	2491266.72	yes	
+cinchona	Cinchona Bark	1893	bb1893:p587:t1:37-44	read	6	3440715	3440715	yes	275257.20	275257.20	yes	PDF 587 r37 explicitly distinguishes Br. and Trunk. lb. and Twig lb. The total row merges the two components into one cell.
+coconut_oil	Cocoanut	1893	bb1893:p596:t1:18-40	read	20	388605.6250	388605.8036	no	6044978.60	6044978.60	yes	Oil is printed in Oil, Cinnamon (PDF 595 r31) and Oil, Citronella (PDF 596 r3), above the Cocoanut sub-line on PDF 596.
+cinnamon	Cinnamon	1893	bb1893:p599:t1:44-61	read	15	2741182	2741082	no	1096433.00	1096433.00	yes	PDF 599 r44 contains Spices, Cinnamon beside the preceding article label. The plantation and chips columns feed a combined printed quantity and money total.
+cinchona	Cinchona Bark	1880	bb1880:p526:t1:47-53	read	4	1161989	1161989	yes	1267141.00	1267141.00	yes	
+cinnamon	Cinnamon	1880	bb1880:p527:t1:2-11	read	7	1609548	1609548	yes	804774.00	804774.00	yes	
+coffee	Coffee, Plantation	1880	bb1880:p527:t1:25-39	read	12	611842.1875	611842.1875	yes	31815793.74	31815793.74	yes	
+coffee	Native	1880	bb1880:p527:t1:40-52	read	10	44753.0714	44753.0714	yes	5323604.43	1521604.43	no	PDF 527 r25 prints Coffee, Plantation above this sub-line.
+coconut_oil	Cocoanut	1880	bb1880:p534:t1:29-43	partly_read	0	0.0000	352479.7500	no	0.00	4386414.66	no	Oil heading at PDF 534 r14. Cocoanut, Kerosine and Lemon Grass spans collide with the cwt. Coconut oil series in r31–43. The destination column cannot be aligned securely.
+plumbago	Plumbago	1880	bb1880:p535:t1:26-33	partly_read	6	205738.5804	205738.5804	yes	2057385.81	2057385.81	yes	At PDF 535 r30 the first foreign figure sits on the group label. The following three destination labels run one row later than the figures. Cwt. and the starred royalty mark the total in r33.
+tea	Tea	1880	bb1880:p538:t1:3-15	read	9	"{""lbs."": ""228680.5"", ""pkgs."": ""10""}"	"{""lbs."": ""228680.5"", ""pkgs."": ""10""}"	yes	214535.00	214535.00	yes	PDF 538 r2 labels pounds and packages. Aden has a label and blank figure cells. Currency shifts one cell left on Australia and repeated pound cells in other rows straddle the package boundary.
+cinchona	Cinchona Bark	1881	bb1881:p499:t1:2-11	read	7	1314554	1314554	yes	1264615.00	1264615.00	yes	
+cinnamon	Cinnamon	1881	bb1881:p499:t1:16-27	read	9	1820837	1819837	no	909918.50	909918.50	yes	
+coffee	Coffee, Plantation	1881	bb1881:p499:t1:49-65	read	14	407222.2857	407222.2857	yes	20361114.31	20361114.31	yes	
+coffee	Coffee, Native	1881	bb1881:p500:t1:3-13	read	8	29769.0536	29769.0536	yes	1012147.82	1012147.82	yes	
+coffee	Coffee, Liberian	1881	bb1881:p500:t1:14-19	read	3	242.5446	242.5446	yes	11002.40	11002.00	no	
+coconut_oil	— Cocoanut	1881	bb1881:p507:t1:34-44	partly_read	10	156671.2946	201566.0982	no	2513378.09	2508378.09	no	PDF 507 r21 prints Oil, Cinnamon. PDF 507 r34 merges ten destination names in order and has ten consecutive figure rows before the article total. c7 and c8 repeat the value total.
+plumbago	Plumbago	1881	bb1881:p508:t1:48-57	read	7	259909.1429	259909.1429	yes	2598096.42	2599081.42	no	
+tea	Tea	1881	bb1881:p511:t1:21-33	read	10	348798	348798	yes	323263.25	323263.25	yes	
+cinchona	Cinchona Bark	1882	bb1882:p494:t1:47-54	partly_read	6	"{""lb."": ""5406945"", ""pkg."": ""1""}"	"{""lb."": ""4655944"", ""pkg."": ""1""}"	no	3859162.17	3849171.17	no	PDF 494 r48 puts British India figures above its label. Foreign country labels are one row later than the corresponding entries, leaving the total opposite U. S. of America.
+cinnamon	Peppermint	1882	bb1882:p495:t1:4-13	partly_read	8	1992604	1992604	yes	996302.00	996302.00	yes	Cinnamon candidate at PDF 495 r4–13. The extracted article reads Peppermint. The position between Chanks and Clocks matches the cinnamon sequence in the surrounding ledgers. Identification is doubtful.
+coffee	Pee, Plantation	1882	bb1882:p495:t1:27-41	read	13	429203.5804	429203.5804	yes	17168143.21	17168143.21	yes	Extracted label reads Pee, Plantation. Its Native and Liberian sub-lines and the next-page Coffee, Refuse heading identify the coffee context.
+coffee	- Native	1882	bb1882:p495:t1:42-51	read	8	35499.8929	35499.8929	yes	816497.54	816497.54	yes	Parent label is Pee, Plantation at PDF 495 r27. Coffee, Refuse on PDF 496 r3 provides the full article word.
+coffee	- Liberian	1882	bb1882:p495:t1:52-57	read	4	1270.3750	1270.3750	yes	46879.14	46879.14	yes	Parent label is Pee, Plantation at PDF 495 r27.
+coconut_oil	Oil, Cocoanut	1882	bb1882:p503:t1:2-17	read	13	210955.1964	210964.1964	no	2625207.82	2625207.82	yes	
+plumbago	Plumbago	1882	bb1882:p504:t1:11-22	read	8	260166.3036	260166.3036	yes	2601663.03	2601663.03	yes	The UK label and cwt. unit appear at PDF 504 r11. Its figures are the unlabeled line immediately below, before Br. Col.
+tea	Tea	1882	bb1882:p506:t1:38-50	read	10	697268	697268	yes	591805.56	591805.56	yes	
+cinchona	Puncha Bark	1883	bb1883:p503:t1:12-20	read	6	7086005	7489005	no	4493403.00	4493403.00	yes	The source cells spell the article Puncha Bark. It appears between Chanks and Cinnamon in the usual bark position.
+cinnamon	Cinnamon	1883	bb1883:p503:t1:21-36	read	12	2236231	2236431	no	1118215.50	1118215.50	yes	Bales and chips labels sit above the block at PDF 503 r21. Printed totals include both.
+coffee	Coffee, Plantation	1883	bb1883:p504:t1:13-29	read	14	290879.1339	290879.1339	yes	3769561.02	13089561.02	no	
+coffee	— Native	1883	bb1883:p504:t1:30-40	read	8	14823.6429	11823.6429	no	441709.28	444709.28	no	Parent printed at PDF 504 r13.
+coffee	— Liberian	1883	bb1883:p504:t1:41-45	read	3	1827.4643	1827.4643	yes	64861.25	63961.25	no	Parent printed at PDF 504 r13.
+coconut_oil	— Cocoanut	1883	bb1883:p512:t1:27-45	read	16	348381.9911	348381.9911	yes	4335420.32	4335420.32	yes	Oil, Cinnamon at PDF 512 r15 supplies the parent.
+plumbago	Rumbago	1883	bb1883:p513:t1:48-58	read	7	262773.7589	262773.7589	yes	2627737.58	2627737.58	yes	Article appears as Rumbago, with cwt. on PDF 513 r47 and royalty identified on r48.
+tea	Tea	1883	bb1883:p517:t1:10-24	partly_read	12	1666423	1666423	yes	917741.65	917741.65	yes	UK value is on PDF 517 r10. The UK quantities appear on the line below beside Br Col, whose value cells are dashed.
+cinchona	Vinchona Bark	1885	bb1885:p527:t1:11-21	read	8	13736171.5	13736171.5	yes	3973879.18	3973879.28	no	PDF 527 r11 labels trunk and branch/twig subcolumns. Later rows duplicate the figures in adjacent cells. Both components are Ceylon produce.
+cinnamon	Cinnamon	1885	bb1885:p527:t1:23-39	partly_read	14	2145257	2145257	yes	1072628.50	1072628.50	yes	Bales lb. and chips lb. at PDF 527 r23. On a number of rows the two components are merged in one cell. Totals include chips.
+coffee	Coffee, Plantation	1885	bb1885:p528:t1:13-32	read	17	295038.4911	295038.4911	yes	11801539.64	11801539.64	yes	
+coffee	— Native	1885	bb1885:p528:t1:33-45	partly_read	10	9145.1696	20611.3571	no	515283.93	515283.93	yes	Parent from PDF 528 r13. Liberian label starts two rows before the Native total; its UK first row with an explicit cwt. label begins at r46.
+coffee	— Liberian	1885	bb1885:p528:t1:46-55	read	7	5325.6161	5325.6161	yes	133140.40	133140.40	yes	Parent from PDF 528 r13. Coir, Fibre span starts at r53, before the Liberian total. The next UK row r56 begins the coir figures.
+coconut_oil	—Cocosnut	1885	bb1885:p537:t1:42-59	read	14	265183.7946	265183.7946	yes	3300065.00	3300065.00	yes	Title is printed as —Cocosnut below Oil, Cinnamon at PDF 537 r23. Cwt. is printed on the unit row r41.
+plumbago	Plumbago	1885	bb1885:p538:t1:54-64	partly_read	8	196399.7054		no_total	1963997.06	1963997.06	yes	
+tea	Tea	1885	bb1885:p542:t1:3-22	read	17	4373753.5	4373753.25	no	2844305.14	2844303.14	no	
+cinchona	Cinchona Bark	1886	bb1886:p475:t1:23-32	read	8	14675663	14675663	yes	4370250.72	4370250.72	yes	PDF 475 r23 labels trunk and branch/twig. The branch and twig quantities and corresponding values are article components.
+cinnamon	Cinnamon	1886	bb1886:p475:t1:33-49	read	14	2365038	2365038	yes	1182519.10	1182519.00	no	PDF 475 r33 identifies bales and chips. Combined totals include chips.
+coffee	Coffee, Plantation	1886	bb1886:p476:t1:32-53	partly_read	18	169208.6429	169208.6429	yes	7614388.93	7614388.93	yes	PDF 476 r32 identifies cwt. The p476 r50–52 figures end with duty and omit the country currency total; r51 has an incomplete other-produce triple.
+coffee	— Native	1886	bb1886:p476:t1:54-71	read	13	10046.8661	10046.8661	yes	351640.31	351640.31	yes	Parent from PDF 476 r32.
+coffee	Coffee, Liberian	1886	bb1886:p477:t1:2-11	read	7	3834.0982	3834.0982	yes	115022.95	115022.95	yes	
+coconut_oil	— Cocoanut ...	1886	bb1886:p486:t1:14-15	read	15	277311.3571	277311.3571	yes	3400985.75	3450985.75	no	Oil, Cinnamon at PDF 486 r11 supplies the parent. At r14, 15 destinations and figure streams are merged into single cells in matching order.
+plumbago	Plumbago	1886	bb1886:p488:t1:16-27	read	9	241760.1161	241760.1161	yes	2417601.15	2417601.15	yes	
+tea	Tea	1886	bb1886:p491:t1:8-31	read	21	7851562	7851562	yes	5106612.20	5106612.20	yes	
+cinchona	Cinchona Bark	1887	bb1887:p478:t1:32-40	read	7	13113567	13113067	no	2440212.92	2440212.92	yes	PDF 478 r32 labels trunk and branch/twig. Both components contribute to the printed totals.
+cinnamon	Cinnamon	1887	bb1887:p478:t1:41-59	read	16	2046153	2046153	yes	1023076.50	1023076.50	yes	PDF 478 r41 contains the article in column 1 under the Cinchona span. Bales and chips share the combined totals.
+coffee	Coffee, Plantation	1887	bb1887:p479:t1:34-58	read	22	165263.5982	165263.5982	yes	10742133.88	10742138.88	no	
+coffee	Coffee, Native	1887	bb1887:p480:t1:2-14	read	10	13299.7232	13299.7232	yes	691585.61	691585.61	yes	
+coffee	Liberian	1887	bb1887:p480:t1:15-23	read	6	3419.9554	3419.9554	yes	153897.99	153897.99	yes	Parent from Coffee, Native at PDF 480 r2.
+coconut_oil	— Cocoanut	1887	bb1887:p489:t1:24-39	read	15	323445.4018	323445.4018	yes	4025098.32	4025098.32	yes	Oil, Cinnamon at PDF 489 r7 supplies the parent.
+plumbago	Plumbago	1887	bb1887:p490:t1:53-64	read	9	238599.7500	238599.7500	yes	2385997.50	2385997.50	yes	
+tea	Tea	1887	bb1887:p494:t1:2-34	read	29	13834701.5	13834701.5	yes	8300709.35	8300709.35	yes	
+cinnamon	Cinnamon	1889b	bb1889b:p228:t1:34-54	read	18	2562711	2562711	yes	1281355.50	1281355.50	yes	Bales and chips are printed in PDF 228 r34. The currency and quantity totals include both. The Cinnamon Leaves span begins on the total row.
+cinchona	Cinchona Bark	1889b	bb1889b:p229:t1:3-12	read	7	9455641	9455641	yes	1687559.60	1687539.60	no	The PDF 229 r2 header specifies trunk and branch/twig weights and money.
+coffee	Plantation	1889b	bb1889b:p229:t1:47-64	read	15	80289.8214	80289.8214	yes	5459707.85	5459707.85	yes	Parent from Coffee, Husks at PDF 229 r42 and Coffee, Native at PDF 230 r3.
+coffee	Coffee, Native	1889b	bb1889b:p230:t1:3-16	read	11	8696.0268	8696.0268	yes	478281.47	478281.47	yes	
+coffee	Liberian	1889b	bb1889b:p230:t1:17-28	read	9	708.7946	708.7946	yes	34022.14	34022.14	yes	Parent from Coffee, Native at PDF 230 r3.
+coconut_oil	Cocoanut	1889b	bb1889b:p240:t1:14-33	read	17	379936.8304	379936.8304	yes	4728102.73	4728102.73	yes	Oil, Citronella at PDF 240 r2 continues the Oil heading visible at PDF 239 r35.
+plumbago	Plumbago	1889b	bb1889b:p241:t1:40-52	read	10	486138.7589	486138.7589	yes	4861387.59	4861387.59	yes	
+tea	Tea	1889b	bb1889b:p245:t1:2-39	read	35	34344439.25	34346432.75	no	17860144.83	17860144.83	yes	
+cinnamon	Cinnamon	1890	bb1890:p517:t1:37-55	partly_read	15	1043916	2345564	no	521958.00	1172782.00	no	PDF 517 r37–38 has UK and group labels and the bales/chips units. The UK digits do not survive. The quantity and value totals include chips.
+cinchona	Inchona Bark	1890	bb1890:p518:t1:2-11	read	8	8779140	8779140	yes	1053496.80	1053496.80	yes	PDF 518 r2 reads Inchona Bark. Its trunk and branch/twig columns both contribute to the printed totals.
+coffee	Coffee, Plantation	1890	bb1890:p518:t1:33-58	read	23	81335.7500	81334.5000	no	5286742.50	5286742.50	yes	
+coffee	Coffee, Native	1890	bb1890:p519:t1:2-16	partly_read	12	5810.2500	5810.2500	yes	389623.75	319563.75	no	
+coffee	Liberian	1890	bb1890:p519:t1:17-26	read	7	2996.3482	2946.3482	no	134532.02	135532.02	no	Parent from Coffee, Native at PDF 519 r2.
+coconut_oil	— Coconut	1890	bb1890:p529:t1:34-53	partly_read	17	367630.4643	268725.1696	no	4588585.45	4588579.90	no	Oil, Cinnamon at PDF 529 r14 supplies the parent.
+plumbago	Plumbago	1890	bb1890:p531:t1:16-27	read	8	392577.6161	392577.6161	yes	3925776.16	3925776.16	yes	
+tea	Tea	1890	bb1890:p535:t1:4-43	read	36	45888732	45799518	no	22899759.37	22899759.37	yes	Portuguese Possessions and India occupy successive label cells at PDF 535 r30–31.
+cinnamon	Cinnamon	1892	bb1892:p546:t1:33-48	partly_read	13	2642449	2642449	yes	1321224.50	1321224.50	yes	PDF 546 r33 identifies plantation and chips. UK figures appear one row below its label, beside Br. Col.
+cinchona	Cinnamon Bark	1892	bb1892:p546:t1:54-61	partly_read	6	6846741	6846741	yes	802805.92	821608.92	no	Source label at PDF 546 r54 reads Cinnamon Bark. The Br. and Trunk lb. subdivision, duty, and location following the separate Cinnamon and Cinnamon Leaves blocks match the cinchona layout. Identification is doubtful.
+coffee	Coffee, Plantation	1892	bb1892:p547:t1:32-50	read	16	39013.8304	39013.8304	yes	3023571.85	3023571.85	yes	
+coffee	Coffee, Native	1892	bb1892:p548:t1:3-12	read	7	3243.6161	3243.6161	yes	210835.04	210835.04	yes	
+coffee	Liberian	1892	bb1892:p548:t1:13-19	read	4	1080.8929	1080.8929	yes	59449.10	59449.10	yes	Parent from Coffee, Native at PDF 548 r3.
+coconut_oil	Cocoanut	1892	bb1892:p559:t1:28-44	read	14	564550.0357	564550.0357	yes	7025512.76	7025512.76	yes	Oil, Cinnamon at PDF 559 r2 supplies the parent.
+plumbago	Plumbago	1892	bb1892:p561:t1:2-12	read	8	430666.9286	430666.9286	yes	4306669.28	4306669.28	yes	
+tea	Tea	1892	bb1892:p564:t1:23-60	partly_read	3	70873111	72292524.5	no	31892899.84	32527136.15	no	PDF 564 r23 gives the UK label and units. Aden and Australia have single destination labels in r25–26. In r27–59 the two country columns overlap and later both become ellipses, so the visible figures cannot be reliably attached to individual destinations.
+coffee	Coffee, Liberian ...	1894	bb1894:p541:t1:23-29	read	4	790.5357	790.5357	yes	44270.00	44270.00	yes	
+coffee	Native ...	1894	bb1894:p541:t1:30-42	read	10	1567.6429	1567.6429	yes	106599.72	106599.72	yes	Parent printed with Coffee, Liberian at PDF 541 r23.
+coffee	Coffee, Plantation	1894	bb1894:p542:t1:3-26	partly_read	20	29629.0268		no_total	2666612.82	2666612.82	yes	The section and article occupy full-width rows at PDF 542 r2–3.
+tea	Tea	1894	bb1894:p546:t1:3-45	read	40	85376322.5	85376322.5	yes	46103213.85	46103214.15	no	
+plumbago	Minerals, Plumbago	1894	bb1894:p550:t1:19-31	partly_read	9	193272.5536	335168.2143	no	1449544.14	2513761.60	no	PDF 550 r19 has the UK label, cwt. and royalty headings, but no figures survive on it or the following group row. Later quantity figures start in c3, with c2 blank.
+cinchona	Cinchona Bark	1894	bb1894:p552:t1:27-33	read	4	2529261	2529261	yes	202340.88	202340.88	yes	PDF 552 r27 labels Br. and Trunk lb. and a second lb. component. Both are merged into the same quantity cell at r28 and r33.
+coconut_oil	Coconut	1894	bb1894:p560:t1:18-36	read	16	469563.6607	449563.6607	no	6993212.50	6993212.50	yes	Oil, Cinnamon at PDF 559 r43, then Oil, Citronella at PDF 560 r2 above this sub-line.
+cinnamon	Cinnamon ...	1894	bb1894:p564:t1:3-22	read	15	2784754	2784754	yes	1113901.60	1113901.60	yes	Article and plantation/chips headings appear at PDF 564 r3–4. Combined totals include chips.
+coffee	Coffee, Liberian	1897	bb1897:p566:t1:20-25	read	3	481.5446	481.5446	yes	19213.80	19213.80	yes	
+coffee	Native	1897	bb1897:p566:t1:26-34	read	6	781.7768	781.7768	yes	48392.00	48392.00	yes	Parent from Coffee, Liberian at PDF 566 r20.
+coffee	Plantation	1897	bb1897:p566:t1:35-57	read	20	17341.2411	17341.2411	yes	1404640.27	1404640.27	yes	Parent from Coffee, Liberian at PDF 566 r20.
+tea	Tea	1897	bb1897:p570:t1:17-55	read	36	114466318	114466318	yes	46891190.38	46931190.38	no	
+plumbago	Minerals, Plumbago	1897	bb1897:p574:t1:15-31	read	14	379415.6875	379415.6875	yes	3670846.78	3670846.78	yes	PDF 574 r15 is the UK opening row with cwt. and royalty, immediately above the article label. The Plumbago total sits beside the opening Mica label at r31.
+cinchona	Cinchona ...	1897	bb1897:p576:t1:16-23	read	5	591136	591136	yes	32512.48	32512.48	yes	
+coconut_oil	Cocoanut	1897	bb1897:p584:t1:21-43	read	20	488392.5000	488392.5000	yes	6383289.96	6383289.96	yes	Oil, Cinnamon at PDF 583 r45, continued as Oil, Citronella at PDF 584 r2 above this sub-line.
+cinnamon	Cinnamon	1897	bb1897:p587:t1:36-52	partly_read	14	3850005	3850005	yes	2194502.85	2194502.85	yes	PDF 587 r36 shows Spices, Cinnamon and the plantation and chips subcolumns. UK figures occur one row below its label beside Br. Col.
+coffee	Coffee, Liberian	1898	bb1898:p581:t1:15-22	read	5	998.8929	998.8929	yes	23973.43	23973.43	yes	
+coffee	Native	1898	bb1898:p581:t1:23-26	read	2	169.8661	169.8661	yes	7728.90	7728.90	yes	Parent from Coffee, Liberian at PDF 581 r15.
+coffee	Plantation	1898	bb1898:p581:t1:27-48	read	19	11523.6875	11523.6875	yes	846991.03	846991.03	yes	Parent from Coffee, Liberian at PDF 581 r15.
+tea	Tea	1898	bb1898:p585:t1:9-57	read	46	122765517.75	122395517.75	no	47734251.93	47734251.93	yes	
+plumbago	Minerals Plumbago	1898	bb1898:p589:t1:26-43	read	17	478318.0179	478318.0179	yes	7170770.27	7174770.27	no	
+cinchona	Cinchona Bark	1898	bb1898:p591:t1:34-42	partly_read	7	229576	977760	no	97776.00	97776.00	yes	The UK row contains lb. and value only. The quantity digits do not survive in PDF 591 r34–35.
+coconut_oil	Cocoanut	1898	bb1898:p599:t1:43-62	partly_read	17	467422.8750	467422.8750	yes	6109216.99	6109216.99	yes	Oil, Castor at PDF 599 r9 and Oil, Kerosine at PDF 600 r3 establish the Oil series. The first quantity/value line sits beside Br. Col., just after the UK unit line.
+cinnamon	Cinnamon ...	1898	bb1898:p603:t1:2-20	read	16	"{""chips lb."": ""1555760"", ""plantation lb."": ""2725405.5""}"	"{""chips lb."": ""1555760"", ""plantation lb."": ""2725405.5""}"	yes	2331064.34	2440264.34	no	PDF 603 r2 distinguishes plantation and chips in both quantity groups. The value columns cover both.
+coffee	Coffee, Liberian	1899	bb1899:p584:t1:15	read	1	51.6518		no_total	1084.69		no_total	One United Kingdom line at PDF 584 r15. The following line begins Native and no separate Liberian total survives.
+coffee	— Native	1899	bb1899:p584:t1:16-20	read	3	173.0179	172.8393	no	7466.66	7466.66	yes	Parent from Coffee, Liberian at PDF 584 r15.
+coffee	— Plantation	1899	bb1899:p584:t1:21-41	read	18	18920.7723	18920.7723	yes	1341861.17	1341861.17	yes	Parent from Coffee, Liberian at PDF 584 r15.
+tea	Tea	1899	bb1899:p588:t1:23-61 bb1899:p589:t1:2-10	partly_read	45	129661907.0625	129661908.1875	no	51864763.33	51864763.33	yes	PDF 588 r23 labels the UK and lbs. Its figures sit beside Br. Col. immediately below. The block continues under Tea—contd. on PDF 589 r2–10.
+plumbago	Minerals, Plumbago	1899	bb1899:p593:t1:3-20	read	15	635224.2946	635224.2946	yes	22255400.77	22255400.77	yes	
+cinchona	Cinchona Bark	1899	bb1899:p595:t1:4-5	read	4	683228	683228	yes	47825.96	47825.96	yes	PDF 595 r4 merges four destination names and four entries per occupied measure, in order.
+coconut_oil	Oil, Cocoanut	1899	bb1899:p604:t1:2-25	partly_read	20	"{""cwt qr lb"": ""430569.5446"", ""drums"": ""3""}"	"{""cwt qr lb"": ""430569.5446"", ""drums"": ""3""}"	yes	6062419.20	6062419.20	yes	PDF 604 r15 carries an additional & 3 drums immediately after China. Both are printed in cwt. and drums in the article total.
+cinnamon	Cinnamon	1899	bb1899:p607:t1:43-62	read	17	"{""chips lb."": ""1747721"", ""plantation lb."": ""2651702""}"	"{""chips lb."": ""1747721"", ""plantation lb."": ""2651702""}"	yes	2727642.26	2727642.26	yes	PDF 607 r43 identifies plantation and chips in the colony and total quantity cells. Values include both. Wild cinnamon starts on PDF 608.
+cinnamon	Cinnamon, wild	1899	bb1899:p608:t1:3-9	read	4	"{""chips lb."": ""78610"", ""wild lb."": ""1023063""}"	"{""chips lb."": ""78610"", ""wild lb."": ""1023063""}"	yes	33050.19	33050.19	yes	PDF 608 r2 labels both wild lb. and chips lb. in the quantity groups. Currency covers both.
+coffee	Native ...	1900	bb1900:p627:t1:54-60	read	4	496.2054	496.2054	yes	21014.30	21014.30	yes	Coffee— at PDF 627 r52 and Arabian— at r53 govern Native; the same parent is repeated at PDF 628 r2.
+coffee	Plantation ...	1900	bb1900:p628:t1:2-28	read	24	9395.8393	9395.8393	yes	565253.69	565253.69	yes	The continuation heading is printed together at PDF 628 r2 and separately at PDF 627 r52–53.
+coffee	Liberian ...	1900	bb1900:p628:t1:29-34	read	3	350.7589	350.7589	yes	7365.94	7365.94	yes	Coffee— at PDF 627 r52 supplies the parent. PDF 628 r29 places the Liberian label beside the carried Plantation cell.
+cinnamon	Cinnamon, Plantation	1900	bb1900:p630:t1:36-58	partly_read	20	38445.1429	38446.1429	no	2540455.04	2540455.04	yes	Spices— is printed with Cardamoms above at PDF 630 r35–36. The UK figures sit below the UK label and quills/chips unit line. Combined totals include chips.
+cinnamon	Cinnamon, Wild ...	1900	bb1900:p631:t1:2-12	read	8	2770.1071	2770.1071	yes	9312.56	9307.56	no	PDF 631 r2 prints the section, Spices— heading, and article together.
+tea	Tea ...	1900	bb1900:p633:t1:2-58	read	54	149265052.5	149265052.5	yes	53735418.90	53735418.90	yes	PDF 633 r2 contains the section and article together. The two other currency pairs are Tea Fund and Medical Aid.
+cinchona	Cinchona-Bark ...	1900	bb1900:p635:t1:18-21	read	3	590692	590692	yes	64976.12	64976.12	yes	
+plumbago	Plumbago	1900	bb1900:p638:t1:28-48	partly_read	16	391699.8036		no_total	9792495.09	9792495.09	yes	PDF 638 r28–29 contains a full-width article title followed by the cwt. and royalty labels.
+coconut_oil	Cocoanut ...	1900	bb1900:p651:t1:30-51	read	19	468292.7143	468292.7143	yes	6673171.17	6673171.17	yes	PDF 651 r2 prints the Other Oil— heading with Castor, then Cinnamon, Cinnamon Leaf and other oils above Cocoanut.
