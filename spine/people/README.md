@@ -36,7 +36,7 @@ lists, settlements in the 1834 Gazetteer layer (all from `docs/data/*.json`), th
 `gazetteer/sri_lanka_wikidata.jsonl` (chosen by their description). `place_spellings.tsv` maps printed spellings
 to a gazetteer name. Each place in a record carries how it was recognised.
 
-53,104 of the 167,801 official records name such a place (343 places). The rest are departmental posts with no
+53,053 of the 167,645 official records in the atlas name such a place (343 places). The rest are departmental posts with no
 place printed ("Clerk, Railway Department") or name a place the gazetteer does not have.
 
 Read the placement as "the place printed in the office", not as a residence. Known ways it goes wrong:
@@ -51,10 +51,27 @@ Read the placement as "the place printed in the office", not as a residence. Kno
 ## Printed names are not people
 
 Records are grouped under a printed-name key: surname plus the first letter of each given name, with titles and
-post-nominals left out. 35,956 keys. Names are read in both printed orders ("Clifford, Hon. Sir Hugh" and
+post-nominals left out. 36,213 keys. Names are read in both printed orders ("Clifford, Hon. Sir Hugh" and
 "The Hon. Sir Hugh Clifford, K.C.M.G."), and two-word surnames are learned from the lists themselves. A key gathers "J. Perera" from 90 volume records that are certainly several
 men. The viewer says this on every name page. Only the Colonial Office List matches are identifications, and
 those were made by program (surname, initials, dates) and have not been checked by a person.
+
+## Lines that are not names
+
+156 of the 167,801 Blue Book name groups are left out because every printed form in the name column is an
+establishment or salary line ("10 Clerks, at Rs. 240", "Latrine Cooly at Rs. 144 p.a", "Acting Assistant
+Government Agent, Matara, with Rs. 3,600 a year (vide page 224)"). The rule (`NOT_A_NAME` in the script) is kept
+narrow: a rupee or cent amount, "per diem/annum/day/mensem/month", "vide", "rental of", or a head count before a
+plural noun. Bare office words with no amount ("Latrine Cooly") are not caught. The number left out is written to
+`summary.json` (`officials_left_out`) and shown in the People view.
+
+## Stage of each record
+
+Each record carries `st`, the furthest stage it has reached, shown as a badge in the People view and the place panel:
+1 read from the page and placed; 2 one person joined across records (a reviewed de Silva decision, `ds`, or a book
+person so joined); 3 matched to a Colonial Office List biography (`col`); 4 tied to an identifier (the List match
+carries a Wikidata QID). A shared printed-name key is not a join, and the establishment-list match (`roster`) is not
+counted as stage 3. Counts by stage are in `summary.json` (`stages`).
 
 ## Known weak points
 - Office text is as the extractor left it: ditto marks ("do"), row letters, and two offices run together.

@@ -14,3 +14,19 @@
 #people-detail h2{margin-top:1.2rem}
 #people-results tr{cursor:pointer}
 .people-id{font-size:.82rem}
+/* Stage badges: the Blue Book badge (.bb-level in styles.css) with people's own colours */
+.people-stage{margin-left:.4rem;vertical-align:1px;font-size:9px;padding:1px 5px}
+.people-entries td .people-stage{display:table;margin:.3rem 0 0}
+.st-1{--lv:#6d7472}.st-2{--lv:#996718}.st-3{--lv:#276478}.st-4{--lv:#2f6b4f}
+.people-stage-key{font-size:.78rem;line-height:1.9;color:var(--muted);margin:.3rem 0}
+.people-stage-key .people-stage{margin:0 .15rem 0 0}
+/* Phone: a bar above the map pointing to the people list below it; the person table read as cards */
+.people-jump{display:none}
+@media(max-width:580px){
+  .people-jump{display:block;order:0;width:100%;border:0;border-bottom:1px solid var(--line);background:#22363b;color:#fff9ef;padding:.6rem .8rem;text-align:left;font-size:13px;font-weight:600}
+  .people-entries thead{display:none}
+  .people-entries,.people-entries tbody,.people-entries tr,.people-entries td{display:block;width:100%;max-width:none;min-width:0}
+  .people-entries tr{border-bottom:2px solid var(--line);padding:.3rem 0}
+  .people-entries td{border:0;padding:.25rem .7rem}
+  .people-entries td::before{content:attr(data-label);display:block;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+}

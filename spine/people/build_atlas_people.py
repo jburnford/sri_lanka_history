@@ -271,6 +271,15 @@ def learn_compounds(rows):
                     if len(rests) >= 3 and (name in after_initials or len(rests) >= 8))
 
 
+# A printed "name" that is really an establishment or salary line ("10 Clerks, at Rs. 240", "Latrine Cooly at
+# Rs. 144 p.a", "... with Rs. 3,600 a year (vide page 127)"). Kept narrow on purpose: rupee or cent amounts,
+# "per diem/annum/day/mensem/month", "vide", "rental of", or a head count before a plural noun. A record is left
+# out only when every printed form of it matches; bare office words with no amount ("Latrine Cooly") stay in.
+NOT_A_NAME = re.compile(r"\bR[se]\.? ?\d|\d ?cts\b|@|\bper (?:diem|annum|day|mensem|month)\b|\bvide\b|\brental of\b"
+                        r"|^\d+ (?:[A-Z][a-z-]+ )?[A-Z][a-z-]+s\b", re.I)
+SKIPPED = collections.Counter()   # records left out, by reason; reported in summary.json
+
+
 def officials(match, col_people):
     rows = read_tsv(SPINE / "bluebook" / "extracted" / "officer_matches.tsv")
     roster = {}
@@ -282,8 +291,15 @@ def officials(match, col_people):
     learn_compounds(rows)
     for row in rows:
         printed = [value.strip() for value in row["names_as_printed"].split(" | ") if value.strip()]
+        if printed and all(NOT_A_NAME.search(form) for form in printed):
+            SKIPPED["establishment or salary line, not a name"] += 1
+            continue
         key = printed_key(printed, row["surname"], row["initials"])   # the same key as directory people
-        display = min(printed, key=len) if printed else row["surname"]
+        # Show a printed form that gives this key, so that a search on the key finds a name that explains it.
+        # (Where the extractor ran two names together, "C. Amarasinghe J. B. Perera", the key can come from
+        # that form while the shortest form is another man's name.)
+        own = [form for form in printed if (parsed := split_printed(form)) and name_key(*parsed) == key]
+        display = min(own or printed, key=len) if printed else row["surname"]
         offices = [value.strip(" -") for value in row["offices_as_printed"].split(" | ") if value.strip(" -")]
         places = match(" ; ".join(offices))
         record = dict(k="o", key=key, name=display[:90], y=int(row["year_volume"][:4]),
@@ -388,6 +404,26 @@ def cross_references(by_key):
     return proposals
 
 
+STAGE_JOINED = {"same_person", "probably_same", "some_records"}
+
+
+def stage(record):
+    """How far a record has been taken, from fields it already carries. Each stage is the furthest reached:
+    1 read from the page (by program or language model) and placed where its office or listing names a place;
+    2 joined to other records as one person by a reviewed decision (desilva_review: language model, sampled);
+    3 matched to a Colonial Office List biography (by program: surname, initials, dates; not checked by a person);
+    4 tied to an identifier (the List match carries a Wikidata QID).
+    A shared printed-name key is not a join, and the establishment-list match (`roster`) is not counted as stage 3."""
+    col = record.get("col") or {}
+    if col.get("qid"):
+        return 4
+    if col:
+        return 3
+    if record.get("ds") or record.get("joined") or any(r["decision"] in STAGE_JOINED for r in record.get("reviews", [])):
+        return 2
+    return 1
+
+
 def write(name, value):
     path = OUT / name
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -415,40 +451,6 @@ def main():
             by_place[place_id].append(record)
             how_used[(place_id, how)] += 1
 
-    # places with people
-    place_rows = []
-    for place_id, items in by_place.items():
-        place = places[place_id]
-        years = collections.Counter()
-        for record in items:
-            years[(record["k"], record["y"])] += 1
-        hows = sorted({how for (pid, how) in how_used if pid == place_id})
-        if not (years := years):
-            continue
-        file_id = slug(place_id)
-        place_rows.append(dict(id=file_id, name=place["name"], lat=place["lat"], lon=place["lon"], qid=place["qid"],
-                               basis="; ".join(hows), o=sum(1 for r in items if r["k"] == "o"),
-                               d=sum(1 for r in items if r["k"] == "d"), b=sum(1 for r in items if r["k"] == "b"),
-                               oy=sorted({y for (k, y) in years if k == "o"}),
-                               years=[[k, y, n] for (k, y), n in sorted(years.items())]))
-        rows = []
-        for record in sorted(items, key=lambda r: (r["y"], norm(r["name"]))):
-            if record["k"] == "o":
-                rows.append(["o", record["y"], record["key"], record["name"], record["office"], record["tables"][:1]])
-            elif record["k"] == "b":
-                rows.append(["b", record["y"], record["key"], record["name"], record["office"] or record["desc"],
-                             record["pages"][0] if record["pages"] else None])
-            else:
-                rows.append(["d", record["y"], record["key"], record["name"],
-                             " — ".join(v for v in (record["office"], record["firm"], record["address"]) if v),
-                             record["page"]])
-        write(f"place/{file_id}.json.gz", rows)
-    place_rows.sort(key=lambda r: -(r["o"] + r["d"]))
-    write("places.json", place_rows)
-    slug_of = {place_id: slug(place_id) for place_id in by_place}
-    name_of = {slug(place_id): places[place_id]["name"] for place_id in by_place}
-
-    # names: a light index for search, and the full entries in shards by the first two letters of the key
     proposals = cross_references(by_key)
     # Reviewed decisions on those proposals and on de Silva people who share a printed name with records
     # (desilva_review/decisions.tsv: made by a language model pair by pair, sampled by a second reader).
@@ -474,6 +476,8 @@ def main():
                     record["ds"] = dict(name=book_record["name"], key=book_key, wording=WORDING[decision],
                                         basis=row["evidence"], outside=row["outside_knowledge"])
             if other != book_key:
+                if decision in STAGE_JOINED:
+                    book_record["joined"] = 1   # stage 2: the book's person is joined to records under another key
                 linked = [r for r in by_key[other] if r["k"] in "od"]
                 display = collections.Counter(r["name"] for r in linked).most_common(1)[0][0]
                 see_also[book_key].append(dict(k="x", key=other, name=display, y=min(r["y"] for r in linked),
@@ -490,6 +494,45 @@ def main():
             b = item["book"]
             out.writerow([b["ref"], b["name"], f'{b["y"]}-{b["y2"]}', b["desc"], item["other"], item["display"],
                           f'{item["first"]}-{item["last"]}', item["n"], " | ".join(item["offices"])[:400], item["grade"], ""])
+    for record in records:
+        record["st"] = stage(record)
+
+    # places with people (written after the reviews above, which set the stage of some records)
+    place_rows = []
+    for place_id, items in by_place.items():
+        place = places[place_id]
+        years = collections.Counter()
+        for record in items:
+            years[(record["k"], record["y"])] += 1
+        hows = sorted({how for (pid, how) in how_used if pid == place_id})
+        if not (years := years):
+            continue
+        file_id = slug(place_id)
+        place_rows.append(dict(id=file_id, name=place["name"], lat=place["lat"], lon=place["lon"], qid=place["qid"],
+                               basis="; ".join(hows), o=sum(1 for r in items if r["k"] == "o"),
+                               d=sum(1 for r in items if r["k"] == "d"), b=sum(1 for r in items if r["k"] == "b"),
+                               oy=sorted({y for (k, y) in years if k == "o"}),
+                               years=[[k, y, n] for (k, y), n in sorted(years.items())]))
+        rows = []
+        for record in sorted(items, key=lambda r: (r["y"], norm(r["name"]))):
+            if record["k"] == "o":
+                rows.append(["o", record["y"], record["key"], record["name"], record["office"], record["tables"][:1],
+                             record["st"]])
+            elif record["k"] == "b":
+                rows.append(["b", record["y"], record["key"], record["name"], record["office"] or record["desc"],
+                             record["pages"][0] if record["pages"] else None, record["st"]])
+            else:
+                # last field 1: the year was printed in a dated list inside the directory (past office-holders)
+                rows.append(["d", record["y"], record["key"], record["name"],
+                             " — ".join(v for v in (record["office"], record["firm"], record["address"]) if v),
+                             record["page"], record["st"], 1 if record["dated"] == "year printed in the list" else 0])
+        write(f"place/{file_id}.json.gz", rows)
+    place_rows.sort(key=lambda r: -(r["o"] + r["d"]))
+    write("places.json", place_rows)
+    slug_of = {place_id: slug(place_id) for place_id in by_place}
+    name_of = {slug(place_id): places[place_id]["name"] for place_id in by_place}
+
+    # names: a light index for search, and the full entries in shards by the first two letters of the key
     index, shards = [], collections.defaultdict(dict)
     for key, items in by_key.items():
         items.sort(key=lambda r: (r["y"], r["k"]))
@@ -516,6 +559,8 @@ def main():
                    book_source=json.loads((HERE / "desilva_people.json").read_text())["source"] if total["b"] else None,
                    places=len(place_rows), names=len(index),
                    official_years=sorted({r["y"] for r in records if r["k"] == "o"}),
+                   officials_left_out=dict(SKIPPED),
+                   stages=dict(sorted(collections.Counter(str(r["st"]) for r in records).items())),
                    directory_source=HOCT_1922)
     write("summary.json", summary)
     print(json.dumps({k: v for k, v in summary.items() if k != "official_years"}, indent=1))

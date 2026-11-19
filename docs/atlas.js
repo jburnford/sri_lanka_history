@@ -309,6 +309,8 @@ async function paintInspector() {
   const ticket = ++renderVersion;
   const root = byId("inspector");
   root.replaceChildren();
+  const peopleBar = byId("people-jump");   // people.js: the phone bar pointing to a place's people list
+  if (peopleBar) peopleBar.hidden = true;
   if (!selection) {
     add(root, "span", "Island overview", "tag");
     add(root, "h2", "Ceylon");
@@ -560,7 +562,17 @@ function paintSearch() {
     }, "");
     add(button, "small", meta.title);
   }
-  if (!shown.length) add(menu, "button", "No matching map features.").disabled = true;
+  if (!shown.length) {
+    add(menu, "button", "No matching map features.").disabled = true;
+    // People are not map features: offer the same text to the People view (people.js)
+    const toPeople = action(menu, "Search People for “" + query + "” →", () => {
+      menu.hidden = true;
+      history.pushState(null, "", "#people?q=" + encodeURIComponent(query));
+      route();
+      window.scrollTo(0, 0);
+    }, "");
+    add(toPeople, "small", "Officials, directory people and de Silva’s History");
+  }
 }
 
 function bindSearch() {
