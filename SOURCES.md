@@ -18,7 +18,8 @@ open library may be published, including OCR text; material harvested from the H
 | 1936 Survey Department Motor Map; Ferguson's 1893 map | David Rumsey Map Collection, Stanford University Libraries (davidrumsey.com) | Georeferenced adaptations: the Motor Map scan, a JPEG-compressed copy of the Ferguson scan, and atlas tiles of both |
 | Malaria report supplement 1934–35; Census of Ceylon 1911 | archive.org items `b32176910_0002` and `b28069365` (Wellcome Library scans) | The two PDFs (`geography/sources/`) and layers traced from the malaria maps |
 | SRTM 30 m elevation | Tilezen terrain tiles, public AWS mirror | Atlas relief tiles only; `geography/historical-gis/fetch_elevation.sh` fetches the data |
-| History of Ceylon Tea website harvest | historyofceylontea.com | **Nothing.** Not used by `spine/` |
+| Ferguson’s *Ceylon Directory* (1922) | historyofceylontea.com | **No raw OCR or page images.** Structured listing and role facts only (`spine/directories/ferguson_1922/`, exported to `docs/data/people/`), citing the site’s quick-view pages |
+| K. M. de Silva, *A History of Sri Lanka* (1981) | archive.org item `bub_gb_dByI_qil26YC` | Extracted person records with summaries in our own words and page links (`spine/people/desilva_people.json`, exported to `docs/data/people/`) |
 | Research assistant's person review | project staff | **Held back** (`spine/gold/`, `spine/grounding/people_review.jsonl`) until they agree to be named or the files are anonymised |
 
 Before adding a new folder to `.gitignore`'s allow-list, add a row here saying where its contents came from.

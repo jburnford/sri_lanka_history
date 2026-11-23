@@ -4,13 +4,20 @@ const byId = (id) => document.getElementById(id);
 const files = new Map();
 const activeLayers = new Map();
 const collections = new Map();
-const searchableLayers = new Map();
+let searchIndex = null;
+let searchIndexLoading = null;
+let mapInitialized = false;
+const EMPTY_TILE = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 const instant = new Intl.NumberFormat("en", { maximumFractionDigits: 4 });
 const label = (key) => String(key || "").replaceAll("_", " ").replace(/^./, (c) => c.toUpperCase());
-const printable = (value) => typeof value === "number" ? instant.format(value) : String(value ?? "—");
+const isYearField = (field) => typeof field === "string" && /(^|[_\s])year$/i.test(field);
+const printable = (value, field) => typeof value === "number"
+  ? (isYearField(field) ? String(value) : instant.format(value))
+  : String(value ?? "—");
 const nameOf = (p) => p.historical_corridor || p.name || p.name_key || p.historical_name || p.place_as_printed || p.feature_id || "Unnamed feature";
 const normalized = (s) => String(s ?? "").normalize("NFKD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 const featureId = (f) => String(f.properties.feature_id);
+const coordKey = (f) => f.geometry?.type === "Point" ? f.geometry.coordinates.slice(0, 2).join(",") : "";
 const COUNTRY = "country:ceylon";
 const PAGE_SIZE = 40;
 const countryBounds = [[5.86, 79.42], [9.88, 82.06]];
@@ -88,7 +95,7 @@ function details(parent, items) {
     add(dl, "dt", name);
     const dd = add(dl, "dd");
     if (safeUrl(value)) link(dd, value, "Open reference ↗");
-    else dd.textContent = printable(value);
+    else dd.textContent = printable(value, name);
   }
   return dl;
 }
@@ -151,6 +158,17 @@ function vector(meta, collection) {
     fillColor: meta.color,
     fillOpacity: .97,
   };
+  let amenitiesAt;
+  if (meta.id === "motor_amenity_places_1936") {
+    amenitiesAt = new Map();
+    for (const f of collection.features) {
+      const k = coordKey(f);
+      if (!k) continue;
+      const kinds = amenitiesAt.get(k) || [];
+      if (f.properties.facility_kind) kinds.push(label(f.properties.facility_kind));
+      amenitiesAt.set(k, kinds);
+    }
+  }
   return L.geoJSON(collection, {
     pane: meta.points ? markerStyle.pane : meta.group === "Boundaries" ? "boundary" : "route",
     style: (feature) => meta.points ? markerStyle : layerStyle(meta, feature),
@@ -159,7 +177,12 @@ function vector(meta, collection) {
       const title = nameOf(feature.properties);
       const atlasLabel = feature.properties.anchor_name || title;
       const permanent = meta.id === "urban_census" && shortlist.has(atlasLabel);
-      layer.bindTooltip(elt("span", permanent ? atlasLabel : title), permanent
+      let tip = permanent ? atlasLabel : title;
+      if (amenitiesAt) {
+        const kinds = [...new Set(amenitiesAt.get(coordKey(feature)) || [])];
+        if (kinds.length) tip = title + " (" + kinds.join(", ") + ")";
+      }
+      layer.bindTooltip(elt("span", tip), permanent
         ? { permanent: true, direction: "right", offset: [6, 0], className: "town-label" }
         : { sticky: true, className: "feature-tip" });
       layer.on("click", (event) => {
@@ -177,6 +200,15 @@ function geometry(id) {
   });
 }
 
+function hasTile(ranges, z, x, y) {
+  const runs = ranges?.[String(z)]?.[String(x)];
+  if (!runs) return false;
+  for (let i = 0; i < runs.length; i += 2) {
+    if (y >= runs[i] && y <= runs[i + 1]) return true;
+  }
+  return false;
+}
+
 function rasterLayer(id, raster) {
   const rumsey = '<a href="https://www.davidrumsey.com/about/copyright-and-permissions">David Rumsey Map Collection, Stanford University Libraries</a>';
   const options = {
@@ -184,9 +216,17 @@ function rasterLayer(id, raster) {
     attribution: raster.attribution || rumsey,
   };
   if (!raster.tiles) return L.imageOverlay("data/" + id + ".webp", raster.bounds, { ...options, alt: raster.title });
-  return L.tileLayer(raster.tiles, {
+  const layer = L.tileLayer(raster.tiles, {
     ...options, bounds: raster.bounds, minNativeZoom: raster.min_zoom, maxNativeZoom: raster.max_zoom, maxZoom: 17,
   });
+  if (raster.tile_ranges) {
+    const baseUrl = layer.getTileUrl.bind(layer);
+    layer.getTileUrl = function (coords) {
+      const z = this._getZoomForUrl();
+      return hasTile(raster.tile_ranges, z, coords.x, coords.y) ? baseUrl(coords) : EMPTY_TILE;
+    };
+  }
+  return layer;
 }
 
 // With the relief underneath, boundary fills thin out so the hills show through.
@@ -347,18 +387,22 @@ async function paintInspector() {
     action(refs, "Island overview", clearSelection);
     return;
   }
+  add(root, "p", p.significance || p.geometry_note || p.location_note || p.note || meta.description, "help");
+  const info = [];
   if (meta.id === "headmen_divisions_1934") {
-    details(root, [
+    info.push(
       ["Number in the printed key", p.key_number],
       ["Name on the administrative map", p.name_map7],
       ["District", p.district],
       ["Province", p.province],
       ["How the identity was read", p.identity_confidence],
       ["Note", p.note],
-    ]);
+    );
   }
-  add(root, "p", p.significance || p.geometry_note || p.location_note || p.note || meta.description, "help");
-  details(root, [
+  if (meta.id === "motor_amenity_places_1936" && p.facility_kind) {
+    info.push(["Facility", label(p.facility_kind)]);
+  }
+  info.push(
     ["Represented date", p.represented_date || p.map_year],
     ["Published date", p.published_date],
     ["Geometry", p.geometry_role || p.geometry_method || p.location_role || p.point_scope],
@@ -367,7 +411,8 @@ async function paintInspector() {
     ["Coverage", p.coverage],
     ["Distance", p.length_km == null ? null : instant.format(p.length_km) + " km"],
     ["Source locator", p.source_locator],
-  ]);
+  );
+  details(root, info);
   const links = add(root, "div", undefined, "inspector-links");
   link(links, p.evidence_url || p.source_url || p.historical_map_url, "Historical source ↗");
   if (p.geometry_source_url && p.geometry_source_url !== p.source_url) link(links, p.geometry_source_url, "Geometry source ↗");
@@ -382,10 +427,29 @@ async function paintInspector() {
   if ((meta.group === "Boundaries" && meta.id !== "headmen_divisions_1934") || meta.id === "urban_census") await censusInspector(root, p.feature_id, ticket);
   if (meta.group === "Transport" && p.corridor_id) await transportInspector(root, p.corridor_id, ticket);
   if (meta.id === "motor_amenity_places_1936") {
-    const rows = (await records("motor_amenity_observations_1936")).filter((row) => row.feature_id === p.feature_id);
+    const col = collections.get(meta.id) || await geometry(meta.id);
+    if (ticket !== renderVersion) return;
+    const hereKey = coordKey(feature);
+    const colocated = hereKey
+      ? col.features.filter((f) => coordKey(f) === hereKey)
+      : [feature];
+    const kindById = new Map(colocated.map((f) => [featureId(f), f.properties.facility_kind ? label(f.properties.facility_kind) : ""]));
+    if (colocated.length > 1) {
+      add(root, "h3", "Facilities at this place (" + colocated.length + ")");
+      for (const item of colocated) {
+        const ip = item.properties;
+        const kind = ip.facility_kind ? label(ip.facility_kind) : nameOf(ip);
+        observation(root, kind, ip.note || "", ip);
+      }
+    }
+    const ids = new Set(colocated.map(featureId));
+    const rows = (await records("motor_amenity_observations_1936")).filter((row) => ids.has(row.feature_id));
     if (ticket !== renderVersion || !rows.length) return;
     add(root, "h3", "Amenity observations");
-    for (const row of rows) observation(root, label(row.metric), printable(row.value), row);
+    for (const row of rows) {
+      const prefix = colocated.length > 1 && kindById.get(row.feature_id) ? kindById.get(row.feature_id) + " · " : "";
+      observation(root, prefix + label(row.metric), printable(row.value, row.metric), row);
+    }
   }
 }
 
@@ -425,7 +489,7 @@ async function censusInspector(root, unit, ticket) {
     const visible = seriesRows().filter((row) => !sourceMenu.value || row.source_id === sourceMenu.value)
       .sort((a, b) => a.year - b.year);
     chartRoot.replaceChildren();
-    chart(chartRoot, visible, (row) => {
+    chart(chartRoot, visible, names, (row) => {
       selectedRoot.replaceChildren();
       observation(selectedRoot, String(row.year) + " · " + (names.get(row.source_id) || row.source_id),
         printable(row.value) + " " + (row.unit || ""), row);
@@ -445,7 +509,7 @@ function svg(parent, tag, attrs) {
   return node;
 }
 
-function chart(root, rows, onSelect) {
+function chart(root, rows, sourceNames, onSelect) {
   if (!rows.length) return;
   const years = [...new Set(rows.map((row) => row.year))];
   const values = rows.map((row) => Number(row.value));
@@ -456,6 +520,17 @@ function chart(root, rows, onSelect) {
   const max = high + margin;
   const x = (row) => years.length === 1 ? 156 : 43 + (row.year - years[0]) / (years.at(-1) - years[0]) * 224;
   const y = (row) => 12 + (max - Number(row.value)) / (max - min) * 78;
+  const colors = ["#276478", "#aa573d", "#7d567f", "#996718", "#47774c", "#4e567e", "#a2415b", "#675947"];
+  const sourceIds = [...new Set(rows.map((row) => row.source_id))];
+  if (sourceIds.length > 1) {
+    const key = add(root, "div", undefined, "chart-key");
+    sourceIds.forEach((id, i) => {
+      const item = add(key, "div", undefined, "chart-key-item");
+      const dot = add(item, "span");
+      dot.style.background = colors[i % colors.length];
+      item.append(sourceNames.get(id) || id);
+    });
+  }
   const s = svg(root, "svg", { class: "chart", viewBox: "0 0 282 110", role: "group", "aria-label": "Census observations by year. Select a point to read its source." });
   const compact = new Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 2 });
   for (const [i, v] of [max, (min + max) / 2, min].entries()) {
@@ -465,9 +540,8 @@ function chart(root, rows, onSelect) {
   }
   const marked = years.length <= 5 ? years : [years[0], years[Math.floor(years.length / 2)], years.at(-1)];
   for (const year of marked) svg(s, "text", { x: x({ year }), y: 105, "text-anchor": "middle" }).textContent = year;
-  const colors = ["#276478", "#aa573d", "#7d567f", "#996718", "#47774c", "#4e567e", "#a2415b", "#675947"];
   const dots = [];
-  for (const [i, id] of [...new Set(rows.map((row) => row.source_id))].entries()) {
+  for (const [i, id] of sourceIds.entries()) {
     const series = rows.filter((row) => row.source_id === id);
     const color = colors[i % colors.length];
     if (series.length > 1) svg(s, "polyline", {
@@ -477,7 +551,7 @@ function chart(root, rows, onSelect) {
     for (const row of series) {
       const point = svg(s, "circle", {
         cx: x(row), cy: y(row), r: 4, fill: color, tabindex: 0, role: "button",
-        "aria-label": row.year + ", " + printable(row.value) + " " + row.unit + ", " + id,
+        "aria-label": row.year + ", " + printable(row.value) + (row.unit ? " " + row.unit : "") + ", " + id,
       });
       svg(point, "title", {}).textContent = row.year + " · " + printable(row.value) + " · " + id;
       const select = () => {
@@ -521,26 +595,40 @@ async function transportInspector(root, corridor, ticket) {
   }
 }
 
+function loadSearchIndex() {
+  if (searchIndex) return Promise.resolve(searchIndex);
+  if (!searchIndexLoading) {
+    searchIndexLoading = request("search_index.json").then((rows) => {
+      searchIndex = rows.map(([id, fid, title, sub, extras]) => ({
+        id, fid, title, sub,
+        normTitle: normalized(title),
+        hay: normalized([title, sub, extras].filter(Boolean).join(" ")),
+      }));
+      if (!byId("search-results").hidden) paintSearch();
+      return searchIndex;
+    }).catch(() => {
+      searchIndexLoading = null;
+      return [];
+    });
+  }
+  return searchIndexLoading;
+}
+
 function searchFeature(query) {
   const needle = normalized(query).trim();
-  if (!needle) return [];
+  if (!needle || !searchIndex) return [];
   const matches = [];
-  const seen = new Set();
-  for (const [id, list] of searchableLayers) {
-    const meta = getLayer(id);
-    for (const feature of list) {
-      const p = feature.properties;
-      const title = nameOf(p);
-      const haystack = normalized([title, p.modern_name, p.historical_aliases, p.qid, p.wikidata_aliases_en, p.anchor_name, p.ref].filter(Boolean).join(" "));
-      const key = id + "/" + title;
-      if (haystack.includes(needle) && !seen.has(key)) {
-        seen.add(key);
-        const exact = [title, p.modern_name, p.anchor_name, p.qid].some((value) => normalized(value) === needle);
-        matches.push({ meta, feature, title, rank: exact ? 0 : normalized(title).startsWith(needle) ? 1 : 2 });
-      }
-    }
+  for (const item of searchIndex) {
+    if (!item.hay.includes(needle)) continue;
+    const meta = getLayer(item.id);
+    if (!meta) continue;
+    const exact = item.normTitle === needle;
+    matches.push({
+      meta, item,
+      rank: exact ? 0 : item.normTitle.startsWith(needle) ? 1 : 2,
+    });
   }
-  return matches.sort((a, b) => a.rank - b.rank || a.title.localeCompare(b.title)).slice(0, 10);
+  return matches.sort((a, b) => a.rank - b.rank || a.item.title.localeCompare(b.item.title) || a.item.sub.localeCompare(b.item.sub)).slice(0, 12);
 }
 
 function paintSearch() {
@@ -550,17 +638,27 @@ function paintSearch() {
   const query = field.value.trim();
   menu.hidden = !query;
   if (!query) return;
+  if (!searchIndex) {
+    add(menu, "button", "Loading search index…").disabled = true;
+    loadSearchIndex();
+    return;
+  }
   const shown = searchFeature(query);
-  for (const { meta, feature, title } of shown) {
-    const button = action(menu, title, () => {
+  for (const { meta, item } of shown) {
+    const button = action(menu, item.title, async () => {
       menu.hidden = true;
-      field.value = title;
-      const check = document.querySelector('[data-layer="' + meta.id + '"]');
-      if (check) check.checked = true;
-      toggle(meta.id, true);
-      selectFeature(meta, feature, true);
+      field.value = item.title;
+      try {
+        const col = await geometry(meta.id);
+        const feature = col.features.find((f) => featureId(f) === item.fid);
+        if (!feature) return note("That feature could not be found.");
+        const check = document.querySelector('[data-layer="' + meta.id + '"]');
+        if (check) check.checked = true;
+        toggle(meta.id, true);
+        selectFeature(meta, feature, true);
+      } catch (error) { note(error.message); }
     }, "");
-    add(button, "small", meta.title);
+    add(button, "small", item.sub ? meta.title + " · " + item.sub : meta.title);
   }
   if (!shown.length) {
     add(menu, "button", "No matching map features.").disabled = true;
@@ -579,7 +677,7 @@ function bindSearch() {
   const field = byId("place-search");
   const list = byId("search-results");
   field.addEventListener("input", paintSearch);
-  field.addEventListener("focus", paintSearch);
+  field.addEventListener("focus", () => { loadSearchIndex(); paintSearch(); });
   field.addEventListener("keydown", (event) => {
     if (event.key === "Escape") list.hidden = true;
     if (event.key === "ArrowDown") {
@@ -593,8 +691,8 @@ function bindSearch() {
   });
   list.addEventListener("keydown", (event) => {
     if (event.key === "Escape") { list.hidden = true; field.focus(); list.hidden = true; }
-    if (event.key === "ArrowDown") event.target.nextElementSibling?.focus();
-    if (event.key === "ArrowUp") (event.target.previousElementSibling || field).focus();
+    if (event.key === "ArrowDown") { event.preventDefault(); event.target.nextElementSibling?.focus(); }
+    if (event.key === "ArrowUp") { event.preventDefault(); (event.target.previousElementSibling || field).focus(); }
   });
   document.addEventListener("click", (event) => {
     if (!event.target.closest(".search-shell")) list.hidden = true;
@@ -607,6 +705,27 @@ function bindSearch() {
   });
 }
 
+function ensureMapInit() {
+  if (mapInitialized) return;
+  mapInitialized = true;
+  makeMap();
+  addLayerControls();
+  peopleInit();   // people.js: adds the People group to the layer panel
+  resetLayers();
+}
+
+function recordsHash() {
+  const params = new URLSearchParams();
+  if (selectedDataset && selectedDataset !== atlas.tables[0].id) params.set("dataset", selectedDataset);
+  const q = byId("record-search").value.trim();
+  if (q) params.set("q", q);
+  const y = byId("record-year").value;
+  if (y) params.set("year", y);
+  if (recordPage) params.set("page", String(recordPage + 1));
+  const text = params.toString();
+  return "records" + (text ? "?" + text : "");
+}
+
 function showView(id, setHash = true, push = false) {
   view = id;
   document.querySelectorAll(".view").forEach((section) => { section.hidden = section.id !== "view-" + id; });
@@ -614,28 +733,34 @@ function showView(id, setHash = true, push = false) {
     if (button.dataset.view === id) button.setAttribute("aria-current", "page");
     else button.removeAttribute("aria-current");
   });
+  if (id === "map") ensureMapInit();
   if (setHash) {
     if (id === "map" && selection) {
       updateHash("map=" + encodeURIComponent(selection.meta.id) + "/" + encodeURIComponent(featureId(selection.feature)), push);
     } else if (id === "map" && peoplePlaceShown()) updateHash("people-place=" + encodeURIComponent(people.place.id), push);
+    else if (id === "records") updateHash(recordsHash(), push);
     else if (id === "bluebook") updateHash(bluebookHash(), push);
     else if (id === "people") updateHash(peopleHash(), push);
     else updateHash(id, push);
   }
-  if (id === "map") requestAnimationFrame(() => map.invalidateSize());
+  if (id === "map") {
+    requestAnimationFrame(() => map.invalidateSize());
+    if (setHash && !selection && !peoplePlaceShown() && !byId("inspector").querySelector(".tag")) paintInspector();
+  }
   if (id === "records") paintRecords();
   if (id === "sources") paintSources();
   if (id === "bluebook" && setHash) bluebookShowSearch();
   if (id === "people" && setHash) peopleShowSearch();
 }
 
-function openRecords(id, query = "") {
+function openRecords(id, query = "", push = true) {
   selectedDataset = id;
   byId("dataset").value = id;
   byId("record-search").value = query;
   byId("record-year").value = "";
   recordPage = 0;
-  showView("records");
+  showView("records", true, push);
+  window.scrollTo(0, 0);
 }
 
 function recordYear(row) {
@@ -649,7 +774,8 @@ async function paintRecords() {
   const query = normalized(byId("record-search").value).trim();
   const rows = await records(meta.id);
   if (ticket !== recordVersion) return;
-  const year = yearMenu.value;
+  const year = yearMenu.dataset.pendingYear || yearMenu.value;
+  delete yearMenu.dataset.pendingYear;
   yearMenu.replaceChildren();
   add(yearMenu, "option", "All years").value = "";
   for (const y of [...new Set(rows.map(recordYear).filter(Boolean))].sort()) add(yearMenu, "option", y).value = y;
@@ -672,8 +798,8 @@ async function paintRecords() {
     const tr = add(body, "tr");
     meta.fields.forEach((field, index) => {
       const td = add(tr, "td");
-      if (index === 0) action(td, printable(row[field]), () => showRecord(row, row[field] || meta.title), "table-open");
-      else td.textContent = printable(row[field]);
+      if (index === 0) action(td, printable(row[field], field), () => showRecord(row, row[field] || meta.title), "table-open");
+      else td.textContent = printable(row[field], field);
     });
   }
   byId("record-count").textContent = filtered.length
@@ -694,6 +820,7 @@ function showRecord(row, title) {
       const point = (await geometry(id)).features.find((item) => featureId(item) === row.feature_id);
       if (!point) return;
       byId("record-dialog").close();
+      ensureMapInit();
       document.querySelector('[data-layer="' + id + '"]').checked = true;
       toggle(id, true);
       selectFeature(getLayer(id), point, true);
@@ -747,11 +874,13 @@ async function paintSources() {
 }
 
 function bindViews() {
-  // Moving between views adds a history entry so that the browser's Back button returns to the previous view.
+  // Moving between views (or leaving a detail page back to search) adds a history entry for the browser's Back button.
   document.querySelectorAll("[data-view]").forEach((button) => button.addEventListener("click", () => {
     const id = button.dataset.view;
+    const leavingDetail = (id === "people" && Boolean(people.state.key))
+      || (id === "bluebook" && !byId("bb-detail").hidden);
     if (id === "people") people.state.key = "";
-    showView(id, true, id !== view || id === "bluebook" || id === "people");
+    showView(id, true, id !== view || leavingDetail);
   }));
   document.querySelector(".brand").addEventListener("click", (event) => {
     event.preventDefault();
@@ -767,16 +896,18 @@ function bindViews() {
     byId("record-search").value = "";
     byId("record-year").value = "";
     recordPage = 0;
+    updateHash(recordsHash());
     paintRecords();
   });
   for (const id of ["record-search", "record-year"]) {
     byId(id).addEventListener(id === "record-search" ? "input" : "change", () => {
       recordPage = 0;
+      updateHash(recordsHash());
       paintRecords();
     });
   }
-  byId("prev-page").addEventListener("click", () => { recordPage--; paintRecords(); });
-  byId("next-page").addEventListener("click", () => { recordPage++; paintRecords(); });
+  byId("prev-page").addEventListener("click", () => { recordPage--; updateHash(recordsHash()); paintRecords(); });
+  byId("next-page").addEventListener("click", () => { recordPage++; updateHash(recordsHash()); paintRecords(); });
   byId("csv").addEventListener("click", downloadCSV);
   byId("source-search").addEventListener("input", paintSources);
   byId("verification-link").addEventListener("click", () => openRecords("census_reconciliation", "human review"));
@@ -787,19 +918,8 @@ function bindViews() {
 
 async function start() {
   atlas = await request("atlas.json");
-  makeMap();
-  addLayerControls();
-  peopleInit();   // people.js: adds the People group to the layer panel
   bindViews();
   bindSearch();
-  resetLayers();
-  paintInspector();
-  for (const meta of atlas.layers.filter((layer) => layer.id !== "road_1936_osm_candidates")) {
-    geometry(meta.id).then((collection) => {
-      searchableLayers.set(meta.id, collection.features);
-      if (!byId("search-results").hidden) paintSearch();
-    }).catch(() => {});
-  }
   window.addEventListener("popstate", route);
   await route();
 }
@@ -807,7 +927,18 @@ async function start() {
 // Show the view named in the URL hash. Runs at start and whenever the browser moves through history.
 async function route() {
   const hash = location.hash.slice(1);
-  if (hash === "records" || hash === "sources") return showView(hash, false);
+  if (hash === "sources") return showView("sources", false);
+  if (hash === "records" || hash.startsWith("records?")) {
+    const params = new URLSearchParams(hash.includes("?") ? hash.slice(hash.indexOf("?") + 1) : "");
+    const ds = params.get("dataset");
+    selectedDataset = atlas.tables.some((t) => t.id === ds) ? ds : atlas.tables[0].id;
+    byId("dataset").value = selectedDataset;
+    byId("record-search").value = params.get("q") || "";
+    const yearMenu = byId("record-year");
+    yearMenu.dataset.pendingYear = params.get("year") || "";
+    recordPage = Math.max(0, (parseInt(params.get("page"), 10) || 1) - 1);
+    return showView("records", false);
+  }
   if (hash.startsWith("bluebook")) {
     showView("bluebook", false);
     return bluebookRoute(hash);
@@ -819,6 +950,7 @@ async function route() {
       const meta = getLayer(id);
       if (!meta || !ref) return showView("map", false);
       if (selection && selection.meta.id === id && featureId(selection.feature) === ref) return showView("map", false);
+      ensureMapInit();
       const feature = (await geometry(id)).features.find((f) => featureId(f) === ref);
       if (feature) {
         document.querySelector('[data-layer="' + id + '"]').checked = true;
@@ -829,7 +961,8 @@ async function route() {
     return;
   }
   showView("map", false);
-  if (selection) clearSelection();
+  if (selection || peoplePlaceShown()) clearSelection();
+  else paintInspector();
 }
 
 start().catch((error) => {

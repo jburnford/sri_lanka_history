@@ -5,8 +5,10 @@
 .people-list li button.text-button{font-weight:600;text-align:left;padding:0}
 .people-list small{display:block;opacity:.82}
 .people-list .people-src{font-size:.78rem;opacity:.8}
-.people-filter{display:flex;gap:.5rem;flex-wrap:wrap;margin:.5rem 0}
-.people-filter label{font-size:.8rem;display:flex;flex-direction:column;gap:.15rem}
+.people-controls{grid-template-columns:minmax(220px,1fr) minmax(180px,280px)}
+.people-filter{display:grid;grid-template-columns:minmax(88px,.8fr) minmax(132px,1.2fr);gap:.45rem .5rem;margin:.5rem 0}
+.people-filter label{font-size:.8rem;display:flex;flex-direction:column;gap:.15rem;margin:0}
+.people-filter label:nth-child(3){grid-column:1/-1}
 .people-layer-year{margin:.2rem 0 .5rem 1.7rem;font-size:.8rem;display:flex;flex-direction:column;gap:.15rem}
 .people-entries td,.people-entries th{vertical-align:top}
 .people-entries td small{display:block;opacity:.8}
@@ -18,11 +20,12 @@
 .people-stage{margin-left:.4rem;vertical-align:1px;font-size:9px;padding:1px 5px}
 .people-entries td .people-stage{display:table;margin:.3rem 0 0}
 .st-1{--lv:#6d7472}.st-2{--lv:#996718}.st-3{--lv:#276478}.st-4{--lv:#2f6b4f}
-.people-stage-key{font-size:.78rem;line-height:1.9;color:var(--muted);margin:.3rem 0}
+.people-stage-key{font-size:.76rem;line-height:1.7;color:var(--muted);margin:.3rem 0}
 .people-stage-key .people-stage{margin:0 .15rem 0 0}
 /* Phone: a bar above the map pointing to the people list below it; the person table read as cards */
 .people-jump{display:none}
 @media(max-width:580px){
+  .people-controls{grid-template-columns:1fr}
   .people-jump{display:block;order:0;width:100%;border:0;border-bottom:1px solid var(--line);background:#22363b;color:#fff9ef;padding:.6rem .8rem;text-align:left;font-size:13px;font-weight:600}
   .people-entries thead{display:none}
   .people-entries,.people-entries tbody,.people-entries tr,.people-entries td{display:block;width:100%;max-width:none;min-width:0}

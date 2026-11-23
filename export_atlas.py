@@ -100,16 +100,24 @@ def tile(identifier, tif, source, zoom=None):
     zoom = zoom or TILE_ZOOM
     tiles = DATA / "tiles" / identifier
     stamp = tiles / "source.txt"
-    signature = f"{source.name} {source.stat().st_size} {int(source.stat().st_mtime)} z{zoom[0]}-{zoom[1]}"
-    if stamp.exists() and stamp.read_text() == signature:
-        return
-    shutil.rmtree(tiles, ignore_errors=True)
-    subprocess.run(["gdal2tiles.py", "-q", "--xyz", "-z", f"{zoom[0]}-{zoom[1]}", "-r", "lanczos",
-                    "--tiledriver=WEBP", "--webp-quality=82", "-w", "none", "-x", "--processes=8",
-                    tif, str(tiles)], check=True)
-    for sidecar in tiles.rglob("*.aux.xml"):
-        sidecar.unlink()
-    stamp.write_text(signature)
+    zoom_tag = f"z{zoom[0]}-{zoom[1]}"
+    size_tag = str(source.stat().st_size)
+    if stamp.exists():
+        parts = stamp.read_text().strip().split()
+        # Accept either the legacy 4-token format (name size mtime zoom) or 3-token (name size zoom).
+        if len(parts) >= 3 and parts[0] == source.name and parts[1] == size_tag and parts[-1] == zoom_tag:
+            return
+    signature = f"{source.name} {size_tag} {zoom_tag}"
+    with tempfile.TemporaryDirectory(dir=tiles.parent) as tmp:
+        staged = Path(tmp) / identifier
+        subprocess.run(["gdal2tiles.py", "-q", "--xyz", "-z", f"{zoom[0]}-{zoom[1]}", "-r", "lanczos",
+                        "--tiledriver=WEBP", "--webp-quality=82", "-w", "none", "-x", "--processes=8",
+                        tif, str(staged)], check=True)
+        for sidecar in staged.rglob("*.aux.xml"):
+            sidecar.unlink()
+        (staged / "source.txt").write_text(signature)
+        shutil.rmtree(tiles, ignore_errors=True)
+        shutil.move(str(staged), str(tiles))
 
 
 def export_relief():
@@ -150,7 +158,38 @@ def export_plan(identifier, source):
     return [[bottom, left], [top, right]]
 
 
-def export_raster(identifier, source, maximum):
+def tile_ranges(identifier):
+    """Run-length encoded y ranges per z/x for existing tiles on disk so Leaflet skips missing sea/border tiles."""
+    tdir = DATA / "tiles" / identifier
+    if not tdir.exists():
+        return None
+    out = {}
+    for zdir in sorted(tdir.iterdir()):
+        if not zdir.is_dir() or not zdir.name.isdigit():
+            continue
+        zm = {}
+        for xdir in sorted(zdir.iterdir()):
+            if not xdir.is_dir() or not xdir.name.isdigit():
+                continue
+            ys = sorted(int(f.stem) for f in xdir.glob("*.webp") if f.stem.isdigit())
+            if not ys:
+                continue
+            runs = []
+            a = b = ys[0]
+            for y in ys[1:]:
+                if y == b + 1:
+                    b = y
+                else:
+                    runs.extend([a, b])
+                    a = b = y
+            runs.extend([a, b])
+            zm[xdir.name] = runs
+        if zm:
+            out[zdir.name] = zm
+    return out or None
+
+
+def export_raster(identifier, source, maximum=None):
     with tempfile.TemporaryDirectory() as work:
         tif = str(Path(work) / "warped.tif")
         gdal.Warp(tif, str(source), dstSRS="EPSG:3857", dstAlpha=True, resampleAlg="bilinear")
@@ -165,12 +204,53 @@ def export_raster(identifier, source, maximum):
         left, top, _ = transform.TransformPoint(geom[0], geom[3])
         right, bottom, _ = transform.TransformPoint(geom[0] + raster.RasterXSize * geom[1],
                                                     geom[3] + raster.RasterYSize * geom[5])
-        tile(identifier, tif, source)  # the single preview image below is too coarse to read place names
-        scale = maximum / max(raster.RasterXSize, raster.RasterYSize)
-        destination = str(DATA / (identifier + ".webp"))
-        gdal.Translate(destination, raster, format="WEBP", creationOptions=["QUALITY=88"], width=round(raster.RasterXSize * scale),
-                       height=round(raster.RasterYSize * scale), resampleAlg="average")
+        tile(identifier, tif, source)
     return [[bottom, left], [top, right]]
+
+
+def _title_of(props):
+    for key in ("historical_corridor", "name", "name_key", "historical_name", "place_as_printed", "feature_id"):
+        if props.get(key):
+            return str(props[key])
+    return "Unnamed feature"
+
+
+def _label(key):
+    text = str(key or "").replace("_", " ")
+    return text[:1].upper() + text[1:] if text else ""
+
+
+def _search_entries(identifier, collection):
+    """Build compact search index entries [layer_id, feature_id, title, sub, extras] for one layer."""
+    if identifier == "road_1936_osm_candidates":
+        return []
+    titles = [_title_of(f["properties"]) for f in collection]
+    counts = {}
+    for t in titles:
+        counts[t] = counts.get(t, 0) + 1
+    seen_titles = set()
+    entries = []
+    for f, title in zip(collection, titles):
+        p = f["properties"]
+        fid = str(p.get("feature_id", ""))
+        # Multi-segment OSM rail ways share the same line name; index each named line once.
+        if identifier == "rail_1936_osm":
+            if title in seen_titles:
+                continue
+            seen_titles.add(title)
+        sub = ""
+        if identifier == "motor_amenity_places_1936" and p.get("facility_kind"):
+            sub = _label(p["facility_kind"])
+        elif counts[title] > 1:
+            if identifier == "headmen_divisions_1934" and p.get("district"):
+                sub = f"{p['district']} District"
+            elif identifier == "gazetteer_1834_points":
+                parts = [v for v in (p.get("modern_name"), p.get("source_locator")) if v and v != title]
+                sub = " · ".join(parts[:2])
+        extras = " ".join(str(p[k]) for k in ("modern_name", "historical_aliases", "qid", "wikidata_aliases_en",
+                                              "anchor_name", "ref", "district", "facility_kind") if p.get(k))
+        entries.append([identifier, fid, title, sub, extras])
+    return entries
 
 
 def main():
@@ -193,6 +273,7 @@ def main():
                     for row in conn.execute(f'SELECT * FROM "{name}"')]
 
         layers = []
+        search_index = []
         for identifier, title, group, description, color, visible in LAYERS:
             if identifier == "gazetteer_1834_points" and identifier not in available:
                 continue
@@ -208,6 +289,8 @@ def main():
                     continue
                 geometry = geometry.Clone()
                 geometry.Transform(transform)
+                if identifier == "province_census":
+                    geometry = geometry.SimplifyPreserveTopology(0.001)
                 west, east, south, north = geometry.GetEnvelope()
                 if not (78 < west <= east < 84 and 4 < south <= north < 12):
                     raise ValueError(f"{identifier} contains out-of-range coordinates {geometry.GetEnvelope()}")
@@ -216,8 +299,10 @@ def main():
                 geom = json.loads(geometry.ExportToJson(["COORDINATE_PRECISION=5"]))
                 collection.append({"type": "Feature", "properties": props, "geometry": geom})
             write(identifier + ".json", {"type": "FeatureCollection", "features": collection})
+            search_index.extend(_search_entries(identifier, collection))
             layers.append(dict(id=identifier, title=title, group=group, description=description,
                                color=color, visible=visible, points=points, count=len(collection)))
+        write("search_index.json", search_index)
 
         tables = []
         for identifier, title, fields in TABLES:
@@ -240,7 +325,7 @@ def main():
                             bounds=export_relief(), visible=True, base=True, tiles="data/tiles/relief/{z}/{x}/{y}.webp",
                             min_zoom=TILE_ZOOM[0], max_zoom=TILE_ZOOM[1]))
     elif "relief" in previous:
-        rasters.append(previous["relief"])
+        rasters.append(dict(previous["relief"]))
     for identifier, title, relative, description, url, maximum in RASTERS:
         source = args.gpkg.parent.parent / relative
         if source.exists():
@@ -250,7 +335,7 @@ def main():
                                 tiles=f"data/tiles/{identifier}/{{z}}/{{x}}/{{y}}.webp",
                                 min_zoom=TILE_ZOOM[0], max_zoom=TILE_ZOOM[1]))
         elif identifier in previous:
-            rasters.append(previous[identifier])
+            rasters.append(dict(previous[identifier]))
     for identifier, title, relative, description, url, attribution in TOWN_PLANS:
         source = args.gpkg.parent.parent / relative
         if source.exists():
@@ -259,11 +344,16 @@ def main():
                                 tiles=f"data/tiles/{identifier}/{{z}}/{{x}}/{{y}}.webp",
                                 min_zoom=TOWN_ZOOM[0], max_zoom=TOWN_ZOOM[1]))
         elif identifier in previous:
-            rasters.append(previous[identifier])
+            rasters.append(dict(previous[identifier]))
+    for raster in rasters:
+        if raster.get("tiles"):
+            ranges = tile_ranges(raster["id"])
+            if ranges:
+                raster["tile_ranges"] = ranges
 
     write("atlas.json", dict(layers=layers, tables=tables, rasters=rasters,
                             revision=hashlib.sha256(args.gpkg.read_bytes()).hexdigest()[:12]))
-    print(f"Exported {len(layers)} vector layers, {len(tables)} record tables and {len(rasters)} map sheets.")
+    print(f"Exported {len(layers)} vector layers, {len(tables)} record tables, {len(search_index)} search entries and {len(rasters)} map sheets.")
 
 
 if __name__ == "__main__":

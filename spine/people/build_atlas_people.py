@@ -58,6 +58,15 @@ def slug(text):
     return norm(text).replace(" ", "-")
 
 
+def clip(text, limit):
+    """Trim display text to a maximum length on a word boundary with an ellipsis."""
+    text = str(text or "")
+    if len(text) <= limit:
+        return text
+    cut = text[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,;·—–-")
+    return (cut or text[:limit - 1]) + "…"
+
+
 def read_tsv(path):
     opener = gzip.open if str(path).endswith(".gz") else open
     with opener(path, "rt", encoding="utf-8", newline="") as handle:
@@ -302,8 +311,8 @@ def officials(match, col_people):
         display = min(own or printed, key=len) if printed else row["surname"]
         offices = [value.strip(" -") for value in row["offices_as_printed"].split(" | ") if value.strip(" -")]
         places = match(" ; ".join(offices))
-        record = dict(k="o", key=key, name=display[:90], y=int(row["year_volume"][:4]),
-                      office=" · ".join(offices)[:260], tables=row["tables"].split()[:3],
+        record = dict(k="o", key=key, name=clip(display, 90), y=int(row["year_volume"][:4]),
+                      office=clip(" · ".join(offices), 260), tables=row["tables"].split()[:3],
                       places=[(p["id"], how) for p, how in places])
         if row["col_person"]:
             person = col_people.get(row["col_person"], {})
@@ -311,7 +320,7 @@ def officials(match, col_people):
                                  name=(person.get("given_names", "") + " " + person.get("surname", "")).strip(),
                                  born=person.get("birth_year", ""), qid=person.get("wikidata_qid", ""))
         if row["bb_person"] in roster:
-            record["roster"] = dict(edition=roster[row["bb_person"]][0], office=roster[row["bb_person"]][1][:120])
+            record["roster"] = dict(edition=roster[row["bb_person"]][0], office=clip(roster[row["bb_person"]][1], 120))
         yield record
 
 
@@ -333,13 +342,13 @@ def directory(match):
         year = role.get("year") or (listing.get("attested") if isinstance(listing.get("attested"), int) else None)
         flags = sorted(set(role.get("flags") or []) | set(listing.get("flags") or []))
         yield dict(k="d", key=printed_key([role["person_as_printed"]], role.get("surname") or "", role.get("given_or_initials") or ""),
-                   name=role["person_as_printed"][:90], y=int(year) if year else 1921,
+                   name=clip(role["person_as_printed"], 90), y=int(year) if year else 1921,
                    dated="year printed in the list" if year else "list corrected to December 1921" if section == "B"
                    else "1922 volume",
-                   office=role_text[:120], firm=listing["name_as_printed"][:120],
-                   address=(listing.get("address_as_printed") or "")[:160], town=town,
-                   trades=", ".join((listing.get("trades") or [])[:4])[:120],
-                   section=listing["section"][3:90], page=role["pdf_page"], ref=role["role_id"],
+                   office=clip(role_text, 120), firm=clip(listing["name_as_printed"], 120),
+                   address=clip(listing.get("address_as_printed") or "", 160), town=town,
+                   trades=clip(", ".join((listing.get("trades") or [])[:4]), 120),
+                   section=clip(listing["section"][3:], 90), page=role["pdf_page"], ref=role["role_id"],
                    doubt="; ".join(v for v in ("OCR doubtful" if "ocr_doubtful" in flags else "",
                                                "page layout lost in OCR" if "structure_lost" in flags else "") if v),
                    places=[(p["id"], how) for p, how in places])
@@ -364,8 +373,8 @@ def book(match):
             span = "–".join(v[:4] for v in (role["start"], role["end"]) if v)
             roles.append(", ".join(v for v in (role["title"], role["organization"]) if v) + (f" ({span})" if span else ""))
         text = " ; ".join([r["title"] for r in person["roles"]] + [pl["name"] + " ; " + pl["modern"] for pl in person["places"]])
-        yield dict(k="b", key=key, name=person["name"][:90], y=person["first_year"], y2=person["last_year"],
-                   office="; ".join(dict.fromkeys(roles))[:260], desc=person["description"][:320],
+        yield dict(k="b", key=key, name=clip(person["name"], 90), y=person["first_year"], y2=person["last_year"],
+                   office=clip("; ".join(dict.fromkeys(roles)), 260), desc=clip(person["description"], 320),
                    community=person["community"], born=str(person["born"])[:12], died=str(person["died"])[:12],
                    pages=person["pages"][:14], ref=person["id"],
                    places=[(p["id"], how) for p, how in match(text)])
@@ -520,14 +529,14 @@ def main():
                              record["st"]])
             elif record["k"] == "b":
                 rows.append(["b", record["y"], record["key"], record["name"], record["office"] or record["desc"],
-                             record["pages"][0] if record["pages"] else None, record["st"]])
+                             record["pages"][0] if record["pages"] else None, record["st"], record["y2"]])
             else:
                 # last field 1: the year was printed in a dated list inside the directory (past office-holders)
                 rows.append(["d", record["y"], record["key"], record["name"],
                              " — ".join(v for v in (record["office"], record["firm"], record["address"]) if v),
                              record["page"], record["st"], 1 if record["dated"] == "year printed in the list" else 0])
         write(f"place/{file_id}.json.gz", rows)
-    place_rows.sort(key=lambda r: -(r["o"] + r["d"]))
+    place_rows.sort(key=lambda r: -(r["o"] + r["d"] + r["b"]))
     write("places.json", place_rows)
     slug_of = {place_id: slug(place_id) for place_id in by_place}
     name_of = {slug(place_id): places[place_id]["name"] for place_id in by_place}

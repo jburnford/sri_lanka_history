@@ -48,7 +48,7 @@ async function peopleBase() {
 // How far a record has been taken (set by build_atlas_people.py, stage()). The badge shows the furthest stage
 // reached; it uses the look of the Blue Book confidence badges (styles.css .bb-level).
 const PEOPLE_STAGES = {
-  1: { title: "Read", key: "read from the page and placed", text: "Read from the page by program or language model, and placed where its office or listing names a place. Not joined to other records." },
+  1: { title: "Read", key: "read from the page (and placed where named)", text: "Read from the page by program or language model, and placed where its office or listing names a place. Not joined to other records." },
   2: { title: "Joined", key: "one person joined across records", text: "Joined to other records as one person by a reviewed decision (made by a language model, sampled by a second reader)." },
   3: { title: "On the List", key: "matched to the Colonial Office List", text: "Matched to a Colonial Office List biography by program (surname, initials, dates); not checked by a person." },
   4: { title: "Identifier", key: "tied to an identifier", text: "Tied to a Wikidata identifier through its Colonial Office List match." },
@@ -71,12 +71,13 @@ function peopleStageKey(parent) {
   return line;
 }
 
-const peopleYearLabel = (value) => value === "d" ? "Directory, 1921–22" : value ? "Blue Book " + value : "All years";
+const peopleYearLabel = (value) => value === "d" ? "Directory, 1921–22" : value === "b" ? "de Silva’s History (1981)" : value ? "Blue Book " + value : "All years";
 
-// How many records a place has under the year filter: "" all, "d" directory only, or a Blue Book year.
+// How many records a place has under the year filter: "" all, "d" directory only, "b" de Silva's History, or a Blue Book year.
 function peopleCount(place) {
   if (!people.year) return place.o + place.d + (place.b || 0);
   if (people.year === "d") return place.d;
+  if (people.year === "b") return place.b || 0;
   let total = 0;
   for (const [kind, year, n] of place.years) if (kind === "o" && String(year) === people.year) total += n;
   return total;
@@ -90,15 +91,15 @@ async function peopleInit() {
   section.open = true;
   add(section, "summary", "People");
   const row = add(section, "label", undefined, "layer-row");
-  row.title = "Officials and directory people, counted at the place their office or listing names.";
+  row.title = "Officials, directory people, and people in de Silva’s History, counted at the place their office, listing, or entry names.";
   const check = add(row, "input");
   check.type = "checkbox";
   check.id = "people-layer-check";
   check.addEventListener("change", () => peopleToggle(check.checked));
   const swatch = add(row, "span", undefined, "swatch points");
   swatch.style.setProperty("--swatch", PEOPLE_COLOR);
-  const title = add(row, "span", "Officials & directory people");
-  add(title, "small", "By place named in the office or listing");
+  const title = add(row, "span", "Officials, directory & History");
+  add(title, "small", "By place named in the record");
   const yearRow = add(section, "label", "Show", "people-layer-year");
   const select = add(yearRow, "select");
   select.id = "people-layer-year";
@@ -113,6 +114,7 @@ async function peopleInit() {
   try {
     await peopleBase();
     add(select, "option", peopleYearLabel("d")).value = "d";
+    if (people.summary.book) add(select, "option", peopleYearLabel("b")).value = "b";
     for (const year of people.summary.official_years) add(select, "option", peopleYearLabel(String(year))).value = String(year);
   } catch (error) { note(error.message); }
 }
@@ -151,10 +153,10 @@ async function peopleToggle(show) {
     // Largest first, so that small places stay clickable on top of the large circles.
     for (const place of people.places) {
       const marker = L.circleMarker([place.lat, place.lon], {
-        pane: "markers", radius: peopleRadius(place.o + place.d), color: "#fff9ec", weight: 1,
+        pane: "markers", radius: peopleRadius(place.o + place.d + (place.b || 0)), color: "#fff9ec", weight: 1,
         fillColor: PEOPLE_COLOR, fillOpacity: .5,
       });
-      marker.bindTooltip(() => place.name + " · " + peopleCount(place).toLocaleString("en") + " records",
+      marker.bindTooltip(() => elt("span", place.name + " · " + peopleCount(place).toLocaleString("en") + " records"),
         { sticky: true, className: "feature-tip" });
       marker.on("click", (event) => {
         L.DomEvent.stopPropagation(event);
@@ -173,6 +175,7 @@ function peopleReset() {
   if (select) select.value = "";
   people.year = "";
   if (byId("people-layer-check")) peopleToggle(false);
+  if (peoplePlaceShown()) clearSelection();
 }
 
 // The atlas's own selection replaces `highlight`; while ours is still the highlight, a place is selected here.
@@ -223,7 +226,7 @@ async function peoplePaintPlace() {
   peopleJump(place);
   add(root, "span", "People named at this place", "tag");
   add(root, "h2", place.name);
-  add(root, "p", "Officials whose office title or department names this place, and directory people listed under it. The place is the one printed in the record, which is usually but not always where the person lived or worked.", "help");
+  add(root, "p", "Officials, directory people, and people in de Silva’s History whose office, listing, or entry names this place. The place is the one printed in the record, which is usually but not always where the person lived or worked.", "help");
   details(root, [
     ["Officials (Blue Books 1863–1917)", place.o ? place.o.toLocaleString("en") + " name-and-volume records" : "none"],
     ["Directory people (1921–22)", place.d ? place.d.toLocaleString("en") + " roles" : "none"],
@@ -235,6 +238,7 @@ async function peoplePaintPlace() {
   const year = add(yearLabel, "select");
   add(year, "option", "All years").value = "";
   if (place.d) add(year, "option", peopleYearLabel("d")).value = "d";
+  if (place.b) add(year, "option", peopleYearLabel("b")).value = "b";
   for (const y of place.oy) add(year, "option", String(y)).value = String(y);
   year.value = people.year;
   if (year.value !== people.year) year.value = "";
@@ -246,16 +250,16 @@ async function peoplePaintPlace() {
     people.place.page = 0;
     list();
   });
-  const findLabel = add(filter, "label", "Name or office");
-  const find = add(findLabel, "input");
-  find.type = "search";
-  find.placeholder = "e.g. Interpreter";
-  find.addEventListener("input", () => { people.place.page = 0; list(); });
   const orderLabel = add(filter, "label", "Order");
   const order = add(orderLabel, "select");
   for (const [value, text] of [["new", "Latest year first"], ["old", "Earliest year first"], ["office", "By office"]]) add(order, "option", text).value = value;
   order.value = people.place.order || "new";
   order.addEventListener("change", () => { people.place.order = order.value; people.place.page = 0; list(); });
+  const findLabel = add(filter, "label", "Name or office");
+  const find = add(findLabel, "input");
+  find.type = "search";
+  find.placeholder = "e.g. Interpreter";
+  find.addEventListener("input", () => { people.place.page = 0; list(); });
   const count = add(root, "p", "Loading…", "help");
   peopleStageKey(root);
   const ul = add(root, "ul", undefined, "people-list");
@@ -280,7 +284,7 @@ async function peoplePaintPlace() {
     if (ticket !== renderVersion) return;
     const needle = normalized(find.value).trim();
     const rows = people.place.rows.filter(([kind, y, , name, office]) =>
-      (!year.value || (year.value === "d" ? kind === "d" : kind === "o" && String(y) === year.value)) &&
+      (!year.value || (year.value === "d" ? kind === "d" : year.value === "b" ? kind === "b" : kind === "o" && String(y) === year.value)) &&
       (!needle || normalized(name + " " + office).includes(needle)));
     // A dated list printed inside the directory (past office-holders, one line per year) repeats a name year after
     // year: the same printed name, office and page become one line carrying all its years. Every record still counts.
@@ -293,6 +297,8 @@ async function peoplePaintPlace() {
         const line = { row, years: [row[1]] };
         folded.set(id, line);
         lines.push(line);
+      } else if (row[0] === "b" && row[7] && row[7] !== row[1]) {
+        lines.push({ row, years: [row[1], row[7]] });
       } else lines.push({ row, years: [row[1]] });
     }
     const latest = (line) => Math.max(...line.years);
@@ -309,12 +315,13 @@ async function peoplePaintPlace() {
     const foldNote = lines.length < rows.length ? " in " + lines.length.toLocaleString("en") + " lines (a name repeated through a dated list in the directory is one line)" : "";
     count.textContent = rows.length.toLocaleString("en") + " records" + foldNote + (lines.length > PEOPLE_PAGE ? ", showing " + (start + 1) + "–" + Math.min(lines.length, start + PEOPLE_PAGE) : "") + ".";
     ul.replaceChildren();
-    for (const { row: [kind, y, key, name, office, ref, stage], years } of lines.slice(start, start + PEOPLE_PAGE)) {
+    for (const { row: [kind, y, key, name, office, ref, stage, extra], years } of lines.slice(start, start + PEOPLE_PAGE)) {
       const li = add(ul, "li");
       action(li, name, () => peopleOpen(key));
       peopleStage(li, stage);
       let when = String(y);
-      if (years.length > 1) when = "dated list, " + years.length + " years between " + Math.min(...years) + " and " + Math.max(...years);
+      if (kind === "b" && extra && extra !== y) when = y + "–" + extra;
+      else if (years.length > 1) when = "dated list, " + years.length + " years between " + Math.min(...years) + " and " + Math.max(...years);
       add(li, "small", (kind === "d" ? "Directory " : kind === "b" ? "de Silva’s History · events dated " : "") + when + (office ? " · " + office : ""));
       const src = add(li, "span", undefined, "people-src");
       if (kind === "o" && ref && ref[0]) action(src, "Blue Book table →", () => peopleOpenTable(ref[0]));
@@ -428,20 +435,22 @@ async function peopleShow() {
   if (people.state.key) return peopleDetail(ticket);
 
   const words = normalized(people.state.q).split(/[^a-z0-9]+/).filter(Boolean);
+  const kind = people.state.kind;
   body.replaceChildren();
-  if (!words.length) {
-    count.textContent = "Type a surname to search. Initials narrow the list: “fernando j”.";
+  if (!words.length && !kind) {
+    count.textContent = "Type a surname to search, or choose a source above to browse. Initials narrow the list: “fernando j”.";
     byId("people-prev").disabled = byId("people-next").disabled = true;
     return;
   }
-  const kind = people.state.kind;
   people.results = people.index.filter(([key, display, , , , kinds]) => {
     if (kind && !kinds.includes(kind)) return false;
+    if (!words.length) return true;
     const hay = normalized(display) + " " + key.replace(/[:_]/g, " ");
     return words.every((word) => word.length === 1 ? (" " + hay + " ").includes(" " + word + " ") : hay.includes(word));
   });
   const first = words[0];
-  people.results.sort((a, b) => (a[0].startsWith(first) ? 0 : 1) - (b[0].startsWith(first) ? 0 : 1) || a[0].localeCompare(b[0]));
+  if (first) people.results.sort((a, b) => (a[0].startsWith(first) ? 0 : 1) - (b[0].startsWith(first) ? 0 : 1) || a[0].localeCompare(b[0]));
+  else people.results.sort((a, b) => a[0].localeCompare(b[0]));
   const pages = Math.max(1, Math.ceil(people.results.length / PEOPLE_PAGE));
   people.state.page = Math.min(people.state.page, pages - 1);
   const start = people.state.page * PEOPLE_PAGE;
@@ -485,7 +494,12 @@ async function peopleDetail(ticket) {
   add(root, "div", "PRINTED NAME", "eyebrow");
   add(root, "h1", names[0]);
   if (names.length > 1) add(root, "p", "Also printed as: " + names.slice(1, 12).join("; ") + (names.length > 12 ? "; …" : ""), "help");
-  add(root, "p", "These " + entries.length + " records share a surname and initials as printed. That is a reason to compare them, not proof that they are one person: common names, fathers and sons, and misread initials all occur. An identification, where one has been proposed, is shown in the last column with its basis.", "people-caution");
+  const caution = entries.length === 1
+    ? (entries[0].k === "b"
+      ? "One entry is filed under this printed name, read from K. M. de Silva’s History (1981) and linked to the pages of the book."
+      : "One record is filed under this printed name. An identification, where one has been proposed, is shown in the last column with its basis.")
+    : "These " + entries.length + " records share a surname and initials as printed. That is a reason to compare them, not proof that they are one person: common names, fathers and sons, and misread initials all occur. An identification, where one has been proposed, is shown in the last column with its basis.";
+  add(root, "p", caution, "people-caution");
   peopleStageKey(root);
   const frame = add(root, "div", undefined, "table-frame");
   const table = add(frame, "table", undefined, "people-entries");

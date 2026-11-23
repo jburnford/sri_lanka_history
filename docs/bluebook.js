@@ -241,7 +241,22 @@ async function bbShowSearch() {
   byId("bb-level").value = BB_LEVELS[bb.state.level] ? bb.state.level : "";
   byId("bb-show").value = ["extracted", "differ"].includes(bb.state.show) ? bb.state.show : "";
   bbRunSearch();
-  bbSeries();
+  bbWatchSeries();
+}
+
+function bbWatchSeries() {
+  if (bb.acreage || bb.seriesObserved) return;
+  const chart = byId("bb-chart");
+  if (!("IntersectionObserver" in window) || !chart) return bbSeries();
+  bb.seriesObserved = true;
+  chart.textContent = "Scroll here to load the crop acreage chart…";
+  const observer = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      observer.disconnect();
+      bbSeries();
+    }
+  }, { rootMargin: "200px" });
+  observer.observe(chart);
 }
 
 async function bbRunSearch() {
@@ -463,7 +478,9 @@ function bbChecks(root, c, cells) {
   details(root, facts);
   const flags = (c.flags || "").split(";").filter(Boolean);
   const parts = (c.disagreements || "").split(";").map((part) => part.trim()).filter(Boolean);
-  const side = flags.length || parts.length ? add(root, "div", undefined, "bb-side") : root;
+  const hasSide = flags.length || parts.length;
+  if (!hasSide) root.classList.add("bb-checks-single");
+  const side = hasSide ? add(root, "div", undefined, "bb-side") : root;
   if (flags.length) {
     add(side, "h3", "Flags");
     const list = add(side, "ul", undefined, "bb-flags");
@@ -717,8 +734,9 @@ function bbDrawSeries() {
   rows.forEach((r) => {
     const sameYear = rows.filter((o) => o.year === r.year);
     const offset = sameYear.length > 1 ? (sameYear.indexOf(r) - (sameYear.length - 1) / 2) * 7 : 0;
+    const cx = Math.min(W - 8, Math.max(L + 6, x(r.year) + offset));
     const when = r.dated ? String(r.year) : "no single year (" + r.volume + " volume)";
-    const dot = svg(s, "circle", { cx: x(r.year) + offset, cy: y(Math.min(r.value, high)), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated") + (r.misprint ? " misprint" : ""), tabindex: 0, role: "button",
+    const dot = svg(s, "circle", { cx, cy: y(Math.min(r.value, high)), r: 5, class: "bb-dot-svg lv-" + r.level + (r.dated ? "" : " undated") + (r.misprint ? " misprint" : ""), tabindex: 0, role: "button",
       "aria-label": when + ": " + r.printed + " acres, " + BB_POINT_LEVELS[r.level].title + (r.misprint ? ", flagged as probably wrong or not comparable" : "") + ", table " + r.table });
     svg(dot, "title", {}).textContent = when + " · " + r.printed + " acres · " + BB_POINT_LEVELS[r.level].title + (r.misprint ? " · flagged, see note" : "") + (r.value > high ? " · above the scale" : "") + " · " + r.table;
     const select = () => {
